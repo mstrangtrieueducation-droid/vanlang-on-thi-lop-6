@@ -6,6 +6,17 @@
  let station=null, queue=[], position=0, reviewing=false, state={}, lastFocus=null;
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const shuffle=a=>a.map(x=>({x,n:Math.random()})).sort((a,b)=>a.n-b.n).map(o=>o.x);
+ // Keep answers away from their matching row; generate once per puzzle.
+ function matchOrder(length){
+  const ids=Array.from({length},(_,i)=>i);
+  if(length<2)return ids;
+  for(let attempt=0;attempt<24;attempt++){
+   const order=shuffle(ids);
+   if(order.every((id,row)=>id!==row))return order;
+  }
+  const offset=1+Math.floor(Math.random()*(length-1));
+  return ids.map((_,i)=>ids[(i+offset)%length]);
+ }
  const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(save));}catch{storageOK=false;}};
  const icon=(type)=>({bag:'<rect x="25" y="34" width="70" height="68" rx="17"/><path d="M44 34v-9a16 16 0 0 1 32 0v9M38 57h44M38 72h44v20H38z"/><path d="M94 51h10v40H94M25 51H15v40h10"/>',tools:'<path d="m29 94 51-64 15 12-51 64-20 7zM75 36l15 12M29 94l15 12"/><path d="m22 31 14-14 65 64-14 15zM41 25l-6 6M55 39l-6 6M69 53l-6 6"/>',flag:'<path d="M31 107V20M32 22c23-18 39 19 65 0v51c-26 19-43-18-65 0M17 108h29"/><path d="m57 42 6 11 12 2-9 8 2 12-11-6-11 6 2-12-9-8 12-2z"/>'}[type]||'');
  const drawing=type=>`<svg viewBox="0 0 120 120" aria-hidden="true">${icon(type)}</svg>`;
@@ -25,7 +36,7 @@
  function resetDialog(){const d=document.createElement('dialog');d.innerHTML='<h2>Bắt đầu lượt mới?</h2><p>Thao tác này xóa huy hiệu và tiến độ Tự luyện 1 của lượt chơi hiện tại trên trình duyệt này.</p><div class="dialog-actions"><button class="secondary" id="cancel-reset">Giữ tiến độ</button><button class="primary" id="confirm-reset">Bắt đầu lượt mới</button></div>';document.body.append(d);d.querySelector('#cancel-reset').onclick=()=>d.close();d.querySelector('#confirm-reset').onclick=()=>{save={done:[],review:[],first:[]};persist();d.close();home(true);};d.onclose=()=>d.remove();d.showModal();}
  function start(s){station=s;reviewing=false;queue=s.items;position=Math.max(0,queue.findIndex(q=>!save.done.includes(q.id)));init();}
  function current(){return queue[position];}
- function init(){window.GameAudio.stop();state={wrong:false,hint:false,solved:false,selected:null,pairs:[],placed:[],order:[],rejected:[],packIndex:0,packed:[],rightOrder:shuffle((current().pairs||[]).map((_,i)=>i)),cardOrder:shuffle((current().cards||[]).map((_,i)=>i))};render();focusTitle();}
+ function init(){window.GameAudio.stop();state={wrong:false,hint:false,solved:false,selected:null,pairs:[],placed:[],order:[],rejected:[],packIndex:0,packed:[],rightOrder:current().type==='match'?matchOrder(current().pairs.length):shuffle((current().pairs||[]).map((_,i)=>i)),cardOrder:shuffle((current().cards||[]).map((_,i)=>i))};render();focusTitle();}
  function flag(){const id=current().id;if(!save.review.includes(id))save.review.push(id);persist();}
  function feedback(text,kind='wrong'){const e=document.getElementById('feedback');e.className='feedback '+kind;e.innerHTML=text;e.hidden=false;const mascot=app.querySelector('.mascot');if(mascot)mascot.dataset.mood=kind==='wrong'?'encourage':kind==='correct'?'cheer':'welcome';if(kind==='neutral'&&/✓|🎒/.test(text))window.GameAudio.sound('pair');}
  function mistake(message){state.wrong=true;flag();window.GameAudio.sound('retry');feedback(`<strong>Úi, thử lại cùng Titi nhé!</strong> ${message}`);}
