@@ -8,7 +8,7 @@
   effect.volume = 0.32;
   document.body.append(speech, effect);
   let enabled = true, mode = 'both', epoch = 0, last = null, status = '', active = false;
-  try { const p = JSON.parse(localStorage.getItem('mtt-game-audio-v1') || '{}'); enabled = p.enabled !== false; if (['en','vi','both'].includes(p.mode)) mode = p.mode; } catch {}
+  try { const p = JSON.parse(localStorage.getItem('mtt-game-audio-v1') || '{}'); enabled = p.enabled !== false; if (['en','both'].includes(p.mode)) mode = p.mode; } catch {}
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const persist = () => { try { localStorage.setItem('mtt-game-audio-v1', JSON.stringify({enabled,mode})); } catch {} };
   function controls() {
@@ -61,12 +61,12 @@
   document.getElementById('audio-toggle').onclick = () => {
     enabled = !enabled; if (!enabled) stop(false); else sound('pair'); persist(); controls(); mount();
   };
-  document.getElementById('audio-mode').onchange = e => { mode = e.target.value; stop(false); persist(); };
+  document.getElementById('audio-mode').onchange = e => { mode = e.target.value === 'en' ? 'en' : 'both'; stop(false); persist(); };
   document.getElementById('audio-demo').onclick = () => sound('correct');
   document.getElementById('app').addEventListener('click', e => {
     const b = e.target.closest('[data-say]');
     if (b && !b.disabled) say(b.dataset.say);
   }, true);
   document.addEventListener('visibilitychange', () => { if (document.hidden) stop(false); });
-  window.GameAudio = {say, sound, stop, mount}; controls();
+  window.GameAudio = {say, sound, stop, mount}; persist(); controls();
 })();
