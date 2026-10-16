@@ -1,0 +1,56 @@
+/* Soft sculpted surfaces; the hit target and answer text remain still. */
+#adventure .choice:before,#adventure .choice:nth-child(even):before{background-image:url('banana-leaf-soft.svg');transform-origin:8% 75%;animation:soft-leaf-breeze 5s ease-in-out infinite;filter:none}
+#adventure .choice:nth-child(2n):before{animation-delay:-1.8s}
+#adventure .choice:nth-child(3):before{animation-delay:-3.2s}
+#adventure .choice{filter:drop-shadow(0 4px 2px #154b2d66) drop-shadow(0 9px 8px #123c3040)}
+#adventure .choice.is-wrong{animation:dry-leaf-sink .8s ease-out forwards;color:#4c3618!important;filter:drop-shadow(0 5px 3px #59471f66)}
+#adventure .choice.is-wrong:before{background-image:url('banana-wilted.svg');filter:none;animation:dry-leaf-curl .8s ease-out forwards}
+#adventure .choice.is-wrong b{text-shadow:0 1px #ffe6a5;background:#f5d788b8;border-radius:8px;padding:3px 6px}
+#adventure .choice.is-wrong span{background:#795b27!important;color:#fff8d9}
+#adventure .choice.is-correct:before{background-image:url('banana-bunch.svg');filter:none;animation:ripe-banana-bounce .8s cubic-bezier(.2,.8,.2,1) both}
+#adventure .choice.is-correct{filter:drop-shadow(0 5px 4px #9c6a3066) drop-shadow(0 0 13px #ffdf7180)}
+#adventure .choice.is-correct b{background:#fff4bde8;color:#583a13}
+@keyframes soft-leaf-breeze{0%,100%{transform:perspective(650px) rotateX(0) rotate(-.5deg)}50%{transform:perspective(650px) rotateX(6deg) rotate(.8deg) translateY(-2px)}}
+@keyframes dry-leaf-sink{0%{transform:translateY(0)}35%{transform:rotate(-2deg)}100%{transform:translateY(7px) rotate(2deg)}}
+@keyframes dry-leaf-curl{0%{transform:scaleY(1)}100%{transform:rotate(2deg) scaleY(.92) skewY(1deg)}}
+@keyframes ripe-banana-bounce{0%{transform:scale(.78,.9) rotate(-5deg);opacity:.6}55%{transform:scale(1.06,1.12) rotate(2deg);opacity:1}100%{transform:scale(1) rotate(0)}}
+
+/* The four transparent frames have 3:4 cells in a 3:1 sheet. Keep natural proportions,
+   and clip only the neighbouring frame gutters, rather than stretching each face. */
+.teacher-fox:not(.reacting):not(.think) i{
+ background-image:url('teacher-titi-idle.webp')!important;background-size:300% 100%!important;
+ background-position:-6.25% center;clip-path:inset(0 12.5%);transform-origin:50% 88%;
+ animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-soft-breathe 3s ease-in-out infinite!important;
+}
+.teacher-fox.reacting i,.teacher-fox.think i{clip-path:none}
+.teacher-fox.life-thinking:not(.reacting) i,.teacher-fox.think:not(.reacting) i{
+ background-image:url('teacher-titi-idle.webp')!important;background-size:300% 100%!important;background-position:68.75% center;clip-path:inset(0 12.5%);
+ animation:titi-think-together 2.6s ease-in-out infinite!important;
+}
+.teacher-fox.life-stepping:not(.reacting) i{animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-little-steps 2.2s ease-in-out infinite!important}
+.teacher-fox.life-curious:not(.reacting) i{animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-curious-tilt 2.8s ease-in-out infinite!important}
+.teacher-fox.life-speaking:not(.reacting) i{animation:titi-friendly-frames 4.8s steps(1,end) infinite,titi-speaking-bob 1.2s ease-in-out infinite!important}
+.titi-humming .teacher-fox:not(.reacting) i{animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-happy-sway 1.92s ease-in-out infinite!important}
+.journey header>.teacher-fox{width:140px!important;height:auto!important;flex:0 0 140px}
+.journey header>.teacher-fox i{width:140px!important;height:140px!important}
+#journey-sound{font-size:13px;white-space:nowrap;border-radius:18px;padding:10px 14px;color:#fff8ce;border:1px solid #cfdf9277;background:#1b6352;box-shadow:0 4px #153f36}
+@keyframes titi-friendly-frames{
+ 0%,41%{background-position:-6.25% center}
+ 42%,44%{background-position:31.25% center}
+ 45%,69%{background-position:-6.25% center}
+ 70%,76%{background-position:106.25% center}
+ 77%,83%{background-position:-6.25% center}
+ 84%,90%{background-position:106.25% center}
+ 91%,100%{background-position:-6.25% center}
+}
+@keyframes titi-soft-breathe{0%,100%{transform:translateY(0) rotate(-.5deg)}50%{transform:translateY(-4px) rotate(.6deg) scale(1.006)}}
+@keyframes titi-think-together{0%,100%{transform:rotate(-2deg) translateY(0)}50%{transform:rotate(2deg) translateY(-3px)}}
+@keyframes titi-little-steps{0%,100%{transform:translateX(-5px) rotate(-1deg)}25%{transform:translate(-2px,-5px) rotate(1deg)}50%{transform:translateX(5px) rotate(1deg)}75%{transform:translate(2px,-5px) rotate(-1deg)}}
+@keyframes titi-curious-tilt{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg) translateY(-2px)}}
+@keyframes titi-speaking-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px) rotate(.6deg)}}
+@keyframes titi-happy-sway{0%,100%{transform:rotate(-2deg) translateY(0)}25%,75%{transform:translateY(-5px)}50%{transform:rotate(2deg) translateY(0)}}
+@media(max-width:600px){.journey header>.teacher-fox{width:85px!important;flex-basis:85px}.journey header>.teacher-fox i{width:85px!important;height:85px!important}#journey-sound{font-size:12px;padding:8px 10px}#adventure .choice.is-wrong{transform-origin:center}}
+@media(prefers-reduced-motion:reduce){
+ .teacher-fox i,#adventure .teacher-fox i,#adventure .choice,#adventure .choice:before{animation:none!important;transition:none!important}
+ .teacher-fox:not(.reacting):not(.think) i{background-position:-6.25% center}
+}

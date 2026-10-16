@@ -1,4 +1,4 @@
-"""Static Jenny narration: natural clauses, explicit 150/200 ms pauses, no runtime service."""
+"""Static Ana narration: natural clauses, explicit 150/200 ms pauses, no runtime service."""
 from pathlib import Path
 import asyncio, hashlib, json, re, subprocess, os, tempfile
 import numpy as np
@@ -6,10 +6,10 @@ import edge_tts, imageio_ffmpeg
 
 root = Path(__file__).resolve().parent
 manifest = json.loads((root/'pacing-manifest.json').read_text(encoding='utf8'))
-out = root/'audio-paced'; out.mkdir(exist_ok=True)
+out = root/'audio-cute'; out.mkdir(exist_ok=True)
 cache = Path(tempfile.gettempdir())/'titi-narration-clauses-v1'; cache.mkdir(exist_ok=True)
 ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
-feedback = {'Excellent!': ('+9%', '+10Hz'), 'Awesome job!': ('+8%', '+10Hz'), 'Oh no…': ('-2%', '-10Hz'), "It's okay, let's try it again!": ('+2%', '+3Hz')}
+feedback = {'Excellent!': ('+9%', '+10Hz'), 'Awesome job!': ('+8%', '+10Hz'), 'Oh no…': ('-2%', '-5Hz'), "It's okay, let's try it again!": ('+2%', '+3Hz')}
 
 def parts(text):
     # Keep punctuation with the clause so the neural voice retains question/exclamation contours.
@@ -40,13 +40,13 @@ def trim_pcm(raw):
 async def main():
     sem=asyncio.Semaphore(4); jobs={}; done=0; mapping={}; audit=[]
     async def clause(text,rate,pitch):
-        name=hashlib.sha256(('Jenny|'+rate+'|'+pitch+'|'+text).encode()).hexdigest()[:20]
+        name=hashlib.sha256(('Ana|'+rate+'|'+pitch+'|'+text).encode()).hexdigest()[:20]
         target=cache/(name+'.mp3')
         async with sem:
             for attempt in range(4):
                 try:
                     if not target.exists() or target.stat().st_size<1000:
-                        await asyncio.wait_for(edge_tts.Communicate(text,'en-US-JennyNeural',rate=rate,pitch=pitch).save(str(target)),50)
+                        await asyncio.wait_for(edge_tts.Communicate(text,'en-US-AnaNeural',rate=rate,pitch=pitch).save(str(target)),50)
                     raw=subprocess.run([ffmpeg,'-v','error','-i',str(target),'-f','s16le','-ar','24000','-ac','1','pipe:1'],capture_output=True,check=True).stdout
                     return trim_pcm(raw)
                 except Exception:
@@ -58,7 +58,7 @@ async def main():
         return jobs[key]
     async def record(item):
         nonlocal done
-        rate,pitch=feedback.get(item['key'],('+4%','+0Hz'))
+        rate,pitch=feedback.get(item['key'],('+4%','+3Hz'))
         sequence=parts(item['text']); work=[get(t,rate,pitch) if t else None for t,ms in sequence]
         samples=[]
         for (text,ms),job in zip(sequence,work):
@@ -68,10 +68,10 @@ async def main():
                 cue=subprocess.run([ffmpeg,'-v','error','-i',str(root/'audio/gap-cue.wav'),'-f','s16le','-ar','24000','-ac','1','pipe:1'],capture_output=True,check=True).stdout
                 samples.append(cue)
             samples.append(bytes(24*ms*2))
-        name=hashlib.sha256(('pacing-v1|'+rate+'|'+pitch+'|'+item['text']).encode()).hexdigest()[:20]+'.mp3'
+        name=hashlib.sha256(('ana-v1|'+rate+'|'+pitch+'|'+item['text']).encode()).hexdigest()[:20]+'.mp3'
         subprocess.run([ffmpeg,'-y','-v','error','-f','s16le','-ar','24000','-ac','1','-i','pipe:0','-codec:a','libmp3lame','-b:a','64k',str(out/name)],input=b''.join(samples),capture_output=True,check=True)
-        mapping[item['key']]='../game-kit/adventures/audio-paced/'+name
-        audit.append({'key':item['key'],'pausesMs':[ms for t,ms in sequence],'rate':rate,'bytes':(out/name).stat().st_size})
+        mapping[item['key']]='../game-kit/adventures/audio-cute/'+name
+        audit.append({'key':item['key'],'pausesMs':[ms for t,ms in sequence],'rate':rate,'voice':'en-US-AnaNeural','pitch':pitch,'bytes':(out/name).stat().st_size})
         done+=1
         if done%25==0: print('Narration',done,'/',len(manifest),flush=True)
     await asyncio.gather(*(record(item) for item in manifest))

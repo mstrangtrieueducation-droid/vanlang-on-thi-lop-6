@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 170" preserveAspectRatio="none">
+ <defs>
+  <linearGradient id="dry" x1="0" y1="0" x2=".1" y2="1"><stop stop-color="#e9cf72"/><stop offset=".33" stop-color="#dcb44b"/><stop offset=".62" stop-color="#b88b33"/><stop offset="1" stop-color="#84652f"/></linearGradient>
+  <path id="edge" d="M16 78 C45 42 75 52 98 46 L113 55 Q144 30 176 43 L189 54 Q222 33 248 46 L261 60 Q303 45 332 59 L344 74 Q387 60 412 80 L434 73 Q469 79 465 119 C458 145 431 151 414 139 Q428 146 430 130 C405 148 377 133 356 145 L339 134 Q307 151 280 140 L264 151 Q231 139 206 151 L187 138 Q151 146 128 128 L110 135 Q78 116 61 119 C31 111 9 107 16 78Z"/>
+  <clipPath id="clip"><use href="#edge"/></clipPath>
+ </defs>
+ <use href="#edge" transform="translate(0 4)" fill="#70582e" opacity=".5"/>
+ <use href="#edge" fill="url(#dry)"/>
+ <g clip-path="url(#clip)" fill="none" stroke-linecap="round">
+  <path d="M18 86 Q170 81 278 101 T447 112" stroke="#f6de8d" stroke-width="5"/>
+  <g stroke="#765b28" stroke-width="2" opacity=".52"><path d="M53 87 Q73 62 93 47 M85 85 Q99 111 113 134 M118 85 L135 64 L154 42 M158 87 L172 110 183 138 M199 90 L215 67 L228 41 M238 94 L250 121 L261 150 M277 100 L298 77 L315 56 M317 105 L332 123 L338 140 M359 111 L380 91 L390 72 M400 113 L413 135"/></g>
+  <g stroke="#ffe29a" stroke-width="3" opacity=".4"><path d="M104 56 L117 72 L123 84 M185 55 L194 72 L202 90 M260 60 L267 81 L278 100 M345 75 L351 94 L359 110"/></g>
+  <path d="M431 83 Q457 88 445 111 Q428 128 414 139" stroke="#f2d587" stroke-width="10"/>
+  <path d="M435 88 Q447 91 441 103" stroke="#6e5225" stroke-width="4"/>
+ </g>
+</svg>

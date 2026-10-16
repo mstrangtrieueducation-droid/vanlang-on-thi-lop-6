@@ -1,11 +1,13 @@
 [
   {
-    "key": "Read the clue and choose the correct answer.",
+    "key": "Awesome job!",
     "pausesMs": [
       200
     ],
-    "rate": "+4%",
-    "bytes": 18284
+    "rate": "+8%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+10Hz",
+    "bytes": 9452
   },
   {
     "key": "Excellent!",
@@ -13,15 +15,9 @@
       200
     ],
     "rate": "+9%",
-    "bytes": 8684
-  },
-  {
-    "key": "Awesome job!",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+8%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+10Hz",
+    "bytes": 8876
   },
   {
     "key": "Oh no…",
@@ -29,7 +25,19 @@
       200
     ],
     "rate": "-2%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "-5Hz",
     "bytes": 8492
+  },
+  {
+    "key": "Read the clue and choose the correct answer.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 22700
   },
   {
     "key": "It's okay, let's try it again!",
@@ -38,7 +46,9 @@
       200
     ],
     "rate": "+2%",
-    "bytes": 18284
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20012
   },
   {
     "key": "Amazing! Your adventure is complete!",
@@ -47,7 +57,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 20588
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 23660
   },
   {
     "key": "Mia",
@@ -55,7 +67,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "Which answer matches the clue?",
@@ -63,7 +77,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 13676
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15596
   },
   {
     "key": "18 Green Street",
@@ -71,7 +87,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 13292
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14252
   },
   {
     "key": "My home town is Hue.",
@@ -79,23 +97,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11756
-  },
-  {
-    "key": "I am Vietnamese.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10604
-  },
-  {
-    "key": "Draw a straight line.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10604
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14828
   },
   {
     "key": "Write, then erase a mistake.",
@@ -104,7 +108,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 19052
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21164
+  },
+  {
+    "key": "I am Vietnamese.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13100
+  },
+  {
+    "key": "Draw a straight line.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13100
   },
   {
     "key": "Read a story.",
@@ -112,7 +138,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9644
   },
   {
     "key": "Write notes on blank pages.",
@@ -120,7 +148,20 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14444
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17900
+  },
+  {
+    "key": "Ben is at the door. The teacher wants him to enter the classroom.",
+    "pausesMs": [
+      200,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 34412
   },
   {
     "key": "Hometown: Da Nang. Address now: 26 Lake Street, Ha Noi",
@@ -130,7 +171,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 41900
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 44588
   },
   {
     "key": "Which city is this child’s hometown?",
@@ -138,16 +181,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15212
-  },
-  {
-    "key": "Ben is at the door. The teacher wants him to enter the classroom.",
-    "pausesMs": [
-      200,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 26348
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20204
   },
   {
     "key": "What does the teacher say?",
@@ -155,15 +191,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11756
-  },
-  {
-    "key": "stand up",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12908
   },
   {
     "key": "Which instruction has the opposite meaning?",
@@ -171,7 +201,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 17324
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20396
+  },
+  {
+    "key": "stand up",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9068
   },
   {
     "key": "open your book",
@@ -179,7 +221,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10028
   },
   {
     "key": "come in",
@@ -187,7 +231,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Mia has a book, a notebook and three pencils. She wants to carry them together.",
@@ -197,7 +243,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 36524
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 46124
   },
   {
     "key": "What does she need?",
@@ -205,7 +253,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8876
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10220
   },
   {
     "key": "Monday",
@@ -213,7 +263,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Which preposition goes before this time expression?",
@@ -221,7 +273,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 20972
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25964
   },
   {
     "key": "May",
@@ -229,31 +283,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "7:30",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8684
-  },
-  {
-    "key": "2027",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10988
-  },
-  {
-    "key": "the morning",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "night",
@@ -261,7 +293,39 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "7:30",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10220
+  },
+  {
+    "key": "the morning",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "2027",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13676
   },
   {
     "key": "Mia: “I live in Hue.”\nWhere ___ you live?",
@@ -272,7 +336,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33068
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37292
   },
   {
     "key": "Which word or phrase completes the sentence?",
@@ -280,7 +346,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 18668
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 23276
   },
   {
     "key": "___ is your teacher? — Ms Lan.",
@@ -290,7 +358,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22700
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 23852
   },
   {
     "key": "___ pencil is this? — It’s Ben’s.",
@@ -300,7 +370,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23468
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 26156
   },
   {
     "key": "___ are you late? — Because I missed the bus.",
@@ -310,7 +382,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26156
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28268
   },
   {
     "key": "___ is your house? — Near the park.",
@@ -320,7 +394,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22892
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 24620
   },
   {
     "key": "The club meets in Friday.",
@@ -328,15 +404,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12716
-  },
-  {
-    "key": "Replace the incorrect preposition “in”.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 17324
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15404
   },
   {
     "key": "Ben: “I am British.”\nWhat nationality ___ you?",
@@ -347,7 +417,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 34604
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 39404
+  },
+  {
+    "key": "Replace the incorrect preposition “in”.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 22124
   },
   {
     "key": "___ pencils are in the bag? — Three.",
@@ -357,17 +439,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 24620
-  },
-  {
-    "key": "___ is this notebook? — 20,000 dong.",
-    "pausesMs": [
-      0,
-      200,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 25964
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 27500
   },
   {
     "key": "___ is the lesson? — Forty minutes.",
@@ -377,7 +451,21 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23468
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25196
+  },
+  {
+    "key": "___ is this notebook? — 20,000 dong.",
+    "pausesMs": [
+      0,
+      200,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 29612
   },
   {
     "key": "___ do you read? — Every evening.",
@@ -387,15 +475,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22508
-  },
-  {
-    "key": "Please call me in night.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 11180
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 24620
   },
   {
     "key": "Ben: “It’s Tuesday.”",
@@ -403,7 +485,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12524
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14636
+  },
+  {
+    "key": "Please call me in night.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13100
   },
   {
     "key": "Which question does Ben answer?",
@@ -411,7 +505,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14252
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16940
   },
   {
     "key": "Tee Tee's card. From: Australia. He lives in Hanoi. Club: Welcome Club.",
@@ -422,7 +518,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 41516
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 50732
   },
   {
     "key": "Where is Titi from?",
@@ -430,15 +528,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 10220
-  },
-  {
-    "key": "Friday",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12908
   },
   {
     "key": "8:00",
@@ -446,7 +538,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "October",
@@ -454,7 +548,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "Friday",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "There are two bags, a red one and a blue one. Titi says, “The blue one is mine.”",
@@ -465,7 +571,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 42284
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 49964
   },
   {
     "key": "Ask Titi to choose the red bag or the blue bag. Which question is best?",
@@ -474,7 +582,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33260
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 41708
   },
   {
     "key": "Titi needs to know the time. “The club starts at eight.”\nWhat time ___ the club start?",
@@ -486,7 +596,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 45548
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 52076
   },
   {
     "key": "Titi is in the classroom. His book is open. The teacher says, “Close your book, please.”",
@@ -498,7 +610,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 47660
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 52268
   },
   {
     "key": "What should Titi do?",
@@ -506,7 +620,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 10412
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11756
   },
   {
     "key": "Read books",
@@ -514,15 +630,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "Do experiments",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 9836
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9644
   },
   {
     "key": "Play basketball",
@@ -530,7 +640,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9836
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11180
+  },
+  {
+    "key": "Do experiments",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12716
   },
   {
     "key": "Eat lunch",
@@ -538,7 +660,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8300
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Have breakfast",
@@ -546,23 +670,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9260
-  },
-  {
-    "key": "Which group does this belong to?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14828
-  },
-  {
-    "key": "Go to school at seven a.m.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14060
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11372
   },
   {
     "key": "Have dinner",
@@ -570,7 +680,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "Go to school at seven a.m.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16748
+  },
+  {
+    "key": "Which group does this belong to?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16364
   },
   {
     "key": "Go to bed at nine p.m.",
@@ -578,6 +710,18 @@
       200
     ],
     "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15980
+  },
+  {
+    "key": "Which subject is it?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
     "bytes": 12716
   },
   {
@@ -586,15 +730,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 20204
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25964
   },
   {
-    "key": "Which subject is it?",
+    "key": "Mia play chess every Monday.",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 10988
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17324
   },
   {
     "key": "Tell Titi about Ben’s routine.\nBen ___ to school by bus.",
@@ -605,15 +753,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 38060
-  },
-  {
-    "key": "Mia play chess every Monday.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14828
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 43628
   },
   {
     "key": "Replace the incorrect word “play”.",
@@ -621,7 +763,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15596
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20204
   },
   {
     "key": "Ask your friend about Saturday.\n___ you study on Saturdays?",
@@ -631,7 +775,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32300
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37484
   },
   {
     "key": "Titi is interested ___ science.",
@@ -641,7 +787,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23084
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 26540
   },
   {
     "key": "Which word completes the sentence?",
@@ -649,7 +797,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15020
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 18092
   },
   {
     "key": "Bring only the things for drawing and painting: a pencil, paper and a paintbrush.",
@@ -658,7 +808,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 36908
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 44780
   },
   {
     "key": "Which list contains exactly the requested items?",
@@ -666,7 +818,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22508
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 26924
   },
   {
     "key": "Listen: books, bags, pens.",
@@ -676,7 +830,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25964
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 27884
   },
   {
     "key": "Which word ends with the sound /s/?",
@@ -684,7 +840,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14444
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17516
   },
   {
     "key": "Which word ends with /s/?",
@@ -692,7 +850,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14444
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17516
   },
   {
     "key": "Anna has English on Monday and Thursday. Today is Thursday. She is in the English classroom.",
@@ -702,23 +862,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 40940
-  },
-  {
-    "key": "Which lesson does Anna have today?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 15020
-  },
-  {
-    "key": "swimming",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 52268
   },
   {
     "key": "reading",
@@ -726,7 +872,19 @@
       200
     ],
     "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
     "bytes": 8492
+  },
+  {
+    "key": "Which lesson does Anna have today?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17900
   },
   {
     "key": "painting",
@@ -734,7 +892,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "swimming",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "playing chess",
@@ -742,7 +912,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9452
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10028
   },
   {
     "key": "We need a guitar, a drum and a piano for our music club.",
@@ -751,7 +923,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26924
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 34412
   },
   {
     "key": "Suggest a game of chess.\nHow about ___ chess?",
@@ -762,15 +936,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33836
-  },
-  {
-    "key": "What do you say?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 33644
   },
   {
     "key": "Mia says, “Let’s go swimming!” You want to go.",
@@ -779,15 +947,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 31340
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 34412
   },
   {
-    "key": "Replace the incorrect word “swims”.",
+    "key": "What do you say?",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 17132
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9068
   },
   {
     "key": "Titi can swims very well.",
@@ -795,15 +967,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14252
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17708
   },
   {
-    "key": "So do I.",
+    "key": "Replace the incorrect word “swims”.",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21932
   },
   {
     "key": "Tell Titi what you like.\nI ___ fond of reading stories.",
@@ -814,7 +990,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 36716
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 42476
+  },
+  {
+    "key": "So do I.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "I do, too.",
@@ -823,7 +1011,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15980
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16748
   },
   {
     "key": "Neither do I.",
@@ -831,6 +1021,8 @@
       200
     ],
     "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
     "bytes": 9452
   },
   {
@@ -840,15 +1032,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 16364
-  },
-  {
-    "key": "What can Mia say?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10028
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16940
   },
   {
     "key": "Ben says, “I can swim.” Mia can swim as well.",
@@ -857,7 +1043,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33260
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37100
+  },
+  {
+    "key": "What can Mia say?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10988
   },
   {
     "key": "Listen: hobby, enjoy, tennis.",
@@ -867,7 +1065,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25580
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28268
   },
   {
     "key": "Which word has stress on the second syllable?",
@@ -875,7 +1075,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 18284
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 22124
   },
   {
     "key": "Sam likes moving to music. He does not like board games. The dance club meets on Friday.",
@@ -885,15 +1087,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 42668
-  },
-  {
-    "key": "Which club is best for Sam?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 13868
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 52076
   },
   {
     "key": "a cooker",
@@ -901,7 +1097,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "Which club is best for Sam?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16364
   },
   {
     "key": "a fridge",
@@ -909,7 +1117,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "a bed",
@@ -917,15 +1127,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "a wardrobe",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "a shower",
@@ -933,15 +1137,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
-    "key": "sofa",
+    "key": "a wardrobe",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9836
   },
   {
     "key": "a bathtub",
@@ -949,15 +1157,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9260
   },
   {
-    "key": "wardrobe",
+    "key": "sofa",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "fridge",
@@ -965,7 +1177,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "lamp",
@@ -973,7 +1187,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "wardrobe",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "Describe four chairs in the kitchen.\nThere ___ four chairs in the kitchen.",
@@ -984,15 +1210,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 39788
-  },
-  {
-    "key": "Replace the incorrect word “are”.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14636
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 46508
   },
   {
     "key": "There are a sofa in the room.",
@@ -1000,15 +1220,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 13100
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17132
   },
   {
-    "key": "This room belongs to Ben.",
+    "key": "Replace the incorrect word “are”.",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 13484
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 19820
   },
   {
     "key": "Which phrase is correct?",
@@ -1016,7 +1240,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11564
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14252
+  },
+  {
+    "key": "This room belongs to Ben.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15788
   },
   {
     "key": "Put a bed, a pillow and a blanket in the bedroom.",
@@ -1025,7 +1261,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23852
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28268
   },
   {
     "key": "Make an exclamation.\n___ a beautiful house!",
@@ -1035,7 +1273,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 27308
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 31532
   },
   {
     "key": "Titi sees a ball. It is small and red.",
@@ -1044,7 +1284,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 20972
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25196
+  },
+  {
+    "key": "Where is the cat?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10220
   },
   {
     "key": "The cat is below the table. It is not on a chair.",
@@ -1053,15 +1305,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23852
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28652
   },
   {
-    "key": "Where is the cat?",
+    "key": "a loaf of",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 9644
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Listen: kitchen, bedroom, between.",
@@ -1071,15 +1327,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25964
-  },
-  {
-    "key": "a loaf of",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28268
   },
   {
     "key": "a bottle of",
@@ -1087,15 +1337,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "a cup of",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9260
   },
   {
     "key": "a bowl of",
@@ -1103,7 +1347,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9068
+  },
+  {
+    "key": "a cup of",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "apple",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "The customer wants an apple, a sandwich and a bottle of water.",
@@ -1112,23 +1378,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 27500
-  },
-  {
-    "key": "apple",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "banana",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 6764
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 33836
   },
   {
     "key": "egg",
@@ -1136,7 +1388,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "banana",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "rice",
@@ -1144,14 +1408,8 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "water",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
     "bytes": 8492
   },
   {
@@ -1160,7 +1418,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "water",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Ask the price of these shoes.\nHow much ___ these shoes?",
@@ -1171,7 +1441,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33644
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37484
   },
   {
     "key": "Replace the incorrect word “many”.",
@@ -1179,7 +1451,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15404
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20204
   },
   {
     "key": "How many milk do we need?",
@@ -1187,15 +1461,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12716
-  },
-  {
-    "key": "Which word fits?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10220
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14444
   },
   {
     "key": "There is not ___ juice in the fridge.",
@@ -1205,7 +1473,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22508
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25004
   },
   {
     "key": "Use only the three fruits: a banana, an apple and an orange.",
@@ -1214,7 +1484,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 30764
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 38828
+  },
+  {
+    "key": "Which word fits?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11756
+  },
+  {
+    "key": "How much does he pay?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11948
   },
   {
     "key": "A sandwich costs 20,000 dong. Water costs 10,000 dong. Titi buys one of each.",
@@ -1224,7 +1516,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 46700
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 58412
+  },
+  {
+    "key": "What does she ask?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11180
   },
   {
     "key": "The jacket looks nice, but Mia needs to check its size.",
@@ -1233,31 +1537,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26924
-  },
-  {
-    "key": "How much does he pay?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 10988
-  },
-  {
-    "key": "What does she ask?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 9644
-  },
-  {
-    "key": "eyes",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 31532
   },
   {
     "key": "Listen: cups, apples, bananas.",
@@ -1267,7 +1549,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25964
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28652
   },
   {
     "key": "ears",
@@ -1275,7 +1559,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "nose",
@@ -1283,15 +1569,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
-    "key": "Wash your hands.",
+    "key": "eyes",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 9836
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Drink enough water.",
@@ -1299,7 +1589,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9644
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12140
   },
   {
     "key": "tongue",
@@ -1307,7 +1599,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 6380
   },
   {
     "key": "Stay up very late every night.",
@@ -1315,7 +1609,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15404
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 19436
+  },
+  {
+    "key": "Wash your hands.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11756
   },
   {
     "key": "Eat too many sweets.",
@@ -1323,7 +1629,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11564
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14252
   },
   {
     "key": "Ben has a toothache.\nHe ___ see a dentist.",
@@ -1334,15 +1642,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32300
-  },
-  {
-    "key": "Replace the incorrect word “drinks”.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 16172
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37100
   },
   {
     "key": "You should drinks water.",
@@ -1350,7 +1652,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 10604
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13100
   },
   {
     "key": "Pack soap, a toothbrush and toothpaste.",
@@ -1359,15 +1663,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 20588
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 24812
   },
   {
-    "key": "The traffic light is red.",
+    "key": "Replace the incorrect word “drinks”.",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 12716
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21740
   },
   {
     "key": "What should you do?",
@@ -1375,7 +1683,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9068
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9644
+  },
+  {
+    "key": "The traffic light is red.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15404
   },
   {
     "key": "Tell Titi about the uniform rule.\nWe ___ wear a uniform at school.",
@@ -1386,7 +1706,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 39980
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 47468
   },
   {
     "key": "Mia looks unwell. You want to ask about her problem.",
@@ -1395,7 +1717,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23852
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 30188
   },
   {
     "key": "It is a good idea for you ___ your hands before eating.",
@@ -1405,15 +1729,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 28268
-  },
-  {
-    "key": "What will Ben do now?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 9836
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 34028
   },
   {
     "key": "Ben has a cold. His mum tells him to rest and drink warm water. He cancels his football game.",
@@ -1423,7 +1741,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 44588
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 55916
   },
   {
     "key": "Listen: healthy, dentist, prevent.",
@@ -1433,15 +1753,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 24428
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28460
   },
   {
-    "key": "Where do you finish?",
+    "key": "What will Ben do now?",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 9644
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12332
   },
   {
     "key": "Start at the bottom-left square of a 3 by 3 map. Start at the flag. Go up two squares. Then go right two squares.",
@@ -1452,15 +1776,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 56876
-  },
-  {
-    "key": "send a letter",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 71852
   },
   {
     "key": "buy medicine",
@@ -1468,15 +1786,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9644
   },
   {
-    "key": "see a doctor",
+    "key": "Where do you finish?",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 9260
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11180
   },
   {
     "key": "borrow books",
@@ -1484,7 +1806,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10028
+  },
+  {
+    "key": "send a letter",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9644
+  },
+  {
+    "key": "see a doctor",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10604
   },
   {
     "key": "Start at the bottom-left square of a 3 by 3 map. Start at the flag. Go right one square. Then go up one square.",
@@ -1495,31 +1839,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 54188
-  },
-  {
-    "key": "Mia goes to school on bus.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 13868
-  },
-  {
-    "key": "bus",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 5612
-  },
-  {
-    "key": "Replace the incorrect word “on”.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14828
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 69740
   },
   {
     "key": "You want to find the museum.\nHow ___ I get to the museum?",
@@ -1530,7 +1852,39 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 34604
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 39404
+  },
+  {
+    "key": "Replace the incorrect word “on”.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 19820
+  },
+  {
+    "key": "Mia goes to school on bus.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17324
+  },
+  {
+    "key": "bus",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "train",
@@ -1538,7 +1892,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "foot",
@@ -1546,7 +1902,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "bike",
@@ -1554,17 +1912,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "I spend twenty minutes ___ to school.",
-    "pausesMs": [
-      0,
-      0,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 24428
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "The walk to school takes ten minutes.\nIt ___ me ten minutes to walk to school.",
@@ -1575,7 +1925,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 43628
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 51692
   },
   {
     "key": "The library is opposite the park. The bank is next to the library.",
@@ -1584,7 +1936,21 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 30188
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37676
+  },
+  {
+    "key": "I spend twenty minutes ___ to school.",
+    "pausesMs": [
+      0,
+      0,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28076
   },
   {
     "key": "What is opposite the park?",
@@ -1592,7 +1958,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12140
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13868
   },
   {
     "key": "How can Titi get there?",
@@ -1600,7 +1968,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11372
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 12524
   },
   {
     "key": "The island has no road or bridge to the mainland. There is a boat service.",
@@ -1609,23 +1979,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32684
-  },
-  {
-    "key": "cold",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "sunny",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 42284
   },
   {
     "key": "Listen: station, airport, hotel.",
@@ -1635,7 +1991,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26732
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 29036
   },
   {
     "key": "rainy",
@@ -1643,7 +2001,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "sunny",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "cold",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "windy",
@@ -1651,7 +2031,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "It will rain. Pack a raincoat, an umbrella and waterproof boots.",
@@ -1661,7 +2043,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37868
   },
   {
     "key": "Tell Titi about your plan.\n___ am going to visit my grandparents tomorrow.",
@@ -1671,7 +2055,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 37292
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 44012
   },
   {
     "key": "It will rains tomorrow.",
@@ -1679,7 +2065,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11372
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13676
   },
   {
     "key": "Replace the incorrect word “rains”.",
@@ -1687,7 +2075,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 16364
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21548
   },
   {
     "key": "We take umbrellas ___ it is going to rain.",
@@ -1697,7 +2087,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25004
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28844
   },
   {
     "key": "The parade is at nine. Lunch is at twelve. Fireworks are at eight in the evening.",
@@ -1707,7 +2099,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 36908
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 48044
   },
   {
     "key": "Which order matches the story?",
@@ -1715,7 +2109,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 13292
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16364
   },
   {
     "key": "Ask about today’s weather.\nWhat ___ the weather like today?",
@@ -1726,7 +2122,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 33836
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 38828
   },
   {
     "key": "Your friend cannot carry a heavy box. You decide to help now.",
@@ -1735,7 +2133,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 28460
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 35948
   },
   {
     "key": "At Tet, Lan visits relatives and wishes them a happy new year.",
@@ -1744,7 +2144,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 31724
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37292
   },
   {
     "key": "What does Lan do at Tet?",
@@ -1752,7 +2154,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12908
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14060
   },
   {
     "key": "Listen: sunny, rainy, tomorrow.",
@@ -1762,15 +2166,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25772
-  },
-  {
-    "key": "a trunk",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28268
   },
   {
     "key": "a long neck",
@@ -1778,15 +2176,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8876
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9836
   },
   {
-    "key": "a hard shell",
+    "key": "a trunk",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8684
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "black and white stripes",
@@ -1794,7 +2196,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12140
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14828
+  },
+  {
+    "key": "a hard shell",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9836
   },
   {
     "key": "parrot",
@@ -1802,7 +2216,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "eagle",
@@ -1810,6 +2226,8 @@
       200
     ],
     "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
     "bytes": 8684
   },
   {
@@ -1818,7 +2236,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "elephant",
@@ -1826,7 +2246,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Describe the ducks now.\nThe ducks ___ swimming in the pond.",
@@ -1837,15 +2259,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32876
-  },
-  {
-    "key": "The monkey is climb a tree.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 13100
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37676
   },
   {
     "key": "Replace the incorrect word “climb”.",
@@ -1853,7 +2269,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 16172
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21164
+  },
+  {
+    "key": "The monkey is climb a tree.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16556
   },
   {
     "key": "An elephant is ___ than a mouse.",
@@ -1863,7 +2291,20 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22700
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25388
+  },
+  {
+    "key": "The shelter asks for cat food, dog food and clean water.",
+    "pausesMs": [
+      150,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 35180
   },
   {
     "key": "Ask what the tiger is doing now.\nWhat ___ the tiger doing?",
@@ -1874,16 +2315,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 35372
-  },
-  {
-    "key": "The shelter asks for cat food, dog food and clean water.",
-    "pausesMs": [
-      150,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 27692
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 40748
   },
   {
     "key": "This butterfly is more ___ than that moth.",
@@ -1893,7 +2327,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 25004
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28652
   },
   {
     "key": "The zebra is drinking. The lion is sleeping. The monkeys are playing.",
@@ -1903,7 +2339,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32876
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 42092
   },
   {
     "key": "Which animal is asleep?",
@@ -1911,7 +2349,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11756
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14060
+  },
+  {
+    "key": "go",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "Listen: cats, dogs, birds.",
@@ -1921,23 +2371,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26156
-  },
-  {
-    "key": "go",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "take",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 5612
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28652
   },
   {
     "key": "see",
@@ -1945,7 +2381,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "take",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "buy",
@@ -1953,7 +2401,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "At seven, we packed. At eight, we left home. At ten, we arrived at the campsite.",
@@ -1966,7 +2416,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 50732
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 56108
   },
   {
     "key": "Tell Titi about yesterday.\nWe ___ the museum yesterday.",
@@ -1977,31 +2429,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 36524
-  },
-  {
-    "key": "walked",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "Did you went camping last week?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 13676
-  },
-  {
-    "key": "watched",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 6380
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 41900
   },
   {
     "key": "Replace the incorrect word “went”.",
@@ -2009,31 +2439,39 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15404
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20588
   },
   {
-    "key": "cleaned",
+    "key": "walked",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
-    "key": "visited",
+    "key": "Did you went camping last week?",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16172
   },
   {
-    "key": "wanted",
+    "key": "watched",
     "pausesMs": [
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "played",
@@ -2041,7 +2479,50 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "cleaned",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "wanted",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
+  },
+  {
+    "key": "visited",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
+  },
+  {
+    "key": "Bring a tent, a torch and a sleeping bag.",
+    "pausesMs": [
+      150,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25196
   },
   {
     "key": "Say that Ben stayed home yesterday.\n___ did not go to school yesterday.",
@@ -2051,16 +2532,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 35180
-  },
-  {
-    "key": "Bring a tent, a torch and a sleeping bag.",
-    "pausesMs": [
-      150,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 21740
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 43244
   },
   {
     "key": "Mia and Ben ___ at the beach yesterday.",
@@ -2070,7 +2544,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 24044
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 27692
+  },
+  {
+    "key": "Which statement is true?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13868
   },
   {
     "key": "Last Sunday, Anna went to the zoo. She saw elephants and took photos. She did not buy any toys.",
@@ -2081,15 +2567,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 49004
-  },
-  {
-    "key": "Which statement is true?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 11564
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 58412
   },
   {
     "key": "Listen: holiday, travel, arrive.",
@@ -2099,23 +2579,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26732
-  },
-  {
-    "key": "flies a plane",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 9644
-  },
-  {
-    "key": "teaches children",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 9452
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28076
   },
   {
     "key": "cooks in a restaurant",
@@ -2123,7 +2589,29 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 10988
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13292
+  },
+  {
+    "key": "teaches children",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 11564
+  },
+  {
+    "key": "flies a plane",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10796
   },
   {
     "key": "tall",
@@ -2131,15 +2619,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
-  },
-  {
-    "key": "looks after patients",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 11756
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "curly hair",
@@ -2147,7 +2629,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9260
+  },
+  {
+    "key": "looks after patients",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14252
   },
   {
     "key": "short hair",
@@ -2155,7 +2649,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9068
   },
   {
     "key": "kind",
@@ -2163,7 +2659,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8876
   },
   {
     "key": "friendly",
@@ -2171,7 +2669,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 8684
   },
   {
     "key": "hard-working",
@@ -2179,7 +2679,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 8492
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 9068
   },
   {
     "key": "Tell Titi your dream.\nI ___ to be a pilot.",
@@ -2190,15 +2692,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 32684
-  },
-  {
-    "key": "Mia wants be a doctor.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 12716
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 35564
   },
   {
     "key": "Replace the incorrect word “be”.",
@@ -2206,7 +2702,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14444
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 19820
+  },
+  {
+    "key": "Mia wants be a doctor.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15020
   },
   {
     "key": "The chef needs a pan, a spoon and a knife.",
@@ -2215,7 +2723,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 21740
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25964
   },
   {
     "key": "Titi plans to learn more about space.\nTiti ___ to visit the space museum.",
@@ -2226,7 +2736,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 43436
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 50924
   },
   {
     "key": "Ben ___ going to study art.",
@@ -2236,7 +2748,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23084
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25004
   },
   {
     "key": "Mia is kind and patient.",
@@ -2244,7 +2758,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 14060
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 17900
   },
   {
     "key": "Which question asks about her personality?",
@@ -2252,7 +2768,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 18668
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 22508
   },
   {
     "key": "What is his job?",
@@ -2260,7 +2778,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9068
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10988
   },
   {
     "key": "Sam helps people during fires. He wears protective clothes and works with a team.",
@@ -2269,7 +2789,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 37292
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 45932
   },
   {
     "key": "Listen: teacher, doctor, police.",
@@ -2279,15 +2801,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 26156
-  },
-  {
-    "key": "where a story happens",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 12140
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 28076
   },
   {
     "key": "the person in a story",
@@ -2295,7 +2811,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11564
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14252
+  },
+  {
+    "key": "where a story happens",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14636
   },
   {
     "key": "the last part",
@@ -2303,7 +2831,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 9644
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 10412
   },
   {
     "key": "a story with magic",
@@ -2311,7 +2841,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 12140
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14828
   },
   {
     "key": "First, Titi finds a map. Next, he follows the path. Finally, he opens the treasure chest.",
@@ -2324,16 +2856,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 57644
-  },
-  {
-    "key": "The rabbit sleeps. → rabbit",
-    "pausesMs": [
-      200,
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 17708
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 64364
   },
   {
     "key": "The rabbit sleeps. → sleeps",
@@ -2342,7 +2867,20 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 17708
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20780
+  },
+  {
+    "key": "The rabbit sleeps. → rabbit",
+    "pausesMs": [
+      200,
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20972
   },
   {
     "key": "It is a brave rabbit. → brave",
@@ -2351,7 +2889,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 19052
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 21548
   },
   {
     "key": "It runs quickly. → quickly",
@@ -2360,7 +2900,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15980
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 19820
+  },
+  {
+    "key": "The rabbit runs quick.",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 14444
   },
   {
     "key": "Describe the princess.\nThe brave princess ___ the small door carefully.",
@@ -2371,7 +2923,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 38828
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 45164
   },
   {
     "key": "Replace the incorrect word “quick”.",
@@ -2379,15 +2933,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 15980
-  },
-  {
-    "key": "The rabbit runs quick.",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 11756
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 20780
   },
   {
     "key": "For the forest scene, bring a map, a lantern and a basket.",
@@ -2397,15 +2945,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 30380
-  },
-  {
-    "key": "What is its word class here?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 12908
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 35564
   },
   {
     "key": "In the sentence “I drink water”, look at the word “drink”.",
@@ -2414,7 +2956,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 24236
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 32300
+  },
+  {
+    "key": "What is its word class here?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 15788
   },
   {
     "key": "The children listened ___ to the story.",
@@ -2424,7 +2978,19 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 22892
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 25964
+  },
+  {
+    "key": "What did Lily do with the purse?",
+    "pausesMs": [
+      200
+    ],
+    "rate": "+4%",
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16940
   },
   {
     "key": "Lily found a purse on the path. She took it to the police station. Its owner thanked her.",
@@ -2434,15 +3000,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 38828
-  },
-  {
-    "key": "What did Lily do with the purse?",
-    "pausesMs": [
-      200
-    ],
-    "rate": "+4%",
-    "bytes": 14060
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 47084
   },
   {
     "key": "How did the bird feel at the end?",
@@ -2450,7 +3010,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 13868
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 16940
   },
   {
     "key": "Titi helped a lost bird find its family. The bird sang happily.",
@@ -2459,7 +3021,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 30188
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 37676
   },
   {
     "key": "Look at the word listen. Say it aloud.",
@@ -2468,7 +3032,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 19820
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 23084
   },
   {
     "key": "Which letter is silent?",
@@ -2476,7 +3042,9 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 11564
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 13868
   },
   {
     "key": "Titi is from Australia. He lives in Hanoi now.",
@@ -2485,6 +3053,8 @@
       200
     ],
     "rate": "+4%",
-    "bytes": 23084
+    "voice": "en-US-AnaNeural",
+    "pitch": "+3Hz",
+    "bytes": 29612
   }
 ]

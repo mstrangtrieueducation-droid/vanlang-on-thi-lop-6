@@ -1,19 +1,27 @@
 # Phiên bản trắc nghiệm — rừng ngày/đêm
 
-## Bản hiện hành: Titi chibi và lá chuối (chibi-9)
+## Bản hiện hành: Titi sống động và giọng Ana (living-10)
 
 Các mô tả vị trí mascot và thời gian nghỉ ở phần lịch sử bên dưới được thay thế bằng cấu hình này:
 
 - Màn chờ có một Titi chibi lớn bên cạnh nút bắt đầu. Trong bài, một Titi đứng ở cột trái 1/3; câu hỏi và đáp án ở cột phải 2/3. Dưới 600px, Titi và lời nhắn thu gọn phía trên câu hỏi để chữ và vùng chạm đủ lớn.
-- `chibi.css`, `banana-leaf.svg`, `banana-answer.svg`: lá xanh nổi khối; đúng đổi thành chuối vàng, sai héo/rũ; phản hồi có sao, âm thanh và biểu cảm. Không thay đổi dữ liệu câu hỏi hay khóa lưu tiến độ.
+- `chibi.css`, `living-forest.css`, `banana-leaf-soft.svg`, `banana-bunch.svg`, `banana-wilted.svg`: lá xanh nổi khối; đúng đổi thành chuối vàng, sai héo/rũ; phản hồi có sao, âm thanh và biểu cảm. Không thay đổi dữ liệu câu hỏi hay khóa lưu tiến độ.
 - `teacher-titi-chibi.webp`: sprite ba tư thế, được chỉnh từ Titi đã duyệt bằng công cụ image_gen tích hợp; prompt lưu ở `titi-chibi-prompt.txt`. Giữ kính, áo polo navy cộc tay và váy navy.
 - Câu hỏi và bốn đáp án hiện ngay, luôn cho chọn khi đang đọc. Chọn đáp án hoặc chuyển câu hủy chuỗi lời đọc cũ; chỉ khóa bốn lựa chọn sau khi trả lời đúng.
-- `pacing-audio.js` nạp sau `audio-map.js`, thay toàn bộ lời đọc hiện dùng bằng 285 bản MP3 tĩnh. Jenny en-US đọc mặc định +4%; từng cụm giữ dấu câu để duy trì ngữ điệu hỏi/cảm thán. Chèn khoảng lặng PCM 150ms ở dấu phẩy và 200ms ở hết câu/xuống dòng. Các chỗ `___` giữ tín hiệu điền từ không lời. MP3 và cơ chế phát của trình duyệt có thể thêm độ trễ nhỏ giữa hai tệp riêng.
+- `pacing-audio.js` nạp sau `audio-map.js`, thay toàn bộ lời đọc hiện dùng bằng 285 bản MP3 tĩnh. Ana en-US (giọng nữ hoạt hình dễ thương) đọc mặc định +4%, cao độ +3Hz; từng cụm giữ dấu câu để duy trì ngữ điệu hỏi/cảm thán. Chèn khoảng lặng PCM 150ms ở dấu phẩy và 200ms ở hết câu/xuống dòng. Các chỗ `___` giữ tín hiệu điền từ không lời. MP3 và cơ chế phát của trình duyệt có thể thêm độ trễ nhỏ giữa hai tệp riêng.
 - Lời khen nhanh/sáng hơn; “Oh no…” trầm hơn, sau đó động viên. Đây là giọng tổng hợp neural, không phải diễn viên thu âm. SpeechSynthesis là dự phòng và chất giọng phụ thuộc thiết bị.
 
 Khi bổ sung câu hỏi: chạy `node game-kit/adventures/build.cjs`, rồi `python game-kit/adventures/record-pacing.py` (cần edge_tts, numpy, imageio_ffmpeg). Bộ tạo giữ bản ghi từng cụm trong thư mục tạm để tái sử dụng. `pacing-audit.json` lưu thông số khoảng nghỉ của từng bản ghi. Không cần backend khi chơi.
 
-Kiểm tra hiện hành: `node --test game-kit/adventures/quiz.test.cjs game-kit/adventures/pacing.test.cjs`. Kiểm thử quiz cũng kiểm tra dữ liệu/âm thanh cũ còn lưu để tương thích; kiểm thử pacing kiểm tra lớp ghi đè đang dùng. Đã kiểm tra trình duyệt ở 390×844, 844×390 và màn hình máy tính, gồm chọn đáp án trong khi nút âm thanh đang báo Pause.
+Kiểm tra hiện hành: `node --test game-kit/adventures/quiz.test.cjs game-kit/adventures/pacing.test.cjs game-kit/adventures/titi-life.test.cjs game-kit/adventures/countdown.test.cjs`. Kiểm thử quiz cũng kiểm tra dữ liệu/âm thanh cũ còn lưu để tương thích; kiểm thử pacing kiểm tra lớp ghi đè đang dùng. Đã kiểm tra trình duyệt ở 390×844, 844×390 và màn hình máy tính, gồm chọn đáp án trong khi nút âm thanh đang báo Pause.
+
+### Chuyển động chờ và tiếng đếm trên điện thoại
+
+- `teacher-titi-idle.webp` có bốn khung: chào, chớp mắt, suy nghĩ, vẫy tay. Chỉnh bằng công cụ image_gen tích hợp từ Titi chibi đã duyệt, prompt ở `titi-idle-prompt.txt`. CSS giữ đúng tỉ lệ khung 3:4, không kéo méo mặt.
+- `titi-life.js` đổi trạng thái chờ sau 5 giây, luân phiên suy nghĩ/bước chân/nghiêng đầu; thao tác mới đặt lại thời gian chờ. Giọng đang đọc, phản hồi đúng/sai, hộp thoại và bài đã hoàn thành được ưu tiên. Giảm chuyển động tắt các vòng hoạt ảnh.
+- Bản đồ có nút Bật nhạc. Nhạc chờ và giai điệu ngân nga là âm tổng hợp Web Audio nhẹ, chỉ phát sau thao tác của người dùng. Không phát nhạc nền trong câu hỏi, hộp thoại hay khi ẩn trang. Nút tắt âm trong game tắt cả nhạc chờ.
+- `start()` mở AudioContext ngay trong cú chạm. Sau khi tạo màn chuẩn bị, một tệp im lặng mở quyền phát cho phần tử Audio dùng đọc câu. Có tiếng ở cả 3, 2, 1 và âm vào bài. Liên kết `?play=1` đưa tới màn chờ có nút Start thay vì tự đếm trước khi iPhone cho phát âm. Khi có hỗ trợ, đặt AudioSession thành playback để tiếng đếm không bị phụ thuộc kênh chuông iPhone (WebKit #237322: https://bugs.webkit.org/show_bug.cgi?id=237322). Âm lượng media và nút tắt âm trong game vẫn do học sinh kiểm soát.
+- Đã kiểm tra thứ tự mở âm và ba nhịp đếm bằng kiểm thử; cần phân biệt kiểm tra kích thước điện thoại trong trình duyệt máy tính với kiểm tra trên iPhone thật.
 
 ## Nền tảng và lịch sử thay đổi
 
