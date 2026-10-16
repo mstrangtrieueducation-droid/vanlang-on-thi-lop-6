@@ -761,7 +761,7 @@ window.ADVENTURE={
         "is",
         "are"
       ],
-      "speech": "Mia: “I live in Hue.”\nWhere  blank  you live? Which word or phrase completes the sentence?"
+      "speech": "Mia: “I live in Hue.”\nWhere ___ you live? Which word or phrase completes the sentence?"
     },
     {
       "id": "g3-0",
@@ -797,7 +797,7 @@ window.ADVENTURE={
         "Where"
       ],
       "answer": "Who",
-      "speech": " blank  is your teacher? — Ms Lan. Which answer matches the clue?"
+      "speech": "___ is your teacher? — Ms Lan. Which answer matches the clue?"
     },
     {
       "id": "g3-1",
@@ -833,7 +833,7 @@ window.ADVENTURE={
         "Where"
       ],
       "answer": "Whose",
-      "speech": " blank  pencil is this? — It’s Ben’s. Which answer matches the clue?"
+      "speech": "___ pencil is this? — It’s Ben’s. Which answer matches the clue?"
     },
     {
       "id": "g3-2",
@@ -869,7 +869,7 @@ window.ADVENTURE={
         "Where"
       ],
       "answer": "Why",
-      "speech": " blank  are you late? — Because I missed the bus. Which answer matches the clue?"
+      "speech": "___ are you late? — Because I missed the bus. Which answer matches the clue?"
     },
     {
       "id": "g3-3",
@@ -905,7 +905,7 @@ window.ADVENTURE={
         "Why"
       ],
       "answer": "Where",
-      "speech": " blank  is your house? — Near the park. Which answer matches the clue?"
+      "speech": "___ is your house? — Near the park. Which answer matches the clue?"
     },
     {
       "id": "g4",
@@ -948,7 +948,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Ben: “I am British.”\nWhat nationality  blank  you? Which word or phrase completes the sentence?"
+      "speech": "Ben: “I am British.”\nWhat nationality ___ you? Which word or phrase completes the sentence?"
     },
     {
       "id": "g6-0",
@@ -984,7 +984,7 @@ window.ADVENTURE={
         "How often"
       ],
       "answer": "How many",
-      "speech": " blank  pencils are in the bag? — Three. Which answer matches the clue?"
+      "speech": "___ pencils are in the bag? — Three. Which answer matches the clue?"
     },
     {
       "id": "g6-1",
@@ -1020,7 +1020,7 @@ window.ADVENTURE={
         "How often"
       ],
       "answer": "How much",
-      "speech": " blank  is this notebook? — 20,000 dong. Which answer matches the clue?"
+      "speech": "___ is this notebook? — 20,000 dong. Which answer matches the clue?"
     },
     {
       "id": "g6-2",
@@ -1056,7 +1056,7 @@ window.ADVENTURE={
         "How often"
       ],
       "answer": "How long",
-      "speech": " blank  is the lesson? — Forty minutes. Which answer matches the clue?"
+      "speech": "___ is the lesson? — Forty minutes. Which answer matches the clue?"
     },
     {
       "id": "g6-3",
@@ -1092,7 +1092,7 @@ window.ADVENTURE={
         "How long"
       ],
       "answer": "How often",
-      "speech": " blank  do you read? — Every evening. Which answer matches the clue?"
+      "speech": "___ do you read? — Every evening. Which answer matches the clue?"
     },
     {
       "id": "g7",
@@ -1318,7 +1318,7 @@ window.ADVENTURE={
         "is",
         "are"
       ],
-      "speech": "Titi needs to know the time. “The club starts at eight.”\nWhat time  blank  the club start? Which word or phrase completes the sentence?"
+      "speech": "Titi needs to know the time. “The club starts at eight.”\nWhat time ___ the club start? Which word or phrase completes the sentence?"
     },
     {
       "id": "m5",

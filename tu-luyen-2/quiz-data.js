@@ -347,7 +347,7 @@ window.ADVENTURE={
         "going",
         "gone"
       ],
-      "speech": "Tell Titi about Ben’s routine.\nBen  blank  to school by bus. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi about Ben’s routine.\nBen ___ to school by bus. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -392,7 +392,7 @@ window.ADVENTURE={
         "Is",
         "Are"
       ],
-      "speech": "Ask your friend about Saturday.\n blank  you study on Saturdays? Which word or phrase completes the sentence?"
+      "speech": "Ask your friend about Saturday.\n___ you study on Saturdays? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -410,7 +410,7 @@ window.ADVENTURE={
       "id": "g2q7",
       "hint": "Cụm đúng: be interested in + danh từ/V-ing.",
       "sourceId": "g2q7",
-      "speech": "Titi is interested  blank  science. Which word completes the sentence?"
+      "speech": "Titi is interested ___ science. Which word completes the sentence?"
     },
     {
       "type": "choice",

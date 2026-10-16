@@ -187,7 +187,7 @@ window.ADVENTURE={
         "plays",
         "played"
       ],
-      "speech": "Suggest a game of chess.\nHow about  blank  chess? Which word or phrase completes the sentence?"
+      "speech": "Suggest a game of chess.\nHow about ___ chess? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -250,7 +250,7 @@ window.ADVENTURE={
         "are",
         "be"
       ],
-      "speech": "Tell Titi what you like.\nI  blank  fond of reading stories. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi what you like.\nI ___ fond of reading stories. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

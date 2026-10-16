@@ -463,7 +463,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Describe four chairs in the kitchen.\nThere  blank  four chairs in the kitchen. Which word or phrase completes the sentence?"
+      "speech": "Describe four chairs in the kitchen.\nThere ___ four chairs in the kitchen. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -546,7 +546,7 @@ window.ADVENTURE={
         "When",
         "Who"
       ],
-      "speech": "Make an exclamation.\n blank  a beautiful house! Which word or phrase completes the sentence?"
+      "speech": "Make an exclamation.\n___ a beautiful house! Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

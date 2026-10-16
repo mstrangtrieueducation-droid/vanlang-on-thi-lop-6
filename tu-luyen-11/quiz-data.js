@@ -457,7 +457,7 @@ window.ADVENTURE={
         "would liking",
         "would liked"
       ],
-      "speech": "Tell Titi your dream.\nI  blank  to be a pilot. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi your dream.\nI ___ to be a pilot. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -520,7 +520,7 @@ window.ADVENTURE={
         "planning",
         "planned"
       ],
-      "speech": "Titi plans to learn more about space.\nTiti  blank  to visit the space museum. Which word or phrase completes the sentence?"
+      "speech": "Titi plans to learn more about space.\nTiti ___ to visit the space museum. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -538,7 +538,7 @@ window.ADVENTURE={
       "id": "g11q7",
       "hint": "Ben + is going to + động từ.",
       "sourceId": "g11q7",
-      "speech": "Ben  blank  going to study art. Which word fits?"
+      "speech": "Ben ___ going to study art. Which word fits?"
     },
     {
       "type": "choice",

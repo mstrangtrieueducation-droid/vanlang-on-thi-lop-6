@@ -536,7 +536,7 @@ window.ADVENTURE={
         "shoulding",
         "shoulded"
       ],
-      "speech": "Ben has a toothache.\nHe  blank  see a dentist. Which word or phrase completes the sentence?"
+      "speech": "Ben has a toothache.\nHe ___ see a dentist. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -780,7 +780,7 @@ window.ADVENTURE={
         "canning",
         "canned"
       ],
-      "speech": "You want to find the museum.\nHow  blank  I get to the museum? Which word or phrase completes the sentence?"
+      "speech": "You want to find the museum.\nHow ___ I get to the museum? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

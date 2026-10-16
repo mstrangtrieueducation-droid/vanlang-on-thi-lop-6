@@ -355,7 +355,7 @@ window.ADVENTURE={
         "opens",
         "opening"
       ],
-      "speech": "Describe the princess.\nThe brave princess  blank  the small door carefully. Which word or phrase completes the sentence?"
+      "speech": "Describe the princess.\nThe brave princess ___ the small door carefully. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -435,7 +435,7 @@ window.ADVENTURE={
       "id": "g12q8",
       "hint": "Listen carefully: lắng nghe chăm chú. Dùng trạng từ bổ nghĩa listened.",
       "sourceId": "g12q8",
-      "speech": "The children listened  blank  to the story. Which word fits?"
+      "speech": "The children listened ___ to the story. Which word fits?"
     },
     {
       "type": "choice",

@@ -213,7 +213,7 @@ window.ADVENTURE={
         "canning",
         "canned"
       ],
-      "speech": "You want to find the museum.\nHow  blank  I get to the museum? Which word or phrase completes the sentence?"
+      "speech": "You want to find the museum.\nHow ___ I get to the museum? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -419,7 +419,7 @@ window.ADVENTURE={
         "taking",
         "taken"
       ],
-      "speech": "The walk to school takes ten minutes.\nIt  blank  me ten minutes to walk to school. Which word or phrase completes the sentence?"
+      "speech": "The walk to school takes ten minutes.\nIt ___ me ten minutes to walk to school. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -437,7 +437,7 @@ window.ADVENTURE={
       "id": "g7q8",
       "hint": "Spend + thời gian + V-ing.",
       "sourceId": "g7q8",
-      "speech": "I spend twenty minutes  blank  to school. Which word fits?"
+      "speech": "I spend twenty minutes ___ to school. Which word fits?"
     },
     {
       "type": "choice",

@@ -187,7 +187,7 @@ window.ADVENTURE={
         "are",
         "does"
       ],
-      "speech": "Tell Titi about your plan.\n blank  am going to visit my grandparents tomorrow. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi about your plan.\n___ am going to visit my grandparents tomorrow. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -231,7 +231,7 @@ window.ADVENTURE={
       "id": "g8q5",
       "hint": "Because nối với lý do: mang ô vì trời sắp mưa.",
       "sourceId": "g8q5",
-      "speech": "We take umbrellas  blank  it is going to rain. Which word fits?"
+      "speech": "We take umbrellas ___ it is going to rain. Which word fits?"
     },
     {
       "type": "choice",
@@ -267,7 +267,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Ask about today’s weather.\nWhat  blank  the weather like today? Which word or phrase completes the sentence?"
+      "speech": "Ask about today’s weather.\nWhat ___ the weather like today? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

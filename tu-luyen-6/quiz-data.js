@@ -329,7 +329,7 @@ window.ADVENTURE={
         "shoulding",
         "shoulded"
       ],
-      "speech": "Ben has a toothache.\nHe  blank  see a dentist. Which word or phrase completes the sentence?"
+      "speech": "Ben has a toothache.\nHe ___ see a dentist. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -409,7 +409,7 @@ window.ADVENTURE={
         "having to",
         "had to"
       ],
-      "speech": "Tell Titi about the uniform rule.\nWe  blank  wear a uniform at school. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi about the uniform rule.\nWe ___ wear a uniform at school. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -445,7 +445,7 @@ window.ADVENTURE={
       "id": "g6q9",
       "hint": "It is a good idea for somebody to + động từ.",
       "sourceId": "g6q9",
-      "speech": "It is a good idea for you  blank  your hands before eating. Which word fits?"
+      "speech": "It is a good idea for you ___ your hands before eating. Which word fits?"
     },
     {
       "type": "choice",

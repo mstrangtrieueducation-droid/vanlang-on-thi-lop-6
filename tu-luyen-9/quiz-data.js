@@ -329,7 +329,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Describe the ducks now.\nThe ducks  blank  swimming in the pond. Which word or phrase completes the sentence?"
+      "speech": "Describe the ducks now.\nThe ducks ___ swimming in the pond. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -375,7 +375,7 @@ window.ADVENTURE={
       "id": "g9q5",
       "hint": "So sánh hơn: big → bigger; có than.",
       "sourceId": "g9q5",
-      "speech": "An elephant is  blank  than a mouse. Which word fits?"
+      "speech": "An elephant is ___ than a mouse. Which word fits?"
     },
     {
       "type": "choice",
@@ -411,7 +411,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Ask what the tiger is doing now.\nWhat  blank  the tiger doing? Which word or phrase completes the sentence?"
+      "speech": "Ask what the tiger is doing now.\nWhat ___ the tiger doing? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -429,7 +429,7 @@ window.ADVENTURE={
       "id": "g9q8",
       "hint": "More + tính từ dài: more colourful.",
       "sourceId": "g9q8",
-      "speech": "This butterfly is more  blank  than that moth. Which word fits?"
+      "speech": "This butterfly is more ___ than that moth. Which word fits?"
     },
     {
       "type": "choice",

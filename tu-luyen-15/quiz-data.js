@@ -600,7 +600,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Describe the ducks now.\nThe ducks  blank  swimming in the pond. Which word or phrase completes the sentence?"
+      "speech": "Describe the ducks now.\nThe ducks ___ swimming in the pond. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

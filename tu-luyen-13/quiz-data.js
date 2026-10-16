@@ -512,7 +512,7 @@ window.ADVENTURE={
         "going",
         "gone"
       ],
-      "speech": "Tell Titi about Ben’s routine.\nBen  blank  to school by bus. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi about Ben’s routine.\nBen ___ to school by bus. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -597,7 +597,7 @@ window.ADVENTURE={
         "are",
         "be"
       ],
-      "speech": "Tell Titi what you like.\nI  blank  fond of reading stories. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi what you like.\nI ___ fond of reading stories. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",

@@ -187,7 +187,7 @@ window.ADVENTURE={
         "visits",
         "visiting"
       ],
-      "speech": "Tell Titi about yesterday.\nWe  blank  the museum yesterday. Which word or phrase completes the sentence?"
+      "speech": "Tell Titi about yesterday.\nWe ___ the museum yesterday. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -545,7 +545,7 @@ window.ADVENTURE={
         "are",
         "does"
       ],
-      "speech": "Say that Ben stayed home yesterday.\n blank  did not go to school yesterday. Which word or phrase completes the sentence?"
+      "speech": "Say that Ben stayed home yesterday.\n___ did not go to school yesterday. Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -563,7 +563,7 @@ window.ADVENTURE={
       "id": "g10q8",
       "hint": "Mia and Ben là số nhiều; quá khứ của are là were.",
       "sourceId": "g10q8",
-      "speech": "Mia and Ben  blank  at the beach yesterday. Which word fits?"
+      "speech": "Mia and Ben ___ at the beach yesterday. Which word fits?"
     },
     {
       "type": "choice",

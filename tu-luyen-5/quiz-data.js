@@ -475,7 +475,7 @@ window.ADVENTURE={
         "am",
         "be"
       ],
-      "speech": "Ask the price of these shoes.\nHow much  blank  these shoes? Which word or phrase completes the sentence?"
+      "speech": "Ask the price of these shoes.\nHow much ___ these shoes? Which word or phrase completes the sentence?"
     },
     {
       "type": "choice",
@@ -521,7 +521,7 @@ window.ADVENTURE={
       "id": "g5q6",
       "hint": "Trong câu phủ định này dùng any juice.",
       "sourceId": "g5q6",
-      "speech": "There is not  blank  juice in the fridge. Which word fits?"
+      "speech": "There is not ___ juice in the fridge. Which word fits?"
     },
     {
       "type": "choice",

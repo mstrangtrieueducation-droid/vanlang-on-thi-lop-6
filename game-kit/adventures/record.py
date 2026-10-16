@@ -1,9 +1,31 @@
 from pathlib import Path
-import asyncio, hashlib, json
+import asyncio, hashlib, json, re, wave, math, struct
 import edge_tts
 root=Path(__file__).resolve().parent
 manifest=json.loads((root/'audio-manifest.json').read_text(encoding='utf-8'))
 out=root/'audio'; out.mkdir(exist_ok=True)
+# A soft two-note cue and silence mark a missing word; never pronounce underscores.
+gap=out/'gap-cue.wav'
+with wave.open(str(gap),'wb') as w:
+ w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000)
+ samples=[]
+ for i in range(18000):
+  t=i/24000; local=t if t<.12 else t-.16
+  tone=(0<=local<.12) and t<.28
+  value=.09*math.sin(math.pi*local/.12)*math.sin(2*math.pi*(660 if t<.12 else 880)*local) if tone else 0
+  samples.append(struct.pack('<h',int(32767*value)))
+ w.writeframes(b''.join(samples))
+sequences={}; expanded={}
+for item in manifest:
+ if re.search(r'_{2,}',item['text']):
+  parts=re.split(r'(_{2,})',item['text']); sequence=[]
+  for part in parts:
+   if re.fullmatch(r'_{2,}',part): sequence.append(None)
+   elif part.strip():
+    part=part.strip(); expanded[part]={'key':part,'text':part}; sequence.append(part)
+  sequences[item['key']]=sequence
+ else: expanded[item['key']]=item
+manifest=list(expanded.values())
 async def main():
  mapping={}; sem=asyncio.Semaphore(4); done=0
  async def one(item):
@@ -23,6 +45,7 @@ async def main():
      if attempt==3: raise
      await asyncio.sleep(2+attempt)
  await asyncio.gather(*(one(item) for item in manifest))
+ for key,parts in sequences.items(): mapping[key]=[mapping[part] if part is not None else '../game-kit/adventures/audio/gap-cue.wav' for part in parts]
  (root/'audio-map.js').write_text('window.ADVENTURE_AUDIO='+json.dumps(mapping,ensure_ascii=False)+';\n',encoding='utf-8')
  legacy_keys=root/'legacy-audio-keys.json'
  if legacy_keys.exists():

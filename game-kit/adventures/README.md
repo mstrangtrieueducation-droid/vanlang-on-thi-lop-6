@@ -11,3 +11,10 @@ Kiểm tra: `node --test game-kit/adventures/quiz.test.cjs`. Các kiểm thử p
 `day-night.js` lưu lựa chọn ngày/đêm trên thiết bị và dùng chung với nút tập trung trong bài. Bướm/ong là CSS, đom đóm có ánh sáng nhấp nháy; reduced-motion tắt chuyển động. Rừng và nhân vật là ảnh render 3D kèm chuyển động CSS, không phải mô hình 3D WebGL.
 
 `forest-pupils-seated.webp` tạo bằng công cụ image_gen tích hợp, nền trong suốt, chuyển WebP để giảm tải. Prompt được lưu ở `seated-pupils-prompt.txt`. Cô giáo giữ polo navy cộc tay.
+
+## Cập nhật Titi và cây táo
+- Một cô giáo Titi duy nhất trong header góc trên trái; không có nhân vật lặp ở bản đồ, hộp thoại hoặc màn hoàn thành.
+- `forest-classroom-bg.webp` là ảnh nền có học sinh hòa trong cảnh rừng, tạo bằng image_gen ở chế độ chỉnh ảnh. Không dùng các cutout học sinh rời. Prompt ở `forest-classroom-prompt.txt`.
+- `apple-timer.js`: 0% nảy mầm, 25% cây nhỏ, 50% hoa, 75% táo, 100% táo rụng vào giỏ. Phần trăm là thời gian đã trôi qua, không phải số câu đã làm. Mặc định bài mới bật 10 phút; vẫn giữ lựa chọn không giới hạn và trạng thái bài cũ. Hết giờ có thể tiếp tục không giới hạn mà không mất đáp án.
+- Khi kết thúc bài, hiện giỏ táo và thông báo hoàn thành; kết thúc thời gian không tự đánh dấu các câu chưa làm là hoàn thành.
+- Chỗ điền từ `___` phát hai nốt nhẹ + khoảng lặng 0,75 giây. `record.py` tách câu thành đoạn âm thanh và chèn `gap-cue.wav`. Trình phát hỗ trợ Pause/Listen xuyên các đoạn; giọng dự phòng thay ký tự gạch dưới bằng dấu ba chấm. Từ “blank” trong nội dung thật như “blank pages” vẫn được đọc đúng nghĩa.
