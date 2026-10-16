@@ -1,0 +1,69 @@
+/* Titi's banana grove: one character, visible answers, responsive 1:2 teaching layout. */
+#adventure{max-width:1440px;margin:18px auto;min-height:0;border:3px solid #d2ef9b;border-radius:28px;background:#174b38}
+#adventure>header{padding:12px 24px;min-height:74px;background:linear-gradient(110deg,#103e34,#277346);border-bottom:1px solid #b8dd8144}
+#adventure>header .logo{width:46px;height:46px}#adventure>header .brand small{font-size:10px}#adventure>header .brand b{font-size:15px}
+.teacher-fox i{background-image:url('teacher-titi-chibi.webp')!important;background-size:300% 100%;background-repeat:no-repeat}
+#adventure .play{padding:18px 24px 24px;background:linear-gradient(90deg,#154e3877,#17473444),url('forest-classroom-bg.webp') center/cover}
+#adventure .play-layout,#adventure.focused .play-layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,2fr)!important;gap:24px;align-items:start;height:auto}
+#adventure .scene-panel,#adventure.focused .scene-panel{display:flex!important;flex-direction:column;align-items:center;position:sticky;top:16px;min-width:0;min-height:450px;border:0;box-shadow:none;background:none;padding:12px 0;overflow:visible}
+#adventure .scene-panel .world-art{display:none}
+#adventure .scene-panel>.teacher-fox{position:relative!important;inset:auto!important;width:100%!important;height:auto;max-width:400px;margin:58px 0 0;isolation:isolate}
+#adventure .scene-panel>.teacher-fox i{width:100%!important;height:auto!important;aspect-ratio:1;filter:drop-shadow(0 18px 8px #103d4480)}
+#adventure .scene-panel>.teacher-fox:before,#adventure .lobby-art>.teacher-fox:before{content:'';position:absolute;inset:6% -2% 8%;z-index:-1;background:radial-gradient(ellipse,#fff8a99c,#e4ffa329 55%,transparent 70%);animation:titi-halo 4s infinite}
+#adventure .teacher-fox>span{position:relative!important;inset:auto!important;width:auto!important;padding:6px 18px!important;font-size:13px!important;color:#405a24;background:#fff6ca;border:2px solid #e4cb6b}
+#adventure .teacher-bubble{top:0;left:5%;right:5%;bottom:auto;max-height:none;overflow:visible;font-size:16px;line-height:1.45;padding:14px 16px;background:#fffef0;border-color:#f4ce61;color:#244c36;box-shadow:0 5px 0 #7f9c4d}
+#adventure .scene-caption{color:#fff9d1;text-align:center;padding:16px 8px;text-shadow:0 2px 4px #143d32}
+#adventure .scene-caption b,#adventure .scene-caption>span{color:#fff9d1}.earned-gems{color:#ffdb5c;letter-spacing:4px}
+#adventure .challenge{min-width:0;width:100%}#adventure .question-panel{background:#fffff2f5;border:2px solid #e6eaa8;border-bottom:5px solid #91a958;border-radius:24px;padding:20px 24px;box-shadow:0 10px 28px #103e432b}
+#adventure .task-instruction{background:#e4f2cb;color:#285331;padding:9px 12px;font-size:13px;margin-bottom:12px}
+#adventure .question-top{gap:10px}#adventure .context{font-size:clamp(17px,1.5vw,21px);line-height:1.55;border-left:4px solid #e6b745;background:transparent;margin:12px 0;padding:4px 0 4px 14px;color:#355639;white-space:pre-line;overflow-wrap:anywhere}
+#adventure .question-panel h1{font-size:clamp(22px,2.1vw,30px);line-height:1.3;color:#174c32;margin:12px 0 0;overflow-wrap:anywhere}
+#adventure .play-top{display:grid;grid-template-columns:auto 1fr minmax(190px,310px);align-items:center;gap:16px;margin-bottom:14px;color:#fffbea;font-weight:700;text-shadow:0 1px 3px #123d32}
+#adventure .play-top>span{text-align:center}#adventure .play-top #clock{width:100%;max-width:none;margin:0;padding:0 8px;background:#f6ffdce8;border:1px solid #d1e893;box-shadow:0 4px #649d52;min-width:0;grid-column:auto}
+#adventure .play-top #clock .apple-3d{width:100%;max-width:none}#adventure .apple-3d .growth-label{margin-top:15px;font-size:10px;text-shadow:none}#adventure .progress{background:#f3f7cf66;height:7px;margin:0 0 22px}
+#adventure .progress i{background:linear-gradient(90deg,#e7f79d,#ffd34e)}
+#adventure .work{padding:20px 0 10px;background:none;border:0;box-shadow:none;min-height:0}
+#adventure .choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 12px;align-items:stretch}
+#adventure .choice{isolation:isolate;position:relative;display:flex;align-items:center;justify-content:flex-start;gap:12px;min-width:0;min-height:118px;padding:25px 25px 25px 30px;border:0!important;border-radius:0;background:transparent!important;box-shadow:none!important;color:#fffef0!important;overflow:visible;filter:drop-shadow(0 7px 0 #164821) drop-shadow(0 9px 9px #0a302940);transition:transform .2s,filter .25s;opacity:1!important}
+#adventure .choice:before{content:'';position:absolute;inset:0;z-index:-1;border-radius:80% 9% 75% 8% / 23% 27% 24% 28%;background:repeating-linear-gradient(25deg,transparent 0 17px,#c8f79d22 18px 20px,transparent 21px 33px),linear-gradient(174deg,#92db52 0%,#4aab37 26%,#21872c 49%,#a2dc62 50%,#399c31 53%,#176a2d 100%);border:2px solid #b2df75;box-shadow:inset 0 4px 3px #e8ffb455,inset 0 -5px 5px #164b3540;transition:background .35s,transform .35s,border-radius .45s}
+#adventure .choice:after{content:'';position:absolute;right:1%;top:47%;width:8%;height:5px;transform:rotate(-8deg);border-radius:4px;background:#c9dc7e;z-index:-2}
+#adventure .choice:nth-child(even):before{border-radius:9% 80% 8% 75% / 27% 23% 28% 24%}
+#adventure .choice span{flex:0 0 35px;width:35px;height:35px;border:1px solid #efffcf99;border-radius:50%;background:#124d2f!important;color:#fff8b6;box-shadow:0 3px #0d3c24,inset 0 2px #ffffff44;font-size:17px;display:grid;place-items:center}
+#adventure .choice b{font-size:clamp(15px,1.35vw,19px);line-height:1.4;overflow-wrap:anywhere;text-align:left;min-width:0;text-shadow:0 1px 2px #144524}
+#adventure .choice:hover:not(:disabled){transform:translateY(-5px) rotate(-1deg);filter:drop-shadow(0 9px 0 #164821) drop-shadow(0 10px 10px #0a302940)}
+#adventure .choice:active:not(:disabled){transform:translateY(3px) scale(.98)}
+#adventure .choice.is-correct{color:#503513!important;filter:drop-shadow(0 6px 0 #ad761b) drop-shadow(0 0 17px #ffe25b99);animation:banana-pop .65s ease-out}
+#adventure .choice.is-correct:before{border-radius:8% 8% 48% 48% / 12% 12% 87% 87%;background:radial-gradient(ellipse at 50% -25%,transparent 0 35%,#fff8ac 36%,#ffdf4f 45%,#ffbc28 80%,#d88c1b);border:2px solid #ffeaa1;box-shadow:inset 0 -8px #d891224d,inset 0 4px #fff8bc;transform:rotate(-3deg)}
+#adventure .choice.is-correct:after{content:'🍌';position:absolute;right:0;top:-16px;width:auto;height:auto;background:none;z-index:2;font-size:35px;transform:rotate(15deg)}
+#adventure .choice.is-correct span{background:#93651a!important;color:#fff6cc}#adventure .choice.is-correct b{text-shadow:none}
+#adventure .choice.is-wrong{color:#fff4d7!important;animation:leaf-droop .65s ease-out forwards;filter:drop-shadow(0 5px 0 #554122)}
+#adventure .choice.is-wrong:before{background:repeating-linear-gradient(25deg,transparent 0 17px,#eed49c33 18px 20px,transparent 21px 33px),linear-gradient(170deg,#a7a65a,#82773c 48%,#d0b96d 50%,#695331 54%,#836641);border-color:#b9a36b;border-radius:70% 9% 80% 8% / 25% 26% 35% 28%;transform:rotate(4deg) skewY(2deg)}
+#adventure .choice.is-wrong span{background:#69512e!important}.choice:focus-visible{outline:4px solid #fff3a4!important;outline-offset:5px}
+#adventure .answer-footer{background:#103e33e8;color:#fffde6;border:1px solid #adc96d77;border-radius:20px;padding:14px 18px;gap:12px}#adventure #feedback{color:#fff4cb;font-size:14px;line-height:1.55}#adventure #feedback.correct{color:#dcffb5}
+#adventure .teacher-fox.reacting .reaction-caption{display:none}#adventure .scene-panel>.teacher-fox.yay:after{font-size:44px;right:10%;top:20%}
+#adventure .lobby{background:linear-gradient(90deg,#f9ffedee 0%,#eefadaef 45%,#b9ea7944 70%),url('forest-classroom-bg.webp') center/cover;grid-template-columns:1fr 1fr;min-height:570px}
+#adventure .welcome{padding:38px 20px 30px 38px}.welcome h1{color:#164e32}.welcome h2{color:#65812a}
+#adventure .lobby-art{min-height:550px;overflow:visible;display:grid;align-items:center;justify-items:center;position:relative}
+#adventure .lobby-art .world-art{position:absolute;inset:0;height:100%;opacity:0;pointer-events:none}
+#adventure .lobby-art>.teacher-fox{position:relative!important;inset:auto!important;width:clamp(300px,39vw,550px)!important;height:auto;max-width:100%;z-index:2;margin-top:48px;isolation:isolate}
+#adventure .lobby-art>.teacher-fox i{width:100%!important;height:auto!important;aspect-ratio:1;animation:titi-greeting 4s infinite;filter:drop-shadow(0 20px 10px #123e3560)}
+#adventure .lobby-art .speech-bubble{position:absolute;top:20px;bottom:auto;left:15%;right:10%;z-index:3;text-align:center;font-size:19px;padding:15px;border:2px solid #e6c557;background:#fffbe2;color:#355435;box-shadow:0 5px #8c9f4a}
+[data-mode=night] #adventure .play{background:linear-gradient(#071a3988,#123b4388),url('forest-classroom-bg.webp') center/cover}
+[data-mode=night] #adventure .question-panel{background:#173f39f5;border-color:#92af6d}[data-mode=night] #adventure .question-panel h1,[data-mode=night] #adventure .context{color:#fff7d5}[data-mode=night] #adventure .task-instruction{background:#2c5544;color:#e5f8be}
+@keyframes banana-pop{0%{transform:scale(.94)}55%{transform:scale(1.05) rotate(-2deg)}100%{transform:scale(1)}}
+@keyframes leaf-droop{0%{transform:rotate(0)}35%{transform:rotate(-3deg)}70%{transform:rotate(3deg) translateY(3px)}100%{transform:rotate(1.5deg) translateY(4px)}}
+@media(max-width:900px){#adventure{margin:8px auto;border-radius:20px}#adventure .play{padding:14px}#adventure .play-layout{gap:14px}#adventure .choice{padding:22px 14px;gap:9px;min-height:108px}#adventure .scene-panel{min-height:320px}#adventure .teacher-bubble{font-size:14px;padding:10px}#adventure .question-panel{padding:16px}#adventure .scene-caption{font-size:13px}#adventure .play-top{grid-template-columns:auto 1fr minmax(150px,235px);gap:8px}}
+@media(max-width:600px){#adventure{margin:0;border-radius:0;border-width:0}#adventure>header{padding:10px 12px;gap:8px}#adventure>header .logo{width:34px;height:34px}#adventure>header .brand small{font-size:8px}#adventure>header .brand b{font-size:12px}#adventure>header .map-link span{display:none}#adventure>header button{padding:7px 9px;font-size:12px}#adventure>header .brand{min-width:135px}#adventure .play-top{grid-template-columns:1fr 1fr;font-size:12px}#adventure .play-top #clock{grid-column:1/-1;max-width:270px;justify-self:center}#adventure .play-layout,#adventure.focused .play-layout{display:flex!important;flex-direction:column;gap:10px}#adventure .scene-panel,#adventure.focused .scene-panel{position:relative;top:auto;display:grid!important;grid-template-columns:96px 1fr;min-height:100px;width:100%;padding:0;align-items:center}#adventure .scene-panel>.teacher-fox{width:96px!important;margin:0}#adventure .scene-panel>.teacher-fox>span{display:none}#adventure .teacher-bubble{position:relative;inset:auto;margin:0 0 0 8px;font-size:14px;grid-column:2;grid-row:1}#adventure .scene-caption{display:none}#adventure .choices{gap:12px;grid-template-columns:1fr}#adventure .choice{min-height:82px;padding:20px 28px;font-size:16px}#adventure .choice b{font-size:17px}#adventure .question-panel h1{font-size:22px}#adventure .context{font-size:17px}#adventure .task-instruction{font-size:12px}#adventure .answer-footer{flex-wrap:wrap}#adventure .lobby{display:flex;flex-direction:column-reverse;min-height:0}#adventure .lobby-art{min-height:295px}#adventure .lobby-art>.teacher-fox{width:260px!important;margin-top:28px}#adventure .lobby-art>.teacher-fox>span{display:none}#adventure .lobby-art .speech-bubble{font-size:14px;top:5px;padding:8px}#adventure .welcome{padding:20px}#adventure .welcome h1{margin-top:0}#adventure .welcome h2{font-size:18px;margin-bottom:10px}}
+@media(prefers-reduced-motion:reduce){#adventure .choice,#adventure .choice:before{animation:none;transition:none}#adventure .teacher-fox i,#adventure .teacher-fox:before{animation:none!important}}
+/* Readable controls and sculpted leaf/fruit silhouettes. */
+#adventure #back,#adventure #hint{color:#28513c!important;text-shadow:none}
+#adventure .teacher-bubble{position:relative!important;inset:auto!important;order:-1;width:90%;margin:0 0 8px;display:block!important}
+#adventure .scene-panel>.teacher-fox{margin:8px 0 0}
+#adventure .choice{padding-left:42px;padding-right:28px}
+#adventure .choice:before,#adventure .choice:nth-child(even):before{border:0;border-radius:0;background:transparent url('banana-leaf.svg') center/100% 100% no-repeat;box-shadow:none}
+#adventure .choice:after{content:none}
+#adventure .choice.is-wrong:before{background:transparent url('banana-leaf.svg') center/100% 100% no-repeat;filter:sepia(.9) saturate(.7) brightness(.8);transform:rotate(4deg) skewY(2deg);border:0}
+#adventure .choice.is-correct:before{background:transparent url('banana-answer.svg') center/100% 100% no-repeat;transform:rotate(-2deg);border:0;border-radius:0;box-shadow:none}
+#adventure .choice.is-correct:after{content:'✦';color:#fff5a0;text-shadow:0 0 10px #ffbf25;right:7%;top:-6px;animation:apple-sparkle 1s 2}
+#adventure .choice.is-correct b{background:#fff2b5d6;border-radius:8px;padding:4px 6px}
+@media(max-width:600px){#adventure .teacher-bubble{width:auto;grid-column:2;grid-row:1;margin:0 0 0 8px}#adventure .scene-panel>.teacher-fox{margin:0}#adventure .choice{padding-left:40px;padding-right:28px}}

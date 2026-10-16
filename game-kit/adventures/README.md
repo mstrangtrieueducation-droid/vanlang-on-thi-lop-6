@@ -1,5 +1,22 @@
 # Phiên bản trắc nghiệm — rừng ngày/đêm
 
+## Bản hiện hành: Titi chibi và lá chuối (chibi-9)
+
+Các mô tả vị trí mascot và thời gian nghỉ ở phần lịch sử bên dưới được thay thế bằng cấu hình này:
+
+- Màn chờ có một Titi chibi lớn bên cạnh nút bắt đầu. Trong bài, một Titi đứng ở cột trái 1/3; câu hỏi và đáp án ở cột phải 2/3. Dưới 600px, Titi và lời nhắn thu gọn phía trên câu hỏi để chữ và vùng chạm đủ lớn.
+- `chibi.css`, `banana-leaf.svg`, `banana-answer.svg`: lá xanh nổi khối; đúng đổi thành chuối vàng, sai héo/rũ; phản hồi có sao, âm thanh và biểu cảm. Không thay đổi dữ liệu câu hỏi hay khóa lưu tiến độ.
+- `teacher-titi-chibi.webp`: sprite ba tư thế, được chỉnh từ Titi đã duyệt bằng công cụ image_gen tích hợp; prompt lưu ở `titi-chibi-prompt.txt`. Giữ kính, áo polo navy cộc tay và váy navy.
+- Câu hỏi và bốn đáp án hiện ngay, luôn cho chọn khi đang đọc. Chọn đáp án hoặc chuyển câu hủy chuỗi lời đọc cũ; chỉ khóa bốn lựa chọn sau khi trả lời đúng.
+- `pacing-audio.js` nạp sau `audio-map.js`, thay toàn bộ lời đọc hiện dùng bằng 285 bản MP3 tĩnh. Jenny en-US đọc mặc định +4%; từng cụm giữ dấu câu để duy trì ngữ điệu hỏi/cảm thán. Chèn khoảng lặng PCM 150ms ở dấu phẩy và 200ms ở hết câu/xuống dòng. Các chỗ `___` giữ tín hiệu điền từ không lời. MP3 và cơ chế phát của trình duyệt có thể thêm độ trễ nhỏ giữa hai tệp riêng.
+- Lời khen nhanh/sáng hơn; “Oh no…” trầm hơn, sau đó động viên. Đây là giọng tổng hợp neural, không phải diễn viên thu âm. SpeechSynthesis là dự phòng và chất giọng phụ thuộc thiết bị.
+
+Khi bổ sung câu hỏi: chạy `node game-kit/adventures/build.cjs`, rồi `python game-kit/adventures/record-pacing.py` (cần edge_tts, numpy, imageio_ffmpeg). Bộ tạo giữ bản ghi từng cụm trong thư mục tạm để tái sử dụng. `pacing-audit.json` lưu thông số khoảng nghỉ của từng bản ghi. Không cần backend khi chơi.
+
+Kiểm tra hiện hành: `node --test game-kit/adventures/quiz.test.cjs game-kit/adventures/pacing.test.cjs`. Kiểm thử quiz cũng kiểm tra dữ liệu/âm thanh cũ còn lưu để tương thích; kiểm thử pacing kiểm tra lớp ghi đè đang dùng. Đã kiểm tra trình duyệt ở 390×844, 844×390 và màn hình máy tính, gồm chọn đáp án trong khi nút âm thanh đang báo Pause.
+
+## Nền tảng và lịch sử thay đổi
+
 15 level được đặt tên Thử thách 1–15 theo thứ tự bản đồ. Tất cả 292 câu đều có đúng bốn lựa chọn, một đáp án. Bỏ giao diện kéo thả, ba lô và xếp tàu. Bấm level từ bản đồ tự đếm 3–2–1, hiện BẮT ĐẦU rồi vào bài.
 
 Nguồn: `content.cjs` và nội dung gốc Game 1 trong `tu-luyen-1/data.js`; `quiz-content.cjs` chuyển thành các câu ABCD. Mỗi cặp/thẻ phân loại trở thành một câu riêng để giữ nội dung. `sourceId` dùng để chuyển tiến độ cũ sang những câu tương đương. Game 1 được nạp từ `quiz-data.js`; file data cũ chỉ dùng làm nguồn biên tập.
