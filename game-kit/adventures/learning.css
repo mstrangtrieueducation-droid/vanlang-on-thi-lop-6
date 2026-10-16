@@ -1,0 +1,8 @@
+#adventure .round-label{display:block;font-size:10px;line-height:1.4;opacity:.8;margin-top:4px;font-weight:500}
+#adventure .learning-note{font-size:12px;line-height:1.5;max-width:580px;margin:10px 0;color:inherit;opacity:.85}
+#adventure #feedback.correct{line-height:1.5;overflow-wrap:anywhere}
+#adventure .question-top .eyebrow{letter-spacing:1.4px}
+#adventure .practice-choice{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:12px}
+#adventure .practice-choice select{font:inherit;border-radius:10px;padding:7px 10px;background:#f7fff4;color:#18383f;border:1px solid #83ad96;max-width:100%}
+@media(max-height:600px){#adventure .learning-note{display:none}#adventure .round-label{font-size:9px;margin-top:1px}#adventure .practice-choice{margin-top:5px;font-size:11px}#adventure .practice-choice select{padding:4px 8px}}
+@media(max-width:550px){#adventure .round-label{font-size:9px;max-width:155px}#adventure .learning-note{font-size:11px;margin:7px 0}#adventure .practice-choice{font-size:11px;flex-wrap:wrap;gap:5px}}
