@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 170" preserveAspectRatio="none">
+ <defs>
+  <linearGradient id="gold" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#fff9ac"/><stop offset=".27" stop-color="#ffe755"/><stop offset=".62" stop-color="#ffc72e"/><stop offset="1" stop-color="#e69a13"/></linearGradient>
+  <linearGradient id="tip"><stop stop-color="#a07730"/><stop offset=".5" stop-color="#684925"/><stop offset="1" stop-color="#ba933b"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
+ </defs>
+ <path d="M29 40 C103 113 310 150 435 39 C443 29 454 35 450 53 C423 142 311 171 194 157 C101 146 43 110 22 57Z" fill="#ae761d" opacity=".6" transform="translate(0 5)"/>
+ <path d="M29 35 C97 100 306 132 432 33 Q449 19 452 40 C442 119 337 157 230 153 C123 149 44 113 22 54 Q18 42 29 35Z" fill="url(#gold)" stroke="#e2a51b" stroke-width="2"/>
+ <path d="M39 49 C131 123 328 133 435 44" fill="none" stroke="#fffbb8" stroke-width="11" stroke-linecap="round" opacity=".8"/>
+ <path d="M51 88 Q242 186 414 87" fill="none" stroke="#d88d13" stroke-width="3" opacity=".45"/>
+ <path d="M75 94 Q245 164 371 109" fill="none" stroke="#fff4a7" stroke-width="13" opacity=".4" filter="url(#blur)"/>
+ <path d="M22 54 Q15 47 17 34 L26 28 Q30 37 38 43 L32 57Z M432 34 Q441 24 439 15 L452 12 Q460 29 451 43Z" fill="url(#tip)"/>
+ <path d="M443 17 L451 16" stroke="#e0bd66" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,17 @@
+#adventure .choice.is-correct:before{background-image:url('banana-single.svg')}
+#adventure .choice.is-correct{filter:drop-shadow(0 5px 3px #b87a16a0) drop-shadow(0 0 16px #ffdf6d)}
+#adventure .choice:not(.is-correct):not(.is-wrong) b{color:#184729;text-shadow:0 1px #efffd0}
+#adventure .choice.is-correct b{background:#fff5bee8;padding:0;border-radius:7px;box-shadow:0 0 0 3px #fff5bee8}
+#adventure .choice.is-wrong b{padding:0;box-shadow:0 0 0 3px #f5d788b8}
+#adventure .choice.is-wrong:before{animation:wilt-clear .8s ease-out forwards}
+@keyframes wilt-clear{0%{transform:rotate(0)}55%{transform:rotate(5deg) scaleY(.8)}100%{transform:rotate(3deg) scaleY(.86) translateY(4px)}}
+.result-summary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0;text-align:center}
+.result-summary>div{padding:14px 8px;border-radius:18px;border:2px solid #ffdf83;background:linear-gradient(#fff9d4,#ffe9a1);color:#543921;box-shadow:0 4px #d5ad50}
+.result-summary strong{display:block;font-size:25px;color:#6440a1}.result-summary small{display:block;font-size:12px;margin-top:4px}
+.result-summary .result-time,.result-summary .result-title{grid-column:1/-1}
+.result-summary .result-time strong{font-size:21px}.result-summary .result-title{background:linear-gradient(#d8f9b2,#a9e1a2);border-color:#d8f9b2;font-size:20px;font-weight:700}
+.result-dialog section{background:radial-gradient(ellipse at top,#fff8cf,#efffe9);border-color:#d7b0ef}
+.result-dialog h2{font-size:29px}.result-dialog .result-note{font-size:12px;color:#526148;line-height:1.5}
+.result-dialog .modal-actions{margin-top:10px}
+.online-link{font-size:13px;text-decoration:underline;text-underline-offset:3px}
+@media(max-height:500px){.result-summary{grid-template-columns:repeat(4,1fr);gap:7px;margin:8px 0}.result-summary>div{padding:8px}.result-summary .result-time,.result-summary .result-title{grid-column:auto}.result-summary strong,.result-summary .result-time strong{font-size:17px}.result-summary .result-title{font-size:15px}.result-dialog h2{margin:4px;font-size:22px}}

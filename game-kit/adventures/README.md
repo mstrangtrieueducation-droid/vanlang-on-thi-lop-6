@@ -1,3 +1,11 @@
+## Cập nhật rewards-12 — lá/chuối, tổng kết và dẫn bài một lần
+
+- `banana-single.svg`: đúng biến thành một quả chuối vàng cong; lá mặc định xanh non/gân xanh đậm, sai dùng lá héo nhăn/rũ.
+- `results.js`: điểm 10/câu đúng lần đầu, sao theo tỉ lệ đúng, danh hiệu tốc độ cần cả độ chính xác. Theo dõi mili giây cho cả chế độ có và không có giới hạn; hiển thị phút/giây. Không tính đếm ngược/hộp thoại; thời gian khi chuyển tab vẫn tính. Đóng trình duyệt thì lưu checkpoint để tiếp tục lượt cũ.
+- `run` lưu cùng attempt hiện có. Đồng hồ cây táo và kết quả dùng cùng phép cập nhật thời gian. Chốt thời gian ở câu cuối, nên thời gian chờ bấm nhận thưởng không cộng vào kết quả.
+- Chỉ đọc “Read the clue…” một lần mỗi lần bắt đầu/tiếp tục lượt; Next/Listen chỉ đọc nội dung và câu hỏi. Hiển thị hướng dẫn bằng chữ vẫn giữ ở mỗi câu.
+- Bản đồ có đường dẫn tới `dau-truong/`. Phần xếp hạng/PVP online **chưa bật** vì chưa kết nối máy chủ. Mã nguồn, tài khoản thử cục bộ và cách thiết lập ở `game-service/README.md`; không coi dữ liệu local là điểm toàn trung tâm.
+
 # Phiên bản trắc nghiệm — rừng ngày/đêm
 
 ## Bản hiện hành: Titi sống động và giọng Ana (living-10)

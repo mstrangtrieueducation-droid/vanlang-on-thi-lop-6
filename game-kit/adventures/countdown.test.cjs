@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const source=fs.readFileSync(__dirname+'/engine.js','utf8');
 test('Start unlocks audio synchronously before scheduling the countdown',()=>{
- const calls=[],scope={unlockAudio:()=>calls.push('unlock'),window:{GAME_CONFIG:{}},countdown:()=>calls.push('countdown'),timed:true};
+ const calls=[],scope={unlockAudio:()=>calls.push('unlock'),window:{GAME_CONFIG:{}},countdown:()=>calls.push('countdown'),timed:true,queue:[{}],pos:0,crypto:{randomUUID:()=> 'test-run'}};
  vm.runInNewContext(source.slice(source.indexOf('function start('),source.indexOf('function countdown('))+';start();',scope);
  assert.deepEqual(calls,['unlock','countdown']);
 });

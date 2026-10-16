@@ -1,0 +1,7 @@
+import http from 'node:http';
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync} from 'node:fs';
+import {GameService} from './core.mjs';
+const sql=new DatabaseSync(':memory:'),db={exec:(s,...a)=>sql.prepare(s).all(...a)},atomic=fn=>{sql.exec('BEGIN');try{const result=fn();sql.exec('COMMIT');return result;}catch(e){sql.exec('ROLLBACK');throw e;}};
+const service=new GameService(db,JSON.parse(readFileSync(new URL('questions.json',import.meta.url))),{adminSecret:process.env.GAME_ADMIN_SECRET||'local-test-only',atomic});
+http.createServer(async(req,res)=>{console.log(req.method,req.url);const headers={'Access-Control-Allow-Origin':'http://127.0.0.1:8792','Access-Control-Allow-Headers':'Authorization,Content-Type','Access-Control-Allow-Methods':'GET,POST,OPTIONS','Content-Type':'application/json','Cache-Control':'no-store'};if(req.method==='OPTIONS'){res.writeHead(204,headers).end();return;}try{let text='';for await(const chunk of req){text+=chunk;if(text.length>4096)throw Object.assign(new Error('Too large'),{status:413});}const data=await service.handle(req.method,new URL(req.url,'http://localhost').pathname,text?JSON.parse(text):{},(req.headers.authorization||'').replace(/^Bearer /,''));res.writeHead(200,headers).end(JSON.stringify(data));}catch(e){res.writeHead(e.status||500,headers).end(JSON.stringify({error:e.message}));}}).listen(8793,'127.0.0.1',()=>console.log('Local QA service http://127.0.0.1:8793 (memory only; no real students)'));

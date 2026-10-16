@@ -1,0 +1,8 @@
+import {GameService} from './core.mjs';
+import games from './questions.json';
+const allowed='https://mstrangtrieueducation-droid.github.io';
+export default {async fetch(request,env){const origin=request.headers.get('Origin');if(origin&&origin!==allowed)return new Response('Origin not allowed',{status:403});const headers={'Access-Control-Allow-Origin':allowed,'Access-Control-Allow-Headers':'Authorization,Content-Type','Access-Control-Allow-Methods':'GET,POST,OPTIONS','Cache-Control':'no-store','Vary':'Origin'};if(request.method==='OPTIONS')return new Response(null,{status:204,headers});const instance=env.GAME_HUB.get(env.GAME_HUB.idFromName('vanlang-v1'));const response=await instance.fetch(request);return new Response(response.body,{status:response.status,headers:{...headers,'Content-Type':'application/json'}});}};
+export class GameHub{
+ constructor(ctx,env){this.ctx=ctx;this.service=new GameService(ctx.storage.sql,games,{adminSecret:env.ADMIN_SECRET,atomic:fn=>ctx.storage.transactionSync(fn)});}
+ async fetch(request){try{if(Number(request.headers.get('Content-Length'))>4096)return Response.json({error:'Request too large'},{status:413});const text=request.method==='POST'?await request.text():'';if(text.length>4096)return Response.json({error:'Request too large'},{status:413});const body=text?JSON.parse(text):{},path=new URL(request.url).pathname,token=(request.headers.get('Authorization')||'').replace(/^Bearer /,'');return Response.json(await this.service.handle(request.method,path,body,token,request.headers.get('CF-Connecting-IP')||'unknown'));}catch(e){return Response.json({error:e.status?e.message:'Máy chủ đang bận, vui lòng thử lại.'},{status:e.status||500});}}
+}

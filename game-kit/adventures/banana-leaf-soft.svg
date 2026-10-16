@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 170" preserveAspectRatio="none">
  <defs>
-  <linearGradient id="green" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#d2ed83"/><stop offset=".22" stop-color="#7cc94a"/><stop offset=".55" stop-color="#319a3b"/><stop offset="1" stop-color="#176242"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#e1fba1"/><stop offset=".22" stop-color="#a6df53"/><stop offset=".55" stop-color="#62b943"/><stop offset="1" stop-color="#2b7d38"/></linearGradient>
   <radialGradient id="glow"><stop stop-color="#e7ffa3" stop-opacity=".65"/><stop offset="1" stop-color="#c6f88a" stop-opacity="0"/></radialGradient>
   <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
   <path id="shape" d="M12 139 C24 120 19 94 42 72 C66 48 89 54 112 39 C147 19 177 31 211 21 C248 9 283 24 319 16 C370 7 419 27 468 22 C460 52 442 80 414 92 C393 101 389 117 364 121 C337 125 319 143 286 144 C251 144 232 156 197 151 C157 147 137 157 103 149 C67 141 41 150 12 139Z"/>
   <clipPath id="clip"><use href="#shape"/></clipPath>
  </defs>
  <use href="#shape" transform="translate(0 5)" fill="#145634"/>
- <use href="#shape" fill="url(#green)"/>
+ <use href="#shape" fill="url(#green)" stroke="#286538" stroke-width="3"/>
  <g clip-path="url(#clip)">
   <ellipse cx="231" cy="45" rx="215" ry="48" fill="url(#glow)" filter="url(#soft)"/>
   <path d="M35 105 Q148 31 432 32" fill="none" stroke="#edffb7" stroke-width="8" opacity=".25" filter="url(#soft)"/>
-  <g fill="none" stroke="#d2f59b" stroke-width="2" opacity=".24">
+  <g fill="none" stroke="#235f36" stroke-width="2.5" opacity=".38">
    <path d="M53 132 Q74 101 79 57 M90 124 Q112 89 122 38 M132 115 Q150 77 161 29 M176 105 Q195 65 207 22 M220 93 Q244 56 254 20 M266 81 Q290 43 307 16 M310 68 Q336 33 355 18 M355 55 Q381 31 402 22"/>
    <path d="M53 132 Q76 145 100 151 M90 124 Q118 140 142 153 M132 115 Q160 136 190 152 M176 105 Q211 128 238 151 M220 93 Q259 117 284 144 M266 81 Q305 108 330 133 M310 68 Q350 96 375 118 M355 55 Q399 73 422 90"/>
   </g>
   <path d="M19 143 C155 128 322 82 463 24" fill="none" stroke="#184c34" stroke-width="8" opacity=".13"/>
-  <path d="M10 141 C157 124 321 80 463 24" fill="none" stroke="#c5e68b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M10 141 C157 124 321 80 463 24" fill="none" stroke="#285f36" stroke-width="4" stroke-linecap="round"/>
   <path d="M59 69 Q121 27 177 31 M319 18 Q389 13 443 25" fill="none" stroke="#e3f8a3" stroke-width="3" opacity=".4" stroke-linecap="round"/>
  </g>
 </svg>
