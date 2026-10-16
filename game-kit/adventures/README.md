@@ -18,3 +18,6 @@ Kiểm tra: `node --test game-kit/adventures/quiz.test.cjs`. Các kiểm thử p
 - `apple-timer.js`: 0% nảy mầm, 25% cây nhỏ, 50% hoa, 75% táo, 100% táo rụng vào giỏ. Phần trăm là thời gian đã trôi qua, không phải số câu đã làm. Mặc định bài mới bật 10 phút; vẫn giữ lựa chọn không giới hạn và trạng thái bài cũ. Hết giờ có thể tiếp tục không giới hạn mà không mất đáp án.
 - Khi kết thúc bài, hiện giỏ táo và thông báo hoàn thành; kết thúc thời gian không tự đánh dấu các câu chưa làm là hoàn thành.
 - Chỗ điền từ `___` phát hai nốt nhẹ + khoảng lặng 0,75 giây. `record.py` tách câu thành đoạn âm thanh và chèn `gap-cue.wav`. Trình phát hỗ trợ Pause/Listen xuyên các đoạn; giọng dự phòng thay ký tự gạch dưới bằng dấu ba chấm. Từ “blank” trong nội dung thật như “blank pages” vẫn được đọc đúng nghĩa.
+
+### Cây táo nổi khối
+SVG dùng gradient, bóng đổ và điểm sáng; tán lá đung đưa nhẹ. `AppleTimer.update()` thay CSS variables trên cùng cây SVG ở mỗi nhịp đồng hồ để tránh khởi tạo lại hoạt ảnh. Năm quả rơi lệch nhau 650 ms, vào miệng giỏ; táo trong giỏ xuất hiện theo lần chạm, giỏ nảy và phát âm thanh nhỏ nếu bật âm. Chế độ giảm chuyển động hiển thị giỏ đầy ngay, không ép chạy hoạt ảnh.
