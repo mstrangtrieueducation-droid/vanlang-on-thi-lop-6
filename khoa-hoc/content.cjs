@@ -91,4 +91,15 @@ for(const course of Object.values(courses)){
  if(course.id.startsWith('discover-'))games[0].title='Unit 1 · Vocabulary, Grammar & Reading';
  course.lessons=games;
 }
+// Add classroom-aligned continuation packs without changing existing question/storage IDs.
+const extension=require('./extension.json');
+for(const [id,games] of Object.entries(extension))courses[id].lessons.push(...games);
+for(const n of [1,2])courses[`family-friends-${n}`].scope='Starter và Units 1–15 · Game ôn từ vựng, nghe nhận diện và mẫu câu; khoảng hai buổi học/game. Không thay phần phỏng vấn trên lớp.';
+for(const n of [1,2,3,4])courses[`discover-${n}`].scope='Units 1–18 · Từ vựng, nghe nhận diện, đọc từ trong ngữ cảnh và mẫu câu. Ghép buổi từ vựng với buổi ngữ pháp cùng Unit; bài đọc dài và phần nói vẫn học trên lớp.';
+const fighter=courses.fighter;
+fighter.scope='Vocabulary Foundation 1–2 và Reading Intensive 1–2 là phần chính. Reading 3–5 là phần nâng cao. Mỗi game ôn một Unit, tương ứng khoảng hai buổi học; không thay bài đọc dài hoặc bài kiểm tra trên lớp.';
+fighter.lessons.slice(0,3).forEach((g,i)=>{g.track='Reading 3';g.advanced=true;g.units=[i+1];g.sessionCount=2;g.title='Reading 3 · '+g.title;});
+const tracks=['Vocabulary 1','Vocabulary 2','Reading 1','Reading 2','Reading 3','Reading 4','Reading 5'];
+fighter.tracks=tracks.map(name=>({name,advanced:/Reading [345]/.test(name)}));
+fighter.lessons.sort((a,b)=>tracks.indexOf(a.track)-tracks.indexOf(b.track)||(a.units[0]-b.units[0]));
 module.exports=courses;

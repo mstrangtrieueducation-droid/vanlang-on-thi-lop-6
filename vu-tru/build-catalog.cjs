@@ -1,0 +1,9 @@
+// Data adapters keep legacy routes and IDs; the browser has no fixed course/lesson counts.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),root=path.join(__dirname,'..');
+function read(file,key){const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,file),'utf8'),c);return JSON.parse(JSON.stringify(c.window[key]));}
+const courses=read('vu-tru/planets.js','COURSE_PLANETS'),legacy=read('game-kit/adventures/catalog.js','ADVENTURE_CATALOG');
+const legacyCourse={id:'van-lang',lessons:legacy.map(c=>{const id='tu-luyen-'+c.n,config=read(id+'/config.js','GAME_CONFIG'),game=read(id+'/quiz-data.js','ADVENTURE');return {id,title:c.name,description:c.topics,items:game.items,storageKey:config.storageKey,href:'../'+id+'/'};}).sort((a,b)=>a.title.localeCompare(b.title,'vi',{numeric:true}))};
+fs.writeFileSync(path.join(__dirname,'legacy-lessons.json'),JSON.stringify(legacyCourse));
+const registry=courses.map(c=>{const data=c.id===legacyCourse.id?legacyCourse:JSON.parse(fs.readFileSync(path.join(root,'khoa-hoc/data',c.id+'.json'),'utf8'));return {...c,dataURL:c.id===legacyCourse.id?'legacy-lessons.json':'../khoa-hoc/data/'+c.id+'.json',destination:c.destination||'../khoa-hoc/',scope:data.scope||c.description,tracks:data.tracks||[],lessons:data.lessons.map(l=>({id:l.id,title:l.title,description:l.description||l.items[0]?.focus||l.title,track:l.track,href:l.href||'../khoa-hoc/',storageKey:l.storageKey||`mtt-course-${c.id}-${l.id}-v1`,count:l.items.length,progressIds:l.items.map(q=>({id:q.id,sourceId:q.sourceId})),sourceLessons:l.sourceLessons||[]}))};});
+fs.writeFileSync(path.join(__dirname,'catalog.json'),JSON.stringify(registry));
+console.log('Galaxy registry: '+registry.length+' courses, '+registry.reduce((n,c)=>n+c.lessons.length,0)+' planets.');

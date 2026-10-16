@@ -3,3 +3,5 @@ html[data-mode="night"] body:has(#course-map){background-image:linear-gradient(#
 html[data-mode="night"] #course-map .course-hero{background:#173c43ed;color:#efffea}
 html[data-mode="night"] #course-map .course-scope{color:#d1e8db}
 html[data-mode="night"] #course-map .course-node{box-shadow:0 7px 0 #785929,0 0 28px #f4d78b55}
+
+.course-filter{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:16px auto 28px;font-weight:800;color:#fff}.course-filter select{max-width:90vw;padding:12px 18px;border:2px solid #a9d480;border-radius:16px;background:#fffde9;color:#173e31;font:inherit;box-shadow:0 5px 0 #477752}

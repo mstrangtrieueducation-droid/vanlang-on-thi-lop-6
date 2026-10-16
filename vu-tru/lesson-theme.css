@@ -1,0 +1,13 @@
+:root[data-galaxy]{--galaxy-a:#61e4ed;--galaxy-b:#9175ed;--galaxy-dark:#17264d;--galaxy-ink:#edf6ff}
+:root[data-galaxy=candy]{--galaxy-a:#b8f9d7;--galaxy-b:#ee9bce;--galaxy-dark:#563778}
+:root[data-galaxy=nova]{--galaxy-a:#ffdb8c;--galaxy-b:#ef6480;--galaxy-dark:#422039}
+html[data-galaxy] body{background:radial-gradient(ellipse at 70% 30%,var(--galaxy-b),var(--galaxy-dark) 75%)!important}
+html[data-galaxy] #adventure{border-color:var(--galaxy-a)}
+html[data-galaxy] #adventure>header,html[data-galaxy] .course-header{background:linear-gradient(120deg,var(--galaxy-dark),color-mix(in srgb,var(--galaxy-b),#152343 60%));border-color:var(--galaxy-a)}
+html[data-galaxy] #adventure .play{background:radial-gradient(ellipse at 20% 50%,color-mix(in srgb,var(--galaxy-b),transparent 65%),transparent 60%),linear-gradient(125deg,#121e43ee,#151e45dd);position:relative}
+html[data-galaxy] #adventure .pre-game,html[data-galaxy] #adventure .lobby{background:radial-gradient(ellipse at 75% 45%,color-mix(in srgb,var(--galaxy-b),transparent 60%),transparent 65%),linear-gradient(120deg,var(--galaxy-dark),#13223b);color:var(--galaxy-ink)}
+html[data-galaxy] #adventure .lobby h1,html[data-galaxy] #adventure .lobby h2,html[data-galaxy] #adventure .lobby p,html[data-galaxy] #adventure .lobby label{color:var(--galaxy-ink)}
+html[data-galaxy] .course-node{border-color:var(--galaxy-a)}
+html[data-galaxy] #adventure .teacher-fox:after{content:'★';position:absolute;left:34%;top:52%;width:32%;height:15%;display:grid;place-items:center;border:2px solid var(--galaxy-a);border-radius:22% 22% 8% 8%;background:linear-gradient(115deg,var(--galaxy-a),var(--galaxy-b));color:var(--galaxy-dark);font-size:clamp(10px,2vw,22px);pointer-events:none}
+html[data-galaxy] #adventure .teacher-fox{isolation:isolate}
+html[data-galaxy] #adventure .scene-panel .teacher-fox:before{border:2px solid var(--galaxy-a);border-radius:50%;inset:0 5% 27%;background:linear-gradient(125deg,#ffffff22,transparent);z-index:1;pointer-events:none}

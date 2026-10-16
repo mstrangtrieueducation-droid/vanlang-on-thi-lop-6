@@ -1,25 +1,45 @@
-# Classroom game content
+# Classroom games and adaptive galaxy
 
-Source checked 2026-10-16:
-- Guidelines_Bài tập trên lớp: https://docs.google.com/spreadsheets/d/1WzwOpp0APmZKWHbRDb5KFc8rg2g92kdmLcLPcGS1N_w/edit
-  - Phonics A1:B57: all listed teaching sound groups; interview assessments and Story texts are not recreated.
-  - Family & Friends 1 / Family & Friends 2 A1:B12: Starter and Unit 1, using the linked classroom practice below.
-  - Discover 1–4 A1:B12: Unit 1 vocabulary and grammar. New short reading passages apply those topics; they are not the book's original Reading texts.
-- GUIDELINES_FIGHTER & IELTS, READING INTENSIVE 3-4-5 A1:C25: https://docs.google.com/spreadsheets/d/1QSSK1LxWniA-hgB2RBE02fM0FeXFEdH6IMjtwkt9EBg/edit#gid=1661579442
-  - Fighter currently covers Reading Intensive 3 Units 1–3 topics with original short passages and reasoning questions. It does not cover all Fighter strands or the full Reading 3–5 books.
+Source checked 2026-10-17:
+- [Guidelines_Bài tập trên lớp](https://docs.google.com/spreadsheets/d/1WzwOpp0APmZKWHbRDb5KFc8rg2g92kdmLcLPcGS1N_w/edit): Phonics; Family & Friends 1–2; Discover 1–4.
+- [GUIDELINES_FIGHTER & IELTS](https://docs.google.com/spreadsheets/d/1QSSK1LxWniA-hgB2RBE02fM0FeXFEdH6IMjtwkt9EBg/edit): Vocabulary Foundation 1–2, Reading Intensive 1–2, Reading Intensive 3–4–5.
+- `coverage.json` maps continuation games to the linked classroom vocabulary/grammar pages. Private source downloads, access tokens and textbook passages are not included.
 
-Checked classroom pages:
-- FF1 Starter: https://mstrangtrieueducation-droid.github.io/ssyhmy4/
-- FF1 Unit 1 words: https://mstrangtrieueducation-droid.github.io/ymrjqdt/r84qgwn/
-- FF2 Starter: https://mstrangtrieueducation-droid.github.io/btxn9se/
-- FF2 Unit 1 words: https://mstrangtrieueducation-droid.github.io/zrgefmp/
-- Discover 1 words / be: efqb5e2 / gxy5mzk on the same GitHub Pages host.
-- Discover 2 words / have-has: cvxzpqp / q5n874e.
-- Discover 3 words / -ed and -ing adjectives: q7ejk55 / n4h5v4x.
-- Discover 4 words / predictions with will: hvf4ah6 / a7xutkj.
+## Coverage
 
-36 games, 357 original questions. Phonics combines two consecutive teaching sound lessons per game (7 / 7 / 8 / 3 games). Family & Friends combines Starter plus vocabulary, with grammar in a second game (2 each). Discover combines Unit 1 vocabulary, grammar and reading into one game per level. Fighter keeps one reading topic per game (3). Question IDs are preserved and legacy lesson progress is migrated when a course opens. These are supplementary games based on the above scope, not a replacement for every classroom task. The scope is visible on each course map. No private class messages, student records or access tokens are copied into the public app.
+231 classroom games / 2,600 questions, plus the existing 15 Văn Lang games. The 357 previously published classroom questions retain their IDs and exact content.
 
-Edit `content.cjs`, keep stable IDs for published questions, run `node khoa-hoc/build.cjs` then `node --test khoa-hoc/content.test.cjs`. Each course is a separately fetched JSON file; the UI, mascot, effects and timer use the shared game engine. Progress keys are isolated by course, lesson and the existing explicit student profile.
+| Course | Scope | Games |
+|---|---|---:|
+| Phonics 1 / 2 / 3 / 4 | All teaching sound groups listed in Guidelines; about two sound lessons per game | 7 / 7 / 8 / 3 |
+| Family & Friends 1 / 2 | Starter, Units 1–15; consecutive pairs of teaching sessions | 23 / 23 |
+| Discover 1 / 2 / 3 / 4 | Units 1–18; vocabulary + grammar sessions within each unit | 18 each |
+| Fighter Vocabulary 1 / 2 | Units 1–14 in each book | 14 each |
+| Fighter Reading 1 / 2 | Units 1–12 in each book, primary tracks | 12 each |
+| Fighter Reading 3 / 4 / 5 | Units 1–12 in each book, optional advanced tracks | 12 each |
 
-New narration uses the device's English speech synthesis when a shared recorded clip does not exist; the chosen voice varies by device. These recognition and comprehension games do not grade a child's pronunciation. Classroom speaking/recording work remains separate.
+These are short supplementary recognition games, not full replicas of every classroom exercise. New units sample key vocabulary, listening recognition, word meaning in short contexts and grammar patterns from the linked classroom work. Vietnamese meanings are used where appropriate, without voicing them as English. Long reading passages, speaking, interview assessments and written compositions remain classroom activities. Reading 3 Units 1–3 retain their earlier original short reading passages and reasoning questions. Device speech synthesis supplies narration when no local recording exists; voices vary by device.
+
+## Build and validation
+
+Edit `content.cjs` / `extension.json`, preserving published question IDs, then run:
+
+```
+node khoa-hoc/build.cjs
+node --test khoa-hoc/content.test.cjs vu-tru/galaxy.test.cjs game-kit/adventures/quiz.test.cjs game-kit/adventures/results.test.cjs game-kit/adventures/validate.test.cjs
+```
+
+`build.cjs` also builds the universe registry from the existing course configurations and legacy adventure data. UI supports any number of courses/lessons; no fixed carousel length. To add a course, add its configuration and course JSON, then rebuild the registry.
+
+## Runtime
+
+- `/vu-tru/` reads `course`, `release`, optional `lesson`, `track`, `view=map` and explicit student profile parameters. Navigation preserves release and profile; legacy lesson URLs remain valid.
+- Three course-selected themes with per-course overrides; SVG archetypes are inferred from lesson titles/index, with a boss at the end. Course menus and constellation positions derive from data. Only the selected course question bank is fetched for UFO bonuses.
+- `universe_progress_<courseId>` (plus explicit profile suffix) stores the galaxy progress index, stars, theme, game mode and Stardust. Existing per-lesson saves are retained and read for migration. No central leaderboard or cross-device sync is implied.
+- `lesson-bridge.js` mirrors successful question progress and completed-run stars. Stars keep the best completed run. Partial runs do not earn completion stars.
+- `gameplay-core.js` chooses energy slots, meteors, letter cipher or signal cards without modifying data. Standard mode is one click away. Both modes call the same `submitAnswer` -> rules -> win/fail -> results path.
+- After five completed questions, an optional four-pair circuit bonus uses four already learned questions with distinct answers. It never reveals future answers or affects exam scoring, and pauses the exam timer while open. Closing it resumes the timer. A complete bonus awards 10 course-specific Stardust once per run/checkpoint.
+- 50/50: twice/run; Radar: twice/run; Shield: once/run. Counters persist with the attempt. Shield protects Combo once but never erases an incorrect first attempt. Results flag use of power-up assistance. Standard mode hides power-ups, while preserving the existing attempt and elapsed time.
+- Keyboard, tap, pointer drag and HTML drag/drop share submission logic. Reduced-motion and motion pause options are supported. Sound requires a user gesture and uses local Web Audio; no new external runtime dependencies.
+
+On very small screens, long reading text and the multi-row constellation map scroll within their own panels; the main game controls stay inside the viewport. Native iPhone/Zalo behavior still requires a real-device check.

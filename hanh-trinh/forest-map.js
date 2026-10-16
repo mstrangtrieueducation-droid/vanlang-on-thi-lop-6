@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const catalog=window.ADVENTURE_CATALOG,profile=window.GameProfile,rules=window.AdventureRules;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const p=new URLSearchParams();if(profile){p.set('mtt_name',profile.name);p.set('mtt_class',profile.className);if(profile.displayName!==profile.name)p.set('mtt_english',profile.displayName);}
+const p=new URLSearchParams();const incoming=new URLSearchParams(location.search);for(const k of ['release','course','galaxy','from'])if(incoming.has(k))p.set(k,incoming.get(k));if(profile){p.set('mtt_name',profile.name);p.set('mtt_class',profile.className);if(profile.displayName!==profile.name)p.set('mtt_english',profile.displayName);}
 p.set('play','1');const query='?'+p;document.querySelector('#student').textContent=profile?.displayName||'Hello, explorer!';
 const order=[1,2,3,4,13,5,6,7,8,14,9,10,11,12,15];
 function progress(g){const key=`mtt-tu-luyen-${g.n}-v1`+(profile?':profile:'+encodeURIComponent(JSON.stringify([profile.className,profile.name])):'');try{const s=JSON.parse(localStorage.getItem(key)||'null');const done=Math.min(g.count,Array.isArray(s?.done)?(g.progressIds||[]).filter(q=>s.done.includes(q.id)||s.done.includes(q.sourceId)).length:0);return{done,total:g.count,stars:rules.stars(done,g.count,Array.isArray(s?.review)?s.review.length:0)};}catch{return{done:0,total:g.count,stars:0};}}
