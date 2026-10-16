@@ -34,3 +34,7 @@ header>.teacher-fox,header>.mascot.teacher-fox{position:relative!important;order
 @keyframes apple-sparkle{0%{opacity:0;transform:scale(.6)}35%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1.25)}}
 @media(max-width:700px){.play-top #clock{width:160px}.apple-3d{width:140px}.apple-3d svg{height:83px}.overlay .apple-3d svg{height:auto}.overlay .apple-3d .growth-label{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.apple-3d .canopy-sway,.apple-3d.harvest .apple-basket,.apple-3d.harvest .harvest-sparkles{animation:none}.apple-3d.harvest .falling-apple{animation:none;opacity:0}.apple-3d.harvest .caught-apple{animation:none;opacity:1}.apple-3d .growing-tree,.apple-3d .seed-sprout,.apple-3d .growth-track i{transition:none}}
+
+/* Natural document flow keeps header, answers and footer inside the game. */
+body{display:block}#adventure{height:auto;aspect-ratio:auto;display:block}#adventure>header{flex-shrink:0;flex-wrap:wrap;min-height:max-content;padding-top:18px;padding-bottom:18px}#adventure>header .brand{min-width:120px;overflow-wrap:anywhere}#adventure .play-layout{height:auto}#adventure>footer{position:relative;flex-wrap:wrap;overflow-wrap:anywhere}#adventure .play-top{flex-wrap:wrap}#adventure .play-top>span{min-width:0;overflow-wrap:anywhere}
+@media(max-width:700px){#adventure>header{padding-top:14px;padding-bottom:14px}}
