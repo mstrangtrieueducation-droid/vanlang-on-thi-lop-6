@@ -15,6 +15,11 @@ with wave.open(str(gap),'wb') as w:
   value=.09*math.sin(math.pi*local/.12)*math.sin(2*math.pi*(660 if t<.12 else 880)*local) if tone else 0
   samples.append(struct.pack('<h',int(32767*value)))
  w.writeframes(b''.join(samples))
+# Explicit silent clips preserve pedagogical pauses even when audio is paused/resumed.
+for milliseconds in (300,500):
+ with wave.open(str(out/f'pause-{milliseconds}.wav'),'wb') as w:
+  w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000)
+  w.writeframes(bytes(24000*milliseconds//1000*2))
 sequences={}; expanded={}
 for item in manifest:
  if re.search(r'_{2,}',item['text']):
@@ -46,6 +51,13 @@ async def main():
      await asyncio.sleep(2+attempt)
  await asyncio.gather(*(one(item) for item in manifest))
  for key,parts in sequences.items(): mapping[key]=[mapping[part] if part is not None else '../game-kit/adventures/audio/gap-cue.wav' for part in parts]
+ pause500='../game-kit/adventures/audio/pause-500.wav'
+ keys=json.loads((root/'narration-keys.json').read_text(encoding='utf-8'))+['Read the clue and choose the correct answer.']
+ for key in keys:
+  if key in mapping:
+   clips=mapping[key] if isinstance(mapping[key],list) else [mapping[key]]
+   mapping[key]=clips+[pause500]
+ mapping['titi-try-again']=[mapping['Oh no…'],'../game-kit/adventures/audio/pause-300.wav',mapping['Let’s try it again!']]
  (root/'audio-map.js').write_text('window.ADVENTURE_AUDIO='+json.dumps(mapping,ensure_ascii=False)+';\n',encoding='utf-8')
  legacy_keys=root/'legacy-audio-keys.json'
  if legacy_keys.exists():

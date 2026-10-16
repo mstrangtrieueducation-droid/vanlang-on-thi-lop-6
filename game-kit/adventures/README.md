@@ -15,9 +15,14 @@ Kiểm tra: `node --test game-kit/adventures/quiz.test.cjs`. Các kiểm thử p
 ## Cập nhật Titi và cây táo
 - Một cô giáo Titi duy nhất trong header góc trên trái; không có nhân vật lặp ở bản đồ, hộp thoại hoặc màn hoàn thành.
 - `forest-classroom-bg.webp` là ảnh nền có học sinh hòa trong cảnh rừng, tạo bằng image_gen ở chế độ chỉnh ảnh. Không dùng các cutout học sinh rời. Prompt ở `forest-classroom-prompt.txt`.
-- `apple-timer.js`: 0% nảy mầm, 25% cây nhỏ, 50% hoa, 75% táo, 100% táo rụng vào giỏ. Phần trăm là thời gian đã trôi qua, không phải số câu đã làm. Mặc định bài mới bật 10 phút; vẫn giữ lựa chọn không giới hạn và trạng thái bài cũ. Hết giờ có thể tiếp tục không giới hạn mà không mất đáp án.
+- `apple-timer.js`: 0% nảy mầm, 20% cây nhỏ, 35% hoa, 50% táo, 100% táo rụng vào giỏ. Phần trăm là thời gian đã trôi qua, không phải số câu đã làm. Mặc định bài mới bật 10 phút; vẫn giữ lựa chọn không giới hạn và trạng thái bài cũ. Hết giờ có thể tiếp tục không giới hạn mà không mất đáp án.
 - Khi kết thúc bài, hiện giỏ táo và thông báo hoàn thành; kết thúc thời gian không tự đánh dấu các câu chưa làm là hoàn thành.
 - Chỗ điền từ `___` phát hai nốt nhẹ + khoảng lặng 0,75 giây. `record.py` tách câu thành đoạn âm thanh và chèn `gap-cue.wav`. Trình phát hỗ trợ Pause/Listen xuyên các đoạn; giọng dự phòng thay ký tự gạch dưới bằng dấu ba chấm. Từ “blank” trong nội dung thật như “blank pages” vẫn được đọc đúng nghĩa.
 
 ### Cây táo nổi khối
 SVG dùng gradient, bóng đổ và điểm sáng; tán lá đung đưa nhẹ. `AppleTimer.update()` thay CSS variables trên cùng cây SVG ở mỗi nhịp đồng hồ để tránh khởi tạo lại hoạt ảnh. Năm quả rơi lệch nhau 650 ms, vào miệng giỏ; táo trong giỏ xuất hiện theo lần chạm, giỏ nảy và phát âm thanh nhỏ nếu bật âm. Chế độ giảm chuyển động hiển thị giỏ đầy ngay, không ép chạy hoạt ảnh.
+
+### Cây táo di chuyển và giọng dẫn bài
+Cây trượt từ trái sang phải theo thời gian đã trôi qua, với CSS variable --travel từ 0 đến 250 đơn vị SVG; tán cây lớn liên tục và quả xuất hiện từ giữa giờ. Giỏ cố định ở cuối đường đi. Chế độ giảm chuyển động cập nhật vị trí trực tiếp. Titi ở màn chờ và bản đồ có hào quang, chuyển động chào; vẫn chỉ có một nhân vật ở góc trên trái.
+
+Giọng nữ đọc yêu cầu, nghỉ 500 ms, đọc ngữ cảnh, nghỉ 500 ms rồi đọc câu hỏi. build.cjs tạo narration-keys.json; record.py chèn tệp WAV im lặng vào chuỗi clip để Pause/Listen và tắt tiếng hoạt động xuyên khoảng nghỉ. Đúng: Excellent! / Great job!, hợp âm và sao bay. Sai: Oh no… — nghỉ 300 ms — Let’s try it again!, kèm ba nốt động viên nhẹ. Chuyển câu hoặc tắt tiếng hủy lời và chuỗi nốt đang phát.
