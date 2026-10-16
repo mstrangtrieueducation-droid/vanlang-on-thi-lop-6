@@ -18,7 +18,7 @@ Checked classroom pages:
 - Discover 3 words / -ed and -ing adjectives: q7ejk55 / n4h5v4x.
 - Discover 4 words / predictions with will: hvf4ah6 / a7xutkj.
 
-70 challenges, 357 original questions. These are supplementary games based on the above scope, not a replacement for every classroom task. The scope is visible on each course map. No private class messages, student records or access tokens are copied into the public app.
+36 games, 357 original questions. Phonics combines two consecutive teaching sound lessons per game (7 / 7 / 8 / 3 games). Family & Friends combines Starter plus vocabulary, with grammar in a second game (2 each). Discover combines Unit 1 vocabulary, grammar and reading into one game per level. Fighter keeps one reading topic per game (3). Question IDs are preserved and legacy lesson progress is migrated when a course opens. These are supplementary games based on the above scope, not a replacement for every classroom task. The scope is visible on each course map. No private class messages, student records or access tokens are copied into the public app.
 
 Edit `content.cjs`, keep stable IDs for published questions, run `node khoa-hoc/build.cjs` then `node --test khoa-hoc/content.test.cjs`. Each course is a separately fetched JSON file; the UI, mascot, effects and timer use the shared game engine. Progress keys are isolated by course, lesson and the existing explicit student profile.
 

@@ -78,4 +78,17 @@ q('A species has very few individuals left and may disappear completely.','Which
 q('A village protects a wetland. Fish, frogs and birds benefit.','Why can protecting one habitat help many species?','Many species share the same habitat.',['All animals eat the same food.','Every animal lives in water.','Only birds need shelter.']),
 q('A report compares animal counts from ten years of surveys.','Why is this useful?','It can show changes over time.',['It proves every animal is safe.','It replaces all future research.','It describes only one animal’s feelings.']),
 q('Tourists watch nesting turtles from a distance and leave no litter.','Which goal does this support?','wildlife conservation',['habitat destruction','illegal hunting','water pollution'])])]);
+// A game combines roughly two classroom teaching sessions. Preserve question IDs
+// and source lesson IDs so an existing student's progress can be migrated.
+for(const course of Object.values(courses)){
+ const source=course.lessons;
+ const groupSize=course.id.startsWith('discover-')?3:course.id==='fighter'?1:2;
+ const games=[];
+ for(let i=0;i<source.length;i+=groupSize){
+  const group=source.slice(i,i+groupSize);
+  games.push({id:`game-${games.length+1}`,title:group.map(l=>l.title).join(' / '),sourceLessons:group.map(l=>l.id),items:group.flatMap(l=>l.items)});
+ }
+ if(course.id.startsWith('discover-'))games[0].title='Unit 1 · Vocabulary, Grammar & Reading';
+ course.lessons=games;
+}
 module.exports=courses;
