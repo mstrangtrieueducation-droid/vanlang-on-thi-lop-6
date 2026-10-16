@@ -1,5 +1,8 @@
 # Bộ game dùng chung — Ms. Trang Trieu Education
 
+## Mở rộng tháng 10/2026
+Đã bổ sung game 2–15 và bản đồ rừng tại `../hanh-trinh/`. Bộ máy đa trò chơi, nội dung và hướng dẫn biên tập nằm trong `adventures/README.md`. Các mục bên dưới mô tả bộ khung ba màn của game 1; không phải giới hạn của các game mới. Giao diện rừng và cô giáo Cáo mặc đồng phục được dùng chung qua `adventures/forest.css`. Tổng hành trình có 12 game theo tuần và 3 game tổng ôn, mở khóa tuần tự, chấm 1–3 sao khi hoàn thành.
+
 ## Kiến trúc
 - `engine.js`: kéo thả/chạm, chấm đáp án, đọc câu hỏi, combo, sticker, lưu bài dở dang, đếm ngược và thi thử.
 - `style.css`, `assets/`: giao diện 3D, Titi được duyệt, hình ba lô/tàu/cửa, font tiếng Việt. Sửa một lần cho tất cả game.
