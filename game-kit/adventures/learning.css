@@ -6,3 +6,5 @@
 #adventure .practice-choice select{font:inherit;border-radius:10px;padding:7px 10px;background:#f7fff4;color:#18383f;border:1px solid #83ad96;max-width:100%}
 @media(max-height:600px){#adventure .learning-note{display:none}#adventure .round-label{font-size:9px;margin-top:1px}#adventure .practice-choice{margin-top:5px;font-size:11px}#adventure .practice-choice select{padding:4px 8px}}
 @media(max-width:550px){#adventure .round-label{font-size:9px;max-width:155px}#adventure .learning-note{font-size:11px;margin:7px 0}#adventure .practice-choice{font-size:11px;flex-wrap:wrap;gap:5px}}
+
+.student-lesson-gate{margin:auto;padding:30px;max-width:650px;display:grid;gap:20px;color:#1a3448;background:#effbf7;border-radius:24px;text-align:center}.student-lesson-gate h1{font-size:24px}.student-lesson-gate a{padding:12px;border-radius:12px;background:#263b78;color:white;text-decoration:none}.student-lesson-gate p{font-size:17px;line-height:1.6}

@@ -1,10 +1,11 @@
-(() => {
+(async () => {
  'use strict';
+ if(window.StudentGate&&!await StudentGate.enter())return;
  const G=window.ADVENTURE, coach=window.LearningCoach, rules=window.AdventureRules, app=document.querySelector('#adventure');
  const profile=window.GameProfile, key=profile?.storageKey||window.GAME_CONFIG.storageKey;
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
- const query=()=>{const p=new URLSearchParams();const current=new URLSearchParams(location.search);for(const k of ['course','release','galaxy','from'])if(current.has(k))p.set(k,current.get(k));if(profile){p.set('mtt_name',profile.name);p.set('mtt_class',profile.className);if(profile.displayName!==profile.name)p.set('mtt_english',profile.displayName);}return p.size?'?'+p:'';};
+ const query=()=>{const p=new URLSearchParams();const current=new URLSearchParams(location.search);for(const k of ['course','release','galaxy','from','student','limit','focus'])if(current.has(k))p.set(k,current.get(k));if(profile){p.set('mtt_name',profile.name);p.set('mtt_class',profile.className);if(profile.displayName!==profile.name)p.set('mtt_english',profile.displayName);}return p.size?'?'+p:'';};
  const journey=()=>window.GAME_CONFIG.journeyUrl||('../hanh-trinh/'+query());
  const name=profile?.displayName||'Explorer';
  let state={done:[],review:[],pos:0,sticker:false,attempt:null,pendingMain:null,learning:{}},storageOK=true;
