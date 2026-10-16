@@ -26,3 +26,10 @@ SVG dùng gradient, bóng đổ và điểm sáng; tán lá đung đưa nhẹ. `
 Cây trượt từ trái sang phải theo thời gian đã trôi qua, với CSS variable --travel từ 0 đến 250 đơn vị SVG; tán cây lớn liên tục và quả xuất hiện từ giữa giờ. Giỏ cố định ở cuối đường đi. Chế độ giảm chuyển động cập nhật vị trí trực tiếp. Titi ở màn chờ và bản đồ có hào quang, chuyển động chào; vẫn chỉ có một nhân vật ở góc trên trái.
 
 Giọng nữ đọc yêu cầu, nghỉ 500 ms, đọc ngữ cảnh, nghỉ 500 ms rồi đọc câu hỏi. build.cjs tạo narration-keys.json; record.py chèn tệp WAV im lặng vào chuỗi clip để Pause/Listen và tắt tiếng hoạt động xuyên khoảng nghỉ. Đúng: Excellent! / Great job!, hợp âm và sao bay. Sai: Oh no… — nghỉ 300 ms — Let’s try it again!, kèm ba nốt động viên nhẹ. Chuyển câu hoặc tắt tiếng hủy lời và chuỗi nốt đang phát.
+
+### Biểu cảm và giọng phản hồi Titi
+`teacher-titi-emotions.webp` là ảnh sprite 3 cột trong suốt, chỉnh từ tạo hình đã duyệt bằng built-in image_gen (prompt: `titi-emotions-prompt.txt`). Giữ kính, polo navy cộc tay, váy navy và logo ngực. Ba pose: chào thân thiện, cười giơ ngón cái, xòe tay tiếc nuối. CSS bổ sung nhún mừng, nghiêng đầu và gật nhẹ; tôn trọng reduced-motion.
+
+Khi phản hồi, cùng một Titi tạm nổi ở góc trên trái, vẫn nhìn thấy khi học sinh cuộn xuống đáp án. Header giữ chỗ để không nhảy bố cục. Sau lời thoại, cô về vị trí ban đầu. Không tạo bản sao mascot. Sai: pose tiếc nuối trong clip Oh no… và khoảng nghỉ 300 ms, đổi sang pose chào ấm áp đúng khi clip It's okay… bắt đầu. Tắt âm vẫn có chuỗi biểu cảm; chuyển câu/tắt âm/mở hộp thoại hủy phản hồi cũ.
+
+`feedback-voices.json` cấu hình bốn clip Jenny en-US riêng: lời khen nhanh/sáng hơn, tiếc nuối chậm/trầm/nhẹ hơn, động viên ấm và rõ. Đây là điều chỉnh prosody (rate, pitch, volume, punctuation), không dùng nhãn emotional-style SSML. Cache filename tính cả thông số giọng, nên đổi sắc thái sẽ thu clip mới. Giọng đọc câu hỏi giữ nguyên. SpeechSynthesis dự phòng dùng rate/pitch tương ứng và ngắt 300 ms; âm sắc dự phòng tùy giọng tiếng Anh trên thiết bị.

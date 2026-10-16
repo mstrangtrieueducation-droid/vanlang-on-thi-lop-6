@@ -3,6 +3,7 @@ import asyncio, hashlib, json, re, wave, math, struct
 import edge_tts
 root=Path(__file__).resolve().parent
 manifest=json.loads((root/'audio-manifest.json').read_text(encoding='utf-8'))
+feedback=json.loads((root/'feedback-voices.json').read_text(encoding='utf-8'))
 out=root/'audio'; out.mkdir(exist_ok=True)
 # A soft two-note cue and silence mark a missing word; never pronounce underscores.
 gap=out/'gap-cue.wav'
@@ -35,12 +36,15 @@ async def main():
  mapping={}; sem=asyncio.Semaphore(4); done=0
  async def one(item):
   nonlocal done
-  text=item['text']; name=hashlib.sha256(('Jenny|-3|'+text).encode()).hexdigest()[:20]+'.mp3'; target=out/name
+  text=item['text']; tone=feedback.get(item['key'],{})
+  rate=tone.get('rate','-3%'); pitch=tone.get('pitch','+0Hz'); volume=tone.get('volume','+0%')
+  cache_key=('Jenny|'+rate+'|'+pitch+'|'+volume+'|'+text) if tone else ('Jenny|-3|'+text)
+  name=hashlib.sha256(cache_key.encode()).hexdigest()[:20]+'.mp3'; target=out/name
   async with sem:
    for attempt in range(4):
     try:
      if not target.exists() or target.stat().st_size<1000:
-      await asyncio.wait_for(edge_tts.Communicate(text,'en-US-JennyNeural',rate='-3%',pitch='+0Hz').save(str(target)),50)
+      await asyncio.wait_for(edge_tts.Communicate(text,'en-US-JennyNeural',rate=rate,pitch=pitch,volume=volume).save(str(target)),50)
      if target.stat().st_size<1000: raise ValueError('Empty audio')
      mapping[item['key']]='../game-kit/adventures/audio/'+name
      done+=1
@@ -57,8 +61,8 @@ async def main():
   if key in mapping:
    clips=mapping[key] if isinstance(mapping[key],list) else [mapping[key]]
    mapping[key]=clips+[pause500]
- mapping['titi-try-again']=[mapping['Oh no…'],'../game-kit/adventures/audio/pause-300.wav',mapping['Let’s try it again!']]
- (root/'audio-map.js').write_text('window.ADVENTURE_AUDIO='+json.dumps(mapping,ensure_ascii=False)+';\n',encoding='utf-8')
+ mapping['titi-try-again']=[mapping['Oh no…'],'../game-kit/adventures/audio/pause-300.wav',mapping["It's okay, let's try it again!"]]
+ (root/'audio-map.js').write_text('window.ADVENTURE_AUDIO='+json.dumps(mapping,ensure_ascii=False)+';\nwindow.TITI_FEEDBACK='+json.dumps(feedback,ensure_ascii=False)+';\n',encoding='utf-8')
  legacy_keys=root/'legacy-audio-keys.json'
  if legacy_keys.exists():
   keys=json.loads(legacy_keys.read_text(encoding='utf-8'))

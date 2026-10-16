@@ -45,3 +45,22 @@ body{display:block}#adventure{height:auto;aspect-ratio:auto;display:block}#adven
 @media(prefers-reduced-motion:reduce){.apple-3d .travelling-tree{transition:none}.pre-game header>.teacher-fox i,.journey header>.teacher-fox i,.pre-game header>.teacher-fox:before,.journey header>.teacher-fox:before{animation:none}.answer-stars{display:none}}
 
 [data-mode=night] .timer-choice{color:#fff3ce}[data-mode=night] #back,[data-mode=night] #hint{color:#314a65}
+
+/* Feedback uses the same Titi, with three illustrated expressions. */
+.teacher-fox i{background-image:url('teacher-titi-emotions.webp')}
+.teacher-fox .reaction-caption{display:none}
+
+header:has(>.teacher-fox.reacting):before{content:'';width:100px;height:112px;flex:0 0 100px;order:-2}
+header>.teacher-fox.reacting{position:fixed!important;top:max(12px,env(safe-area-inset-top))!important;left:max(12px,env(safe-area-inset-left))!important;bottom:auto!important;width:110px!important;height:125px;z-index:85;pointer-events:none;border-radius:24px;background:radial-gradient(ellipse,#fff5bcf2,#fff5bcdd 60%,#fff5bc00 72%);filter:drop-shadow(0 4px 6px #153f4433)}
+header>.teacher-fox.reacting i{width:110px!important;height:110px!important;transform-origin:50% 85%}
+header>.teacher-fox.reacting>span{width:110px;font-size:10px!important}
+.teacher-fox.reacting .reaction-caption{display:block;position:absolute;left:115px;top:20px;width:200px;max-width:calc(100vw - 145px);padding:10px 13px;border:2px solid #e7c66c;border-radius:16px;background:#fffbe9;color:#315b4c;box-shadow:0 4px #beab6a;font-size:16px;font-style:normal;font-weight:800;line-height:1.4;text-align:left;white-space:normal}
+.teacher-fox.yay i{background-position:50% center;animation:titi-like .65s ease-in-out 3}
+.teacher-fox.regret i{background-position:100% center;animation:titi-regret 1.4s ease-in-out both}
+.teacher-fox.encourage i{background-position:0 center;animation:titi-reassure 1.2s ease-in-out 2}
+.teacher-fox.regret:after,.teacher-fox.encourage:after{content:none}
+@keyframes titi-like{0%,100%{transform:translateY(0) rotate(0)}40%{transform:translateY(-9px) rotate(-5deg)}70%{transform:translateY(-3px) rotate(3deg)}}
+@keyframes titi-regret{0%{transform:rotate(0)}30%{transform:rotate(-5deg) translateY(3px)}65%{transform:rotate(3deg) translateY(2px)}100%{transform:rotate(-2deg)}}
+@keyframes titi-reassure{0%,100%{transform:rotate(0)}50%{transform:rotate(2deg) translateY(-3px)}}
+@media(max-width:700px){header:has(>.teacher-fox.reacting):before{width:65px;height:78px;flex-basis:65px}.teacher-fox.reacting .reaction-caption{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.teacher-fox.reacting i{animation:none!important}.teacher-fox.reacting:after{animation:none!important}}

@@ -9,3 +9,13 @@ test('Every missing-word recording uses a nonverbal gap cue',()=>{const c={windo
 test('Apple growth updates the existing nodes and uses independent SVG gradients',()=>{const a=require('./apple-timer.js');const props={};const el={classList:{remove(){},add(v){props.stage=v}},style:{setProperty(k,v){props[k]=v}},setAttribute(k,v){props[k]=v}};Object.defineProperty(el,'innerHTML',{set(){throw Error('Must not rebuild a growing tree');}});a.update(el,62.5);assert.equal(props.stage,'fruit');assert.equal(props['--elapsed'],'62.5%');assert.equal(props['aria-valuenow'],'63');const first=a.markup(75),second=a.markup(100);assert.notEqual(first.match(/id="([^"]+)/)[1],second.match(/id="([^"]+)/)[1]);assert.equal((second.match(/class="caught-apple"/g)||[]).length,5);});
 
 test('Tree position advances and narration contains explicit pauses',()=>{const a=require('./apple-timer.js');assert.match(a.markup(0),/--travel:0px/);assert.match(a.markup(50),/--travel:125px/);assert.match(a.markup(100),/--travel:250px/);const c={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/audio-map.js','utf8'),c);const map=c.window.ADVENTURE_AUDIO;assert.ok(map['Read the clue and choose the correct answer.'].at(-1).endsWith('pause-500.wav'));assert.ok(map['titi-try-again'][1].endsWith('pause-300.wav'));for(const ms of [300,500]){const wav=fs.readFileSync(__dirname+'/audio/pause-'+ms+'.wav');assert.equal(wav.readUInt32LE(40)/wav.readUInt32LE(28),ms/1000);}});
+
+test('Titi feedback recordings keep distinct tones and the regret-to-reassurance sequence',()=>{
+ const c={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/audio-map.js','utf8'),c);
+ const map=c.window.ADVENTURE_AUDIO,profiles=require('./feedback-voices.json');
+ const clips=Object.keys(profiles).map(key=>{const clip=map[key];assert.equal(typeof clip,'string',key);assert.ok(fs.statSync(require('path').resolve(__dirname,'../..',clip.replace('../',''))).size>1000);assert.deepEqual(JSON.parse(JSON.stringify(c.window.TITI_FEEDBACK[key])),profiles[key]);return clip;});
+ assert.equal(new Set(clips).size,4);
+ assert.deepEqual(Array.from(map['titi-try-again']),[map['Oh no…'],'../game-kit/adventures/audio/pause-300.wav',map["It's okay, let's try it again!"]]);
+ assert.ok(profiles['Excellent!'].fallbackPitch>profiles['Oh no…'].fallbackPitch);
+ assert.ok(profiles["It's okay, let's try it again!"].fallbackRate>profiles['Oh no…'].fallbackRate);
+});
