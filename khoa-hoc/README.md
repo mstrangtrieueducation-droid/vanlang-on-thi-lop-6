@@ -7,7 +7,7 @@ Source checked 2026-10-17:
 
 ## Coverage
 
-231 classroom games / 2,600 questions, plus the existing 15 Văn Lang games. The 357 previously published classroom questions retain their IDs and exact content.
+231 classroom games / 3,173 questions, plus the existing 15 Văn Lang games. The 357 previously published classroom questions retain their IDs and exact content.
 
 | Course | Scope | Games |
 |---|---|---:|
@@ -18,7 +18,7 @@ Source checked 2026-10-17:
 | Fighter Reading 1 / 2 | Units 1–12 in each book, primary tracks | 12 each |
 | Fighter Reading 3 / 4 / 5 | Units 1–12 in each book, optional advanced tracks | 12 each |
 
-These are short supplementary recognition games, not full replicas of every classroom exercise. New units sample key vocabulary, listening recognition, word meaning in short contexts and grammar patterns from the linked classroom work. Vietnamese meanings are used where appropriate, without voicing them as English. Long reading passages, speaking, interview assessments and written compositions remain classroom activities. Reading 3 Units 1–3 retain their earlier original short reading passages and reasoning questions. Device speech synthesis supplies narration when no local recording exists; voices vary by device.
+The 2026-10-17 depth update adds active recall, listen-and-write and sentence construction, plus 13 original reading workshops with two reasoning questions each. See CONTENT-AUDIT-20261017.md for the scope and remaining unit-level gaps. These are supplementary games, not full replicas of every classroom exercise. New units sample key vocabulary, listening recognition, word meaning in short contexts and grammar patterns from the linked classroom work. Vietnamese meanings are used where appropriate, without voicing them as English. Long reading passages, speaking, interview assessments and written compositions remain classroom activities. Reading 3 Units 1–3 retain their earlier original short reading passages and reasoning questions. Device speech synthesis supplies narration when no local recording exists; voices vary by device.
 
 ## Build and validation
 

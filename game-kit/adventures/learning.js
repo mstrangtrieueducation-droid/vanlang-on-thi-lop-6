@@ -28,7 +28,7 @@
   }
   return scene?'“'+answer+'” matches this clue: '+scene:'Correct answer: '+answer;
  }
- function instruction(q){return skill(q)==='listening'?'Listen to Titi and choose the correct answer.':skill(q)==='grammar'?'Read the whole sentence and complete the gap.':skill(q)==='reading'?'Read the text and find evidence for your answer.':'Read the clue and choose the correct answer.';}
+ function instruction(q){if(q.interaction==='sentence')return 'Build the complete sentence from the word tiles.';if(q.interaction==='dictation')return 'Listen, then write the word you hear.';if(q.interaction==='recall')return 'Use the meaning cue to complete the whole sentence.';return skill(q)==='listening'?'Listen to Titi and choose the correct answer.':skill(q)==='grammar'?'Read the whole sentence and complete the gap.':skill(q)==='reading'?'Read the text and find evidence for your answer.':'Read the clue and choose the correct answer.';}
  function reflect(q){return {listening:'Say the word aloud once. Can you hear its ending?',phonics:'Say the sound, then say the whole word.',grammar:'Read the completed sentence aloud.',dialogue:'Say both parts of the conversation aloud.',reading:'Point to the words that helped you decide.',vocabulary:'Cover the answer. Can you remember it from the clue?'}[skill(q)];}
  // Passage-linked questions stay together; other skills are interleaved. Exam order is untouched.
  function plan(items,{standard=false,reviewIds=[]}={}){

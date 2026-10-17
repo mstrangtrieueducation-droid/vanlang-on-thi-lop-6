@@ -102,4 +102,6 @@ fighter.lessons.slice(0,3).forEach((g,i)=>{g.track='Reading 3';g.advanced=true;g
 const tracks=['Vocabulary 1','Vocabulary 2','Reading 1','Reading 2','Reading 3','Reading 4','Reading 5'];
 fighter.tracks=tracks.map(name=>({name,advanced:/Reading [345]/.test(name)}));
 fighter.lessons.sort((a,b)=>tracks.indexOf(a.track)-tracks.indexOf(b.track)||(a.units[0]-b.units[0]));
+const depth=require('./depth.json');for(const c of Object.values(courses))for(const l of c.lessons)l.items.push(...(depth[c.id]?.[l.id]||[]));
+for(const [id,track,text,p1,a1,o1,p2,a2,o2,why1,why2] of require('./reading-workshops.cjs')){const c=courses[id],l=c.lessons.find(l=>!track||l.track===track);for(const [n,prompt,answer,others] of [[1,p1,a1,o1],[2,p2,a2,o2]])l.items.push({id:id+'-'+(track||'starter').replace(/ /g,'-')+'-reading-workshop-'+n,type:'choice',title:l.title,scene:text,prompt,answer,options:[answer,...others],skill:'reading',why:n===1?why1:why2,hint:'Separate what the text says from what you can only guess.',sourceLabel:'Original centre-authored supplementary reading'});}
 module.exports=courses;
