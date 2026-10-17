@@ -17,7 +17,7 @@ test('Order, build, and choice cards stay stable on refresh and invalid saved la
 });
 test('Shared image library replaces known vocabulary across courses but keeps contextual tests intact',()=>{
  const fs=require('node:fs'),path=require('node:path'),lib=require('../../khoa-hoc/image-library.cjs'),manifest=require('./pictures/vocabulary-3d/manifest.json');
- assert.equal(Object.keys(manifest.items).length,12);
+ assert.ok(Object.keys(manifest.items).length>=18);
  for(const art of Object.values(manifest.items)){assert.ok(art.width>=1024&&art.height>=1024);assert.ok(fs.existsSync(path.resolve(__dirname,'../../khoa-hoc',art.src)));}
  const images=all.flatMap(q=>[q.picturePrompt,...Object.values(q.pictureOptions||{}),...(q.matchPictures||[])]).filter(Boolean);
  assert.ok(images.filter(p=>p.semantic==='bed').every(p=>p.src.includes('vocabulary-3d/bed.png')));

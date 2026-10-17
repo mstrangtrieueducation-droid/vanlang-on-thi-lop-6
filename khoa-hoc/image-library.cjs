@@ -11,7 +11,13 @@ function resolve(picture){
 }
 module.exports=function(courses){
  for(const course of Object.values(courses))for(const lesson of course.lessons)for(const q of lesson.items){
-  if(q.exam)continue;
+  if(q.exam){
+   // Only independent unnamed object cards can use a vocabulary asset.
+   // Do not substitute people, quantities, positions, colours or comparisons.
+   const v=q.visual;
+   if(v?.kind==='cards'&&v.items.every(p=>p.kind==='icon'&&library.items[p.name]))v.artCards=v.items.map(p=>({...library.items[p.name],label:p.label||''}));
+   continue;
+  }
   if(q.picturePrompt)q.picturePrompt=resolve(q.picturePrompt);
   if(q.pictureOptions)q.pictureOptions=Object.fromEntries(Object.entries(q.pictureOptions).map(([word,p])=>[word,resolve(p)]));
   if(q.matchPictures)q.matchPictures=q.matchPictures.map(resolve);

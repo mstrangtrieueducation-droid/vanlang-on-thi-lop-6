@@ -20,7 +20,7 @@ else:
   source=file.read_text(encoding='utf8').strip()
   data=json.loads(source[source.index('{'):].rstrip(';'))
   questions+=data['items']
- story_texts={q['storyText'] for q in questions if q.get('storyText')}
+ story_texts={q[field] for q in questions for field in ['storyText','storySpeech'] if q.get(field)}
  raw=[str(q.get(spoken) or q.get(visible) or '') for q in questions for spoken,visible in [('spokenScene','scene'),('spokenPrompt','prompt')] if q.get(spoken) or q.get(visible)]
 raw+=sorted(story_texts)
 raw+=json.loads((ROOT/'game-kit/adventures/part-instructions.json').read_text(encoding='utf8'))

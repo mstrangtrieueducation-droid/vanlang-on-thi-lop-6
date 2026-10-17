@@ -106,5 +106,6 @@ const depth=require('./depth.json');for(const c of Object.values(courses))for(co
 for(const [id,track,text,p1,a1,o1,p2,a2,o2,why1,why2] of require('./reading-workshops.cjs')){const c=courses[id],l=c.lessons.find(l=>!track||l.track===track);for(const [n,prompt,answer,others] of [[1,p1,a1,o1],[2,p2,a2,o2]])l.items.push({id:id+'-'+(track||'starter').replace(/ /g,'-')+'-reading-workshop-'+n,type:'choice',title:l.title,scene:text,prompt,answer,options:[answer,...others],skill:'reading',why:n===1?why1:why2,hint:'Separate what the text says from what you can only guess.',sourceLabel:'Original centre-authored supplementary reading'});}
 require('./phonics.cjs')(courses);
 require('./family.cjs')(courses);
+require('./dialogues.cjs')(courses);
 require('./image-library.cjs')(courses);
 module.exports=courses;
