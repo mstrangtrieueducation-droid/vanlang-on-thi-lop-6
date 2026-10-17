@@ -60,3 +60,7 @@ html[data-course-world=van-lang][data-course-road] body{background:linear-gradie
 html[data-course-road=forest] #adventure.flow-live .play,html[data-course-road=forest] #adventure.flow-live .lobby,html[data-course-road=forest] #adventure.flow-live .finish{background:#173d2f!important}
 
 @media(max-width:600px){.world-picture-stone{background-position:24% center}.world-picture-grassland{background-position:22% center}.world-picture-farmland{background-position:78% center}.world-picture-town,.world-picture-steam{background-position:30% center}.world-picture-city{background-position:25% center}.world-picture-future{background-position:65% center}}
+
+/* Compact laptop heights keep four short choices visible without changing form by theme. */
+@media(min-width:601px) and (min-height:501px) and (max-height:820px){#adventure.flow-live .work[data-gameplay] .choice{min-height:76px!important;padding:10px 20px!important}#adventure.flow-live .work>.choices{gap:10px 14px!important}}
+@media(min-width:601px) and (min-height:501px) and (max-height:680px){#adventure.flow-live .work[data-gameplay] .choice{min-height:60px!important;padding:7px 18px!important}#adventure.flow-live .context.clue-short{font-size:24px;padding:6px 10px}#adventure.flow-live .question-panel h1{font-size:20px}#adventure.flow-live .question-panel{padding:10px 14px}#adventure.flow-live .work>.choices{gap:8px 12px!important}}
