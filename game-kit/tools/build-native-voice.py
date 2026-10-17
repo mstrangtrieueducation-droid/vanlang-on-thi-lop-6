@@ -21,7 +21,8 @@ else:
   questions+=data['items']
  raw=[str(q.get(spoken) or q.get(visible) or '') for q in questions for spoken,visible in [('spokenScene','scene'),('spokenPrompt','prompt')] if q.get(spoken) or q.get(visible)]
 raw+=['Oh no…',"It's okay, let's try it again!",'Excellent!','Good try!','Amazing! Your adventure is complete!','Read the clue and choose the correct answer.',"Ready for your next challenge? Let's explore!",'Welcome to Ms. Trang Trieu Education!']
-keys=list(dict.fromkeys(raw))
+raw+=['Listen and choose the correct answer.']
+keys=list(dict.fromkeys(text.strip() for text in raw))
 GAP='../game-kit/adventures/audio/gap-cue.wav'
 PAUSE='../game-kit/adventures/audio/pause-300.wav'
 segments={};mapping={}

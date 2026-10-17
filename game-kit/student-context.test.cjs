@@ -32,7 +32,7 @@ test('Source evidence needs every lesson group; manual ceilings cannot grant unt
  const rows=groups.map(g=>({url:g[0]})),r=P.limits([c],mapping,rows);assert.ok(r.allowed[c.id].includes(l.id),l.id);
  }}
  const c=catalog.find(c=>c.id==='phonics-1'),groups=mapping[c.id][c.lessons[0].id].sourceGroups;
- assert.equal(P.limits([c],mapping,[{url:groups[0][0]}]).allowed[c.id].length,0);
+ assert.equal(P.limits([c],mapping,[{url:groups[0][0]}]).allowed[c.id].length,2);
  assert.equal(P.limits([c],mapping,[],{[c.id]:999}).limits[c.id],0);
  const rows=groups.map(g=>({url:g[0]}));assert.equal(P.limits([c],mapping,rows,{[c.id]:0}).limits[c.id],0);
 });
@@ -54,7 +54,7 @@ test('Boss action targets the last taught planet; query release and correct dash
 });
 test('Storage failure and deep links fail closed before gameplay',async()=>{
  const w={location:{search:`?student=${student}&course=phonics-1&limit=999`}};Object.defineProperty(w,'localStorage',{get(){throw Error('blocked');}});vm.runInNewContext(fs.readFileSync(require.resolve('./student-context'),'utf8'),{window:w,URLSearchParams});assert.equal(w.StudentContext.active.invalid,true);
- for(const [lesson,hasContext,allow]of [['game-1',true,true],['game-2',true,false],['game-1',false,false]]){const c=catalog.find(c=>c.id==='phonics-1'),ctx=hasContext?context(c,['game-1']):null,host={innerHTML:''},window={StudentContext:{...C,active:ctx},GAME_CONFIG:{courseId:c.id,lessonId:lesson},GameProfile:{student}};
+ for(const [lesson,hasContext,allow]of [['sound-a',true,true],['sound-b',true,false],['sound-a',false,false]]){const c=catalog.find(c=>c.id==='phonics-1'),ctx=hasContext?context(c,['sound-a']):null,host={innerHTML:''},window={StudentContext:{...C,active:ctx},GAME_CONFIG:{courseId:c.id,lessonId:lesson},GameProfile:{student}};
  vm.runInNewContext(fs.readFileSync(require.resolve('./student-gate'),'utf8'),{window,GalaxyCore:G,localStorage:memory(),document:{querySelector:()=>host},location:{href:'https://example.test/khoa-hoc/',search:'?release=qa'},URL,URLSearchParams,fetch:async()=>({ok:true,json:async()=>catalog})});assert.equal(await window.StudentGate.enter(),allow);if(!allow)assert.match(host.innerHTML,/release=qa/);
  }
 });
@@ -70,11 +70,11 @@ test('Direct or copied links cannot start a visit even with cached progress; han
 
 const taughtRows=(course,id,date,program=course.name)=>mapping[course.id][id].sourceGroups.map(g=>({program,lessonDate:date,endTime:'20:00',url:g[0]}));
 test('Current book follows classroom dates in either order; old course progress is retained but cannot grant access',()=>{
- const old=catalog.find(c=>c.id==='phonics-4'),now=catalog.find(c=>c.id==='family-friends-1'),rows=[...taughtRows(old,'game-1','01/10/2026'),...taughtRows(now,'game-1','10/10/2026','Family & Friends 1')];
+ const old=catalog.find(c=>c.id==='phonics-4'),now=catalog.find(c=>c.id==='family-friends-1'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),...taughtRows(now,'game-1','10/10/2026','Family & Friends 1')];
  for(const input of [rows,[...rows].reverse()]){const fresh=P.currentBooks(catalog,mapping,input);assert.deepEqual(fresh.books,{[now.id]:[]});assert.deepEqual(fresh.allowed[now.id],['game-1']);assert.equal(fresh.allowed[old.id],undefined);const ctx=context(now,fresh.allowed[now.id],{books:fresh.books});assert.equal(C.visible(old,ctx).length,0);assert.equal(C.status(old,1,{lessons:{'game-1':{stars:3}}},ctx).open,false);}
 });
 test('Moving books on the first session never revives a completed old textbook or invents a full two-session game',()=>{
- const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,'game-1','01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['game-1'].sourceGroups[0][0]}}];
+ const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['game-1'].sourceGroups[0][0]}}];
  const fresh=P.currentBooks(catalog,mapping,rows);assert.deepEqual(fresh.books,{'discover-2':[]});assert.equal(fresh.allowed[now.id].length,0);
  rows.push({program:'Discover 5',lessonDate:'11/10/2026'});assert.deepEqual(P.currentBooks(catalog,mapping,rows).books,{});
 });
@@ -84,8 +84,8 @@ test('Fighter selects current Reading and Vocabulary independently, hiding retir
  const ctx=context(c,fresh.allowed.fighter,{books:fresh.books});assert.deepEqual(new Set(C.visible(c,ctx).map(l=>l.track)),new Set(['Reading 2','Vocabulary 2']));
 });
 test('Missing dates, future sessions and unsupported new books cannot authorize historical fallback',()=>{
- const c=catalog[1],rows=taughtRows(c,'game-1','01/10/2026');assert.deepEqual(P.currentBooks(catalog,mapping,rows.map(r=>({...r,lessonDate:''}))).books,{});
- assert.deepEqual(P.currentBooks(catalog,mapping,taughtRows(c,'game-1','01/01/2099')).books,{});
+ const c=catalog[1],rows=taughtRows(c,c.lessons[0].id,'01/10/2026');assert.deepEqual(P.currentBooks(catalog,mapping,rows.map(r=>({...r,lessonDate:''}))).books,{});
+ assert.deepEqual(P.currentBooks(catalog,mapping,taughtRows(c,c.lessons[0].id,'01/01/2099')).books,{});
  assert.deepEqual(P.currentBooks(catalog,mapping,[...rows,{program:'Phonics 5',lessonDate:'12/10/2026'}]).books,{});
  assert.equal(C.normalize({...context(),schema:2}),null);
 });

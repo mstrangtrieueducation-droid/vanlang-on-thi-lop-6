@@ -17,7 +17,8 @@ export class LeaderboardService{
  async session(token,fresh=false){
   if(typeof token!=='string'||token.length!==72)fail('Con mở lại game từ hồ sơ để kết nối nhé.',401);
   const s=await this.one('SELECT * FROM sessions WHERE hash=? AND expires>?',await digest(token),this.now());if(!s)fail('Phiên kết nối đã hết. Con mở lại từ hồ sơ nhé.',401);
-  if(fresh||this.now()-s.verified>300000){const a=await this.authority(s.class_name,s.source_hash,this.data);if(a.identity!==s.source_identity)fail('Hồ sơ đã thay đổi. Con mở lại bảng theo dõi nhé.',401);s.grants=JSON.stringify(a);s.verified=this.now();await this.stmt('UPDATE sessions SET grants=?,verified=? WHERE hash=?',s.grants,s.verified,s.hash).run();}
+  const retired=Object.entries(JSON.parse(s.grants).allowed||{}).some(([course,ids])=>ids.some(id=>!this.data.lessons[course]?.[id]));
+  if(fresh||retired||this.now()-s.verified>300000){const a=await this.authority(s.class_name,s.source_hash,this.data);if(a.identity!==s.source_identity)fail('Hồ sơ đã thay đổi. Con mở lại bảng theo dõi nhé.',401);s.grants=JSON.stringify(a);s.verified=this.now();await this.stmt('UPDATE sessions SET grants=?,verified=? WHERE hash=?',s.grants,s.verified,s.hash).run();}
   s.access=JSON.parse(s.grants);return s;
  }
  lesson(s,course,id){const l=this.data.lessons[course]?.[id];if(!l||!s.access.allowed?.[course]?.includes(id))fail('Bài này chưa thuộc phần lớp mình được mở.',403);return l;}

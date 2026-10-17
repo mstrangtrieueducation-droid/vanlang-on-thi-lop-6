@@ -1,0 +1,15 @@
+/* Picture cards share the rectangular course material and the fixed day/night form. */
+#adventure.flow-live .choices.picture-choices{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(2,minmax(0,1fr));height:100%;min-height:0}
+#adventure.flow-live .work[data-gameplay] .picture-choice{position:relative;display:flex!important;align-items:center;justify-content:center;min-height:76px!important;padding:6px!important}
+#adventure.flow-live .work[data-gameplay] .picture-choice>span{position:absolute;left:8px;top:8px;z-index:1}
+.phonics-picture{display:block;width:auto;max-width:80%;height:100%;max-height:150px;aspect-ratio:1;background-size:400% 400%;background-repeat:no-repeat;filter:drop-shadow(0 5px 3px #172a352a);flex-shrink:1}
+#adventure.flow-live .challenge:has(.picture-choices) .context,#adventure.flow-live .challenge:has(.picture-choices) .task-instruction{display:none!important}
+.picture-word{position:absolute;bottom:3px;right:9px;font-size:13px!important}
+#adventure.flow-live .work:has(.picture-choices){min-height:170px;flex:1}
+#adventure.flow-live .question-panel:has(.story-heading) .context{font-size:clamp(14px,1.5vw,21px);line-height:1.4;max-height:22vh;overflow:auto;white-space:normal}
+.story-heading{margin:4px 0;font-size:clamp(14px,1.5vw,20px);font-weight:850}
+#adventure.flow-live .question-panel .story-heading{color:var(--exam-ink)!important}
+.story-heading:before{content:'📖 ';font-size:1.1em}
+#adventure.flow-live .question-panel:has(.story-heading) h1{font-size:clamp(14px,1.4vw,20px)}
+@media(max-width:600px){.phonics-picture{max-height:15vh}.picture-word{font-size:10px!important}#adventure.flow-live .work[data-gameplay] .picture-choice>span{left:4px;top:4px;width:23px;height:23px;font-size:13px}#adventure.flow-live .work:has(.picture-choices){min-height:128px}#adventure.flow-live .question-panel:has(.story-heading) .context{font-size:14px;max-height:19vh}.story-heading{font-size:13px}}
+@media(max-height:550px){.phonics-picture{max-height:70px}#adventure.flow-live .work[data-gameplay] .picture-choice{min-height:56px!important}#adventure.flow-live .work:has(.picture-choices){min-height:120px}}
