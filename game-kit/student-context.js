@@ -10,15 +10,16 @@
  const classKey=s=>label(s).toUpperCase().replace(/\s/g,'');
  function read(storage,key){try{return JSON.parse(storage.getItem(key)||'null');}catch{return null;}}
  function normalize(raw){
-  if(!raw||raw.schema!==2||!validStudent(raw.student)||!validCourse(raw.course))return null;
+  if(!raw||raw.schema!==3||!validStudent(raw.student)||!validCourse(raw.course))return null;
   const className=label(raw.className),parentRoute=ROUTES[classKey(className)];
   if(!parentRoute||parentRoute!==raw.parentRoute||!Number.isFinite(raw.issuedAt)||raw.issuedAt<=0)return null;
-  const limits={},allowed={};for(const [k,ids]of Object.entries(raw.allowed||{}))if(validCourse(k)&&Array.isArray(ids)){
+  const books={};for(const [k,tracks]of Object.entries(raw.books||{}))if(validCourse(k)&&Array.isArray(tracks))books[k]=[...new Set(tracks.map(label).filter(Boolean))];
+  const limits={},allowed={};for(const [k,ids]of Object.entries(raw.allowed||{}))if(validCourse(k)&&Array.isArray(ids)&&Object.hasOwn(books,k)){
    allowed[k]=[...new Set(ids.filter(validCourse))];limits[k]=integer(raw.limits?.[k])??0;
   }
-  const course=raw.course;return {schema:2,student:raw.student,course,limit:limits[course]||0,focus:Math.max(1,integer(raw.focus)||1),name:label(raw.name),className,displayName:label(raw.displayName||raw.name),parentRoute,issuedAt:raw.issuedAt,limits,allowed};
+  const course=raw.course;return {schema:3,student:raw.student,course,limit:limits[course]||0,focus:Math.max(1,integer(raw.focus)||1),name:label(raw.name),className,displayName:label(raw.displayName||raw.name),parentRoute,issuedAt:raw.issuedAt,limits,allowed,books};
  }
- function current(c,now=Date.now()){return Boolean(c&&!c.invalid&&c.schema===2&&now>=c.issuedAt&&now-c.issuedAt<MAX_AGE);}
+ function current(c,now=Date.now()){return Boolean(c&&!c.invalid&&c.schema===3&&now>=c.issuedAt&&now-c.issuedAt<MAX_AGE);}
  function browserSession(){try{return typeof window==='object'?window.sessionStorage:null;}catch{return null;}}
  function resolve(search,storage,session=browserSession()){
   const p=new URLSearchParams(search),saved=normalize(read(storage,ACTIVE)),student=p.get('student')||saved?.student;
@@ -47,9 +48,11 @@
  function forCourse(context,course){return context?{...context,course,limit:context.limits?.[course]??0,focus:context.course===course?context.focus:1}:null;}
  function suffix(profile){return validStudent(profile?.student)?':student:'+profile.student:profile?':profile:'+encodeURIComponent(JSON.stringify([profile.className,profile.name])):'';}
  function progressKey(course,student){return 'universe_progress_'+encodeURIComponent(course)+':student:'+student;}
- function taught(course,context){return current(context)?course.lessons.filter(l=>(context.allowed?.[course.id]||[]).includes(l.id)):[];}
+ function visible(course,context){return current(context)&&Object.hasOwn(context.books||{},course.id)?course.lessons.filter(l=>!l.track||(context.books[course.id]||[]).includes(l.track)):[];}
+ function taught(course,context){return visible(course,context).filter(l=>(context.allowed?.[course.id]||[]).includes(l.id));}
  function status(course,number,progress,context){
   if(!current(context)||!context.entered)return {open:false,reason:'🔒 Con cần bấm mở game từ bảng theo dõi riêng của mình. Link game mở trực tiếp chưa được vào chơi nhé!',kind:'profile'};
+  if(!visible(course,context).includes(course.lessons[number-1]))return {open:false,reason:'🔒 Phần này không thuộc giáo trình lớp mình đang học. Con về bảng theo dõi để mở đúng bài nhé!',kind:'book'};
   const lesson=course.lessons[number-1],eligible=taught(course,context);
   if(!lesson||!eligible.some(l=>l.id===lesson.id))return {open:false,reason:'🔒 Bài này lớp mình chưa học tới! Con chờ cô Trang mở khóa trên bảng theo dõi lớp nhé!',kind:'classroom'};
   // Independent books do not require completing unrelated, untaught books.
@@ -71,5 +74,5 @@
   }catch{return false;}
  }
  function dashboard(context,base){const path=ROUTES[classKey(context?.className)];if(!path||!validStudent(context?.student))return null;const u=new URL(path,base);u.hash='p='+context.student;return u;}
- return {ACTIVE,ROUTES,MAX_AGE,validStudent,normalize,resolve,store,current,forCourse,suffix,progressKey,taught,status,summary,focus,decorate,dashboard,handoff,active:null};
+ return {ACTIVE,ROUTES,MAX_AGE,validStudent,normalize,resolve,store,current,forCourse,suffix,progressKey,visible,taught,status,summary,focus,decorate,dashboard,handoff,active:null};
 });

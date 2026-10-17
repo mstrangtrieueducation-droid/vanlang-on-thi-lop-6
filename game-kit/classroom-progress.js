@@ -5,7 +5,38 @@
  function source(value,depth=0){try{const u=new URL(value,origin);if(u.origin!==origin||depth>3)return '';for(const k of ['url','src','lesson','target'])if(/^https?:/.test(u.searchParams.get(k)||'')){const inner=source(u.searchParams.get(k),depth+1);if(inner)return inner;}return u.origin+u.pathname.replace(/\/$/,'');}catch{return '';}}
  function urls(value,result=new Set(),depth=0){if(depth>8)return result;if(typeof value==='string'){for(const match of value.matchAll(/https?:\/\/[^\s<>"']+/g)){const u=source(match[0].replace(/[),.;]+$/,''));if(u)result.add(u);}}else if(Array.isArray(value)){for(const v of value)urls(v,result,depth+1);}else if(value&&typeof value==='object'){for(const [key,v]of Object.entries(value))if(!/token|hash|secret|password|student|feedback|comment/i.test(key))urls(v,result,depth+1);}return result;}
  const normalized=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').replace(/[^a-z0-9]/g,'');
- function courseId(value,courses){const s=normalized(value);return courses.find(c=>[c.id,c.name,...(c.id.startsWith('family-friends-')?['Family & Friends '+c.id.slice(-1),'FF'+c.id.slice(-1)]:[]),...(c.id.startsWith('phonics-')?['Oxford Phonics '+c.id.slice(-1)]:[])].some(n=>normalized(n)===s))?.id||'';}
+ function courseId(value,courses){const s=normalized(value);return courses.find(c=>[c.id,c.name,...(c.id.startsWith('family-friends-')?['Family & Friends '+c.id.slice(-1),'FF'+c.id.slice(-1)]:[]),...(c.id.startsWith('phonics-')?['Oxford Phonics '+c.id.slice(-1),'Oxford Phonics World '+c.id.slice(-1)]:[]),...(c.id.startsWith('discover-')?['Oxford Discover '+c.id.slice(-1)]:[])].some(n=>normalized(n)===s))?.id||'';}
+ // Select current books from dated classroom evidence, not catalogue order or
+ // the highest level ever studied. Reading and Vocabulary run independently.
+ function currentBooks(courses,map,completed){
+  const lanes=new Map(),evidence=[];
+  for(const row of completed||[]){
+   const lesson=row.lesson||row,assignment=row.assignment||{},program=String(row.program||lesson.program||assignment.program||row.courseId||'').trim();
+   const date=lesson.lessonDate||lesson.dateLabel||lesson.date||row.lessonDate||assignment.lessonDate;
+   const at=moment(date,lesson.endTime||row.endTime||'23:59:59');if(!at||at>Date.now())continue;
+   const seen=urls(row),named=courseId(program,courses),matches=[];
+   for(const c of courses){for(const l of c.lessons){if((map[c.id]?.[l.id]?.sourceGroups||[]).some(g=>g.some(u=>seen.has(source(u)))))matches.push({course:c.id,track:l.track||''});}}
+   let selected=[];
+   if(named&&!(courses.find(c=>c.id===named)?.tracks||[]).length)selected=[{course:named,track:''}];
+   else{
+    for(const c of courses)for(const t of c.tracks||[])if([t.name,c.name+' '+t.name,t.name.replace('Reading ','Reading Intensive '),t.name.replace('Vocabulary ','Vocabulary Foundation ')].some(n=>normalized(n)===normalized(program)))selected.push({course:c.id,track:t.name});
+    if(!selected.length)selected=matches;
+   }
+   // An explicitly named, unsupported book must not revive a previous book.
+   const numbered=program.match(/(?:phonics(?:\s+world)?|discover|family(?:\s+and|\s*&)?\s+friends|ff|reading(?:\s+intensive)?|vocab(?:ulary)?(?:\s+foundation)?)\s*(\d+)/i);
+   const unsupported=numbered&&!named&&!selected.some(x=>String((x.track||x.course).match(/\d+$/)?.[0])===numbered[1]);
+   if(unsupported)selected=[];
+   const lanesFor=selected.length?selected.map(x=>({...x,lane:x.track?normalized(x.track.replace(/\d+/g,'')):'main'})):[{course:'',track:'',lane:/vocab/i.test(program)?'vocabulary':/reading/i.test(program)?'reading':'main'}];
+   for(const x of lanesFor){const key=x.lane,previous=lanes.get(key);if(!previous||at>previous.at)lanes.set(key,{at,books:[x]});else if(at===previous.at&&!previous.books.some(b=>b.course===x.course&&b.track===x.track))previous.books.push(x);}
+   evidence.push({row,selected});
+  }
+  const books={};for(const lane of lanes.values())for(const x of lane.books)if(x.course){books[x.course]||=[];if(x.track&&!books[x.course].includes(x.track))books[x.course].push(x.track);}
+  const rows=evidence.filter(x=>x.selected.some(b=>Object.hasOwn(books,b.course)&&(!b.track||books[b.course].includes(b.track)))).map(x=>x.row);
+  const selectedCourses=courses.filter(c=>Object.hasOwn(books,c.id)),fresh=limits(selectedCourses,map,rows);
+  // Old links retained in a current homework row cannot grant retired tracks.
+  for(const c of selectedCourses){const ids=new Set(c.lessons.filter(l=>!l.track||books[c.id].includes(l.track)).map(l=>l.id));fresh.allowed[c.id]=fresh.allowed[c.id].filter(id=>ids.has(id));fresh.limits[c.id]=Math.max(0,...fresh.allowed[c.id].map(id=>c.lessons.findIndex(l=>l.id===id)+1));}
+  return {...fresh,active:selectedCourses.map(c=>c.id),books};
+ }
  function limits(courses,map,completed,explicit={}){
   const seen=urls(completed),active=new Set(),result={},allowed={};
   for(const row of completed||[]){const id=courseId(row.program||row.courseId,courses);if(id)active.add(id);}
@@ -40,5 +71,5 @@
    const end=ends.length?Math.max(...ends):moment(a.lessonDate,clock||'23:59:59');return end>0&&end<=now;
   });
  }
- return {source,urls,courseId,limits,cta,link,moment,completedAssignments};
+ return {source,urls,courseId,limits,currentBooks,cta,link,moment,completedAssignments};
 });

@@ -1,7 +1,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const C=require('./student-context'),P=require('./classroom-progress'),G=require('../vu-tru/galaxy-core'),catalog=require('../vu-tru/catalog.json'),mapping=require('../vu-tru/teaching-map.json');
 const student='A'.repeat(22),other='B'.repeat(22),memory=()=>{const m=new Map();return {getItem:k=>m.get(k)||null,setItem:(k,v)=>m.set(k,v),removeItem:k=>m.delete(k)};};
-const context=(course=catalog[1],ids=course.lessons.slice(0,3).map(l=>l.id),extra={})=>({...C.normalize({schema:2,student,course:course.id,className:'KIDS 21',parentRoute:'/rge9fi0s/',name:'Luna',issuedAt:Date.now(),limits:{[course.id]:Math.max(0,...ids.map(id=>course.lessons.findIndex(l=>l.id===id)+1))},allowed:{[course.id]:ids},...extra}),entered:true});
+const context=(course=catalog[1],ids=course.lessons.slice(0,3).map(l=>l.id),extra={})=>({...C.normalize({schema:3,books:{[course.id]:[...new Set(course.lessons.filter(l=>ids.includes(l.id)).map(l=>l.track).filter(Boolean))]},student,course:course.id,className:'KIDS 21',parentRoute:'/rge9fi0s/',name:'Luna',issuedAt:Date.now(),limits:{[course.id]:Math.max(0,...ids.map(id=>course.lessons.findIndex(l=>l.id===id)+1))},allowed:{[course.id]:ids},...extra}),entered:true});
 test('Only dashboard-issued context grants access; URL limits, student and class cannot expand it',()=>{
  const s=memory(),session=memory(),c=catalog[1],ctx=context(c);C.store(s,ctx);const entry=new URL('https://example.test/?student='+student+'&course='+c.id);assert.ok(C.handoff(s,ctx,entry));const admitted=C.resolve(entry.search,s,session),visit=admitted.visit;
  assert.equal(C.resolve(`?student=${student}&course=${c.id}&limit=999&focus=999&visit=${visit}`,s,session).limit,3);
@@ -66,4 +66,33 @@ test('Direct or copied links cannot start a visit even with cached progress; han
  const navigation=new URL('https://example.test/?release=kept');C.decorate(navigation,entered,ctx.course,2);
  assert.equal(C.resolve(navigation.search,s,session).entered,true);assert.equal(C.resolve(navigation.search,s,memory()).invalid,true);
  assert.equal(C.resolve('?student='+student+'&course='+ctx.course,s,session).invalid,true);
+});
+
+const taughtRows=(course,id,date,program=course.name)=>mapping[course.id][id].sourceGroups.map(g=>({program,lessonDate:date,endTime:'20:00',url:g[0]}));
+test('Current book follows classroom dates in either order; old course progress is retained but cannot grant access',()=>{
+ const old=catalog.find(c=>c.id==='phonics-4'),now=catalog.find(c=>c.id==='family-friends-1'),rows=[...taughtRows(old,'game-1','01/10/2026'),...taughtRows(now,'game-1','10/10/2026','Family & Friends 1')];
+ for(const input of [rows,[...rows].reverse()]){const fresh=P.currentBooks(catalog,mapping,input);assert.deepEqual(fresh.books,{[now.id]:[]});assert.deepEqual(fresh.allowed[now.id],['game-1']);assert.equal(fresh.allowed[old.id],undefined);const ctx=context(now,fresh.allowed[now.id],{books:fresh.books});assert.equal(C.visible(old,ctx).length,0);assert.equal(C.status(old,1,{lessons:{'game-1':{stars:3}}},ctx).open,false);}
+});
+test('Moving books on the first session never revives a completed old textbook or invents a full two-session game',()=>{
+ const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,'game-1','01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['game-1'].sourceGroups[0][0]}}];
+ const fresh=P.currentBooks(catalog,mapping,rows);assert.deepEqual(fresh.books,{'discover-2':[]});assert.equal(fresh.allowed[now.id].length,0);
+ rows.push({program:'Discover 5',lessonDate:'11/10/2026'});assert.deepEqual(P.currentBooks(catalog,mapping,rows).books,{});
+});
+test('Fighter selects current Reading and Vocabulary independently, hiding retired and future books',()=>{
+ const c=catalog.find(c=>c.id==='fighter'),rows=[...taughtRows(c,'fighter-reading-1-unit-1','01/10/2026','Fighter Reading 1'),...taughtRows(c,'fighter-vocabulary-1-unit-1','02/10/2026','Fighter Vocabulary 1'),...taughtRows(c,'fighter-reading-2-unit-1','10/10/2026','Fighter Reading 2'),...taughtRows(c,'fighter-vocabulary-2-unit-1','11/10/2026','Fighter Vocabulary 2')],fresh=P.currentBooks([c],mapping,rows);
+ assert.deepEqual(new Set(fresh.books.fighter),new Set(['Reading 2','Vocabulary 2']));assert.deepEqual(new Set(fresh.allowed.fighter),new Set(['fighter-reading-2-unit-1','fighter-vocabulary-2-unit-1']));
+ const ctx=context(c,fresh.allowed.fighter,{books:fresh.books});assert.deepEqual(new Set(C.visible(c,ctx).map(l=>l.track)),new Set(['Reading 2','Vocabulary 2']));
+});
+test('Missing dates, future sessions and unsupported new books cannot authorize historical fallback',()=>{
+ const c=catalog[1],rows=taughtRows(c,'game-1','01/10/2026');assert.deepEqual(P.currentBooks(catalog,mapping,rows.map(r=>({...r,lessonDate:''}))).books,{});
+ assert.deepEqual(P.currentBooks(catalog,mapping,taughtRows(c,'game-1','01/01/2099')).books,{});
+ assert.deepEqual(P.currentBooks(catalog,mapping,[...rows,{program:'Phonics 5',lessonDate:'12/10/2026'}]).books,{});
+ assert.equal(C.normalize({...context(),schema:2}),null);
+});
+test('Generic subject labels use exact source URLs; named Reading books take priority over old reference links',()=>{
+ const c=catalog.find(c=>c.id==='fighter');
+ const rows=taughtRows(c,'fighter-reading-2-unit-1','10/10/2026','Reading');
+ assert.deepEqual(P.currentBooks([c],mapping,rows).books,{fighter:['Reading 2']});
+ const next={program:'Reading Intensive 3',lessonDate:'12/10/2026',url:rows[0].url};
+ const fresh=P.currentBooks([c],mapping,[...rows,next]);assert.deepEqual(fresh.books,{fighter:['Reading 3']});assert.deepEqual(fresh.allowed.fighter,[]);
 });
