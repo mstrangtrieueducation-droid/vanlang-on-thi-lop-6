@@ -1,5 +1,5 @@
 /* Mirror progress into a per-course index without replacing existing saves. */
-(()=>{'use strict';const c=window.GAME_CONFIG;if(!c?.courseId||!window.GalaxyCore)return;const core=window.GalaxyCore,p=window.GameProfile,storage={getItem:k=>localStorage.getItem(k),setItem:(k,v)=>localStorage.setItem(k,v)},params=new URLSearchParams(location.search);
+(()=>{'use strict';const c=window.GAME_CONFIG;if(!c?.courseId||!window.GalaxyCore)return;const core=window.GalaxyCore,p=window.GameProfile,storage=window.StudentContext?.browserStorage||{getItem:k=>localStorage.getItem(k),setItem:(k,v)=>localStorage.setItem(k,v)},params=new URLSearchParams(location.search);
  const get=()=>core.load(storage,c.courseId,p);let data=get();
  const incoming=params.get('galaxy');if(core.themes.includes(incoming))data.theme=incoming;
  const theme=data.theme||core.theme({id:c.courseId,name:c.brand});document.documentElement.dataset.galaxy=theme;

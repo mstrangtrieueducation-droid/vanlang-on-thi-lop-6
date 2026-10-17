@@ -1,8 +1,15 @@
 /* Classroom access comes from the authorized dashboard, never from URL limits.
    Browser-local curriculum guidance; not a substitute for server authorization. */
-(function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else{root.StudentContext=api;const storage={getItem:k=>root.localStorage.getItem(k),setItem:(k,v)=>root.localStorage.setItem(k,v),removeItem:k=>root.localStorage.removeItem(k)};api.active=api.resolve(root.location.search,storage);if(api.active?.entered&&new URLSearchParams(root.location.search).has('entry')){const u=new URL(root.location.href);u.searchParams.delete('entry');u.searchParams.set('visit',api.active.visit);root.history.replaceState(root.history.state,'',u);}}})(typeof window==='object'?window:globalThis,()=>{
+(function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else{root.StudentContext=api;const storage=api.browserStorage=api.createStorage({getItem:k=>root.localStorage.getItem(k),setItem:(k,v)=>root.localStorage.setItem(k,v),removeItem:k=>root.localStorage.removeItem(k)},{getItem:k=>root.sessionStorage.getItem(k),setItem:(k,v)=>root.sessionStorage.setItem(k,v),removeItem:k=>root.sessionStorage.removeItem(k)});api.active=api.resolve(root.location.search,storage);if(api.active?.entered&&new URLSearchParams(root.location.search).has('entry')){const u=new URL(root.location.href);u.searchParams.delete('entry');u.searchParams.set('visit',api.active.visit);root.history.replaceState(root.history.state,'',u);}}})(typeof window==='object'?window:globalThis,()=>{
  'use strict';
  const ROUTES={"KIDS39":"/1t5tlkn7/","KIDS30":"/31wagboo/","KIDS23":"/3lu0698p/","KIDS35":"/63habmwz/","TA6":"/6shx6heb/","IELTS45":"/7rsn6kbh/","KIDS29":"/9fpwzhnz/","IELTS49":"/9k6a4bxe/","IELTS47":"/bhg37bsz/","KIDS8":"/byogxkvy/","FIGHTER8":"/cecccjpg/","KIDS14":"/chaq17fk/","KIDS37":"/d5f9almb/","FIGHTER7":"/dgpu6c9h/","IELTS48":"/e73wgva4/","KIDS33":"/firegh4f/","KIDS17":"/gu159u7j/","FIGHTER6":"/hwz7zw86/","KIDS26":"/i8a0r77q/","KIDS10":"/iw6h6bmb/","IELTS50":"/jbjdsuj7/","KIDS31":"/juzwewi0/","KIDS20":"/l8tzmx20/","KIDS22":"/muqt11rj/","KIDS25":"/myude9i0/","IELTS51":"/np93vg0b/","KIDS36":"/odwhkat1/","KIDS38":"/p8qdzsoa/","FIGHTER9":"/p8w8wz4f/","TA7":"/qhaj55f2/","KIDS27":"/qo7alz0y/","KIDS11":"/r60hdc1i/","KIDS21":"/rge9fi0s/","IELTS52":"/t2n2eyyu/","KIDS34":"/u1g9ay98/","KIDS7":"/u90k1f5e/","KIDS18":"/uee89ho9/","KIDS32":"/wfyjrm4m/","KIDS28":"/xcxhducu/","IELTS46":"/xpe6dd4j/","KIDS15":"/y31ibppw/","KIDS19":"/ywxrw9yp/","FIGHTER5":"/zredv9ef/"};
+ // Preserve existing data; when persistent storage is full/blocked, use this tab.
+ function createStorage(primary,session){let temporary=false;const prefix='vl_tab_store:';return {
+  get temporary(){return temporary;},
+  getItem(key){let fallback=null;try{fallback=session?.getItem(prefix+key);}catch{}if(fallback!==null&&fallback!==undefined){temporary=true;return fallback;}try{return primary.getItem(key);}catch{return null;}},
+  setItem(key,value){try{primary.setItem(key,value);try{session?.removeItem(prefix+key);}catch{}return;}catch(error){if(!session)throw error;}session.setItem(prefix+key,value);temporary=true;},
+  removeItem(key){try{primary.removeItem(key);}catch{}try{session?.removeItem(prefix+key);}catch{}}
+ };}
  const ACTIVE='vl_active_student_context',MAX_AGE=24*60*60*1000;
  const validStudent=s=>typeof s==='string'&&/^[A-Za-z0-9_-]{22}$/.test(s),validCourse=s=>typeof s==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s);
  const integer=v=>/^(0|[1-9]\d*)$/.test(String(v))&&Number.isSafeInteger(Number(v))?Number(v):null;
@@ -74,5 +81,5 @@
   }catch{return false;}
  }
  function dashboard(context,base){const path=ROUTES[classKey(context?.className)];if(!path||!validStudent(context?.student))return null;const u=new URL(path,base);u.hash='p='+context.student;return u;}
- return {ACTIVE,ROUTES,MAX_AGE,validStudent,normalize,resolve,store,current,forCourse,suffix,progressKey,visible,taught,status,summary,focus,decorate,dashboard,handoff,active:null};
+ return {createStorage,ACTIVE,ROUTES,MAX_AGE,validStudent,normalize,resolve,store,current,forCourse,suffix,progressKey,visible,taught,status,summary,focus,decorate,dashboard,handoff,active:null};
 });

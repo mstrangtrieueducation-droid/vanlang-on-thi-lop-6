@@ -96,3 +96,14 @@ test('Generic subject labels use exact source URLs; named Reading books take pri
  const next={program:'Reading Intensive 3',lessonDate:'12/10/2026',url:rows[0].url};
  const fresh=P.currentBooks([c],mapping,[...rows,next]);assert.deepEqual(fresh.books,{fighter:['Reading 3']});assert.deepEqual(fresh.allowed.fighter,[]);
 });
+test('Full persistent storage still admits the dashboard pupil through a one-use tab handoff and retains progress',()=>{
+ const persistent=memory(),session=memory();persistent.setItem('untouched-class-cache','keep');persistent.setItem(C.progressKey('discover-1',student),JSON.stringify({stardust:5,lessons:{}}));const full={getItem:persistent.getItem,removeItem:persistent.removeItem,setItem(){throw Object.assign(Error('full'),{name:'QuotaExceededError'});}};
+ let storage=C.createStorage(full,session),c=catalog.find(c=>c.id==='discover-1'),ctx=context(c,c.lessons.slice(10,12).map(l=>l.id)),u=new URL('https://example.test/?student='+student+'&course='+c.id);assert.equal(C.store(storage,ctx),true);assert.equal(storage.temporary,true);assert.ok(C.handoff(storage,ctx,u));
+ storage=C.createStorage(full,session);const admitted=C.resolve(u.search,storage,session);assert.equal(admitted.entered,true);assert.equal(C.status(c,11,{},admitted).open,true);assert.equal(C.status(c,13,{},admitted).open,false);
+ assert.ok(G.save(storage,c.id,{student},{stardust:15,lessons:{'game-11':{stars:2}}}));assert.equal(G.load(C.createStorage(full,session),c.id,{student}).stardust,15);assert.equal(persistent.getItem('untouched-class-cache'),'keep');
+ assert.equal(C.resolve(u.search,C.createStorage(full,memory()),memory()).invalid,true);assert.equal(C.resolve(u.search,storage,session).invalid,true);
+});
+test('Blocked persistent storage falls back to this tab; both blocked stores never authorize entry',()=>{
+ const blocked={getItem(){throw Error('blocked')},setItem(){throw Error('blocked')},removeItem(){throw Error('blocked')}};
+ const storage=C.createStorage(blocked,memory());assert.ok(C.store(storage,context()));assert.equal(C.store(C.createStorage(blocked,blocked),context()),false);
+});
