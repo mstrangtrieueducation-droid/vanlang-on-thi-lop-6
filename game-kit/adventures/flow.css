@@ -34,3 +34,6 @@ html[data-course-road] #adventure .play,html[data-course-road] #adventure .lobby
 .skills-panel .power-tools[hidden]{display:none!important}
 
 @media(max-height:500px){#adventure.flow-live .challenge{gap:5px}}
+
+/* Tall answer text starts inside its tray and remains reachable on small screens. */
+#adventure.flow-live .work:has(>.choices){align-items:flex-start}#adventure.flow-live .work>.choices{margin-block:auto}#adventure.flow-live .work[data-gameplay] .choice:has(.long-answer){background:linear-gradient(145deg,#5cbb40,#236d35)!important;border-radius:36px 10px 36px 10px!important;overflow:hidden!important}#adventure.flow-live .work[data-gameplay] .choice:has(.long-answer).is-correct{background:#ffdc65!important}#adventure.flow-live .work[data-gameplay] .choice:has(.long-answer).is-wrong{background:#a49649!important}
