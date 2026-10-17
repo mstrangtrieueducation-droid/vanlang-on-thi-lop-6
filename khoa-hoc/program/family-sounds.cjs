@@ -1,0 +1,26 @@
+// Lesson 4 spelling/sound families in the supplied Class Books.
+module.exports={1:[
+'initial-a:apple;initial-b:bird;initial-c:cat;initial-d:dog',
+'initial-e:egg;initial-f:fig;initial-g:goat;initial-h:hat',
+'initial-i:ink;initial-j:jam;initial-k:kite;initial-l:lion',
+'initial-m:mum;initial-n:nurse;initial-o:orange;initial-p:pen',
+'initial-q:queen;initial-r:rabbit;initial-s:sofa;initial-t:teddy;initial-u:umbrella',
+'initial-v:van;initial-w:window;x:box;initial-y:yo-yo;initial-z:zebra',
+'alphabet:abcdefghijklmnopqrstuvwxyz',
+'sh:shoes,sheep,fish','ch:chair,teacher,chick','th:three,bath,teeth',
+'short-a:cat,fan,man','short-e:bed,pen,red','short-i:bin,fig,tin',
+'short-o:dog,fox,log','short-u:rug,jug,sum'
+],2:[
+'alphabet:abcdefghijklmnopqrstuvwxyz',
+'ch:chair,teacher;sh:shoes,fish;th:thumb,bath',
+'short-a:cat,van;short-e:peg,bed;short-i:bin,fig;short-o:mop,dog;short-u:bus,jug',
+'gr:grass,grapes;br:brush,bread;fr:frog,frisbee',
+'dr:drum,dress;tr:truck,tree;cr:crayon,crab',
+'fl:flower,flat;pl:plum,plate;bl:blanket,blue',
+'cl:cloud,clock;gl:gloves,glue;sl:slide,slippers',
+'sm:smile,small;sn:snow,snake;st:stairs,star;sk:sky,skates',
+'a_e:lake,gate,face,plane','i_e:bike,kite,white,nine,line','o_e:stone,bone,home,nose,rope',
+'u_e:June,flute,tube,cube','ee:tree,three,cheese,feet,green',
+'short-u:cub;u_e:cube;short-a:tap;a_e:tape;short-i:pip;i_e:pipe',
+'ng:ring,king,swing;nk:bank,sink,pink'
+]};

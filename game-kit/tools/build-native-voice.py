@@ -22,6 +22,7 @@ else:
   questions+=data['items']
  story_texts={q['storyText'] for q in questions if q.get('storyText')}
  raw=[str(q.get(spoken) or q.get(visible) or '') for q in questions for spoken,visible in [('spokenScene','scene'),('spokenPrompt','prompt')] if q.get(spoken) or q.get(visible)]
+raw+=sorted(story_texts)
 raw+=['Oh no…',"It's okay, let's try it again!",'Excellent!','Good try!','Amazing! Your adventure is complete!','Read the clue and choose the correct answer.',"Ready for your next challenge? Let's explore!",'Welcome to Ms. Trang Trieu Education!']
 raw+=['Listen and choose the correct answer.']
 keys=list(dict.fromkeys(text.strip() for text in raw))

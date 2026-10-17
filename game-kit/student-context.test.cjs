@@ -70,8 +70,8 @@ test('Direct or copied links cannot start a visit even with cached progress; han
 
 const taughtRows=(course,id,date,program=course.name)=>mapping[course.id][id].sourceGroups.map(g=>({program,lessonDate:date,endTime:'20:00',url:g[0]}));
 test('Current book follows classroom dates in either order; old course progress is retained but cannot grant access',()=>{
- const old=catalog.find(c=>c.id==='phonics-4'),now=catalog.find(c=>c.id==='family-friends-1'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),...taughtRows(now,'game-1','10/10/2026','Family & Friends 1')];
- for(const input of [rows,[...rows].reverse()]){const fresh=P.currentBooks(catalog,mapping,input);assert.deepEqual(fresh.books,{[now.id]:[]});assert.deepEqual(fresh.allowed[now.id],['game-1']);assert.equal(fresh.allowed[old.id],undefined);const ctx=context(now,fresh.allowed[now.id],{books:fresh.books});assert.equal(C.visible(old,ctx).length,0);assert.equal(C.status(old,1,{lessons:{'game-1':{stars:3}}},ctx).open,false);}
+ const old=catalog.find(c=>c.id==='phonics-4'),now=catalog.find(c=>c.id==='family-friends-1'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),...taughtRows(now,'starter','10/10/2026','Family & Friends 1')];
+ for(const input of [rows,[...rows].reverse()]){const fresh=P.currentBooks(catalog,mapping,input);assert.deepEqual(fresh.books,{[now.id]:[]});assert.deepEqual(fresh.allowed[now.id],['starter']);assert.equal(fresh.allowed[old.id],undefined);const ctx=context(now,fresh.allowed[now.id],{books:fresh.books});assert.equal(C.visible(old,ctx).length,0);assert.equal(C.status(old,1,{lessons:{'game-1':{stars:3}}},ctx).open,false);}
 });
 test('Moving books on the first session never revives a completed old textbook or invents a full two-session game',()=>{
  const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['game-1'].sourceGroups[0][0]}}];

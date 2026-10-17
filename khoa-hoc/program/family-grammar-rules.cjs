@@ -1,0 +1,33 @@
+module.exports={1:[
+ 'Use “What is this?” to ask about one thing. Reply “It is a …”. Use “an” before a vowel sound.',
+ '“Is this your …?” asks who owns one thing. Answer “Yes, it is” or “No, it isn’t”. “My” means it belongs to me.',
+ 'Use “This is” with one thing and “These are” with more than one. Check the plural ending.',
+ 'Use “he” for a man or boy and “she” for a woman or girl. Put “is” before the person in a question.',
+ '“In” means inside; “on” means on a surface; “under” means below. “Where” asks about place.',
+ 'Add apostrophe + s to a person’s name or family word to show whose thing it is: “my sister’s bike”.',
+ '“His” means belonging to him; “her” means belonging to her. Use “Is this” for one thing and “Are these” for more than one.',
+ 'Use “Where is” for one person and “Where are” for more than one. Match “is/are” in the short answer.',
+ 'Use “I have got” or “I haven’t got” for things you have or do not have. Choose “a/an” by the next sound.',
+ 'Use “has got” and “hasn’t got” with he, she or it. Describing words come before a noun: “curly hair”.',
+ 'Use “I like” or “I don’t like” for preferences. Use “is” for one animal and “are” for more than one.',
+ 'Ask “Do you like …?” and answer “Yes, I do” or “No, I don’t”. “What do you like?” asks which food you prefer.',
+ 'Use “There is” for one thing and “There are” for more than one. Check both the number and the preposition.',
+ 'After “can” or “can’t”, use the base verb. In a question, put “Can” before the subject.',
+ 'Use “Let’s + base verb” to suggest an activity. Use “Don’t + base verb” to tell someone not to do something.'
+],2:[
+ 'Use “this/that is” for one thing and “these/those are” for more than one. “This/these” are near; “that/those” are farther away.',
+ 'Match the subject and be: “I am”, “he/she is”, “we/they are”. Add “not” for a negative feeling statement.',
+ '“Can” describes ability; “can’t” describes something you cannot do. The verb after “can” stays in its base form.',
+ 'Use “Have … got?” with I/you/we/they and “Has … got?” with he/she/it. Match have/has in the short answer.',
+ '“Our” means belonging to us; “their” means belonging to them. Use “on” before a weekday in a timetable.',
+ 'For routines with I/you/we/they, use the base verb. Make negatives with “don’t + base verb”.',
+ 'With he/she, use “likes” in a positive sentence, but “doesn’t like” in a negative sentence: no -s after doesn’t.',
+ 'Use “at” before a clock time. Add -s to a routine verb with he/she, but keep the base verb with I/you/we/they.',
+ 'Use “Where does … work?” for one person. After “does”, use “work”; in the answer, use “He/She works …”.',
+ 'Use “It is” to describe weather. Instructions start with a base verb, such as “Put”, “Open” or “Wear”.',
+ 'To describe clothes worn now, use am/is/are + wearing. “Half past” is 30 minutes after; “quarter past” is 15 after.',
+ 'For an action happening now, use am/is/are + verb-ing. Keep the correct subject: “I am”, “he/she is”, “they are”.',
+ 'To compare two animals or things, use a comparative adjective and “than”: “taller than”, “faster than”.',
+ 'Use “was/wasn’t” for I/he/she/it in the past and “were/weren’t” for you/we/they.',
+ 'Use “There was” for one and “There were” for more than one in the past. Use “some” in positive statements and “any” in negatives or questions.'
+]};

@@ -21,7 +21,7 @@
   root.querySelectorAll('[data-order-undo]').forEach(b=>b.onclick=()=>{if(api.locked())return;update(api.values().filter((_,i)=>i!==Number(b.dataset.orderUndo)));});
   root.querySelectorAll('[data-pair-word]').forEach(b=>b.onclick=()=>{if(api.locked())return;selected=b.dataset.pairWord;root.querySelectorAll('[data-pair-word]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));api.sound('pop');});
   root.querySelectorAll('[data-pair-picture]').forEach(b=>b.onclick=()=>{if(api.locked())return;const i=Number(b.dataset.pairPicture),next=Array.from({length:q.matchPictures.length},(_,j)=>api.values()[j]||'');if(selected){for(let j=0;j<next.length;j++)if(next[j]===selected)next[j]='';next[i]=selected;}else next[i]='';update(next);});
-  root.querySelector('#phonics-submit')?.addEventListener('click',e=>{if(api.locked())return;const v=api.values();if(v.length!==3||v.some(x=>!x))return;api.submit(v.join(' → '),e.currentTarget);});
+  root.querySelector('#phonics-submit')?.addEventListener('click',e=>{if(api.locked())return;const v=api.values();if(v.length!==(q.orderWords?.length||q.matchPictures?.length)||v.some(x=>!x))return;api.submit(v.join(' → '),e.currentTarget);});
  }
  window.PhonicsActivities={picture,render,reference,prompt,bind};
 })();

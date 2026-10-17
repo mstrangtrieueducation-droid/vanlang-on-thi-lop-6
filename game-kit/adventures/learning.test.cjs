@@ -1,8 +1,8 @@
 const {test}=require('node:test'),assert=require('node:assert/strict');
 const coach=require('./learning.js'),courses=require('../../khoa-hoc/content.cjs'),legacy=require('../../vu-tru/legacy-lessons.json');
 const all=[...Object.values(courses).flatMap(c=>c.lessons),...legacy.lessons];
-test('All 349 lessons retain every question, exact values and exam order; planned rounds resume exactly',()=>{
- assert.equal(all.length,349);
+test('All 435 lessons retain every question, exact values and exam order; planned rounds resume exactly',()=>{
+ assert.equal(all.length,435);
  for(const l of all){const before=JSON.stringify(l.items);const planned=coach.plan(l.items),standard=coach.plan(l.items,{standard:true});
   assert.deepEqual(standard,l.items);assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
   assert.deepEqual([...planned].map(q=>q.id).sort(),l.items.map(q=>q.id).sort());assert.ok(planned.every(q=>l.items.includes(q)));assert.equal(JSON.stringify(l.items),before);
@@ -30,7 +30,7 @@ test('Short reviews cap at six, prioritize weak questions and schedule clean rec
  const weak=items.slice(1,9).map(q=>q.id),review=coach.review(items,weak,history,now);assert.equal(review.length,6);assert.ok(review.every(q=>weak.includes(q.id)));
 });
 test('Feedback uses source evidence and hints support the skill without giving away a listening answer',()=>{
- const q=courses['family-friends-1'].lessons[0].items[1];assert.match(coach.explanation(q),/asks about age/);assert.doesNotMatch(coach.explanation(q),/The answer is/);
+ const q=require('../../khoa-hoc/legacy/family-friends-1.json').lessons[0].items[1];assert.match(coach.explanation(q),/asks about age/);assert.doesNotMatch(coach.explanation(q),/The answer is/);
  const listen={type:'choice',scene:'Listen to Titi.',spokenScene:'bathroom',answer:'bathroom',hint:'Read carefully. Listen again if you need to.'};assert.equal(coach.skill(listen),'listening');assert.doesNotMatch(coach.hint(listen),/bathroom/);
  const grammar={scene:'She … happy.',answer:'is',why:'The answer is is.'};assert.equal(coach.explanation(grammar),'Complete sentence: She is happy.');
  const original={why:'Use are with a plural subject.'};assert.equal(coach.explanation(original),original.why);
