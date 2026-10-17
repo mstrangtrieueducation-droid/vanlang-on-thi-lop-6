@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  if(window.TitiReview?.active){window.GameProfile={review:true,name:'Đội ngũ',displayName:'Cô và đội ngũ',className:'REVIEW',storageKey:window.GAME_CONFIG.storageKey+':review'};return;}
   const normalize = (value, max) => {
     if (typeof value !== 'string' || /[\u0000-\u001f\u007f-\u009f]/.test(value)) return '';
     const name = value.normalize('NFC').trim().replace(/\s+/g, ' ');

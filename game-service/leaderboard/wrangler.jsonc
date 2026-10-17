@@ -1,0 +1,22 @@
+{
+  "name": "titi-games",
+  "main": "worker.mjs",
+  "account_id": "4c5284005ff77bf792e289381b5d22c9",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false
+  },
+  "triggers": {
+    "crons": [
+      "17 19 * * *"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "titi-games",
+      "database_id": "f80ef0cf-ee72-4f49-89ee-c80cda39c333"
+    }
+  ]
+}
