@@ -2,8 +2,8 @@
 (()=>{'use strict';const c=window.GAME_CONFIG;if(!c?.courseId||!window.GalaxyCore)return;const core=window.GalaxyCore,p=window.GameProfile,storage=window.StudentContext?.browserStorage||{getItem:k=>localStorage.getItem(k),setItem:(k,v)=>localStorage.setItem(k,v)},params=new URLSearchParams(location.search);
  const get=()=>core.load(storage,c.courseId,p);let data=get();
  const incoming=params.get('galaxy');if(core.themes.includes(incoming))data.theme=incoming;
- const theme=data.theme||core.theme({id:c.courseId,name:c.brand});document.documentElement.dataset.galaxy=theme;
- const link=document.createElement('link');link.rel='stylesheet';link.href='../vu-tru/lesson-theme.css?v=galaxy-1';document.head.append(link);
+ const theme=data.theme||core.theme({id:c.courseId,name:c.brand});document.documentElement.dataset.galaxy=theme;document.documentElement.dataset.courseWorld=c.courseId;document.documentElement.style.setProperty('--course-world-art','url("../vu-tru/assets/'+encodeURIComponent(c.courseId)+'.webp")');
+ const link=document.createElement('link');link.rel='stylesheet';link.href='../vu-tru/lesson-theme.css?v=world-1';document.head.append(link);
  function journey(){const u=new URL('../vu-tru/',location.href);for(const key of ['release','mtt_name','mtt_class','mtt_english','track','student','limit','focus'])if(params.has(key))u.searchParams.set(key,params.get(key));u.searchParams.set('course',c.courseId);u.searchParams.set('lesson',c.lessonId||c.id);if(p){u.searchParams.set('mtt_name',p.name);u.searchParams.set('mtt_class',p.className);if(p.displayName!==p.name)u.searchParams.set('mtt_english',p.displayName);}window.StudentContext?.decorate(u,StudentContext.active,c.courseId);return u.href;}
  if(params.get('from')==='universe'||window.StudentContext?.active)c.journeyUrl=journey();
  window.GalaxyBridge={
