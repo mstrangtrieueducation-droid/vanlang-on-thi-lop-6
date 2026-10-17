@@ -4,6 +4,7 @@
  const DAY=86400000;
  const labels={listening:'LISTEN',phonics:'SOUNDS',grammar:'USE IT',dialogue:'CONVERSATION',reading:'READ & THINK',vocabulary:'WORD POWER'};
  function skill(q){
+  if(q.phonicsSequence&&['phonics','listening'].includes(q.skill))return q.skill;
   const p=String(q.prompt||'').toLowerCase();
   if(q.skill==='listening'||q.spokenScene||/do you hear|listen to/.test(p))return 'listening';
   if(q.skill==='grammar'||/_{2,}|\.{2,}|…/.test(q.scene||''))return 'grammar';

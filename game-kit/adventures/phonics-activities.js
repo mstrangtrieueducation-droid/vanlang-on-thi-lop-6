@@ -1,0 +1,27 @@
+/* Native Phonics interactions. Every submission still uses the shared first-attempt scorer. */
+(()=>{'use strict';
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const standard=()=>window.GalaxyBridge?.getMode()==='standard';
+ function picture(p){if(!p)return '';return p.src?`<img class="phonics-card-image" src="${esc(p.src)}" alt="" draggable="false">`:`<i class="phonics-picture" aria-hidden="true" style="background-image:url(../game-kit/adventures/pictures/phonics-sheet-${p.sheet}-v1.png);background-position:${p.cell%4*100/3}% ${Math.floor(p.cell/4)*100/3}%"></i>`;}
+ function render(q,values){
+  if(q.matchPictures){
+   if(standard())return null;
+   return `<div class="phonics-pairs"><div class="pair-words">${q.matchWords.map(w=>`<button data-pair-word="${esc(w)}" aria-pressed="false">${esc(w)}${values.includes(w)?' ✓':''}</button>`).join('')}</div><div class="pair-pictures">${q.matchPictures.map((p,i)=>`<button data-pair-picture="${i}" aria-label="Picture ${i+1}${values[i]?', paired with '+esc(values[i]):''}"><span class="pair-number">${i+1}</span>${picture(p)}<b>${esc(values[i]||'Choose a word')}</b></button>`).join('')}</div></div><button id="phonics-submit" class="primary" ${q.matchPictures.every((_,i)=>values[i])?'':'disabled'}>✓ Check pairs</button>`;
+  }
+  if(q.orderWords&&!standard())return `<div class="phonics-order"><div class="phonics-slots" aria-label="Your word order">${q.orderWords.map((_,i)=>`<button data-order-undo="${i}" ${values[i]?'':'disabled'} aria-label="Position ${i+1}${values[i]?', remove '+esc(values[i]):', empty'}"><small>${i+1}</small>${esc(values[i]||'?')}</button>`).join('')}</div><div class="phonics-tiles">${q.orderWords.map(w=>`<button data-order-word="${esc(w)}" ${values.includes(w)?'disabled':''}>${esc(w)}</button>`).join('')}</div><button id="phonics-submit" class="primary" ${values.length===q.orderWords.length?'':'disabled'}>✓ Check order</button></div>`;
+  return null;
+ }
+ function reference(q){return q.picturePrompt?`<div class="phonics-prompt-picture" role="img" aria-label="Question picture">${picture(q.picturePrompt)}</div>`:q.matchPictures&&standard()?`<div class="phonics-reference">${q.matchPictures.map((p,i)=>`<figure><b>${i+1}</b>${picture(p)}</figure>`).join('')}</div>`:'';}
+ function prompt(q){return standard()&&q.matchPictures?'Which answer matches pictures 1, 2 and 3?':standard()&&q.orderWords?q.prompt.replace(/^Tap the words/,'Choose the words'):q.prompt;}
+ function bind(root,q,api){
+  let selected=null;
+  if(!api.locked()&&!standard()){const message=q.matchPictures?'Tap a word → tap a picture → check all three pairs.':q.orderWords?'Listen → tap the cards in order → check.':'';if(message)root.querySelector('#feedback').textContent=message;}
+  const update=v=>{api.set(v);api.sound('pop');api.save();api.refresh();};
+  root.querySelectorAll('[data-order-word]').forEach(b=>b.onclick=()=>{if(api.locked())return;update([...api.values(),b.dataset.orderWord]);});
+  root.querySelectorAll('[data-order-undo]').forEach(b=>b.onclick=()=>{if(api.locked())return;update(api.values().filter((_,i)=>i!==Number(b.dataset.orderUndo)));});
+  root.querySelectorAll('[data-pair-word]').forEach(b=>b.onclick=()=>{if(api.locked())return;selected=b.dataset.pairWord;root.querySelectorAll('[data-pair-word]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));api.sound('pop');});
+  root.querySelectorAll('[data-pair-picture]').forEach(b=>b.onclick=()=>{if(api.locked())return;const i=Number(b.dataset.pairPicture),next=Array.from({length:q.matchPictures.length},(_,j)=>api.values()[j]||'');if(selected){for(let j=0;j<next.length;j++)if(next[j]===selected)next[j]='';next[i]=selected;}else next[i]='';update(next);});
+  root.querySelector('#phonics-submit')?.addEventListener('click',e=>{if(api.locked())return;const v=api.values();if(v.length!==3||v.some(x=>!x))return;api.submit(v.join(' → '),e.currentTarget);});
+ }
+ window.PhonicsActivities={picture,render,reference,prompt,bind};
+})();

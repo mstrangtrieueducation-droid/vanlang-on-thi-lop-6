@@ -1,0 +1,104 @@
+// Transcribed from the supplied Oxford Phonics World Student Books, contents pp.2–3.
+// Each row is a textbook lesson. P1 Units 7/8 combine the last two alphabet lessons.
+const rows={
+1:`a|apple,ax,ant,alligator
+b|bear,bird,bed,banana
+c|cat,cup,car,computer
+d|dog,desk,doll,duck
+e|egg,elbow,envelope,elephant
+f|fish,fan,farm,fork
+g|gorilla,goat,gift,girl
+h|horse,hat,house,hot dog
+i|insect,ink,igloo,iguana
+j|jet,jam,juice,jacket
+k|kangaroo,key,king,kite
+l|lion,lamp,leaf,lemon
+m|monkey,milk,money,mouse
+n|nut,net,nest,nose
+o|octopus,ox,olive,ostrich
+p|peach,pen,panda,pineapple
+q|queen,quiz,quilt,question
+r|rabbit,rose,rice,robot
+s|seal,sun,soap,socks
+t|turtle,tent,tiger,teacher
+u,v|umbrella,up,uncle,umpire,van,vet,vest,violin
+w|wolf,web,water,watch
+x|fox,box,six,wax
+y,z|yo-yo,yak,yogurt,yacht,zipper,zero,zoo,zebra`,
+2:`a|cat,ant,yak,ax
+am|ram,jam,yam,dam
+an|fan,man,pan,can
+ad,ag|dad,pad,bag,rag
+ap|cap,map,nap,tap
+at|bat,rat,hat,mat
+e|web,egg,vet,ten
+et|jet,net,wet,pet
+en,ed|hen,pen,red,bed
+i|hip,ink,zip,in
+ip|lip,tip,sip,rip
+ib,id|bib,rib,kid,lid
+in|pin,fin,bin,win
+ig|fig,wig,big,dig
+it,ix|pit,hit,six,mix
+o|fox,log,ox,rod
+ot|pot,hot,cot,dot
+op|top,mop,hop,pop
+u|sun,up,jug,hug
+ug|bug,rug,mug
+ud,up|bud,mud,pup,cup
+ut|nut,hut,cut
+ub,um|cub,tub,gum,hum
+un|bun,run,fun`,
+3:`a_e|tape,cape,cane,mane
+ame,ake|game,cake,name,lake
+ate,ave|gate,wave,skate,cave
+i_e|kite,pine,ripe,fine
+ime,ike|lime,bike,time,hike
+ive,ine|five,nine,dive,line
+o_e|home,bone,cone,rope
+u_e-yoo|cube,mute,cute,mule
+u_e-oo|tube,June,tune,rule
+ai|rain,nail,tail,wait
+ay|bay,day,say,pay
+ai,ay|sail,mail,hay,May
+ee|bee,feet,seed,jeep
+ea|leaf,eat,sea,meat
+y-ee,ey|candy,key,happy,money
+igh|light,night,high,right
+ie|pie,tie,lie,die
+y-igh|spy,sky,cry,my
+oa|boat,coat,soap,road
+ow|bow,row,yellow,pillow
+oa,ow|goat,toad,elbow,window
+ue|blue,glue,clue,Tuesday
+ui,ew|fruit,suit,new,dew
+oo|moon,zoo,food,boot`,
+4:`bl,cl|black,blanket,clock,club
+br,cr|broom,bride,crab,crocodile
+fl,gl|fly,flag,globe,glass
+fr,gr|frog,Friday,green,grass
+pl,sl|plate,play,slide,sleep
+dr,tr|drum,dress,truck,tree
+sm,sn|smile,smoke,snake,snow
+sp,sw|spoon,spot,swing,swim
+st|stop,test,stamp,fast
+sh|shell,fish,ship,brush
+ch,tch|chick,lunch,watch,catch
+ph,wh|phone,dolphin,whale,white
+th-voiced|this,that,mother,father
+th-unvoiced|three,teeth,think,bath
+ck,qu|duck,rocket,queen,quilt
+ng,nk|king,long,bank,pink
+nd,nt|wind,hand,tent,paint
+lt,mp|belt,adult,lamp,camp
+sk,sc|skunk,desk,scale,school
+spr,str|spray,spring,string,strong
+spl,squ|splash,splint,squid,square
+c-soft|rice,city,ice cream,cell phone
+g-soft|giraffe,orange,giant,cage
+s-voiced|rose,jeans,cheese,legs`
+};
+// Actual classroom session ordinals, including gaps for tests. Never infer from map position.
+const sessions={1:[[1,1,2],[2,3,3],[4,4,5],[5,6,6],[8,8,9],[9,10,10],[11,11,12],[13,13,14]],2:[[1,1,1],[2,2,3],[4,4,4],[5,5,6],[8,8,9],[10,10,11],[12,12,13],[14,14,15]],3:[[1,1,2],[3,3,4],[5,5,6],[7,7,8],[10,10,11],[12,12,13],[14,14,15],[16,16,17]],4:[[1,1,1],[2,2,2],[3,3,3],[4,4,4],[5,5,5],[6,6,6],[null,null,null],[null,null,null]]};
+const books=['1A-yrsq42iDf445MsFD1fFK6E13TwFioU','1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE','1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R','166c92ueRvhX7jNRbSkt_lrW0XChpHJdX'];
+module.exports=Object.fromEntries([1,2,3,4].map(n=>{const levels=rows[n].split('\n').map((row,i)=>{const [patterns,words]=row.split('|');return {patterns:patterns.split(','),words:words.split(','),session:sessions[n][Math.floor(i/3)][i%3]};});return [n,Array.from({length:8},(_,i)=>({unit:i+1,page:n===1&&i>=6?[73,83][i-6]:[11,19,31,39,51,59,71,79][i],bookURL:'https://drive.google.com/file/d/'+books[n-1]+'/view',levels:levels.slice(i*3,i*3+3)}))];}));

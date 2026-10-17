@@ -8,6 +8,7 @@ FOLDER=ROOT/'game-kit/adventures/audio-native'
 FOLDER.mkdir(exist_ok=True)
 VOICE='en-US-AnaNeural'
 RATE='+3%'
+story_texts=set()
 if len(sys.argv)>1:
  raw=json.loads(Path(sys.argv[1]).read_text(encoding='utf8'))
 else:
@@ -19,6 +20,7 @@ else:
   source=file.read_text(encoding='utf8').strip()
   data=json.loads(source[source.index('{'):].rstrip(';'))
   questions+=data['items']
+ story_texts={q['storyText'] for q in questions if q.get('storyText')}
  raw=[str(q.get(spoken) or q.get(visible) or '') for q in questions for spoken,visible in [('spokenScene','scene'),('spokenPrompt','prompt')] if q.get(spoken) or q.get(visible)]
 raw+=['Oh no…',"It's okay, let's try it again!",'Excellent!','Good try!','Amazing! Your adventure is complete!','Read the clue and choose the correct answer.',"Ready for your next challenge? Let's explore!",'Welcome to Ms. Trang Trieu Education!']
 raw+=['Listen and choose the correct answer.']
@@ -31,7 +33,9 @@ def clean(s):
  s=re.sub(r'\s+',' ',s).strip()
  return s
 for key in keys:
- parts=re.split(r'(_{2,}|\.{2,}|…)',key)
+ # A pause in the printed story is punctuation, not a missing-answer cue.
+ # Retain the original lookup key so the textbook text stays unchanged.
+ parts=[re.sub(r'\.{2,}|…',', ',key)] if key in story_texts else re.split(r'(_{2,}|\.{2,}|…)',key)
  clips=[]
  for part in parts:
   if re.fullmatch(r'_{2,}|\.{2,}|…',part or ''):

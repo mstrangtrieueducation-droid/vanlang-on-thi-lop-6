@@ -1,60 +1,63 @@
 const fs=require('node:fs'),path=require('node:path');
-const plan=require('./phonics-plan.cjs'),stories=require('./phonics-stories.cjs');
-const evidence=require('./legacy/teaching-map-before-phonics.json');
-const sheets=[
- 'apple ball cat dog egg fish goat hat insect jam kite lion moon nest octopus pig',
- 'queen rabbit sun tiger umbrella van web box yo-yo zebra bag cap bed hen jet lip',
- 'bib kid wig pin pot mop bug mug cup cub gum nut cake gate bike line',
- 'home cube rain bee key pie boat snow fruit spoon brush crab drum frog ship duck'
-].map(x=>x.split(' '));
-const pictures=Object.fromEntries(sheets.flatMap((words,s)=>words.map((word,cell)=>[word,{sheet:s+1,cell}])));
-// These illustrations are less specific than the spoken word; use text instead.
-for(const word of ['snow','line','kid','moon'])delete pictures[word];
-const unique=a=>[...new Set(a)], label=s=>s.key==='y-ee'?'y · /i/':s.key==='y-igh'?'y · /aɪ/':s.key==='th-voiced'?'th · /ð/':s.key==='th-unvoiced'?'th · /θ/':s.key;
-const spelling=s=>s.key.split('-')[0];
-const optionSet=(answer,pool)=>[answer,...unique(pool).filter(w=>w!==answer).slice(0,3)];
+const units=require('./phonics-units.cjs'),stories=require('./phonics-book-stories.cjs'),sources=require('./phonics-classroom-sources.json');
+const pictures=require('../game-kit/adventures/pictures/book-cards/manifest.json');
+const unique=a=>[...new Set(a)],rotate=(a,n)=>a.slice(n%a.length).concat(a.slice(0,n%a.length));
+const label=p=>({'th-voiced':'th /ð/','th-unvoiced':'th /θ/','c-soft':'c /s/','g-soft':'g /dʒ/','s-voiced':'s /z/','y-ee':'y /i/','y-igh':'y /aɪ/','u_e-yoo':'u_e /juː/','u_e-oo':'u_e /uː/'}[p]||p);
+function belongs(word,p,n){const w=word.toLowerCase(),s=p.split('-')[0];
+ if(n===1)return p==='x'?w.includes('x'):w.startsWith(p);
+ if(p==='th-voiced')return ['this','that','mother','father'].includes(w);
+ if(p==='th-unvoiced')return ['three','teeth','think','bath'].includes(w);
+ if(p.includes('-'))return units[n].flatMap(u=>u.levels).some(l=>l.patterns.includes(p)&&l.words.map(x=>x.toLowerCase()).includes(w));
+ if(s.includes('_'))return new RegExp(s.replace('_','[b-df-hj-np-tv-z]+')+'$').test(w);
+ return n===2&&s.length>1?w.endsWith(s):w.includes(s);
+}
+const storySessions={1:[2,3,5,6,9,10,12,14],2:[2,3,5,6,9,11,13,15],3:[2,4,6,8,11,13,15,17],4:[1,2,3,4,5,6,null,null]};
+const permutations=a=>[[a[0],a[1],a[2]],[a[1],a[0],a[2]],[a[2],a[1],a[0]],[a[0],a[2],a[1]]].map(x=>x.join(' → '));
 module.exports=function install(courses){
- const map=JSON.parse(JSON.stringify(evidence));
+ const map=JSON.parse(JSON.stringify(require('./legacy/teaching-map-before-phonics.json')));
  for(const n of [1,2,3,4]){
-  const id='phonics-'+n,old=require('./legacy/'+id+'.json'),source={};
-  for(const l of old.lessons)l.sourceLessons.forEach((s,i)=>{source[s]=evidence[id][l.id].sourceGroups[i];});
-  const seeds=plan[n].split('\n').map(row=>{const [key,a,b,src]=row.split(' ');return {key,a,b,sources:src.split(',').map(x=>'lesson-'+x)};});
-  const lessonId=s=>'sound-'+s.key,groups=s=>[unique(s.sources.flatMap(k=>source[k]))];
-  const lessons=[],aliases={};map[id]={};
-  const make=(s,suffix,scene,prompt,answer,options,extra={})=>({id:`${id}-${s.key}-${suffix}`,type:'choice',title:label(s),scene,prompt,answer,options,skill:'phonics',interaction:'phonics-choice',phonicsSequence:true,focus:label(s),hint:'Listen again. Say the word slowly and look at the letters.',why:`${s.a} and ${s.b}: practise ${label(s)}.`,sourceLabel:'Original centre practice aligned to classroom sound sequence',...extra});
-  function hear(s,suffix='listen'){
-   const pic=pictures[s.a],pool=pic?sheets[pic.sheet-1].filter(w=>pictures[w]&&!['hat','cap','insect','bug','mug','cup','boat','ship'].some(x=>x===s.a&&({'hat':'cap',cap:'hat',insect:'bug',bug:'insect',mug:'cup',cup:'mug',boat:'ship',ship:'boat'}[x]===w))):seeds.map(x=>x.a);
-   const options=optionSet(s.a,pool);
-   return make(s,suffix,'Listen to Titi.',pic?'Listen and choose the correct picture.':'Which word do you hear?',s.a,options,{skill:'listening',spokenScene:s.a,interaction:pic?'picture':'phonics-choice',...(pic?{pictureOptions:Object.fromEntries(options.map(w=>[w,pictures[w]]))}:{}),why:`You heard “${s.a}”. ${s.a} is a practice word for ${label(s)}.`});
-  }
-  for(let start=0;start<seeds.length;start+=3){
-   const unit=start/3+1,chunk=seeds.slice(start,start+3);
-   for(const s of chunk){
-    const key=spelling(s),position=n===1?(s.key==='x'?'last':'first'):(s.a.endsWith(key)?'end':'beginning');
-    const others=seeds.filter(t=>t.key!==s.key&&!t.a.includes(key)&&!t.b.includes(key));
-    const spellingOptions=optionSet(key,['a','e','i','o','u','b','d','m','s','t'].concat(seeds.map(spelling)));
-    const patternPrompt=n===1?`Which is the ${position} letter?`:'Which letter pattern can you find in this word?';
-    // Silent-e patterns need a whole-pattern comparison, not a contiguous substring.
-    const pattern=key.includes('_')?key:key;
-    const actualSpell=optionSet(pattern,n===3?(pattern.includes('_')?['a_e','i_e','o_e','u_e']:seeds.map(spelling).filter(x=>!x.includes('_')&&!s.a.includes(x))):spellingOptions.slice(1));
-    const pairPrompt=n===1?(s.key==='x'?'Which word also ends with x?':'Which word begins with the same letter?'):n===2?'Which word rhymes with this word?':n===3?'Which word has the same vowel sound?':s.key.startsWith('th-')?'Which word has the same first sound?':`Which word also contains the letters “${key}”?`;
-    const pairPool=n===3?['cat','hen','pig','dog','cup']:s.key==='th-voiced'?['thin','thick','thank']:s.key==='th-unvoiced'?['this','that','them']:others.map(t=>t.b);
-    const missing=n===1?(s.key==='x'?s.a.slice(0,-1)+'___':'___'+s.a.slice(1)):key.includes('_')?s.a.replace(/[aeiou]/,'___').replace(/e$/,'___'):s.a.replace(key,'___');
-    const items=[hear(s),make(s,'pattern',s.a,patternPrompt,pattern,actualSpell,{spokenScene:s.a,why:`In “${s.a}”, look for ${label(s)}${key.includes('_')?'; the final e is silent':''}.`}),make(s,'pair',s.a,pairPrompt,s.b,optionSet(s.b,pairPool),{spokenScene:s.a,why:n===1?`${s.a} and ${s.b} have the same ${position} letter, ${key}.`:n===2?`${s.a} and ${s.b} rhyme: both end in -${key}.`:n===3?`${s.a} and ${s.b} share the long vowel sound in this lesson.`:s.key.startsWith('th-')?`${s.a} and ${s.b} both use ${s.key==='th-voiced'?'voiced /ð/ (feel your throat vibrate)':'unvoiced /θ/ (let air pass between tongue and teeth)'}.`:`${s.a} and ${s.b} both contain ${key}.`}),make(s,'listen-partner','Listen to Titi.','Which word do you hear?',s.b,optionSet(s.b,[s.a,...others.map(t=>t.b)]),{skill:'listening',spokenScene:s.b,why:`You heard “${s.b}”, not “${s.a}”. Listen to the whole word, including the ending.`}),make(s,'complete',missing,'Listen and choose the complete word.',s.a,optionSet(s.a,others.map(t=>t.a)),{skill:'listening',spokenScene:s.a,why:`Complete word: ${s.a}. The missing part practises ${label(s)}.`})];
-    const l={id:lessonId(s),kind:'sound',unit,focusSounds:[label(s)],title:`Unit ${unit} · ${label(s)}`,description:`${s.a} · ${s.b} — Nghe, nhận diện âm/vần và ghép chữ.`,sourceLessons:s.sources,items};lessons.push(l);
-    map[id][l.id]={sourceGroups:groups(s),sessions:s.sources};
-    for(const sourceId of s.sources)aliases[sourceId]||=l.id;
+  const id='phonics-'+n,all=unique(units[n].flatMap(u=>u.levels.flatMap(l=>l.words))),lessons=[],aliases={};map[id]={};
+  const pic=w=>pictures[n+':'+w];
+  function options(answer,pool,seed=0){const others=rotate(unique(pool).filter(w=>w!==answer),seed).slice(0,3);if(others.length!==3)throw Error('Missing distractors '+answer);return rotate([answer,...others],seed);}
+  function build(u,l,stage){
+   const lessonId=`unit-${u.unit}-stage-${stage}`,focus=l.patterns.map(label).join(' · '),words=l.words;
+   const make=(index,kind,scene,prompt,answer,pool,extra={})=>({id:`${id}-v3-u${u.unit}-s${stage}-q${index+1}`,type:'choice',title:`Unit ${u.unit} · ${focus}`,scene,prompt,spokenScene:scene,spokenPrompt:prompt,answer,options:options(answer,pool,index),skill:'phonics',interaction:kind,phonicsSequence:true,focus,focusSounds:l.patterns,difficulty:['easy','medium','advanced'][Math.floor(index/5)],hint:'Listen again. Look carefully, then choose.',why:`${answer}: practise ${focus}.`,sourceLabel:`Oxford Phonics World ${n} · Unit ${u.unit} · centre practice`,...extra});
+   const items=[];
+   for(let round=0;round<3;round++){
+    const index=round*5,word=words[Math.floor(round*words.length/3)],look=words[(Math.floor(round*words.length/3)+1)%words.length],groupWord=words[(Math.floor(round*words.length/3)+2)%words.length],wordOptions=options(word,all,index);
+    items.push(make(index,'picture','Listen to Titi.','Listen and choose the correct picture.',word,wordOptions,{spokenScene:word,skill:'listening',pictureOptions:Object.fromEntries(wordOptions.map(w=>[w,pic(w)])),why:`Titi said “${word}”. Match the whole spoken word to its picture.`}));
+    items.push(make(index+1,'phonics-look','','Look at the picture. Choose the correct word.',look,all,{picturePrompt:pic(look),spokenScene:'Look carefully at the picture.',why:`This picture shows “${look}”. Read every letter, including the ending.`}));
+    const p=l.patterns.find(p=>belongs(groupWord,p,n))||l.patterns[0];
+    items.push(make(index+2,'phonics-category',`Group: ${label(p)}`,n===1?'Which word belongs to this letter group?':'Which word belongs to this spelling group?',groupWord,all.filter(w=>!belongs(w,p,n)),{spokenScene:'Look at the group label.',focusSounds:[p],why:`“${groupWord}” belongs to the ${label(p)} group. The other words do not use this spelling pattern${p.includes('-')?' with this sound':''}.`}));
+    const order=rotate(words,Math.floor(round*words.length/3)).slice(0,3),joined=order.join(' → ');
+    items.push(make(index+3,'phonics-order','Listen, then put the cards in order.','Tap the words in the order you hear them.',joined,permutations(order),{orderWords:[...order].sort(),spokenScene:order.join(', ')+'.',skill:'listening',why:`The spoken order is: ${order.join(', ')}.`,hint:'Listen to the first word, then the second and third. Tap a placed card to undo it.'}));
+    const match=rotate(words,Math.floor(round*words.length/3)+1).slice(0,3),matchAnswer=match.join(' → ');
+    items.push(make(index+4,'phonics-match','Match each word to a picture.','Tap a word, then tap its matching picture.',matchAnswer,permutations(match),{matchWords:[...match].sort(),matchPictures:match.map(pic),spokenScene:'Match all three pairs.',why:`Pictures one, two and three show: ${match.join(', ')}.`,hint:'Choose a word on the left, then its picture on the right. You can change a pair before checking.'}));
    }
-   const [storyTitle,marked]=stories[n][unit-1],targets=[...marked.matchAll(/\[([^\]]+)\]/g)].map(m=>m[1]);
-   if(targets.length!==chunk.length||targets.some((word,i)=>word!==chunk[i].a))throw Error(`Story alignment ${id} unit ${unit}`);
-   const storyText=marked.replace(/\[|\]/g,''),storyId=`${id}-unit-${unit}`,reviewId=`unit-${unit}-review`;
-   const retrieval=chunk.map(s=>({...hear(s,'unit-'+unit+'-recall'),title:`Unit ${unit} · Sound check`}));
-   const storyItems=chunk.map((s,i)=>{let k=0;const scene=marked.replace(/\[([^\]]+)\]/g,(_,word)=>k++===i?'___':word);return make(s,'story-'+unit,scene,`Listen to the story. Which word fills the gap?`,s.a,optionSet(s.a,[...targets.filter(w=>w!==s.a),...seeds.map(x=>x.a)]),{interaction:'phonics-story',skill:'listening',storyId,storyTitle,storyText,spokenScene:storyText,spokenPrompt:'Which word fills the gap?',why:`In “${storyTitle}”, Titi says: ${storyText} The missing word is “${s.a}”.`,hint:'Listen to the story again. Follow the sentence with the gap.',sourceLabel:'Original centre-authored Phonics listening story; not a textbook recording'});});
-   const review={id:reviewId,kind:'unit-review',unit,focusSounds:chunk.map(label),requiredLevels:chunk.map(lessonId),title:`Unit ${unit} · Kho báu ôn tập`,description:`Ôn ${chunk.map(label).join(' · ')} + nghe truyện “${storyTitle}”${chunk.length<3?' (Unit cuối: '+chunk.length+' âm/vần)':''}.`,sourceLessons:unique(chunk.flatMap(s=>s.sources)),items:[...retrieval,...storyItems]};lessons.push(review);
-   map[id][reviewId]={sourceGroups:unique(chunk.map(s=>JSON.stringify(groups(s)[0]))).map(x=>JSON.parse(x)),sessions:review.sourceLessons};
+   return {id:lessonId,kind:'sound',unit:u.unit,stage,focusSounds:l.patterns.map(label),title:`Unit ${u.unit} · ${focus}`,description:`15 câu · ${words.join(' · ')} · Nghe, nhìn tranh, phân loại, xếp thứ tự, nối cặp.`,sourceLessons:l.session?['lesson-'+l.session]:[],pendingTeaching:!l.session,items};
   }
-  for(const l of old.lessons)aliases[l.id]=aliases[l.sourceLessons[0]];
-  courses[id]={...courses[id],version:2,legacyAliases:aliases,scope:'Mỗi chặng tập trung một âm/vần theo thứ tự Guidelines. Sau 3 chặng là Kho báu Unit; Unit cuối ôn số âm còn lại. Truyện nghe do trung tâm tự biên soạn, chỉ có ở chặng ôn tập.',lessons};
+  function attach(l){lessons.push(l);const rows=l.sourceLessons.map(s=>sources.find(r=>r.course===id&&r.session===Number(s.split('-')[1])));map[id][l.id]={sourceGroups:rows.map(r=>r?.urls||[]),sessions:l.sourceLessons,pendingTeaching:!!l.pendingTeaching};}
+  for(const u of units[n]){
+   const chunk=u.levels.map((l,i)=>build(u,l,i+1));chunk.forEach(attach);
+   for(let i=0;i<3;i++){for(const p of u.levels[i].patterns)aliases['sound-'+p]||=chunk[i].id;for(const s of chunk[i].sourceLessons)aliases[s]||=chunk[i].id;}
+   const [storyTitle,storyText]=stories[n][u.unit-1],vocabulary=unique(u.levels.flatMap(l=>l.words).concat(all));
+   const rx=w=>new RegExp('\\b'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i');
+   const targets=vocabulary.filter(w=>rx(w).test(storyText));if(targets.length<3)throw Error('Too few verified story targets '+id+' '+u.unit);
+   const storyItems=targets.slice(0,4).map((word,i)=>{const sentence=(storyText.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[]).find(s=>rx(word).test(s)).trim();return {id:`${id}-v3-u${u.unit}-story-gap-${i+1}`,type:'choice',title:`Unit ${u.unit} · Story`,scene:sentence.replace(rx(word),'___'),prompt:'Listen to the story. Which word fills the gap?',spokenPrompt:'Listen. Which word fills the gap?',spokenScene:sentence,answer:word,options:options(word,all,i+u.unit),skill:'listening',interaction:'phonics-story',phonicsSequence:true,difficulty:'advanced',focusSounds:unique(u.levels.flatMap(l=>l.patterns)),storyId:`${id}-u${u.unit}`,storyTitle,storyText,storySource:{book:n,page:u.page,url:u.bookURL},why:`In “${storyTitle}”, you hear: ${sentence} The missing word is “${word}”.`,hint:'Listen to this part again, or play the whole story.',sourceLabel:`Oxford Phonics World ${n}, Unit ${u.unit}, p.${u.page} · Titi narration of the supplied textbook text`};});
+   // Match longest phrases first: “phone” inside “cell phone” is not a second
+   // event for the child to order. Avoid overlapping word/phrase cards entirely.
+   const spokenMatches=[...storyText.matchAll(new RegExp('\\b(?:'+targets.slice().sort((a,b)=>b.length-a.length).map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')\\b','gi'))].map(m=>m[0].toLowerCase());
+   const heard=unique(spokenMatches).filter((w,i,a)=>!a.slice(0,i).some(p=>rx(w).test(p)||rx(p).test(w)));
+   if(heard.length<3)throw Error('Too few distinct story sequence cards '+id+' '+u.unit);
+   if(storyItems.length===3){const answer=targets.reduce((a,b)=>storyText.toLowerCase().lastIndexOf(a.toLowerCase())>storyText.toLowerCase().lastIndexOf(b.toLowerCase())?a:b);storyItems.push({...storyItems[0],id:`${id}-v3-u${u.unit}-story-last`,scene:'Listen to the whole story.',prompt:'Which of these words do you hear last?',spokenPrompt:'Which of these words do you hear last?',spokenScene:storyText,answer,options:options(answer,all,7),why:`The last of these words in the story is “${answer}”.`});}
+   for(let i=0;i<2;i++){const last=i===1&&heard.length===3,order=last?[...heard].sort((a,b)=>storyText.toLowerCase().lastIndexOf(a.toLowerCase())-storyText.toLowerCase().lastIndexOf(b.toLowerCase())):heard.slice(i,i+3),answer=order.join(' → ');storyItems.push({...storyItems[0],id:`${id}-v3-u${u.unit}-story-order-${i+1}`,interaction:'phonics-order',scene:'Listen to the whole story. Follow these three words.',prompt:`Put the words in the order they ${last?'last':'first'} appear in the story.`,spokenPrompt:`Listen to the story. Put the words in the order they ${last?'last':'first'} appear.`,spokenScene:storyText,answer,options:options(answer,permutations(order),i),orderWords:[...order].sort(),why:`In “${storyTitle}”, these words ${last?'last':'first'} appear in this order: ${order.join(', ')}.`,hint:'Listen to the whole story again. Follow only the three words on your cards.'});}
+   // 13 tasks per focus + 6 textbook-story tasks = 45 (15 at each difficulty).
+   const retrieval=chunk.flatMap(l=>l.items.slice(0,13).map(q=>({...q,id:q.id+'-review'})));
+   attach({id:`unit-${u.unit}-checkpoint`,kind:'unit-review',unit:u.unit,focusSounds:chunk.flatMap(l=>l.focusSounds),requiredLevels:chunk.map(l=>l.id),title:`Unit ${u.unit} · Kho báu ôn tập`,description:`45 câu · Ôn trọn Unit ${u.unit} + Story: ${storyTitle}.`,sourceLessons:unique(chunk.flatMap(l=>l.sourceLessons).concat(storySessions[n][u.unit-1]?['lesson-'+storySessions[n][u.unit-1]]:[])),pendingTeaching:chunk.some(l=>l.pendingTeaching),items:[...retrieval,...storyItems]});
+   aliases[`unit-${u.unit}-review`]=`unit-${u.unit}-checkpoint`;
+  }
+  for(const old of require('./legacy/'+id+'.json').lessons)aliases[old.id]=aliases[old.sourceLessons[0]]||lessons[0].id;
+  courses[id]={...courses[id],version:3,legacyAliases:aliases,scope:'Oxford Phonics World: 8 Unit. Mỗi Unit gồm 3 chặng × 15 câu và 1 Kho báu ôn tập × 45 câu. Truyện theo trang Story của sách; học sinh chỉ mở nội dung đã học trên lớp.',lessons};
  }
  fs.writeFileSync(path.join(__dirname,'../vu-tru/teaching-map.json'),JSON.stringify(map));
 };

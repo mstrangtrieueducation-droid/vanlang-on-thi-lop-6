@@ -28,7 +28,7 @@ test('Fighter books are independently gated; later taught games never imply earl
  p.lessons[reading[0].id]={stars:1};assert.equal(C.summary(c,p,ctx).next,c.lessons.indexOf(reading[1])+1);assert.equal(C.summary(c,p,ctx).limit,2);
 });
 test('Source evidence needs every lesson group; manual ceilings cannot grant untaught lessons',()=>{
- for(const c of catalog){for(const l of c.lessons){const groups=mapping[c.id]?.[l.id]?.sourceGroups;assert.ok(groups?.length,l.id);for(const group of groups)for(const src of group){const u=new URL(src);assert.equal(u.search,'');assert.equal(u.hash,'');}
+ for(const c of catalog){for(const l of c.lessons){const entry=mapping[c.id]?.[l.id],groups=entry?.sourceGroups;if(entry?.pendingTeaching){assert.equal(groups.length,0);assert.ok(!P.limits([c],mapping,[],{[c.id]:999}).allowed[c.id].includes(l.id));continue;}assert.ok(groups?.length,l.id);for(const group of groups)for(const src of group){const u=new URL(src);assert.equal(u.search,'');assert.equal(u.hash,'');}
  const rows=groups.map(g=>({url:g[0]})),r=P.limits([c],mapping,rows);assert.ok(r.allowed[c.id].includes(l.id),l.id);
  }}
  const c=catalog.find(c=>c.id==='phonics-1'),groups=mapping[c.id][c.lessons[0].id].sourceGroups;
@@ -54,7 +54,7 @@ test('Boss action targets the last taught planet; query release and correct dash
 });
 test('Storage failure and deep links fail closed before gameplay',async()=>{
  const w={location:{search:`?student=${student}&course=phonics-1&limit=999`}};Object.defineProperty(w,'localStorage',{get(){throw Error('blocked');}});vm.runInNewContext(fs.readFileSync(require.resolve('./student-context'),'utf8'),{window:w,URLSearchParams});assert.equal(w.StudentContext.active.invalid,true);
- for(const [lesson,hasContext,allow]of [['sound-a',true,true],['sound-b',true,false],['sound-a',false,false]]){const c=catalog.find(c=>c.id==='phonics-1'),ctx=hasContext?context(c,['sound-a']):null,host={innerHTML:''},window={StudentContext:{...C,active:ctx},GAME_CONFIG:{courseId:c.id,lessonId:lesson},GameProfile:{student}};
+ for(const [lesson,hasContext,allow]of [['unit-1-stage-1',true,true],['unit-1-stage-2',true,false],['unit-1-stage-1',false,false]]){const c=catalog.find(c=>c.id==='phonics-1'),ctx=hasContext?context(c,['unit-1-stage-1']):null,host={innerHTML:''},window={StudentContext:{...C,active:ctx},GAME_CONFIG:{courseId:c.id,lessonId:lesson},GameProfile:{student}};
  vm.runInNewContext(fs.readFileSync(require.resolve('./student-gate'),'utf8'),{window,GalaxyCore:G,localStorage:memory(),document:{querySelector:()=>host},location:{href:'https://example.test/khoa-hoc/',search:'?release=qa'},URL,URLSearchParams,fetch:async()=>({ok:true,json:async()=>catalog})});assert.equal(await window.StudentGate.enter(),allow);if(!allow)assert.match(host.innerHTML,/release=qa/);
  }
 });

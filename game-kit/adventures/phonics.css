@@ -13,3 +13,34 @@
 #adventure.flow-live .question-panel:has(.story-heading) h1{font-size:clamp(14px,1.4vw,20px)}
 @media(max-width:600px){.phonics-picture{max-height:15vh}.picture-word{font-size:10px!important}#adventure.flow-live .work[data-gameplay] .picture-choice>span{left:4px;top:4px;width:23px;height:23px;font-size:13px}#adventure.flow-live .work:has(.picture-choices){min-height:128px}#adventure.flow-live .question-panel:has(.story-heading) .context{font-size:14px;max-height:19vh}.story-heading{font-size:13px}}
 @media(max-height:550px){.phonics-picture{max-height:70px}#adventure.flow-live .work[data-gameplay] .picture-choice{min-height:56px!important}#adventure.flow-live .work:has(.picture-choices){min-height:120px}}
+.phonics-card-image{display:block;object-fit:contain;width:100%;height:100%;min-height:0;max-height:160px;border-radius:12px;background:#fff;pointer-events:none}
+.picture-choice .phonics-card-image{max-width:82%;max-height:100%;aspect-ratio:1.45}
+.phonics-prompt-picture{height:clamp(65px,14vh,135px);max-width:230px;margin:5px auto}
+#adventure.flow-live .question-panel:has(.phonics-prompt-picture) h1{font-size:clamp(16px,1.6vw,23px)}
+#adventure.flow-live .work:has(.phonics-pairs),#adventure.flow-live .work:has(.phonics-order){display:flex;flex-direction:column;gap:8px;min-height:180px}
+.phonics-pairs{display:grid;grid-template-columns:1fr 1.3fr;gap:16px;flex:1;min-height:0}
+.phonics-pairs,.phonics-order{width:100%;max-width:700px}
+.pair-words,.pair-pictures{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:8px;min-height:0}
+#adventure.flow-live .pair-words button,#adventure.flow-live .pair-pictures button{border:2px solid #668c75;border-radius:16px;background:#fff;color:#173d42;box-shadow:0 4px 0 #456853;font-size:clamp(15px,2vw,24px);min-height:40px;padding:6px;position:relative}
+#adventure.flow-live .pair-words [aria-pressed=true]{background:#ffe984;border-color:#b77909;box-shadow:0 0 0 3px #ffcd55}
+.pair-pictures button{display:flex;align-items:center;gap:7px;overflow:hidden}.pair-pictures .phonics-card-image{width:48%;max-height:85px;align-self:stretch}.pair-pictures b{font-size:clamp(12px,1.3vw,18px);overflow-wrap:anywhere}.pair-number{font-weight:900;color:#173d42}
+.phonics-order{display:flex;flex-direction:column;gap:14px;justify-content:center;height:100%}.phonics-slots,.phonics-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#adventure.flow-live .phonics-slots button,#adventure.flow-live .phonics-tiles button{border-radius:15px;padding:12px 6px;min-height:58px;background:#eaf7ef;color:#163e40;border:2px solid #5e8b72;box-shadow:0 4px #456853;font-size:clamp(16px,2vw,26px);overflow-wrap:anywhere}.phonics-slots small{display:block;font-size:12px;font-weight:700}.phonics-slots button:disabled{opacity:1!important;border-style:dashed!important}.phonics-tiles button:disabled{opacity:.3!important}
+.phonics-reference{display:flex;justify-content:center;gap:10px;height:90px}.phonics-reference figure{display:flex;align-items:center;gap:5px;margin:0;min-width:0;width:28%}.phonics-reference img{min-width:0}
+#whole-story{font-size:12px;padding:5px 9px;margin-left:6px;border-radius:20px}
+#adventure[data-phonics=true] .task-instruction{display:none!important}
+#adventure[data-phonics-activity=phonics-match] .context,#adventure[data-phonics-activity=phonics-order] .context{display:none!important}
+#adventure[data-phonics=true] .question-panel h1{font-size:clamp(17px,1.8vw,26px);line-height:1.25}
+#adventure[data-phonics=true] .pair-pictures .phonics-card-image{width:35%}
+#adventure[data-phonics=true] .pair-pictures b{font-size:clamp(11px,1.3vw,18px);word-break:normal;overflow-wrap:normal}
+@media(max-width:600px){.phonics-pairs{gap:9px}.pair-pictures .phonics-card-image{max-height:65px}.phonics-prompt-picture{height:80px}.phonics-slots,.phonics-tiles{gap:6px}#adventure.flow-live .phonics-slots button,#adventure.flow-live .phonics-tiles button{padding:7px 3px;min-height:45px}.phonics-order{gap:10px}.phonics-reference{height:65px}}
+@media(max-height:550px){.phonics-prompt-picture{height:58px}.pair-pictures .phonics-card-image{max-height:40px}#adventure.flow-live .work:has(.phonics-pairs),#adventure.flow-live .work:has(.phonics-order){min-height:140px}.phonics-pairs{gap:8px}.pair-words,.pair-pictures{gap:5px}.phonics-reference{height:52px}.phonics-order{gap:7px}#adventure.flow-live .phonics-slots button,#adventure.flow-live .phonics-tiles button{min-height:38px;padding:4px}}
+@media(max-height:500px){
+ #adventure.flow-live[data-phonics=true] .question-panel{height:auto;min-height:54px;max-height:108px;flex:0 1 auto;padding:5px 9px}
+ #adventure.flow-live[data-phonics=true] .question-panel h1{font-size:14px;line-height:1.2;margin:3px 0}
+ #adventure.flow-live[data-phonics=true] .work:has(.phonics-pairs),#adventure.flow-live[data-phonics=true] .work:has(.phonics-order){min-height:128px;gap:4px;padding:2px 0}
+ #adventure.flow-live[data-phonics=true] .pair-words button,#adventure.flow-live[data-phonics=true] .pair-pictures button{min-height:30px;padding:2px 6px;font-size:15px;border-radius:9px;box-shadow:0 2px 0 #456853}
+ .pair-pictures .phonics-card-image{max-height:30px}.pair-words,.pair-pictures{gap:4px}
+ #phonics-submit{padding:4px 12px;font-size:13px;min-height:25px}
+ .phonics-prompt-picture{height:40px;margin:2px auto}
+}

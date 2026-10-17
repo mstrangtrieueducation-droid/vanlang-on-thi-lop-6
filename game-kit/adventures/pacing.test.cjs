@@ -20,6 +20,6 @@ test('Feedback is a distinct regret then reassurance sequence with no old 300ms 
  assert.deepEqual(Array.from(map['titi-try-again']),[map['Oh no…'],map["It's okay, let's try it again!"]]);
  assert.notEqual(map['Excellent!'],map['Oh no…']);
 });
-test('All fifteen entry points load the pacing overlay after the base map',()=>{
- for(let n=1;n<=15;n++){const html=fs.readFileSync(path.join(__dirname,`../../tu-luyen-${n}/index.html`),'utf8');assert.ok(html.indexOf('audio-map.js')<html.indexOf('pacing-audio.js'));assert.ok(html.indexOf('pacing-audio.js')<html.indexOf('engine.js'));assert.match(html,/chibi\.css/);assert.match(html,/living-forest\.css/);assert.ok(html.indexOf('titi-life.js')<html.indexOf('engine.js'));}
+test('All fifteen entry points load the native voice before the engine',()=>{
+ for(let n=1;n<=15;n++){const html=fs.readFileSync(path.join(__dirname,`../../tu-luyen-${n}/index.html`),'utf8');assert.ok(html.includes('native-voice.js'));assert.ok(html.indexOf('native-voice.js')<html.indexOf('engine.js'));assert.match(html,/chibi\.css/);assert.match(html,/living-forest\.css/);assert.ok(html.indexOf('titi-life.js')<html.indexOf('engine.js'));}
 });
