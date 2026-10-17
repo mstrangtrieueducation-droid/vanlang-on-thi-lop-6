@@ -68,3 +68,13 @@ existing milestone stars. Submitted active practice time is bounded by server
 elapsed time and stored only for personal history. Ranking timing and score
 verification remain unchanged. Quick reviews and unfinished work stay local.
 The staff review has its own journal and never requests pupil cloud history.
+
+## Freely navigable exams
+
+Lesson entry from a milestone starts one three-second countdown. Within a run,
+questions can be skipped, revisited and answered in any order. First responses
+remain the scoring authority: correcting a mistake never rewrites its first score.
+An exam is complete when every question has a nonblank submitted response, even
+when some are wrong. Scores still use 10 points per first correct response. A
+submission with blanks can be reviewed and saved, but cannot unlock lesson stars
+or enter the ranking. Source question files and classroom admission stay unchanged.

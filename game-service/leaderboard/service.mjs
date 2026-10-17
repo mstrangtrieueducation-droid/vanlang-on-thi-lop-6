@@ -37,7 +37,7 @@ export class LeaderboardService{
   const l=this.lesson(s,r.course,r.lesson);if(!b.answers||Array.isArray(b.answers)||typeof b.answers!=='object'||Object.keys(b.answers).some(id=>!l.items.some(q=>q.id===id)))fail('Câu trả lời không khớp bài.');
   const entries=Object.entries(b.answers);let correct=0,assisted=false;const done=[];
   for(const [id,a] of entries){if(!a||typeof a.first!=='string'||a.first.length>500||typeof a.last!=='string'||a.last.length>500)fail('Đáp án chưa hợp lệ.');const q=l.items.find(x=>x.id===id);if(a.first===q.answer)correct++;if(a.last===q.answer)done.push(id);assisted||=a.assisted===true;}
-  const complete=entries.length===l.items.length&&done.length===l.items.length,accuracy=correct/l.items.length,stars=complete?(accuracy>=.9?3:accuracy>=.65?2:1):0;
+  const complete=entries.length===l.items.length&&entries.every(([,a])=>a.last.trim().length>0),accuracy=correct/l.items.length,stars=complete?(accuracy>=.9?3:accuracy>=.65?2:1):0;
   const old=await this.one('SELECT done,stars FROM progress WHERE student=? AND course=? AND lesson=?',s.student,r.course,r.lesson),merged=[...new Set([...(old?JSON.parse(old.done):[]),...done])];
   const c=this.data.catalog.find(x=>x.id===r.course),target=c.lessons.find(x=>x.id===r.lesson),prior=c.lessons.slice(0,c.lessons.indexOf(target)).filter(x=>x.track===target.track&&s.access.allowed[r.course].includes(x.id));
   const passed=await this.rows('SELECT lesson FROM progress WHERE student=? AND course=? AND stars>=1',s.student,r.course),ranked=complete&&!assisted&&prior.every(x=>passed.some(p=>p.lesson===x.id));
