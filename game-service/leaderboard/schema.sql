@@ -8,3 +8,6 @@ CREATE TABLE IF NOT EXISTS progress(student TEXT NOT NULL,course TEXT NOT NULL,l
 CREATE TABLE IF NOT EXISTS records(student TEXT NOT NULL,course TEXT NOT NULL,lesson TEXT NOT NULL,period TEXT NOT NULL,points INTEGER NOT NULL,total INTEGER NOT NULL,stars INTEGER NOT NULL,elapsed INTEGER NOT NULL,finished INTEGER NOT NULL,PRIMARY KEY(student,course,lesson,period));
 CREATE INDEX IF NOT EXISTS records_period ON records(period,course,student);
 CREATE TABLE IF NOT EXISTS rate_limits(key TEXT PRIMARY KEY,window INTEGER NOT NULL,count INTEGER NOT NULL);
+-- Durable personal history survives the short-lived run/answer cleanup.
+CREATE TABLE IF NOT EXISTS journey_runs(student TEXT NOT NULL,run TEXT NOT NULL,course TEXT NOT NULL,lesson TEXT NOT NULL,points INTEGER NOT NULL,stars INTEGER NOT NULL,total INTEGER NOT NULL,correct INTEGER NOT NULL,study_ms INTEGER NOT NULL,finished INTEGER NOT NULL,complete INTEGER NOT NULL,legacy INTEGER NOT NULL DEFAULT 0,PRIMARY KEY(student,run));
+CREATE INDEX IF NOT EXISTS journey_owner ON journey_runs(student,finished);

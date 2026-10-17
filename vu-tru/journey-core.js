@@ -1,0 +1,19 @@
+(function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else root.JourneyCore=api;})(typeof globalThis==='object'?globalThis:this,()=>{
+ 'use strict';const num=x=>Math.max(0,Number(x)||0),time=ms=>{const s=Math.floor(num(ms)/1000);return (s>=3600?Math.floor(s/3600)+' giờ ':'')+Math.floor(s%3600/60)+' phút '+String(s%60).padStart(2,'0')+' giây';};
+ function entry(course,lesson,summary,finished,practice=false){return {run:summary.id,course,lesson,points:num(summary.points),stars:Math.min(3,num(summary.stars)),total:num(summary.total),correct:num(summary.correct),studyMs:num(summary.elapsedMs),at:Date.now(),finished:!!finished,practice:!!practice,complete:!!finished&&summary.answered===summary.total,title:summary.title||''};}
+ function record(data,course,lesson,summary,finished,practice){if(!summary?.id)return data;data.journal||=[];const i=data.journal.findIndex(r=>r.run===summary.id),old=data.journal[i],item=entry(course,lesson,summary,finished||old?.finished,practice);if(old?.finished){item.finished=true;item.studyMs=old.studyMs;item.at=old.at;}if(i<0)data.journal.push(item);else data.journal[i]=item;return data;}
+ function aggregate(catalog,states,remote=[]){const valid=new Map(),milestones=[],runs=new Map();for(const c of catalog)for(const l of c.lessons)valid.set(c.id+':'+l.id,{course:c,lesson:l});
+ for(const c of catalog){const data=states[c.id]||{};for(const [id,p] of Object.entries(data.lessons||{})){if(!valid.has(c.id+':'+id))continue;milestones.push({course:c.id,lesson:id,stars:Math.min(3,num(p.stars)),done:num(p.done),total:num(p.total)});for(const [key,practice] of [['lastResult',false],['lastReview',true]]){const s=p[key];if(s?.id&&!data.journal?.some(r=>r.run===s.id))runs.set(s.id,{...entry(c.id,id,{...s,answered:s.answered??s.total},true,practice),at:p.updatedAt||0,legacy:true});}}
+ for(const r of data.journal||[])if(r?.run&&r.course===c.id&&valid.has(c.id+':'+r.lesson))runs.set(r.run,{...r});}
+ // Cloud uses the same client run ID. A replay or a second device cannot double-count it.
+ for(const r of remote){if(!r?.run||!valid.has(r.course+':'+r.lesson))continue;if(r.legacy&&String(r.run).startsWith('legacy:')&&[...runs.values()].some(x=>x.course===r.course&&x.lesson===r.lesson&&x.finished&&!x.practice))continue;const old=runs.get(r.run);runs.set(r.run,{...old,...r,finished:true,practice:false,cloud:true});}
+ const best=new Map(),titles=new Set();let attempts=0,practice=0,studyMs=0,legacy=false;
+ for(const r of runs.values()){studyMs+=num(r.studyMs);legacy||=!!r.legacy;if(!r.finished)continue;if(r.practice){practice++;continue;}attempts++;const k=r.course+':'+r.lesson;best.set(k,Math.max(best.get(k)||0,num(r.points)));const accuracy=r.total?num(r.correct)/r.total:0,average=r.total?num(r.studyMs)/r.total/1000:Infinity;const title=r.title||(accuracy>=.9&&average<=8?'🏆 Kỉ lục gia':accuracy>=.8&&average<=18?'🐇 Thỏ siêu tốc':'🐢 Rùa chăm chỉ');if(title)titles.add(title);}
+ for(const r of remote)if(valid.has(r.course+':'+r.lesson)){const k=r.course+':'+r.lesson;best.set(k,Math.max(best.get(k)||0,num(r.points)));legacy||=!!r.legacy;}
+ // Milestone stars come from existing progression, not from partial-run badges.
+ for(const r of remote){const p=milestones.find(p=>p.course===r.course&&p.lesson===r.lesson);if(p)p.stars=Math.max(p.stars,r.complete?Math.min(3,num(r.stars)):0);else if(r.complete)milestones.push({course:r.course,lesson:r.lesson,stars:Math.min(3,num(r.stars)),done:r.total,total:r.total});}
+ const medals={gold:0,silver:0,bronze:0};let stars=0,completed=0;for(const p of milestones){stars+=p.stars;if(p.stars){completed++;medals[['','bronze','silver','gold'][p.stars]]++;}}
+ return {points:[...best.values()].reduce((a,b)=>a+b,0),stars,completed,attempts,practice,studyMs,titles:[...titles],medals,milestones,runs:[...runs.values()].sort((a,b)=>num(b.at)-num(a.at)),legacy};
+ }
+ return {record,aggregate,time};
+});

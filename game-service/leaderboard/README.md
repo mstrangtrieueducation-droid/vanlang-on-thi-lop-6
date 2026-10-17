@@ -53,3 +53,18 @@ never replace another account's global configuration. D1 `schema.sql` is additiv
 CORS permits only the GitHub Pages origin. No per-answer network writes or polling;
 boards cache for two minutes. A daily scheduled cleanup removes expired sessions,
 runs and rate-limit rows. Back up D1 before any future destructive schema migration.
+
+## Personal journey
+
+`POST /journey` returns only the authenticated pupil's compact run journal.
+`journey_runs` is durable and separate from the expiring answer/run table. Apply
+`schema.sql`, then `journey-migration.sql` once when upgrading; both are additive
+and safe to repeat. The migration retains surviving runs and older best records,
+without inventing missing attempts. It never imports local practice into rankings.
+
+The UI deduplicates cloud and local entries using the original client run ID.
+Total points sum the highest saved score per lesson across courses; medals use
+existing milestone stars. Submitted active practice time is bounded by server
+elapsed time and stored only for personal history. Ranking timing and score
+verification remain unchanged. Quick reviews and unfinished work stay local.
+The staff review has its own journal and never requests pupil cloud history.
