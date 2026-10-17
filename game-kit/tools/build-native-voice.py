@@ -13,7 +13,7 @@ if len(sys.argv)>1:
  raw=json.loads(Path(sys.argv[1]).read_text(encoding='utf8'))
 else:
  questions=[]
- for file in ROOT.glob('khoa-hoc/data/*.json'):
+ for file in [*ROOT.glob('khoa-hoc/data/*.json'),*ROOT.glob('discover-preview/data/*.json')]:
   for lesson in json.loads(file.read_text(encoding='utf8'))['lessons']:questions+=lesson['items']
  for file in ROOT.glob('tu-luyen-*/quiz-data.js'):
   if not re.fullmatch(r'tu-luyen-\d+',file.parent.name):continue
