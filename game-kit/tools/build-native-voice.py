@@ -40,6 +40,9 @@ for key in keys:
    clips.append(GAP);continue
   text=clean(part)
   if not re.search(r'[A-Za-z0-9]',text):continue
+  # Give isolated vocabulary a complete utterance cadence instead of a hanging
+  # continuation. Keep the lookup key and the child's answer text unchanged.
+  if len(parts)==1 and re.fullmatch(r'[A-Za-z]+(?:-[A-Za-z]+)*',text):text+='.'
   name=hashlib.sha256((VOICE+'|'+RATE+'|'+text).encode()).hexdigest()[:20]+'.mp3'
   segments[name]=text;clips.append('../game-kit/adventures/audio-native/'+name)
  mapping[key]=clips[0] if len(clips)==1 else clips
