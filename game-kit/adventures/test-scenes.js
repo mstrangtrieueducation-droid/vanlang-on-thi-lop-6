@@ -8,7 +8,26 @@
  const text=(s,x,y,size=18)=>`<text x="${x}" y="${y}" text-anchor="middle" font-family="Arial,sans-serif" font-size="${size}" font-weight="700" fill="#24374d">${esc(s)}</text>`;
  const shape=(d,c)=>`<path d="${d}" fill="${c}" stroke="#304353" stroke-width="2.5" stroke-linejoin="round"/>`;
  const wrap=(body,w=600,h=240)=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="Question illustration">${body}</svg>`;
+ let artContext=null;
+ const artwork=()=>typeof module==='object'?require('./pictures/family-cards/3d-v3/manifest.json'):window.FamilyArtwork;
+ function atlasSvg(p){if(!p)return '';const w=p.width/p.columns,h=p.height/p.rows,x=p.cell%p.columns*w,y=Math.floor(p.cell/p.columns)*h;return `<svg x="0" y="0" width="100" height="100" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${esc(p.atlas)}" x="0" y="0" width="${p.width}" height="${p.height}"/></svg>`;}
+ function artIcon(name){if(!artContext)return null;const lib=artwork();return lib?.items[`${artContext.book}:${artContext.unit}:${name}`]||lib?.icons[name];}
+ function artPerson(p){if(!artContext)return null;const lib=artwork(),gender=p.gender||'boy';let key;
+  if(p.job)key=p.job;
+  else if(p.mood)key=p.mood+'-'+gender;
+  else if(p.wear)key=p.wear+'-'+gender;
+  else if(p.hair==='curly'&&p.hairColor==='#e5b75b')key='curly-blond-boy';
+  else if(p.hairColor==='#292831')key='black-haired-boy';
+  else if(p.hair==='long')return atlasSvg(lib?.items['1:10:long']);
+  else if(p.age==='elder')key=gender==='girl'?'grandma':'grandpa';
+  else if(p.age==='adult')key=gender==='girl'?'woman':'man';
+  else key=gender;
+  const pic=lib?.people[key]||lib?.icons[key]||(p.job?lib?.icons[p.job]:null)||(p.mood?lib?.icons[p.mood]:null);
+  if(!pic)return null;
+  return atlasSvg(pic)+(p.speaking?`<g transform="translate(2 60)">${rect(0,0,28,23,'#fff',7)}${text('I',14,17,16)}</g>`:'');
+ }
  function custom(name){const wood='#eab373',navy='#354665',teal='#64ceb6',pink='#f98eac';
+  const art=artIcon(name);if(art)return atlasSvg(art);
   switch(name){
    case 'peg':return rect(15,18,70,24,wood,5)+circle(50,30,7,'#be8751')+shape('M47 34H56V57Q58 72 75 61L80 68Q54 94 42 66Z','#c88c50');
    case 'fly':return shape('M43 48Q20 36 5 10Q32 17 51 36Q67 18 93 12Q82 38 62 48L71 74L49 63L27 79L35 55Z','#7fbedb')+circle(62,44,12,'#87cbdf')+shape('M72 41L90 47L72 52Z','#f3b658')+circle(65,41,2.5,'#273749');
@@ -42,8 +61,8 @@
    default:throw Error('Missing custom vector '+name);
   }
  }
- function iconSvg(name){const lib=typeof module==='object'?require('./pictures/test-vectors/manifest.json'):window.TestVectors;const p=lib[name];if(!p)throw Error('Missing visual '+name);return p.src?`<image href="${esc(p.src)}" x="0" y="0" width="100" height="100"/>`:custom(p.custom);}
- function personSvg(p={}){const skin='#efbd92',hair=p.hairColor||(p.age==='elder'?'#b5bbc4':'#67432f'),shirt=p.gender==='girl'?'#ed8eaa':'#69bdb8';let h='';
+ function iconSvg(name){const art=artIcon(name);if(art)return atlasSvg(art);const lib=typeof module==='object'?require('./pictures/test-vectors/manifest.json'):window.TestVectors;const p=lib[name];if(!p)throw Error('Missing visual '+name);return p.src?`<image href="${esc(p.src)}" x="0" y="0" width="100" height="100"/>`:custom(p.custom);}
+ function personSvg(p={}){const art=artPerson(p);if(art)return art;const skin='#efbd92',hair=p.hairColor||(p.age==='elder'?'#b5bbc4':'#67432f'),shirt=p.gender==='girl'?'#ed8eaa':'#69bdb8';let h='';
   if(p.gender==='girl'||p.hair==='long')h+=shape('M24 43Q16 3 50 4Q82 5 77 55L76 69L25 69Z',hair);
   h+=shape(p.wear==='dress'||p.wear==='skirt'?'M32 54H68L80 89H20Z':'M30 54Q50 44 70 54L73 79H27Z',p.wear==='coat'?'#c8a270':shirt)+line(34,80,34,94,'#3e5471',10)+line(65,80,65,94,'#3e5471',10)+line(31,57,19,76,skin,9)+line(68,57,81,73,skin,9)+circle(50,31,23,skin);
   h+=shape('M27 28Q23 0 50 6Q77 1 74 29L64 18L53 23L43 17L32 29Z',hair);
@@ -64,12 +83,16 @@
  function single(p){return p.kind==='person'?personSvg(p):iconSvg(p.name);}
  function smallRoom(name,people=[]){const furnishing={'bedroom':['bed','cupboard'],'bathroom':['bathtub','toilet'],'kitchen':['cooking','fridge'],'living room':['couch and lamp','television'],'dining room':['table','chair'],'upstairs':['upstairs']}[name];if(!furnishing)throw Error('Unknown room '+name);return rect(0,0,260,180,'#e5f5e4',12)+rect(0,135,260,45,'#f4d9ad',5)+furnishing.map((n,i)=>place(iconSvg(n),15+i*120,45,105,100)).join('')+people.map((n,i)=>place(personSvg({gender:/Mum|Grandma|Mia/.test(n)?'girl':'boy',age:/Grand/.test(n)?'elder':'adult'}),25+i*70,65,65,85)+text(n,57+i*70,167,13)).join('');}
  function visual(v){if(!v)return '';let out='';
+  if(artContext&&['cards','labelled'].includes(v.kind))return `<div class="test-3d-strip" style="--picture-count:${v.items.length}">${v.items.map(p=>{const drawing=p.kind==='desk'?atlasSvg(artIcon(p.tidy?'tidy-desk':'untidy-desk')||artwork().people['tidy-desk']):['help','mischief'].includes(p.kind)?atlasSvg(artIcon(p.kind)):single(p);return `<figure>${wrap(drawing,100,100)}${p.label?`<figcaption>${esc(p.label)}</figcaption>`:''}</figure>`;}).join('')}</div>`;
+  if(artContext&&v.kind==='body'&&artIcon(v.highlight))return wrap(place(atlasSvg(artIcon(v.highlight)),185,0,230,230));
+  if(artContext&&v.kind==='room'&&artIcon(v.room))return wrap(place(atlasSvg(artIcon(v.room)),180,0,240,240));
+  if(artContext&&v.artCards){const n=v.items.length,w=Math.min(180,580/n);return wrap(v.items.map((p,i)=>place(single(p),(600-n*w)/2+i*w,10,w,200)+(p.label?text(p.label,(600-n*w)/2+i*w+w/2,230):'')).join(''));}
   if(v.artCards)return `<div class="test-art-cards">${v.artCards.map(p=>`<figure><img src="${esc(p.src)}" alt="" draggable="false">${p.label?`<figcaption>${esc(p.label)}</figcaption>`:''}</figure>`).join('')}</div>`;
   switch(v.kind){
    case 'wordSnake':return wrap(`<path d="M45 130Q120 65 240 122T530 120" stroke="#79cfaa" stroke-width="65" fill="none" stroke-linecap="round"/>${circle(538,106,5,'#28453a')}${circle(555,109,5,'#28453a')}${text('scaredtiredhotangrythirsty',285,132,25)}`);
    case 'crossword':{const words=[[[4,1],[5,1],[6,1]],[[2,3],[3,3],[4,3],[5,3]],[[2,3],[2,4],[2,5],[2,6]],[[0,5],[1,5],[2,5]]],cells=new Map();for(let i=0;i<5;i++)cells.set('5,'+i,{x:5,y:i,letter:'climb'[i]});for(const w of words)for(const[x,y]of w)if(!cells.has(x+','+y))cells.set(x+','+y,{x,y});out=[...cells.values()].map(c=>rect(175+c.x*35,5+c.y*33,34,32,words[v.target].some(([x,y])=>x===c.x&&y===c.y)?'#ffdda4':'#fff',2)+(c.letter?text(c.letter,192+c.x*35,29+c.y*33,21):'')).join('');return wrap(out);}
    case 'icon':case 'person':return wrap(place(single(v),200,0,200,210)+(v.label?text(v.label,300,232):''));
-   case 'cards':case 'labelled':{const n=v.items.length,w=Math.min(150,580/n);return wrap(v.items.map((p,i)=>{const x=(600-n*w)/2+i*w;return place(p.kind==='person'?personSvg(p):p.kind==='desk'?custom('desk')+(!p.tidy?`<g transform="rotate(25 50 50)">${iconSvg('notebook')}</g>`:place(iconSvg('book'),35,20,35)):p.kind==='help'?personSvg({gender:'girl'})+place(personSvg({gender:'boy',mood:'angry'}),55,30,45):p.kind==='mischief'?personSvg({gender:'boy'})+place(iconSvg('snowman'),55,0,45):single(p),x,20,w,170)+(p.label?text(p.label,x+w/2,215):'');}).join(''));}
+   case 'cards':case 'labelled':{const n=v.items.length,w=Math.min(150,580/n);return wrap(v.items.map((p,i)=>{const x=(600-n*w)/2+i*w;return place(p.kind==='person'?personSvg(p):artContext&&['desk','help','mischief'].includes(p.kind)?atlasSvg(artIcon(p.kind==='desk'?(p.tidy?'tidy-desk':'untidy-desk'):p.kind)||artwork().people['tidy-desk']):p.kind==='desk'?custom('desk')+(!p.tidy?`<g transform="rotate(25 50 50)">${iconSvg('notebook')}</g>`:place(iconSvg('book'),35,20,35)):p.kind==='help'?personSvg({gender:'girl'})+place(personSvg({gender:'boy',mood:'angry'}),55,30,45):p.kind==='mischief'?personSvg({gender:'boy'})+place(iconSvg('snowman'),55,0,45):single(p),x,20,w,170)+(p.label?text(p.label,x+w/2,215):'');}).join(''));}
    case 'room':return wrap(`<g transform="translate(100 10) scale(1.5 1.15)">${smallRoom(v.room)}</g>`);
    case 'house':return wrap(v.rooms.map((r,i)=>`<g transform="translate(${25+(i%2)*280} ${Math.floor(i/2)*200})">${smallRoom(r.room,r.people)}</g>`).join(''),600,410);
    case 'clock':{out=circle(300,118,108,'#f4bd60')+circle(300,118,97,'#fffef5');for(let i=1;i<=12;i++){const a=i*Math.PI/6;out+=text(i,300+Math.sin(a)*80,124-Math.cos(a)*80,18);}const a=(v.hour%12+v.minute/60)*Math.PI/6,b=v.minute*Math.PI/30;out+=line(300,118,300+Math.sin(a)*48,118-Math.cos(a)*48,'#38526f',7)+line(300,118,300+Math.sin(b)*69,118-Math.cos(b)*69,'#e87879',5)+circle(300,118,6,'#38526f');return wrap(out);}
@@ -90,6 +113,7 @@
    default:throw Error('Unknown test scene '+v.kind);
   }
  }
- function render(q,enlarged=false){if(!q.visual&&!q.wordBank&&!q.responseFormat)return '';return `<section class="test-scene" aria-label="Exercise details">${q.wordBank?'<div class="source-word-bank">'+q.wordBank.map(w=>'<span>'+esc(w)+'</span>').join('')+'</div>':''}${q.visual?'<div class="test-illustration">'+visual(q.visual)+'</div>'+(enlarged?'':'<button type="button" class="enlarge-scene" data-enlarge-scene aria-label="Enlarge the picture">🔍</button>'):''}${q.responseFormat&&!String(q.answer).includes(' / ')?'<p class="source-response-format">'+esc(q.responseFormat)+'</p>':''}${enlarged?'<small class="vector-credits">Colour icons: <a href="https://openmoji.org/" target="_blank" rel="noopener">OpenMoji</a> · CC BY-SA 4.0. Scenes: Ms Trang Trieu Education.</small>':''}</section>`;}
+ function renderContent(q,enlarged=false){if(!q.visual&&!q.wordBank&&!q.responseFormat)return '';return `<section class="test-scene" aria-label="Exercise details">${q.wordBank?'<div class="source-word-bank">'+q.wordBank.map(w=>'<span>'+esc(w)+'</span>').join('')+'</div>':''}${q.visual?'<div class="test-illustration">'+visual(q.visual)+'</div>'+(enlarged?'':'<button type="button" class="enlarge-scene" data-enlarge-scene aria-label="Enlarge the picture">🔍</button>'):''}${q.responseFormat&&!String(q.answer).includes(' / ')?'<p class="source-response-format">'+esc(q.responseFormat)+'</p>':''}${enlarged?'<small class="vector-credits">Colour icons: <a href="https://openmoji.org/" target="_blank" rel="noopener">OpenMoji</a> · CC BY-SA 4.0. Scenes: Ms Trang Trieu Education.</small>':''}</section>`;}
+ function render(q,enlarged=false){const previous=artContext,match=q.id?.match(/^family-friends-([12])-.*-u(\d+)-/);artContext=match?{book:Number(match[1]),unit:Number(match[2])}:null;try{const html=renderContent(q,enlarged);return artContext?html.replace(/<small class="vector-credits">[\s\S]*?<\/small>/,'<small class="vector-credits">Original 3D illustrations · MS TRANG TRIEU EDUCATION.</small>'):html;}finally{artContext=previous;}}
  return {render,visual,custom,iconSvg};
 });

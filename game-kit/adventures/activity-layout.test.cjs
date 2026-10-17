@@ -20,6 +20,7 @@ test('Shared image library replaces known vocabulary across courses but keeps co
  assert.ok(Object.keys(manifest.items).length>=18);
  for(const art of Object.values(manifest.items)){assert.ok(art.width>=1024&&art.height>=1024);assert.ok(fs.existsSync(path.resolve(__dirname,'../../khoa-hoc',art.src)));}
  const images=all.flatMap(q=>[q.picturePrompt,...Object.values(q.pictureOptions||{}),...(q.matchPictures||[])]).filter(Boolean);
- assert.ok(images.filter(p=>p.semantic==='bed').every(p=>p.src.includes('vocabulary-3d/bed.png')));
+ const familyBed=require('./pictures/family-cards/3d-v3/manifest.json').items['1:13:bed'];
+ assert.ok(images.filter(p=>p.semantic==='bed').every(p=>p.artPack==='family-3d-v3'?p.atlas===familyBed.atlas&&p.cell===familyBed.cell:p.src.includes('vocabulary-3d/bed.png')));
  const p={src:'unknown.png'},test={exam:true,picturePrompt:{src:'../game-kit/adventures/pictures/book-cards/p1-007.png'}};assert.equal(lib.resolve(p),p);lib({any:{lessons:[{items:[test]}]}});assert.ok(test.picturePrompt.src.includes('book-cards'));
 });

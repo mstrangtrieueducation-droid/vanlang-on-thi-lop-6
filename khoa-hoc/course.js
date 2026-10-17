@@ -2,7 +2,7 @@
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function loadScript(src){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=reject;document.body.append(s);});}
 if(!planet){window.FlowBoot?.cancel();app.innerHTML='<p>Con hãy chọn một hành tinh để bắt đầu.</p><a href="../vu-tru/">← Titi Learning Universe</a>';return;}
-try{const response=await fetch(`data/${id}.json?v=dialogue-1`);if(!response.ok)throw Error('Course unavailable');const course=await response.json(),selected=course.lessons.find(l=>l.id===(course.legacyAliases?.[params.get('lesson')]||params.get('lesson'))||l.sourceLessons?.includes(params.get('lesson')));
+try{const response=await fetch(`data/${id}.json?v=family-art-3`);if(!response.ok)throw Error('Course unavailable');const course=await response.json(),selected=course.lessons.find(l=>l.id===(course.legacyAliases?.[params.get('lesson')]||params.get('lesson'))||l.sourceLessons?.includes(params.get('lesson')));
 if(id==='fighter'&&selected){window.FlowBoot?.cancel();const next=new URL('../fighter/',location.href);next.search=location.search;next.searchParams.set('course','fighter');next.searchParams.set('lesson',selected.id);location.replace(next.href);return;}
 window.GAME_CONFIG={id:`course-${id}`,storageKey:`mtt-course-${id}-${selected?.id||'map'}-v1`,courseId:id,lessonId:selected?.id};await loadScript('../game-kit/profile.js?v=cloud-1');const profile=window.GameProfile;
 const suffix=window.StudentContext?.suffix(profile)||(profile?':profile:'+encodeURIComponent(JSON.stringify([profile.className,profile.name])):'');

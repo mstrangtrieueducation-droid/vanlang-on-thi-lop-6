@@ -5,6 +5,7 @@ const sourceWords=new Map();
 for(const source of sources)for(const [key,picture] of Object.entries(source))sourceWords.set(picture.src,key.split(':').at(-1).trim().toLowerCase());
 function resolve(picture){
  if(!picture)return picture;
+ if(picture.artPack==='family-3d-v3')return picture;
  const semantic=String(picture.semantic||sourceWords.get(picture.src)||'').trim().toLowerCase();
  const art=library.items[semantic];
  return art?{...picture,...art,artwork:'Original generated 3D vocabulary illustration'}:picture;
