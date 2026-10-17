@@ -31,3 +31,5 @@ body[data-world-light=day] #course-atlas h1{color:#1c3559}body[data-world-light=
 @media(prefers-reduced-motion:reduce){.citizen-wave,.citizen-jet{animation:none!important}}
 
 @media(max-width:550px){#course-atlas nav .atlas-close{position:absolute;right:0;top:0;width:28px;height:28px;min-height:28px}#course-atlas .atlas-brand{margin-right:16px}}
+
+.atlas-welcome .atlas-hello{position:absolute;bottom:0;white-space:nowrap;pointer-events:auto;color:#ffefb5;background:#1d2a4cee;border:1px solid #fff5;border-radius:14px;padding:5px 13px;font-size:11px!important;box-shadow:0 3px #17243f55}.atlas-welcome .atlas-hello:focus-visible{outline:3px solid #ffe39c;outline-offset:3px}@media(max-width:550px){.atlas-welcome .atlas-hello{font-size:10px!important}}
