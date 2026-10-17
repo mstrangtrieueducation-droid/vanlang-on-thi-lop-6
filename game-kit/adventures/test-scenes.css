@@ -3,6 +3,7 @@
 .test-3d-strip figure{position:relative;margin:0;min-width:0;text-align:center;background:white}
 .test-3d-strip figure>svg{display:block;width:100%;height:auto;max-height:120px;filter:none}
 .test-3d-strip figcaption{position:absolute;top:2px;left:2px;font:bold 17px system-ui;color:#183f51;background:#fffef0ed;border:1px solid #e3cd85;border-radius:8px;padding:1px 7px}
+html[data-course-world^="family-friends"] #adventure[data-exam=true].flow-live .choices:has(.choice:nth-child(5)){grid-template-columns:repeat(3,minmax(0,1fr))!important}
 html[data-course-world^="family-friends"] #adventure[data-exam=true].flow-live .question-panel:has(.test-scene){max-height:56%}
 html[data-course-world^="family-friends"] #adventure[data-exam=true].flow-live .work .choice{background:linear-gradient(145deg,var(--option-top),var(--option-bottom))!important;border:2px solid var(--option-edge)!important;border-radius:14px!important;box-shadow:inset 0 2px 1px #fff8,0 4px 0 var(--option-base)!important;color:var(--option-ink)!important;clip-path:none!important;filter:none!important;animation:none!important;min-height:48px!important;padding:10px 14px!important;overflow:hidden!important}
 html[data-course-world^="family-friends"] #adventure[data-exam=true].flow-live .work .choice:before,html[data-course-world^="family-friends"] #adventure[data-exam=true].flow-live .work .choice:after{content:none!important;display:none!important}
