@@ -31,25 +31,8 @@
  }
  function instruction(q){if(q.exam)return q.inputMode==='typing'?'Read the original exercise and type your answer.':'Read the original exercise and choose your answer.';if(q.interaction==='reading')return 'Read the text and find evidence for your answer.';if(q.orderWords)return q.skill==='grammar'?'Build the sentence from the three parts.':'Listen and put the cards in order.';if(q.matchPictures)return 'Match each word to its picture.';if(q.interaction==='picture')return 'Listen and choose the correct picture.';if(q.storyId)return 'Listen to the story and choose the missing word.';if(q.interaction==='sentence')return 'Build the complete sentence from the word tiles.';if(q.interaction==='dictation')return 'Listen, then write the word you hear.';if(q.interaction==='recall')return 'Use the meaning cue to complete the whole sentence.';return skill(q)==='listening'?'Listen to Titi and choose the correct answer.':skill(q)==='grammar'?'Read the whole sentence and complete the gap.':skill(q)==='reading'?'Read the text and find evidence for your answer.':'Read the clue and choose the correct answer.';}
  function reflect(q){return {listening:'Say the word aloud once. Can you hear its ending?',phonics:'Say the sound, then say the whole word.',grammar:'Read the completed sentence aloud.',dialogue:'Say both parts of the conversation aloud.',reading:'Point to the words that helped you decide.',vocabulary:'Cover the answer. Can you remember it from the clue?'}[skill(q)];}
- // Passage-linked questions stay together; other skills are interleaved. Exam order is untouched.
- function plan(items,{standard=false,reviewIds=[]}={}){
-  if(standard||items.some(q=>q.exam)||items.some(q=>q.phonicsSequence)||items.some(q=>q.type!=='choice'||/previous question|text above|previous answer/i.test(q.prompt||'')))return [...items];
-  const blocks=[],used=new Set();
-  for(const q of items){if(used.has(q.id))continue;const linked=String(q.scene||'').length>160?items.filter(x=>x.scene===q.scene):[q];linked.forEach(x=>used.add(x.id));blocks.push(linked);}
-  const output=[],recent=[],weak=new Set(reviewIds);
-  while(blocks.length){let best=0,bestScore=-Infinity;
-   blocks.forEach((block,i)=>{const q=block[0],previous=output.at(-1);let score=weak.has(q.id)?3:0;
-    if(previous&&skill(previous)!==skill(q))score+=8;
-    if(previous&&previous.prompt!==q.prompt)score+=2;
-    score-=output.slice(-3).filter(x=>skill(x)===skill(q)).length*4;
-    if(recent.includes(String(q.answer).toLowerCase()))score-=12;
-    score-=i*.01;
-    if(score>bestScore){best=i;bestScore=score;}
-   });
-   const block=blocks.splice(best,1)[0];output.push(...block);block.forEach(q=>recent.push(String(q.answer).toLowerCase()));while(recent.length>3)recent.shift();
-  }
-  return output;
- }
+ // One stable Part per task; source objects and question IDs are not changed.
+ function plan(items,options={}){const parts=typeof module==='object'?require('./task-parts.js'):globalThis.TaskParts;return parts?parts.group(items):[...items];}
  function restore(items,attempt){
   if(!Array.isArray(attempt?.order))return {queue:[...items],pos:Math.max(0,items.findIndex(q=>q.id===attempt?.id)),review:false};
   const byId=new Map(items.map(q=>[q.id,q])),ids=attempt.order;

@@ -6,7 +6,7 @@ for(const n of [1,2,3,4])test('Phonics '+n+': textbook units, 15/45 questions, f
  for(let u=0;u<8;u++){
   const block=c.lessons.slice(u*4,u*4+4),review=block[3];assert.deepEqual(review.requiredLevels,block.slice(0,3).map(l=>l.id));
   for(const [i,l]of block.entries()){
-   assert.equal(l.unit,u+1);assert.equal(l.items.length,i===3?45:15);assert.deepEqual(coach.plan(l.items).map(x=>x.id),l.items.map(x=>x.id));
+   assert.equal(l.unit,u+1);assert.equal(l.items.length,i===3?45:15);assert.deepEqual(coach.plan(l.items).map(x=>x.id).sort(),l.items.map(x=>x.id).sort());
    const kinds=new Set(l.items.map(q=>q.interaction));for(const kind of ['picture','phonics-look','phonics-category','phonics-order','phonics-match'])assert.ok(kinds.has(kind),l.id+' missing '+kind);
    for(const d of ['easy','medium','advanced'])assert.equal(l.items.filter(q=>q.difficulty===d).length,i===3?15:5);
    if(i<3){assert.ok(l.items.every(q=>!q.storyId));const covered=l.items.flatMap(q=>q.answer.split(' → '));for(const w of plan[n][u].levels[i].words)assert.ok(covered.includes(w),l.id+' missing '+w);}

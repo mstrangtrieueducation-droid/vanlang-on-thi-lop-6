@@ -27,7 +27,7 @@ module.exports=function(book,number){
   if(['1:2:1','1:3:2','1:6:1','1:7:2','1:9:1','1:11:2','1:12:1','1:15:1'].includes(`${book}:${unit}:${ex}`)){const u=require('./family-units.cjs')[book][unit-1],pool=[...new Set([...section.split('|'),...u.words,...u.extra])].filter(w=>w!==answer);q.options=[answer,...pool.slice(0,3)];delete q.inputMode;delete q.acceptedAnswers;q.prompt='Follow the original instruction for this number. Choose the correct word.';q.source.adaptation='Original circle-the-word exercise converted to four choices from the same Unit vocabulary.';}
   if(ex>=3)q.why+=' '+require('./family-grammar-rules.cjs')[book][unit-1];
   q.spokenPrompt=q.prompt;
-  items.push(q);
+  items.push(require('./family-test-scenes.cjs')(q,book,unit,ex,index));
  }));
  return {id:`progress-test-${number}`,kind:'progress-test',title:`Progress Test ${number} · Units ${p.units.join(', ')}`,description:`${items.length} câu · Theo đề kiểm tra gốc · Xem lời giải sau khi nộp bài`,units:p.units,timeLimitSeconds:p.durationSeconds||900,timeLimitSource:p.durationSeconds?'Program':'Centre default; Program does not specify a duration',programSource:{url:program.source,row:p.sourceRow,session:p.session},items};
 };

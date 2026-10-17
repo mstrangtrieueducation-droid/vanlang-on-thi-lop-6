@@ -1,0 +1,1 @@
+Colour vector icons: OpenMoji, https://openmoji.org/ — CC BY-SA 4.0. Original SVGs from https://github.com/hfg-gmuend/openmoji . Custom scene layouts, characters, clocks and classroom objects: Ms Trang Trieu Education. Source question text and answer references remain attributed in the curriculum data. No paper scans are loaded by the test renderer.

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-17",
+  "scope": "Part-based presentation for all current courses; scan-free illustrations for Family and Friends 1–2 progress tests",
+  "tests": 10,
+  "responses": 450,
+  "source": "Existing Program-linked family-tests.cjs and family-test-keys.cjs; original source URL/page/exercise/item retained on each response.",
+  "preserved": [
+    "Response IDs",
+    "Source references",
+    "Per-response scoring and progress integration",
+    "Grammar and vocabulary targets"
+  ],
+  "presentation": [
+    "Same formats grouped into Parts",
+    "Instruction automatically spoken once per Part per attempt; manual replay available",
+    "Local color SVG illustrations replace paper scans",
+    "Original matching labels and original option counts exposed instead of forced four-choice distractors",
+    "Separate fields for multi-blank responses; some paper layouts adapted to digital word completion"
+  ],
+  "corrections": [
+    {
+      "id": "family-friends-1-program-test5-u13-e3-q2",
+      "before": "teddy",
+      "after": "train",
+      "evidence": "Original FF1 Unit 13 exercise 3 picture: train under bed, teddy on bed. Compared with stored family-tests/ff1-u13-e3.png."
+    }
+  ],
+  "verification": {
+    "automatedTestsPassed": 128,
+    "browser": [
+      "Part instruction once, revisit, replay and resume",
+      "Phone portrait and landscape",
+      "Multi-blank submission and retained score",
+      "All test illustration render paths and local assets"
+    ]
+  },
+  "artwork": "OpenMoji CC BY-SA 4.0 and custom local SVG scenes; credits in pictures/test-vectors/CREDITS.md."
+}

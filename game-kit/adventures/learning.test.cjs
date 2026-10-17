@@ -1,18 +1,19 @@
 const {test}=require('node:test'),assert=require('node:assert/strict');
 const coach=require('./learning.js'),courses=require('../../khoa-hoc/content.cjs'),legacy=require('../../vu-tru/legacy-lessons.json');
 const all=[...Object.values(courses).flatMap(c=>c.lessons),...legacy.lessons];
-test('All 435 lessons retain every question, exact values and exam order; planned rounds resume exactly',()=>{
+test('All lessons retain every question and exact values; grouped rounds resume exactly',()=>{
  assert.equal(all.length,435);
  for(const l of all){const before=JSON.stringify(l.items);const planned=coach.plan(l.items),standard=coach.plan(l.items,{standard:true});
-  assert.deepEqual(standard,l.items);assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
+  assert.deepEqual(standard,planned);assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
   assert.deepEqual([...planned].map(q=>q.id).sort(),l.items.map(q=>q.id).sort());assert.ok(planned.every(q=>l.items.includes(q)));assert.equal(JSON.stringify(l.items),before);
   for(const pos of [0,Math.floor(planned.length/2),planned.length-1]){const r=coach.restore(l.items,{id:planned[pos].id,order:planned.map(q=>q.id)});assert.equal(r.pos,pos);assert.deepEqual(r.queue,planned);}
  }
 });
-test('Interleaving breaks vocabulary blocks with listening and grammar, without repeating the same answer immediately',()=>{
+test('The same task stays in a contiguous Part instead of alternating instructions',()=>{
  const items=courses['discover-1'].lessons[9].items,planned=coach.plan(items);
- assert.equal(coach.skill(planned[0]),'vocabulary');assert.equal(coach.skill(planned[1]),'listening');
- assert.notEqual(planned[0].answer,planned[1].answer);assert.ok(planned.slice(0,5).some(q=>coach.skill(q)==='grammar'));
+ const parts=require('./task-parts.js').sections(planned);
+ assert.equal(parts.length,new Set(parts.map(p=>p.key)).size);
+ assert.ok(parts.some(p=>p.indices.length>1));assert.ok(parts.length<items.length);
 });
 test('Related reading questions stay together and legacy or invalid saves fall back safely',()=>{
  const text='An original reading passage. '.repeat(10),items=[{id:'a',type:'choice',scene:text},{id:'b',type:'choice',scene:'word'},{id:'c',type:'choice',scene:text}];
