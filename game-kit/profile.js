@@ -28,9 +28,12 @@
   } catch {}
   if (!hasViewer) profile = read(location.search);
   const context=window.StudentContext?.active;
-  if(context&&window.StudentContext.validStudent(context.student)){
-    const name=profile?.name||context.name||'Explorer',className=profile?.className||context.className||'',displayName=profile?.displayName||context.displayName||name;
+  if(window.StudentContext?.current(context)){
+    if(hasViewer&&profile&&(profile.name!==context.name||profile.className!==context.className)){
+      window.StudentContext.active={...context,invalid:true};window.GameProfile=null;return;
+    }
+    const name=context.name||'Explorer',className=context.className||'',displayName=context.displayName||name;
     profile=Object.freeze({name,className,displayName,student:context.student,storageKey:(window.GAME_CONFIG?.storageKey||'mtt-game-v1')+':student:'+context.student});
-  }
+  }else if(context?.invalid)profile=null;
   window.GameProfile = profile;
 })();
