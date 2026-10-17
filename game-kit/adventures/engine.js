@@ -16,7 +16,6 @@
  let picked=[],sorted=[],matched=[],flipped=[],deck=[],route=[2,0],spot=false,locked=false,selected=null,roundEpoch=0;
  let run=null,guideSpoken=false,autoTimer=0,committed=false;const flow=window.GameFlow;
  let timer=0,remaining=600,totalDuration=600,timed=true,stamp=0,dialogOpen=false;
- window.CLEAR_AUDIO||={};Object.assign(window.CLEAR_AUDIO,{'Excellent!':'../game-kit/adventures/audio-flow/correct.mp3','Good try!':'../game-kit/adventures/audio-flow/try.mp3'});
  const speech=new Audio();speech.preload='none';let speechTicket=0,paused=false,ctx;let feedbackNotes=[],moodTimers=[],voiceDelay=0;
  const q=()=>queue[pos];
  const instructions={memory:'Lật hai thẻ để ghép ý nghĩa tương ứng. Ghép đủ các cặp để hoàn thành.',sort:'Kéo thẻ vào nhóm đúng, hoặc chạm thẻ rồi chạm tên nhóm.',build:'Chạm các thẻ theo thứ tự để xây câu. Chạm thẻ đã xếp để lấy ra.',sequence:'Xếp các sự kiện theo đúng trình tự. Chạm thẻ đã xếp để lấy ra.',collect:'Chọn đủ các món theo yêu cầu. Chạm lại một món để bỏ chọn.',route:'Dùng mũi tên đưa Titi đi theo chỉ dẫn. Phía trên bản đồ là hướng lên.',spot:'Chạm từ dùng sai trong câu, sau đó chọn từ thay thế.',choice:'Nghe và đọc câu hỏi, rồi chọn một đáp án.'};
@@ -24,9 +23,15 @@
  function checkpoint(){if(!active||!q())return;if(run){run.combo=combo;run.views||={};run.views[q().id]={picked:[...picked],sorted:[...sorted],matched:[...matched],deck:[...deck],route:[...route],spot,wrong,solved};}state.attempt={id:q().id,order:queue.map(x=>x.id),reviewMode,picked,sorted,matched,route,spot,wrong,solved,remaining,totalDuration,timed,run};save();}
  function announce(text){document.querySelector('#announce').textContent=text;const el=app.querySelector('#feedback');if(el)el.textContent=text;}
  function stopVoice(){clearTimeout(voiceDelay);moodTimers.forEach(clearTimeout);moodTimers=[];setMood('idle');for(const n of feedbackNotes){try{n.stop();}catch{}}feedbackNotes=[];speechTicket++;speech.pause();speech.onended=null;speech.onerror=null;window.speechSynthesis?.cancel();paused=false;audioUI();}
- function speak(text,after=null,onClip=null){stopVoice();if(muted||!text){after?.();return;}const ticket=speechTicket,path=window.CLEAR_AUDIO?.[text]||window.ADVENTURE_AUDIO?.[text];
-  if(path){const clips=Array.isArray(path)?path:[path];let clip=0;onClip?.(0);speech.src=clips[0];speech.onended=()=>{if(ticket!==speechTicket)return;if(++clip<clips.length){onClip?.(clip);speech.src=clips[clip];speech.play().catch(()=>{if(ticket===speechTicket)after?.();});}else{audioUI();after?.();}};speech.onerror=()=>{if(ticket===speechTicket){announce('Chưa tải được giọng đọc. Chạm Listen để thử lại.');after?.();}};speech.play().catch(e=>{if(e.name!=='AbortError'&&ticket===speechTicket){announce('Chạm Listen để nghe câu hỏi.');after?.();}});}
-  else if(window.speechSynthesis){const parts=text==='titi-try-again'?['Oh no…',200,"It's okay, let's try it again!"]:text.split(/(?<=[,.!?…])\s+|\n+/).flatMap(v=>[v,/,$/.test(v)?150:200]);let i=0;const play=()=>{if(ticket!==speechTicket)return;if(i>=parts.length){audioUI();after?.();return;}onClip?.(text==='titi-try-again'?(i===2?1:0):i);const words=parts[i++];if(typeof words==='number'){voiceDelay=setTimeout(play,words);return;}const tone=window.TITI_FEEDBACK?.[words];const u=new SpeechSynthesisUtterance(words.replace(/_{2,}/g,' … '));u.lang='en-US';const voices=speechSynthesis.getVoices().filter(v=>v.lang.startsWith('en'));u.voice=voices.find(v=>/Jenny|Aria|Samantha|Zira|Karen/i.test(v.name))||voices.find(v=>v.lang==='en-US')||voices[0]||null;u.rate=tone?.fallbackRate||.97;u.pitch=tone?.fallbackPitch||1;u.onstart=audioUI;u.onend=play;u.onerror=()=>{if(ticket===speechTicket)after?.();};speechSynthesis.speak(u);};play();}else after?.();
+ function speak(text,after=null,onClip=null){
+  stopVoice();if(muted||!text){after?.();return;}
+  const ticket=speechTicket,path=window.TitiVoice?.lookup(text);
+  if(!path){announce('Chưa có giọng đọc cho câu này. Con vẫn có thể trả lời ngay.');after?.();return;}
+  const clips=Array.isArray(path)?path:[path];let index=0;
+  const next=()=>{if(ticket!==speechTicket)return;if(index>=clips.length){audioUI();after?.();return;}
+   onClip?.(index);speech.src=clips[index++];speech.play().catch(e=>{if(e.name!=='AbortError'&&ticket===speechTicket){announce('Chạm Listen để nghe câu hỏi.');after?.();}});
+  };
+  speech.onended=next;speech.onerror=()=>{if(ticket===speechTicket){announce('Chưa tải được giọng đọc. Chạm Listen để thử lại.');after?.();}};next();
  }
  function setMood(mood,words=''){const el=app.querySelector('.teacher-fox');if(!el)return;el.classList.remove('yay','think','regret','encourage','reacting');void el.offsetWidth;const reacting=['yay','regret','encourage'].includes(mood);if(mood!=='idle')el.classList.add(mood);if(reacting)el.classList.add('reacting');el.setAttribute('aria-label','Cô giáo Titi'+(words?' — '+words:''));const caption=el.querySelector('.reaction-caption');if(caption)caption.textContent=words;}
  function reactCorrect(){const words='Excellent!';speak(words,()=>setMood('idle'));setMood('yay',words);if(muted)moodTimers.push(setTimeout(()=>setMood('idle'),2400));}
@@ -36,7 +41,7 @@
  let waiting=false;
  function reveal(){waiting=false;}
  function readClue(){if(!q())return;const epoch=roundEpoch;if(!q().scene){speak(q().spokenPrompt||q().prompt);return;}speak(q().spokenScene||q().scene,()=>{if(epoch===roundEpoch&&active)speak(q().spokenPrompt||q().prompt);});}
- function audioUI(){const playing=!speech.paused||!!window.speechSynthesis?.speaking&&!window.speechSynthesis.paused;document.body.dataset.titiSpeaking=String(playing);const b=app.querySelector('#listen');if(b){b.classList.toggle('playing',playing);b.innerHTML=(playing?'Ⅱ Pause':'▶ Listen')+' <span class="waves" aria-hidden="true">▂▆▃▇▂</span>';b.setAttribute('aria-label',playing?'Tạm dừng giọng đọc':'Nghe câu hỏi tiếng Anh');}}
+ function audioUI(){const playing=!speech.paused;document.body.dataset.titiSpeaking=String(playing);const b=app.querySelector('#listen');if(b){b.classList.toggle('playing',playing);b.innerHTML=(playing?'Ⅱ Pause':'▶ Listen')+' <span class="waves" aria-hidden="true">▂▆▃▇▂</span>';b.setAttribute('aria-label',playing?'Tạm dừng giọng đọc':'Nghe câu hỏi tiếng Anh');}}
  speech.addEventListener('play',audioUI);speech.addEventListener('pause',audioUI);
  function unlockAudio(){try{ctx=window.TitiLife?.unlock()||ctx||new(window.AudioContext||window.webkitAudioContext)();ctx.resume().catch(()=>{});const b=ctx.createBuffer(1,1,ctx.sampleRate),source=ctx.createBufferSource();source.buffer=b;source.connect(ctx.destination);source.start(0);}catch{}}
  function primeSpeech(){if(muted)return;speech.src='../game-kit/adventures/audio/pause-300.wav';speech.play().catch(()=>{});}

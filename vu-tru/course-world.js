@@ -53,7 +53,7 @@ window.CourseWorld={biome,kind,scenery,
  label(c,n){return (c.id==='van-lang'?'Thử thách ':'Nhiệm vụ ')+n;},
  art(c,n){return `<span class="lesson-world-art"><img src="assets/${encodeURIComponent(c.id)}.webp" alt="${esc(this.metadata(c).era)}" draggable="false" decoding="async"><span class="world-node-badge">${n}</span></span>`;},
  milestone(c,n){return `<span class="road-milestone"><span>${n}</span><i aria-hidden="true">✦</i></span>`;},
- roadmap(n,viewportHeight=400){n=Math.max(0,Math.floor(n)||0);const step=175,height=Math.max(viewportHeight,220+Math.max(0,n-1)*step);return {height,points:Array.from({length:n},(_,i)=>({x:500+Math.sin(i*Math.PI/2)*230,y:height-100-i*step}))};},
- trail(points){return points.map((p,i)=>{const y=p.y-20;if(!i)return `M ${p.x} ${y}`;const a=points[i-1],ay=a.y-20,mid=(ay+y)/2;return `C ${a.x} ${mid}, ${p.x} ${mid}, ${p.x} ${y}`;}).join(' ');},
+ roadmap(n,viewportHeight=400){n=Math.max(0,Math.floor(n)||0);const step=156,height=Math.max(viewportHeight,220+Math.max(0,n-1)*step);return {height,points:Array.from({length:n},(_,i)=>({x:500+Math.sin(i*Math.PI/2)*230,y:height-100-i*step,tx:Math.cos(i*Math.PI/2)*230*Math.PI/2,ty:-step}))};},
+ trail(points){return points.map((p,i)=>{const y=p.y-20;if(!i)return `M ${p.x} ${y}`;const a=points[i-1],ay=a.y-20;if(Number.isFinite(a.tx)&&Number.isFinite(p.tx))return `C ${a.x+a.tx/3} ${ay+a.ty/3}, ${p.x-p.tx/3} ${y-p.ty/3}, ${p.x} ${y}`;const mid=(ay+y)/2;return `C ${a.x} ${mid}, ${p.x} ${mid}, ${p.x} ${y}`;}).join(' ');},
  apply(c){document.body.dataset.world=c.id;document.body.dataset.road=kind(c);document.body.dataset.biome=biome(c);document.body.style.setProperty('--course-world-image',`url("assets/${encodeURIComponent(c.id)}.webp")`);document.body.dataset.worldLight||='day';}
 };})();

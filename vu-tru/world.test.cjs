@@ -7,7 +7,7 @@ test('Roadmap scenery follows course eras while milestone numbers scale to every
 test('Vertical snake grows for arbitrary lesson counts, with lesson one below every later lesson',()=>{
  for(const n of [0,1,2,15,88,137])for(const viewport of [220,650]){
   const {height,points}=world.roadmap(n,viewport);assert.equal(points.length,n);assert.ok(height>=viewport);
-  for(let i=0;i<n;i++){assert.ok(points[i].x>=270&&points[i].x<=730);assert.ok(points[i].y>=100&&points[i].y<=height-100);if(i)assert.equal(points[i-1].y-points[i].y,175);}
+  for(let i=0;i<n;i++){assert.ok(points[i].x>=270&&points[i].x<=730);assert.ok(points[i].y>=100&&points[i].y<=height-100);if(i)assert.equal(points[i-1].y-points[i].y,156);}
   assert.ok(!/NaN|undefined/.test(world.trail(points)));
  }
 });
