@@ -33,5 +33,6 @@ function packs(){const out=[];
  }
  return out;
 }
-if(require.main===module){let count=0;for(const pack of packs()){const dir=path.join(__dirname,'grammar',pack.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${pack.unit}.json`),JSON.stringify(pack,null,2)+'\n');count++;}console.log(`${count} Unit grammar packs · ${count*20} questions`);}
-module.exports={packs};
+function write(){let count=0;for(const pack of packs()){const dir=path.join(__dirname,'grammar',pack.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${pack.unit}.json`),JSON.stringify(pack,null,2)+'\n');count++;}console.log(`${count} Unit grammar packs · ${count*20} questions`);}
+if(require.main===module)write();
+module.exports={packs,write};
