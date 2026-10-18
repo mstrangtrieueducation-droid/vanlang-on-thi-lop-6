@@ -1,0 +1,689 @@
+{
+  "course": "phonics-4",
+  "unit": 4,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 39
+  },
+  "pictures": {
+    "shell": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-037.png",
+      "book": 4,
+      "page": 93
+    },
+    "fish": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-038.png",
+      "book": 4,
+      "page": 93
+    },
+    "ship": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-039.png",
+      "book": 4,
+      "page": 93
+    },
+    "brush": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-040.png",
+      "book": 4,
+      "page": 93
+    },
+    "chick": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-041.png",
+      "book": 4,
+      "page": 93
+    },
+    "watch": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-043.png",
+      "book": 4,
+      "page": 93
+    },
+    "phone": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-045.png",
+      "book": 4,
+      "page": 93
+    },
+    "dolphin": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-046.png",
+      "book": 4,
+      "page": 93
+    },
+    "whale": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-047.png",
+      "book": 4,
+      "page": 93
+    }
+  },
+  "questions": [
+    {
+      "word": "shell",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the shell.",
+      "objects": [
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fish.",
+      "objects": [
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the ship.",
+      "objects": [
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "brush",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the brush.",
+      "objects": [
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "chick",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the chick.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "watch",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the watch.",
+      "objects": [
+        {
+          "word": "watch",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "phone",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the phone.",
+      "objects": [
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "phone",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dolphin",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the dolphin.",
+      "objects": [
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "dolphin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "shell",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue shell.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": "blue"
+        },
+        {
+          "word": "shell",
+          "color": "red"
+        },
+        {
+          "word": "shell",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red fish.",
+      "objects": [
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": "red"
+        },
+        {
+          "word": "fish",
+          "color": "blue"
+        },
+        {
+          "word": "fish",
+          "color": "green"
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green ship.",
+      "objects": [
+        {
+          "word": "ship",
+          "color": "red"
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": "green"
+        },
+        {
+          "word": "ship",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "brush",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue brush.",
+      "objects": [
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": "blue"
+        },
+        {
+          "word": "brush",
+          "color": "red"
+        },
+        {
+          "word": "brush",
+          "color": "green"
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "chick",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red chick.",
+      "objects": [
+        {
+          "word": "chick",
+          "color": "blue"
+        },
+        {
+          "word": "chick",
+          "color": "green"
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "watch",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green watch.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "watch",
+          "color": "green"
+        },
+        {
+          "word": "watch",
+          "color": "blue"
+        },
+        {
+          "word": "watch",
+          "color": "red"
+        },
+        {
+          "word": "shell",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "phone",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 phones.",
+      "objects": [
+        {
+          "word": "phone",
+          "color": null
+        },
+        {
+          "word": "phone",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dolphin",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 dolphins.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "dolphin",
+          "color": null
+        },
+        {
+          "word": "dolphin",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "whale",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 whales.",
+      "objects": [
+        {
+          "word": "whale",
+          "color": null
+        },
+        {
+          "word": "whale",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "shell",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 shells.",
+      "objects": [
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 fish.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 ships.",
+      "objects": [
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "brush",
+          "color": null
+        },
+        {
+          "word": "chick",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "ship",
+          "color": null
+        },
+        {
+          "word": "shell",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

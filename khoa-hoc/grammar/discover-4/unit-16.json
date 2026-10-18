@@ -20,7 +20,10 @@
           "+",
           "past participle"
         ]
-      ]
+      ],
+      "usage": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "exampleVi": "Chúng tôi đã đóng gói bộ sơ cứu.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Just",
@@ -34,7 +37,10 @@
           "+",
           "past participle"
         ]
-      ]
+      ],
+      "usage": "Just đứng sau have/has và trước past participle.",
+      "exampleVi": "Bố vừa mua nước đóng chai.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Yet",
@@ -48,7 +54,10 @@
         [
           "subject + haven't / hasn't + past participle + yet"
         ]
-      ]
+      ],
+      "usage": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "exampleVi": "Bạn đã kiểm tra pin chưa?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Choosing the adverb",
@@ -70,7 +79,10 @@
           "=",
           "chưa / chưa vậy?"
         ]
-      ]
+      ],
+      "usage": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
+      "exampleVi": "Chúng tôi vẫn chưa mở đồ hộp.",
+      "sentenceType": "Negative (Câu phủ định)"
     }
   ],
   "items": [
@@ -95,8 +107,11 @@
         "packing"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
+      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We have already ___ the first-aid kit.",
@@ -124,8 +139,11 @@
         "bought"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
+      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Dad has just ___ bottled water.",
@@ -153,8 +171,11 @@
         "check"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
+      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ___ the batteries yet?",
@@ -182,8 +203,11 @@
         "opens"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
+      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We haven't ___ the canned food yet.",
@@ -211,8 +235,11 @@
         "packed"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
+      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We have already [pack] the first-aid kit.",
@@ -242,8 +269,11 @@
         "buy"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
+      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Dad has just [buy] bottled water.",
@@ -273,8 +303,11 @@
         "checks"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
+      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you [check] the batteries yet?",
@@ -304,8 +337,11 @@
         "opening"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
+      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We haven't [open] the canned food yet.",
@@ -335,8 +371,11 @@
         "pack"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
+      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We have already ___ the first-aid kit.\nWord bank: packs · packing · packed · pack",
@@ -367,8 +406,11 @@
         "buys"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
+      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Dad has just ___ bottled water.\nWord bank: buying · bought · buy · buys",
@@ -399,8 +441,11 @@
         "checking"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
+      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ___ the batteries yet?\nWord bank: checked · check · checks · checking",
@@ -431,8 +476,11 @@
         "opened"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
+      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We haven't ___ the canned food yet.\nWord bank: open · opens · opening · opened",
@@ -463,8 +511,11 @@
         "first-aid kit. → packed the → We have already"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
+      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -497,8 +548,11 @@
         "bottled water. → just bought → Dad has"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
+      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -531,8 +585,11 @@
         "batteries yet? → checked the → Have you"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
+      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -565,8 +622,11 @@
         "food yet. → the canned → We haven't opened"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
+      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -599,8 +659,11 @@
         "We have already packing the first-aid kit."
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
+      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Already",
@@ -630,8 +693,11 @@
         "Dad has just bought bottled water."
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
+      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Just",
@@ -661,8 +727,11 @@
         "Have you check the batteries yet?"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
+      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Yet",
@@ -692,8 +761,11 @@
         "We haven't opens the canned food yet."
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
+      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Choosing the adverb",

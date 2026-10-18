@@ -1,0 +1,689 @@
+{
+  "course": "phonics-1",
+  "unit": 4,
+  "source": {
+    "url": "https://drive.google.com/file/d/1A-yrsq42iDf445MsFD1fFK6E13TwFioU/view",
+    "page": 39
+  },
+  "pictures": {
+    "jet": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-037.png",
+      "book": 1,
+      "page": 93
+    },
+    "jacket": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-040.png",
+      "book": 1,
+      "page": 93
+    },
+    "kangaroo": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-041.png",
+      "book": 1,
+      "page": 93
+    },
+    "key": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-042.png",
+      "book": 1,
+      "page": 93
+    },
+    "kite": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-044.png",
+      "book": 1,
+      "page": 93
+    },
+    "lion": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-045.png",
+      "book": 1,
+      "page": 93
+    },
+    "lamp": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-046.png",
+      "book": 1,
+      "page": 93
+    },
+    "leaf": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-047.png",
+      "book": 1,
+      "page": 93
+    },
+    "lemon": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-048.png",
+      "book": 1,
+      "page": 93
+    }
+  },
+  "questions": [
+    {
+      "word": "jet",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the jet.",
+      "objects": [
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jacket",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the jacket.",
+      "objects": [
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kangaroo",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the kangaroo.",
+      "objects": [
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the key.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the kite.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lion",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lion.",
+      "objects": [
+        {
+          "word": "lion",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lamp.",
+      "objects": [
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the leaf.",
+      "objects": [
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jet",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue jet.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": "blue"
+        },
+        {
+          "word": "jet",
+          "color": "red"
+        },
+        {
+          "word": "jet",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "jacket",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red jacket.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": "red"
+        },
+        {
+          "word": "jacket",
+          "color": "blue"
+        },
+        {
+          "word": "jacket",
+          "color": "green"
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kangaroo",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green kangaroo.",
+      "objects": [
+        {
+          "word": "kangaroo",
+          "color": "red"
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": "green"
+        },
+        {
+          "word": "kangaroo",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue key.",
+      "objects": [
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": "blue"
+        },
+        {
+          "word": "key",
+          "color": "red"
+        },
+        {
+          "word": "key",
+          "color": "green"
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red kite.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": "blue"
+        },
+        {
+          "word": "kite",
+          "color": "green"
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "lion",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green lion.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "lion",
+          "color": "green"
+        },
+        {
+          "word": "lion",
+          "color": "blue"
+        },
+        {
+          "word": "lion",
+          "color": "red"
+        },
+        {
+          "word": "jet",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lamps.",
+      "objects": [
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 leaves.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lemon",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lemons.",
+      "objects": [
+        {
+          "word": "lemon",
+          "color": null
+        },
+        {
+          "word": "lemon",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jet",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 jets.",
+      "objects": [
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jacket",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 jackets.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kangaroo",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 kangaroos.",
+      "objects": [
+        {
+          "word": "jacket",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "kangaroo",
+          "color": null
+        },
+        {
+          "word": "jet",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

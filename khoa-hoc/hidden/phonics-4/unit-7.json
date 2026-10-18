@@ -1,0 +1,690 @@
+{
+  "course": "phonics-4",
+  "unit": 7,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 71
+  },
+  "pictures": {
+    "skunk": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-073.png",
+      "book": 4,
+      "page": 97
+    },
+    "desk": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-074.png",
+      "book": 4,
+      "page": 97
+    },
+    "scale": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-075.png",
+      "book": 4,
+      "page": 97
+    },
+    "squid": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-083.png",
+      "book": 4,
+      "page": 99
+    },
+    "square": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-084.png",
+      "book": 4,
+      "page": 99
+    },
+    "splint": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-082.png",
+      "book": 4,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "skunk",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the skunk.",
+      "objects": [
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the desk.",
+      "objects": [
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "scale",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the scale.",
+      "objects": [
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "squid",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the squid.",
+      "objects": [
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "square",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the square.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "splint",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the splint.",
+      "objects": [
+        {
+          "word": "splint",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skunk",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue skunk.",
+      "objects": [
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": "blue"
+        },
+        {
+          "word": "skunk",
+          "color": "red"
+        },
+        {
+          "word": "skunk",
+          "color": "green"
+        },
+        {
+          "word": "desk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red desk.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": "red"
+        },
+        {
+          "word": "desk",
+          "color": "blue"
+        },
+        {
+          "word": "desk",
+          "color": "green"
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "scale",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green scale.",
+      "objects": [
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": "green"
+        },
+        {
+          "word": "scale",
+          "color": "blue"
+        },
+        {
+          "word": "scale",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "squid",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue squid.",
+      "objects": [
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": "blue"
+        },
+        {
+          "word": "squid",
+          "color": "red"
+        },
+        {
+          "word": "squid",
+          "color": "green"
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "square",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red square.",
+      "objects": [
+        {
+          "word": "square",
+          "color": "green"
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": "red"
+        },
+        {
+          "word": "square",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "splint",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green splint.",
+      "objects": [
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "splint",
+          "color": "green"
+        },
+        {
+          "word": "splint",
+          "color": "blue"
+        },
+        {
+          "word": "splint",
+          "color": "red"
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skunk",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 skunks.",
+      "objects": [
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 desks.",
+      "objects": [
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "scale",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 scales.",
+      "objects": [
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "squid",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 squids.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "square",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 squares.",
+      "objects": [
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "splint",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 splints.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "splint",
+          "color": null
+        },
+        {
+          "word": "splint",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skunk",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 skunks.",
+      "objects": [
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 desks.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "skunk",
+          "color": null
+        },
+        {
+          "word": "scale",
+          "color": null
+        },
+        {
+          "word": "squid",
+          "color": null
+        },
+        {
+          "word": "square",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

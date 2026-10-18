@@ -20,7 +20,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "exampleVi": "Chúng tôi có năm cuốn sổ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Has · He / she / it",
@@ -34,7 +37,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Have là động từ bất quy tắc.",
+      "exampleVi": "Anh ấy có một chiếc ba lô.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phủ định · don't have",
@@ -48,7 +54,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Don't là dạng nói gọn của do not.",
+      "exampleVi": "Họ không có mười người cai trị.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Phủ định · doesn't have",
@@ -62,7 +71,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Doesn't là dạng nói gọn của does not.",
+      "exampleVi": "Cô ấy không có câu trả lời.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Chủ ngữ · Nhận diện số ít và số nhiều",
@@ -79,7 +91,10 @@
           "→",
           "have"
         ]
-      ]
+      ],
+      "usage": "Một tên người hoặc một danh từ số ít dùng has.",
+      "exampleVi": "Em gái tôi và tôi có bút chì.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Danh từ · a / an và số nhiều",
@@ -96,7 +111,10 @@
           "+",
           "two rulers"
         ]
-      ]
+      ],
+      "usage": "Với một danh từ đếm được số ít, con cần a hoặc an: a pen, an eraser.",
+      "exampleVi": "Cô ấy có một cục tẩy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phát âm · has / have / doesn't",
@@ -113,7 +131,10 @@
           "→",
           "/hæv/"
         ]
-      ]
+      ],
+      "usage": "Has kết thúc bằng âm /z/; have kết thúc bằng /v/.",
+      "exampleVi": "Anh ta không có người cai trị.",
+      "sentenceType": "Negative (Câu phủ định)"
     }
   ],
   "items": [
@@ -138,8 +159,11 @@
         "to have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We ___ five notebooks.",
@@ -167,8 +191,11 @@
         "has"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He ___ a backpack.",
@@ -196,8 +223,11 @@
         "has"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They don't ___ ten rulers.",
@@ -225,8 +255,11 @@
         "having"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She doesn't ___ the answer.",
@@ -254,8 +287,11 @@
         "have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We [has] five notebooks.",
@@ -285,8 +321,11 @@
         "have"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He [have] a backpack.",
@@ -316,8 +355,11 @@
         "having"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They don't [has] ten rulers.",
@@ -347,8 +389,11 @@
         "had"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She doesn't [has] the answer.",
@@ -378,8 +423,11 @@
         "has"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We ___ five notebooks.\nWord bank: having · to have · have · has",
@@ -410,8 +458,11 @@
         "having"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He ___ a backpack.\nWord bank: to have · has · have · having",
@@ -442,8 +493,11 @@
         "had"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They don't ___ ten rulers.\nWord bank: have · has · having · had",
@@ -474,8 +528,11 @@
         "have"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She doesn't ___ the answer.\nWord bank: has · having · had · have",
@@ -506,8 +563,11 @@
         "notebooks. → five → We have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -540,8 +600,11 @@
         "backpack. → a → He has"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -574,8 +637,11 @@
         "rulers. → have ten → They don't"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -608,8 +674,11 @@
         "answer. → have the → She doesn't"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -642,8 +711,11 @@
         "We to have five notebooks."
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Have · I / you / we / they",
@@ -673,8 +745,11 @@
         "He has a backpack."
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Has · He / she / it",
@@ -704,8 +779,11 @@
         "They don't has ten rulers."
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · don't have",
@@ -735,8 +813,11 @@
         "She doesn't having the answer."
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · doesn't have",

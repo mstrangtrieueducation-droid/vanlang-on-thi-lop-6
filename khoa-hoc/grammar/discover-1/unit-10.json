@@ -23,7 +23,10 @@
           "danh từ",
           "?"
         ]
-      ]
+      ],
+      "usage": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have.",
+      "exampleVi": "Bạn có đồ ăn không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Does ... have? · He / she / it",
@@ -40,7 +43,10 @@
           "danh từ",
           "?"
         ]
-      ]
+      ],
+      "usage": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
+      "exampleVi": "Anh ấy có xúc xích không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Trả lời ngắn · do / don't",
@@ -57,7 +63,10 @@
           "I / you / we / they",
           "don't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "exampleVi": "Không, chúng tôi không.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Trả lời ngắn · does / doesn't",
@@ -74,7 +83,10 @@
           "he / she / it",
           "doesn't."
         ]
-      ]
+      ],
+      "usage": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "exampleVi": "Vâng, anh ấy biết.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "What do ... have? · Câu hỏi mở",
@@ -89,7 +101,10 @@
           "have",
           "?"
         ]
-      ]
+      ],
+      "usage": "What đứng đầu vì câu hỏi cần thông tin cụ thể, không chỉ Yes hoặc No.",
+      "exampleVi": "Họ có gì? Họ có cà rốt.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "What does ... have? · Câu hỏi mở",
@@ -111,7 +126,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Sau What does, động từ vẫn là have.",
+      "exampleVi": "Cô ấy có gì? Cô ấy có hành tây.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Any · Câu hỏi và phủ định",
@@ -129,7 +147,10 @@
           "+",
           "any potatoes."
         ]
-      ]
+      ],
+      "usage": "Any thường đứng trước danh từ không đếm được hoặc danh từ số nhiều trong câu hỏi và câu phủ định: any food, any potatoes.",
+      "exampleVi": "Chúng tôi không có củ khoai tây nào.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Ngữ điệu · Yes/No và What",
@@ -144,7 +165,10 @@
           "What do you have?",
           "↘"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi Do/Does thường lên giọng nhẹ ở cuối vì chờ Yes hoặc No.",
+      "exampleVi": "Bạn có gì? Tôi có một quả xoài.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -169,8 +193,11 @@
         "Has"
       ],
       "hint": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
-      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
+      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ you have any food?",
@@ -198,8 +225,11 @@
         "Does"
       ],
       "hint": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
-      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
+      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ he have sausages?",
@@ -227,8 +257,11 @@
         "doesn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
+      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, we ___.",
@@ -256,8 +289,11 @@
         "is"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
+      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, he ___.",
@@ -285,8 +321,11 @@
         "Do"
       ],
       "hint": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
-      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
+      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Does] you have any food?",
@@ -316,8 +355,11 @@
         "Do"
       ],
       "hint": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
-      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
+      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Do] he have sausages?",
@@ -347,8 +389,11 @@
         "isn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
+      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, we [doesn't].",
@@ -378,8 +423,11 @@
         "has"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
+      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, he [do].",
@@ -409,8 +457,11 @@
         "Does"
       ],
       "hint": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
-      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
+      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ you have any food?\nWord bank: Is · Has · Do · Does",
@@ -441,8 +492,11 @@
         "Are"
       ],
       "hint": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
-      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
+      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ he have sausages?\nWord bank: Has · Does · Do · Are",
@@ -473,8 +527,11 @@
         "hasn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
+      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, we ___.\nWord bank: don't · doesn't · isn't · hasn't",
@@ -505,8 +562,11 @@
         "does"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
+      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, he ___.\nWord bank: do · is · has · does",
@@ -537,8 +597,11 @@
         "food? → have any → Do you"
       ],
       "hint": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
-      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
+      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -571,8 +634,11 @@
         "sausages? → have → Does he"
       ],
       "hint": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
-      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
+      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -605,8 +671,11 @@
         "don't. → we → No,"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
+      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -639,8 +708,11 @@
         "does. → he → Yes,"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
+      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -673,8 +745,11 @@
         "Has you have any food?"
       ],
       "hint": "Đưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
-      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have. Động từ have giữ nguyên mẫu. Mẫu câu này thường được dùng để kiểm tra người hoặc nhóm có một vật cụ thể hay không.",
+      "why": "Do you have any food?\nĐưa Do lên đầu câu, sau đó là chủ ngữ và have.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Do ... have? · I / you / we / they",
@@ -704,8 +779,11 @@
         "Does he have sausages?"
       ],
       "hint": "Với he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
-      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu. Sau Does phải là have, không dùng has, vì dấu hiệu ngôi thứ ba đã nằm trong does.",
+      "why": "Does he have sausages?\nVới he, she, it hoặc một danh từ số ít, con dùng Does ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Does ... have? · He / she / it",
@@ -735,8 +813,11 @@
         "No, we doesn't."
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
+      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Trả lời ngắn · do / don't",
@@ -766,8 +847,11 @@
         "Yes, he is."
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
+      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Trả lời ngắn · does / doesn't",

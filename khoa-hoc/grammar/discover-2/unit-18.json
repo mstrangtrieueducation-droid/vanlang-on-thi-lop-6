@@ -29,7 +29,10 @@
           "danh từ không đếm được",
           "?"
         ]
-      ]
+      ],
+      "usage": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "exampleVi": "Có bút chì màu không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "How many ...?",
@@ -44,7 +47,10 @@
           "are there",
           "?"
         ]
-      ]
+      ],
+      "usage": "Sau how many phải là danh từ số nhiều.",
+      "exampleVi": "Có bao nhiêu điểm đánh dấu?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "How much ...?",
@@ -59,7 +65,10 @@
           "is / was there",
           "?"
         ]
-      ]
+      ],
+      "usage": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "exampleVi": "Có bao nhiêu keo?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Quá khứ trong câu hỏi",
@@ -84,7 +93,10 @@
           "plural noun",
           "?"
         ]
-      ]
+      ],
+      "usage": "Hỏi số lượng đã có dùng How many ...",
+      "exampleVi": "Maki có bút chì không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -111,6 +123,9 @@
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there any colored pencils?",
@@ -138,8 +153,11 @@
         "many"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ markers are there?",
@@ -167,8 +185,11 @@
         "many"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ glue is there?",
@@ -196,8 +217,11 @@
         "having"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Maki ___ any pencils?",
@@ -227,6 +251,9 @@
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Is] there any colored pencils?",
@@ -256,8 +283,11 @@
         "much"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How [much] markers are there?",
@@ -287,8 +317,11 @@
         "a"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How [many] glue is there?",
@@ -318,8 +351,11 @@
         "had"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Maki [has] any pencils?",
@@ -351,6 +387,9 @@
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there any colored pencils?\nWord bank: Am · Be · Are · Is",
@@ -381,8 +420,11 @@
         "a"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ markers are there?\nWord bank: an · many · much · a",
@@ -413,8 +455,11 @@
         "an"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ glue is there?\nWord bank: much · many · a · an",
@@ -445,8 +490,11 @@
         "have"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Maki ___ any pencils?\nWord bank: has · having · had · have",
@@ -479,6 +527,9 @@
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -511,8 +562,11 @@
         "there? → markers are → How many"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -545,8 +599,11 @@
         "there? → glue is → How much"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -579,8 +636,11 @@
         "pencils? → have any → Did Maki"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -615,6 +675,9 @@
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: any · Câu hỏi",
@@ -644,8 +707,11 @@
         "How many markers are there?"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: How many ...?",
@@ -675,8 +741,11 @@
         "How many glue is there?"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: How much ...?",
@@ -706,8 +775,11 @@
         "Did Maki having any pencils?"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Quá khứ trong câu hỏi",

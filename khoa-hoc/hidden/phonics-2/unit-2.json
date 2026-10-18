@@ -1,0 +1,694 @@
+{
+  "course": "phonics-2",
+  "unit": 2,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 19
+  },
+  "pictures": {
+    "pad": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-014.png",
+      "book": 2,
+      "page": 89
+    },
+    "bag": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-015.png",
+      "book": 2,
+      "page": 89
+    },
+    "rag": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-016.png",
+      "book": 2,
+      "page": 89
+    },
+    "cap": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-017.png",
+      "book": 2,
+      "page": 91
+    },
+    "map": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-018.png",
+      "book": 2,
+      "page": 91
+    },
+    "tap": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-020.png",
+      "book": 2,
+      "page": 91
+    },
+    "bat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-021.png",
+      "book": 2,
+      "page": 91
+    },
+    "rat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-022.png",
+      "book": 2,
+      "page": 91
+    },
+    "hat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-023.png",
+      "book": 2,
+      "page": 91
+    },
+    "mat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-024.png",
+      "book": 2,
+      "page": 91
+    }
+  },
+  "questions": [
+    {
+      "word": "pad",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pad.",
+      "objects": [
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bag",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bag.",
+      "objects": [
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rag",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rag.",
+      "objects": [
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cap",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cap.",
+      "objects": [
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "map",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the map.",
+      "objects": [
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tap",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tap.",
+      "objects": [
+        {
+          "word": "tap",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bat",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bat.",
+      "objects": [
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "bat",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rat",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rat.",
+      "objects": [
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "rat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pad",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue pad.",
+      "objects": [
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": "blue"
+        },
+        {
+          "word": "pad",
+          "color": "red"
+        },
+        {
+          "word": "pad",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "bag",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bag.",
+      "objects": [
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": "red"
+        },
+        {
+          "word": "bag",
+          "color": "blue"
+        },
+        {
+          "word": "bag",
+          "color": "green"
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rag",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green rag.",
+      "objects": [
+        {
+          "word": "rag",
+          "color": "red"
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": "green"
+        },
+        {
+          "word": "rag",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "cap",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue cap.",
+      "objects": [
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": "blue"
+        },
+        {
+          "word": "cap",
+          "color": "red"
+        },
+        {
+          "word": "cap",
+          "color": "green"
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "map",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red map.",
+      "objects": [
+        {
+          "word": "map",
+          "color": "blue"
+        },
+        {
+          "word": "map",
+          "color": "green"
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "tap",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green tap.",
+      "objects": [
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "tap",
+          "color": "green"
+        },
+        {
+          "word": "tap",
+          "color": "blue"
+        },
+        {
+          "word": "tap",
+          "color": "red"
+        },
+        {
+          "word": "pad",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bats.",
+      "objects": [
+        {
+          "word": "bat",
+          "color": null
+        },
+        {
+          "word": "bat",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 rats.",
+      "objects": [
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "rat",
+          "color": null
+        },
+        {
+          "word": "rat",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 hats.",
+      "objects": [
+        {
+          "word": "hat",
+          "color": null
+        },
+        {
+          "word": "hat",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 mats.",
+      "objects": [
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "mat",
+          "color": null
+        },
+        {
+          "word": "mat",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pad",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pads.",
+      "objects": [
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bag",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bags.",
+      "objects": [
+        {
+          "word": "rag",
+          "color": null
+        },
+        {
+          "word": "cap",
+          "color": null
+        },
+        {
+          "word": "map",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "bag",
+          "color": null
+        },
+        {
+          "word": "pad",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

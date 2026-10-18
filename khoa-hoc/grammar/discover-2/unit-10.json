@@ -21,7 +21,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "exampleVi": "Tôi có thể sử dụng máy tính được không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "May I ...? · Lịch sự hơn",
@@ -36,7 +39,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "May I...?",
+      "exampleVi": "Tôi có thể chụp ảnh được không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Câu trả lời",
@@ -49,7 +55,10 @@
         [
           "No, you can't / may not."
         ]
-      ]
+      ],
+      "usage": "Có thể trả lời Yes, you can/may.",
+      "exampleVi": "Tôi có thể vào được không? Không, bạn có thể không.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Động từ nguyên mẫu",
@@ -61,7 +70,10 @@
           "+",
           "use / share / wash / invite"
         ]
-      ]
+      ],
+      "usage": "Modal verbs can và may đi với động từ nguyên mẫu.",
+      "exampleVi": "Chúng ta có thể chia sẻ máy tính bảng được không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -86,8 +98,11 @@
         "used"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
+      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can I ___ the computer?",
@@ -115,8 +130,11 @@
         "take"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
+      "why": "May I take a photo?\nMay I...?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I ___ a photo?",
@@ -144,8 +162,11 @@
         "comes"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
+      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I ___ in? No, you may not.",
@@ -173,8 +194,11 @@
         "sharing"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
+      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can we ___ the tablet?",
@@ -202,8 +226,11 @@
         "use"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
+      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can I [uses] the computer?",
@@ -233,8 +260,11 @@
         "takes"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
+      "why": "May I take a photo?\nMay I...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I [takes] a photo?",
@@ -264,8 +294,11 @@
         "coming"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
+      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I [comes] in? No, you may not.",
@@ -295,8 +328,11 @@
         "shared"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
+      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can we [shares] the tablet?",
@@ -326,8 +362,11 @@
         "uses"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
+      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can I ___ the computer?\nWord bank: using · used · use · uses",
@@ -358,8 +397,11 @@
         "taking"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
+      "why": "May I take a photo?\nMay I...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I ___ a photo?\nWord bank: took · take · takes · taking",
@@ -390,8 +432,11 @@
         "came"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
+      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "May I ___ in? No, you may not.\nWord bank: come · comes · coming · came",
@@ -422,8 +467,11 @@
         "share"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
+      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can we ___ the tablet?\nWord bank: shares · sharing · shared · share",
@@ -454,8 +502,11 @@
         "computer? → use the → Can I"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
+      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -488,8 +539,11 @@
         "photo? → take a → May I"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
+      "why": "May I take a photo?\nMay I...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -522,8 +576,11 @@
         "may not. → in? No, you → May I come"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
+      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -556,8 +613,11 @@
         "tablet? → share the → Can we"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
+      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -590,8 +650,11 @@
         "Can I used the computer?"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
+      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Can I ...? · Xin phép",
@@ -621,8 +684,11 @@
         "May I take a photo?"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
+      "why": "May I take a photo?\nMay I...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: May I ...? · Lịch sự hơn",
@@ -652,8 +718,11 @@
         "May I comes in? No, you may not."
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
+      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu trả lời",
@@ -683,8 +752,11 @@
         "Can we sharing the tablet?"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
+      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Động từ nguyên mẫu",

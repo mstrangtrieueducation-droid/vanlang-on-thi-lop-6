@@ -18,7 +18,10 @@
           "+",
           "động từ"
         ]
-      ]
+      ],
+      "usage": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
+      "exampleVi": "Cá có mang. Họ có mang.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Object pronouns · Đại từ tân ngữ",
@@ -30,7 +33,10 @@
           "+",
           "me / you / him / her / it / us / them"
         ]
-      ]
+      ],
+      "usage": "Me, you, him, her, it, us và them nhận tác động của hành động.",
+      "exampleVi": "Mang giúp chúng thở.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "it / them · Số ít và số nhiều",
@@ -47,7 +53,10 @@
           "→",
           "them"
         ]
-      ]
+      ],
+      "usage": "It thay cho một con vật hoặc một vật.",
+      "exampleVi": "Con chim có cánh. Nó sử dụng chúng để bay.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "him / her / us · Người nhận hành động",
@@ -69,7 +78,10 @@
           "→",
           "us"
         ]
-      ]
+      ],
+      "usage": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
+      "exampleVi": "Các loài động vật có thể nhìn thấy chúng ta.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -94,8 +106,11 @@
         "She"
       ],
       "hint": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
-      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
+      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Fish have gills. ___ have gills.",
@@ -123,8 +138,11 @@
         "them"
       ],
       "hint": "Me, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
-      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
+      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Gills help ___ breathe.",
@@ -152,8 +170,11 @@
         "they"
       ],
       "hint": "It thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
-      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
+      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The bird has wings. It uses ___ to fly.",
@@ -181,8 +202,11 @@
         "our"
       ],
       "hint": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
-      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
+      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The animals can see ___.",
@@ -210,8 +234,11 @@
         "They"
       ],
       "hint": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
-      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
+      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Fish have gills. [It] have gills.",
@@ -241,8 +268,11 @@
         "they"
       ],
       "hint": "Me, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
-      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
+      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Gills help [they] breathe.",
@@ -272,8 +302,11 @@
         "their"
       ],
       "hint": "It thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
-      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
+      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The bird has wings. It uses [they] to fly.",
@@ -303,8 +336,11 @@
         "ours"
       ],
       "hint": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
-      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
+      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The animals can see [we].",
@@ -334,8 +370,11 @@
         "It"
       ],
       "hint": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
-      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
+      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Fish have gills. ___ have gills.\nWord bank: He · She · They · It",
@@ -366,8 +405,11 @@
         "their"
       ],
       "hint": "Me, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
-      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
+      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Gills help ___ breathe.\nWord bank: theirs · them · they · their",
@@ -398,8 +440,11 @@
         "theirs"
       ],
       "hint": "It thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
-      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
+      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The bird has wings. It uses ___ to fly.\nWord bank: them · they · their · theirs",
@@ -430,8 +475,11 @@
         "us"
       ],
       "hint": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
-      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
+      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The animals can see ___.\nWord bank: we · our · ours · us",
@@ -462,8 +510,11 @@
         "have gills. → gills. They → Fish have"
       ],
       "hint": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
-      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
+      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -496,8 +547,11 @@
         "breathe. → them → Gills help"
       ],
       "hint": "Me, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
-      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
+      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "them to fly. → wings. It uses → The bird has"
       ],
       "hint": "It thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
-      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
+      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "us. → can see → The animals"
       ],
       "hint": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
-      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
+      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +658,11 @@
         "Fish have gills. She have gills."
       ],
       "hint": "I, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
-      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động. Dùng it cho một con vật hoặc vật; dùng they cho từ hai đối tượng trở lên.",
+      "why": "Fish have gills. They have gills.\nI, you, he, she, it, we và they thay cho người, con vật hoặc sự vật làm hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Subject pronouns · Đại từ chủ ngữ",
@@ -629,8 +692,11 @@
         "Gills help them breathe."
       ],
       "hint": "Me, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
-      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động. Không dùng đại từ chủ ngữ ở vị trí này: nói help them, không nói help they.",
+      "why": "Gills help them breathe.\nMe, you, him, her, it, us và them nhận tác động của hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Object pronouns · Đại từ tân ngữ",
@@ -660,8 +726,11 @@
         "The bird has wings. It uses they to fly."
       ],
       "hint": "It thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
-      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật. Them thay cho nhiều người, con vật hoặc sự vật. Danh từ đã được thay bằng đại từ thì không lặp lại lần nữa.",
+      "why": "The bird has wings. It uses them to fly.\nIt thay cho một con vật hoặc một vật.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: it / them · Số ít và số nhiều",
@@ -691,8 +760,11 @@
         "The animals can see our."
       ],
       "hint": "Him thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
-      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác. Đại từ tân ngữ không thay đổi theo thì của động từ.",
+      "why": "The animals can see us.\nHim thay cho một bạn nam, her thay cho một bạn nữ, us thay cho người nói cùng một hoặc nhiều người khác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: him / her / us · Người nhận hành động",

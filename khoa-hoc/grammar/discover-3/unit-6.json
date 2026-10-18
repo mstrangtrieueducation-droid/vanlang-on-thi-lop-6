@@ -20,7 +20,10 @@
           "+",
           "past simple"
         ]
-      ]
+      ],
+      "usage": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "exampleVi": "Tôi đang viết một câu thì chuông reo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "when",
@@ -34,7 +37,10 @@
           "+",
           "short action"
         ]
-      ]
+      ],
+      "usage": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "exampleVi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "while",
@@ -46,7 +52,10 @@
           ",",
           "was/were + V-ing"
         ]
-      ]
+      ],
+      "usage": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "exampleVi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Choosing the tense",
@@ -63,7 +72,10 @@
           "→",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Không chọn thì chỉ vì thấy when hoặc while.",
+      "exampleVi": "Anh ấy đang đếm âm tiết thì mắc lỗi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -90,6 +102,9 @@
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I was ___ a sentence when the bell rang.",
@@ -119,6 +134,9 @@
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She was ___ a robin when it flew away.",
@@ -146,8 +164,11 @@
         "readed"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
+      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "While we were ___, snowflakes were falling.",
@@ -175,8 +196,11 @@
         "counts"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
+      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He was ___ syllables when he made a mistake.",
@@ -206,6 +230,9 @@
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I was [write] a sentence when the bell rang.",
@@ -237,6 +264,9 @@
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She was [describe] a robin when it flew away.",
@@ -266,8 +296,11 @@
         "reads"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
+      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "While we were [readed], snowflakes were falling.",
@@ -297,8 +330,11 @@
         "counted"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
+      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He was [count] syllables when he made a mistake.",
@@ -330,6 +366,9 @@
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I was ___ a sentence when the bell rang.\nWord bank: writes · wrote · writing · write",
@@ -362,6 +401,9 @@
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She was ___ a robin when it flew away.\nWord bank: described · describing · describe · describes",
@@ -392,8 +434,11 @@
         "to read"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
+      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "While we were ___, snowflakes were falling.\nWord bank: reading · readed · reads · to read",
@@ -424,8 +469,11 @@
         "counting"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
+      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He was ___ syllables when he made a mistake.\nWord bank: count · counts · counted · counting",
@@ -458,6 +506,9 @@
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -492,6 +543,9 @@
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -524,8 +578,11 @@
         "were falling. → reading, snowflakes → While we were"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
+      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -558,8 +615,11 @@
         "made a mistake. → syllables when he → He was counting"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
+      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -594,6 +654,9 @@
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Background action",
@@ -625,6 +688,9 @@
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: when",
@@ -654,8 +720,11 @@
         "While we were readed, snowflakes were falling."
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
+      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: while",
@@ -685,8 +754,11 @@
         "He was counts syllables when he made a mistake."
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
+      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Choosing the tense",

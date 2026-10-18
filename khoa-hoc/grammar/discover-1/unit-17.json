@@ -20,7 +20,10 @@
           "+",
           "động từ nguyên thể"
         ]
-      ]
+      ],
+      "usage": "Can đứng sau chủ ngữ và trước động từ chính.",
+      "exampleVi": "Một cây có thể phát triển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Động từ · Dạng nguyên thể",
@@ -41,7 +44,10 @@
           "+",
           "breathe"
         ]
-      ]
+      ],
+      "usage": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
+      "exampleVi": "Nó có thể di chuyển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phủ định · Can't",
@@ -55,7 +61,10 @@
           "+",
           "động từ nguyên thể"
         ]
-      ]
+      ],
+      "usage": "Can't là dạng nói gọn của cannot.",
+      "exampleVi": "Một bức tượng không thể thở được.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Câu hỏi · Can",
@@ -70,7 +79,10 @@
           "động từ nguyên thể",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu kể A rose can grow đổi thành Can a rose grow?",
+      "exampleVi": "Một bông hồng có thể phát triển?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Trả lời ngắn · Yes",
@@ -87,7 +99,10 @@
           "→",
           "Yes, they can."
         ]
-      ]
+      ],
+      "usage": "Sau Yes, dùng đại từ thay cho người hoặc vật được hỏi rồi dùng can.",
+      "exampleVi": "Vâng, nó có thể.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Trả lời ngắn · No",
@@ -104,7 +119,10 @@
           "→",
           "No, they can't."
         ]
-      ]
+      ],
+      "usage": "Sau No, dùng đại từ phù hợp rồi dùng can't.",
+      "exampleVi": "Không, không thể được.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Đại từ · It và They",
@@ -121,7 +139,10 @@
           "→",
           "they"
         ]
-      ]
+      ],
+      "usage": "Một vật hoặc một con vật thường được thay bằng it; nhiều người hoặc nhiều vật được thay bằng they.",
+      "exampleVi": "Cây cối có thể phát triển được không? Vâng, họ có thể.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Phát âm · Can và Can't",
@@ -137,7 +158,10 @@
           "Can it move?",
           "↗"
         ]
-      ]
+      ],
+      "usage": "Trong câu khẳng định, can thường được đọc nhẹ.",
+      "exampleVi": "Nó không thể di chuyển.",
+      "sentenceType": "Negative (Câu phủ định)"
     }
   ],
   "items": [
@@ -162,8 +186,11 @@
         "grew"
       ],
       "hint": "Can đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
-      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
+      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A plant can ___.",
@@ -193,6 +220,9 @@
       "hint": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "why": "It can move.\nDù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It can ___.",
@@ -220,8 +250,11 @@
         "breathes"
       ],
       "hint": "Can't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
-      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
+      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A statue can't ___.",
@@ -249,8 +282,11 @@
         "growing"
       ],
       "hint": "Câu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
-      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
+      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can a rose ___?",
@@ -278,8 +314,11 @@
         "grow"
       ],
       "hint": "Can đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
-      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
+      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A plant can [grows].",
@@ -311,6 +350,9 @@
       "hint": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "why": "It can move.\nDù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It can [moves].",
@@ -340,8 +382,11 @@
         "breathing"
       ],
       "hint": "Can't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
-      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
+      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A statue can't [breathes].",
@@ -371,8 +416,11 @@
         "grew"
       ],
       "hint": "Câu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
-      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
+      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can a rose [grows]?",
@@ -402,8 +450,11 @@
         "grows"
       ],
       "hint": "Can đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
-      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
+      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A plant can ___.\nWord bank: growing · grew · grow · grows",
@@ -436,6 +487,9 @@
       "hint": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "why": "It can move.\nDù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It can ___.\nWord bank: moved · move · moves · moving",
@@ -466,8 +520,11 @@
         "breathed"
       ],
       "hint": "Can't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
-      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
+      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A statue can't ___.\nWord bank: breathe · breathes · breathing · breathed",
@@ -498,8 +555,11 @@
         "grow"
       ],
       "hint": "Câu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
-      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
+      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can a rose ___?\nWord bank: grows · growing · grew · grow",
@@ -530,8 +590,11 @@
         "grow. → can → A plant"
       ],
       "hint": "Can đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
-      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
+      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -566,6 +629,9 @@
       "hint": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "why": "It can move.\nDù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +664,11 @@
         "breathe. → can't → A statue"
       ],
       "hint": "Can't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
-      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
+      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -632,8 +701,11 @@
         "grow? → rose → Can a"
       ],
       "hint": "Câu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
-      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
+      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -666,8 +738,11 @@
         "A plant can grew."
       ],
       "hint": "Can đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
-      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính. Cấu trúc này dùng được với mọi chủ ngữ mà không thay đổi can.",
+      "why": "A plant can grow.\nCan đứng sau chủ ngữ và trước động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Khẳng định · Can",
@@ -699,6 +774,9 @@
       "hint": "Dù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "why": "It can move.\nDù chủ ngữ là he, she, it hay một danh từ số ít, động từ sau can vẫn giữ nguyên: It can move, không nói It can moves hoặc It can to move.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Động từ · Dạng nguyên thể",
@@ -728,8 +806,11 @@
         "A statue can't breathes."
       ],
       "hint": "Can't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
-      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot. Sau can't, động từ vẫn ở dạng nguyên thể. Không dùng don't hoặc doesn't cùng với can.",
+      "why": "A statue can't breathe.\nCan't là dạng nói gọn của cannot.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · Can't",
@@ -759,8 +840,11 @@
         "Can a rose growing?"
       ],
       "hint": "Câu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
-      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow? Chỉ chuyển can lên đầu; động từ grow vẫn giữ nguyên.",
+      "why": "Can a rose grow?\nCâu kể A rose can grow đổi thành Can a rose grow?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi · Can",

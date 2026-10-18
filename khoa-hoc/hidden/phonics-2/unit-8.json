@@ -1,0 +1,697 @@
+{
+  "course": "phonics-2",
+  "unit": 8,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 79
+  },
+  "pictures": {
+    "nut": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-084.png",
+      "book": 2,
+      "page": 99
+    },
+    "hut": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-085.png",
+      "book": 2,
+      "page": 99
+    },
+    "cub": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-087.png",
+      "book": 2,
+      "page": 99
+    },
+    "tub": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-088.png",
+      "book": 2,
+      "page": 99
+    },
+    "bun": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-091.png",
+      "book": 2,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "nut",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the nut.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hut",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the hut.",
+      "objects": [
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cub",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cub.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tub",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tub.",
+      "objects": [
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bun",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bun.",
+      "objects": [
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue nut.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": "red"
+        },
+        {
+          "word": "nut",
+          "color": "green"
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "hut",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red hut.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": "red"
+        },
+        {
+          "word": "hut",
+          "color": "blue"
+        },
+        {
+          "word": "hut",
+          "color": "green"
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cub",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green cub.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": "green"
+        },
+        {
+          "word": "cub",
+          "color": "blue"
+        },
+        {
+          "word": "cub",
+          "color": "red"
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tub",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue tub.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": "blue"
+        },
+        {
+          "word": "tub",
+          "color": "red"
+        },
+        {
+          "word": "tub",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "bun",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bun.",
+      "objects": [
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": "red"
+        },
+        {
+          "word": "bun",
+          "color": "blue"
+        },
+        {
+          "word": "bun",
+          "color": "green"
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red nut.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": "green"
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": "red"
+        },
+        {
+          "word": "nut",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "hut",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 huts.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cub",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 cubs.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tub",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tubs.",
+      "objects": [
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bun",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 buns.",
+      "objects": [
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 nuts.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hut",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 huts.",
+      "objects": [
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cub",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 cubs.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tub",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 tubs.",
+      "objects": [
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bun",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 buns.",
+      "objects": [
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "hut",
+          "color": null
+        },
+        {
+          "word": "cub",
+          "color": null
+        },
+        {
+          "word": "tub",
+          "color": null
+        },
+        {
+          "word": "bun",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

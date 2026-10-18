@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "exampleVi": "Một nhà xuất bản phải kiểm tra từng bài báo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Prohibition",
@@ -34,7 +37,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "exampleVi": "Phóng viên không được đăng quảng cáo sai sự thật.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "No necessity",
@@ -48,7 +54,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Người nghe vẫn có thể làm nếu muốn.",
+      "exampleVi": "Bạn không cần phải mua tạp chí để đọc tin tức.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Forms across tenses",
@@ -70,7 +79,10 @@
           "->",
           "will have to"
         ]
-      ]
+      ],
+      "usage": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
+      "exampleVi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -95,8 +107,11 @@
         "checked"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
+      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A publisher must ___ every newspaper article.",
@@ -124,8 +139,11 @@
         "publish"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
+      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Reporters mustn't ___ false advertising.",
@@ -153,8 +171,11 @@
         "buys"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
+      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "You don't have to ___ a magazine to read the news.",
@@ -182,8 +203,11 @@
         "updates"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
+      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The publisher had ___ the blog yesterday.",
@@ -211,8 +235,11 @@
         "check"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
+      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A publisher must [checks] every newspaper article.",
@@ -242,8 +269,11 @@
         "publishes"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
+      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Reporters mustn't [publishes] false advertising.",
@@ -273,8 +303,11 @@
         "buying"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
+      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "You don't have to [buys] a magazine to read the news.",
@@ -304,8 +337,11 @@
         "updated"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
+      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The publisher had [updating] the blog yesterday.",
@@ -335,8 +371,11 @@
         "checks"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
+      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A publisher must ___ every newspaper article.\nWord bank: checking · checked · check · checks",
@@ -367,8 +406,11 @@
         "publishing"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
+      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Reporters mustn't ___ false advertising.\nWord bank: published · publish · publishes · publishing",
@@ -399,8 +441,11 @@
         "bought"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
+      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "You don't have to ___ a magazine to read the news.\nWord bank: buy · buys · buying · bought",
@@ -431,8 +476,11 @@
         "to update"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
+      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The publisher had ___ the blog yesterday.\nWord bank: updating · updates · updated · to update",
@@ -463,8 +511,11 @@
         "newspaper article. → check every → A publisher must"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
+      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -497,8 +548,11 @@
         "advertising. → publish false → Reporters mustn't"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
+      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -531,8 +585,11 @@
         "read the news. → buy a magazine to → You don't have to"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
+      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -565,8 +622,11 @@
         "blog yesterday. → to update the → The publisher had"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
+      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -599,8 +659,11 @@
         "A publisher must checked every newspaper article."
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
+      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Necessity",
@@ -630,8 +693,11 @@
         "Reporters mustn't publish false advertising."
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
+      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Prohibition",
@@ -661,8 +727,11 @@
         "You don't have to buys a magazine to read the news."
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
+      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: No necessity",
@@ -692,8 +761,11 @@
         "The publisher had updates the blog yesterday."
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
+      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Forms across tenses",

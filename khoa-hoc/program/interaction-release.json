@@ -1,0 +1,28 @@
+{
+  "version": "interaction-1",
+  "completed": [
+    "Manual question speakers, no automatic question narration",
+    "Rocket tracker on Phonics/FF/Discover shared engine, all Fighter modes; original Discover tests already tracked",
+    "Pointer drag/reconnect for picture matching and FF original-test text matching",
+    "102 grammar summaries with formula/usage, Vietnamese example meanings; ordered difficulty; immediate choice feedback and per-answer typing check",
+    "32 supplemental Phonics hidden-object Units × 20 trials, 591 local Ana US voice recordings"
+  ],
+  "validation": {
+    "tests": 191,
+    "browser": [
+      "Phonics hidden collection and no autoplay",
+      "Immediate grammar feedback",
+      "Pointer reconnect keeps exactly one wire",
+      "FF original-test text matching",
+      "Fighter rocket at 1366x768, 390x844 and 844x390"
+    ]
+  },
+  "pending": [
+    "Original Lesson 6/Discover listening dictation: source audio and transcripts not retrieved yet from Class Resources",
+    "Duplicate report generated; equivalent replacement questions and cloud answer-key validation not yet completed"
+  ],
+  "translations": {
+    "method": "Offline translation of public curriculum examples; Family and Friends examples manually revised",
+    "runtimeExternalService": false
+  }
+}

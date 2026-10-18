@@ -1,0 +1,558 @@
+{
+  "course": "phonics-3",
+  "unit": 4,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 39
+  },
+  "pictures": {
+    "nail": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-038.png",
+      "book": 3,
+      "page": 93
+    },
+    "tail": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-039.png",
+      "book": 3,
+      "page": 93
+    }
+  },
+  "questions": [
+    {
+      "word": "nail",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the nail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue nail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": "green"
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": "blue"
+        },
+        {
+          "word": "nail",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red tail.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": "blue"
+        },
+        {
+          "word": "tail",
+          "color": "green"
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red nail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": "red"
+        },
+        {
+          "word": "nail",
+          "color": "blue"
+        },
+        {
+          "word": "nail",
+          "color": "green"
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green tail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": "green"
+        },
+        {
+          "word": "tail",
+          "color": "blue"
+        },
+        {
+          "word": "tail",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green nail.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": "red"
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": "green"
+        },
+        {
+          "word": "nail",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue tail.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": "red"
+        },
+        {
+          "word": "tail",
+          "color": "green"
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 nails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 nails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 tails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 nails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 tails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 nails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 tails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 6,
+      "prompt": "Find 6 nails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 6,
+      "prompt": "Find 6 tails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nail",
+      "color": null,
+      "count": 7,
+      "prompt": "Find 7 nails.",
+      "objects": [
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "color": null,
+      "count": 7,
+      "prompt": "Find 7 tails.",
+      "objects": [
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        },
+        {
+          "word": "nail",
+          "color": null
+        },
+        {
+          "word": "tail",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

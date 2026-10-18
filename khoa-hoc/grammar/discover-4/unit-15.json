@@ -23,7 +23,10 @@
           "past participle",
           "?"
         ]
-      ]
+      ],
+      "usage": "Ever thường đứng giữa chủ ngữ và past participle.",
+      "exampleVi": "Bạn đã bao giờ trải qua một trận động đất?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Never",
@@ -37,7 +40,10 @@
           "+",
           "past participle"
         ]
-      ]
+      ],
+      "usage": "Đặt never sau have/has.",
+      "exampleVi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Short answers",
@@ -50,7 +56,10 @@
         [
           "No, subject haven't / hasn't."
         ]
-      ]
+      ],
+      "usage": "Yes, I have và No, I haven't là câu trả lời ngắn.",
+      "exampleVi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Experience and detail",
@@ -67,7 +76,10 @@
           "->",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
+      "exampleVi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -92,8 +104,11 @@
         "experiencing"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
+      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever ___ an earthquake?",
@@ -121,8 +136,11 @@
         "seen"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
+      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rescue worker has never ___ a tsunami.",
@@ -150,8 +168,11 @@
         "saw"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
+      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever ___ a tornado? Yes, I have.",
@@ -181,6 +202,9 @@
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a blizzard. I ___ it last winter.",
@@ -208,8 +232,11 @@
         "experienced"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
+      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever [experience] an earthquake?",
@@ -239,8 +266,11 @@
         "saw"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
+      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rescue worker has never [saw] a tsunami.",
@@ -270,8 +300,11 @@
         "see"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
+      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever [saw] a tornado? Yes, I have.",
@@ -303,6 +336,9 @@
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a blizzard. I [seen] it last winter.",
@@ -332,8 +368,11 @@
         "experience"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
+      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever ___ an earthquake?\nWord bank: experiences · experiencing · experienced · experience",
@@ -364,8 +403,11 @@
         "see"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
+      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rescue worker has never ___ a tsunami.\nWord bank: sees · seen · saw · see",
@@ -396,8 +438,11 @@
         "sees"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
+      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Have you ever ___ a tornado? Yes, I have.\nWord bank: seen · saw · see · sees",
@@ -430,6 +475,9 @@
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a blizzard. I ___ it last winter.\nWord bank: seen · seeing · sees · saw",
@@ -460,8 +508,11 @@
         "an earthquake? → ever experienced → Have you"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
+      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -494,8 +545,11 @@
         "a tsunami. → has never seen → The rescue worker"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
+      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -528,8 +582,11 @@
         "Yes, I have. → seen a tornado? → Have you ever"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
+      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,6 +621,9 @@
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -596,8 +656,11 @@
         "Have you ever experiencing an earthquake?"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
+      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Ever",
@@ -627,8 +690,11 @@
         "The rescue worker has never seen a tsunami."
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
+      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Never",
@@ -658,8 +724,11 @@
         "Have you ever saw a tornado? Yes, I have."
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
+      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Short answers",
@@ -691,6 +760,9 @@
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Experience and detail",

@@ -1,0 +1,684 @@
+{
+  "course": "phonics-1",
+  "unit": 7,
+  "source": {
+    "url": "https://drive.google.com/file/d/1A-yrsq42iDf445MsFD1fFK6E13TwFioU/view",
+    "page": 73
+  },
+  "pictures": {
+    "seal": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-073.png",
+      "book": 1,
+      "page": 97
+    },
+    "turtle": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-077.png",
+      "book": 1,
+      "page": 97
+    },
+    "tent": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-078.png",
+      "book": 1,
+      "page": 97
+    },
+    "tiger": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-079.png",
+      "book": 1,
+      "page": 97
+    },
+    "umbrella": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-081.png",
+      "book": 1,
+      "page": 99
+    },
+    "van": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-085.png",
+      "book": 1,
+      "page": 99
+    },
+    "vest": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-087.png",
+      "book": 1,
+      "page": 99
+    },
+    "violin": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-088.png",
+      "book": 1,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "seal",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the seal.",
+      "objects": [
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "turtle",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the turtle.",
+      "objects": [
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tent.",
+      "objects": [
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tiger",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tiger.",
+      "objects": [
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "umbrella",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the umbrella.",
+      "objects": [
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "van",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the van.",
+      "objects": [
+        {
+          "word": "van",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "vest",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the vest.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "vest",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "violin",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the violin.",
+      "objects": [
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "violin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "seal",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue seal.",
+      "objects": [
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": "blue"
+        },
+        {
+          "word": "seal",
+          "color": "red"
+        },
+        {
+          "word": "seal",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "turtle",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red turtle.",
+      "objects": [
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": "red"
+        },
+        {
+          "word": "turtle",
+          "color": "blue"
+        },
+        {
+          "word": "turtle",
+          "color": "green"
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green tent.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": "red"
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": "green"
+        },
+        {
+          "word": "tent",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "tiger",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue tiger.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": "blue"
+        },
+        {
+          "word": "tiger",
+          "color": "red"
+        },
+        {
+          "word": "tiger",
+          "color": "green"
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "umbrella",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red umbrella.",
+      "objects": [
+        {
+          "word": "umbrella",
+          "color": "blue"
+        },
+        {
+          "word": "umbrella",
+          "color": "green"
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "van",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green van.",
+      "objects": [
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "van",
+          "color": "green"
+        },
+        {
+          "word": "van",
+          "color": "blue"
+        },
+        {
+          "word": "van",
+          "color": "red"
+        },
+        {
+          "word": "seal",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "vest",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 vests.",
+      "objects": [
+        {
+          "word": "vest",
+          "color": null
+        },
+        {
+          "word": "vest",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "violin",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 violins.",
+      "objects": [
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "violin",
+          "color": null
+        },
+        {
+          "word": "violin",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "seal",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 seals.",
+      "objects": [
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "turtle",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 turtles.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tents.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        },
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tiger",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tigers.",
+      "objects": [
+        {
+          "word": "turtle",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "umbrella",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "tiger",
+          "color": null
+        },
+        {
+          "word": "seal",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

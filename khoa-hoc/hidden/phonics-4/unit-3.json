@@ -1,0 +1,632 @@
+{
+  "course": "phonics-4",
+  "unit": 3,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 31
+  },
+  "pictures": {
+    "snake": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-027.png",
+      "book": 4,
+      "page": 91
+    },
+    "spoon": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-029.png",
+      "book": 4,
+      "page": 91
+    },
+    "swing": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-031.png",
+      "book": 4,
+      "page": 91
+    },
+    "stamp": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-035.png",
+      "book": 4,
+      "page": 93
+    }
+  },
+  "questions": [
+    {
+      "word": "snake",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the snake.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the spoon.",
+      "objects": [
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "swing",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the swing.",
+      "objects": [
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "stamp",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the stamp.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "snake",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue snake.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": "blue"
+        },
+        {
+          "word": "snake",
+          "color": "red"
+        },
+        {
+          "word": "snake",
+          "color": "green"
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red spoon.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": "red"
+        },
+        {
+          "word": "spoon",
+          "color": "blue"
+        },
+        {
+          "word": "spoon",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "swing",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green swing.",
+      "objects": [
+        {
+          "word": "swing",
+          "color": "green"
+        },
+        {
+          "word": "swing",
+          "color": "blue"
+        },
+        {
+          "word": "swing",
+          "color": "red"
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "stamp",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue stamp.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": "blue"
+        },
+        {
+          "word": "stamp",
+          "color": "red"
+        },
+        {
+          "word": "stamp",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "snake",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red snake.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": "red"
+        },
+        {
+          "word": "snake",
+          "color": "blue"
+        },
+        {
+          "word": "snake",
+          "color": "green"
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green spoon.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": "green"
+        },
+        {
+          "word": "spoon",
+          "color": "blue"
+        },
+        {
+          "word": "spoon",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "swing",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 swings.",
+      "objects": [
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "stamp",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 stamps.",
+      "objects": [
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "snake",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 snakes.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 spoons.",
+      "objects": [
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "swing",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 swings.",
+      "objects": [
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "stamp",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 stamps.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "snake",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 snakes.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 spoons.",
+      "objects": [
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "swing",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 swings.",
+      "objects": [
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "stamp",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 stamps.",
+      "objects": [
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        },
+        {
+          "word": "snake",
+          "color": null
+        },
+        {
+          "word": "spoon",
+          "color": null
+        },
+        {
+          "word": "swing",
+          "color": null
+        },
+        {
+          "word": "stamp",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

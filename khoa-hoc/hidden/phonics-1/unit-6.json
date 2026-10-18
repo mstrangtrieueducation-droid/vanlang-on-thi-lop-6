@@ -1,0 +1,684 @@
+{
+  "course": "phonics-1",
+  "unit": 6,
+  "source": {
+    "url": "https://drive.google.com/file/d/1A-yrsq42iDf445MsFD1fFK6E13TwFioU/view",
+    "page": 59
+  },
+  "pictures": {
+    "peach": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-061.png",
+      "book": 1,
+      "page": 95
+    },
+    "pen": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-062.png",
+      "book": 1,
+      "page": 95
+    },
+    "panda": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-063.png",
+      "book": 1,
+      "page": 95
+    },
+    "pineapple": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-064.png",
+      "book": 1,
+      "page": 95
+    },
+    "quilt": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-067.png",
+      "book": 1,
+      "page": 97
+    },
+    "rabbit": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-069.png",
+      "book": 1,
+      "page": 97
+    },
+    "rose": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-070.png",
+      "book": 1,
+      "page": 97
+    },
+    "robot": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-072.png",
+      "book": 1,
+      "page": 97
+    }
+  },
+  "questions": [
+    {
+      "word": "peach",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the peach.",
+      "objects": [
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pen",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pen.",
+      "objects": [
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "panda",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the panda.",
+      "objects": [
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pineapple",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pineapple.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the quilt.",
+      "objects": [
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rabbit",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rabbit.",
+      "objects": [
+        {
+          "word": "rabbit",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rose.",
+      "objects": [
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "robot",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the robot.",
+      "objects": [
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "robot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "peach",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue peach.",
+      "objects": [
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": "blue"
+        },
+        {
+          "word": "peach",
+          "color": "red"
+        },
+        {
+          "word": "peach",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "pen",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red pen.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": "red"
+        },
+        {
+          "word": "pen",
+          "color": "blue"
+        },
+        {
+          "word": "pen",
+          "color": "green"
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "panda",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green panda.",
+      "objects": [
+        {
+          "word": "panda",
+          "color": "red"
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": "green"
+        },
+        {
+          "word": "panda",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "pineapple",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue pineapple.",
+      "objects": [
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": "blue"
+        },
+        {
+          "word": "pineapple",
+          "color": "red"
+        },
+        {
+          "word": "pineapple",
+          "color": "green"
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red quilt.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": "blue"
+        },
+        {
+          "word": "quilt",
+          "color": "green"
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "rabbit",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green rabbit.",
+      "objects": [
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "rabbit",
+          "color": "green"
+        },
+        {
+          "word": "rabbit",
+          "color": "blue"
+        },
+        {
+          "word": "rabbit",
+          "color": "red"
+        },
+        {
+          "word": "peach",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 roses.",
+      "objects": [
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "robot",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 robots.",
+      "objects": [
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "robot",
+          "color": null
+        },
+        {
+          "word": "robot",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "peach",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 peaches.",
+      "objects": [
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pen",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pens.",
+      "objects": [
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "panda",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pandas.",
+      "objects": [
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        },
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pineapple",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pineapples.",
+      "objects": [
+        {
+          "word": "pen",
+          "color": null
+        },
+        {
+          "word": "panda",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "pineapple",
+          "color": null
+        },
+        {
+          "word": "peach",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

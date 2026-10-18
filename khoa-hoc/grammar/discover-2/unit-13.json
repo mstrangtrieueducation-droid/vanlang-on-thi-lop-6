@@ -18,7 +18,10 @@
           "+",
           "giờ cụ thể / night"
         ]
-      ]
+      ],
+      "usage": "Dùng at với 9:00, 9:15 và các giờ chính xác.",
+      "exampleVi": "Buổi hòa nhạc bắt đầu lúc chín giờ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "on · Ngày và ngày tháng",
@@ -30,7 +33,10 @@
           "+",
           "day / date"
         ]
-      ]
+      ],
+      "usage": "Dùng on Monday, on my birthday và on June 5th.",
+      "exampleVi": "Olga tập luyện vào thứ Hai.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "in · Phần trong ngày và khoảng thời gian dài",
@@ -42,7 +48,10 @@
           "+",
           "the morning / month / season / year"
         ]
-      ]
+      ],
+      "usage": "Ngoại lệ quan trọng là at night.",
+      "exampleVi": "Pedro nghe nhạc vào buổi tối.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "When ...?",
@@ -59,7 +68,10 @@
           "động từ",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
+      "exampleVi": "Amanda nghe nhạc khi nào?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -84,8 +96,11 @@
         "by in"
       ],
       "hint": "Dùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
-      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
+      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The concert starts ___ nine o'clock.",
@@ -113,8 +128,11 @@
         "on"
       ],
       "hint": "Dùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
-      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
+      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olga practices ___ Monday.",
@@ -142,8 +160,11 @@
         "on"
       ],
       "hint": "Ngoại lệ quan trọng là at night. Không dùng in night.",
-      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night. Không dùng in night.",
+      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Pedro listens to music ___ the evening.",
@@ -173,6 +194,9 @@
       "hint": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "why": "When does Amanda listen to music?\nCâu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When does Amanda ___ to music?",
@@ -200,8 +224,11 @@
         "at"
       ],
       "hint": "Dùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
-      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
+      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The concert starts [on] nine o'clock.",
@@ -231,8 +258,11 @@
         "in"
       ],
       "hint": "Dùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
-      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
+      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olga practices [in] Monday.",
@@ -262,8 +292,11 @@
         "at"
       ],
       "hint": "Ngoại lệ quan trọng là at night. Không dùng in night.",
-      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night. Không dùng in night.",
+      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Pedro listens to music [on] the evening.",
@@ -295,6 +328,9 @@
       "hint": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "why": "When does Amanda listen to music?\nCâu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When does Amanda [listens] to music?",
@@ -324,8 +360,11 @@
         "on"
       ],
       "hint": "Dùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
-      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
+      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The concert starts ___ nine o'clock.\nWord bank: in · by in · at · on",
@@ -356,8 +395,11 @@
         "at"
       ],
       "hint": "Dùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
-      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
+      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olga practices ___ Monday.\nWord bank: by in · on · in · at",
@@ -388,8 +430,11 @@
         "by in"
       ],
       "hint": "Ngoại lệ quan trọng là at night. Không dùng in night.",
-      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night. Không dùng in night.",
+      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Pedro listens to music ___ the evening.\nWord bank: in · on · at · by in",
@@ -422,6 +467,9 @@
       "hint": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "why": "When does Amanda listen to music?\nCâu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When does Amanda ___ to music?\nWord bank: listens · listening · listened · listen",
@@ -452,8 +500,11 @@
         "nine o'clock. → starts at → The concert"
       ],
       "hint": "Dùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
-      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
+      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -486,8 +537,11 @@
         "Monday. → on → Olga practices"
       ],
       "hint": "Dùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
-      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
+      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -520,8 +574,11 @@
         "the evening. → music in → Pedro listens to"
       ],
       "hint": "Ngoại lệ quan trọng là at night. Không dùng in night.",
-      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night. Không dùng in night.",
+      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -556,6 +613,9 @@
       "hint": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "why": "When does Amanda listen to music?\nCâu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -588,8 +648,11 @@
         "The concert starts by in nine o'clock."
       ],
       "hint": "Dùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
-      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác. Ta cũng nói at night.",
+      "why": "The concert starts at nine o'clock.\nDùng at với 9:00, 9:15 và các giờ chính xác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: at · Giờ và thời điểm cụ thể",
@@ -619,8 +682,11 @@
         "Olga practices on Monday."
       ],
       "hint": "Dùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
-      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th. Nếu có cả thứ và buổi, vẫn dùng on: on Monday morning.",
+      "why": "Olga practices on Monday.\nDùng on Monday, on my birthday và on June 5th.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: on · Ngày và ngày tháng",
@@ -650,8 +716,11 @@
         "Pedro listens to music on the evening."
       ],
       "hint": "Ngoại lệ quan trọng là at night. Không dùng in night.",
-      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night. Không dùng in night.",
+      "why": "Pedro listens to music in the evening.\nNgoại lệ quan trọng là at night.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: in · Phần trong ngày và khoảng thời gian dài",
@@ -683,6 +752,9 @@
       "hint": "Câu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "why": "When does Amanda listen to music?\nCâu trả lời chọn at, on hoặc in theo loại thời gian được nêu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: When ...?",

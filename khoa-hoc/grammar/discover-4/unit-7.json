@@ -19,7 +19,10 @@
         [
           "something / anything / everything / nothing"
         ]
-      ]
+      ],
+      "usage": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "exampleVi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Some and any",
@@ -36,7 +39,10 @@
           "->",
           "anyone / anything"
         ]
-      ]
+      ],
+      "usage": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "exampleVi": "Có ai mang theo cọ vẽ không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Every and no",
@@ -53,7 +59,10 @@
           "=",
           "not anyone / not anything"
         ]
-      ]
+      ],
+      "usage": "Everyone và everything mang ý nghĩa toàn bộ nhóm.",
+      "exampleVi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Singular agreement",
@@ -65,7 +74,10 @@
           "+",
           "singular verb"
         ]
-      ]
+      ],
+      "usage": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
+      "exampleVi": "Mọi người đều muốn xem bản phác thảo của thần đồng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -92,6 +104,9 @@
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Someone ___ this three-dimensional sculpture.",
@@ -119,8 +134,11 @@
         "bring"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
+      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did anyone ___ the paintbrushes?",
@@ -148,8 +166,11 @@
         "admireds"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
+      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone ___ the street painter's canvas.",
@@ -177,8 +198,11 @@
         "wanting"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
+      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone ___ to see the prodigy's sketch.",
@@ -208,6 +232,9 @@
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Someone [mades] this three-dimensional sculpture.",
@@ -237,8 +264,11 @@
         "brings"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
+      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did anyone [brings] the paintbrushes?",
@@ -268,8 +298,11 @@
         "admiring"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
+      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone [admireds] the street painter's canvas.",
@@ -299,8 +332,11 @@
         "to want"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
+      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone [want] to see the prodigy's sketch.",
@@ -332,6 +368,9 @@
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Someone ___ this three-dimensional sculpture.\nWord bank: making · to made · made · mades",
@@ -362,8 +401,11 @@
         "bringing"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
+      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did anyone ___ the paintbrushes?\nWord bank: brought · bring · brings · bringing",
@@ -394,8 +436,11 @@
         "to admired"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
+      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone ___ the street painter's canvas.\nWord bank: admired · admireds · admiring · to admired",
@@ -426,8 +471,11 @@
         "wants"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
+      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Everyone ___ to see the prodigy's sketch.\nWord bank: want · wanting · to want · wants",
@@ -460,6 +508,9 @@
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -492,8 +543,11 @@
         "paintbrushes? → bring the → Did anyone"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
+      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -526,8 +580,11 @@
         "painter's canvas. → the street → Everyone admired"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
+      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -560,8 +617,11 @@
         "prodigy's sketch. → see the → Everyone wants to"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
+      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -596,6 +656,9 @@
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: People and things",
@@ -625,8 +688,11 @@
         "Did anyone bring the paintbrushes?"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
+      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Some and any",
@@ -656,8 +722,11 @@
         "Everyone admireds the street painter's canvas."
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
+      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Every and no",
@@ -687,8 +756,11 @@
         "Everyone wanting to see the prodigy's sketch."
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
+      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Singular agreement",

@@ -1,0 +1,579 @@
+{
+  "course": "phonics-3",
+  "unit": 6,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 59
+  },
+  "pictures": {
+    "light": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-061.png",
+      "book": 3,
+      "page": 95
+    },
+    "pie": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-065.png",
+      "book": 3,
+      "page": 97
+    },
+    "tie": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-066.png",
+      "book": 3,
+      "page": 97
+    }
+  },
+  "questions": [
+    {
+      "word": "light",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the light.",
+      "objects": [
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pie.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tie.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue light.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": "blue"
+        },
+        {
+          "word": "light",
+          "color": "red"
+        },
+        {
+          "word": "light",
+          "color": "green"
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red pie.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": "green"
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": "red"
+        },
+        {
+          "word": "pie",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green tie.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": "green"
+        },
+        {
+          "word": "tie",
+          "color": "blue"
+        },
+        {
+          "word": "tie",
+          "color": "red"
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red light.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": "red"
+        },
+        {
+          "word": "light",
+          "color": "blue"
+        },
+        {
+          "word": "light",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green pie.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": "blue"
+        },
+        {
+          "word": "pie",
+          "color": "red"
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue tie.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": "blue"
+        },
+        {
+          "word": "tie",
+          "color": "red"
+        },
+        {
+          "word": "tie",
+          "color": "green"
+        },
+        {
+          "word": "light",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lights.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pies.",
+      "objects": [
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 ties.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 lights.",
+      "objects": [
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 pies.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 ties.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 lights.",
+      "objects": [
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 pies.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tie",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 ties.",
+      "objects": [
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 lights.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pie",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 pies.",
+      "objects": [
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        },
+        {
+          "word": "light",
+          "color": null
+        },
+        {
+          "word": "tie",
+          "color": null
+        },
+        {
+          "word": "pie",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

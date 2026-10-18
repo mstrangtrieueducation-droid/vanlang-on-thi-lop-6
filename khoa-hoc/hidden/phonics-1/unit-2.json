@@ -1,0 +1,694 @@
+{
+  "course": "phonics-1",
+  "unit": 2,
+  "source": {
+    "url": "https://drive.google.com/file/d/1A-yrsq42iDf445MsFD1fFK6E13TwFioU/view",
+    "page": 19
+  },
+  "pictures": {
+    "dog": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-013.png",
+      "book": 1,
+      "page": 89
+    },
+    "desk": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-014.png",
+      "book": 1,
+      "page": 89
+    },
+    "doll": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-015.png",
+      "book": 1,
+      "page": 89
+    },
+    "duck": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-016.png",
+      "book": 1,
+      "page": 89
+    },
+    "egg": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-017.png",
+      "book": 1,
+      "page": 91
+    },
+    "envelope": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-019.png",
+      "book": 1,
+      "page": 91
+    },
+    "elephant": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-020.png",
+      "book": 1,
+      "page": 91
+    },
+    "fish": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-021.png",
+      "book": 1,
+      "page": 91
+    },
+    "fan": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-022.png",
+      "book": 1,
+      "page": 91
+    },
+    "fork": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-024.png",
+      "book": 1,
+      "page": 91
+    }
+  },
+  "questions": [
+    {
+      "word": "dog",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the dog.",
+      "objects": [
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the desk.",
+      "objects": [
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "doll",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the doll.",
+      "objects": [
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the duck.",
+      "objects": [
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "egg",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the egg.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "envelope",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the envelope.",
+      "objects": [
+        {
+          "word": "envelope",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "elephant",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the elephant.",
+      "objects": [
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "elephant",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fish.",
+      "objects": [
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dog",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue dog.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": "blue"
+        },
+        {
+          "word": "dog",
+          "color": "red"
+        },
+        {
+          "word": "dog",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red desk.",
+      "objects": [
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": "red"
+        },
+        {
+          "word": "desk",
+          "color": "blue"
+        },
+        {
+          "word": "desk",
+          "color": "green"
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "doll",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green doll.",
+      "objects": [
+        {
+          "word": "doll",
+          "color": "red"
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": "green"
+        },
+        {
+          "word": "doll",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue duck.",
+      "objects": [
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": "blue"
+        },
+        {
+          "word": "duck",
+          "color": "red"
+        },
+        {
+          "word": "duck",
+          "color": "green"
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "egg",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red egg.",
+      "objects": [
+        {
+          "word": "egg",
+          "color": "blue"
+        },
+        {
+          "word": "egg",
+          "color": "green"
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "envelope",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green envelope.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "envelope",
+          "color": "green"
+        },
+        {
+          "word": "envelope",
+          "color": "blue"
+        },
+        {
+          "word": "envelope",
+          "color": "red"
+        },
+        {
+          "word": "dog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "elephant",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 elephants.",
+      "objects": [
+        {
+          "word": "elephant",
+          "color": null
+        },
+        {
+          "word": "elephant",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 fish.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "fish",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fan",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 fans.",
+      "objects": [
+        {
+          "word": "fan",
+          "color": null
+        },
+        {
+          "word": "fan",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fork",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 forks.",
+      "objects": [
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "fork",
+          "color": null
+        },
+        {
+          "word": "fork",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dog",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 dogs.",
+      "objects": [
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 desks.",
+      "objects": [
+        {
+          "word": "doll",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "egg",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "desk",
+          "color": null
+        },
+        {
+          "word": "dog",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

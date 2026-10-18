@@ -20,7 +20,10 @@
           "+",
           "to + base verb"
         ]
-      ]
+      ],
+      "usage": "Sau want dùng to + động từ nguyên mẫu.",
+      "exampleVi": "Các thợ lặn muốn nhìn thấy một con cá heo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "need to",
@@ -34,7 +37,10 @@
           "+",
           "to + base verb"
         ]
-      ]
+      ],
+      "usage": "Need to diễn tả nhu cầu hoặc việc cần làm.",
+      "exampleVi": "Họ cần phải đeo kính bảo hộ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "have to",
@@ -51,7 +57,10 @@
           "+",
           "has to"
         ]
-      ]
+      ],
+      "usage": "Have to đổi thành has to với he, she, it.",
+      "exampleVi": "Một thợ lặn phải bảo vệ san hô.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Questions and past forms",
@@ -71,7 +80,10 @@
           "+",
           "had to + verb"
         ]
-      ]
+      ],
+      "usage": "Sau does dùng have to, không dùng has to.",
+      "exampleVi": "Jacques Cousteau có phải sử dụng vòi không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -96,8 +108,11 @@
         "saw"
       ],
       "hint": "Sau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
-      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
+      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The divers want ___ a dolphin.",
@@ -125,8 +140,11 @@
         "to wear"
       ],
       "hint": "Need to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
-      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
+      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They need ___ goggles.",
@@ -154,8 +172,11 @@
         "have"
       ],
       "hint": "Have to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
-      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
+      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A diver ___ to protect the coral.",
@@ -183,8 +204,11 @@
         "having"
       ],
       "hint": "Sau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
-      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
+      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Jacques Cousteau ___ to use a hose?",
@@ -212,8 +236,11 @@
         "to see"
       ],
       "hint": "Sau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
-      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
+      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The divers want [seeing] a dolphin.",
@@ -243,8 +270,11 @@
         "wearing"
       ],
       "hint": "Need to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
-      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
+      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They need [wearing] goggles.",
@@ -274,8 +304,11 @@
         "having"
       ],
       "hint": "Have to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
-      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
+      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A diver [have] to protect the coral.",
@@ -305,8 +338,11 @@
         "had"
       ],
       "hint": "Sau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
-      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
+      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Jacques Cousteau [has] to use a hose?",
@@ -336,8 +372,11 @@
         "seeing"
       ],
       "hint": "Sau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
-      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
+      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The divers want ___ a dolphin.\nWord bank: sees · saw · to see · seeing",
@@ -368,8 +407,11 @@
         "wears"
       ],
       "hint": "Need to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
-      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
+      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They need ___ goggles.\nWord bank: wore · to wear · wearing · wears",
@@ -400,8 +442,11 @@
         "to have"
       ],
       "hint": "Have to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
-      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
+      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A diver ___ to protect the coral.\nWord bank: has · have · having · to have",
@@ -432,8 +477,11 @@
         "have"
       ],
       "hint": "Sau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
-      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
+      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Jacques Cousteau ___ to use a hose?\nWord bank: has · having · had · have",
@@ -464,8 +512,11 @@
         "a dolphin. → to see → The divers want"
       ],
       "hint": "Sau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
-      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
+      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -498,8 +549,11 @@
         "goggles. → to wear → They need"
       ],
       "hint": "Need to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
-      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
+      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -532,8 +586,11 @@
         "the coral. → to protect → A diver has"
       ],
       "hint": "Have to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
-      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
+      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -566,8 +623,11 @@
         "a hose? → have to use → Did Jacques Cousteau"
       ],
       "hint": "Sau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
-      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
+      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -600,8 +660,11 @@
         "The divers want saw a dolphin."
       ],
       "hint": "Sau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
-      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu. Với he, she, it ở hiện tại đơn, want thêm -s.",
+      "why": "The divers want to see a dolphin.\nSau want dùng to + động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: want to",
@@ -631,8 +694,11 @@
         "They need to wear goggles."
       ],
       "hint": "Need to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
-      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm. Dạng phủ định don't/doesn't need to có nghĩa là không cần, không phải là bị cấm.",
+      "why": "They need to wear goggles.\nNeed to diễn tả nhu cầu hoặc việc cần làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: need to",
@@ -662,8 +728,11 @@
         "A diver have to protect the coral."
       ],
       "hint": "Have to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
-      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it. Phủ định don't/doesn't have to có nghĩa là không bắt buộc.",
+      "why": "A diver has to protect the coral.\nHave to đổi thành has to với he, she, it.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: have to",
@@ -693,8 +762,11 @@
         "Did Jacques Cousteau having to use a hose?"
       ],
       "hint": "Sau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
-      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to. Trong quá khứ, mọi chủ ngữ dùng had to; câu hỏi dùng Did + subject + have to.",
+      "why": "Did Jacques Cousteau have to use a hose?\nSau does dùng have to, không dùng has to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions and past forms",

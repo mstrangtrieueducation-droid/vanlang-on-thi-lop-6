@@ -25,7 +25,10 @@
           "above",
           "phía trên"
         ]
-      ]
+      ],
+      "usage": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "exampleVi": "Có khói phía trên thành phố.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "behind / in front of",
@@ -40,7 +43,10 @@
           "in front of",
           "phía trước"
         ]
-      ]
+      ],
+      "usage": "Behind là ở phía sau và in front of là ở phía trước.",
+      "exampleVi": "Thùng rác ở phía sau cái cây.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "across from / next to",
@@ -55,7 +61,10 @@
           "next to",
           "bên cạnh"
         ]
-      ]
+      ],
+      "usage": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "exampleVi": "Bãi rác nằm đối diện công viên.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "between",
@@ -71,7 +80,10 @@
           "+",
           "B"
         ]
-      ]
+      ],
+      "usage": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "exampleVi": "Thùng rác nằm giữa những cái cây.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -98,6 +110,9 @@
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: higher than the city.\nThere's smoke ___ the city.",
@@ -125,8 +140,11 @@
         "behind"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: at the back of the tree.\nThe trash can is ___ the tree.",
@@ -154,8 +172,11 @@
         "above"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: on the opposite side from the park.\nThe landfill is ___ the park.",
@@ -185,6 +206,9 @@
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: in the middle of two trees.\nThe trash can is ___ the trees.",
@@ -214,6 +238,9 @@
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: higher than the city.\nThere's smoke [behind] the city.",
@@ -243,8 +270,11 @@
         "in front of"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: at the back of the tree.\nThe trash can is [in front of] the tree.",
@@ -274,8 +304,11 @@
         "between"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: on the opposite side from the park.\nThe landfill is [above] the park.",
@@ -307,6 +340,9 @@
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: in the middle of two trees.\nThe trash can is [above] the trees.",
@@ -338,6 +374,9 @@
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: higher than the city.\nThere's smoke ___ the city.\nWord bank: between · across from · above · behind",
@@ -368,8 +407,11 @@
         "above"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: at the back of the tree.\nThe trash can is ___ the tree.\nWord bank: across from · behind · in front of · above",
@@ -400,8 +442,11 @@
         "behind"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: on the opposite side from the park.\nThe landfill is ___ the park.\nWord bank: across from · above · between · behind",
@@ -434,6 +479,9 @@
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: in the middle of two trees.\nThe trash can is ___ the trees.\nWord bank: above · behind · across from · between",
@@ -466,6 +514,9 @@
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: higher than the city.\n",
@@ -498,8 +549,11 @@
         "the tree. → is behind → The trash can"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: at the back of the tree.\n",
@@ -532,8 +586,11 @@
         "the park. → across from → The landfill is"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: on the opposite side from the park.\n",
@@ -568,6 +625,9 @@
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: in the middle of two trees.\n",
@@ -602,6 +662,9 @@
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: higher than the city.\nGrammar focus: in / on / above",
@@ -631,8 +694,11 @@
         "The trash can is behind the tree."
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: at the back of the tree.\nGrammar focus: behind / in front of",
@@ -662,8 +728,11 @@
         "The landfill is above the park."
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: on the opposite side from the park.\nGrammar focus: across from / next to",
@@ -695,6 +764,9 @@
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: in the middle of two trees.\nGrammar focus: between",

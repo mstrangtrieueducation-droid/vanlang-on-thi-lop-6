@@ -1,0 +1,697 @@
+{
+  "course": "phonics-3",
+  "unit": 2,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 19
+  },
+  "pictures": {
+    "kite": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-013.png",
+      "book": 3,
+      "page": 89
+    },
+    "pine": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-014.png",
+      "book": 3,
+      "page": 89
+    },
+    "lime": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-017.png",
+      "book": 3,
+      "page": 91
+    },
+    "bike": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-018.png",
+      "book": 3,
+      "page": 91
+    },
+    "line": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-024.png",
+      "book": 3,
+      "page": 91
+    }
+  },
+  "questions": [
+    {
+      "word": "kite",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the kite.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pine",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pine.",
+      "objects": [
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lime",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lime.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bike.",
+      "objects": [
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the line.",
+      "objects": [
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue kite.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": "red"
+        },
+        {
+          "word": "kite",
+          "color": "green"
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "pine",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red pine.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": "red"
+        },
+        {
+          "word": "pine",
+          "color": "blue"
+        },
+        {
+          "word": "pine",
+          "color": "green"
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lime",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green lime.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": "green"
+        },
+        {
+          "word": "lime",
+          "color": "blue"
+        },
+        {
+          "word": "lime",
+          "color": "red"
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue bike.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": "blue"
+        },
+        {
+          "word": "bike",
+          "color": "red"
+        },
+        {
+          "word": "bike",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red line.",
+      "objects": [
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": "red"
+        },
+        {
+          "word": "line",
+          "color": "blue"
+        },
+        {
+          "word": "line",
+          "color": "green"
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red kite.",
+      "objects": [
+        {
+          "word": "kite",
+          "color": "green"
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": "red"
+        },
+        {
+          "word": "kite",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "pine",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pines.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lime",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 limes.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bikes.",
+      "objects": [
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lines.",
+      "objects": [
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 kites.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pine",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 pines.",
+      "objects": [
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lime",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 limes.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 bikes.",
+      "objects": [
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 lines.",
+      "objects": [
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        },
+        {
+          "word": "kite",
+          "color": null
+        },
+        {
+          "word": "pine",
+          "color": null
+        },
+        {
+          "word": "lime",
+          "color": null
+        },
+        {
+          "word": "bike",
+          "color": null
+        },
+        {
+          "word": "line",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

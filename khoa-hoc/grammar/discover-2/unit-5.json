@@ -18,7 +18,10 @@
           "+",
           "động từ-ed"
         ]
-      ]
+      ],
+      "usage": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
+      "exampleVi": "Mọi người nghe tin tức trên đài phát thanh.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Quy tắc chính tả",
@@ -40,7 +43,10 @@
           "→",
           "stopped"
         ]
-      ]
+      ],
+      "usage": "Động từ tận cùng bằng e chỉ thêm -d.",
+      "exampleVi": "Họ đi du lịch bằng thuyền.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "didn't · Phủ định",
@@ -54,7 +60,10 @@
           "+",
           "động từ nguyên mẫu"
         ]
-      ]
+      ],
+      "usage": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
+      "exampleVi": "Họ không xem tin tức trên TV.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Âm cuối -ed",
@@ -73,7 +82,10 @@
           "/ɪd/",
           "visited"
         ]
-      ]
+      ],
+      "usage": "Đuôi -ed có ba cách đọc.",
+      "exampleVi": "Ông nội đến thăm gia đình.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -98,8 +110,11 @@
         "to listen"
       ],
       "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
-      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People ___ to the news on the radio.",
@@ -127,8 +142,11 @@
         "traveled"
       ],
       "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
-      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They ___ by boat.",
@@ -156,8 +174,11 @@
         "watched"
       ],
       "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
-      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They didn't ___ the news on TV.",
@@ -185,8 +206,11 @@
         "visits"
       ],
       "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
-      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grandpa ___ his family.",
@@ -214,8 +238,11 @@
         "listened"
       ],
       "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
-      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People [listening] to the news on the radio.",
@@ -245,8 +272,11 @@
         "traveling"
       ],
       "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
-      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They [traveling] by boat.",
@@ -276,8 +306,11 @@
         "watches"
       ],
       "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
-      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They didn't [watched] the news on TV.",
@@ -307,8 +340,11 @@
         "to visit"
       ],
       "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
-      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grandpa [visiting] his family.",
@@ -338,8 +374,11 @@
         "listening"
       ],
       "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
-      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People ___ to the news on the radio.\nWord bank: listens · to listen · listened · listening",
@@ -370,8 +409,11 @@
         "travels"
       ],
       "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
-      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They ___ by boat.\nWord bank: to travel · traveled · traveling · travels",
@@ -402,8 +444,11 @@
         "watching"
       ],
       "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
-      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They didn't ___ the news on TV.\nWord bank: watch · watched · watches · watching",
@@ -434,8 +479,11 @@
         "visited"
       ],
       "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
-      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grandpa ___ his family.\nWord bank: visiting · visits · to visit · visited",
@@ -466,8 +514,11 @@
         "the radio. → the news on → People listened to"
       ],
       "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
-      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -500,8 +551,11 @@
         "boat. → by → They traveled"
       ],
       "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
-      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -534,8 +588,11 @@
         "on TV. → the news → They didn't watch"
       ],
       "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
-      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -568,8 +625,11 @@
         "family. → his → Grandpa visited"
       ],
       "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
-      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -602,8 +662,11 @@
         "People to listen to the news on the radio."
       ],
       "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
-      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Past regular · Khẳng định",
@@ -633,8 +696,11 @@
         "They traveled by boat."
       ],
       "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
-      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Quy tắc chính tả",
@@ -664,8 +730,11 @@
         "They didn't watched the news on TV."
       ],
       "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
-      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: didn't · Phủ định",
@@ -695,8 +764,11 @@
         "Grandpa visits his family."
       ],
       "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
-      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Âm cuối -ed",

@@ -18,7 +18,10 @@
           "+",
           "mệnh đề"
         ]
-      ]
+      ],
+      "usage": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "exampleVi": "Sáng nay, Olga đi học sớm.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "yesterday / last ...",
@@ -30,7 +33,10 @@
           "→",
           "past simple"
         ]
-      ]
+      ],
+      "usage": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "exampleVi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "... ago",
@@ -42,7 +48,10 @@
           "+",
           "ago"
         ]
-      ]
+      ],
+      "usage": "Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "exampleVi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Vị trí trong câu",
@@ -59,7 +68,10 @@
           "+",
           "yesterday"
         ]
-      ]
+      ],
+      "usage": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
+      "exampleVi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -84,8 +96,11 @@
         "to go"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This morning, Olga ___ to school early.",
@@ -115,6 +130,9 @@
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Mark ___ to music class yesterday morning.",
@@ -142,8 +160,11 @@
         "last"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The musician recorded a solo two days ___.",
@@ -171,8 +192,11 @@
         "gives"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Last week, Olga ___ a concert.",
@@ -200,8 +224,11 @@
         "goes"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This morning, Olga [go] to school early.",
@@ -233,6 +260,9 @@
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Mark [go] to music class yesterday morning.",
@@ -262,8 +292,11 @@
         "yesterday"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The musician recorded a solo two days [last].",
@@ -293,8 +326,11 @@
         "giving"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Last week, Olga [give] a concert.",
@@ -324,8 +360,11 @@
         "go"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This morning, Olga ___ to school early.\nWord bank: going · to go · goes · go",
@@ -358,6 +397,9 @@
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Mark ___ to music class yesterday morning.\nWord bank: going · went · go · goes",
@@ -388,8 +430,11 @@
         "since"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The musician recorded a solo two days ___.\nWord bank: ago · last · yesterday · since",
@@ -420,8 +465,11 @@
         "gave"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Last week, Olga ___ a concert.\nWord bank: give · gives · giving · gave",
@@ -452,8 +500,11 @@
         "school early. → goes to → This morning, Olga"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -488,6 +539,9 @@
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -520,8 +574,11 @@
         "days ago. → a solo two → The musician recorded"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -554,8 +611,11 @@
         "a concert. → Olga gave → Last week,"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -588,8 +648,11 @@
         "This morning, Olga to go to school early."
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: today / this morning",
@@ -621,6 +684,9 @@
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: yesterday / last ...",
@@ -650,8 +716,11 @@
         "The musician recorded a solo two days last."
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: ... ago",
@@ -681,8 +750,11 @@
         "Last week, Olga gives a concert."
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Vị trí trong câu",

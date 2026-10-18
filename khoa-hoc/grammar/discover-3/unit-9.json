@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "exampleVi": "Tua bin gió có thể sản xuất điện ngày nay.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -34,7 +37,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Đặt not ngay sau may/might.",
+      "exampleVi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Degree of certainty",
@@ -51,7 +57,10 @@
           "→",
           "may / might"
         ]
-      ]
+      ],
+      "usage": "Trong nhiều tình huống, hai từ có thể thay nhau.",
+      "exampleVi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Questions about possibility",
@@ -66,7 +75,10 @@
           "may / might + verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
+      "exampleVi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -91,8 +103,11 @@
         "produced"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
+      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A wind turbine might ___ electricity today.",
@@ -120,8 +135,11 @@
         "produce"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
+      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wind farm may not ___ much electricity today.",
@@ -149,8 +167,11 @@
         "uses"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
+      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The power plant might ___ natural gas.",
@@ -178,8 +199,11 @@
         "increasing"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
+      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you think pollution might ___?",
@@ -207,8 +231,11 @@
         "produce"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
+      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A wind turbine might [produces] electricity today.",
@@ -238,8 +265,11 @@
         "produces"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
+      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wind farm may not [produces] much electricity today.",
@@ -269,8 +299,11 @@
         "using"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
+      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The power plant might [uses] natural gas.",
@@ -300,8 +333,11 @@
         "increased"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
+      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you think pollution might [increases]?",
@@ -331,8 +367,11 @@
         "produces"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
+      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A wind turbine might ___ electricity today.\nWord bank: producing · produced · produce · produces",
@@ -363,8 +402,11 @@
         "producing"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
+      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wind farm may not ___ much electricity today.\nWord bank: produced · produce · produces · producing",
@@ -395,8 +437,11 @@
         "used"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
+      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The power plant might ___ natural gas.\nWord bank: use · uses · using · used",
@@ -427,8 +472,11 @@
         "increase"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
+      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you think pollution might ___?\nWord bank: increases · increasing · increased · increase",
@@ -459,8 +507,11 @@
         "electricity today. → might produce → A wind turbine"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
+      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -493,8 +544,11 @@
         "much electricity today. → may not produce → The wind farm"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
+      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -527,8 +581,11 @@
         "natural gas. → might use → The power plant"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
+      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -561,8 +618,11 @@
         "might increase? → think pollution → Do you"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
+      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -595,8 +655,11 @@
         "A wind turbine might produced electricity today."
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
+      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Possibility",
@@ -626,8 +689,11 @@
         "The wind farm may not produce much electricity today."
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
+      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -657,8 +723,11 @@
         "The power plant might uses natural gas."
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
+      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Degree of certainty",
@@ -688,8 +757,11 @@
         "Do you think pollution might increasing?"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
+      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions about possibility",

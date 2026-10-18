@@ -18,7 +18,10 @@
           "+",
           "singular verb"
         ]
-      ]
+      ],
+      "usage": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
+      "exampleVi": "Bỏ qua là bài tập tốt.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "After like and love",
@@ -32,7 +35,10 @@
           "+",
           "verb-ing"
         ]
-      ]
+      ],
+      "usage": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
+      "exampleVi": "Các em thích thú khi chơi trò chơi đuổi bắt.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative statements",
@@ -48,7 +54,10 @@
           "+",
           "verb-ing"
         ]
-      ]
+      ],
+      "usage": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
+      "exampleVi": "Anh ấy không thích leo lên vách đá.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions",
@@ -65,7 +74,10 @@
           "verb-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Do hoặc Does ở đầu câu.",
+      "exampleVi": "Họ có thích bơi trong hồ không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -90,8 +102,11 @@
         "To skipping"
       ],
       "hint": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
-      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
+      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ is good exercise.",
@@ -119,8 +134,11 @@
         "playing"
       ],
       "hint": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
-      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
+      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The children enjoy ___ tag.",
@@ -148,8 +166,11 @@
         "climbs"
       ],
       "hint": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
-      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
+      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He doesn't like ___ the cliff.",
@@ -177,8 +198,11 @@
         "swam"
       ],
       "hint": "Dùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
-      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
+      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do they like ___ in the lake?",
@@ -206,8 +230,11 @@
         "Skipping"
       ],
       "hint": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
-      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
+      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Skip] is good exercise.",
@@ -237,8 +264,11 @@
         "play"
       ],
       "hint": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
-      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
+      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The children enjoy [play] tag.",
@@ -268,8 +298,11 @@
         "climbed"
       ],
       "hint": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
-      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
+      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He doesn't like [climbs] the cliff.",
@@ -299,8 +332,11 @@
         "to swimming"
       ],
       "hint": "Dùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
-      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
+      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do they like [swims] in the lake?",
@@ -330,8 +366,11 @@
         "Skip"
       ],
       "hint": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
-      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
+      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ is good exercise.\nWord bank: Skips · To skipping · Skipping · Skip",
@@ -362,8 +401,11 @@
         "plays"
       ],
       "hint": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
-      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
+      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The children enjoy ___ tag.\nWord bank: to playing · playing · play · plays",
@@ -394,8 +436,11 @@
         "to climbing"
       ],
       "hint": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
-      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
+      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He doesn't like ___ the cliff.\nWord bank: climbing · climbs · climbed · to climbing",
@@ -426,8 +471,11 @@
         "swimming"
       ],
       "hint": "Dùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
-      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
+      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do they like ___ in the lake?\nWord bank: swims · swam · to swimming · swimming",
@@ -458,8 +506,11 @@
         "exercise. → good → Skipping is"
       ],
       "hint": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
-      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
+      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -492,8 +543,11 @@
         "tag. → enjoy playing → The children"
       ],
       "hint": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
-      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
+      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -526,8 +580,11 @@
         "the cliff. → like climbing → He doesn't"
       ],
       "hint": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
-      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
+      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -560,8 +617,11 @@
         "the lake? → swimming in → Do they like"
       ],
       "hint": "Dùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
-      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
+      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -594,8 +654,11 @@
         "To skipping is good exercise."
       ],
       "hint": "Khi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
-      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu. Cả hoạt động được xem như một ý số ít nên thường đi với is hoặc động từ thêm -s.",
+      "why": "Skipping is good exercise.\nKhi nói về một hoạt động nói chung, ta có thể đặt dạng V-ing ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Gerund as subject",
@@ -625,8 +688,11 @@
         "The children enjoy playing tag."
       ],
       "hint": "Sau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
-      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động. Với enjoy, không dùng to + verb trong mẫu câu này.",
+      "why": "The children enjoy playing tag.\nSau like, love, enjoy, hate và don't mind, dùng V-ing để gọi tên hoạt động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: After like and love",
@@ -656,8 +722,11 @@
         "He doesn't like climbs the cliff."
       ],
       "hint": "Ở hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
-      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích. Động từ sau doesn't trở về dạng nguyên mẫu.",
+      "why": "He doesn't like climbing the cliff.\nỞ hiện tại đơn, dùng don't hoặc doesn't trước động từ chỉ sở thích.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative statements",
@@ -687,8 +756,11 @@
         "Do they like swam in the lake?"
       ],
       "hint": "Dùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
-      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu. Sau chủ ngữ là like + V-ing. Câu trả lời ngắn dùng do, don't, does hoặc doesn't.",
+      "why": "Do they like swimming in the lake?\nDùng Do hoặc Does ở đầu câu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

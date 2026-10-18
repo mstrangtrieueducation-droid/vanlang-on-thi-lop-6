@@ -20,7 +20,10 @@
           ",",
           "too"
         ]
-      ]
+      ],
+      "usage": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết.",
+      "exampleVi": "Đường dốc là một cỗ máy đơn giản. Một đòn bẩy cũng vậy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "either",
@@ -34,7 +37,10 @@
           ",",
           "either"
         ]
-      ]
+      ],
+      "usage": "Either đứng cuối một câu phủ định.",
+      "exampleVi": "Bóng đèn không phải là đòn bẩy. Tay nắm cửa cũng không.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Matching the auxiliary",
@@ -56,7 +62,10 @@
           "→",
           "did"
         ]
-      ]
+      ],
+      "usage": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
+      "exampleVi": "Một cái búa có một tay cầm. Một cái rìu cũng vậy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Meaning",
@@ -73,7 +82,10 @@
           "=",
           "cũng không, câu phủ định"
         ]
-      ]
+      ],
+      "usage": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "exampleVi": "Cầu thang giúp chúng ta di chuyển lên trên. Một đoạn đường nối cũng vậy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -98,8 +110,11 @@
         "also too"
       ],
       "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
-      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A ramp is a simple machine. A lever is, ___.",
@@ -127,8 +142,11 @@
         "either"
       ],
       "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
-      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A light bulb isn't a lever. A doorknob isn't, ___.",
@@ -156,8 +174,11 @@
         "do"
       ],
       "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
-      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A hammer has a handle. An axe ___, too.",
@@ -187,6 +208,9 @@
       "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Stairs help us move upward. A ramp ___, too.",
@@ -214,8 +238,11 @@
         "too"
       ],
       "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
-      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A ramp is a simple machine. A lever is, [either].",
@@ -245,8 +272,11 @@
         "too"
       ],
       "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
-      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A light bulb isn't a lever. A doorknob isn't, [too].",
@@ -276,8 +306,11 @@
         "have"
       ],
       "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
-      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A hammer has a handle. An axe [do], too.",
@@ -309,6 +342,9 @@
       "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Stairs help us move upward. A ramp [do], too.",
@@ -338,8 +374,11 @@
         "either"
       ],
       "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
-      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A ramp is a simple machine. A lever is, ___.\nWord bank: neither · also too · too · either",
@@ -370,8 +409,11 @@
         "neither"
       ],
       "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
-      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A light bulb isn't a lever. A doorknob isn't, ___.\nWord bank: also too · either · too · neither",
@@ -402,8 +444,11 @@
         "are"
       ],
       "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
-      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A hammer has a handle. An axe ___, too.\nWord bank: does · do · have · are",
@@ -436,6 +481,9 @@
       "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Stairs help us move upward. A ramp ___, too.\nWord bank: do · have · are · does",
@@ -466,8 +514,11 @@
         "lever is, too. → simple machine. A → A ramp is a"
       ],
       "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
-      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -500,8 +551,11 @@
         "doorknob isn't, either. → a lever. A → A light bulb isn't"
       ],
       "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
-      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -534,8 +588,11 @@
         "axe does, too. → a handle. An → A hammer has"
       ],
       "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
-      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -570,6 +627,9 @@
       "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -602,8 +662,11 @@
         "A ramp is a simple machine. A lever is, also too."
       ],
       "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
-      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: too",
@@ -633,8 +696,11 @@
         "A light bulb isn't a lever. A doorknob isn't, either."
       ],
       "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
-      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: either",
@@ -664,8 +730,11 @@
         "A hammer has a handle. An axe do, too."
       ],
       "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
-      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Matching the auxiliary",
@@ -697,6 +766,9 @@
       "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Meaning",

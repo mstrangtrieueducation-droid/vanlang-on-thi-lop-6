@@ -1,0 +1,697 @@
+{
+  "course": "phonics-4",
+  "unit": 8,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 79
+  },
+  "pictures": {
+    "cell phone": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-088.png",
+      "book": 4,
+      "page": 99
+    },
+    "giraffe": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-089.png",
+      "book": 4,
+      "page": 99
+    },
+    "orange": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-090.png",
+      "book": 4,
+      "page": 99
+    },
+    "cage": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-092.png",
+      "book": 4,
+      "page": 99
+    },
+    "rose": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-093.png",
+      "book": 4,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "cell phone",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cell phone.",
+      "objects": [
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "giraffe",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the giraffe.",
+      "objects": [
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the orange.",
+      "objects": [
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cage",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cage.",
+      "objects": [
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rose.",
+      "objects": [
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cell phone",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue cell phone.",
+      "objects": [
+        {
+          "word": "cell phone",
+          "color": "red"
+        },
+        {
+          "word": "cell phone",
+          "color": "green"
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "giraffe",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red giraffe.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": "red"
+        },
+        {
+          "word": "giraffe",
+          "color": "blue"
+        },
+        {
+          "word": "giraffe",
+          "color": "green"
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green orange.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": "green"
+        },
+        {
+          "word": "orange",
+          "color": "blue"
+        },
+        {
+          "word": "orange",
+          "color": "red"
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cage",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue cage.",
+      "objects": [
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": "blue"
+        },
+        {
+          "word": "cage",
+          "color": "red"
+        },
+        {
+          "word": "cage",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red rose.",
+      "objects": [
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": "red"
+        },
+        {
+          "word": "rose",
+          "color": "blue"
+        },
+        {
+          "word": "rose",
+          "color": "green"
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cell phone",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red cell phone.",
+      "objects": [
+        {
+          "word": "cell phone",
+          "color": "green"
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": "red"
+        },
+        {
+          "word": "cell phone",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "giraffe",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 giraffes.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 oranges.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cage",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 cages.",
+      "objects": [
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 roses.",
+      "objects": [
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cell phone",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 cell phones.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "giraffe",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 giraffes.",
+      "objects": [
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 oranges.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cage",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 cages.",
+      "objects": [
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rose",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 roses.",
+      "objects": [
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        },
+        {
+          "word": "cell phone",
+          "color": null
+        },
+        {
+          "word": "giraffe",
+          "color": null
+        },
+        {
+          "word": "orange",
+          "color": null
+        },
+        {
+          "word": "cage",
+          "color": null
+        },
+        {
+          "word": "rose",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

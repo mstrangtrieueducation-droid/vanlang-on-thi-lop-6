@@ -1,0 +1,683 @@
+{
+  "course": "phonics-3",
+  "unit": 1,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 11
+  },
+  "pictures": {
+    "cape": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-002.png",
+      "book": 3,
+      "page": 89
+    },
+    "cane": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-003.png",
+      "book": 3,
+      "page": 89
+    },
+    "game": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-005.png",
+      "book": 3,
+      "page": 89
+    },
+    "cake": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-006.png",
+      "book": 3,
+      "page": 89
+    },
+    "gate": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-009.png",
+      "book": 3,
+      "page": 89
+    },
+    "skate": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-011.png",
+      "book": 3,
+      "page": 89
+    },
+    "cave": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-012.png",
+      "book": 3,
+      "page": 89
+    }
+  },
+  "questions": [
+    {
+      "word": "cape",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cape.",
+      "objects": [
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cane",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cane.",
+      "objects": [
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "game",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the game.",
+      "objects": [
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cake",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cake.",
+      "objects": [
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "gate",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the gate.",
+      "objects": [
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skate",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the skate.",
+      "objects": [
+        {
+          "word": "skate",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cave",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cave.",
+      "objects": [
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "cave",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cape",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue cape.",
+      "objects": [
+        {
+          "word": "cape",
+          "color": "blue"
+        },
+        {
+          "word": "cape",
+          "color": "red"
+        },
+        {
+          "word": "cape",
+          "color": "green"
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cane",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red cane.",
+      "objects": [
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": "red"
+        },
+        {
+          "word": "cane",
+          "color": "blue"
+        },
+        {
+          "word": "cane",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "game",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green game.",
+      "objects": [
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": "green"
+        },
+        {
+          "word": "game",
+          "color": "blue"
+        },
+        {
+          "word": "game",
+          "color": "red"
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cake",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue cake.",
+      "objects": [
+        {
+          "word": "cake",
+          "color": "green"
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": "blue"
+        },
+        {
+          "word": "cake",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "gate",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red gate.",
+      "objects": [
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": "red"
+        },
+        {
+          "word": "gate",
+          "color": "blue"
+        },
+        {
+          "word": "gate",
+          "color": "green"
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skate",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green skate.",
+      "objects": [
+        {
+          "word": "skate",
+          "color": "blue"
+        },
+        {
+          "word": "skate",
+          "color": "red"
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "skate",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "cave",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 caves.",
+      "objects": [
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "cave",
+          "color": null
+        },
+        {
+          "word": "cave",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cape",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 capes.",
+      "objects": [
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cane",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 canes.",
+      "objects": [
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "game",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 games.",
+      "objects": [
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cake",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 cakes.",
+      "objects": [
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "gate",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 gates.",
+      "objects": [
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "gate",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        },
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "skate",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 skates.",
+      "objects": [
+        {
+          "word": "cane",
+          "color": null
+        },
+        {
+          "word": "game",
+          "color": null
+        },
+        {
+          "word": "cake",
+          "color": null
+        },
+        {
+          "word": "skate",
+          "color": null
+        },
+        {
+          "word": "skate",
+          "color": null
+        },
+        {
+          "word": "cape",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

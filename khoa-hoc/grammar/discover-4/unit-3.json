@@ -20,7 +20,10 @@
           "+",
           "to + base verb"
         ]
-      ]
+      ],
+      "usage": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "exampleVi": "Nhà khảo cổ dự định kiểm tra ngôi mộ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Meaning",
@@ -32,7 +35,10 @@
           "+",
           "to + verb"
         ]
-      ]
+      ],
+      "usage": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "exampleVi": "Những người lính hứa sẽ bảo vệ kho báu.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative infinitive",
@@ -46,7 +52,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "exampleVi": "Hoàng đế quyết định không di chuyển đội quân đất sét.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Verb + object + infinitive",
@@ -62,7 +71,10 @@
           "+",
           "to + verb"
         ]
-      ]
+      ],
+      "usage": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
+      "exampleVi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -87,8 +99,11 @@
         "examined"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
+      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist plans ___ the tomb.",
@@ -118,6 +133,9 @@
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The soldiers promised ___ the treasure.",
@@ -145,8 +163,11 @@
         "to not moving"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
+      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The emperor decided ___ the clay army.",
@@ -174,8 +195,11 @@
         "carries"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
+      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist asked the assistant ___ the jade.",
@@ -203,8 +227,11 @@
         "to examine"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
+      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist plans [examining] the tomb.",
@@ -236,6 +263,9 @@
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The soldiers promised [protecting] the treasure.",
@@ -265,8 +295,11 @@
         "not moving to"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
+      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The emperor decided [to not moving] the clay army.",
@@ -296,8 +329,11 @@
         "carried"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
+      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist asked the assistant [carrying] the jade.",
@@ -327,8 +363,11 @@
         "examining"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
+      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist plans ___ the tomb.\nWord bank: examines · examined · to examine · examining",
@@ -361,6 +400,9 @@
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The soldiers promised ___ the treasure.\nWord bank: protected · to protect · protecting · protects",
@@ -391,8 +433,11 @@
         "not moves"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
+      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The emperor decided ___ the clay army.\nWord bank: not to move · to not moving · not moving to · not moves",
@@ -423,8 +468,11 @@
         "to carry"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
+      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The archaeologist asked the assistant ___ the jade.\nWord bank: carrying · carries · carried · to carry",
@@ -455,8 +503,11 @@
         "the tomb. → to examine → The archaeologist plans"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
+      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -491,6 +542,9 @@
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -523,8 +577,11 @@
         "the clay army. → not to move → The emperor decided"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
+      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -557,8 +614,11 @@
         "carry the jade. → the assistant to → The archaeologist asked"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
+      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -591,8 +651,11 @@
         "The archaeologist plans examined the tomb."
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
+      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Verb + infinitive",
@@ -624,6 +687,9 @@
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Meaning",
@@ -653,8 +719,11 @@
         "The emperor decided to not moving the clay army."
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
+      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative infinitive",
@@ -684,8 +753,11 @@
         "The archaeologist asked the assistant carries the jade."
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
+      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Verb + object + infinitive",

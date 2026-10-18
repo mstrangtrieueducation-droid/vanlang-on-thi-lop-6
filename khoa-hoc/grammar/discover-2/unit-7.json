@@ -28,7 +28,10 @@
           "→",
           "had"
         ]
-      ]
+      ],
+      "usage": "Động từ bất quy tắc không thêm -ed theo một công thức chung.",
+      "exampleVi": "Alma mua năm cái bánh quy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "didn't + base verb",
@@ -42,7 +45,10 @@
           "+",
           "động từ nguyên mẫu"
         ]
-      ]
+      ],
+      "usage": "Dùng didn't với mọi chủ ngữ.",
+      "exampleVi": "Cô ấy đã không mua bốn cái bánh quy.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Số lượng và danh từ",
@@ -54,7 +60,10 @@
           "+",
           "danh từ số nhiều"
         ]
-      ]
+      ],
+      "usage": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
+      "exampleVi": "Olivia tặng em gái mình hai mươi miếng dán.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Dấu hiệu thời gian",
@@ -66,7 +75,10 @@
           "→",
           "past simple"
         ]
-      ]
+      ],
+      "usage": "Yesterday, last night và ago cho biết thời điểm đã qua.",
+      "exampleVi": "Hôm qua họ có bài kiểm tra toán.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -91,8 +103,11 @@
         "buys"
       ],
       "hint": "Động từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
-      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
+      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Alma ___ five cookies.",
@@ -120,8 +135,11 @@
         "buy"
       ],
       "hint": "Dùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
-      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
+      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She didn't ___ four cookies.",
@@ -149,8 +167,11 @@
         "gived"
       ],
       "hint": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
-      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
+      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olivia ___ her sister twenty stickers.",
@@ -178,8 +199,11 @@
         "has"
       ],
       "hint": "Yesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
-      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
+      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They ___ a math test yesterday.",
@@ -207,8 +231,11 @@
         "bought"
       ],
       "hint": "Động từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
-      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
+      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Alma [buyed] five cookies.",
@@ -238,8 +265,11 @@
         "bought"
       ],
       "hint": "Dùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
-      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
+      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She didn't [bought] four cookies.",
@@ -269,8 +299,11 @@
         "giving"
       ],
       "hint": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
-      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
+      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olivia [gived] her sister twenty stickers.",
@@ -300,8 +333,11 @@
         "having"
       ],
       "hint": "Yesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
-      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
+      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They [have] a math test yesterday.",
@@ -331,8 +367,11 @@
         "buyed"
       ],
       "hint": "Động từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
-      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
+      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Alma ___ five cookies.\nWord bank: buying · buys · bought · buyed",
@@ -363,8 +402,11 @@
         "buys"
       ],
       "hint": "Dùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
-      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
+      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She didn't ___ four cookies.\nWord bank: buying · buy · bought · buys",
@@ -395,8 +437,11 @@
         "gives"
       ],
       "hint": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
-      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
+      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Olivia ___ her sister twenty stickers.\nWord bank: gave · gived · giving · gives",
@@ -427,8 +472,11 @@
         "had"
       ],
       "hint": "Yesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
-      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
+      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They ___ a math test yesterday.\nWord bank: have · has · having · had",
@@ -459,8 +507,11 @@
         "cookies. → five → Alma bought"
       ],
       "hint": "Động từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
-      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
+      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -493,8 +544,11 @@
         "cookies. → buy four → She didn't"
       ],
       "hint": "Dùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
-      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
+      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -527,8 +581,11 @@
         "twenty stickers. → her sister → Olivia gave"
       ],
       "hint": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
-      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
+      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -561,8 +618,11 @@
         "test yesterday. → a math → They had"
       ],
       "hint": "Yesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
-      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
+      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -595,8 +655,11 @@
         "Alma buys five cookies."
       ],
       "hint": "Động từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
-      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung. Dạng quá khứ giống nhau với mọi chủ ngữ.",
+      "why": "Alma bought five cookies.\nĐộng từ bất quy tắc không thêm -ed theo một công thức chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Irregular past · Khẳng định",
@@ -626,8 +689,11 @@
         "She didn't buy four cookies."
       ],
       "hint": "Dùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
-      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ. Sau didn't dùng buy, give, have; không dùng bought, gave, had.",
+      "why": "She didn't buy four cookies.\nDùng didn't với mọi chủ ngữ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: didn't + base verb",
@@ -657,8 +723,11 @@
         "Olivia gived her sister twenty stickers."
       ],
       "hint": "Sau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
-      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều. Ngữ pháp quá khứ không làm mất đuôi số nhiều.",
+      "why": "Olivia gave her sister twenty stickers.\nSau two, three và các số lớn hơn one, danh từ đếm được cần ở số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Số lượng và danh từ",
@@ -688,8 +757,11 @@
         "They has a math test yesterday."
       ],
       "hint": "Yesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
-      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua. Không dùng dạng hiện tại cho hành động đã hoàn tất ở thời điểm đó.",
+      "why": "They had a math test yesterday.\nYesterday, last night và ago cho biết thời điểm đã qua.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Dấu hiệu thời gian",

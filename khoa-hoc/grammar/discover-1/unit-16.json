@@ -21,7 +21,10 @@
           "động từ-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu kể They are singing đổi thành câu hỏi Are they singing?",
+      "exampleVi": "Họ đang hát à?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Am I · Chủ ngữ I",
@@ -36,7 +39,10 @@
           "động từ-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Với I, câu hỏi bắt đầu bằng Am I.",
+      "exampleVi": "Tôi đang làm máy lắc à?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Is · he, she, it",
@@ -51,7 +57,10 @@
           "động từ-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Is đứng trước chủ ngữ số ít.",
+      "exampleVi": "Cô ấy đang nhảy à?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Are · you, we, they",
@@ -66,7 +75,10 @@
           "động từ-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Are dùng cho you, we, they và nhiều người.",
+      "exampleVi": "Chúng ta đang vui vẻ phải không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Trả lời ngắn · Yes",
@@ -88,7 +100,10 @@
           "→",
           "Yes, they are."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn khẳng định dùng Yes + đại từ + am/is/are.",
+      "exampleVi": "Vâng, đúng vậy.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Trả lời ngắn · No",
@@ -110,7 +125,10 @@
           "→",
           "No, they aren't."
         ]
-      ]
+      ],
+      "usage": "Sau No, dùng đúng đại từ rồi đến be phủ định: I'm not, he isn't, she isn't, we aren't, they aren't.",
+      "exampleVi": "Không, cô ấy không.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Câu hỏi mở · What",
@@ -127,7 +145,10 @@
           "doing",
           "?"
         ]
-      ]
+      ],
+      "usage": "What đứng đầu câu, sau đó vẫn giữ trật tự câu hỏi: What + am/is/are + chủ ngữ + doing?",
+      "exampleVi": "Họ đang làm gì vậy?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Ngữ điệu · Câu hỏi",
@@ -142,7 +163,10 @@
           "What are they doing?",
           "↘"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi Yes/No thường lên giọng ở cuối: Are they singing?",
+      "exampleVi": "Họ đang làm gì vậy?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -167,8 +191,11 @@
         "Be"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ they singing?",
@@ -196,8 +223,11 @@
         "Am"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ I making a shaker?",
@@ -225,8 +255,11 @@
         "Am"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ she dancing?",
@@ -254,8 +287,11 @@
         "Am"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ we having fun?",
@@ -283,8 +319,11 @@
         "Are"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Is] they singing?",
@@ -314,8 +353,11 @@
         "Is"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Is] I making a shaker?",
@@ -345,8 +387,11 @@
         "Are"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Am] she dancing?",
@@ -376,8 +421,11 @@
         "Be"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Is] we having fun?",
@@ -407,8 +455,11 @@
         "Is"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ they singing?\nWord bank: Am · Be · Are · Is",
@@ -439,8 +490,11 @@
         "Are"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ I making a shaker?\nWord bank: Be · Am · Is · Are",
@@ -471,8 +525,11 @@
         "Be"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ she dancing?\nWord bank: Is · Am · Are · Be",
@@ -503,8 +560,11 @@
         "Are"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ we having fun?\nWord bank: Is · Am · Be · Are",
@@ -535,8 +595,11 @@
         "singing? → they → Are"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -569,8 +632,11 @@
         "shaker? → making a → Am I"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -603,8 +669,11 @@
         "dancing? → she → Is"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -637,8 +706,11 @@
         "fun? → having → Are we"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -671,8 +743,11 @@
         "Be they singing?"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi Yes/No · Đảo be",
@@ -702,8 +777,11 @@
         "Am I making a shaker?"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Am I · Chủ ngữ I",
@@ -733,8 +811,11 @@
         "Am she dancing?"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Is · he, she, it",
@@ -764,8 +845,11 @@
         "Am we having fun?"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Are · you, we, they",

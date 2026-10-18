@@ -18,7 +18,10 @@
           "+",
           "động từ nguyên mẫu"
         ]
-      ]
+      ],
+      "usage": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "exampleVi": "Chúng tôi trồng hoa vào mùa xuân.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Khẳng định · Không thêm -s",
@@ -35,7 +38,10 @@
           "+",
           "build"
         ]
-      ]
+      ],
+      "usage": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "exampleVi": "Gia đình tôi và tôi làm bánh táo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phủ định · don't",
@@ -49,7 +55,10 @@
           "+",
           "động từ nguyên mẫu"
         ]
-      ]
+      ],
+      "usage": "Don't là dạng nói gọn của do not.",
+      "exampleVi": "Chúng tôi không xây dựng người tuyết vào mùa hè.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Câu hỏi · Do",
@@ -64,7 +73,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
+      "exampleVi": "Bạn có xem ong mật không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Trả lời ngắn · do / don't",
@@ -81,7 +93,10 @@
           "I / you / we / they",
           "don't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời khẳng định dùng Yes + chủ ngữ + do.",
+      "exampleVi": "Em đồng ý.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Chủ ngữ · Danh từ số nhiều",
@@ -98,7 +113,10 @@
           "→",
           "they"
         ]
-      ]
+      ],
+      "usage": "Một nhóm người hoặc vật có thể được thay bằng they.",
+      "exampleVi": "Những con chim ăn quả mọng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Ngữ điệu · Câu hỏi Yes/No",
@@ -113,7 +131,10 @@
           "Yes, I do. / No, I don't.",
           "↘"
         ]
-      ]
+      ],
+      "usage": "Khi đọc câu hỏi bắt đầu bằng Do, con lên giọng nhẹ ở cuối để người nghe nhận ra đây là câu hỏi Yes/No.",
+      "exampleVi": "Bạn có thích mùa thu không? Em đồng ý.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -138,8 +159,11 @@
         "to plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
+      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We ___ flowers in the spring.",
@@ -167,8 +191,11 @@
         "make"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
+      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My family and I ___ apple pies.",
@@ -196,8 +223,11 @@
         "builds"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
+      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We don't ___ a snowman in the summer.",
@@ -225,8 +255,11 @@
         "watching"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
+      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you ___ honeybees?",
@@ -254,8 +287,11 @@
         "plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
+      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We [plants] flowers in the spring.",
@@ -285,8 +321,11 @@
         "makes"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
+      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My family and I [makes] apple pies.",
@@ -316,8 +355,11 @@
         "building"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
+      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We don't [builds] a snowman in the summer.",
@@ -347,8 +389,11 @@
         "watched"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
+      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you [watches] honeybees?",
@@ -378,8 +423,11 @@
         "plants"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
+      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We ___ flowers in the spring.\nWord bank: planting · to plant · plant · plants",
@@ -410,8 +458,11 @@
         "making"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
+      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My family and I ___ apple pies.\nWord bank: to make · make · makes · making",
@@ -442,8 +493,11 @@
         "built"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
+      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We don't ___ a snowman in the summer.\nWord bank: build · builds · building · built",
@@ -474,8 +528,11 @@
         "watch"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
+      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Do you ___ honeybees?\nWord bank: watches · watching · watched · watch",
@@ -506,8 +563,11 @@
         "the spring. → flowers in → We plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
+      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -540,8 +600,11 @@
         "apple pies. → I make → My family and"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
+      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -574,8 +637,11 @@
         "the summer. → a snowman in → We don't build"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
+      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -608,8 +674,11 @@
         "honeybees? → watch → Do you"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
+      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -642,8 +711,11 @@
         "We to plant flowers in the spring."
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
+      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Hiện tại đơn · Thói quen và hoạt động",
@@ -673,8 +745,11 @@
         "My family and I make apple pies."
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
+      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Khẳng định · Không thêm -s",
@@ -704,8 +779,11 @@
         "We don't builds a snowman in the summer."
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
+      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · don't",
@@ -735,8 +813,11 @@
         "Do you watching honeybees?"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
+      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi · Do",

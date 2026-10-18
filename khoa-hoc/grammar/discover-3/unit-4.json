@@ -20,7 +20,10 @@
           ",",
           "present simple"
         ]
-      ]
+      ],
+      "usage": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
+      "exampleVi": "Nếu mọi người sống ở khu vực thành thị, họ sử dụng phương tiện giao thông công cộng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Clause order",
@@ -37,7 +40,10 @@
           "+",
           "if condition"
         ]
-      ]
+      ],
+      "usage": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
+      "exampleVi": "Mọi người đến phòng khám nếu họ bị bệnh.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "if and when",
@@ -54,7 +60,10 @@
           "=",
           "khi"
         ]
-      ]
+      ],
+      "usage": "If nhấn mạnh điều kiện.",
+      "exampleVi": "Khi một nhà máy mở ra, khu vực này sẽ thay đổi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Questions",
@@ -69,7 +78,10 @@
           "subject + verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
+      "exampleVi": "Điều gì xảy ra nếu một vùng ngoại ô phát triển?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -94,8 +106,11 @@
         "to live"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
-      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "If people ___ in an urban area, they use public transportation.",
@@ -123,8 +138,11 @@
         "are"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People visit a clinic if they ___ sick.",
@@ -152,8 +170,11 @@
         "open"
       ],
       "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
-      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When a factory ___, the area changes.",
@@ -181,8 +202,11 @@
         "growing"
       ],
       "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
-      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What happens if a suburb ___?",
@@ -210,8 +234,11 @@
         "live"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
-      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "If people [lives] in an urban area, they use public transportation.",
@@ -241,8 +268,11 @@
         "is"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People visit a clinic if they [is] sick.",
@@ -272,8 +302,11 @@
         "opening"
       ],
       "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
-      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When a factory [open], the area changes.",
@@ -303,8 +336,11 @@
         "to grow"
       ],
       "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
-      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What happens if a suburb [grow]?",
@@ -334,8 +370,11 @@
         "lives"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
-      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "If people ___ in an urban area, they use public transportation.\nWord bank: living · to live · live · lives",
@@ -366,8 +405,11 @@
         "am"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People visit a clinic if they ___ sick.\nWord bank: be · are · is · am",
@@ -398,8 +440,11 @@
         "to open"
       ],
       "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
-      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When a factory ___, the area changes.\nWord bank: opens · open · opening · to open",
@@ -430,8 +475,11 @@
         "grows"
       ],
       "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
-      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What happens if a suburb ___?\nWord bank: grow · growing · to grow · grows",
@@ -462,8 +510,11 @@
         "use public transportation. → an urban area, they → If people live in"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
-      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -496,8 +547,11 @@
         "are sick. → clinic if they → People visit a"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "area changes. → opens, the → When a factory"
       ],
       "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
-      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "suburb grows? → if a → What happens"
       ],
       "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
-      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +658,11 @@
         "If people to live in an urban area, they use public transportation."
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
-      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Real condition",
@@ -629,8 +692,11 @@
         "People visit a clinic if they are sick."
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Clause order",
@@ -660,8 +726,11 @@
         "When a factory open, the area changes."
       ],
       "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
-      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: if and when",
@@ -691,8 +760,11 @@
         "What happens if a suburb growing?"
       ],
       "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
-      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

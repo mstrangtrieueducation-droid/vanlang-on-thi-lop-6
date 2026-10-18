@@ -20,7 +20,10 @@
           "+",
           "danh từ số nhiều"
         ]
-      ]
+      ],
+      "usage": "A lot of diễn tả số lượng nhiều.",
+      "exampleVi": "Có rất nhiều hình dạng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "a lot of · Danh từ không đếm được",
@@ -34,7 +37,10 @@
           "+",
           "danh từ không đếm được"
         ]
-      ]
+      ],
+      "usage": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
+      "exampleVi": "Có rất nhiều màu sắc trong ảnh ghép.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "any · Phủ định",
@@ -55,7 +61,10 @@
           "+",
           "danh từ không đếm được"
         ]
-      ]
+      ],
+      "usage": "Với danh từ số nhiều dùng there aren't any.",
+      "exampleVi": "Không có hình tam giác nào cả.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "some · Khẳng định",
@@ -76,7 +85,10 @@
           "+",
           "danh từ không đếm được"
         ]
-      ]
+      ],
+      "usage": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
+      "exampleVi": "Có một số ngôi sao trong ảnh ghép.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -101,8 +113,11 @@
         "be"
       ],
       "hint": "A lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
-      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
+      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ a lot of shapes.",
@@ -132,6 +147,9 @@
       "hint": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "why": "There is a lot of color in the collage.\nVới color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ a lot of color in the collage.",
@@ -159,8 +177,11 @@
         "isn't"
       ],
       "hint": "Với danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
-      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
+      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ any triangles.",
@@ -190,6 +211,9 @@
       "hint": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "why": "There are some stars in the collage.\nSome thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ some stars in the collage.",
@@ -217,8 +241,11 @@
         "are"
       ],
       "hint": "A lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
-      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
+      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [is] a lot of shapes.",
@@ -250,6 +277,9 @@
       "hint": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "why": "There is a lot of color in the collage.\nVới color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [are] a lot of color in the collage.",
@@ -279,8 +309,11 @@
         "am not"
       ],
       "hint": "Với danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
-      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
+      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [isn't] any triangles.",
@@ -312,6 +345,9 @@
       "hint": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "why": "There are some stars in the collage.\nSome thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [is] some stars in the collage.",
@@ -341,8 +377,11 @@
         "is"
       ],
       "hint": "A lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
-      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
+      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ a lot of shapes.\nWord bank: am · be · are · is",
@@ -375,6 +414,9 @@
       "hint": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "why": "There is a lot of color in the collage.\nVới color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ a lot of color in the collage.\nWord bank: be · is · are · am",
@@ -405,8 +447,11 @@
         "not are"
       ],
       "hint": "Với danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
-      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
+      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ any triangles.\nWord bank: aren't · isn't · am not · not are",
@@ -439,6 +484,9 @@
       "hint": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "why": "There are some stars in the collage.\nSome thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ some stars in the collage.\nWord bank: is · am · be · are",
@@ -469,8 +517,11 @@
         "of shapes. → a lot → There are"
       ],
       "hint": "A lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
-      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
+      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -505,6 +556,9 @@
       "hint": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "why": "There is a lot of color in the collage.\nVới color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -537,8 +591,11 @@
         "triangles. → any → There aren't"
       ],
       "hint": "Với danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
-      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
+      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -573,6 +630,9 @@
       "hint": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "why": "There are some stars in the collage.\nSome thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -605,8 +665,11 @@
         "There be a lot of shapes."
       ],
       "hint": "A lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
-      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều. Với danh từ đếm được, danh từ ở số nhiều và dùng there are.",
+      "why": "There are a lot of shapes.\nA lot of diễn tả số lượng nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: a lot of · Danh từ đếm được",
@@ -638,6 +701,9 @@
       "hint": "Với color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "why": "There is a lot of color in the collage.\nVới color, paint hoặc art, dùng there is vì danh từ được xem như một khối lượng, không đếm từng đơn vị.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: a lot of · Danh từ không đếm được",
@@ -667,8 +733,11 @@
         "There isn't any triangles."
       ],
       "hint": "Với danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
-      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any. Với danh từ không đếm được dùng there isn't any.",
+      "why": "There aren't any triangles.\nVới danh từ số nhiều dùng there aren't any.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: any · Phủ định",
@@ -700,6 +769,9 @@
       "hint": "Some thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "why": "There are some stars in the collage.\nSome thường dùng trong câu khẳng định với cả danh từ số nhiều và danh từ không đếm được.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: some · Khẳng định",

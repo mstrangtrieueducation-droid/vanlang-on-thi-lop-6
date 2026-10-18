@@ -20,7 +20,10 @@
           "+",
           "past participle"
         ]
-      ]
+      ],
+      "usage": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "exampleVi": "Phóng viên đã phỏng vấn thị trưởng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Unspecified past",
@@ -37,7 +40,10 @@
           "->",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "exampleVi": "Người biên tập đã quyết định sử dụng tiêu đề nào.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Past participles",
@@ -52,7 +58,10 @@
           "irregular:",
           "write -> written, see -> seen"
         ]
-      ]
+      ],
+      "usage": "Write thành written, do thành done, go thành gone, see thành seen.",
+      "exampleVi": "Nhà báo đã viết một câu chuyện về một anh hùng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative and questions",
@@ -66,7 +75,10 @@
           "Have / Has + subject + past participle",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dạng nói gọn gồm haven't và hasn't.",
+      "exampleVi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -93,6 +105,9 @@
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The reporter ___ interviewed the mayor.",
@@ -120,8 +135,11 @@
         "has"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The editor ___ decided which headline to use.",
@@ -149,8 +167,11 @@
         "wrote"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The journalist has ___ a story about a hero.",
@@ -178,8 +199,11 @@
         "finds"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Has the editor ___ the mistake? No, she hasn't.",
@@ -209,6 +233,9 @@
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The reporter [have] interviewed the mayor.",
@@ -238,8 +265,11 @@
         "have"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The editor [have] decided which headline to use.",
@@ -269,8 +299,11 @@
         "write"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The journalist has [wrote] a story about a hero.",
@@ -300,8 +333,11 @@
         "finding"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Has the editor [find] the mistake? No, she hasn't.",
@@ -333,6 +369,9 @@
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The reporter ___ interviewed the mayor.\nWord bank: having · to have · has · have",
@@ -363,8 +402,11 @@
         "having"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The editor ___ decided which headline to use.\nWord bank: to have · has · have · having",
@@ -395,8 +437,11 @@
         "writes"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The journalist has ___ a story about a hero.\nWord bank: written · wrote · write · writes",
@@ -427,8 +472,11 @@
         "found"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Has the editor ___ the mistake? No, she hasn't.\nWord bank: find · finds · finding · found",
@@ -461,6 +509,9 @@
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -493,8 +544,11 @@
         "to use. → decided which headline → The editor has"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -527,8 +581,11 @@
         "about a hero. → written a story → The journalist has"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -561,8 +618,11 @@
         "No, she hasn't. → found the mistake? → Has the editor"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -597,6 +657,9 @@
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Form",
@@ -626,8 +689,11 @@
         "The editor has decided which headline to use."
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Unspecified past",
@@ -657,8 +723,11 @@
         "The journalist has wrote a story about a hero."
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Past participles",
@@ -688,8 +757,11 @@
         "Has the editor finds the mistake? No, she hasn't."
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative and questions",

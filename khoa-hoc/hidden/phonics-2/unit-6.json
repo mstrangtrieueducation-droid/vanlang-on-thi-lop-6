@@ -1,0 +1,684 @@
+{
+  "course": "phonics-2",
+  "unit": 6,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 59
+  },
+  "pictures": {
+    "fox": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-061.png",
+      "book": 2,
+      "page": 95
+    },
+    "log": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-062.png",
+      "book": 2,
+      "page": 95
+    },
+    "ox": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-063.png",
+      "book": 2,
+      "page": 95
+    },
+    "rod": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-064.png",
+      "book": 2,
+      "page": 95
+    },
+    "pot": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-065.png",
+      "book": 2,
+      "page": 97
+    },
+    "cot": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-067.png",
+      "book": 2,
+      "page": 97
+    },
+    "top": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-069.png",
+      "book": 2,
+      "page": 97
+    },
+    "mop": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-070.png",
+      "book": 2,
+      "page": 97
+    }
+  },
+  "questions": [
+    {
+      "word": "fox",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fox.",
+      "objects": [
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "log",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the log.",
+      "objects": [
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ox",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the ox.",
+      "objects": [
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rod",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rod.",
+      "objects": [
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pot",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pot.",
+      "objects": [
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cot",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cot.",
+      "objects": [
+        {
+          "word": "cot",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "top",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the top.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "top",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mop",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the mop.",
+      "objects": [
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "mop",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fox",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue fox.",
+      "objects": [
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": "blue"
+        },
+        {
+          "word": "fox",
+          "color": "red"
+        },
+        {
+          "word": "fox",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "log",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red log.",
+      "objects": [
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": "red"
+        },
+        {
+          "word": "log",
+          "color": "blue"
+        },
+        {
+          "word": "log",
+          "color": "green"
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ox",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green ox.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": "red"
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": "green"
+        },
+        {
+          "word": "ox",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "rod",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue rod.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": "blue"
+        },
+        {
+          "word": "rod",
+          "color": "red"
+        },
+        {
+          "word": "rod",
+          "color": "green"
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pot",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red pot.",
+      "objects": [
+        {
+          "word": "pot",
+          "color": "blue"
+        },
+        {
+          "word": "pot",
+          "color": "green"
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "cot",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green cot.",
+      "objects": [
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "cot",
+          "color": "green"
+        },
+        {
+          "word": "cot",
+          "color": "blue"
+        },
+        {
+          "word": "cot",
+          "color": "red"
+        },
+        {
+          "word": "fox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "top",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tops.",
+      "objects": [
+        {
+          "word": "top",
+          "color": null
+        },
+        {
+          "word": "top",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mop",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 mops.",
+      "objects": [
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "mop",
+          "color": null
+        },
+        {
+          "word": "mop",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fox",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 foxes.",
+      "objects": [
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "log",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 logs.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ox",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 oxen.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        },
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rod",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 rods.",
+      "objects": [
+        {
+          "word": "log",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "pot",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "rod",
+          "color": null
+        },
+        {
+          "word": "fox",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

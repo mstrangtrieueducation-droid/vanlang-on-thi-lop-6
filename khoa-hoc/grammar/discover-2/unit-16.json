@@ -26,7 +26,10 @@
           "+",
           "group"
         ]
-      ]
+      ],
+      "usage": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
+      "exampleVi": "Núi Đông là ngọn núi cao nhất.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "y → iest",
@@ -43,7 +46,10 @@
           "→",
           "the easiest"
         ]
-      ]
+      ],
+      "usage": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
+      "exampleVi": "Con dê ướt là nặng nhất.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Gấp đôi phụ âm",
@@ -60,7 +66,10 @@
           "→",
           "the wettest"
         ]
-      ]
+      ],
+      "usage": "Big → biggest, hot → hottest và wet → wettest.",
+      "exampleVi": "Đây là con dê ướt nhất.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu hỏi so sánh nhất",
@@ -77,7 +86,10 @@
           "superlative",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Is ...",
+      "exampleVi": "Ngọn núi nào cao nhất?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -102,8 +114,11 @@
         "most highest"
       ],
       "hint": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
-      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
+      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "East Mountain is the ___ mountain.",
@@ -133,6 +148,9 @@
       "hint": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "why": "The wet goat is the heaviest.\nTính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wet goat is the ___.",
@@ -160,8 +178,11 @@
         "wet"
       ],
       "hint": "Big → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
-      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
+      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This is the ___ goat.",
@@ -189,8 +210,11 @@
         "higher"
       ],
       "hint": "Dùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
-      "why": "Which mountain is the highest?\nDùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
+      "why": "Which mountain is the highest?\nDùng Is ...",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Which mountain is the ___?",
@@ -218,8 +242,11 @@
         "highest"
       ],
       "hint": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
-      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
+      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "East Mountain is the [high] mountain.",
@@ -251,6 +278,9 @@
       "hint": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "why": "The wet goat is the heaviest.\nTính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wet goat is the [heavy].",
@@ -280,8 +310,11 @@
         "wetter"
       ],
       "hint": "Big → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
-      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
+      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This is the [wet] goat.",
@@ -311,8 +344,11 @@
         "most highest"
       ],
       "hint": "Dùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
-      "why": "Which mountain is the highest?\nDùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
+      "why": "Which mountain is the highest?\nDùng Is ...",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Which mountain is the [high]?",
@@ -342,8 +378,11 @@
         "high"
       ],
       "hint": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
-      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
+      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "East Mountain is the ___ mountain.\nWord bank: higher · most highest · highest · high",
@@ -376,6 +415,9 @@
       "hint": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "why": "The wet goat is the heaviest.\nTính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The wet goat is the ___.\nWord bank: most heaviest · heaviest · heavy · heavier",
@@ -406,8 +448,11 @@
         "most wettest"
       ],
       "hint": "Big → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
-      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
+      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This is the ___ goat.\nWord bank: wettest · wet · wetter · most wettest",
@@ -438,8 +483,11 @@
         "highest"
       ],
       "hint": "Dùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
-      "why": "Which mountain is the highest?\nDùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
+      "why": "Which mountain is the highest?\nDùng Is ...",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Which mountain is the ___?\nWord bank: high · higher · most highest · highest",
@@ -470,8 +518,11 @@
         "highest mountain. → is the → East Mountain"
       ],
       "hint": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
-      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
+      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -506,6 +557,9 @@
       "hint": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "why": "The wet goat is the heaviest.\nTính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -538,8 +592,11 @@
         "goat. → the wettest → This is"
       ],
       "hint": "Big → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
-      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
+      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -572,8 +629,11 @@
         "highest? → is the → Which mountain"
       ],
       "hint": "Dùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
-      "why": "Which mountain is the highest?\nDùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
+      "why": "Which mountain is the highest?\nDùng Is ...",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -606,8 +666,11 @@
         "East Mountain is the most highest mountain."
       ],
       "hint": "So sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
-      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên. Với tính từ ngắn, thêm -est và luôn dùng the.",
+      "why": "East Mountain is the highest mountain.\nSo sánh nhất chọn một đối tượng nổi bật trong nhóm từ ba trở lên.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Short adjectives · the -est",
@@ -639,6 +702,9 @@
       "hint": "Tính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "why": "The wet goat is the heaviest.\nTính từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -est: heavy → heaviest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: y → iest",
@@ -668,8 +734,11 @@
         "This is the wet goat."
       ],
       "hint": "Big → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
-      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest. Không bỏ the trước dạng so sánh nhất.",
+      "why": "This is the wettest goat.\nBig → biggest, hot → hottest và wet → wettest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Gấp đôi phụ âm",
@@ -699,8 +768,11 @@
         "Which mountain is the higher?"
       ],
       "hint": "Dùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
-      "why": "Which mountain is the highest?\nDùng Is ... the ...est? cho câu hỏi yes/no. Dùng Which/Who + be + the ...est? để chọn trong một nhóm.",
+      "why": "Which mountain is the highest?\nDùng Is ...",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi so sánh nhất",

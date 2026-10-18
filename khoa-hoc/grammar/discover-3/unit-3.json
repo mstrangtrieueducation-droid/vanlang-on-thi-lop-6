@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
+      "exampleVi": "Cô ấy có thể đi trượt băng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "could",
@@ -34,7 +37,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Could là dạng quá khứ của can khi nói về khả năng chung.",
+      "exampleVi": "Anh ấy có thể đi câu cá khi anh ấy sống gần sông.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative forms",
@@ -48,7 +54,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Cannot thường được viết liền; dạng nói gọn là can't.",
+      "exampleVi": "Chúng tôi không thể đi trượt tuyết nếu không có tuyết.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions and short answers",
@@ -63,7 +72,10 @@
           "base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Không cần thêm do, does hoặc did.",
+      "exampleVi": "Họ có thể giúp đóng gói không? Vâng, họ có thể.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -88,8 +100,11 @@
         "went"
       ],
       "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
-      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She can ___ ice skating.",
@@ -117,8 +132,11 @@
         "go"
       ],
       "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
-      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He could ___ fishing when he lived near the river.",
@@ -146,8 +164,11 @@
         "goes"
       ],
       "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
-      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We couldn't ___ sledding without snow.",
@@ -175,8 +196,11 @@
         "helping"
       ],
       "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
-      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can they ___ with the packing? Yes, they can.",
@@ -204,8 +228,11 @@
         "go"
       ],
       "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
-      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She can [goes] ice skating.",
@@ -235,8 +262,11 @@
         "goes"
       ],
       "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
-      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He could [goes] fishing when he lived near the river.",
@@ -266,8 +296,11 @@
         "going"
       ],
       "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
-      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We couldn't [goes] sledding without snow.",
@@ -297,8 +330,11 @@
         "helped"
       ],
       "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
-      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can they [helps] with the packing? Yes, they can.",
@@ -328,8 +364,11 @@
         "goes"
       ],
       "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
-      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She can ___ ice skating.\nWord bank: going · went · go · goes",
@@ -360,8 +399,11 @@
         "going"
       ],
       "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
-      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "He could ___ fishing when he lived near the river.\nWord bank: went · go · goes · going",
@@ -392,8 +434,11 @@
         "went"
       ],
       "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
-      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We couldn't ___ sledding without snow.\nWord bank: go · goes · going · went",
@@ -424,8 +469,11 @@
         "help"
       ],
       "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
-      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Can they ___ with the packing? Yes, they can.\nWord bank: helps · helping · helped · help",
@@ -456,8 +504,11 @@
         "skating. → go ice → She can"
       ],
       "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
-      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -490,8 +541,11 @@
         "near the river. → when he lived → He could go fishing"
       ],
       "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
-      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -524,8 +578,11 @@
         "without snow. → go sledding → We couldn't"
       ],
       "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
-      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -558,8 +615,11 @@
         "Yes, they can. → with the packing? → Can they help"
       ],
       "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
-      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -592,8 +652,11 @@
         "She can went ice skating."
       ],
       "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
-      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: can",
@@ -623,8 +686,11 @@
         "He could go fishing when he lived near the river."
       ],
       "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
-      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: could",
@@ -654,8 +720,11 @@
         "We couldn't goes sledding without snow."
       ],
       "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
-      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative forms",
@@ -685,8 +754,11 @@
         "Can they helping with the packing? Yes, they can."
       ],
       "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
-      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions and short answers",

@@ -1,0 +1,694 @@
+{
+  "course": "phonics-4",
+  "unit": 1,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 11
+  },
+  "pictures": {
+    "blanket": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-002.png",
+      "book": 4,
+      "page": 89
+    },
+    "clock": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-003.png",
+      "book": 4,
+      "page": 89
+    },
+    "club": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-004.png",
+      "book": 4,
+      "page": 89
+    },
+    "broom": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-005.png",
+      "book": 4,
+      "page": 89
+    },
+    "crab": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-007.png",
+      "book": 4,
+      "page": 89
+    },
+    "crocodile": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-008.png",
+      "book": 4,
+      "page": 89
+    },
+    "fly": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-009.png",
+      "book": 4,
+      "page": 89
+    },
+    "flag": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-010.png",
+      "book": 4,
+      "page": 89
+    },
+    "globe": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-011.png",
+      "book": 4,
+      "page": 89
+    },
+    "glass": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-012.png",
+      "book": 4,
+      "page": 89
+    }
+  },
+  "questions": [
+    {
+      "word": "blanket",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the blanket.",
+      "objects": [
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "clock",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the clock.",
+      "objects": [
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "club",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the club.",
+      "objects": [
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "broom",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the broom.",
+      "objects": [
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "crab",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the crab.",
+      "objects": [
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "crocodile",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the crocodile.",
+      "objects": [
+        {
+          "word": "crocodile",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fly",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fly.",
+      "objects": [
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "fly",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "flag",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the flag.",
+      "objects": [
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "flag",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "blanket",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue blanket.",
+      "objects": [
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": "blue"
+        },
+        {
+          "word": "blanket",
+          "color": "red"
+        },
+        {
+          "word": "blanket",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "clock",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red clock.",
+      "objects": [
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": "red"
+        },
+        {
+          "word": "clock",
+          "color": "blue"
+        },
+        {
+          "word": "clock",
+          "color": "green"
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "club",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green club.",
+      "objects": [
+        {
+          "word": "club",
+          "color": "red"
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": "green"
+        },
+        {
+          "word": "club",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "broom",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue broom.",
+      "objects": [
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": "blue"
+        },
+        {
+          "word": "broom",
+          "color": "red"
+        },
+        {
+          "word": "broom",
+          "color": "green"
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "crab",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red crab.",
+      "objects": [
+        {
+          "word": "crab",
+          "color": "blue"
+        },
+        {
+          "word": "crab",
+          "color": "green"
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "crocodile",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green crocodile.",
+      "objects": [
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crocodile",
+          "color": "green"
+        },
+        {
+          "word": "crocodile",
+          "color": "blue"
+        },
+        {
+          "word": "crocodile",
+          "color": "red"
+        },
+        {
+          "word": "blanket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fly",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 flies.",
+      "objects": [
+        {
+          "word": "fly",
+          "color": null
+        },
+        {
+          "word": "fly",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "flag",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 flags.",
+      "objects": [
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "flag",
+          "color": null
+        },
+        {
+          "word": "flag",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "globe",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 globes.",
+      "objects": [
+        {
+          "word": "globe",
+          "color": null
+        },
+        {
+          "word": "globe",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "glass",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 glasses.",
+      "objects": [
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "glass",
+          "color": null
+        },
+        {
+          "word": "glass",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "blanket",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 blankets.",
+      "objects": [
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "clock",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 clocks.",
+      "objects": [
+        {
+          "word": "club",
+          "color": null
+        },
+        {
+          "word": "broom",
+          "color": null
+        },
+        {
+          "word": "crab",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "clock",
+          "color": null
+        },
+        {
+          "word": "blanket",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

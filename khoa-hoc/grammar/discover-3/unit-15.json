@@ -22,7 +22,10 @@
           "+",
           "noncount noun"
         ]
-      ]
+      ],
+      "usage": "Một số danh từ không thể đếm trực tiếp.",
+      "exampleVi": "Cây cần một cốc nước.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Plural measure words",
@@ -35,7 +38,10 @@
         [
           "two bottles of water"
         ]
-      ]
+      ],
+      "usage": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "exampleVi": "Chúng tôi sử dụng hai túi đất.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Common combinations",
@@ -54,7 +60,10 @@
           "a grain of",
           "pollen"
         ]
-      ]
+      ],
+      "usage": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "exampleVi": "Một con ong thu thập một giọt mật hoa.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Questions",
@@ -69,7 +78,10 @@
           "How much soil",
           "?"
         ]
-      ]
+      ],
+      "usage": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
+      "exampleVi": "Người làm vườn cần bao nhiêu bao đất?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -94,8 +106,11 @@
         "cup of a"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plant needs ___ water.",
@@ -125,6 +140,9 @@
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We used ___ soil.",
@@ -152,8 +170,11 @@
         "a drops of"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A bee collects ___ nectar.",
@@ -181,8 +202,11 @@
         "a"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ bags of soil do the gardeners need?",
@@ -210,8 +234,11 @@
         "a cup of"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plant needs [a cup] water.",
@@ -243,6 +270,9 @@
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We used [two bag of] soil.",
@@ -272,8 +302,11 @@
         "a drop"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A bee collects [a drops of] nectar.",
@@ -303,8 +336,11 @@
         "an"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How [much] bags of soil do the gardeners need?",
@@ -334,8 +370,11 @@
         "a cup"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plant needs ___ water.\nWord bank: a cups of · cup of a · a cup of · a cup",
@@ -368,6 +407,9 @@
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We used ___ soil.\nWord bank: two bag · two bags of · two bag of · two bags",
@@ -398,8 +440,11 @@
         "drop a"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A bee collects ___ nectar.\nWord bank: a drop of · a drops of · a drop · drop a",
@@ -430,8 +475,11 @@
         "many"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How ___ bags of soil do the gardeners need?\nWord bank: much · a · an · many",
@@ -462,8 +510,11 @@
         "of water. → a cup → The plant needs"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -498,6 +549,9 @@
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "of nectar. → a drop → A bee collects"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "the gardeners need? → of soil do → How many bags"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +658,11 @@
         "The plant needs cup of a water."
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Measure words",
@@ -631,6 +694,9 @@
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Plural measure words",
@@ -660,8 +726,11 @@
         "A bee collects a drops of nectar."
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Common combinations",
@@ -691,8 +760,11 @@
         "How a bags of soil do the gardeners need?"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

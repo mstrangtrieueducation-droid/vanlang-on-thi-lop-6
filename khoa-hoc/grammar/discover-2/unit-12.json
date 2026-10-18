@@ -19,7 +19,10 @@
           "danh từ số ít",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
+      "exampleVi": "Thùng carton ở đâu? Nó ở trên kệ.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Where are ...?",
@@ -32,7 +35,10 @@
           "danh từ số nhiều",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Where are với danh từ số nhiều.",
+      "exampleVi": "Giấy tờ đâu? Họ đang ở trong máy.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Is there ...?",
@@ -49,7 +55,10 @@
           "vị trí",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "exampleVi": "Có thùng carton trên kệ không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Are there ...?",
@@ -64,7 +73,10 @@
           "vị trí",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "exampleVi": "Có giấy tờ trong nhà máy tái chế không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -89,8 +101,11 @@
         "Where be"
       ],
       "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
-      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ the carton? It's on the shelf.",
@@ -118,8 +133,11 @@
         "are"
       ],
       "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
-      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where ___ the papers? They're in the machine.",
@@ -149,6 +167,9 @@
       "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there a carton on the shelf?",
@@ -178,6 +199,9 @@
       "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there papers in the recycling plant?",
@@ -205,8 +229,11 @@
         "Where's"
       ],
       "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
-      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Where are] the carton? It's on the shelf.",
@@ -236,8 +263,11 @@
         "is"
       ],
       "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
-      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where [is] the papers? They're in the machine.",
@@ -269,6 +299,9 @@
       "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Are] there a carton on the shelf?",
@@ -300,6 +333,9 @@
       "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Is] there papers in the recycling plant?",
@@ -329,8 +365,11 @@
         "Where are"
       ],
       "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
-      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ the carton? It's on the shelf.\nWord bank: Where am · Where be · Where's · Where are",
@@ -361,8 +400,11 @@
         "am"
       ],
       "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
-      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where ___ the papers? They're in the machine.\nWord bank: be · are · is · am",
@@ -395,6 +437,9 @@
       "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there a carton on the shelf?\nWord bank: Is · Are · Am · Be",
@@ -427,6 +472,9 @@
       "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there papers in the recycling plant?\nWord bank: Is · Am · Be · Are",
@@ -457,8 +505,11 @@
         "the shelf. → It's on → Where's the carton?"
       ],
       "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
-      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -491,8 +542,11 @@
         "the machine. → papers? They're in → Where are the"
       ],
       "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
-      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -527,6 +581,9 @@
       "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -561,6 +618,9 @@
       "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -593,8 +653,11 @@
         "Where be the carton? It's on the shelf."
       ],
       "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
-      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Where is ...?",
@@ -624,8 +687,11 @@
         "Where are the papers? They're in the machine."
       ],
       "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
-      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Where are ...?",
@@ -657,6 +723,9 @@
       "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Is there ...?",
@@ -688,6 +757,9 @@
       "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Are there ...?",

@@ -18,7 +18,10 @@
           "+",
           "have / has + past participle"
         ]
-      ]
+      ],
+      "usage": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại.",
+      "exampleVi": "Camila đã tạo ra một bản kiến ​​nghị.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Specific finished time",
@@ -32,7 +35,10 @@
           "+",
           "finished past time"
         ]
-      ]
+      ],
+      "usage": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "exampleVi": "Cô ấy đã đến thăm công viên biển vào thứ bảy tuần trước.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Experience then details",
@@ -45,7 +51,10 @@
         [
           "simple past details"
         ]
-      ]
+      ],
+      "usage": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "exampleVi": "Tôi đã nhìn thấy một con cá đuối. Tôi đã nhìn thấy một cái gần rạn san hô năm ngoái.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Still connected or finished?",
@@ -62,7 +71,10 @@
           "->",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
+      "exampleVi": "Luật mới đã bảo vệ rùa biển trong năm nay.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -87,8 +99,11 @@
         "creating"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
-      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Camila has ___ a petition.",
@@ -118,6 +133,9 @@
       "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She ___ the marine park last Saturday.",
@@ -147,6 +165,9 @@
       "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a manta ray. I ___ one near the reef last year.",
@@ -174,8 +195,11 @@
         "protects"
       ],
       "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
-      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The new law has ___ sea turtles this year.",
@@ -203,8 +227,11 @@
         "created"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
-      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Camila has [create] a petition.",
@@ -236,6 +263,9 @@
       "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She [has visited] the marine park last Saturday.",
@@ -267,6 +297,9 @@
       "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a manta ray. I [have seen] one near the reef last year.",
@@ -296,8 +329,11 @@
         "protecting"
       ],
       "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
-      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The new law has [protect] sea turtles this year.",
@@ -327,8 +363,11 @@
         "create"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
-      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Camila has ___ a petition.\nWord bank: creates · creating · created · create",
@@ -361,6 +400,9 @@
       "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She ___ the marine park last Saturday.\nWord bank: visiting · visited · has visited · has visit",
@@ -393,6 +435,9 @@
       "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I've seen a manta ray. I ___ one near the reef last year.\nWord bank: saw · have seen · have saw · seeing",
@@ -423,8 +468,11 @@
         "protected"
       ],
       "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
-      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The new law has ___ sea turtles this year.\nWord bank: protect · protects · protecting · protected",
@@ -455,8 +503,11 @@
         "petition. → created a → Camila has"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
-      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -491,6 +542,9 @@
       "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -525,6 +579,9 @@
       "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -557,8 +614,11 @@
         "turtles this year. → has protected sea → The new law"
       ],
       "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
-      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -591,8 +651,11 @@
         "Camila has creating a petition."
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
-      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Unspecified experience",
@@ -624,6 +687,9 @@
       "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Specific finished time",
@@ -655,6 +721,9 @@
       "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Experience then details",
@@ -684,8 +753,11 @@
         "The new law has protects sea turtles this year."
       ],
       "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
-      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Still connected or finished?",

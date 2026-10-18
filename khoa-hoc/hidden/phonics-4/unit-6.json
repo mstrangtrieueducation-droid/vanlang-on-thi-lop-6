@@ -1,0 +1,690 @@
+{
+  "course": "phonics-4",
+  "unit": 6,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 59
+  },
+  "pictures": {
+    "king": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-061.png",
+      "book": 4,
+      "page": 95
+    },
+    "bank": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-063.png",
+      "book": 4,
+      "page": 95
+    },
+    "hand": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-066.png",
+      "book": 4,
+      "page": 97
+    },
+    "tent": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-067.png",
+      "book": 4,
+      "page": 97
+    },
+    "belt": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-069.png",
+      "book": 4,
+      "page": 97
+    },
+    "lamp": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-071.png",
+      "book": 4,
+      "page": 97
+    }
+  },
+  "questions": [
+    {
+      "word": "king",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the king.",
+      "objects": [
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bank",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bank.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the hand.",
+      "objects": [
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tent.",
+      "objects": [
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "belt",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the belt.",
+      "objects": [
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lamp.",
+      "objects": [
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "king",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue king.",
+      "objects": [
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": "blue"
+        },
+        {
+          "word": "king",
+          "color": "red"
+        },
+        {
+          "word": "king",
+          "color": "green"
+        },
+        {
+          "word": "bank",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bank",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bank.",
+      "objects": [
+        {
+          "word": "bank",
+          "color": "red"
+        },
+        {
+          "word": "bank",
+          "color": "blue"
+        },
+        {
+          "word": "bank",
+          "color": "green"
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green hand.",
+      "objects": [
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": "green"
+        },
+        {
+          "word": "hand",
+          "color": "blue"
+        },
+        {
+          "word": "hand",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue tent.",
+      "objects": [
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": "blue"
+        },
+        {
+          "word": "tent",
+          "color": "red"
+        },
+        {
+          "word": "tent",
+          "color": "green"
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "belt",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red belt.",
+      "objects": [
+        {
+          "word": "belt",
+          "color": "green"
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": "red"
+        },
+        {
+          "word": "belt",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green lamp.",
+      "objects": [
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "lamp",
+          "color": "green"
+        },
+        {
+          "word": "lamp",
+          "color": "blue"
+        },
+        {
+          "word": "lamp",
+          "color": "red"
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "king",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 kings.",
+      "objects": [
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bank",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 banks.",
+      "objects": [
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 hands.",
+      "objects": [
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tent",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 tents.",
+      "objects": [
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "belt",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 belts.",
+      "objects": [
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lamps.",
+      "objects": [
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "lamp",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "king",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 kings.",
+      "objects": [
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bank",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 banks.",
+      "objects": [
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        },
+        {
+          "word": "king",
+          "color": null
+        },
+        {
+          "word": "hand",
+          "color": null
+        },
+        {
+          "word": "tent",
+          "color": null
+        },
+        {
+          "word": "belt",
+          "color": null
+        },
+        {
+          "word": "bank",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

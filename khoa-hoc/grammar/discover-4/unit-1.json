@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "exampleVi": "Các nhà khoa học sẽ khám phá những thiên hà mới.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -34,7 +37,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Đặt not ngay sau will.",
+      "exampleVi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions",
@@ -55,7 +61,10 @@
         [
           "No, subject won't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn dùng will hoặc won't.",
+      "exampleVi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Prediction language",
@@ -72,7 +81,10 @@
           "+",
           "will probably / probably won't"
         ]
-      ]
+      ],
+      "usage": "I think và I believe thường đứng trước mệnh đề có will.",
+      "exampleVi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -97,8 +109,11 @@
         "discovered"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
+      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists will ___ new galaxies.",
@@ -126,8 +141,11 @@
         "reach"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
+      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The spacecraft won't ___ the asteroid today.",
@@ -155,8 +173,11 @@
         "builds"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Will people ___ an observatory on the moon?",
@@ -184,8 +205,11 @@
         "traveling"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
+      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I think people will ___ across the solar system.",
@@ -213,8 +237,11 @@
         "discover"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
+      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists will [discovers] new galaxies.",
@@ -244,8 +271,11 @@
         "reaches"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
+      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The spacecraft won't [reaches] the asteroid today.",
@@ -275,8 +305,11 @@
         "building"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Will people [builds] an observatory on the moon?",
@@ -306,8 +339,11 @@
         "traveled"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
+      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I think people will [travels] across the solar system.",
@@ -337,8 +373,11 @@
         "discovers"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
+      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists will ___ new galaxies.\nWord bank: discovering · discovered · discover · discovers",
@@ -369,8 +408,11 @@
         "reaching"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
+      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The spacecraft won't ___ the asteroid today.\nWord bank: reached · reach · reaches · reaching",
@@ -401,8 +443,11 @@
         "built"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Will people ___ an observatory on the moon?\nWord bank: build · builds · building · built",
@@ -433,8 +478,11 @@
         "travel"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
+      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I think people will ___ across the solar system.\nWord bank: travels · traveling · traveled · travel",
@@ -465,8 +513,11 @@
         "galaxies. → discover new → Scientists will"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
+      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -499,8 +550,11 @@
         "asteroid today. → reach the → The spacecraft won't"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
+      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -533,8 +587,11 @@
         "the moon? → an observatory on → Will people build"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -567,8 +624,11 @@
         "the solar system. → will travel across → I think people"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
+      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -601,8 +661,11 @@
         "Scientists will discovered new galaxies."
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
+      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Affirmative",
@@ -632,8 +695,11 @@
         "The spacecraft won't reach the asteroid today."
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
+      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -663,8 +729,11 @@
         "Will people builds an observatory on the moon?"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",
@@ -694,8 +763,11 @@
         "I think people will traveling across the solar system."
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
+      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Prediction language",

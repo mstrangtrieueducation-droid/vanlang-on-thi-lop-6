@@ -1,0 +1,697 @@
+{
+  "course": "phonics-3",
+  "unit": 5,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 51
+  },
+  "pictures": {
+    "bee": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-049.png",
+      "book": 3,
+      "page": 95
+    },
+    "seed": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-051.png",
+      "book": 3,
+      "page": 95
+    },
+    "jeep": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-052.png",
+      "book": 3,
+      "page": 95
+    },
+    "leaf": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-053.png",
+      "book": 3,
+      "page": 95
+    },
+    "key": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-058.png",
+      "book": 3,
+      "page": 95
+    }
+  },
+  "questions": [
+    {
+      "word": "bee",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bee.",
+      "objects": [
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "seed",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the seed.",
+      "objects": [
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jeep",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the jeep.",
+      "objects": [
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the leaf.",
+      "objects": [
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the key.",
+      "objects": [
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bee",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue bee.",
+      "objects": [
+        {
+          "word": "bee",
+          "color": "red"
+        },
+        {
+          "word": "bee",
+          "color": "green"
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "seed",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red seed.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": "red"
+        },
+        {
+          "word": "seed",
+          "color": "blue"
+        },
+        {
+          "word": "seed",
+          "color": "green"
+        },
+        {
+          "word": "bee",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jeep",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green jeep.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": "green"
+        },
+        {
+          "word": "jeep",
+          "color": "blue"
+        },
+        {
+          "word": "jeep",
+          "color": "red"
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue leaf.",
+      "objects": [
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": "blue"
+        },
+        {
+          "word": "leaf",
+          "color": "red"
+        },
+        {
+          "word": "leaf",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red key.",
+      "objects": [
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": "red"
+        },
+        {
+          "word": "key",
+          "color": "blue"
+        },
+        {
+          "word": "key",
+          "color": "green"
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bee",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bee.",
+      "objects": [
+        {
+          "word": "bee",
+          "color": "green"
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": "red"
+        },
+        {
+          "word": "bee",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "seed",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 seeds.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jeep",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 jeeps.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 leaves.",
+      "objects": [
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 keys.",
+      "objects": [
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bee",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bees.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "seed",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 seeds.",
+      "objects": [
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jeep",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 jeeps.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 leaves.",
+      "objects": [
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 keys.",
+      "objects": [
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        },
+        {
+          "word": "bee",
+          "color": null
+        },
+        {
+          "word": "seed",
+          "color": null
+        },
+        {
+          "word": "jeep",
+          "color": null
+        },
+        {
+          "word": "leaf",
+          "color": null
+        },
+        {
+          "word": "key",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "course": "phonics-2",
+  "unit": 7,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 71
+  },
+  "pictures": {
+    "jug": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-075.png",
+      "book": 2,
+      "page": 97
+    },
+    "bug": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-077.png",
+      "book": 2,
+      "page": 97
+    },
+    "rug": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-078.png",
+      "book": 2,
+      "page": 97
+    },
+    "mug": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-079.png",
+      "book": 2,
+      "page": 97
+    },
+    "bud": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-080.png",
+      "book": 2,
+      "page": 97
+    },
+    "pup": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-082.png",
+      "book": 2,
+      "page": 99
+    },
+    "cup": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-083.png",
+      "book": 2,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "jug",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the jug.",
+      "objects": [
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bug",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bug.",
+      "objects": [
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rug",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rug.",
+      "objects": [
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mug",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the mug.",
+      "objects": [
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bud",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bud.",
+      "objects": [
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pup",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pup.",
+      "objects": [
+        {
+          "word": "pup",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "cup",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the cup.",
+      "objects": [
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "cup",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jug",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue jug.",
+      "objects": [
+        {
+          "word": "jug",
+          "color": "blue"
+        },
+        {
+          "word": "jug",
+          "color": "red"
+        },
+        {
+          "word": "jug",
+          "color": "green"
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bug",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bug.",
+      "objects": [
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": "red"
+        },
+        {
+          "word": "bug",
+          "color": "blue"
+        },
+        {
+          "word": "bug",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "rug",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green rug.",
+      "objects": [
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": "green"
+        },
+        {
+          "word": "rug",
+          "color": "blue"
+        },
+        {
+          "word": "rug",
+          "color": "red"
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mug",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue mug.",
+      "objects": [
+        {
+          "word": "mug",
+          "color": "green"
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": "blue"
+        },
+        {
+          "word": "mug",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "bud",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red bud.",
+      "objects": [
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": "red"
+        },
+        {
+          "word": "bud",
+          "color": "blue"
+        },
+        {
+          "word": "bud",
+          "color": "green"
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pup",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green pup.",
+      "objects": [
+        {
+          "word": "pup",
+          "color": "blue"
+        },
+        {
+          "word": "pup",
+          "color": "red"
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "pup",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "cup",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 cups.",
+      "objects": [
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "cup",
+          "color": null
+        },
+        {
+          "word": "cup",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "jug",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 jugs.",
+      "objects": [
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bug",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bugs.",
+      "objects": [
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rug",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 rugs.",
+      "objects": [
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mug",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 mugs.",
+      "objects": [
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bud",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 buds.",
+      "objects": [
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "bud",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        },
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pup",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pups.",
+      "objects": [
+        {
+          "word": "bug",
+          "color": null
+        },
+        {
+          "word": "rug",
+          "color": null
+        },
+        {
+          "word": "mug",
+          "color": null
+        },
+        {
+          "word": "pup",
+          "color": null
+        },
+        {
+          "word": "pup",
+          "color": null
+        },
+        {
+          "word": "jug",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

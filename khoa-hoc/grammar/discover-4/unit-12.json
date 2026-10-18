@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "exampleVi": "Người ta thường hiểu rất ít về trái tim.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "One time or repeated?",
@@ -37,7 +40,10 @@
           "->",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "exampleVi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -51,7 +57,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "exampleVi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions",
@@ -69,7 +78,10 @@
         [
           "Yes, subject did. / No, subject didn't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn dùng did hoặc didn't.",
+      "exampleVi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -96,6 +108,9 @@
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People ___ understand very little about the heart.",
@@ -123,8 +138,11 @@
         "used to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
+      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I ___ check my pulse every morning.",
@@ -152,8 +170,11 @@
         "used to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
+      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Doctors didn't ___ see capillaries clearly.",
@@ -181,8 +202,11 @@
         "using to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
+      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did people ___ know how the diaphragm worked?",
@@ -212,6 +236,9 @@
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People [use to] understand very little about the heart.",
@@ -241,8 +268,11 @@
         "use to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
+      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I [use to] check my pulse every morning.",
@@ -272,8 +302,11 @@
         "using to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
+      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Doctors didn't [used to] see capillaries clearly.",
@@ -303,8 +336,11 @@
         "uses to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
+      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did people [used to] know how the diaphragm worked?",
@@ -336,6 +372,9 @@
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "People ___ understand very little about the heart.\nWord bank: using to · used · used to · use to",
@@ -366,8 +405,11 @@
         "using to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
+      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I ___ check my pulse every morning.\nWord bank: used · used to · use to · using to",
@@ -398,8 +440,11 @@
         "uses to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
+      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Doctors didn't ___ see capillaries clearly.\nWord bank: use to · used to · using to · uses to",
@@ -430,8 +475,11 @@
         "use to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
+      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did people ___ know how the diaphragm worked?\nWord bank: used to · using to · uses to · use to",
@@ -464,6 +512,9 @@
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -496,8 +547,11 @@
         "every morning. → check my pulse → I used to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
+      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "capillaries clearly. → to see → Doctors didn't use"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
+      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "the diaphragm worked? → to know how → Did people use"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
+      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -600,6 +660,9 @@
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Past habit or state",
@@ -629,8 +692,11 @@
         "I used to check my pulse every morning."
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
+      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: One time or repeated?",
@@ -660,8 +726,11 @@
         "Doctors didn't used to see capillaries clearly."
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
+      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -691,8 +760,11 @@
         "Did people using to know how the diaphragm worked?"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
+      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

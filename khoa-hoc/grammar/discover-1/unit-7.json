@@ -18,7 +18,10 @@
           "+",
           "động từ có -s / -es"
         ]
-      ]
+      ],
+      "usage": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
+      "exampleVi": "Mùa xuân đến sau mùa đông.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Khẳng định · Thêm -s",
@@ -40,7 +43,10 @@
           "→",
           "gets"
         ]
-      ]
+      ],
+      "usage": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
+      "exampleVi": "Mưa giúp cây cối phát triển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Chính tả · -s / -es / -ies",
@@ -62,7 +68,10 @@
           "→",
           "carries"
         ]
-      ]
+      ],
+      "usage": "Phần lớn động từ chỉ thêm -s.",
+      "exampleVi": "Trời có tuyết vào mùa đông.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phủ định · doesn't",
@@ -76,7 +85,10 @@
           "+",
           "động từ nguyên mẫu"
         ]
-      ]
+      ],
+      "usage": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra.",
+      "exampleVi": "Vào mùa hè trời không có tuyết.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Chủ ngữ it · Thời tiết",
@@ -93,7 +105,10 @@
           "+",
           "rains / snows"
         ]
-      ]
+      ],
+      "usage": "Trong tiếng Anh, câu nói về thời tiết cần có chủ ngữ it.",
+      "exampleVi": "Bên ngoài trời trở nên mát mẻ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Get + tính từ · Sự thay đổi",
@@ -105,7 +120,10 @@
           "+",
           "warm / hot / cool / cold"
         ]
-      ]
+      ],
+      "usage": "Get + tính từ nhấn mạnh sự thay đổi trạng thái.",
+      "exampleVi": "Bên ngoài trời ấm dần.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Đuôi -s · Phát âm",
@@ -122,7 +140,10 @@
           "→",
           "âm cuối /z/"
         ]
-      ]
+      ],
+      "usage": "Đuôi -s có thể được đọc là /s/, /z/ hoặc /ɪz/ tùy âm đứng trước.",
+      "exampleVi": "Trời mưa rất nhiều.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -147,8 +168,11 @@
         "to come"
       ],
       "hint": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
-      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
+      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Spring ___ after winter.",
@@ -176,8 +200,11 @@
         "helps"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
-      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
+      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rain ___ plants grow.",
@@ -205,8 +232,11 @@
         "snow"
       ],
       "hint": "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
-      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
+      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It ___ in the winter.",
@@ -234,8 +264,11 @@
         "snowing"
       ],
       "hint": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
-      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
+      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It doesn't ___ in the summer.",
@@ -263,8 +296,11 @@
         "comes"
       ],
       "hint": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
-      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
+      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Spring [come] after winter.",
@@ -294,8 +330,11 @@
         "help"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
-      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
+      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rain [help] plants grow.",
@@ -325,8 +364,11 @@
         "snowing"
       ],
       "hint": "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
-      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
+      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It [snow] in the winter.",
@@ -356,8 +398,11 @@
         "snowed"
       ],
       "hint": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
-      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
+      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It doesn't [snows] in the summer.",
@@ -387,8 +432,11 @@
         "come"
       ],
       "hint": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
-      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
+      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Spring ___ after winter.\nWord bank: coming · to come · comes · come",
@@ -419,8 +467,11 @@
         "helping"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
-      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
+      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The rain ___ plants grow.\nWord bank: to help · helps · help · helping",
@@ -451,8 +502,11 @@
         "to snow"
       ],
       "hint": "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
-      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
+      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It ___ in the winter.\nWord bank: snows · snow · snowing · to snow",
@@ -483,8 +537,11 @@
         "snow"
       ],
       "hint": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
-      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
+      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "It doesn't ___ in the summer.\nWord bank: snows · snowing · snowed · snow",
@@ -515,8 +572,11 @@
         "winter. → after → Spring comes"
       ],
       "hint": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
-      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
+      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -549,8 +609,11 @@
         "grow. → helps plants → The rain"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
-      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
+      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -583,8 +646,11 @@
         "winter. → in the → It snows"
       ],
       "hint": "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
-      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
+      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -617,8 +683,11 @@
         "the summer. → snow in → It doesn't"
       ],
       "hint": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
-      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
+      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -651,8 +720,11 @@
         "Spring to come after winter."
       ],
       "hint": "Thì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
-      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên. Các mùa nối tiếp nhau theo một trật tự, còn thời tiết thường có những đặc điểm lặp lại. Vì vậy các câu mô tả mùa trong bài dùng thì Hiện tại đơn.",
+      "why": "Spring comes after winter.\nThì Hiện tại đơn diễn tả sự thật, thói quen và quy luật thường xuyên.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Hiện tại đơn · Sự thật và quy luật",
@@ -682,8 +754,11 @@
         "The rain helps plants grow."
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
-      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường. Spring, summer, the rain, the sun và the weather đều là chủ ngữ số ít nên động từ theo sau cũng dùng dạng này.",
+      "why": "The rain helps plants grow.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, con thêm -s vào động từ thường.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Khẳng định · Thêm -s",
@@ -713,8 +788,11 @@
         "It snow in the winter."
       ],
       "hint": "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
-      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s. Động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thường thêm -es. Nếu động từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -es. Một số động từ bất quy tắc cần ghi nhớ, như have thành has.",
+      "why": "It snows in the winter.\nPhần lớn động từ chỉ thêm -s.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Chính tả · -s / -es / -ies",
@@ -744,8 +822,11 @@
         "It doesn't snowing in the summer."
       ],
       "hint": "Với he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
-      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra. Khi đã có doesn't, động từ chính trở về dạng nguyên mẫu: doesn't snow, không dùng doesn't snows. Does not và doesn't đều đúng; doesn't tự nhiên hơn trong lời nói.",
+      "why": "It doesn't snow in the summer.\nVới he, she và it, con dùng doesn't để nói một việc không xảy ra.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · doesn't",

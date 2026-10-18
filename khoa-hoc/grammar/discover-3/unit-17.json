@@ -20,7 +20,10 @@
           "+",
           "place"
         ]
-      ]
+      ],
+      "usage": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "exampleVi": "Con tàu đi về hướng đảo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Across and through",
@@ -37,7 +40,10 @@
           "=",
           "đi xuyên bên trong"
         ]
-      ]
+      ],
+      "usage": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "exampleVi": "Con tàu di chuyển qua sương mù.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Up, down, around, past",
@@ -52,7 +58,10 @@
           "+",
           "place"
         ]
-      ]
+      ],
+      "usage": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "exampleVi": "Các nhà thám hiểm đi thuyền quanh bờ biển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Movement or position?",
@@ -69,7 +78,10 @@
           "→",
           "into / onto / toward"
         ]
-      ]
+      ],
+      "usage": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
+      "exampleVi": "Cơn bão di chuyển về phía bờ biển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -94,8 +106,11 @@
         "to sailed"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
+      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship ___ toward the island.",
@@ -123,8 +138,11 @@
         "moved"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
+      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship ___ through the fog.",
@@ -152,8 +170,11 @@
         "saileds"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
+      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The explorers ___ around the coast.",
@@ -181,8 +202,11 @@
         "moving"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
+      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The storm ___ toward the coast.",
@@ -210,8 +234,11 @@
         "sailed"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
+      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship [saileds] toward the island.",
@@ -241,8 +268,11 @@
         "moveds"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
+      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship [moveds] through the fog.",
@@ -272,8 +302,11 @@
         "sailing"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
+      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The explorers [saileds] around the coast.",
@@ -303,8 +336,11 @@
         "to moved"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
+      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The storm [moveds] toward the coast.",
@@ -334,8 +370,11 @@
         "saileds"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
+      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship ___ toward the island.\nWord bank: sailing · to sailed · sailed · saileds",
@@ -366,8 +405,11 @@
         "moving"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
+      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The ship ___ through the fog.\nWord bank: to moved · moved · moveds · moving",
@@ -398,8 +440,11 @@
         "to sailed"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
+      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The explorers ___ around the coast.\nWord bank: sailed · saileds · sailing · to sailed",
@@ -430,8 +475,11 @@
         "moved"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
+      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The storm ___ toward the coast.\nWord bank: moveds · moving · to moved · moved",
@@ -462,8 +510,11 @@
         "the island. → sailed toward → The ship"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
+      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -496,8 +547,11 @@
         "the fog. → moved through → The ship"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
+      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "the coast. → sailed around → The explorers"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
+      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "the coast. → moved toward → The storm"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
+      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +658,11 @@
         "The ship to sailed toward the island."
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
+      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Direction",
@@ -629,8 +692,11 @@
         "The ship moved through the fog."
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
+      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Across and through",
@@ -660,8 +726,11 @@
         "The explorers saileds around the coast."
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
+      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Up, down, around, past",
@@ -691,8 +760,11 @@
         "The storm moving toward the coast."
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
+      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Movement or position?",

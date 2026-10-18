@@ -20,7 +20,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
+      "exampleVi": "Trái đất sẽ hoàn thành một quỹ đạo khác.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -34,7 +37,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Đặt not sau will.",
+      "exampleVi": "Một phút sẽ không tự nhân lên.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions",
@@ -51,7 +57,10 @@
           "base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn dùng will hoặc won't.",
+      "exampleVi": "Trái đất sẽ mất bao lâu để quay quanh mặt trời?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "will and present facts",
@@ -68,7 +77,10 @@
           "→",
           "will"
         ]
-      ]
+      ],
+      "usage": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
+      "exampleVi": "Bây giờ Trái đất đang quay và nó sẽ tiếp tục quay.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -93,8 +105,11 @@
         "completed"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
-      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth will ___ another orbit.",
@@ -122,8 +137,11 @@
         "multiply"
       ],
       "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
-      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A minute won't ___ by itself.",
@@ -151,8 +169,11 @@
         "takes"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
-      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long will the Earth ___ to orbit the sun?",
@@ -180,8 +201,11 @@
         "keeping"
       ],
       "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
-      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth spins now, and it will ___ spinning.",
@@ -209,8 +233,11 @@
         "complete"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
-      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth will [completes] another orbit.",
@@ -240,8 +267,11 @@
         "multiplies"
       ],
       "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
-      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A minute won't [multiplies] by itself.",
@@ -271,8 +301,11 @@
         "taking"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
-      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long will the Earth [takes] to orbit the sun?",
@@ -302,8 +335,11 @@
         "kept"
       ],
       "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
-      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth spins now, and it will [keeps] spinning.",
@@ -333,8 +369,11 @@
         "completes"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
-      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth will ___ another orbit.\nWord bank: completing · completed · complete · completes",
@@ -365,8 +404,11 @@
         "multiplying"
       ],
       "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
-      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A minute won't ___ by itself.\nWord bank: multiplied · multiply · multiplies · multiplying",
@@ -397,8 +439,11 @@
         "took"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
-      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long will the Earth ___ to orbit the sun?\nWord bank: take · takes · taking · took",
@@ -429,8 +474,11 @@
         "keep"
       ],
       "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
-      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The Earth spins now, and it will ___ spinning.\nWord bank: keeps · keeping · kept · keep",
@@ -461,8 +509,11 @@
         "another orbit. → will complete → The Earth"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
-      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -495,8 +546,11 @@
         "by itself. → won't multiply → A minute"
       ],
       "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
-      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -529,8 +583,11 @@
         "orbit the sun? → Earth take to → How long will the"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
-      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -563,8 +620,11 @@
         "will keep spinning. → now, and it → The Earth spins"
       ],
       "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
-      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -597,8 +657,11 @@
         "The Earth will completed another orbit."
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
-      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Future facts",
@@ -628,8 +691,11 @@
         "A minute won't multiply by itself."
       ],
       "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
-      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -659,8 +725,11 @@
         "How long will the Earth takes to orbit the sun?"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
-      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",
@@ -690,8 +759,11 @@
         "The Earth spins now, and it will keeping spinning."
       ],
       "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
-      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: will and present facts",

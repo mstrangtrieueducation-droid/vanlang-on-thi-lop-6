@@ -19,7 +19,10 @@
           "base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Sau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "exampleVi": "Tôi có nên đặt phong cảnh này vào khung không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Shall we...?",
@@ -32,7 +35,10 @@
           "base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "exampleVi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "I'll...",
@@ -44,7 +50,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "I'll là dạng nói gọn của I will.",
+      "exampleVi": "Tôi sẽ giải thích phối cảnh trong bức tranh này.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Choosing the form",
@@ -61,7 +70,10 @@
           "->",
           "offer or promise"
         ]
-      ]
+      ],
+      "usage": "Shall I frame it?",
+      "exampleVi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -86,8 +98,11 @@
         "to put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
+      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall I ___ this landscape in a frame?",
@@ -115,8 +130,11 @@
         "visit"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
+      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall we ___ the art exhibition?",
@@ -144,8 +162,11 @@
         "explains"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
+      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I'll ___ the perspective in this painting.",
@@ -173,8 +194,11 @@
         "adding"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
+      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The picture looks pale. I'll ___ some brilliant color.",
@@ -202,8 +226,11 @@
         "put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
+      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall I [puts] this landscape in a frame?",
@@ -233,8 +260,11 @@
         "visits"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
+      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall we [visits] the art exhibition?",
@@ -264,8 +294,11 @@
         "explaining"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
+      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I'll [explains] the perspective in this painting.",
@@ -295,8 +328,11 @@
         "added"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
+      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The picture looks pale. I'll [adds] some brilliant color.",
@@ -326,8 +362,11 @@
         "puts"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
+      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall I ___ this landscape in a frame?\nWord bank: putting · to put · put · puts",
@@ -358,8 +397,11 @@
         "visiting"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
+      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Shall we ___ the art exhibition?\nWord bank: visited · visit · visits · visiting",
@@ -390,8 +432,11 @@
         "explained"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
+      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I'll ___ the perspective in this painting.\nWord bank: explain · explains · explaining · explained",
@@ -422,8 +467,11 @@
         "add"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
+      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The picture looks pale. I'll ___ some brilliant color.\nWord bank: adds · adding · added · add",
@@ -454,8 +502,11 @@
         "a frame? → this landscape in → Shall I put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
+      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -488,8 +539,11 @@
         "art exhibition? → visit the → Shall we"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
+      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -522,8 +576,11 @@
         "this painting. → perspective in → I'll explain the"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
+      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -556,8 +613,11 @@
         "some brilliant color. → pale. I'll add → The picture looks"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
+      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -590,8 +650,11 @@
         "Shall I to put this landscape in a frame?"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
+      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Shall I...?",
@@ -621,8 +684,11 @@
         "Shall we visit the art exhibition?"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
+      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Shall we...?",
@@ -652,8 +718,11 @@
         "I'll explains the perspective in this painting."
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
+      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: I'll...",
@@ -683,8 +752,11 @@
         "The picture looks pale. I'll adding some brilliant color."
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
+      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Choosing the form",

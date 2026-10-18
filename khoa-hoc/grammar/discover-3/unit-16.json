@@ -22,7 +22,10 @@
           "+",
           "noun / V-ing"
         ]
-      ]
+      ],
+      "usage": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
+      "exampleVi": "Các bạn trẻ quan tâm đến khu vườn cộng đồng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "of, in, at, about",
@@ -49,7 +52,10 @@
           "+",
           "about"
         ]
-      ]
+      ],
+      "usage": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
+      "exampleVi": "Người làm vườn tự hào về những hạt đậu.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "After the preposition",
@@ -61,7 +67,10 @@
           "+",
           "noun / object pronoun / verb-ing"
         ]
-      ]
+      ],
+      "usage": "Nếu theo sau là một hoạt động, động từ thêm -ing.",
+      "exampleVi": "Họ rất giỏi trồng khoai lang.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Questions",
@@ -78,7 +87,10 @@
           "adjective + preposition",
           "?"
         ]
-      ]
+      ],
+      "usage": "What are you interested in?",
+      "exampleVi": "Đám đông hào hứng vì điều gì?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -105,6 +117,9 @@
       "hint": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "why": "The teenagers are interested in the community garden.\nNên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The teenagers are interested ___ the community garden.",
@@ -132,8 +147,11 @@
         "of"
       ],
       "hint": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
-      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
+      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The gardener is proud ___ the beans.",
@@ -161,8 +179,11 @@
         "grow"
       ],
       "hint": "Nếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
-      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
+      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They are good at ___ sweet potatoes.",
@@ -190,8 +211,11 @@
         "at about"
       ],
       "hint": "What are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
-      "why": "What is the crowd excited about?\nWhat are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
+      "why": "What is the crowd excited about?\nWhat are you interested in?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What is the crowd excited ___?",
@@ -221,6 +245,9 @@
       "hint": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "why": "The teenagers are interested in the community garden.\nNên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The teenagers are interested [at] the community garden.",
@@ -250,8 +277,11 @@
         "at"
       ],
       "hint": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
-      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
+      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The gardener is proud [at] the beans.",
@@ -281,8 +311,11 @@
         "grows"
       ],
       "hint": "Nếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
-      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
+      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They are good at [grow] sweet potatoes.",
@@ -312,8 +345,11 @@
         "in about"
       ],
       "hint": "What are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
-      "why": "What is the crowd excited about?\nWhat are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
+      "why": "What is the crowd excited about?\nWhat are you interested in?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What is the crowd excited [of about]?",
@@ -345,6 +381,9 @@
       "hint": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "why": "The teenagers are interested in the community garden.\nNên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The teenagers are interested ___ the community garden.\nWord bank: of · on · in · at",
@@ -375,8 +414,11 @@
         "in"
       ],
       "hint": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
-      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
+      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The gardener is proud ___ the beans.\nWord bank: on · of · at · in",
@@ -407,8 +449,11 @@
         "grew"
       ],
       "hint": "Nếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
-      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
+      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They are good at ___ sweet potatoes.\nWord bank: growing · grow · grows · grew",
@@ -439,8 +484,11 @@
         "about"
       ],
       "hint": "What are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
-      "why": "What is the crowd excited about?\nWhat are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
+      "why": "What is the crowd excited about?\nWhat are you interested in?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What is the crowd excited ___?\nWord bank: of about · at about · in about · about",
@@ -473,6 +521,9 @@
       "hint": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "why": "The teenagers are interested in the community garden.\nNên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -505,8 +556,11 @@
         "the beans. → proud of → The gardener is"
       ],
       "hint": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
-      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
+      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -539,8 +593,11 @@
         "sweet potatoes. → at growing → They are good"
       ],
       "hint": "Nếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
-      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
+      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -573,8 +630,11 @@
         "excited about? → the crowd → What is"
       ],
       "hint": "What are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
-      "why": "What is the crowd excited about?\nWhat are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
+      "why": "What is the crowd excited about?\nWhat are you interested in?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -609,6 +669,9 @@
       "hint": "Nên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "why": "The teenagers are interested in the community garden.\nNên học cả cụm thay vì dịch từng từ: interested in, afraid of, good at, proud of, curious about.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Adjective + preposition",
@@ -638,8 +701,11 @@
         "The gardener is proud of the beans."
       ],
       "hint": "Afraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
-      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about. Không thể đổi tùy ý dù tiếng Việt có thể giống nhau.",
+      "why": "The gardener is proud of the beans.\nAfraid/proud thường đi với of; interested với in; good với at; curious/excited với about.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: of, in, at, about",
@@ -669,8 +735,11 @@
         "They are good at grow sweet potatoes."
       ],
       "hint": "Nếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
-      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing. Không dùng động từ nguyên mẫu ngay sau giới từ trong các cụm này.",
+      "why": "They are good at growing sweet potatoes.\nNếu theo sau là một hoạt động, động từ thêm -ing.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: After the preposition",
@@ -700,8 +769,11 @@
         "What is the crowd excited at about?"
       ],
       "hint": "What are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
-      "why": "What is the crowd excited about?\nWhat are you interested in? và What is she afraid of? là trật tự tự nhiên. Không bỏ giới từ ở cuối câu.",
+      "why": "What is the crowd excited about?\nWhat are you interested in?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

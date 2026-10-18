@@ -22,7 +22,10 @@
           "+",
           "future time"
         ]
-      ]
+      ],
+      "usage": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "exampleVi": "Ngày mai chúng ta sẽ mua nguyên liệu.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Now or future?",
@@ -39,7 +42,10 @@
           "+",
           "future time"
         ]
-      ]
+      ],
+      "usage": "Now, right now và at the moment thường chỉ hiện tại.",
+      "exampleVi": "Tàu hơi nước sẽ chở mía vào tuần tới.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -53,7 +59,10 @@
           "+",
           "verb-ing"
         ]
-      ]
+      ],
+      "usage": "Có thể dùng isn't và aren't trong lời nói.",
+      "exampleVi": "Đồn điền không xuất khẩu vani trong tháng này.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Questions",
@@ -70,7 +79,10 @@
           "verb-ing",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi Wh- đặt từ hỏi trước be.",
+      "exampleVi": "Khi nào họ sẽ giao quế?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -95,8 +107,11 @@
         "bought"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
+      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We are ___ the ingredients tomorrow.",
@@ -124,8 +139,11 @@
         "carrying"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
+      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The steamship is ___ sugar cane next week.",
@@ -153,8 +171,11 @@
         "export"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
+      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plantation isn't ___ vanilla this month.",
@@ -182,8 +203,11 @@
         "delivers"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
+      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When are they ___ the cinnamon?",
@@ -211,8 +235,11 @@
         "buying"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
+      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We are [buy] the ingredients tomorrow.",
@@ -242,8 +269,11 @@
         "carry"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
+      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The steamship is [carry] sugar cane next week.",
@@ -273,8 +303,11 @@
         "exports"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
+      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plantation isn't [export] vanilla this month.",
@@ -304,8 +337,11 @@
         "delivered"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
+      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When are they [deliver] the cinnamon?",
@@ -335,8 +371,11 @@
         "buy"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
+      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We are ___ the ingredients tomorrow.\nWord bank: buys · bought · buying · buy",
@@ -367,8 +406,11 @@
         "carries"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
+      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The steamship is ___ sugar cane next week.\nWord bank: carried · carrying · carry · carries",
@@ -399,8 +441,11 @@
         "exported"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
+      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The plantation isn't ___ vanilla this month.\nWord bank: exporting · export · exports · exported",
@@ -431,8 +476,11 @@
         "delivering"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
+      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When are they ___ the cinnamon?\nWord bank: deliver · delivers · delivered · delivering",
@@ -463,8 +511,11 @@
         "ingredients tomorrow. → buying the → We are"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
+      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -497,8 +548,11 @@
         "next week. → carrying sugar cane → The steamship is"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
+      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -531,8 +585,11 @@
         "this month. → exporting vanilla → The plantation isn't"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
+      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -565,8 +622,11 @@
         "the cinnamon? → they delivering → When are"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
+      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -599,8 +659,11 @@
         "We are bought the ingredients tomorrow."
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
+      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Future arrangement",
@@ -630,8 +693,11 @@
         "The steamship is carrying sugar cane next week."
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
+      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Now or future?",
@@ -661,8 +727,11 @@
         "The plantation isn't export vanilla this month."
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
+      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -692,8 +761,11 @@
         "When are they delivers the cinnamon?"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
+      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Questions",

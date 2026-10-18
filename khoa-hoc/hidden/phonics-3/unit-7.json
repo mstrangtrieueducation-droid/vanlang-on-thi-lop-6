@@ -1,0 +1,683 @@
+{
+  "course": "phonics-3",
+  "unit": 7,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 71
+  },
+  "pictures": {
+    "boat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-073.png",
+      "book": 3,
+      "page": 97
+    },
+    "coat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-074.png",
+      "book": 3,
+      "page": 97
+    },
+    "bow": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-077.png",
+      "book": 3,
+      "page": 97
+    },
+    "pillow": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-080.png",
+      "book": 3,
+      "page": 97
+    },
+    "goat": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-081.png",
+      "book": 3,
+      "page": 99
+    },
+    "toad": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-082.png",
+      "book": 3,
+      "page": 99
+    },
+    "window": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-084.png",
+      "book": 3,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "boat",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the boat.",
+      "objects": [
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "coat",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the coat.",
+      "objects": [
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bow",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bow.",
+      "objects": [
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pillow",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pillow.",
+      "objects": [
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "goat",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the goat.",
+      "objects": [
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "toad",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the toad.",
+      "objects": [
+        {
+          "word": "toad",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "window",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the window.",
+      "objects": [
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "window",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boat",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue boat.",
+      "objects": [
+        {
+          "word": "boat",
+          "color": "blue"
+        },
+        {
+          "word": "boat",
+          "color": "red"
+        },
+        {
+          "word": "boat",
+          "color": "green"
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "coat",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red coat.",
+      "objects": [
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": "red"
+        },
+        {
+          "word": "coat",
+          "color": "blue"
+        },
+        {
+          "word": "coat",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "bow",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green bow.",
+      "objects": [
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": "green"
+        },
+        {
+          "word": "bow",
+          "color": "blue"
+        },
+        {
+          "word": "bow",
+          "color": "red"
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pillow",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue pillow.",
+      "objects": [
+        {
+          "word": "pillow",
+          "color": "green"
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": "blue"
+        },
+        {
+          "word": "pillow",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "goat",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red goat.",
+      "objects": [
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": "red"
+        },
+        {
+          "word": "goat",
+          "color": "blue"
+        },
+        {
+          "word": "goat",
+          "color": "green"
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "toad",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green toad.",
+      "objects": [
+        {
+          "word": "toad",
+          "color": "blue"
+        },
+        {
+          "word": "toad",
+          "color": "red"
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "toad",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "window",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 windows.",
+      "objects": [
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "window",
+          "color": null
+        },
+        {
+          "word": "window",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 boats.",
+      "objects": [
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "coat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 coats.",
+      "objects": [
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bow",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bows.",
+      "objects": [
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pillow",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pillows.",
+      "objects": [
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "goat",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 goats.",
+      "objects": [
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "goat",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        },
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "toad",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 toads.",
+      "objects": [
+        {
+          "word": "coat",
+          "color": null
+        },
+        {
+          "word": "bow",
+          "color": null
+        },
+        {
+          "word": "pillow",
+          "color": null
+        },
+        {
+          "word": "toad",
+          "color": null
+        },
+        {
+          "word": "toad",
+          "color": null
+        },
+        {
+          "word": "boat",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

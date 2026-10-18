@@ -10,3 +10,5 @@ for(const c of Object.values(courses)){
 console.log(`${Object.keys(courses).length} courses; ${Object.values(courses).reduce((n,c)=>n+c.lessons.length,0)} lessons; ${Object.values(courses).reduce((n,c)=>n+c.lessons.reduce((n,l)=>n+l.items.length,0),0)} questions.`);
 require('../vu-tru/build-catalog.cjs');
 require('./build-grammar.cjs').write();
+
+require('./build-hidden.cjs').write();

@@ -1,0 +1,8 @@
+const fs=require('fs'),crypto=require('crypto');
+const courses=['phonics-1','phonics-2','phonics-3','phonics-4','family-friends-1','family-friends-2','discover-1','discover-2','discover-3','discover-4'];
+const groups=new Map();let total=0;
+for(const course of courses){const d=require('./khoa-hoc/data/'+course+'.json');for(const lesson of d.lessons)for(const q of lesson.items||[]){total++;const semantic=[q.scene||'',q.prompt||'',q.answer,q.options||[],q.picturePrompt||null,q.pictureOptions||null,q.spokenScene||'',q.inputMode||''];const hash=crypto.createHash('sha256').update(JSON.stringify(semantic)).digest('hex');if(!groups.has(hash))groups.set(hash,[]);groups.get(hash).push({course,lesson:lesson.id,id:q.id,unit:q.unit||lesson.unit,source:q.source||q.storySource});}}
+for(const unit of require('./fighter/data.js').units)for(const q of unit.tasks||[]){total++;const key=crypto.createHash('sha256').update(JSON.stringify([q.kind,q.sentence,q.excerpt,q.prompt,q.answer,q.choices,q.passage])).digest('hex');if(!groups.has(key))groups.set(key,[]);groups.get(key).push({course:'fighter',lesson:unit.id,id:q.id,unit:unit.unit,source:q.origin});}
+const duplicates=[...groups].filter(([,v])=>v.length>1).map(([hash,occurrences])=>({hash,occurrences}));
+fs.writeFileSync('khoa-hoc/program/question-duplicates.json',JSON.stringify({total,unique:groups.size,duplicateGroups:duplicates.length,extraCopies:duplicates.reduce((n,g)=>n+g.occurrences.length-1,0),policy:'Review repetitions identified explicitly. Replacement requires source-aligned authored content and matching cloud answer-bank deployment; no cosmetic renumbering.',groups:duplicates},null,2));console.log({total,unique:groups.size,duplicateGroups:duplicates.length});
+

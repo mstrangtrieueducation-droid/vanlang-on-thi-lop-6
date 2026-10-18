@@ -28,7 +28,10 @@
           "+",
           "noun"
         ]
-      ]
+      ],
+      "usage": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
+      "exampleVi": "Nhà khoa học đã nghiên cứu một loại virus hình tròn nhỏ bất thường.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Opinion before fact",
@@ -42,7 +45,10 @@
           "+",
           "noun"
         ]
-      ]
+      ],
+      "usage": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
+      "exampleVi": "Họ tìm thấy vi khuẩn nhỏ nguy hiểm.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "No plural ending",
@@ -54,7 +60,10 @@
           "+",
           "singular or plural noun"
         ]
-      ]
+      ],
+      "usage": "Không thêm -s vào tính từ trước danh từ số nhiều.",
+      "exampleVi": "Kính hiển vi cho thấy một số tế bào nhỏ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "After be",
@@ -68,7 +77,10 @@
           "+",
           "adjective, adjective and adjective"
         ]
-      ]
+      ],
+      "usage": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
+      "exampleVi": "Chất nhầy đặc, dính và nhợt nhạt.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -93,8 +105,11 @@
         "a tiny round unusual"
       ],
       "hint": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
-      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
+      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The scientist studied ___ virus.",
@@ -122,8 +137,11 @@
         "dangerous small"
       ],
       "hint": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
-      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
+      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They found ___ bacteria.",
@@ -151,8 +169,11 @@
         "tinies"
       ],
       "hint": "Không thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
-      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
+      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The microscope shows several ___ cells.",
@@ -180,8 +201,11 @@
         "thickness"
       ],
       "hint": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
-      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
+      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The mucus is ___, sticky and pale.",
@@ -209,8 +233,11 @@
         "an unusual tiny round"
       ],
       "hint": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
-      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
+      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The scientist studied [a round tiny unusual] virus.",
@@ -240,8 +267,11 @@
         "small dangerously"
       ],
       "hint": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
-      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
+      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They found [small dangerously] bacteria.",
@@ -271,8 +301,11 @@
         "tinys"
       ],
       "hint": "Không thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
-      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
+      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The microscope shows several [tinies] cells.",
@@ -302,8 +335,11 @@
         "thicks"
       ],
       "hint": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
-      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
+      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The mucus is [thickly], sticky and pale.",
@@ -333,8 +369,11 @@
         "a round tiny unusual"
       ],
       "hint": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
-      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
+      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The scientist studied ___ virus.\nWord bank: an tiny unusual round · a tiny round unusual · an unusual tiny round · a round tiny unusual",
@@ -365,8 +404,11 @@
         "dangerously smalls"
       ],
       "hint": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
-      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
+      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "They found ___ bacteria.\nWord bank: dangers small · dangerous small · small dangerously · dangerously smalls",
@@ -397,8 +439,11 @@
         "tinily"
       ],
       "hint": "Không thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
-      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
+      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The microscope shows several ___ cells.\nWord bank: tiny · tinies · tinys · tinily",
@@ -429,8 +474,11 @@
         "thick"
       ],
       "hint": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
-      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
+      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The mucus is ___, sticky and pale.\nWord bank: thickly · thickness · thicks · thick",
@@ -461,8 +509,11 @@
         "round virus. → an unusual tiny → The scientist studied"
       ],
       "hint": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
-      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
+      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -495,8 +546,11 @@
         "bacteria. → dangerous small → They found"
       ],
       "hint": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
-      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
+      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -529,8 +583,11 @@
         "tiny cells. → shows several → The microscope"
       ],
       "hint": "Không thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
-      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
+      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -563,8 +620,11 @@
         "and pale. → thick, sticky → The mucus is"
       ],
       "hint": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
-      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
+      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -597,8 +657,11 @@
         "The scientist studied a tiny round unusual virus."
       ],
       "hint": "Trật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
-      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ. Không nhất thiết câu nào cũng có đủ các nhóm.",
+      "why": "The scientist studied an unusual tiny round virus.\nTrật tự thường gặp là opinion, size, age, shape, color, origin, material, purpose rồi đến danh từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Basic order",
@@ -628,8 +691,11 @@
         "They found dangerous small bacteria."
       ],
       "hint": "Fascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
-      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc. Đặt đánh giá trước các đặc điểm dễ quan sát.",
+      "why": "They found dangerous small bacteria.\nFascinating và dangerous thể hiện đánh giá; tiny, round và gray mô tả kích thước, hình dạng, màu sắc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Opinion before fact",
@@ -659,8 +725,11 @@
         "The microscope shows several tinies cells."
       ],
       "hint": "Không thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
-      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều. Chỉ danh từ mang dấu hiệu số nhiều.",
+      "why": "The microscope shows several tiny cells.\nKhông thêm -s vào tính từ trước danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: No plural ending",
@@ -690,8 +759,11 @@
         "The mucus is thickness, sticky and pale."
       ],
       "hint": "Trật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
-      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ. Với hai hoặc ba đặc điểm, dùng dấu phẩy và and để kết nối.",
+      "why": "The mucus is thick, sticky and pale.\nTrật tự ý nghĩa vẫn cần tự nhiên, nhưng không đặt danh từ sau chuỗi tính từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: After be",

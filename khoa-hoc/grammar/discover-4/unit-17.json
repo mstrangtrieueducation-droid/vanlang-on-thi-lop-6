@@ -18,7 +18,10 @@
           "+",
           "for + period of time"
         ]
-      ]
+      ],
+      "usage": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
+      "exampleVi": "Các nhà khoa học đã nghiên cứu sa mạc trong nhiều năm.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Since",
@@ -30,7 +33,10 @@
           "+",
           "since + starting point"
         ]
-      ]
+      ],
+      "usage": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
+      "exampleVi": "Con lười đã sống ở đây kể từ khi nó được sinh ra.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Ongoing meaning",
@@ -47,7 +53,10 @@
           "->",
           "simple past"
         ]
-      ]
+      ],
+      "usage": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
+      "exampleVi": "Cây xương rồng này đã mọc ở đồng cỏ được mười năm.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "How long",
@@ -64,7 +73,10 @@
           "past participle",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi thường dùng How long + have/has + subject + past participle.",
+      "exampleVi": "Quần xã sinh vật này đã tồn tại bao lâu?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -89,8 +101,11 @@
         "ago"
       ],
       "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
-      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists have studied the desert ___ many years.",
@@ -118,8 +133,11 @@
         "since"
       ],
       "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
-      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The sloth has lived here ___ it was born.",
@@ -147,8 +165,11 @@
         "since"
       ],
       "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
-      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This cactus has grown in the grassland ___ ten years.",
@@ -176,8 +197,11 @@
         "having"
       ],
       "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
-      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long ___ this biome existed?",
@@ -205,8 +229,11 @@
         "for"
       ],
       "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
-      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists have studied the desert [since] many years.",
@@ -236,8 +263,11 @@
         "for"
       ],
       "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
-      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The sloth has lived here [for] it was born.",
@@ -267,8 +297,11 @@
         "during for"
       ],
       "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
-      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This cactus has grown in the grassland [since] ten years.",
@@ -298,8 +331,11 @@
         "to have"
       ],
       "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
-      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long [have] this biome existed?",
@@ -329,8 +365,11 @@
         "since"
       ],
       "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
-      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Scientists have studied the desert ___ many years.\nWord bank: during for · ago · for · since",
@@ -361,8 +400,11 @@
         "during since"
       ],
       "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
-      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The sloth has lived here ___ it was born.\nWord bank: ago · since · for · during since",
@@ -393,8 +435,11 @@
         "ago"
       ],
       "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
-      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "This cactus has grown in the grassland ___ ten years.\nWord bank: for · since · during for · ago",
@@ -425,8 +470,11 @@
         "has"
       ],
       "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
-      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "How long ___ this biome existed?\nWord bank: have · having · to have · has",
@@ -457,8 +505,11 @@
         "many years. → the desert for → Scientists have studied"
       ],
       "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
-      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -491,8 +542,11 @@
         "it was born. → lived here since → The sloth has"
       ],
       "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
-      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -525,8 +579,11 @@
         "for ten years. → in the grassland → This cactus has grown"
       ],
       "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
-      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -559,8 +616,11 @@
         "biome existed? → has this → How long"
       ],
       "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
-      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -593,8 +653,11 @@
         "Scientists have studied the desert ago many years."
       ],
       "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
-      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: For",
@@ -624,8 +687,11 @@
         "The sloth has lived here since it was born."
       ],
       "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
-      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Since",
@@ -655,8 +721,11 @@
         "This cactus has grown in the grassland since ten years."
       ],
       "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
-      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Ongoing meaning",
@@ -686,8 +755,11 @@
         "How long having this biome existed?"
       ],
       "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
-      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: How long",

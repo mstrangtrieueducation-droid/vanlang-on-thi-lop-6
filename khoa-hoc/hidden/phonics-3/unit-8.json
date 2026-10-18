@@ -1,0 +1,579 @@
+{
+  "course": "phonics-3",
+  "unit": 8,
+  "source": {
+    "url": "https://drive.google.com/file/d/1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R/view",
+    "page": 79
+  },
+  "pictures": {
+    "fruit": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-089.png",
+      "book": 3,
+      "page": 99
+    },
+    "suit": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-090.png",
+      "book": 3,
+      "page": 99
+    },
+    "boot": {
+      "src": "../game-kit/adventures/pictures/book-cards/p3-096.png",
+      "book": 3,
+      "page": 99
+    }
+  },
+  "questions": [
+    {
+      "word": "fruit",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fruit.",
+      "objects": [
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the suit.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the boot.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue fruit.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": "blue"
+        },
+        {
+          "word": "fruit",
+          "color": "red"
+        },
+        {
+          "word": "fruit",
+          "color": "green"
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red suit.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": "green"
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": "red"
+        },
+        {
+          "word": "suit",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green boot.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": "green"
+        },
+        {
+          "word": "boot",
+          "color": "blue"
+        },
+        {
+          "word": "boot",
+          "color": "red"
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red fruit.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": "red"
+        },
+        {
+          "word": "fruit",
+          "color": "blue"
+        },
+        {
+          "word": "fruit",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green suit.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": "blue"
+        },
+        {
+          "word": "suit",
+          "color": "red"
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue boot.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": "blue"
+        },
+        {
+          "word": "boot",
+          "color": "red"
+        },
+        {
+          "word": "boot",
+          "color": "green"
+        },
+        {
+          "word": "fruit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 fruits.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 suits.",
+      "objects": [
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 boots.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 fruits.",
+      "objects": [
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 suits.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 boots.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 fruits.",
+      "objects": [
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 suits.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 boots.",
+      "objects": [
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 fruits.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 suits.",
+      "objects": [
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        },
+        {
+          "word": "fruit",
+          "color": null
+        },
+        {
+          "word": "boot",
+          "color": null
+        },
+        {
+          "word": "suit",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

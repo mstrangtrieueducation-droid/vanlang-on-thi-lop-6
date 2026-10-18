@@ -22,7 +22,10 @@
           "+",
           "base verb"
         ]
-      ]
+      ],
+      "usage": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "exampleVi": "Hành khách sẽ đi đến một điểm đến mới.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Negative",
@@ -36,7 +39,10 @@
           "+",
           "going to + verb"
         ]
-      ]
+      ],
+      "usage": "Dạng nói gọn thường dùng isn't và aren't.",
+      "exampleVi": "Cô ấy sẽ không để hộ chiếu ở nhà.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Yes/No questions",
@@ -51,7 +57,10 @@
           "going to + verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "exampleVi": "Bác sĩ có cho thuốc cho cô ấy không? Vâng, đúng vậy.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Wh- questions",
@@ -68,7 +77,10 @@
           "going to + verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
+      "exampleVi": "Họ sẽ gặp nhau ở đâu tại sân bay?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -95,6 +107,9 @@
       "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The passenger is going to ___ to a new destination.",
@@ -122,8 +137,11 @@
         "leave"
       ],
       "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
-      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She isn't going to ___ her passport at home.",
@@ -153,6 +171,9 @@
       "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is the doctor going to ___ her medicine? Yes, she is.",
@@ -180,8 +201,11 @@
         "meeting"
       ],
       "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
-      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where are they going to ___ at the airport?",
@@ -211,6 +235,9 @@
       "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The passenger is going to [travels] to a new destination.",
@@ -240,8 +267,11 @@
         "leaves"
       ],
       "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
-      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She isn't going to [leaves] her passport at home.",
@@ -273,6 +303,9 @@
       "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is the doctor going to [gives] her medicine? Yes, she is.",
@@ -302,8 +335,11 @@
         "met"
       ],
       "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
-      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where are they going to [meets] at the airport?",
@@ -335,6 +371,9 @@
       "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The passenger is going to ___ to a new destination.\nWord bank: traveling · traveled · travel · travels",
@@ -365,8 +404,11 @@
         "leaving"
       ],
       "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
-      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "She isn't going to ___ her passport at home.\nWord bank: left · leave · leaves · leaving",
@@ -399,6 +441,9 @@
       "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is the doctor going to ___ her medicine? Yes, she is.\nWord bank: give · gives · giving · gave",
@@ -429,8 +474,11 @@
         "meet"
       ],
       "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
-      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where are they going to ___ at the airport?\nWord bank: meets · meeting · met · meet",
@@ -463,6 +511,9 @@
       "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -495,8 +546,11 @@
         "passport at home. → to leave her → She isn't going"
       ],
       "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
-      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -531,6 +585,9 @@
       "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -563,8 +620,11 @@
         "at the airport? → going to meet → Where are they"
       ],
       "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
-      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -599,6 +659,9 @@
       "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Future plans",
@@ -628,8 +691,11 @@
         "She isn't going to leave her passport at home."
       ],
       "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
-      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Negative",
@@ -661,6 +727,9 @@
       "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Yes/No questions",
@@ -690,8 +759,11 @@
         "Where are they going to meeting at the airport?"
       ],
       "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
-      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Wh- questions",

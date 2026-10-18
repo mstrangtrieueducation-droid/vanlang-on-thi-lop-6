@@ -24,7 +24,10 @@
           "→",
           "never"
         ]
-      ]
+      ],
+      "usage": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "exampleVi": "Lily luôn trốn thoát.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Vị trí · Động từ thường",
@@ -38,7 +41,10 @@
           "+",
           "động từ thường"
         ]
-      ]
+      ],
+      "usage": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "exampleVi": "Leo đôi khi đi săn chim.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Vị trí · Động từ be",
@@ -52,7 +58,10 @@
           "+",
           "trạng từ tần suất"
         ]
-      ]
+      ],
+      "usage": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "exampleVi": "Lily thường lo lắng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu hỏi · ever",
@@ -69,7 +78,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
+      "exampleVi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -94,8 +106,11 @@
         "to escape"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily always ___.",
@@ -123,8 +138,11 @@
         "hunts"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Leo sometimes ___ for birds.",
@@ -152,8 +170,11 @@
         "are"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily ___ usually nervous.",
@@ -181,8 +202,11 @@
         "catching"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Leo ever ___ Lily? No, he never does.",
@@ -210,8 +234,11 @@
         "escapes"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily always [escape].",
@@ -241,8 +268,11 @@
         "hunt"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Leo sometimes [hunt] for birds.",
@@ -272,8 +302,11 @@
         "am"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily [are] usually nervous.",
@@ -303,8 +336,11 @@
         "caught"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Leo ever [catches] Lily? No, he never does.",
@@ -334,8 +370,11 @@
         "escape"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily always ___.\nWord bank: escaping · to escape · escapes · escape",
@@ -366,8 +405,11 @@
         "hunting"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Leo sometimes ___ for birds.\nWord bank: to hunt · hunts · hunt · hunting",
@@ -398,8 +440,11 @@
         "be"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Lily ___ usually nervous.\nWord bank: is · are · am · be",
@@ -430,8 +475,11 @@
         "catch"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Leo ever ___ Lily? No, he never does.\nWord bank: catches · catching · caught · catch",
@@ -462,8 +510,11 @@
         "escapes. → always → Lily"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -496,8 +547,11 @@
         "birds. → hunts for → Leo sometimes"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -530,8 +584,11 @@
         "nervous. → usually → Lily is"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -564,8 +621,11 @@
         "he never does. → catch Lily? No, → Does Leo ever"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -598,8 +658,11 @@
         "Lily always to escape."
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Mức độ thường xuyên",
@@ -629,8 +692,11 @@
         "Leo sometimes hunts for birds."
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Vị trí · Động từ thường",
@@ -660,8 +726,11 @@
         "Lily are usually nervous."
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Vị trí · Động từ be",
@@ -691,8 +760,11 @@
         "Does Leo ever catching Lily? No, he never does."
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi · ever",

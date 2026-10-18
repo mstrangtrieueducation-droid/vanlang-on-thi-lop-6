@@ -19,7 +19,10 @@
           "noun",
           "?"
         ]
-      ]
+      ],
+      "usage": "Would you like lịch sự hơn Do you want trong nhiều tình huống.",
+      "exampleVi": "Bạn có muốn một quả táo từ chợ nông sản không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Offer an activity",
@@ -32,7 +35,10 @@
           "to + base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Sau to là động từ nguyên mẫu.",
+      "exampleVi": "Bạn có muốn đến thăm trang trại địa phương?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Offer help",
@@ -47,7 +53,10 @@
           "to + base verb",
           "?"
         ]
-      ]
+      ],
+      "usage": "Me là người sẽ thực hiện hành động.",
+      "exampleVi": "Bạn có muốn tôi gói rau không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Responses",
@@ -60,7 +69,10 @@
         [
           "No, thank you. / I'd love to, but..."
         ]
-      ]
+      ],
+      "usage": "Nhận lời bằng Yes, please hoặc I'd love to.",
+      "exampleVi": "Vâng, làm ơn. Tôi rất muốn tìm hiểu về nông nghiệp.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -85,8 +97,11 @@
         "many"
       ],
       "hint": "Would you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
-      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
+      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like ___ apple from the farmer's market?",
@@ -114,8 +129,11 @@
         "to visit"
       ],
       "hint": "Sau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
-      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
+      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like ___ the local farm?",
@@ -143,8 +161,11 @@
         "packaging"
       ],
       "hint": "Me là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
-      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
+      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like me ___ the vegetables?",
@@ -172,8 +193,11 @@
         "learns"
       ],
       "hint": "Nhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
-      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
+      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, please. I'd love ___ about agriculture.",
@@ -201,8 +225,11 @@
         "an"
       ],
       "hint": "Would you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
-      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
+      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like [a] apple from the farmer's market?",
@@ -232,8 +259,11 @@
         "visiting"
       ],
       "hint": "Sau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
-      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
+      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like [visiting] the local farm?",
@@ -263,8 +293,11 @@
         "packages"
       ],
       "hint": "Me là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
-      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
+      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like me [packaging] the vegetables?",
@@ -294,8 +327,11 @@
         "learned"
       ],
       "hint": "Nhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
-      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
+      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, please. I'd love [learning] about agriculture.",
@@ -325,8 +361,11 @@
         "a"
       ],
       "hint": "Would you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
-      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
+      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like ___ apple from the farmer's market?\nWord bank: two · many · an · a",
@@ -357,8 +396,11 @@
         "visits"
       ],
       "hint": "Sau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
-      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
+      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like ___ the local farm?\nWord bank: visited · to visit · visiting · visits",
@@ -389,8 +431,11 @@
         "packaged"
       ],
       "hint": "Me là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
-      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
+      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Would you like me ___ the vegetables?\nWord bank: to package · packaging · packages · packaged",
@@ -421,8 +466,11 @@
         "to learn"
       ],
       "hint": "Nhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
-      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
+      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Yes, please. I'd love ___ about agriculture.\nWord bank: learning · learns · learned · to learn",
@@ -453,8 +501,11 @@
         "the farmer's market? → an apple from → Would you like"
       ],
       "hint": "Would you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
-      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
+      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -487,8 +538,11 @@
         "local farm? → to visit the → Would you like"
       ],
       "hint": "Sau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
-      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
+      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -521,8 +575,11 @@
         "the vegetables? → me to package → Would you like"
       ],
       "hint": "Me là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
-      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
+      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -555,8 +612,11 @@
         "about agriculture. → love to learn → Yes, please. I'd"
       ],
       "hint": "Nhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
-      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
+      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -589,8 +649,11 @@
         "Would you like many apple from the farmer's market?"
       ],
       "hint": "Would you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
-      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống. Với danh từ đếm được số ít, nhớ dùng a/an hoặc từ hạn định phù hợp.",
+      "why": "Would you like an apple from the farmer's market?\nWould you like lịch sự hơn Do you want trong nhiều tình huống.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Offer a thing",
@@ -620,8 +683,11 @@
         "Would you like to visit the local farm?"
       ],
       "hint": "Sau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
-      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu. Không thêm -ing hoặc -s vào động từ sau would like to.",
+      "why": "Would you like to visit the local farm?\nSau to là động từ nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Offer an activity",
@@ -651,8 +717,11 @@
         "Would you like me packaging the vegetables?"
       ],
       "hint": "Me là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
-      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động. Có thể thay bằng him, her, us hoặc them khi đề nghị một người khác làm việc đó.",
+      "why": "Would you like me to package the vegetables?\nMe là người sẽ thực hiện hành động.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Offer help",
@@ -682,8 +751,11 @@
         "Yes, please. I'd love learns about agriculture."
       ],
       "hint": "Nhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
-      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to. Từ chối bằng No, thank you hoặc I'd love to, but... rồi nêu lý do nếu cần.",
+      "why": "Yes, please. I'd love to learn about agriculture.\nNhận lời bằng Yes, please hoặc I'd love to.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Responses",

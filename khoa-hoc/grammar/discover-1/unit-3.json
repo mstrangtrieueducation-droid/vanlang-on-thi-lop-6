@@ -22,7 +22,10 @@
           "+",
           "vị trí"
         ]
-      ]
+      ],
+      "usage": "There is giới thiệu sự có mặt của một người hoặc một vật.",
+      "exampleVi": "Có một con nhện đen trên lưng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "There are · Khẳng định số nhiều",
@@ -38,7 +41,10 @@
           "+",
           "danh từ số nhiều"
         ]
-      ]
+      ],
+      "usage": "There are đi với danh từ số nhiều.",
+      "exampleVi": "Có năm con thằn lằn màu xanh lá cây.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phủ định · isn't / aren't",
@@ -57,7 +63,10 @@
           "+",
           "danh từ số nhiều"
         ]
-      ]
+      ],
+      "usage": "There is not thường được nói gọn thành There isn't.",
+      "exampleVi": "Không có sáu con chó vàng.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Is there ...? · Câu hỏi số ít",
@@ -77,7 +86,10 @@
           "/",
           "No, there isn't."
         ]
-      ]
+      ],
+      "usage": "Câu hỏi số ít bắt đầu bằng Is there.",
+      "exampleVi": "Có một con chim trên cây?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Are there ...? · Câu hỏi số nhiều",
@@ -97,7 +109,10 @@
           "/",
           "No, there aren't."
         ]
-      ]
+      ],
+      "usage": "Câu hỏi số nhiều bắt đầu bằng Are there.",
+      "exampleVi": "Có sáu con bướm màu đỏ phải không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Điểm cần nhớ · Số ít và số nhiều",
@@ -114,7 +129,10 @@
           "→",
           "There are / Are there"
         ]
-      ]
+      ],
+      "usage": "Con tìm dấu hiệu số lượng trước: a, an, one hoặc một vật dùng is; two, three, many và danh từ số nhiều dùng are.",
+      "exampleVi": "Có bốn con chim màu nâu.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -139,8 +157,11 @@
         "There be"
       ],
       "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
-      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ a black spider on his back.",
@@ -168,8 +189,11 @@
         "are"
       ],
       "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
-      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ five green lizards.",
@@ -197,8 +221,11 @@
         "isn't"
       ],
       "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
-      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ six yellow dogs.",
@@ -226,8 +253,11 @@
         "Am"
       ],
       "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
-      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there a bird in the tree?",
@@ -255,8 +285,11 @@
         "There's"
       ],
       "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
-      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[There are] a black spider on his back.",
@@ -286,8 +319,11 @@
         "is"
       ],
       "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
-      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [is] five green lizards.",
@@ -317,8 +353,11 @@
         "am not"
       ],
       "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
-      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There [isn't] six yellow dogs.",
@@ -348,8 +387,11 @@
         "Be"
       ],
       "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
-      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Are] there a bird in the tree?",
@@ -379,8 +421,11 @@
         "There are"
       ],
       "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
-      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ a black spider on his back.\nWord bank: There am · There be · There's · There are",
@@ -411,8 +456,11 @@
         "am"
       ],
       "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
-      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ five green lizards.\nWord bank: be · are · is · am",
@@ -443,8 +491,11 @@
         "not are"
       ],
       "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
-      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "There ___ six yellow dogs.\nWord bank: aren't · isn't · am not · not are",
@@ -475,8 +526,11 @@
         "Is"
       ],
       "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
-      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ there a bird in the tree?\nWord bank: Are · Am · Be · Is",
@@ -507,8 +561,11 @@
         "his back. → spider on → There's a black"
       ],
       "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
-      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -541,8 +598,11 @@
         "lizards. → five green → There are"
       ],
       "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
-      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -575,8 +635,11 @@
         "dogs. → six yellow → There aren't"
       ],
       "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
-      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -609,8 +672,11 @@
         "the tree? → bird in → Is there a"
       ],
       "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
-      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -643,8 +709,11 @@
         "There be a black spider on his back."
       ],
       "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
-      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: There is · Khẳng định số ít",
@@ -674,8 +743,11 @@
         "There are five green lizards."
       ],
       "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
-      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: There are · Khẳng định số nhiều",
@@ -705,8 +777,11 @@
         "There isn't six yellow dogs."
       ],
       "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
-      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Phủ định · isn't / aren't",
@@ -736,8 +811,11 @@
         "Am there a bird in the tree?"
       ],
       "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
-      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Is there ...? · Câu hỏi số ít",

@@ -22,7 +22,10 @@
           "+",
           "the + nơi chốn"
         ]
-      ]
+      ],
+      "usage": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
+      "exampleVi": "Con sao biển đang ở trong đại dương.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "On · Ở trên và chạm vào",
@@ -38,7 +41,10 @@
           "+",
           "the + bề mặt"
         ]
-      ]
+      ],
+      "usage": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
+      "exampleVi": "Vỏ sò nằm trên cát.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Under · Ở dưới",
@@ -54,7 +60,10 @@
           "+",
           "the + vật làm mốc"
         ]
-      ]
+      ],
+      "usage": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
+      "exampleVi": "Con sao biển nằm dưới lớp rong biển.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Next to · Ở bên cạnh",
@@ -70,7 +79,10 @@
           "+",
           "the + vật làm mốc"
         ]
-      ]
+      ],
+      "usage": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
+      "exampleVi": "Rong biển ở cạnh cá.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Is / Are · Chọn động từ be",
@@ -87,7 +99,10 @@
           "→",
           "are"
         ]
-      ]
+      ],
+      "usage": "Khi chủ ngữ là một người hoặc một vật, con dùng is.",
+      "exampleVi": "Đôi giày thể thao ở cạnh chiếc mũ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu hỏi vị trí · Is ...? / Are ...?",
@@ -110,7 +125,10 @@
           "vị trí",
           "?"
         ]
-      ]
+      ],
+      "usage": "Câu hỏi số ít bắt đầu bằng Is và trả lời Yes, it is hoặc No, it isn't.",
+      "exampleVi": "Sao biển có ở dưới rong biển không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -135,8 +153,11 @@
         "next to"
       ],
       "hint": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
-      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
+      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: inside.\nThe starfish is ___ the ocean.",
@@ -164,8 +185,11 @@
         "on"
       ],
       "hint": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
-      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
+      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: touching the top surface.\nThe seashell is ___ the sand.",
@@ -193,8 +217,11 @@
         "on"
       ],
       "hint": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
-      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
+      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: below.\nThe starfish is ___ the seaweed.",
@@ -222,8 +249,11 @@
         "on"
       ],
       "hint": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
-      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
+      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: beside.\nThe seaweed is ___ the fish.",
@@ -251,8 +281,11 @@
         "in"
       ],
       "hint": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
-      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
+      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: inside.\nThe starfish is [on] the ocean.",
@@ -282,8 +315,11 @@
         "in"
       ],
       "hint": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
-      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
+      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: touching the top surface.\nThe seashell is [in] the sand.",
@@ -313,8 +349,11 @@
         "in"
       ],
       "hint": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
-      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
+      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: below.\nThe starfish is [on] the seaweed.",
@@ -344,8 +383,11 @@
         "in"
       ],
       "hint": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
-      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
+      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: beside.\nThe seaweed is [under] the fish.",
@@ -375,8 +417,11 @@
         "on"
       ],
       "hint": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
-      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
+      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: inside.\nThe starfish is ___ the ocean.\nWord bank: under · next to · in · on",
@@ -407,8 +452,11 @@
         "under"
       ],
       "hint": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
-      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
+      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: touching the top surface.\nThe seashell is ___ the sand.\nWord bank: next to · on · in · under",
@@ -439,8 +487,11 @@
         "next to"
       ],
       "hint": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
-      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
+      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: below.\nThe starfish is ___ the seaweed.\nWord bank: under · on · in · next to",
@@ -471,8 +522,11 @@
         "next to"
       ],
       "hint": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
-      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
+      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: beside.\nThe seaweed is ___ the fish.\nWord bank: under · on · in · next to",
@@ -503,8 +557,11 @@
         "the ocean. → is in → The starfish"
       ],
       "hint": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
-      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
+      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: inside.\n",
@@ -537,8 +594,11 @@
         "the sand. → is on → The seashell"
       ],
       "hint": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
-      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
+      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: touching the top surface.\n",
@@ -571,8 +631,11 @@
         "the seaweed. → is under → The starfish"
       ],
       "hint": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
-      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
+      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: below.\n",
@@ -605,8 +668,11 @@
         "the fish. → next to → The seaweed is"
       ],
       "hint": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
-      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
+      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: beside.\n",
@@ -639,8 +705,11 @@
         "The starfish is next to the ocean."
       ],
       "hint": "In cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
-      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng. Sau in thường có the trước danh từ chỉ nơi chốn đã xác định.",
+      "why": "The starfish is in the ocean.\nIn cho biết người hoặc vật nằm trong một nơi có ranh giới hoặc được bao quanh, chẳng hạn trong đại dương, trong bể nước hoặc trong một căn phòng.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: inside.\nGrammar focus: In · Ở trong",
@@ -670,8 +739,11 @@
         "The seashell is on the sand."
       ],
       "hint": "On diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
-      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc. Vì vậy on the sand nghĩa là nằm trên mặt cát. Không dùng on nếu vật ở phía trên nhưng không chạm vào bề mặt.",
+      "why": "The seashell is on the sand.\nOn diễn tả vị trí ở trên một bề mặt và có sự tiếp xúc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: touching the top surface.\nGrammar focus: On · Ở trên và chạm vào",
@@ -701,8 +773,11 @@
         "The starfish is on the seaweed."
       ],
       "hint": "Under cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
-      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới. Cụm the starfish is under the seaweed nói vị trí của starfish so với seaweed; thứ tự hai danh từ không được đổi.",
+      "why": "The starfish is under the seaweed.\nUnder cho biết một người hoặc vật ở phía dưới vật được nhắc tới.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: below.\nGrammar focus: Under · Ở dưới",
@@ -732,8 +807,11 @@
         "The seaweed is on the fish."
       ],
       "hint": "Next to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
-      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý. Sau next to là người hoặc vật làm mốc. Con không bỏ từ to và không đổi thành next the fish.",
+      "why": "The seaweed is next to the fish.\nNext to là một cụm giới từ gồm hai từ và luôn được đọc liền ý.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Location: beside.\nGrammar focus: Next to · Ở bên cạnh",

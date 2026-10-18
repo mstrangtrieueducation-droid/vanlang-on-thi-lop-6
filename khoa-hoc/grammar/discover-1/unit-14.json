@@ -23,7 +23,10 @@
           "→",
           "its / our / their"
         ]
-      ]
+      ],
+      "usage": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
+      "exampleVi": "Nhà cô ấy ở nông thôn.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "My và your · Người nói và người nghe",
@@ -40,7 +43,10 @@
           "→",
           "your"
         ]
-      ]
+      ],
+      "usage": "My đi với đồ vật của I; your đi với đồ vật của you.",
+      "exampleVi": "Căn hộ của bạn có nhỏ không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "His và her · Chủ sở hữu là một người",
@@ -57,7 +63,10 @@
           "→",
           "her"
         ]
-      ]
+      ],
+      "usage": "Con nhìn người sở hữu để chọn his hoặc her.",
+      "exampleVi": "Nhà anh ở thành phố.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Our và their · Nhiều người sở hữu",
@@ -74,7 +83,10 @@
           "→",
           "their"
         ]
-      ]
+      ],
+      "usage": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
+      "exampleVi": "Chúng tôi chơi trên cánh đồng ngô của chúng tôi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Its và it's · Không nhầm dấu nháy",
@@ -91,7 +103,10 @@
           "=",
           "it is"
         ]
-      ]
+      ],
+      "usage": "Its không có dấu nháy và luôn đứng trước danh từ: its ball.",
+      "exampleVi": "Con chó chơi với quả bóng của nó.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Vị trí · Trước danh từ",
@@ -103,7 +118,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "Tính từ sở hữu không đứng một mình trong các mẫu của bài này.",
+      "exampleVi": "Họ đi đến nhà hàng của họ.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu hỏi · Is your ...?",
@@ -118,7 +136,10 @@
           "danh từ số ít",
           "?"
         ]
-      ]
+      ],
+      "usage": "Đưa is lên đầu để hỏi về một nơi hoặc vật số ít: Is your home in the city?",
+      "exampleVi": "Nhà bạn ở thành phố à?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Phát âm · his, her, our, their",
@@ -131,7 +152,10 @@
         [
           "our orchard / their restaurant"
         ]
-      ]
+      ],
+      "usage": "Tính từ sở hữu thường không mang trọng âm chính.",
+      "exampleVi": "Khu phố của cô ấy không yên tĩnh.",
+      "sentenceType": "Negative (Câu phủ định)"
     }
   ],
   "items": [
@@ -156,8 +180,11 @@
         "Herself"
       ],
       "hint": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
-      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
+      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ house is in the country.",
@@ -185,8 +212,11 @@
         "your"
       ],
       "hint": "My đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
-      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
+      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is ___ apartment small?",
@@ -214,8 +244,11 @@
         "He"
       ],
       "hint": "Con nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
-      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
+      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ home is in the city.",
@@ -243,8 +276,11 @@
         "ours"
       ],
       "hint": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
-      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
+      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We play in ___ cornfield.",
@@ -272,8 +308,11 @@
         "Her"
       ],
       "hint": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
-      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
+      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[She] house is in the country.",
@@ -303,8 +342,11 @@
         "you"
       ],
       "hint": "My đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
-      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
+      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is [you] apartment small?",
@@ -334,8 +376,11 @@
         "Him"
       ],
       "hint": "Con nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
-      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
+      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[He] home is in the city.",
@@ -365,8 +410,11 @@
         "us"
       ],
       "hint": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
-      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
+      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We play in [we] cornfield.",
@@ -396,8 +444,11 @@
         "She"
       ],
       "hint": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
-      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
+      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ house is in the country.\nWord bank: Hers · Herself · Her · She",
@@ -428,8 +479,11 @@
         "yours"
       ],
       "hint": "My đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
-      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
+      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is ___ apartment small?\nWord bank: yourself · your · you · yours",
@@ -460,8 +514,11 @@
         "Himself"
       ],
       "hint": "Con nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
-      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
+      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ home is in the city.\nWord bank: His · He · Him · Himself",
@@ -492,8 +549,11 @@
         "our"
       ],
       "hint": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
-      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
+      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "We play in ___ cornfield.\nWord bank: we · ours · us · our",
@@ -524,8 +584,11 @@
         "the country. → is in → Her house"
       ],
       "hint": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
-      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
+      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -558,8 +621,11 @@
         "small? → apartment → Is your"
       ],
       "hint": "My đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
-      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
+      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -592,8 +658,11 @@
         "the city. → is in → His home"
       ],
       "hint": "Con nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
-      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
+      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -626,8 +695,11 @@
         "cornfield. → in our → We play"
       ],
       "hint": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
-      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
+      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -660,8 +732,11 @@
         "Herself house is in the country."
       ],
       "hint": "Mỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
-      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their. Tính từ sở hữu cho biết ai là người hoặc vật sở hữu.",
+      "why": "Her house is in the country.\nMỗi chủ ngữ có một tính từ sở hữu tương ứng: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Tính từ sở hữu · Bảng đầy đủ",
@@ -691,8 +766,11 @@
         "Is your apartment small?"
       ],
       "hint": "My đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
-      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you. Trong câu hỏi Is your apartment small?, người nói đang hỏi về căn hộ của người nghe.",
+      "why": "Is your apartment small?\nMy đi với đồ vật của I; your đi với đồ vật của you.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: My và your · Người nói và người nghe",
@@ -722,8 +800,11 @@
         "He home is in the city."
       ],
       "hint": "Con nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
-      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her. His home có thể là nhà của một bạn nam; her neighborhood có thể là khu phố của một bạn nữ. Đồ vật phía sau không làm thay đổi his hoặc her.",
+      "why": "His home is in the city.\nCon nhìn người sở hữu để chọn his hoặc her.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: His và her · Chủ sở hữu là một người",
@@ -753,8 +834,11 @@
         "We play in ours cornfield."
       ],
       "hint": "Our nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
-      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác. We play in our cornfield và They eat at their restaurant có hai chủ sở hữu khác nhau.",
+      "why": "We play in our cornfield.\nOur nói vật thuộc về nhóm có người nói; their nói vật thuộc về một nhóm khác.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Our và their · Nhiều người sở hữu",

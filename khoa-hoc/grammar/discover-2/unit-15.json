@@ -24,7 +24,10 @@
           "+",
           "B"
         ]
-      ]
+      ],
+      "usage": "Với nhiều tính từ ngắn, thêm -er.",
+      "exampleVi": "Một chiếc vali nặng hơn một cây chổi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "y → ier",
@@ -41,7 +44,10 @@
           "→",
           "easier"
         ]
-      ]
+      ],
+      "usage": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "exampleVi": "Chuột máy tính nhẹ hơn một chiếc vali.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Gấp đôi phụ âm",
@@ -58,7 +64,10 @@
           "→",
           "hotter"
         ]
-      ]
+      ],
+      "usage": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "exampleVi": "Bàn làm việc lớn hơn ngăn kéo.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu hỏi so sánh",
@@ -77,7 +86,10 @@
           "B",
           "?"
         ]
-      ]
+      ],
+      "usage": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
+      "exampleVi": "Vali có nặng hơn chổi không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -102,8 +114,11 @@
         "more heavier"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
+      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A suitcase is ___ than a broom.",
@@ -133,6 +148,9 @@
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A computer mouse is ___ than a suitcase.",
@@ -162,6 +180,9 @@
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The desk is ___ than the drawer.",
@@ -189,8 +210,11 @@
         "heaviest"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
+      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is a suitcase ___ than a broom?",
@@ -218,8 +242,11 @@
         "heavier"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
+      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A suitcase is [heavy] than a broom.",
@@ -251,6 +278,9 @@
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A computer mouse is [light] than a suitcase.",
@@ -282,6 +312,9 @@
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The desk is [big] than the drawer.",
@@ -311,8 +344,11 @@
         "more heavier"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
+      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is a suitcase [heavy] than a broom?",
@@ -342,8 +378,11 @@
         "heavy"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
+      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A suitcase is ___ than a broom.\nWord bank: heaviest · more heavier · heavier · heavy",
@@ -376,6 +415,9 @@
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "A computer mouse is ___ than a suitcase.\nWord bank: more lighter · lighter · light · lightest",
@@ -408,6 +450,9 @@
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The desk is ___ than the drawer.\nWord bank: bigger · big · biggest · more bigger",
@@ -438,8 +483,11 @@
         "heavier"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
+      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Is a suitcase ___ than a broom?\nWord bank: heavy · heaviest · more heavier · heavier",
@@ -470,8 +518,11 @@
         "a broom. → heavier than → A suitcase is"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
+      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -506,6 +557,9 @@
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -540,6 +594,9 @@
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -572,8 +629,11 @@
         "a broom? → heavier than → Is a suitcase"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
+      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -606,8 +666,11 @@
         "A suitcase is more heavier than a broom."
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
+      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Short adjectives · -er than",
@@ -639,6 +702,9 @@
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: y → ier",
@@ -670,6 +736,9 @@
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Gấp đôi phụ âm",
@@ -699,8 +768,11 @@
         "Is a suitcase heaviest than a broom?"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
+      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi so sánh",

@@ -9,7 +9,7 @@ const rx=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 function questions(course,unit,models,variants){const items=[];
  for(let variant=0;variant<variants;variant++)for(const [i,m]of models.entries()){
   const full=m.scene.replace('___',m.answer),context=m.cue?m.cue+'\n':'',options=[m.answer,...m.wrong];
-  const common={id:`${course}-grammar-u${unit}-${variant+1}-${i+1}`,type:'choice',unit,skill:'grammar',phonicsSequence:true,source:m.source,focus:m.focus,title:m.focus,answer:m.answer,options:rotate(options,i+variant),hint:m.note,why:`${full}\n${m.note}`,difficulty:variant<1?'easy':variant<3?'medium':'advanced',spokenPrompt:'',spokenScene:''};
+  const common={id:`${course}-grammar-u${unit}-${variant+1}-${i+1}`,type:'choice',unit,skill:'grammar',phonicsSequence:true,source:m.source,focus:m.focus,title:m.focus,answer:m.answer,options:rotate(options,i+variant),hint:m.note,why:`${full}\n${m.note}`,difficulty:variant<1?'easy':variant<3?'medium':'advanced',grammarModule:true,cognitiveLevel:variant<1?'easy':variant<3?'medium':'advanced',partId:'grammar-'+(variant<1?'easy':variant<3?'medium':'advanced'),spokenPrompt:'',spokenScene:''};
   if(variant===0)items.push({...common,scene:context+m.scene,prompt:'Choose the missing words.',partType:'readGap'});
   if(variant===1)items.push({...common,scene:context+m.scene.replace('___','['+m.wrong[0]+']'),prompt:'Replace the words in brackets.',partType:'readChoose',partTitle:'Grammar Detective',partInstruction:'Choose the correction.'});
   if(variant===2)items.push({...common,scene:context+m.scene+'\nWord bank: '+rotate(options,i+variant).join(' · '),prompt:'Write the missing words.',inputMode:'typing',partType:'readWrite',partTitle:'Complete the Sentence',partInstruction:'Use the word bank. Write the missing words.'});
@@ -31,7 +31,7 @@ function packs(){const out=[];
  for(const book of discover.books)for(const u of book.units){const course='discover-'+book.level,source={url:u.grammar.url,unit:u.unit,kind:'class-grammar-model'},models=u.grammar.rules.slice(0,4).map((m,i)=>{const [answer,wrong,cue]=dg[book.level][u.unit-1][i],pattern=new RegExp('(?<![A-Za-z])'+rx(answer)+'(?![A-Za-z])');if(!pattern.test(m.example))throw Error('Missing source target '+course+'/'+u.unit);return {scene:m.example.replace(pattern,'___'),answer,wrong,cue:cue||(book.level===3&&u.unit===5?'Use the past continuous (yesterday).':''),source,focus:m.tag,note:m.note};});
   out.push({course,unit:u.unit,title:`Unit ${u.unit} · Grammar Focus`,source,summary:u.grammar.rules,items:questions(course,u.unit,models,5)});
  }
- return out;
+ const vi=require('./program/grammar-example-vi.json');for(const pack of out){pack.summary=pack.summary.map(r=>({...r,usage:r.note.match(/^.*?[.!?](?=\s|$)/)?.[0]||r.note.split(';')[0],exampleVi:vi[r.example]||'',sentenceType:/\?/.test(r.example)?'Interrogative (Câu hỏi)':/n’t|n't|\bnot\b/.test(r.example)?'Negative (Câu phủ định)':'Affirmative (Câu khẳng định)'}));pack.items.forEach(q=>{q.why=q.why.split('\n').map((line,i)=>i?line.match(/^.*?[.!?](?=\s|$)/)?.[0]||line:line).join('\n');});}return out;
 }
 function write(){let count=0;for(const pack of packs()){const dir=path.join(__dirname,'grammar',pack.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${pack.unit}.json`),JSON.stringify(pack,null,2)+'\n');count++;}console.log(`${count} Unit grammar packs · ${count*20} questions`);}
 if(require.main===module)write();

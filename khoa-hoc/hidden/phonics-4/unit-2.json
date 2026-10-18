@@ -1,0 +1,683 @@
+{
+  "course": "phonics-4",
+  "unit": 2,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 19
+  },
+  "pictures": {
+    "frog": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-013.png",
+      "book": 4,
+      "page": 89
+    },
+    "plate": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-017.png",
+      "book": 4,
+      "page": 91
+    },
+    "slide": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-019.png",
+      "book": 4,
+      "page": 91
+    },
+    "drum": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-021.png",
+      "book": 4,
+      "page": 91
+    },
+    "dress": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-022.png",
+      "book": 4,
+      "page": 91
+    },
+    "truck": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-023.png",
+      "book": 4,
+      "page": 91
+    },
+    "tree": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-024.png",
+      "book": 4,
+      "page": 91
+    }
+  },
+  "questions": [
+    {
+      "word": "frog",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the frog.",
+      "objects": [
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "plate",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the plate.",
+      "objects": [
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "slide",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the slide.",
+      "objects": [
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "drum",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the drum.",
+      "objects": [
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dress",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the dress.",
+      "objects": [
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "truck",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the truck.",
+      "objects": [
+        {
+          "word": "truck",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "tree",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the tree.",
+      "objects": [
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "tree",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "frog",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue frog.",
+      "objects": [
+        {
+          "word": "frog",
+          "color": "blue"
+        },
+        {
+          "word": "frog",
+          "color": "red"
+        },
+        {
+          "word": "frog",
+          "color": "green"
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "plate",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red plate.",
+      "objects": [
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": "red"
+        },
+        {
+          "word": "plate",
+          "color": "blue"
+        },
+        {
+          "word": "plate",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "slide",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green slide.",
+      "objects": [
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": "green"
+        },
+        {
+          "word": "slide",
+          "color": "blue"
+        },
+        {
+          "word": "slide",
+          "color": "red"
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "drum",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue drum.",
+      "objects": [
+        {
+          "word": "drum",
+          "color": "green"
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": "blue"
+        },
+        {
+          "word": "drum",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "dress",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red dress.",
+      "objects": [
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": "red"
+        },
+        {
+          "word": "dress",
+          "color": "blue"
+        },
+        {
+          "word": "dress",
+          "color": "green"
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "truck",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green truck.",
+      "objects": [
+        {
+          "word": "truck",
+          "color": "blue"
+        },
+        {
+          "word": "truck",
+          "color": "red"
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "truck",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "tree",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 trees.",
+      "objects": [
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "tree",
+          "color": null
+        },
+        {
+          "word": "tree",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "frog",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 frogs.",
+      "objects": [
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "plate",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 plates.",
+      "objects": [
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "slide",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 slides.",
+      "objects": [
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "drum",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 drums.",
+      "objects": [
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "dress",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 dresses.",
+      "objects": [
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "dress",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        },
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "truck",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 trucks.",
+      "objects": [
+        {
+          "word": "plate",
+          "color": null
+        },
+        {
+          "word": "slide",
+          "color": null
+        },
+        {
+          "word": "drum",
+          "color": null
+        },
+        {
+          "word": "truck",
+          "color": null
+        },
+        {
+          "word": "truck",
+          "color": null
+        },
+        {
+          "word": "frog",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

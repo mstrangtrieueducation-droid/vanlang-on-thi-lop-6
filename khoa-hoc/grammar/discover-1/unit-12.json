@@ -21,7 +21,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
+      "exampleVi": "Maria có mèo con không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -33,7 +36,10 @@
           "+",
           "want / need / like / have"
         ]
-      ]
+      ],
+      "usage": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
+      "exampleVi": "Cô ấy có muốn một con mèo con không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Câu trả lời ngắn · does / doesn't",
@@ -50,7 +56,10 @@
           "he / she / it",
           "doesn't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn không lặp lại động từ chính.",
+      "exampleVi": "Không, cô ấy không.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Câu hỏi mở · What does",
@@ -65,7 +74,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
+      "exampleVi": "Akif muốn gì?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Câu trả lời · -s / -es và has",
@@ -82,7 +94,10 @@
           "+",
           "has"
         ]
-      ]
+      ],
+      "usage": "Khi trả lời bằng câu khẳng định, con không còn dùng does nên động từ chính phải thêm -s hoặc -es.",
+      "exampleVi": "Anh ấy muốn một chiếc xe đạp.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phân biệt · Do và Does",
@@ -105,7 +120,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Chọn trợ động từ theo chủ ngữ.",
+      "exampleVi": "Họ có cần nước không?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Câu hỏi với have · Trả lời bằng has",
@@ -120,7 +138,10 @@
           "+",
           "đồ vật."
         ]
-      ]
+      ],
+      "usage": "Trong câu hỏi, con nói What does he have?",
+      "exampleVi": "Anh ấy có một chiếc bánh sandwich.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Phát âm · Nhịp câu hỏi",
@@ -135,7 +156,10 @@
           "What does he want?",
           "↘"
         ]
-      ]
+      ],
+      "usage": "Trong Does she ...?, con nối does she thành một cụm nhưng không nuốt âm /z/.",
+      "exampleVi": "Cô ấy cần gì?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -160,8 +184,11 @@
         "had"
       ],
       "hint": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
-      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
+      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Maria ___ a kitten?",
@@ -189,8 +216,11 @@
         "want"
       ],
       "hint": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
-      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
+      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does she ___ a kitten?",
@@ -218,8 +248,11 @@
         "don't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
+      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, she ___.",
@@ -247,8 +280,11 @@
         "is"
       ],
       "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
+      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What ___ Akif want?",
@@ -276,8 +312,11 @@
         "have"
       ],
       "hint": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
-      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
+      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Maria [has] a kitten?",
@@ -307,8 +346,11 @@
         "wants"
       ],
       "hint": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
-      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
+      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does she [wants] a kitten?",
@@ -338,8 +380,11 @@
         "isn't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
+      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, she [don't].",
@@ -369,8 +414,11 @@
         "has"
       ],
       "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
+      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What [do] Akif want?",
@@ -400,8 +448,11 @@
         "has"
       ],
       "hint": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
-      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
+      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does Maria ___ a kitten?\nWord bank: having · had · have · has",
@@ -432,8 +483,11 @@
         "wanting"
       ],
       "hint": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
-      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
+      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Does she ___ a kitten?\nWord bank: wanted · want · wants · wanting",
@@ -464,8 +518,11 @@
         "hasn't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
+      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "No, she ___.\nWord bank: doesn't · don't · isn't · hasn't",
@@ -496,8 +553,11 @@
         "does"
       ],
       "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
+      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What ___ Akif want?\nWord bank: do · is · has · does",
@@ -528,8 +588,11 @@
         "kitten? → have a → Does Maria"
       ],
       "hint": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
-      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
+      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -562,8 +625,11 @@
         "kitten? → want a → Does she"
       ],
       "hint": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
-      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
+      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -596,8 +662,11 @@
         "doesn't. → she → No,"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
+      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -630,8 +699,11 @@
         "want? → Akif → What does"
       ],
       "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
+      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -664,8 +736,11 @@
         "Does Maria had a kitten?"
       ],
       "hint": "Does đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
-      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn. Maria có thể thay bằng she; Akif có thể thay bằng he. Trật tự đúng là Does + chủ ngữ + động từ nguyên mẫu.",
+      "why": "Does Maria have a kitten?\nDoes đứng trước chủ ngữ để tạo câu hỏi Yes / No ở thì Hiện tại đơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi Yes / No · Does",
@@ -695,8 +770,11 @@
         "Does she want a kitten?"
       ],
       "hint": "Does đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
-      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu. Con nói Does she want, Does he need và Does the doctor have; không nói does she wants hoặc does he has.",
+      "why": "Does she want a kitten?\nDoes đã mang dấu hiệu ngôi thứ ba nên động từ phía sau phải ở dạng nguyên mẫu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -726,8 +804,11 @@
         "No, she don't."
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
+      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu trả lời ngắn · does / doesn't",
@@ -757,8 +838,11 @@
         "What is Akif want?"
       ],
       "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
+      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Câu hỏi mở · What does",

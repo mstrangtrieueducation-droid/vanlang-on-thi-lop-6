@@ -1,0 +1,579 @@
+{
+  "course": "phonics-4",
+  "unit": 5,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 51
+  },
+  "pictures": {
+    "duck": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-057.png",
+      "book": 4,
+      "page": 95
+    },
+    "rocket": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-058.png",
+      "book": 4,
+      "page": 95
+    },
+    "quilt": {
+      "src": "../game-kit/adventures/pictures/book-cards/p4-060.png",
+      "book": 4,
+      "page": 95
+    }
+  },
+  "questions": [
+    {
+      "word": "duck",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the duck.",
+      "objects": [
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rocket.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the quilt.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue duck.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": "blue"
+        },
+        {
+          "word": "duck",
+          "color": "red"
+        },
+        {
+          "word": "duck",
+          "color": "green"
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red rocket.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": "green"
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": "red"
+        },
+        {
+          "word": "rocket",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green quilt.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": "green"
+        },
+        {
+          "word": "quilt",
+          "color": "blue"
+        },
+        {
+          "word": "quilt",
+          "color": "red"
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red duck.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": "red"
+        },
+        {
+          "word": "duck",
+          "color": "blue"
+        },
+        {
+          "word": "duck",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green rocket.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": "blue"
+        },
+        {
+          "word": "rocket",
+          "color": "red"
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue quilt.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": "blue"
+        },
+        {
+          "word": "quilt",
+          "color": "red"
+        },
+        {
+          "word": "quilt",
+          "color": "green"
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 ducks.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 rockets.",
+      "objects": [
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 quilts.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 ducks.",
+      "objects": [
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 rockets.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 quilts.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 ducks.",
+      "objects": [
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 rockets.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "quilt",
+      "color": null,
+      "count": 4,
+      "prompt": "Find 4 quilts.",
+      "objects": [
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 ducks.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rocket",
+      "color": null,
+      "count": 5,
+      "prompt": "Find 5 rockets.",
+      "objects": [
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        },
+        {
+          "word": "duck",
+          "color": null
+        },
+        {
+          "word": "quilt",
+          "color": null
+        },
+        {
+          "word": "rocket",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

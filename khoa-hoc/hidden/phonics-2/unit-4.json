@@ -1,0 +1,690 @@
+{
+  "course": "phonics-2",
+  "unit": 4,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 39
+  },
+  "pictures": {
+    "hip": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-037.png",
+      "book": 2,
+      "page": 93
+    },
+    "zip": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-039.png",
+      "book": 2,
+      "page": 93
+    },
+    "lip": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-041.png",
+      "book": 2,
+      "page": 93
+    },
+    "bib": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-045.png",
+      "book": 2,
+      "page": 93
+    },
+    "rib": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-046.png",
+      "book": 2,
+      "page": 93
+    },
+    "lid": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-048.png",
+      "book": 2,
+      "page": 93
+    }
+  },
+  "questions": [
+    {
+      "word": "hip",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the hip.",
+      "objects": [
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "zip",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the zip.",
+      "objects": [
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lip",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lip.",
+      "objects": [
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bib",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bib.",
+      "objects": [
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rib",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the rib.",
+      "objects": [
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lid",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the lid.",
+      "objects": [
+        {
+          "word": "lid",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hip",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue hip.",
+      "objects": [
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": "blue"
+        },
+        {
+          "word": "hip",
+          "color": "red"
+        },
+        {
+          "word": "hip",
+          "color": "green"
+        },
+        {
+          "word": "zip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "zip",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red zip.",
+      "objects": [
+        {
+          "word": "zip",
+          "color": "red"
+        },
+        {
+          "word": "zip",
+          "color": "blue"
+        },
+        {
+          "word": "zip",
+          "color": "green"
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lip",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green lip.",
+      "objects": [
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": "green"
+        },
+        {
+          "word": "lip",
+          "color": "blue"
+        },
+        {
+          "word": "lip",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "bib",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue bib.",
+      "objects": [
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": "blue"
+        },
+        {
+          "word": "bib",
+          "color": "red"
+        },
+        {
+          "word": "bib",
+          "color": "green"
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rib",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red rib.",
+      "objects": [
+        {
+          "word": "rib",
+          "color": "green"
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": "red"
+        },
+        {
+          "word": "rib",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "lid",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green lid.",
+      "objects": [
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "lid",
+          "color": "green"
+        },
+        {
+          "word": "lid",
+          "color": "blue"
+        },
+        {
+          "word": "lid",
+          "color": "red"
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hip",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 hips.",
+      "objects": [
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "zip",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 zips.",
+      "objects": [
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lip",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lips.",
+      "objects": [
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bib",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bibs.",
+      "objects": [
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "rib",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 ribs.",
+      "objects": [
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "lid",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 lids.",
+      "objects": [
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "lid",
+          "color": null
+        },
+        {
+          "word": "lid",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "hip",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 hips.",
+      "objects": [
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "zip",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 zips.",
+      "objects": [
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        },
+        {
+          "word": "hip",
+          "color": null
+        },
+        {
+          "word": "lip",
+          "color": null
+        },
+        {
+          "word": "bib",
+          "color": null
+        },
+        {
+          "word": "rib",
+          "color": null
+        },
+        {
+          "word": "zip",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

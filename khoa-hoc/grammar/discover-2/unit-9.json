@@ -18,7 +18,10 @@
           "+",
           "danh từ"
         ]
-      ]
+      ],
+      "usage": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "exampleVi": "Đó là lớp học của cô.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Possessive pronouns",
@@ -35,7 +38,10 @@
           "→",
           "theirs"
         ]
-      ]
+      ],
+      "usage": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "exampleVi": "Những thứ đó là của bạn.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Whose ...?",
@@ -52,7 +58,10 @@
           "this / these",
           "?"
         ]
-      ]
+      ],
+      "usage": "Whose đứng trước danh từ trong câu hỏi.",
+      "exampleVi": "Cuốn sách này là của ai? Đó là của cô ấy.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "his và its",
@@ -65,7 +74,10 @@
         [
           "its door"
         ]
-      ]
+      ],
+      "usage": "His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
+      "exampleVi": "Hiệu trưởng có cuốn sách của mình.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -92,6 +104,9 @@
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "That is ___ classroom.",
@@ -119,8 +134,11 @@
         "yours"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
+      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Those things are ___.",
@@ -148,8 +166,11 @@
         "her"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
+      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Whose book is this? It's ___.",
@@ -177,8 +198,11 @@
         "him"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
+      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The principal has ___ book.",
@@ -208,6 +232,9 @@
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "That is [she] classroom.",
@@ -237,8 +264,11 @@
         "your"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
+      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Those things are [your].",
@@ -268,8 +298,11 @@
         "she"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
+      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Whose book is this? It's [her].",
@@ -299,8 +332,11 @@
         "himself"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
+      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The principal has [he] book.",
@@ -332,6 +368,9 @@
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "That is ___ classroom.\nWord bank: hers · herself · her · she",
@@ -362,8 +401,11 @@
         "you"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
+      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Those things are ___.\nWord bank: yourself · yours · your · you",
@@ -394,8 +436,11 @@
         "herself"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
+      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Whose book is this? It's ___.\nWord bank: hers · her · she · herself",
@@ -426,8 +471,11 @@
         "his"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
+      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "The principal has ___ book.\nWord bank: he · him · himself · his",
@@ -460,6 +508,9 @@
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -492,8 +543,11 @@
         "yours. → are → Those things"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
+      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -526,8 +580,11 @@
         "It's hers. → is this? → Whose book"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
+      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -560,8 +617,11 @@
         "book. → has his → The principal"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
+      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -596,6 +656,9 @@
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Possessive adjectives",
@@ -625,8 +688,11 @@
         "Those things are yours."
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
+      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Possessive pronouns",
@@ -656,8 +722,11 @@
         "Whose book is this? It's her."
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
+      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Whose ...?",
@@ -687,8 +756,11 @@
         "The principal has him book."
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
+      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: his và its",

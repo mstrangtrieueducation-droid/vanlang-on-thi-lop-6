@@ -20,7 +20,10 @@
           "+",
           "danh từ · tính từ · tuổi"
         ]
-      ]
+      ],
+      "usage": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "exampleVi": "Tôi là một sinh viên.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "I + am",
@@ -37,7 +40,10 @@
           "→",
           "I’m not"
         ]
-      ]
+      ],
+      "usage": "Dạng đầy đủ là I am và I am not.",
+      "exampleVi": "Tôi tám tuổi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "He · She · It + is",
@@ -59,7 +65,10 @@
           "→",
           "He isn’t / He’s not"
         ]
-      ]
+      ],
+      "usage": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "exampleVi": "Mẹ tôi là một giáo viên.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "You · We · They + are",
@@ -81,7 +90,10 @@
           "→",
           "They aren’t / They’re not"
         ]
-      ]
+      ],
+      "usage": "Dùng are với you, we, they và danh từ số nhiều.",
+      "exampleVi": "Bố mẹ tôi tốt bụng.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Câu phủ định",
@@ -97,7 +109,10 @@
           "+",
           "thông tin"
         ]
-      ]
+      ],
+      "usage": "Muốn nói “không phải” hoặc “không ở trạng thái đó”, con thêm not ngay sau am, is hoặc are.",
+      "exampleVi": "Anh ấy không phải là anh trai tôi.",
+      "sentenceType": "Negative (Câu phủ định)"
     },
     {
       "tag": "Điểm cần nhớ",
@@ -114,7 +129,10 @@
           "+",
           "are"
         ]
-      ]
+      ],
+      "usage": "Trong giọng Mỹ của bộ sách, family được xem là một nhóm số ít nên dùng is: “My family is big.” Khi nói trực tiếp nhiều thành viên, con dùng are: “My parents are kind.” Hãy nhìn đúng danh từ làm chủ ngữ, không đếm số người trong bức ảnh.",
+      "exampleVi": "Gia đình tôi đông con.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     }
   ],
   "items": [
@@ -141,6 +159,9 @@
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I ___ a student.",
@@ -168,8 +189,11 @@
         "I'm"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ eight years old.",
@@ -197,8 +221,11 @@
         "are"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My mother ___ a teacher.",
@@ -226,8 +253,11 @@
         "am"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My parents ___ kind.",
@@ -257,6 +287,9 @@
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I [is] a student.",
@@ -286,8 +319,11 @@
         "I is"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[I is] eight years old.",
@@ -317,8 +353,11 @@
         "am"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My mother [are] a teacher.",
@@ -348,8 +387,11 @@
         "be"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My parents [is] kind.",
@@ -381,6 +423,9 @@
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "I ___ a student.\nWord bank: are · be · am · is",
@@ -411,8 +456,11 @@
         "I are"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ eight years old.\nWord bank: I be · I'm · I is · I are",
@@ -443,8 +491,11 @@
         "be"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My mother ___ a teacher.\nWord bank: is · are · am · be",
@@ -475,8 +526,11 @@
         "are"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "My parents ___ kind.\nWord bank: is · am · be · are",
@@ -509,6 +563,9 @@
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -541,8 +598,11 @@
         "old. → years → I'm eight"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -575,8 +635,11 @@
         "teacher. → is a → My mother"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -609,8 +672,11 @@
         "kind. → are → My parents"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -645,6 +711,9 @@
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Verb be · Công dụng",
@@ -674,8 +743,11 @@
         "I'm eight years old."
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: I + am",
@@ -705,8 +777,11 @@
         "My mother are a teacher."
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: He · She · It + is",
@@ -736,8 +811,11 @@
         "My parents am kind."
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: You · We · They + are",

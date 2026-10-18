@@ -1,0 +1,690 @@
+{
+  "course": "phonics-2",
+  "unit": 5,
+  "source": {
+    "url": "https://drive.google.com/file/d/1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE/view",
+    "page": 51
+  },
+  "pictures": {
+    "pin": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-049.png",
+      "book": 2,
+      "page": 95
+    },
+    "fin": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-050.png",
+      "book": 2,
+      "page": 95
+    },
+    "bin": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-051.png",
+      "book": 2,
+      "page": 95
+    },
+    "fig": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-053.png",
+      "book": 2,
+      "page": 95
+    },
+    "wig": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-054.png",
+      "book": 2,
+      "page": 95
+    },
+    "pit": {
+      "src": "../game-kit/adventures/pictures/book-cards/p2-057.png",
+      "book": 2,
+      "page": 95
+    }
+  },
+  "questions": [
+    {
+      "word": "pin",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pin.",
+      "objects": [
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fin",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fin.",
+      "objects": [
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bin",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the bin.",
+      "objects": [
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fig",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the fig.",
+      "objects": [
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "wig",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the wig.",
+      "objects": [
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pit",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the pit.",
+      "objects": [
+        {
+          "word": "pit",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pin",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue pin.",
+      "objects": [
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": "blue"
+        },
+        {
+          "word": "pin",
+          "color": "red"
+        },
+        {
+          "word": "pin",
+          "color": "green"
+        },
+        {
+          "word": "fin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fin",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red fin.",
+      "objects": [
+        {
+          "word": "fin",
+          "color": "red"
+        },
+        {
+          "word": "fin",
+          "color": "blue"
+        },
+        {
+          "word": "fin",
+          "color": "green"
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bin",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green bin.",
+      "objects": [
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": "green"
+        },
+        {
+          "word": "bin",
+          "color": "blue"
+        },
+        {
+          "word": "bin",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "fig",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue fig.",
+      "objects": [
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": "blue"
+        },
+        {
+          "word": "fig",
+          "color": "red"
+        },
+        {
+          "word": "fig",
+          "color": "green"
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "wig",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red wig.",
+      "objects": [
+        {
+          "word": "wig",
+          "color": "green"
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": "red"
+        },
+        {
+          "word": "wig",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "pit",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green pit.",
+      "objects": [
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "pit",
+          "color": "green"
+        },
+        {
+          "word": "pit",
+          "color": "blue"
+        },
+        {
+          "word": "pit",
+          "color": "red"
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pin",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pins.",
+      "objects": [
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fin",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 fins.",
+      "objects": [
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "bin",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 bins.",
+      "objects": [
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fig",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 figs.",
+      "objects": [
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "wig",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 wigs.",
+      "objects": [
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pit",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 pits.",
+      "objects": [
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "pit",
+          "color": null
+        },
+        {
+          "word": "pit",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "pin",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 pins.",
+      "objects": [
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "fin",
+      "color": null,
+      "count": 3,
+      "prompt": "Find 3 fins.",
+      "objects": [
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        },
+        {
+          "word": "pin",
+          "color": null
+        },
+        {
+          "word": "bin",
+          "color": null
+        },
+        {
+          "word": "fig",
+          "color": null
+        },
+        {
+          "word": "wig",
+          "color": null
+        },
+        {
+          "word": "fin",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

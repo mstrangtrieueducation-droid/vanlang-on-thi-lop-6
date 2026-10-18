@@ -1,0 +1,689 @@
+{
+  "course": "phonics-1",
+  "unit": 5,
+  "source": {
+    "url": "https://drive.google.com/file/d/1A-yrsq42iDf445MsFD1fFK6E13TwFioU/view",
+    "page": 51
+  },
+  "pictures": {
+    "monkey": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-049.png",
+      "book": 1,
+      "page": 95
+    },
+    "mouse": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-052.png",
+      "book": 1,
+      "page": 95
+    },
+    "nut": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-053.png",
+      "book": 1,
+      "page": 95
+    },
+    "net": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-054.png",
+      "book": 1,
+      "page": 95
+    },
+    "nest": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-055.png",
+      "book": 1,
+      "page": 95
+    },
+    "octopus": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-057.png",
+      "book": 1,
+      "page": 95
+    },
+    "ox": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-058.png",
+      "book": 1,
+      "page": 95
+    },
+    "olive": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-059.png",
+      "book": 1,
+      "page": 95
+    },
+    "ostrich": {
+      "src": "../game-kit/adventures/pictures/book-cards/p1-060.png",
+      "book": 1,
+      "page": 95
+    }
+  },
+  "questions": [
+    {
+      "word": "monkey",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the monkey.",
+      "objects": [
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mouse",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the mouse.",
+      "objects": [
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the nut.",
+      "objects": [
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "net",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the net.",
+      "objects": [
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nest",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the nest.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "octopus",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the octopus.",
+      "objects": [
+        {
+          "word": "octopus",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ox",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the ox.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "olive",
+      "color": null,
+      "count": 1,
+      "prompt": "Find the olive.",
+      "objects": [
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "olive",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "monkey",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue monkey.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": "blue"
+        },
+        {
+          "word": "monkey",
+          "color": "red"
+        },
+        {
+          "word": "monkey",
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "word": "mouse",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red mouse.",
+      "objects": [
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": "red"
+        },
+        {
+          "word": "mouse",
+          "color": "blue"
+        },
+        {
+          "word": "mouse",
+          "color": "green"
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green nut.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": "red"
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": "green"
+        },
+        {
+          "word": "nut",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "word": "net",
+      "color": "blue",
+      "count": 1,
+      "prompt": "Find the blue net.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": "blue"
+        },
+        {
+          "word": "net",
+          "color": "red"
+        },
+        {
+          "word": "net",
+          "color": "green"
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nest",
+      "color": "red",
+      "count": 1,
+      "prompt": "Find the red nest.",
+      "objects": [
+        {
+          "word": "nest",
+          "color": "blue"
+        },
+        {
+          "word": "nest",
+          "color": "green"
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "word": "octopus",
+      "color": "green",
+      "count": 1,
+      "prompt": "Find the green octopus.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "octopus",
+          "color": "green"
+        },
+        {
+          "word": "octopus",
+          "color": "blue"
+        },
+        {
+          "word": "octopus",
+          "color": "red"
+        },
+        {
+          "word": "monkey",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ox",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 oxen.",
+      "objects": [
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "ox",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "olive",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 olives.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "olive",
+          "color": null
+        },
+        {
+          "word": "olive",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "ostrich",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 ostriches.",
+      "objects": [
+        {
+          "word": "ostrich",
+          "color": null
+        },
+        {
+          "word": "ostrich",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "monkey",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 monkeys.",
+      "objects": [
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "mouse",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 mice.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        }
+      ]
+    },
+    {
+      "word": "nut",
+      "color": null,
+      "count": 2,
+      "prompt": "Find 2 nuts.",
+      "objects": [
+        {
+          "word": "mouse",
+          "color": null
+        },
+        {
+          "word": "net",
+          "color": null
+        },
+        {
+          "word": "nest",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "nut",
+          "color": null
+        },
+        {
+          "word": "monkey",
+          "color": null
+        }
+      ]
+    }
+  ]
+}

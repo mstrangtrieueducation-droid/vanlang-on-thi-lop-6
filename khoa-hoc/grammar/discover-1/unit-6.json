@@ -23,7 +23,10 @@
           "→",
           "người"
         ]
-      ]
+      ],
+      "usage": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
+      "exampleVi": "Cái gì thế này? Đó là một con đười ươi.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "What's this / that? · Số ít",
@@ -41,7 +44,10 @@
           "+",
           "a / an + danh từ"
         ]
-      ]
+      ],
+      "usage": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
+      "exampleVi": "Đó là cái gì vậy? Đó là một khu rừng nhiệt đới.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "What are these / those? · Số nhiều",
@@ -59,7 +65,10 @@
           "+",
           "danh từ số nhiều"
         ]
-      ]
+      ],
+      "usage": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
+      "exampleVi": "Đây là những gì? Chúng là đười ươi.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Who's this / that? · Hỏi về người",
@@ -77,7 +86,10 @@
           "+",
           "tên người"
         ]
-      ]
+      ],
+      "usage": "Who is thường được nói gọn thành Who's.",
+      "exampleVi": "Đây là ai? Đó là Điền.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Who are these / those? · Nhiều người",
@@ -95,7 +107,10 @@
           "+",
           "tên / nhóm người"
         ]
-      ]
+      ],
+      "usage": "Với nhiều người, con dùng Who are these hoặc Who are those.",
+      "exampleVi": "Họ là ai? Họ là Dian và Anak.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "A / An · Danh từ số ít",
@@ -112,7 +127,10 @@
           "+",
           "âm nguyên âm"
         ]
-      ]
+      ],
+      "usage": "Dùng an trước một âm nguyên âm, như an orangutan.",
+      "exampleVi": "Đó là một con đười ươi.",
+      "sentenceType": "Affirmative (Câu khẳng định)"
     },
     {
       "tag": "Dạng nói gọn · What's / Who's / It's / They're",
@@ -134,7 +152,10 @@
           "=",
           "It's / They're"
         ]
-      ]
+      ],
+      "usage": "What's là What is, Who's là Who is, It's là It is và They're là They are.",
+      "exampleVi": "Đó là ai vậy? Đó là Anak.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -159,8 +180,11 @@
         "many"
       ],
       "hint": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
-      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
+      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What's this? It's ___ orangutan.",
@@ -188,8 +212,11 @@
         "What's"
       ],
       "hint": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
-      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
+      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ that? It's a rainforest.",
@@ -217,8 +244,11 @@
         "is"
       ],
       "hint": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
-      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
+      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What ___ these? They're orangutans.",
@@ -246,8 +276,11 @@
         "Who am"
       ],
       "hint": "Who is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
-      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
+      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ this? It's Dian.",
@@ -275,8 +308,11 @@
         "an"
       ],
       "hint": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
-      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
+      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What's this? It's [a] orangutan.",
@@ -306,8 +342,11 @@
         "What are"
       ],
       "hint": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
-      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
+      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[What are] that? It's a rainforest.",
@@ -337,8 +376,11 @@
         "am"
       ],
       "hint": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
-      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
+      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What [is] these? They're orangutans.",
@@ -368,8 +410,11 @@
         "Who be"
       ],
       "hint": "Who is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
-      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
+      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "[Who are] this? It's Dian.",
@@ -399,8 +444,11 @@
         "a"
       ],
       "hint": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
-      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
+      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What's this? It's ___ orangutan.\nWord bank: two · many · an · a",
@@ -431,8 +479,11 @@
         "What am"
       ],
       "hint": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
-      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
+      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ that? It's a rainforest.\nWord bank: What be · What's · What are · What am",
@@ -463,8 +514,11 @@
         "be"
       ],
       "hint": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
-      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
+      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "What ___ these? They're orangutans.\nWord bank: are · is · am · be",
@@ -495,8 +549,11 @@
         "Who's"
       ],
       "hint": "Who is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
-      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
+      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "___ this? It's Dian.\nWord bank: Who are · Who am · Who be · Who's",
@@ -527,8 +584,11 @@
         "orangutan. → It's an → What's this?"
       ],
       "hint": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
-      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
+      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -561,8 +621,11 @@
         "rainforest. → It's a → What's that?"
       ],
       "hint": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
-      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
+      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -595,8 +658,11 @@
         "orangutans. → these? They're → What are"
       ],
       "hint": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
-      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
+      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -629,8 +695,11 @@
         "Dian. → It's → Who's this?"
       ],
       "hint": "Who is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
-      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
+      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -663,8 +732,11 @@
         "What's this? It's many orangutan."
       ],
       "hint": "What yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
-      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc. Who yêu cầu danh tính của một người. Con nhìn đối tượng trong hình trước khi chọn từ hỏi; không dùng Who để hỏi tên một đồ vật.",
+      "why": "What's this? It's an orangutan.\nWhat yêu cầu tên hoặc loại của một đồ vật, con vật hay sự việc.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: What / Who · Chọn đúng từ hỏi",
@@ -694,8 +766,11 @@
         "What's that? It's a rainforest."
       ],
       "hint": "This chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
-      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn. What is thường được nói gọn thành What's. Câu trả lời dùng It is hoặc It's rồi nêu tên vật.",
+      "why": "What's that? It's a rainforest.\nThis chỉ một vật ở gần người nói; that chỉ một vật ở xa hơn.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: What's this / that? · Số ít",
@@ -725,8 +800,11 @@
         "What is these? They're orangutans."
       ],
       "hint": "These chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
-      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa. Vì chủ ngữ là số nhiều, câu hỏi dùng are và câu trả lời dùng They are hoặc They're. Danh từ trong câu trả lời phải ở số nhiều.",
+      "why": "What are these? They're orangutans.\nThese chỉ nhiều vật ở gần; those chỉ nhiều vật ở xa.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: What are these / those? · Số nhiều",
@@ -756,8 +834,11 @@
         "Who am this? It's Dian."
       ],
       "hint": "Who is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
-      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's. Khi trả lời câu Who's this hoặc Who's that, sách dùng It's + tên người. Không trả lời riêng bằng He hoặc She vì câu cần nêu rõ danh tính.",
+      "why": "Who's this? It's Dian.\nWho is thường được nói gọn thành Who's.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Who's this / that? · Hỏi về người",

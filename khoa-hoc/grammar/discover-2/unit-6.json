@@ -21,7 +21,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Did mang dấu hiệu quá khứ.",
+      "exampleVi": "Ông nội đã đến nhà chưa?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Short answers",
@@ -42,7 +45,10 @@
           "+",
           "didn't."
         ]
-      ]
+      ],
+      "usage": "Câu trả lời ngắn không lặp lại động từ chính.",
+      "exampleVi": "Họ có đến sớm không? Vâng, họ đã làm vậy.",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Wh- questions",
@@ -59,7 +65,10 @@
           "động từ nguyên mẫu",
           "?"
         ]
-      ]
+      ],
+      "usage": "Where, when, why và how đứng trước did.",
+      "exampleVi": "Họ đã đến thăm đâu?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     },
     {
       "tag": "Không dùng -ed sau did",
@@ -71,7 +80,10 @@
           "+",
           "arrive / visit / enter / check"
         ]
-      ]
+      ],
+      "usage": "Trong câu hỏi có did, nói Did they arrive...?",
+      "exampleVi": "Nhân viên bán hàng kiểm tra danh sách khi nào?",
+      "sentenceType": "Interrogative (Câu hỏi)"
     }
   ],
   "items": [
@@ -96,8 +108,11 @@
         "arriving"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
+      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Grandpa ___ at the house?",
@@ -125,8 +140,11 @@
         "arrive"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
+      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did they ___ early? Yes, they did.",
@@ -154,8 +172,11 @@
         "visited"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
+      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where did they ___?",
@@ -183,8 +204,11 @@
         "checks"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
+      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When did the clerk ___ the list?",
@@ -212,8 +236,11 @@
         "arrive"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
+      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Grandpa [arrived] at the house?",
@@ -243,8 +270,11 @@
         "arrived"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
+      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did they [arrived] early? Yes, they did.",
@@ -274,8 +304,11 @@
         "visits"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
+      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where did they [visited]?",
@@ -305,8 +338,11 @@
         "checking"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
+      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When did the clerk [checked] the list?",
@@ -336,8 +372,11 @@
         "arrived"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
+      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did Grandpa ___ at the house?\nWord bank: arrives · arriving · arrive · arrived",
@@ -368,8 +407,11 @@
         "arrives"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
+      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Did they ___ early? Yes, they did.\nWord bank: arriving · arrive · arrived · arrives",
@@ -400,8 +442,11 @@
         "visiting"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
+      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Where did they ___?\nWord bank: visit · visited · visits · visiting",
@@ -432,8 +477,11 @@
         "check"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
+      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "When did the clerk ___ the list?\nWord bank: checked · checks · checking · check",
@@ -464,8 +512,11 @@
         "the house? → arrive at → Did Grandpa"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
+      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -498,8 +549,11 @@
         "they did. → early? Yes, → Did they arrive"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
+      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -532,8 +586,11 @@
         "visit? → they → Where did"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
+      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -566,8 +623,11 @@
         "the list? → clerk check → When did the"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
+      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Build a complete sentence.",
@@ -600,8 +660,11 @@
         "Did Grandpa arriving at the house?"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
+      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Did ...? · Câu hỏi",
@@ -631,8 +694,11 @@
         "Did they arrive early? Yes, they did."
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
+      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Short answers",
@@ -662,8 +728,11 @@
         "Where did they visited?"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
+      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Wh- questions",
@@ -693,8 +762,11 @@
         "When did the clerk checks the list?"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
+      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
       "scene": "Grammar focus: Không dùng -ed sau did",
