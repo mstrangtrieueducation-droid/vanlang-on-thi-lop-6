@@ -51,8 +51,8 @@
  function sections(items){
   const out=[];for(const [index,q] of items.entries()){
    const d=describe(q),last=out.at(-1);
-   if(last?.key===d.key)last.indices.push(index);
-   else out.push({...d,id:d.key+':'+q.id,number:out.length+1,indices:[index]});
+   if(last?.key===d.key&&last.block===d.block&&last.level===(q.cognitiveLevel||q.difficulty||''))last.indices.push(index);
+   else out.push({...d,level:q.cognitiveLevel||q.difficulty||'',id:d.key+':'+q.id,number:out.length+1,indices:[index]});
   }return out;
  }
  function at(items,pos){const all=sections(items),part=all.find(p=>p.indices.includes(pos));return {...part,total:all.length,question:part.indices.indexOf(pos)+1,count:part.indices.length};}

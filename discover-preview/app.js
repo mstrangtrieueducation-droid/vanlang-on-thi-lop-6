@@ -30,6 +30,6 @@
   window.ADVENTURE={exam:false,n:course.lessons.findIndex(l=>l.id===lesson.id)+1,week:course.name,name:lesson.title,en:lesson.kind==='unit-review'?'Unit Review':'Session '+lesson.session,theme:'forest',icon:'🌟',reward:'Discover Explorer',goal:'Listen, think and explore with Titi.',topics:'Review · No leaderboard points',kind:lesson.kind,unit:lesson.unit,items:lesson.items};
   document.documentElement.dataset.courseWorld=id;document.documentElement.dataset.courseRoad=window.CourseWorld?.kind({id})||'city';document.documentElement.style.setProperty('--course-world-art',`url("../vu-tru/assets/${id}.webp")`);
   const back=document.querySelector('.flow-boot button');if(back)back.onclick=()=>{window.FlowBoot.cancel();location.assign(route(id,null,lesson.unit));};
-  await script('voice.js?v=program-2');await script('../game-kit/adventures/gameplay.js?v=parts-2');await script('../game-kit/adventures/dialogue-voice.js?v=cast-1');await window.DialogueVoice.install(id);await script('../game-kit/adventures/engine.js?v=cast-1');
+  await script('voice.js?v=program-2');await script('../game-kit/adventures/gameplay.js?v=parts-2');await script('../game-kit/adventures/dialogue-voice.js?v=cast-1');await window.DialogueVoice.install(id);await script('../game-kit/adventures/engine.js?v=flight-1');
  }catch(error){window.FlowBoot?.cancel();host.className='preview-home';host.innerHTML=`<h1>Chưa mở được bài thử</h1><p>Tải lại trang để thử lại.</p><a href="${esc(route(id))}">Về danh sách bài</a>`;console.error('Discover preview failed',error);}
 })();

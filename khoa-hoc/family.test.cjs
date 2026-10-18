@@ -9,7 +9,7 @@ for(const n of [1,2])test(`FF${n}: all Program units, 15/45 counts, test sources
   for(const l of stages){assert.equal(l.items.length,15);assert.equal(l.title,`Unit ${u} - Lesson ${program.units[u-1].stages[l.stage-1].bookLessons.join(' & ')}`);}
   assert.equal(review.items.filter(q=>q.storySource?.lesson===1).length,5);
   assert.ok(review.items.some(q=>q.storySource&&q.storySource.lesson!==1));
-  assert.equal(review.items.filter(q=>q.interaction==='grammar').length,5);
+  assert.equal(review.items.filter(q=>q.interaction==='grammar').length,6);
   const all=[...stages.flatMap(l=>l.items),...review.items];for(const kind of ['picture','phonics-look','grammar','spelling','phonics-order','phonics-category','reading','phonics-match'])assert.ok(all.some(q=>q.interaction===kind),kind);
   for(const q of all){assert.equal(coach.skill(q),q.skill);assert.ok(rules.check(q,q.answer));assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);if(q.orderWords)assert.equal(new Set(q.orderWords).size,3);if(q.interaction==='phonics-story'){const spoken=q.dialogue?.length===1?q.spokenScene.replace(q.dialogue[0].speaker+': ',''):q.spokenScene;assert.equal(q.storyText.includes(spoken),true);assert.equal(q.scene.replace('___',q.answer).toLowerCase(),spoken.toLowerCase());}}
   const groups=mapping[c.id][review.id].sourceGroups;assert.equal(groups.length,3);assert.ok(!P.limits([reg],mapping,groups.slice(0,2).map(g=>({url:g[0]}))).allowed[c.id].includes(review.id));assert.ok(P.limits([reg],mapping,groups.map(g=>({url:g[0]}))).allowed[c.id].includes(review.id));

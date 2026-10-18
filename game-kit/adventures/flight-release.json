@@ -1,0 +1,121 @@
+{
+  "release": "flight-1",
+  "date": "2026-10-18",
+  "features": [
+    "Persistent listening media beside independently scrolling questions; portrait stacked equivalent",
+    "Original Discover listening recordings, pause/resume, progress and two-play limit",
+    "Titi rocket clock replacing apple visuals with unchanged timing API",
+    "Source-aware progressive practice difficulty; official exam sequence unchanged"
+  ],
+  "content": {
+    "phonics": {
+      "phonics-1": {
+        "endingSoundQuestions": 26
+      },
+      "phonics-2": {
+        "endingSoundQuestions": 42
+      },
+      "phonics-3": {
+        "endingSoundQuestions": 20
+      },
+      "phonics-4": {
+        "endingSoundQuestions": 28
+      }
+    },
+    "familyFriends": {
+      "authoredContextGrammar": 30,
+      "unitReviewVariants": 30
+    },
+    "discover": {
+      "authoredReasoningTemplates": 8,
+      "stableDisplacedQuestionIds": 92
+    },
+    "fighter": {
+      "sourceReadingQuestions": 280,
+      "authoredAcademicExtensions": 14,
+      "totalTasks": 4267
+    }
+  },
+  "validation": {
+    "nodeTests": 183,
+    "passed": 183,
+    "listeningBrowserCases": 12,
+    "fighterBrowserCases": 8,
+    "viewports": [
+      "1366x768",
+      "390x844",
+      "844x390"
+    ],
+    "pageErrors": 0,
+    "scope": "Chromium/Edge viewport emulation; not a physical iPhone audio/device test"
+  },
+  "art": {
+    "mode": "reference-based image generation, transparent background",
+    "asset": "game-kit/adventures/titi-rocket-v1.png",
+    "reference": "game-kit/adventures/teacher-titi-chibi.webp",
+    "prompt": "One super-cute orange fox teacher Titi with round gold glasses, navy short-sleeved collared uniform with gold T emblem, riding a glossy orange and cyan rocket facing right and waving. Sharp polished 3D illustration, transparent background, no text or flames; CSS supplies animated exhaust."
+  },
+  "audio": {
+    "voice": "en-US-AnaNeural",
+    "newPrompts": 37,
+    "newClips": 51,
+    "files": [
+      "flight-ab57cf0c14f66d1f.mp3",
+      "flight-4eeaabc39db5dc82.mp3",
+      "flight-4c8eea493de9d8e3.mp3",
+      "flight-7d64208a85d43960.mp3",
+      "flight-8706951c2acb4468.mp3",
+      "flight-f3de568ac16e334e.mp3",
+      "flight-d7f70fa254137a8d.mp3",
+      "flight-3a72377c19055962.mp3",
+      "flight-526b6d3e68a1242f.mp3",
+      "flight-c32d9005bd7eb5d1.mp3",
+      "flight-07c892f279c0a8ae.mp3",
+      "flight-694105f3bb313a9f.mp3",
+      "flight-bdc57f40adfc1c92.mp3",
+      "flight-97d5653ae4cde538.mp3",
+      "flight-28c565a8b065f3eb.mp3",
+      "flight-cb74dc17fe43d415.mp3",
+      "flight-d92ceea8318632ca.mp3",
+      "flight-121f92214b0c3ee6.mp3",
+      "flight-88d46e238f6ed0c2.mp3",
+      "flight-babe48a546406914.mp3",
+      "flight-41632208454a0ca0.mp3",
+      "flight-b906dc751cb9417f.mp3",
+      "flight-fab31bb4ea720719.mp3",
+      "flight-a50bbe14416ef1ca.mp3",
+      "flight-13b573d3e57b4b53.mp3",
+      "flight-cf9340a804033943.mp3",
+      "flight-0a5f5c3d8a7772a7.mp3",
+      "flight-46ab8e7c57dbd370.mp3",
+      "flight-27c4d75a1fcc7b16.mp3",
+      "flight-2d2e5730f7511b6a.mp3",
+      "flight-fa8c58ae0abfa3c5.mp3",
+      "flight-f16b5f39481693cc.mp3",
+      "flight-d9db0d478d7bae07.mp3",
+      "flight-65910cc2622e0066.mp3",
+      "flight-7af46b74df32a707.mp3",
+      "flight-2bd18820095ddd9d.mp3",
+      "flight-707f250a0987783c.mp3",
+      "flight-ef6abe8c5e90c1da.mp3",
+      "flight-f72dbd4937178d05.mp3",
+      "flight-c3cd381552ef2143.mp3",
+      "flight-cb50299c2e2fde5f.mp3",
+      "flight-70c0a10fadb05bd9.mp3",
+      "flight-27306ced7bd83061.mp3",
+      "flight-96b5549d6dead842.mp3",
+      "flight-e0f01181f8ed4499.mp3",
+      "flight-56663a050a5f59d2.mp3",
+      "flight-1b8cdc79dfb313c1.mp3",
+      "flight-40aacbf681d51db7.mp3",
+      "flight-1cb97876d0d35db3.mp3",
+      "flight-e18921f6c6aad857.mp3",
+      "flight-84b83b5e9a98bec2.mp3"
+    ]
+  },
+  "limitations": [
+    "No IOE sample video was supplied; layout follows the written specification.",
+    "Existing source-linked picture bank is reused where available; Titi is a guide, not a substitute for a missing source test picture.",
+    "Authored advanced questions are explicitly distinguished from exact source questions."
+  ]
+}

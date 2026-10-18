@@ -39,6 +39,11 @@ module.exports=function install(courses){
     const match=rotate(words,Math.floor(round*words.length/3)+1).slice(0,3),matchAnswer=match.join(' → ');
     items.push(make(index+4,'phonics-match','Match each word to a picture.','Tap a word, then tap its matching picture.',matchAnswer,permutations(match),{matchWords:[...match].sort(),matchPictures:match.map(pic),spokenScene:'Match all three pairs.',why:`Pictures one, two and three show: ${match.join(', ')}.`,hint:'Choose a word on the left, then its picture on the right. You can change a pair before checking.'}));
    }
+   // One meaningful final-sound discrimination task, with taught vocabulary only.
+   const endings=require('./program/ending-sounds.cjs');
+   const eligible=words.map(target=>({target,answer:unitWords.find(w=>w!==target&&endings[w.toLowerCase()]&&endings[w.toLowerCase()]===endings[target.toLowerCase()]),wrong:unitWords.filter(w=>endings[w.toLowerCase()]&&endings[w.toLowerCase()]!==endings[target.toLowerCase()])})).find(x=>x.answer&&x.wrong.length>=3);
+   if(eligible){const {target,answer,wrong}=eligible,phoneme='/'+endings[target.toLowerCase()]+'/';items[7]=make(7,'ending-sound','Listen to the whole word.','Which word has the same last sound?',answer,wrong,{id:id+'-v3-u'+u.unit+'-s'+stage+'-ending-v1',spokenScene:target,spokenPrompt:'Which word has the same last sound?',skill:'listening',partType:'listenChoose',cognitiveLevel:'medium',targetWord:target,endingPhoneme:phoneme,why:'Nghe “'+target+'” và “'+answer+'”: cả hai kết thúc bằng '+phoneme+'. Nghe âm của cả từ; đừng đọc tên chữ cái.',hint:'Listen to the very end of the word.'});}
+
    return {id:lessonId,kind:'sound',unit:u.unit,stage,focusSounds:l.patterns.map(label),title:`Unit ${u.unit} · ${focus}`,description:`15 câu · ${words.join(' · ')} · Nghe, nhìn tranh, phân loại, xếp thứ tự, nối cặp.`,sourceLessons:l.session?['lesson-'+l.session]:[],pendingTeaching:!l.session,items};
   }
   function attach(l){lessons.push(l);const rows=l.sourceLessons.map(s=>sources.find(r=>r.course===id&&r.session===Number(s.split('-')[1])));map[id][l.id]={sourceGroups:rows.map(r=>r?.urls||[]),sessions:l.sourceLessons,pendingTeaching:!!l.pendingTeaching};}

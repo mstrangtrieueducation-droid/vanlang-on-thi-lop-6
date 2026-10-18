@@ -4,6 +4,8 @@ const resources=require('./program/discover-reading-edit.cjs').apply(require('./
 const pilot=require('../discover-preview/curated.cjs'),definitions=require('../discover-preview/definitions.cjs');
 const {annotate}=require('./program/discover-dialogue.cjs');
 const facts=require('./program/discover-comprehension.cjs');
+const migrations=require('./program/discover-id-migrations.json'),crypto=require('crypto');
+const stableId=(course,lesson,q,fallback)=>migrations[course+'/'+lesson+'/'+crypto.createHash('sha256').update(JSON.stringify([q.scene,q.prompt,q.answer,q.inputMode||'',q.partType||''])).digest('hex').slice(0,20)]||fallback;
 const art={...require('../game-kit/adventures/pictures/family-cards/3d-v3/manifest.json').icons,...require('../game-kit/adventures/pictures/vocabulary-3d/manifest.json').items};
 Object.assign(art,require('./program/discover-art.json'));
 const uniq=a=>[...new Set(a)],rotate=(a,n)=>a.slice(n%a.length).concat(a.slice(0,n%a.length)),rx=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -52,10 +54,10 @@ function readTasks(book,u){
  u.reading.practiceText=plain;
  const sents=sentences(u),ws=wordsOf(u),out=[],common={storyId:`discover-${book.level}-u${u.unit}-source`,storyTitle:u.reading.title,storyText:text,storySpeech:text,source:{url:u.reading.url,unit:u.unit,kind:'original-class-reading'},difficulty:'medium'};
  const normalize=s=>s.toLowerCase().replace(/[’‘]/g,"'").replace(/[^a-z0-9]+/g,' ').trim();
- for(const [prompt,answer,wrong,anchor]of facts[book.level][u.unit]||[]){
+ for(const [prompt,answer,wrong,anchor]of [...(facts[book.level][u.unit]||[]),...(require('./program/discover-reasoning.cjs')[book.level]?.[u.unit]||[])]){
   const evidence=sents.find(s=>normalize(s).includes(normalize(anchor)))|| (normalize(plain).includes(normalize(anchor))?anchor:null);
   if(!evidence)throw Error(`Reading evidence missing ${book.level}/${u.unit}: ${anchor}`);
-  out.push(base(u,'reading',text,prompt,answer,wrong.split('|'),{...common,...(dialogue?{dialogue}:{}),partType:'readChoose',spokenScene:prompt,spokenPrompt:'',why:`${answer} Evidence: “${evidence}”`,evidence,comprehension:true}));
+  out.push(base(u,'reading',text,prompt,answer,wrong.split('|'),{...common,...(dialogue?{dialogue}:{}),partType:'readChoose',spokenScene:prompt,spokenPrompt:'',why:`${answer} Evidence: “${evidence}”`,evidence,comprehension:true,cognitiveLevel:/why|how|main idea|lesson|suggest|conclu|interpret|what links|why might/i.test(prompt)?'advanced':'medium'}));
  }
  // Evidence gaps use the complete source text, not invented story events.
  const targets=[];for(const w of ws){const r=new RegExp('\\b'+rx(w.word)+'\\b','i'),line=sents.find(s=>r.test(s));if(line)targets.push({word:w.word,line});}
@@ -82,7 +84,7 @@ function studyTasks(book,u){const rows=study[book.level][u.unit],url=`https://do
 function take(pool,count,label){const selected=[];const seen=new Set();for(const q of pool){const key=JSON.stringify([q.scene,q.prompt,q.answer,q.partType]);if(seen.has(key))continue;seen.add(key);selected.push(q);if(selected.length===count)return selected;}throw Error(`${label}: ${selected.length}/${count} unique tasks`);}
 function course(book,old){
  const id=`discover-${book.level}`,lessons=[],p=book.program,cache=new Map(book.units.map(u=>[u.unit,{v:vocab(u),l:listening(u),g:grammarTasks(book,u),r:readTasks(book,u),s:studyTasks(book,u)}]));
- function attach(s,items){const unit=s.unit||s.units?.[0]||1;lessons.push({...s,unit,sourceLessons:s.sourceLessons||[s.id],programSource:{...p.source,row:s.sourceRow},timeLimitSeconds:s.kind==='unit-review'?1800:1200,items:items.map((q,i)=>({...q,id:`${id}-program2-${s.id}-q${i+1}`,title:`Discover ${book.level} · Unit ${q.unit}`,options:options(q.answer,q.options||[],i)}))});}
+ function attach(s,items){const unit=s.unit||s.units?.[0]||1;lessons.push({...s,unit,sourceLessons:s.sourceLessons||[s.id],programSource:{...p.source,row:s.sourceRow},timeLimitSeconds:s.kind==='unit-review'?1800:1200,items:items.map((q,i)=>({...q,id:stableId(id,s.id,q,`${id}-program2-${s.id}-q${i+1}`),title:`Discover ${book.level} · Unit ${q.unit}`,options:options(q.answer,q.options||[],i)}))});}
  for(const s of p.sessions){
   if(s.kind!=='practice')continue;
   const u=book.units.find(u=>u.grammarSession===s.session)||book.units.find(u=>u.readingSession===s.session)||book.units.find(u=>p.reviews.find(r=>r.unit===u.unit)?.afterSession===s.session)||book.units.find(u=>u.vocabSession===s.session);

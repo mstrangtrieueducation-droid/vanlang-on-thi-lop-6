@@ -27,7 +27,7 @@ test('All FF test illustrations use generated subjects, with source geometry and
  for(const n of [1,2]){
   const before=JSON.parse(execFileSync('git',['show',`HEAD:khoa-hoc/data/family-friends-${n}.json`],{encoding:'utf8',maxBuffer:15e6}));
   const now=courses[`family-friends-${n}`];
-  const answers=c=>c.lessons.map(l=>({id:l.id,sourceLessons:l.sourceLessons,items:l.items.map(q=>({id:q.id,answer:q.answer,acceptedAnswers:q.acceptedAnswers,options:q.options,inputMode:q.inputMode,visual:q.visual}))}));
+  const answers=c=>c.lessons.filter(l=>l.kind==='progress-test').map(l=>({id:l.id,sourceLessons:l.sourceLessons,items:l.items.map(q=>({id:q.id,answer:q.answer,acceptedAnswers:q.acceptedAnswers,options:q.options,inputMode:q.inputMode,visual:q.visual}))}));
   assert.deepEqual(answers(now),answers(before));
   for(const l of now.lessons)for(const q of l.items)if(q.visual){const html=scenes.render(q);assert(!html.includes('[object Object]'));for(const m of html.matchAll(/href="([^"]+)"/g))assert(m[1].includes('/3d-v3/'),q.id);}
  }
