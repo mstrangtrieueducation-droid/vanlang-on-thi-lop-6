@@ -11,8 +11,8 @@ test('Every Unit offers all six academic skills; Boss covers all six and Unit ro
 test('Core tasks retain complete subject, verb and complement; headlines require evidence as well as heading',()=>{
  for(const u of D.units){
   const core=u.academic.find(t=>t.kind==='core'),count=core.sentence.split(/\s+/).length;
-  assert.ok(count>=25&&count<=40,u.id+' '+count);assert.equal(core.chunks.filter(t=>!t.remove).map(t=>t.text).join(' '),core.simplified);
-  assert.ok(C.check(core,'2,0'));assert.ok(!C.check(core,'0,2,3'));assert.ok(!C.check(core,'0,0'));
+  assert.ok(count>=25&&count<=40,u.id+' '+count);assert.equal(core.chunks.filter(t=>!t.remove).map(t=>t.text).join(' ').replace(/\.$/,''),core.simplified.replace(/\.$/,''));
+  assert.ok(C.check(core,core.answer.split(',').reverse().join(',')));assert.ok(!C.check(core,core.answer+',1'));assert.ok(!C.check(core,'0,0'));
   const t=u.academic.find(t=>t.kind==='headline');assert.ok(t.paragraph.length>=4&&t.paragraph.length<=6);
   assert.ok(C.check(t,t.answer));assert.ok(!C.check(t,JSON.stringify({heading:t.heading})));assert.ok(!C.check(t,JSON.stringify({heading:1,evidence:0})));
  }

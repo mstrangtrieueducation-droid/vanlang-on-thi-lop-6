@@ -12,9 +12,11 @@ module.exports=function academic(unit,source){
  const word=unit.words[0],base={wordId:word.id,word,source:unit.source,origin:'Original supplementary practice based on this Unit — not a textbook quotation'};
  const task=(kind,suffix,fields)=>({...base,id:unit.id+'-academic-'+suffix,kind,...fields});
  const intros=['Although individual circumstances can vary considerably and unpredictably from one situation to another,','During a particularly careful investigation that compares evidence from several different sources,','According to a detailed discussion of the complex topic and its wider context,'];
- const phrases=[{text:intros[(unit.unit-1)%3],remove:true},{text:subject,role:'S'},{text:', as the broader context makes clear,',remove:true},{text:verb,role:'V'},{text:object+'.',role:'O / complement'}];
- const explanation=`S = ${subject}; V = ${verb}; O / complement = ${object}. The opening clause and parenthetical comment add context; neither is part of the main clause. Keep the complement after verbs such as “depend”.`;
- const tasks=[task('core','core',{chunks:phrases,answer:'0,2',sentence:phrases.map(p=>p.text).join(' '),simplified:core,explanation})];
+ let phrases=[{text:intros[(unit.unit-1)%3],remove:true},{text:subject,role:'S'},{text:', as the broader context makes clear,',remove:true},{text:verb,role:'V'},{text:object+'.',role:'O / complement'}];
+ if(unit.unit%3===2)phrases=[phrases[1],phrases[2],phrases[3],{...phrases[4],text:object},{text:', according to a detailed discussion of the topic and its wider social context.',remove:true}];
+ if(unit.unit%3===0)phrases=[phrases[0],phrases[1],phrases[3],phrases[2],phrases[4]];
+ const explanation=`Simplified: ${core} S = ${subject}; V = ${verb}; O / complement = ${object}. The removed contextual phrases add detail but do not belong to the main clause. Keep the complement after verbs such as “depend”.`;
+ const tasks=[task('core','core',{chunks:phrases,answer:phrases.map((p,i)=>p.remove?i:null).filter(i=>i!==null).join(','),sentence:phrases.map(p=>p.text).join(' '),simplified:core,explanation})];
  if(unit.track==='Reading 2'&&unit.unit===5){const w=unit.words.find(w=>w.word==='access');tasks.push(task('clasp','access',{word:w,wordId:w.id,left:'access',answer:'to',choices:['to','under','into'],origin:'Source example · access to a site',explanation:w.example}));}
  if(unit.track==='Vocabulary 1'&&unit.unit===13){const w=unit.words.find(w=>w.word==='react');tasks.push(task('clasp','react',{word:w,wordId:w.id,left:'react',answer:'to',choices:['to','into','under'],origin:'Source example · reacted to the news',explanation:w.example}));}
  const choices=['Addition','Contrast','Cause & Effect'];
@@ -26,7 +28,8 @@ module.exports=function academic(unit,source){
  tasks.push(task('logic','addition',{pair:paragraph.slice(0,2),answer:'Addition',choices,explanation:'The second sentence develops the same topic with a related detail or example. It does not reverse the first statement.'}));
  const falseHeading='Rejecting the importance of '+subject.charAt(0).toLowerCase()+subject.slice(1);
  tasks.push(task('headline','headline',{paragraph,choices:[title,narrow,falseHeading],answer:JSON.stringify({heading:0,evidence:0}),heading:0,evidence:[0,paragraph.length-1],explanation:`“${title}” covers the main point and the supporting details. “${narrow}” is too narrow. The rejection heading reverses the paragraph's message. Read the opening and conclusion together.`}));
- const pairs=Object.entries(parallels).filter(([a])=>boundary(a).test(paragraph.join(' '))).slice(0,4).map(([a,b],i)=>({id:String(i),left:b,right:paragraph.join(' ').match(boundary(a))[0]}));
+ const groups=[['support','supports','help','contributes to'],['requires','require','demands'],['provides','offers','presents'],['influences','affects','shapes'],['improve','improves','strengthens'],['valuable','important'],['initial','first']];const seen=new Set();
+ const pairs=Object.entries(parallels).filter(([a])=>boundary(a).test(paragraph.join(' '))).filter(([a])=>{const g=groups.findIndex(g=>g.includes(a)),key=g<0?a:'group-'+g;if(seen.has(key))return false;seen.add(key);return true;}).slice(0,4).map(([a,b],i)=>({id:String(i),left:b,right:paragraph.join(' ').match(boundary(a))[0]}));
  if(pairs.length<2)throw Error(unit.id+': not enough context-specific paraphrases');
  tasks.push(task('paraphrase','paraphrase',{paragraph,pairs,answer:pairs.map(p=>p.id+':'+p.id).join('|'),explanation:pairs.map(p=>`${p.left} → ${p.right}`).join('; ')}));
  let family;
