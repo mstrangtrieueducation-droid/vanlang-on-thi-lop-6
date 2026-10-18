@@ -8,17 +8,20 @@ const parallels={ 'support':'help maintain','help':'assist','protect':'keep safe
 const boundary=w=>new RegExp('\\b'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i');
 module.exports=function academic(unit,source){
  const row=briefings[unit.track]?.[unit.unit-1];if(!row)throw Error('No reviewed briefing: '+unit.id);
- const [subject,verb,object,support,title,narrow]=row,core=`${subject} ${verb} ${object}.`,paragraph=[core,...sentences(support)];
+ const [subject,verb,fullObject,support,title,narrow]=row,relative=fullObject.match(/^(.+?) ((?:that|which|who) .+)$/),object=relative?relative[1]:fullObject,core=`${subject} ${verb} ${object}.`,paragraph=[`${subject} ${verb} ${fullObject}.`,...sentences(support)];
  const word=unit.words[0],base={wordId:word.id,word,source:unit.source,origin:'Original supplementary practice based on this Unit — not a textbook quotation'};
  const task=(kind,suffix,fields)=>({...base,id:unit.id+'-academic-'+suffix,kind,...fields});
  const intros=['Although individual circumstances can vary considerably and unpredictably from one situation to another,','During a particularly careful investigation that compares evidence from several different sources,','According to a detailed discussion of the complex topic and its wider context,'];
- let phrases=[{text:intros[(unit.unit-1)%3],remove:true},{text:subject,role:'S'},{text:', as the broader context makes clear,',remove:true},{text:verb,role:'V'},{text:object+'.',role:'O / complement'}];
- if(unit.unit%3===2)phrases=[phrases[1],phrases[2],phrases[3],{...phrases[4],text:object},{text:', according to a detailed discussion of the topic and its wider social context.',remove:true}];
+ let phrases=[{text:intros[(unit.unit-1)%3],remove:true},{text:subject,role:'S'},{text:', as the broader context makes clear,',remove:true},{text:verb,role:'V'},{text:fullObject+'.',role:'O / complement'}];
+ if(unit.unit%3===2)phrases=[phrases[1],phrases[2],phrases[3],{...phrases[4],text:fullObject},{text:', according to a detailed discussion of the topic and its wider social context.',remove:true}];
  if(unit.unit%3===0)phrases=[phrases[0],phrases[1],phrases[3],phrases[2],phrases[4]];
+ if(relative){const i=phrases.findIndex(p=>p.role==='O / complement'),period=phrases[i].text.endsWith('.');phrases.splice(i,1,{text:object,role:'O / complement'},{text:relative[2]+(period?'.':''),remove:true});}
  const explanation=`Simplified: ${core} S = ${subject}; V = ${verb}; O / complement = ${object}. The removed contextual phrases add detail but do not belong to the main clause. Keep the complement after verbs such as “depend”.`;
  const tasks=[task('core','core',{chunks:phrases,answer:phrases.map((p,i)=>p.remove?i:null).filter(i=>i!==null).join(','),sentence:phrases.map(p=>p.text).join(' '),simplified:core,explanation})];
  if(unit.track==='Reading 2'&&unit.unit===5){const w=unit.words.find(w=>w.word==='access');tasks.push(task('clasp','access',{word:w,wordId:w.id,left:'access',answer:'to',choices:['to','under','into'],origin:'Source example · access to a site',explanation:w.example}));}
  if(unit.track==='Vocabulary 1'&&unit.unit===13){const w=unit.words.find(w=>w.word==='react');tasks.push(task('clasp','react',{word:w,wordId:w.id,left:'react',answer:'to',choices:['to','into','under'],origin:'Source example · reacted to the news',explanation:w.example}));}
+ const local=require('./single-unit-collocations.cjs')[unit.track+':'+unit.unit];
+ if(local){const [phrase,left,answer,distractors,slotFirst=false]=local,w=unit.words.find(w=>w.collocation.includes(phrase));if(!w)throw Error('Missing source collocation '+unit.id+' '+phrase);tasks.push(task('clasp','local-collocation',{word:w,wordId:w.id,left,answer,slotFirst,choices:[answer,...distractors],origin:'Collocation practice from source vocabulary',explanation:'Source pattern: '+phrase+'. '+w.example}));}
  const choices=['Addition','Contrast','Cause & Effect'];
  const original=Object.values(source.passages||{}).flatMap(p=>(p.paragraphs||[]).map(x=>({title:p.title,lines:sentences(x.text)})));
  let real=[];for(const p of original)for(let i=1;i<p.lines.length;i++){const m=p.lines[i].match(/^(However|Nevertheless|Therefore|Consequently|Moreover|Furthermore)[,\s]/i);if(m)real.push({pair:[p.lines[i-1],p.lines[i].replace(/^(However|Nevertheless|Therefore|Consequently|Moreover|Furthermore)[,\s]+/i,'')],answer:/however|nevertheless/i.test(m[1])?'Contrast':/therefore|consequently/i.test(m[1])?'Cause & Effect':'Addition',connector:m[1],origin:'Reading excerpt · '+p.title});}

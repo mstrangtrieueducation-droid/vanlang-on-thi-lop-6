@@ -3,6 +3,7 @@ const C=require('./core.js'),D=require('./data.js'),families=require('./word-fam
 const skills=['core','logic','clasp','paraphrase','headline','family'];
 test('Every Unit offers all six academic skills; Boss covers all six and Unit rotates three or four',()=>{
  for(const u of D.units){
+  assert.equal(C.start(u,[u],'boss').tasks.length,10,u.id+' when only this Unit is unlocked');
   const pool=C.pool(u,D.units);for(const k of skills)assert.ok(pool.some(t=>t.kind===k),u.id+' '+k);
   for(let i=0;i<3;i++){const boss=C.start(u,D.units,'boss');assert.equal(boss.tasks.length,10);for(const k of skills)assert.ok(boss.tasks.some(t=>t.kind===k),u.id+' '+k);}
   const kinds=new Set(C.start(u,D.units,'unit').tasks.map(t=>t.kind));assert.ok(kinds.size>=3&&kinds.size<=4,u.id);

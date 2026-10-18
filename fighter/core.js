@@ -21,7 +21,7 @@ function start(unit,available,mode,vault={},rng=Math.random){const current=pool(
  if(mode==='boss'&&tasks.length<10)throw Error('This Unit needs more verified word-form/collocation tasks.');
  return {unitId:unit.id,mode,tasks,index:0,answers:[],misses:{},combo:0,points:0,startedAt:Date.now(),deadline:mode==='boss'?Date.now()+60000:null,elapsed:0,reviewCount,finished:false};}
 function check(task,value){
- if(task.kind==='core'){const ids=String(value).split(',').filter(Boolean).map(Number).sort((a,b)=>a-b);return ids.length===2&&new Set(ids).size===2&&ids.join(',')===task.answer;}
+ if(task.kind==='core'){const ids=String(value).split(',').filter(Boolean).map(Number).sort((a,b)=>a-b);return ids.length===task.answer.split(',').length&&new Set(ids).size===ids.length&&ids.join(',')===task.answer;}
  if(task.kind==='headline'){try{const v=typeof value==='string'?JSON.parse(value):value;return v.heading===task.heading&&task.evidence.includes(v.evidence);}catch{return false;}}
  if(task.kind==='paraphrase'){const pairs=String(value).split('|');return pairs.length===task.pairs.length&&new Set(pairs).size===pairs.length&&pairs.sort().join('|')===task.answer.split('|').sort().join('|');}
  return norm(value)===norm(task.answer);
