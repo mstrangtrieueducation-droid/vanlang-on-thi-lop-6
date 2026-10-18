@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-18",
+  "version": "sheet-1",
+  "scope": [
+    "Family and Friends 1–2",
+    "Discover 1–4"
+  ],
+  "features": [
+    "All multiple-choice and typing questions in each Part are shown together; ordering/matching games keep their native controls",
+    "Draft answers autosave immediately; Check Part, Part navigation and final submission commit complete answers through the existing grading APIs",
+    "One source passage per Part; difficulty rises within each Part",
+    "Full-width timer rail and Titi rocket share the same percentage coordinate; no corner timer widget",
+    "Original Discover tests retain listening limits, writing countdown and original form fields"
+  ],
+  "validation": {
+    "automatedTests": 186,
+    "viewports": [
+      "1366x768",
+      "390x844",
+      "844x390"
+    ],
+    "browserChecks": [
+      "Part question count",
+      "Audio continues while answering",
+      "Draft-only inputs do not earn scores",
+      "First-attempt correctness and no double grading",
+      "Draft and grade restoration after reload",
+      "FF1 and FF2 multi-field typing",
+      "No test answer reveal before submission",
+      "Rocket/fill alignment at 0/25/50/75/100%",
+      "Original Discover Part count and mobile form bounds"
+    ],
+    "physicalIPhoneTest": false
+  },
+  "data": "Original question banks, accepted answers, question IDs and class-unlock limits are unchanged."
+}

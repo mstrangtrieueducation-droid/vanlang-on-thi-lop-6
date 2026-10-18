@@ -51,7 +51,7 @@
  function sections(items){
   const out=[];for(const [index,q] of items.entries()){
    const d=describe(q),last=out.at(-1);
-   if(last?.key===d.key&&last.block===d.block&&last.level===(q.cognitiveLevel||q.difficulty||''))last.indices.push(index);
+   if(last?.key===d.key&&last.block===d.block&&(last.level===(q.cognitiveLevel||q.difficulty||'')||/^(family-friends-|discover-)/.test(q.id||'')))last.indices.push(index);
    else out.push({...d,level:q.cognitiveLevel||q.difficulty||'',id:d.key+':'+q.id,number:out.length+1,indices:[index]});
   }return out;
  }

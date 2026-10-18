@@ -1,5 +1,5 @@
 /* Rocket clock. AppleTimer remains a compatibility alias for saved/legacy pages. */
-(function(root,factory){const script=typeof document!=='undefined'?document.currentScript?.src:null;const api=factory(script);if(typeof module==='object')module.exports=api;else{root.RocketTimer=root.AppleTimer=api;const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('rocket-timer.css?v=rocket-1',script).href;document.head.append(css);}})(globalThis,(script)=>{
+(function(root,factory){const script=typeof document!=='undefined'?document.currentScript?.src:null;const api=factory(script);if(typeof module==='object')module.exports=api;else{root.RocketTimer=root.AppleTimer=api;const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('rocket-timer.css?v=sheet-1',script).href;document.head.append(css);}})(globalThis,(script)=>{
 'use strict';let serial=0;const asset=script?new URL('titi-rocket-v1.png',script).href:'../game-kit/adventures/titi-rocket-v1.png';
 const clamp=n=>Math.max(0,Math.min(100,Number(n)||0));
 const progress=(remaining,total)=>total>0?clamp((1-remaining/total)*100):0;
