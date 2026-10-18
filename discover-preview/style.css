@@ -7,3 +7,11 @@ body:has(.preview-home){display:block;overflow:auto;min-height:100dvh;background
 /* Preview-only controls must not look like pupil leaderboard buttons. */
 #adventure .journey-shortcuts{display:none!important}#adventure .scene-caption{display:none}#adventure .lobby h1{font-size:clamp(19px,2.3vw,34px)}
 @media(max-width:650px){.preview-home{margin:18px auto}.preview-heading>a{margin-left:0}.preview-tabs a{padding:10px 12px}.preview-level{gap:12px;padding:16px;flex-wrap:wrap}.preview-number{width:45px;height:45px;font-size:22px}.preview-level>div{flex:1;min-width:180px}.preview-level>b{font-size:14px}.preview-level h2{font-size:15px}}
+.preview-units{display:grid;grid-template-columns:repeat(9,1fr);gap:8px;margin:22px 0}.preview-units a{padding:10px 4px;text-align:center;color:#d5e7ff;background:#24395b;border:1px solid #537096;border-radius:10px;text-decoration:none;font-weight:700}.preview-units a[aria-current]{background:#ffdc79;color:#273451;border-color:#fff3b8;box-shadow:0 3px #ac7835}.preview-tests{margin:30px 0;padding:20px;border:1px solid #5d6e87;border-radius:18px;color:#dae7f7}.preview-tests summary{cursor:pointer;font-weight:800}.preview-tests nav{display:flex;flex-wrap:wrap;gap:12px}.preview-tests a{color:#ace9ff;padding:10px;background:#23344e;border-radius:10px}.preview-tests p{line-height:1.6}@media(max-width:650px){.preview-units{grid-template-columns:repeat(6,1fr)}.preview-units a{font-size:12px}.preview-tests{padding:14px}}
+/* Keep all four answer cards visible while a long reading scrolls independently. */
+#adventure .work:has(>.choices){min-height:0}
+#adventure .work>.choices{height:100%;min-height:0;grid-template-rows:minmax(0,1fr);gap:8px;padding:3px}
+#adventure .work>.choices:has(>.choice:nth-child(3)){grid-template-rows:repeat(2,minmax(0,1fr))}
+#adventure .work>.choices>.choice{height:100%;min-height:0;padding:10px 16px}
+#adventure .picture-choices .phonics-picture{height:min(12dvh,125px);width:auto;max-width:75%;max-height:100%;justify-self:center}
+@media(max-height:500px){#adventure .work>.choices>.choice{padding:5px 12px}#adventure .picture-choices .phonics-picture{height:min(12dvh,65px)}}

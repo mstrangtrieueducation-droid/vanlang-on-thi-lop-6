@@ -15,6 +15,8 @@ else:
  questions=[]
  for file in [*ROOT.glob('khoa-hoc/data/*.json'),*ROOT.glob('discover-preview/data/*.json')]:
   for lesson in json.loads(file.read_text(encoding='utf8'))['lessons']:questions+=lesson['items']
+ for file in ROOT.glob('discover-preview/data/*/*.json'):
+  questions+=json.loads(file.read_text(encoding='utf8'))['items']
  for file in ROOT.glob('tu-luyen-*/quiz-data.js'):
   if not re.fullmatch(r'tu-luyen-\d+',file.parent.name):continue
   source=file.read_text(encoding='utf8').strip()
@@ -22,6 +24,7 @@ else:
   questions+=data['items']
  story_texts={q[field] for q in questions for field in ['storyText','storySpeech'] if q.get(field)}
  raw=[str(q.get(spoken) or q.get(visible) or '') for q in questions for spoken,visible in [('spokenScene','scene'),('spokenPrompt','prompt')] if q.get(spoken) or q.get(visible)]
+ raw += [q['partInstruction'] for q in questions if q.get('partInstruction')]
 raw+=sorted(story_texts)
 raw+=json.loads((ROOT/'game-kit/adventures/part-instructions.json').read_text(encoding='utf8'))
 raw+=['Oh no…',"It's okay, let's try it again!",'Excellent!','Good try!','Amazing! Your adventure is complete!','Read the clue and choose the correct answer.',"Ready for your next challenge? Let's explore!",'Welcome to Ms. Trang Trieu Education!']

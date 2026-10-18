@@ -1,37 +1,38 @@
-# Discover classroom preview
+# Discover 1–4 — complete practice review build
 
-This is an explicitly isolated staff preview, not a replacement of the active pupil curriculum.
+This is the staff review route. It does not replace pupil classroom permissions or write trial scores to the centre leaderboard.
 
-Open `discover-preview/?review=1&course=discover-1` and select Discover 1–4.
-Each book includes the first three Program sessions (30 questions each) and the Unit 1 checkpoint (45 questions): 16 lessons, 540 question instances.
+Open `discover-preview/?review=1&course=discover-1` and switch between Discover 1–4. Each book now contains all 18 Units: 62 Program sessions × 30 questions, plus 18 Unit Reviews × 45 questions. Total: 320 practice levels and 10,680 question instances. The two oral interviews per book remain teacher-assessed.
 
-## Coverage and evidence
+## Content and source boundaries
 
-- Session titles come verbatim, after whitespace normalization, from `khoa-hoc/program/discover-plan.cjs`.
-- `source.json` contains the extracted classroom vocabulary, examples, grammar and reading transcripts. `curated.cjs` contains centre-authored comprehension, grammar and Word Study practice. It does not claim these are official test questions.
-- Session 3 includes Unit 2 vocabulary because the Program explicitly introduces it there. The Unit 1 checkpoint excludes that new vocabulary.
-- Reading sources: Families, Animal Groups, Having Fun, Bella's Home. The Families captions are attributed to the corresponding families, not invented individual speakers. Bella's quoted thoughts retain their explicit attribution in the narrative.
-- The supplied Oxford Discover Student Books, printed page 15, inform Word Study and Writing Study. No PDF or scanned page is served.
-- The quiz uses the shared first-attempt scorer, question navigation, review explanations, grouped Parts and single-instruction audio. Dictation accepts case and punctuation normalization.
-- Preview saves use `titi-discover-preview-v1:<course>:<lesson>`. There is no cloud script or pupil progress mirroring. Switching books cannot mix saved answers.
+- `khoa-hoc/program/discover-resources.json` retains the supplied Program, vocabulary, grammar, reading and Word Study source snapshot for all four books. Source URLs, Unit numbers, Student Book page numbers and book checksums remain attached to the corresponding material.
+- `khoa-hoc/discover.cjs` is the common builder. Program titles and session order are preserved. Review checkpoints cover every target word of their Unit, grammar, reading comprehension, listening and Word Study. Vocabulary introduced for the following Unit in a mixed Program session never leaks into the previous Unit's review.
+- The question mix includes listen-and-choose pictures, dictation, contextual vocabulary gaps, word/picture matching, sentence building, text order, grammar and reading comprehension. Questions are grouped into Parts by the existing shared engine; an instruction plays once per Part.
+- `discover-comprehension.cjs` contains authored comprehension prompts with source evidence. `discover-reading-edit.cjs` restores transcript punctuation and verified transcription errors. `discover-dialogue.cjs` and `discover-transcript-turns.cjs` explicitly identify speakers and narration.
+- Case and punctuation exercises use exact choice marking. Typing uses the existing answer normalizer; additional valid answers are declared explicitly (for example, **to / too** as homophones of **two**).
+- All practice illustrations come from the inspected local 3D image libraries. No raw PDF page or source scan is embedded in practice.
 
-## Artwork
+## Loading, audio and state
 
-Original PNG atlases in `art/animals.png` and `art/space.png`, generated with the built-in image generation tool. Native 1254 × 1254 pixels retained without recompression. CSS cropping uses inspected bounds to prevent adjacent illustrations leaking into an answer. The old downloaded source photographs are not part of the published preview.
+The menu downloads a small course catalog. Question payloads load only for the selected lesson from `data/<course>/<lesson>.json`. The remaining 79 lessons are not downloaded to enter one lesson.
 
-Final prompt set: two white-background, four-column/three-row educational sprite atlases with sharp, colorful volumetric 3D rendering, no labels or scans. Animals: feather, wings, eggs, fur, scales, gills, amphibians, mammals, ear, eye, mouth, leg. Space: asteroid, comet, meteorite on the ground, solar system, stars, moon, galaxy, universe, spacecraft, telescope, observatory, astronomer. Astronomer art is not used because the generated costume is an astronaut costume; the singular feather is not used to teach a numerical distinction.
+`voice.js` extends the existing voice lookup only on the Discover preview page. All instructions, question cues and complete readings have local recordings in one voice, **en-US-AnaNeural**, rate **+3%**. Original pronunciation is retained at normal pitch. Questions remain answerable during playback. The build is resumable and does not publish an incomplete voice registry.
 
-## Rebuild and verify
+Trial progress is separated by `titi-discover-preview-v2:<course>:<lesson>`. No pupil records are migrated, inferred or unlocked by playing the review version.
 
-`node discover-preview/build.cjs`
+## Verification
 
-`node --test discover-preview/content.test.cjs`
+- `node discover-preview/build.cjs`
+- `node --test discover-preview/content.test.cjs discover-preview/audio.test.cjs`
+- `node discover-preview/prepare-voice.cjs` then `python discover-preview/build-voice.py` (requires `edge-tts==7.3.1` in the build environment only).
+- Browser checks cover all four book menus, first and final Unit levels, 30/45 question counts, matching, dictation, named dialogue, saving/reloading, mobile landscape layout, missing assets and separation from pupil storage.
+- The full tracked repository test suite also passes. Desktop browser checks do not certify physical iPhone/Zalo speaker behaviour.
 
-`game-kit/tools/build-native-voice.py` includes this preview alongside every existing course. The recordings use the same native English voice as the shared player.
+## Original Progress Tests — still separate
 
-## Still pending
+Nine original Progress Tests per book are linked from the review menu. Their source data and answer-matcher scripts were compared against the currently published source; the substantive content matches the previous audit. They have not been replaced by generated MCQ approximations.
 
-- Unit 2–18 conversion and their review checkpoints across all four books.
-- The 36 original Progress Tests: original input types, audio limits, partial scoring and newly rendered artwork must all pass the existing Program readiness contract before activation.
-- Pupil teaching-limit/progress migration from the existing grouped lessons to session-by-session levels. The preview must not be used as a substitute for that migration.
-- Final teacher content review and real-device audio checks, especially iPhone/Zalo. Automated browser checks cannot certify a physical device's speaker or network playback quality.
+The new in-game conversion of all 36 tests is **not complete**. It still requires all original input types, original audio/attempt limits, partial-credit grading and inspected replacement artwork (including exact counts, colors and positions). The Program's `assertReady` gate must remain in place until this is complete. No readiness flags are set merely because the practice bank is complete.
+
+Student Dashboard rollout of the session-by-session version is also pending the complete test conversion and teaching-limit/progress migration. Existing pupil routes stay on their current curriculum.
