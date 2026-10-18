@@ -1,0 +1,700 @@
+{
+  "course": "discover-2",
+  "unit": 12,
+  "title": "Unit 12 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+    "unit": 12,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Where is ...?",
+      "note": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "example": "Where's the carton? It's on the shelf.",
+      "formula": [
+        [
+          "Where is / Where's",
+          "+",
+          "danh từ số ít",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Where are ...?",
+      "note": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "example": "Where are the papers? They're in the machine.",
+      "formula": [
+        [
+          "Where are",
+          "+",
+          "danh từ số nhiều",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Is there ...?",
+      "note": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "example": "Is there a carton on the shelf?",
+      "formula": [
+        [
+          "Is there",
+          "+",
+          "a / an",
+          "+",
+          "danh từ số ít",
+          "+",
+          "vị trí",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Are there ...?",
+      "note": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "example": "Are there papers in the recycling plant?",
+      "formula": [
+        [
+          "Are there",
+          "+",
+          "danh từ số nhiều",
+          "+",
+          "vị trí",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u12-1-1",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...?",
+      "title": "Where is ...?",
+      "answer": "Where's",
+      "options": [
+        "Where's",
+        "Where are",
+        "Where am",
+        "Where be"
+      ],
+      "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the carton? It's on the shelf.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u12-1-2",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...?",
+      "title": "Where are ...?",
+      "answer": "are",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the papers? They're in the machine.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u12-1-3",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...?",
+      "title": "Is there ...?",
+      "answer": "Is",
+      "options": [
+        "Am",
+        "Be",
+        "Is",
+        "Are"
+      ],
+      "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there a carton on the shelf?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u12-1-4",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are there ...?",
+      "title": "Are there ...?",
+      "answer": "Are",
+      "options": [
+        "Be",
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there papers in the recycling plant?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u12-2-1",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...?",
+      "title": "Where is ...?",
+      "answer": "Where's",
+      "options": [
+        "Where are",
+        "Where am",
+        "Where be",
+        "Where's"
+      ],
+      "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Where are] the carton? It's on the shelf.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u12-2-2",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...?",
+      "title": "Where are ...?",
+      "answer": "are",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where [is] the papers? They're in the machine.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u12-2-3",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...?",
+      "title": "Is there ...?",
+      "answer": "Is",
+      "options": [
+        "Be",
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Are] there a carton on the shelf?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u12-2-4",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are there ...?",
+      "title": "Are there ...?",
+      "answer": "Are",
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Be"
+      ],
+      "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Is] there papers in the recycling plant?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u12-3-1",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...?",
+      "title": "Where is ...?",
+      "answer": "Where's",
+      "options": [
+        "Where am",
+        "Where be",
+        "Where's",
+        "Where are"
+      ],
+      "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the carton? It's on the shelf.\nWord bank: Where am · Where be · Where's · Where are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u12-3-2",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...?",
+      "title": "Where are ...?",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the papers? They're in the machine.\nWord bank: be · are · is · am",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u12-3-3",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...?",
+      "title": "Is there ...?",
+      "answer": "Is",
+      "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Be"
+      ],
+      "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there a carton on the shelf?\nWord bank: Is · Are · Am · Be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u12-3-4",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are there ...?",
+      "title": "Are there ...?",
+      "answer": "Are",
+      "options": [
+        "Is",
+        "Am",
+        "Be",
+        "Are"
+      ],
+      "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there papers in the recycling plant?\nWord bank: Is · Am · Be · Are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u12-4-1",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...?",
+      "title": "Where is ...?",
+      "answer": "Where's the carton? → It's on → the shelf.",
+      "options": [
+        "Where's the carton? → It's on → the shelf.",
+        "It's on → the shelf. → Where's the carton?",
+        "the shelf. → Where's the carton? → It's on",
+        "the shelf. → It's on → Where's the carton?"
+      ],
+      "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "It's on",
+        "the shelf.",
+        "Where's the carton?"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u12-4-2",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...?",
+      "title": "Where are ...?",
+      "answer": "Where are the → papers? They're in → the machine.",
+      "options": [
+        "Where are the → papers? They're in → the machine.",
+        "papers? They're in → the machine. → Where are the",
+        "the machine. → Where are the → papers? They're in",
+        "the machine. → papers? They're in → Where are the"
+      ],
+      "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "papers? They're in",
+        "the machine.",
+        "Where are the"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u12-4-3",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...?",
+      "title": "Is there ...?",
+      "answer": "Is there a → carton on → the shelf?",
+      "options": [
+        "Is there a → carton on → the shelf?",
+        "carton on → the shelf? → Is there a",
+        "the shelf? → Is there a → carton on",
+        "the shelf? → carton on → Is there a"
+      ],
+      "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "carton on",
+        "the shelf?",
+        "Is there a"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u12-4-4",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are there ...?",
+      "title": "Are there ...?",
+      "answer": "Are there papers → in the → recycling plant?",
+      "options": [
+        "Are there papers → in the → recycling plant?",
+        "in the → recycling plant? → Are there papers",
+        "recycling plant? → Are there papers → in the",
+        "recycling plant? → in the → Are there papers"
+      ],
+      "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "in the",
+        "recycling plant?",
+        "Are there papers"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u12-5-1",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...?",
+      "title": "Where is ...?",
+      "answer": "Where's the carton? It's on the shelf.",
+      "options": [
+        "Where's the carton? It's on the shelf.",
+        "Where are the carton? It's on the shelf.",
+        "Where am the carton? It's on the shelf.",
+        "Where be the carton? It's on the shelf."
+      ],
+      "hint": "Dùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "why": "Where's the carton? It's on the shelf.\nDùng Where is hoặc dạng nói gọn Where's với danh từ số ít. Câu trả lời dùng is + giới từ chỉ nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Where is ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u12-5-2",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...?",
+      "title": "Where are ...?",
+      "answer": "Where are the papers? They're in the machine.",
+      "options": [
+        "Where is the papers? They're in the machine.",
+        "Where am the papers? They're in the machine.",
+        "Where be the papers? They're in the machine.",
+        "Where are the papers? They're in the machine."
+      ],
+      "hint": "Dùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "why": "Where are the papers? They're in the machine.\nDùng Where are với danh từ số nhiều. Câu trả lời dùng they are hoặc danh từ số nhiều + are.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Where are ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u12-5-3",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...?",
+      "title": "Is there ...?",
+      "answer": "Is there a carton on the shelf?",
+      "options": [
+        "Am there a carton on the shelf?",
+        "Be there a carton on the shelf?",
+        "Is there a carton on the shelf?",
+        "Are there a carton on the shelf?"
+      ],
+      "hint": "Dùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "why": "Is there a carton on the shelf?\nDùng Is there với danh từ số ít và trả lời Yes, there is hoặc No, there isn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Is there ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u12-5-4",
+      "type": "choice",
+      "unit": 12,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/j8hfbvt/",
+        "unit": 12,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are there ...?",
+      "title": "Are there ...?",
+      "answer": "Are there papers in the recycling plant?",
+      "options": [
+        "Be there papers in the recycling plant?",
+        "Are there papers in the recycling plant?",
+        "Is there papers in the recycling plant?",
+        "Am there papers in the recycling plant?"
+      ],
+      "hint": "Dùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "why": "Are there papers in the recycling plant?\nDùng Are there với danh từ số nhiều và trả lời Yes, there are hoặc No, there aren't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Are there ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

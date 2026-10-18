@@ -1,0 +1,698 @@
+{
+  "course": "discover-4",
+  "unit": 18,
+  "title": "Unit 18 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+    "unit": 18,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Unspecified experience",
+      "note": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "example": "Camila has created a petition.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "have / has + past participle"
+        ]
+      ]
+    },
+    {
+      "tag": "Specific finished time",
+      "note": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "example": "She visited the marine park last Saturday.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "past simple",
+          "+",
+          "finished past time"
+        ]
+      ]
+    },
+    {
+      "tag": "Experience then details",
+      "note": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "example": "I've seen a manta ray. I saw one near the reef last year.",
+      "formula": [
+        [
+          "present perfect experience"
+        ],
+        [
+          "simple past details"
+        ]
+      ]
+    },
+    {
+      "tag": "Still connected or finished?",
+      "note": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "example": "The new law has protected sea turtles this year.",
+      "formula": [
+        [
+          "unfinished time",
+          "->",
+          "present perfect"
+        ],
+        [
+          "finished time",
+          "->",
+          "simple past"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u18-1-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified experience",
+      "title": "Unspecified experience",
+      "answer": "created",
+      "options": [
+        "created",
+        "create",
+        "creates",
+        "creating"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Camila has ___ a petition.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u18-1-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Specific finished time",
+      "title": "Specific finished time",
+      "answer": "visited",
+      "options": [
+        "has visited",
+        "has visit",
+        "visiting",
+        "visited"
+      ],
+      "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She ___ the marine park last Saturday.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u18-1-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Experience then details",
+      "title": "Experience then details",
+      "answer": "saw",
+      "options": [
+        "have saw",
+        "seeing",
+        "saw",
+        "have seen"
+      ],
+      "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I've seen a manta ray. I ___ one near the reef last year.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u18-1-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Still connected or finished?",
+      "title": "Still connected or finished?",
+      "answer": "protected",
+      "options": [
+        "protecting",
+        "protected",
+        "protect",
+        "protects"
+      ],
+      "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The new law has ___ sea turtles this year.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u18-2-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified experience",
+      "title": "Unspecified experience",
+      "answer": "created",
+      "options": [
+        "create",
+        "creates",
+        "creating",
+        "created"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Camila has [create] a petition.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u18-2-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Specific finished time",
+      "title": "Specific finished time",
+      "answer": "visited",
+      "options": [
+        "has visit",
+        "visiting",
+        "visited",
+        "has visited"
+      ],
+      "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She [has visited] the marine park last Saturday.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u18-2-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Experience then details",
+      "title": "Experience then details",
+      "answer": "saw",
+      "options": [
+        "seeing",
+        "saw",
+        "have seen",
+        "have saw"
+      ],
+      "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I've seen a manta ray. I [have seen] one near the reef last year.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u18-2-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Still connected or finished?",
+      "title": "Still connected or finished?",
+      "answer": "protected",
+      "options": [
+        "protected",
+        "protect",
+        "protects",
+        "protecting"
+      ],
+      "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The new law has [protect] sea turtles this year.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u18-3-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified experience",
+      "title": "Unspecified experience",
+      "answer": "created",
+      "options": [
+        "creates",
+        "creating",
+        "created",
+        "create"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Camila has ___ a petition.\nWord bank: creates · creating · created · create",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u18-3-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Specific finished time",
+      "title": "Specific finished time",
+      "answer": "visited",
+      "options": [
+        "visiting",
+        "visited",
+        "has visited",
+        "has visit"
+      ],
+      "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She ___ the marine park last Saturday.\nWord bank: visiting · visited · has visited · has visit",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u18-3-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Experience then details",
+      "title": "Experience then details",
+      "answer": "saw",
+      "options": [
+        "saw",
+        "have seen",
+        "have saw",
+        "seeing"
+      ],
+      "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I've seen a manta ray. I ___ one near the reef last year.\nWord bank: saw · have seen · have saw · seeing",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u18-3-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Still connected or finished?",
+      "title": "Still connected or finished?",
+      "answer": "protected",
+      "options": [
+        "protect",
+        "protects",
+        "protecting",
+        "protected"
+      ],
+      "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The new law has ___ sea turtles this year.\nWord bank: protect · protects · protecting · protected",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u18-4-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified experience",
+      "title": "Unspecified experience",
+      "answer": "Camila has → created a → petition.",
+      "options": [
+        "Camila has → created a → petition.",
+        "created a → petition. → Camila has",
+        "petition. → Camila has → created a",
+        "petition. → created a → Camila has"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "created a",
+        "petition.",
+        "Camila has"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u18-4-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Specific finished time",
+      "title": "Specific finished time",
+      "answer": "She visited the → marine park → last Saturday.",
+      "options": [
+        "She visited the → marine park → last Saturday.",
+        "marine park → last Saturday. → She visited the",
+        "last Saturday. → She visited the → marine park",
+        "last Saturday. → marine park → She visited the"
+      ],
+      "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "marine park",
+        "last Saturday.",
+        "She visited the"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u18-4-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Experience then details",
+      "title": "Experience then details",
+      "answer": "I've seen a manta ray. → I saw one near → the reef last year.",
+      "options": [
+        "I've seen a manta ray. → I saw one near → the reef last year.",
+        "I saw one near → the reef last year. → I've seen a manta ray.",
+        "the reef last year. → I've seen a manta ray. → I saw one near",
+        "the reef last year. → I saw one near → I've seen a manta ray."
+      ],
+      "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "I saw one near",
+        "the reef last year.",
+        "I've seen a manta ray."
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u18-4-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Still connected or finished?",
+      "title": "Still connected or finished?",
+      "answer": "The new law → has protected sea → turtles this year.",
+      "options": [
+        "The new law → has protected sea → turtles this year.",
+        "has protected sea → turtles this year. → The new law",
+        "turtles this year. → The new law → has protected sea",
+        "turtles this year. → has protected sea → The new law"
+      ],
+      "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "has protected sea",
+        "turtles this year.",
+        "The new law"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u18-5-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified experience",
+      "title": "Unspecified experience",
+      "answer": "Camila has created a petition.",
+      "options": [
+        "Camila has created a petition.",
+        "Camila has create a petition.",
+        "Camila has creates a petition.",
+        "Camila has creating a petition."
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "why": "Camila has created a petition.\nTrọng tâm là trải nghiệm hoặc kết quả hiện tại. Không dùng các mốc quá khứ đã kết thúc như yesterday hoặc last year trong cùng mệnh đề.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Unspecified experience",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u18-5-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Specific finished time",
+      "title": "Specific finished time",
+      "answer": "She visited the marine park last Saturday.",
+      "options": [
+        "She has visited the marine park last Saturday.",
+        "She has visit the marine park last Saturday.",
+        "She visiting the marine park last Saturday.",
+        "She visited the marine park last Saturday."
+      ],
+      "hint": "Các dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "why": "She visited the marine park last Saturday.\nCác dấu hiệu thường gặp gồm yesterday, last week, ago, in 2024 và when + mệnh đề quá khứ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Specific finished time",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u18-5-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Experience then details",
+      "title": "Experience then details",
+      "answer": "I've seen a manta ray. I saw one near the reef last year.",
+      "options": [
+        "I've seen a manta ray. I have saw one near the reef last year.",
+        "I've seen a manta ray. I seeing one near the reef last year.",
+        "I've seen a manta ray. I saw one near the reef last year.",
+        "I've seen a manta ray. I have seen one near the reef last year."
+      ],
+      "hint": "Câu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "why": "I've seen a manta ray. I saw one near the reef last year.\nCâu đầu trả lời đã từng hay chưa; câu sau cho biết khi nào, ở đâu hoặc điều gì đã xảy ra trong lần đó.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Experience then details",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u18-5-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jx7en7r/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Still connected or finished?",
+      "title": "Still connected or finished?",
+      "answer": "The new law has protected sea turtles this year.",
+      "options": [
+        "The new law has protecting sea turtles this year.",
+        "The new law has protected sea turtles this year.",
+        "The new law has protect sea turtles this year.",
+        "The new law has protects sea turtles this year."
+      ],
+      "hint": "Today, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "why": "The new law has protected sea turtles this year.\nToday, this week và this year có thể đi với hiện tại hoàn thành nếu thời gian vẫn đang tiếp diễn. Một giai đoạn đã kết thúc cần quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Still connected or finished?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

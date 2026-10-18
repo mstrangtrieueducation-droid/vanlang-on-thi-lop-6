@@ -1,0 +1,750 @@
+{
+  "course": "discover-1",
+  "unit": 3,
+  "title": "Unit 3 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+    "unit": 3,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "There is · Khẳng định số ít",
+      "note": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "example": "There's a black spider on his back.",
+      "formula": [
+        [
+          "There is / There's",
+          "+",
+          "a / an",
+          "+",
+          "danh từ số ít",
+          "+",
+          "vị trí"
+        ]
+      ]
+    },
+    {
+      "tag": "There are · Khẳng định số nhiều",
+      "note": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "example": "There are five green lizards.",
+      "formula": [
+        [
+          "There are",
+          "+",
+          "số lượng",
+          "+",
+          "tính từ màu sắc",
+          "+",
+          "danh từ số nhiều"
+        ]
+      ]
+    },
+    {
+      "tag": "Phủ định · isn't / aren't",
+      "note": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "example": "There aren't six yellow dogs.",
+      "formula": [
+        [
+          "There isn't",
+          "+",
+          "a / an",
+          "+",
+          "danh từ số ít"
+        ],
+        [
+          "There aren't",
+          "+",
+          "danh từ số nhiều"
+        ]
+      ]
+    },
+    {
+      "tag": "Is there ...? · Câu hỏi số ít",
+      "note": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "example": "Is there a bird in the tree?",
+      "formula": [
+        [
+          "Is there",
+          "+",
+          "a / an",
+          "+",
+          "danh từ số ít",
+          "?"
+        ],
+        [
+          "Yes, there is.",
+          "/",
+          "No, there isn't."
+        ]
+      ]
+    },
+    {
+      "tag": "Are there ...? · Câu hỏi số nhiều",
+      "note": "Câu hỏi số nhiều bắt đầu bằng Are there. Câu trả lời ngắn là Yes, there are hoặc No, there aren't. Danh từ sau số đếm từ two trở lên phải ở dạng số nhiều.",
+      "example": "Are there six red butterflies?",
+      "formula": [
+        [
+          "Are there",
+          "+",
+          "số lượng",
+          "+",
+          "danh từ số nhiều",
+          "?"
+        ],
+        [
+          "Yes, there are.",
+          "/",
+          "No, there aren't."
+        ]
+      ]
+    },
+    {
+      "tag": "Điểm cần nhớ · Số ít và số nhiều",
+      "note": "Con tìm dấu hiệu số lượng trước: a, an, one hoặc một vật dùng is; two, three, many và danh từ số nhiều dùng are. Từ chỉ màu đứng trước danh từ nhưng không làm thay đổi việc chọn is hay are.",
+      "example": "There are four brown birds.",
+      "formula": [
+        [
+          "một",
+          "→",
+          "There is / Is there"
+        ],
+        [
+          "nhiều",
+          "→",
+          "There are / Are there"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u3-1-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There is · Khẳng định số ít",
+      "title": "There is · Khẳng định số ít",
+      "answer": "There's",
+      "options": [
+        "There's",
+        "There are",
+        "There am",
+        "There be"
+      ],
+      "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ a black spider on his back.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u3-1-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There are · Khẳng định số nhiều",
+      "title": "There are · Khẳng định số nhiều",
+      "answer": "are",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ five green lizards.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u3-1-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · isn't / aren't",
+      "title": "Phủ định · isn't / aren't",
+      "answer": "aren't",
+      "options": [
+        "am not",
+        "not are",
+        "aren't",
+        "isn't"
+      ],
+      "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ six yellow dogs.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u3-1-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...? · Câu hỏi số ít",
+      "title": "Is there ...? · Câu hỏi số ít",
+      "answer": "Is",
+      "options": [
+        "Be",
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there a bird in the tree?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u3-2-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There is · Khẳng định số ít",
+      "title": "There is · Khẳng định số ít",
+      "answer": "There's",
+      "options": [
+        "There are",
+        "There am",
+        "There be",
+        "There's"
+      ],
+      "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[There are] a black spider on his back.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u3-2-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There are · Khẳng định số nhiều",
+      "title": "There are · Khẳng định số nhiều",
+      "answer": "are",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There [is] five green lizards.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u3-2-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · isn't / aren't",
+      "title": "Phủ định · isn't / aren't",
+      "answer": "aren't",
+      "options": [
+        "not are",
+        "aren't",
+        "isn't",
+        "am not"
+      ],
+      "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There [isn't] six yellow dogs.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u3-2-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...? · Câu hỏi số ít",
+      "title": "Is there ...? · Câu hỏi số ít",
+      "answer": "Is",
+      "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Be"
+      ],
+      "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Are] there a bird in the tree?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u3-3-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There is · Khẳng định số ít",
+      "title": "There is · Khẳng định số ít",
+      "answer": "There's",
+      "options": [
+        "There am",
+        "There be",
+        "There's",
+        "There are"
+      ],
+      "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ a black spider on his back.\nWord bank: There am · There be · There's · There are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u3-3-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There are · Khẳng định số nhiều",
+      "title": "There are · Khẳng định số nhiều",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ five green lizards.\nWord bank: be · are · is · am",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u3-3-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · isn't / aren't",
+      "title": "Phủ định · isn't / aren't",
+      "answer": "aren't",
+      "options": [
+        "aren't",
+        "isn't",
+        "am not",
+        "not are"
+      ],
+      "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ six yellow dogs.\nWord bank: aren't · isn't · am not · not are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u3-3-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...? · Câu hỏi số ít",
+      "title": "Is there ...? · Câu hỏi số ít",
+      "answer": "Is",
+      "options": [
+        "Are",
+        "Am",
+        "Be",
+        "Is"
+      ],
+      "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there a bird in the tree?\nWord bank: Are · Am · Be · Is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u3-4-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There is · Khẳng định số ít",
+      "title": "There is · Khẳng định số ít",
+      "answer": "There's a black → spider on → his back.",
+      "options": [
+        "There's a black → spider on → his back.",
+        "spider on → his back. → There's a black",
+        "his back. → There's a black → spider on",
+        "his back. → spider on → There's a black"
+      ],
+      "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "spider on",
+        "his back.",
+        "There's a black"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u3-4-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There are · Khẳng định số nhiều",
+      "title": "There are · Khẳng định số nhiều",
+      "answer": "There are → five green → lizards.",
+      "options": [
+        "There are → five green → lizards.",
+        "five green → lizards. → There are",
+        "lizards. → There are → five green",
+        "lizards. → five green → There are"
+      ],
+      "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "five green",
+        "lizards.",
+        "There are"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u3-4-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · isn't / aren't",
+      "title": "Phủ định · isn't / aren't",
+      "answer": "There aren't → six yellow → dogs.",
+      "options": [
+        "There aren't → six yellow → dogs.",
+        "six yellow → dogs. → There aren't",
+        "dogs. → There aren't → six yellow",
+        "dogs. → six yellow → There aren't"
+      ],
+      "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "six yellow",
+        "dogs.",
+        "There aren't"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u3-4-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...? · Câu hỏi số ít",
+      "title": "Is there ...? · Câu hỏi số ít",
+      "answer": "Is there a → bird in → the tree?",
+      "options": [
+        "Is there a → bird in → the tree?",
+        "bird in → the tree? → Is there a",
+        "the tree? → Is there a → bird in",
+        "the tree? → bird in → Is there a"
+      ],
+      "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "bird in",
+        "the tree?",
+        "Is there a"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u3-5-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There is · Khẳng định số ít",
+      "title": "There is · Khẳng định số ít",
+      "answer": "There's a black spider on his back.",
+      "options": [
+        "There's a black spider on his back.",
+        "There are a black spider on his back.",
+        "There am a black spider on his back.",
+        "There be a black spider on his back."
+      ],
+      "hint": "There is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "why": "There's a black spider on his back.\nThere is giới thiệu sự có mặt của một người hoặc một vật. Sau There is là danh từ số ít. Trong khi nói, There is thường được rút gọn thành There's. Dạng đầy đủ và dạng nói gọn đều đúng.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: There is · Khẳng định số ít",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u3-5-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "There are · Khẳng định số nhiều",
+      "title": "There are · Khẳng định số nhiều",
+      "answer": "There are five green lizards.",
+      "options": [
+        "There is five green lizards.",
+        "There am five green lizards.",
+        "There be five green lizards.",
+        "There are five green lizards."
+      ],
+      "hint": "There are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "why": "There are five green lizards.\nThere are đi với danh từ số nhiều. Con chú ý thêm -s hoặc dạng số nhiều phù hợp cho danh từ, đồng thời dùng số đếm nếu cần. Không dùng There is trước danh từ số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: There are · Khẳng định số nhiều",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u3-5-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · isn't / aren't",
+      "title": "Phủ định · isn't / aren't",
+      "answer": "There aren't six yellow dogs.",
+      "options": [
+        "There am not six yellow dogs.",
+        "There not are six yellow dogs.",
+        "There aren't six yellow dogs.",
+        "There isn't six yellow dogs."
+      ],
+      "hint": "There is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "why": "There aren't six yellow dogs.\nThere is not thường được nói gọn thành There isn't. There are not thường được nói gọn thành There aren't. Con vẫn chọn is cho số ít và are cho số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Phủ định · isn't / aren't",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u3-5-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ky38rpm/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is there ...? · Câu hỏi số ít",
+      "title": "Is there ...? · Câu hỏi số ít",
+      "answer": "Is there a bird in the tree?",
+      "options": [
+        "Be there a bird in the tree?",
+        "Is there a bird in the tree?",
+        "Are there a bird in the tree?",
+        "Am there a bird in the tree?"
+      ],
+      "hint": "Câu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "why": "Is there a bird in the tree?\nCâu hỏi số ít bắt đầu bằng Is there. Câu trả lời ngắn là Yes, there is hoặc No, there isn't. Không trả lời Yes, there is one nếu câu hỏi chỉ cần câu trả lời ngắn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Is there ...? · Câu hỏi số ít",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

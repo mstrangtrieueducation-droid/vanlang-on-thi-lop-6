@@ -1,0 +1,704 @@
+{
+  "course": "discover-3",
+  "unit": 7,
+  "title": "Unit 7 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+    "unit": 7,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Future facts",
+      "note": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "example": "The Earth will complete another orbit.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "will",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative",
+      "note": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "example": "A minute won't multiply by itself.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "will not / won't",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "example": "How long will the Earth take to orbit the sun?",
+      "formula": [
+        [
+          "Wh-word",
+          "+",
+          "will",
+          "+",
+          "subject",
+          "+",
+          "base verb",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "will and present facts",
+      "note": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "example": "The Earth spins now, and it will keep spinning.",
+      "formula": [
+        [
+          "present fact",
+          "→",
+          "present simple"
+        ],
+        [
+          "future fact",
+          "→",
+          "will"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u7-1-1",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future facts",
+      "title": "Future facts",
+      "answer": "complete",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth will ___ another orbit.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u7-1-2",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "multiply",
+      "options": [
+        "multiplies",
+        "multiplying",
+        "multiplied",
+        "multiply"
+      ],
+      "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A minute won't ___ by itself.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u7-1-3",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "take",
+      "options": [
+        "taking",
+        "took",
+        "take",
+        "takes"
+      ],
+      "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long will the Earth ___ to orbit the sun?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u7-1-4",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "will and present facts",
+      "title": "will and present facts",
+      "answer": "keep",
+      "options": [
+        "kept",
+        "keep",
+        "keeps",
+        "keeping"
+      ],
+      "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth spins now, and it will ___ spinning.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u7-2-1",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future facts",
+      "title": "Future facts",
+      "answer": "complete",
+      "options": [
+        "completes",
+        "completing",
+        "completed",
+        "complete"
+      ],
+      "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth will [completes] another orbit.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u7-2-2",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "multiply",
+      "options": [
+        "multiplying",
+        "multiplied",
+        "multiply",
+        "multiplies"
+      ],
+      "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A minute won't [multiplies] by itself.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u7-2-3",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "take",
+      "options": [
+        "took",
+        "take",
+        "takes",
+        "taking"
+      ],
+      "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long will the Earth [takes] to orbit the sun?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u7-2-4",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "will and present facts",
+      "title": "will and present facts",
+      "answer": "keep",
+      "options": [
+        "keep",
+        "keeps",
+        "keeping",
+        "kept"
+      ],
+      "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth spins now, and it will [keeps] spinning.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u7-3-1",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future facts",
+      "title": "Future facts",
+      "answer": "complete",
+      "options": [
+        "completing",
+        "completed",
+        "complete",
+        "completes"
+      ],
+      "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth will ___ another orbit.\nWord bank: completing · completed · complete · completes",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u7-3-2",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "multiply",
+      "options": [
+        "multiplied",
+        "multiply",
+        "multiplies",
+        "multiplying"
+      ],
+      "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A minute won't ___ by itself.\nWord bank: multiplied · multiply · multiplies · multiplying",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u7-3-3",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "take",
+      "options": [
+        "take",
+        "takes",
+        "taking",
+        "took"
+      ],
+      "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long will the Earth ___ to orbit the sun?\nWord bank: take · takes · taking · took",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u7-3-4",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "will and present facts",
+      "title": "will and present facts",
+      "answer": "keep",
+      "options": [
+        "keeps",
+        "keeping",
+        "kept",
+        "keep"
+      ],
+      "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The Earth spins now, and it will ___ spinning.\nWord bank: keeps · keeping · kept · keep",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u7-4-1",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future facts",
+      "title": "Future facts",
+      "answer": "The Earth → will complete → another orbit.",
+      "options": [
+        "The Earth → will complete → another orbit.",
+        "will complete → another orbit. → The Earth",
+        "another orbit. → The Earth → will complete",
+        "another orbit. → will complete → The Earth"
+      ],
+      "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "will complete",
+        "another orbit.",
+        "The Earth"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u7-4-2",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "A minute → won't multiply → by itself.",
+      "options": [
+        "A minute → won't multiply → by itself.",
+        "won't multiply → by itself. → A minute",
+        "by itself. → A minute → won't multiply",
+        "by itself. → won't multiply → A minute"
+      ],
+      "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "won't multiply",
+        "by itself.",
+        "A minute"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u7-4-3",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How long will the → Earth take to → orbit the sun?",
+      "options": [
+        "How long will the → Earth take to → orbit the sun?",
+        "Earth take to → orbit the sun? → How long will the",
+        "orbit the sun? → How long will the → Earth take to",
+        "orbit the sun? → Earth take to → How long will the"
+      ],
+      "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "Earth take to",
+        "orbit the sun?",
+        "How long will the"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u7-4-4",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "will and present facts",
+      "title": "will and present facts",
+      "answer": "The Earth spins → now, and it → will keep spinning.",
+      "options": [
+        "The Earth spins → now, and it → will keep spinning.",
+        "now, and it → will keep spinning. → The Earth spins",
+        "will keep spinning. → The Earth spins → now, and it",
+        "will keep spinning. → now, and it → The Earth spins"
+      ],
+      "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "now, and it",
+        "will keep spinning.",
+        "The Earth spins"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u7-5-1",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future facts",
+      "title": "Future facts",
+      "answer": "The Earth will complete another orbit.",
+      "options": [
+        "The Earth will complete another orbit.",
+        "The Earth will completes another orbit.",
+        "The Earth will completing another orbit.",
+        "The Earth will completed another orbit."
+      ],
+      "hint": "Will đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "why": "The Earth will complete another orbit.\nWill đi với mọi chủ ngữ và theo sau bởi động từ nguyên mẫu. Cấu trúc không đổi với he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Future facts",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u7-5-2",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "A minute won't multiply by itself.",
+      "options": [
+        "A minute won't multiplies by itself.",
+        "A minute won't multiplying by itself.",
+        "A minute won't multiplied by itself.",
+        "A minute won't multiply by itself."
+      ],
+      "hint": "Đặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "why": "A minute won't multiply by itself.\nĐặt not sau will. Sau won't vẫn là động từ nguyên mẫu; không thêm -s hoặc -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u7-5-3",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How long will the Earth take to orbit the sun?",
+      "options": [
+        "How long will the Earth taking to orbit the sun?",
+        "How long will the Earth took to orbit the sun?",
+        "How long will the Earth take to orbit the sun?",
+        "How long will the Earth takes to orbit the sun?"
+      ],
+      "hint": "Câu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "why": "How long will the Earth take to orbit the sun?\nCâu trả lời ngắn dùng will hoặc won't. Với từ để hỏi, đặt What, When, Where hoặc How trước will.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u7-5-4",
+      "type": "choice",
+      "unit": 7,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/w38gxhz/",
+        "unit": 7,
+        "kind": "class-grammar-model"
+      },
+      "focus": "will and present facts",
+      "title": "will and present facts",
+      "answer": "The Earth spins now, and it will keep spinning.",
+      "options": [
+        "The Earth spins now, and it will kept spinning.",
+        "The Earth spins now, and it will keep spinning.",
+        "The Earth spins now, and it will keeps spinning.",
+        "The Earth spins now, and it will keeping spinning."
+      ],
+      "hint": "Hiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "why": "The Earth spins now, and it will keep spinning.\nHiện tại đơn nói điều đúng nói chung; will hướng sự chú ý đến một thời điểm tương lai. Hai thì có thể cùng xuất hiện trong một đoạn giải thích.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: will and present facts",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

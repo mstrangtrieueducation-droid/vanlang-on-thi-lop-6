@@ -1,0 +1,36 @@
+{
+  "version": "grammar-1",
+  "scope": [
+    "family-friends-1",
+    "family-friends-2",
+    "discover-1",
+    "discover-2",
+    "discover-3",
+    "discover-4"
+  ],
+  "units": 102,
+  "grammarQuestionsPerUnit": 20,
+  "totalGrammarQuestions": 2040,
+  "unitReviewQuestionsUnchanged": 45,
+  "sources": [
+    "khoa-hoc/program/family-units.cjs",
+    "khoa-hoc/program/family-grammar.cjs",
+    "khoa-hoc/program/family-grammar-rules.cjs",
+    "khoa-hoc/program/discover-resources.json",
+    "khoa-hoc/program/discover-grammar.cjs"
+  ],
+  "sourcePolicy": "Supplemental practice authored from the existing source snapshots and reviewed grammar models; each question retains its Unit source URL. Source files and existing review IDs are unchanged.",
+  "storage": "Separate course/student-scoped :grammar-v1 local attempt. No parent lesson stars, unlock, reward or cloud-ranked submission.",
+  "validation": {
+    "automated": "189 tests pass",
+    "browser": [
+      "Menus and 20-question grammar in all six courses",
+      "Draft/save/reload and original 45-question review in all six courses",
+      "Completed a full grammar attempt 20/20",
+      "Sticky source passage, no duplicate full passages; speaker labels retained",
+      "1366x768, 390x844, 844x390; day/night dimensions stable within one pixel",
+      "Discover original-test shared reference remains outside question scroll",
+      "Discover preview Unit Review menu"
+    ]
+  }
+}

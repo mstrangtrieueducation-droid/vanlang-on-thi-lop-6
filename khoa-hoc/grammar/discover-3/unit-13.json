@@ -1,0 +1,709 @@
+{
+  "course": "discover-3",
+  "unit": 13,
+  "title": "Unit 13 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+    "unit": 13,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "too",
+      "note": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "example": "A ramp is a simple machine. A lever is, too.",
+      "formula": [
+        [
+          "positive sentence",
+          ".",
+          "subject + auxiliary",
+          ",",
+          "too"
+        ]
+      ]
+    },
+    {
+      "tag": "either",
+      "note": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "example": "A light bulb isn't a lever. A doorknob isn't, either.",
+      "formula": [
+        [
+          "negative sentence",
+          ".",
+          "subject + negative auxiliary",
+          ",",
+          "either"
+        ]
+      ]
+    },
+    {
+      "tag": "Matching the auxiliary",
+      "note": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "example": "A hammer has a handle. An axe does, too.",
+      "formula": [
+        [
+          "be",
+          "→",
+          "is / are"
+        ],
+        [
+          "present verb",
+          "→",
+          "do / does"
+        ],
+        [
+          "past verb",
+          "→",
+          "did"
+        ]
+      ]
+    },
+    {
+      "tag": "Meaning",
+      "note": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "example": "Stairs help us move upward. A ramp does, too.",
+      "formula": [
+        [
+          "too",
+          "=",
+          "cũng, câu khẳng định"
+        ],
+        [
+          "either",
+          "=",
+          "cũng không, câu phủ định"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u13-1-1",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "too",
+      "title": "too",
+      "answer": "too",
+      "options": [
+        "too",
+        "either",
+        "neither",
+        "also too"
+      ],
+      "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A ramp is a simple machine. A lever is, ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u13-1-2",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "either",
+      "title": "either",
+      "answer": "either",
+      "options": [
+        "too",
+        "neither",
+        "also too",
+        "either"
+      ],
+      "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A light bulb isn't a lever. A doorknob isn't, ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u13-1-3",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Matching the auxiliary",
+      "title": "Matching the auxiliary",
+      "answer": "does",
+      "options": [
+        "have",
+        "are",
+        "does",
+        "do"
+      ],
+      "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A hammer has a handle. An axe ___, too.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u13-1-4",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Meaning",
+      "title": "Meaning",
+      "answer": "does",
+      "options": [
+        "are",
+        "does",
+        "do",
+        "have"
+      ],
+      "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Stairs help us move upward. A ramp ___, too.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u13-2-1",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "too",
+      "title": "too",
+      "answer": "too",
+      "options": [
+        "either",
+        "neither",
+        "also too",
+        "too"
+      ],
+      "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A ramp is a simple machine. A lever is, [either].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u13-2-2",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "either",
+      "title": "either",
+      "answer": "either",
+      "options": [
+        "neither",
+        "also too",
+        "either",
+        "too"
+      ],
+      "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A light bulb isn't a lever. A doorknob isn't, [too].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u13-2-3",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Matching the auxiliary",
+      "title": "Matching the auxiliary",
+      "answer": "does",
+      "options": [
+        "are",
+        "does",
+        "do",
+        "have"
+      ],
+      "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A hammer has a handle. An axe [do], too.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u13-2-4",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Meaning",
+      "title": "Meaning",
+      "answer": "does",
+      "options": [
+        "does",
+        "do",
+        "have",
+        "are"
+      ],
+      "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Stairs help us move upward. A ramp [do], too.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u13-3-1",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "too",
+      "title": "too",
+      "answer": "too",
+      "options": [
+        "neither",
+        "also too",
+        "too",
+        "either"
+      ],
+      "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A ramp is a simple machine. A lever is, ___.\nWord bank: neither · also too · too · either",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u13-3-2",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "either",
+      "title": "either",
+      "answer": "either",
+      "options": [
+        "also too",
+        "either",
+        "too",
+        "neither"
+      ],
+      "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A light bulb isn't a lever. A doorknob isn't, ___.\nWord bank: also too · either · too · neither",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u13-3-3",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Matching the auxiliary",
+      "title": "Matching the auxiliary",
+      "answer": "does",
+      "options": [
+        "does",
+        "do",
+        "have",
+        "are"
+      ],
+      "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A hammer has a handle. An axe ___, too.\nWord bank: does · do · have · are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u13-3-4",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Meaning",
+      "title": "Meaning",
+      "answer": "does",
+      "options": [
+        "do",
+        "have",
+        "are",
+        "does"
+      ],
+      "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Stairs help us move upward. A ramp ___, too.\nWord bank: do · have · are · does",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u13-4-1",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "too",
+      "title": "too",
+      "answer": "A ramp is a → simple machine. A → lever is, too.",
+      "options": [
+        "A ramp is a → simple machine. A → lever is, too.",
+        "simple machine. A → lever is, too. → A ramp is a",
+        "lever is, too. → A ramp is a → simple machine. A",
+        "lever is, too. → simple machine. A → A ramp is a"
+      ],
+      "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "simple machine. A",
+        "lever is, too.",
+        "A ramp is a"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u13-4-2",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "either",
+      "title": "either",
+      "answer": "A light bulb isn't → a lever. A → doorknob isn't, either.",
+      "options": [
+        "A light bulb isn't → a lever. A → doorknob isn't, either.",
+        "a lever. A → doorknob isn't, either. → A light bulb isn't",
+        "doorknob isn't, either. → A light bulb isn't → a lever. A",
+        "doorknob isn't, either. → a lever. A → A light bulb isn't"
+      ],
+      "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a lever. A",
+        "doorknob isn't, either.",
+        "A light bulb isn't"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u13-4-3",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Matching the auxiliary",
+      "title": "Matching the auxiliary",
+      "answer": "A hammer has → a handle. An → axe does, too.",
+      "options": [
+        "A hammer has → a handle. An → axe does, too.",
+        "a handle. An → axe does, too. → A hammer has",
+        "axe does, too. → A hammer has → a handle. An",
+        "axe does, too. → a handle. An → A hammer has"
+      ],
+      "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a handle. An",
+        "axe does, too.",
+        "A hammer has"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u13-4-4",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Meaning",
+      "title": "Meaning",
+      "answer": "Stairs help us → move upward. A → ramp does, too.",
+      "options": [
+        "Stairs help us → move upward. A → ramp does, too.",
+        "move upward. A → ramp does, too. → Stairs help us",
+        "ramp does, too. → Stairs help us → move upward. A",
+        "ramp does, too. → move upward. A → Stairs help us"
+      ],
+      "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "move upward. A",
+        "ramp does, too.",
+        "Stairs help us"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u13-5-1",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "too",
+      "title": "too",
+      "answer": "A ramp is a simple machine. A lever is, too.",
+      "options": [
+        "A ramp is a simple machine. A lever is, too.",
+        "A ramp is a simple machine. A lever is, either.",
+        "A ramp is a simple machine. A lever is, neither.",
+        "A ramp is a simple machine. A lever is, also too."
+      ],
+      "hint": "Too thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "why": "A ramp is a simple machine. A lever is, too.\nToo thường đứng cuối câu, sau dấu phẩy trong văn viết. Câu mới cần có chủ ngữ và động từ phù hợp với ý của câu trước.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: too",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u13-5-2",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "either",
+      "title": "either",
+      "answer": "A light bulb isn't a lever. A doorknob isn't, either.",
+      "options": [
+        "A light bulb isn't a lever. A doorknob isn't, too.",
+        "A light bulb isn't a lever. A doorknob isn't, neither.",
+        "A light bulb isn't a lever. A doorknob isn't, also too.",
+        "A light bulb isn't a lever. A doorknob isn't, either."
+      ],
+      "hint": "Either đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "why": "A light bulb isn't a lever. A doorknob isn't, either.\nEither đứng cuối một câu phủ định. Không dùng too sau câu phủ định trong mẫu ngữ pháp này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: either",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u13-5-3",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Matching the auxiliary",
+      "title": "Matching the auxiliary",
+      "answer": "A hammer has a handle. An axe does, too.",
+      "options": [
+        "A hammer has a handle. An axe have, too.",
+        "A hammer has a handle. An axe are, too.",
+        "A hammer has a handle. An axe does, too.",
+        "A hammer has a handle. An axe do, too."
+      ],
+      "hint": "Dùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "why": "A hammer has a handle. An axe does, too.\nDùng is/are với be, do/does với hiện tại đơn, did với quá khứ đơn, can với can. Chủ ngữ mới quyết định dạng của trợ động từ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Matching the auxiliary",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u13-5-4",
+      "type": "choice",
+      "unit": 13,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/e8wdwuw/",
+        "unit": 13,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Meaning",
+      "title": "Meaning",
+      "answer": "Stairs help us move upward. A ramp does, too.",
+      "options": [
+        "Stairs help us move upward. A ramp are, too.",
+        "Stairs help us move upward. A ramp does, too.",
+        "Stairs help us move upward. A ramp do, too.",
+        "Stairs help us move upward. A ramp have, too."
+      ],
+      "hint": "Hai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "why": "Stairs help us move upward. A ramp does, too.\nHai từ này tránh lặp lại toàn bộ vị ngữ, nhưng câu vẫn phải rõ chủ ngữ đang được so sánh hoặc đồng tình.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Meaning",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "course": "discover-3",
+  "unit": 8,
+  "title": "Unit 8 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+    "unit": 8,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Future plans",
+      "note": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "example": "The passenger is going to travel to a new destination.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "am / is / are",
+          "+",
+          "going to",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative",
+      "note": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "example": "She isn't going to leave her passport at home.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "am not / isn't / aren't",
+          "+",
+          "going to + verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Yes/No questions",
+      "note": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "example": "Is the doctor going to give her medicine? Yes, she is.",
+      "formula": [
+        [
+          "Am / Is / Are",
+          "+",
+          "subject",
+          "+",
+          "going to + verb",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Wh- questions",
+      "note": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "example": "Where are they going to meet at the airport?",
+      "formula": [
+        [
+          "Wh-word",
+          "+",
+          "am / is / are",
+          "+",
+          "subject",
+          "+",
+          "going to + verb",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u8-1-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future plans",
+      "title": "Future plans",
+      "answer": "travel",
+      "options": [
+        "travel",
+        "travels",
+        "traveling",
+        "traveled"
+      ],
+      "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The passenger is going to ___ to a new destination.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u8-1-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "leave",
+      "options": [
+        "leaves",
+        "leaving",
+        "left",
+        "leave"
+      ],
+      "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She isn't going to ___ her passport at home.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u8-1-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Yes/No questions",
+      "title": "Yes/No questions",
+      "answer": "give",
+      "options": [
+        "giving",
+        "gave",
+        "give",
+        "gives"
+      ],
+      "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Is the doctor going to ___ her medicine? Yes, she is.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u8-1-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "meet",
+      "options": [
+        "met",
+        "meet",
+        "meets",
+        "meeting"
+      ],
+      "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where are they going to ___ at the airport?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u8-2-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future plans",
+      "title": "Future plans",
+      "answer": "travel",
+      "options": [
+        "travels",
+        "traveling",
+        "traveled",
+        "travel"
+      ],
+      "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The passenger is going to [travels] to a new destination.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u8-2-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "leave",
+      "options": [
+        "leaving",
+        "left",
+        "leave",
+        "leaves"
+      ],
+      "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She isn't going to [leaves] her passport at home.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u8-2-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Yes/No questions",
+      "title": "Yes/No questions",
+      "answer": "give",
+      "options": [
+        "gave",
+        "give",
+        "gives",
+        "giving"
+      ],
+      "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Is the doctor going to [gives] her medicine? Yes, she is.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u8-2-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "meet",
+      "options": [
+        "meet",
+        "meets",
+        "meeting",
+        "met"
+      ],
+      "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where are they going to [meets] at the airport?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u8-3-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future plans",
+      "title": "Future plans",
+      "answer": "travel",
+      "options": [
+        "traveling",
+        "traveled",
+        "travel",
+        "travels"
+      ],
+      "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The passenger is going to ___ to a new destination.\nWord bank: traveling · traveled · travel · travels",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u8-3-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "leave",
+      "options": [
+        "left",
+        "leave",
+        "leaves",
+        "leaving"
+      ],
+      "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She isn't going to ___ her passport at home.\nWord bank: left · leave · leaves · leaving",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u8-3-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Yes/No questions",
+      "title": "Yes/No questions",
+      "answer": "give",
+      "options": [
+        "give",
+        "gives",
+        "giving",
+        "gave"
+      ],
+      "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Is the doctor going to ___ her medicine? Yes, she is.\nWord bank: give · gives · giving · gave",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u8-3-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "meet",
+      "options": [
+        "meets",
+        "meeting",
+        "met",
+        "meet"
+      ],
+      "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where are they going to ___ at the airport?\nWord bank: meets · meeting · met · meet",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u8-4-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future plans",
+      "title": "Future plans",
+      "answer": "The passenger is going → to travel to → a new destination.",
+      "options": [
+        "The passenger is going → to travel to → a new destination.",
+        "to travel to → a new destination. → The passenger is going",
+        "a new destination. → The passenger is going → to travel to",
+        "a new destination. → to travel to → The passenger is going"
+      ],
+      "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "to travel to",
+        "a new destination.",
+        "The passenger is going"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u8-4-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "She isn't going → to leave her → passport at home.",
+      "options": [
+        "She isn't going → to leave her → passport at home.",
+        "to leave her → passport at home. → She isn't going",
+        "passport at home. → She isn't going → to leave her",
+        "passport at home. → to leave her → She isn't going"
+      ],
+      "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "to leave her",
+        "passport at home.",
+        "She isn't going"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u8-4-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Yes/No questions",
+      "title": "Yes/No questions",
+      "answer": "Is the doctor going → to give her medicine? → Yes, she is.",
+      "options": [
+        "Is the doctor going → to give her medicine? → Yes, she is.",
+        "to give her medicine? → Yes, she is. → Is the doctor going",
+        "Yes, she is. → Is the doctor going → to give her medicine?",
+        "Yes, she is. → to give her medicine? → Is the doctor going"
+      ],
+      "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "to give her medicine?",
+        "Yes, she is.",
+        "Is the doctor going"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u8-4-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where are they → going to meet → at the airport?",
+      "options": [
+        "Where are they → going to meet → at the airport?",
+        "going to meet → at the airport? → Where are they",
+        "at the airport? → Where are they → going to meet",
+        "at the airport? → going to meet → Where are they"
+      ],
+      "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "going to meet",
+        "at the airport?",
+        "Where are they"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u8-5-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Future plans",
+      "title": "Future plans",
+      "answer": "The passenger is going to travel to a new destination.",
+      "options": [
+        "The passenger is going to travel to a new destination.",
+        "The passenger is going to travels to a new destination.",
+        "The passenger is going to traveling to a new destination.",
+        "The passenger is going to traveled to a new destination."
+      ],
+      "hint": "Chọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "why": "The passenger is going to travel to a new destination.\nChọn am, is hoặc are theo chủ ngữ, sau đó dùng going to + động từ nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Future plans",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u8-5-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "She isn't going to leave her passport at home.",
+      "options": [
+        "She isn't going to leaves her passport at home.",
+        "She isn't going to leaving her passport at home.",
+        "She isn't going to left her passport at home.",
+        "She isn't going to leave her passport at home."
+      ],
+      "hint": "Dạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "why": "She isn't going to leave her passport at home.\nDạng nói gọn thường dùng isn't và aren't. Với I, dùng I'm not going to; không dùng amn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u8-5-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Yes/No questions",
+      "title": "Yes/No questions",
+      "answer": "Is the doctor going to give her medicine? Yes, she is.",
+      "options": [
+        "Is the doctor going to giving her medicine? Yes, she is.",
+        "Is the doctor going to gave her medicine? Yes, she is.",
+        "Is the doctor going to give her medicine? Yes, she is.",
+        "Is the doctor going to gives her medicine? Yes, she is."
+      ],
+      "hint": "Câu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "why": "Is the doctor going to give her medicine? Yes, she is.\nCâu trả lời ngắn lặp lại động từ be, không lặp lại going to.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Yes/No questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u8-5-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sx34uw5/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where are they going to meet at the airport?",
+      "options": [
+        "Where are they going to met at the airport?",
+        "Where are they going to meet at the airport?",
+        "Where are they going to meets at the airport?",
+        "Where are they going to meeting at the airport?"
+      ],
+      "hint": "What hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "why": "Where are they going to meet at the airport?\nWhat hỏi hành động hoặc sự vật; where hỏi điểm đến; when hỏi thời gian. Phần còn lại vẫn theo trật tự câu hỏi của be going to.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Wh- questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

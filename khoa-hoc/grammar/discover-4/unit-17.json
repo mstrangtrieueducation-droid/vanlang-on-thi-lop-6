@@ -1,0 +1,700 @@
+{
+  "course": "discover-4",
+  "unit": 17,
+  "title": "Unit 17 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+    "unit": 17,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "For",
+      "note": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "example": "Scientists have studied the desert for many years.",
+      "formula": [
+        [
+          "present perfect",
+          "+",
+          "for + period of time"
+        ]
+      ]
+    },
+    {
+      "tag": "Since",
+      "note": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "example": "The sloth has lived here since it was born.",
+      "formula": [
+        [
+          "present perfect",
+          "+",
+          "since + starting point"
+        ]
+      ]
+    },
+    {
+      "tag": "Ongoing meaning",
+      "note": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "example": "This cactus has grown in the grassland for ten years.",
+      "formula": [
+        [
+          "still true now",
+          "->",
+          "present perfect"
+        ],
+        [
+          "finished period",
+          "->",
+          "simple past"
+        ]
+      ]
+    },
+    {
+      "tag": "How long",
+      "note": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "example": "How long has this biome existed?",
+      "formula": [
+        [
+          "How long",
+          "+",
+          "have / has",
+          "+",
+          "subject",
+          "+",
+          "past participle",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u17-1-1",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "For",
+      "title": "For",
+      "answer": "for",
+      "options": [
+        "for",
+        "since",
+        "during for",
+        "ago"
+      ],
+      "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Scientists have studied the desert ___ many years.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u17-1-2",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Since",
+      "title": "Since",
+      "answer": "since",
+      "options": [
+        "for",
+        "during since",
+        "ago",
+        "since"
+      ],
+      "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The sloth has lived here ___ it was born.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u17-1-3",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Ongoing meaning",
+      "title": "Ongoing meaning",
+      "answer": "for",
+      "options": [
+        "during for",
+        "ago",
+        "for",
+        "since"
+      ],
+      "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This cactus has grown in the grassland ___ ten years.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u17-1-4",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How long",
+      "title": "How long",
+      "answer": "has",
+      "options": [
+        "to have",
+        "has",
+        "have",
+        "having"
+      ],
+      "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long ___ this biome existed?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u17-2-1",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "For",
+      "title": "For",
+      "answer": "for",
+      "options": [
+        "since",
+        "during for",
+        "ago",
+        "for"
+      ],
+      "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Scientists have studied the desert [since] many years.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u17-2-2",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Since",
+      "title": "Since",
+      "answer": "since",
+      "options": [
+        "during since",
+        "ago",
+        "since",
+        "for"
+      ],
+      "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The sloth has lived here [for] it was born.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u17-2-3",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Ongoing meaning",
+      "title": "Ongoing meaning",
+      "answer": "for",
+      "options": [
+        "ago",
+        "for",
+        "since",
+        "during for"
+      ],
+      "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This cactus has grown in the grassland [since] ten years.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u17-2-4",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How long",
+      "title": "How long",
+      "answer": "has",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "to have"
+      ],
+      "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long [have] this biome existed?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u17-3-1",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "For",
+      "title": "For",
+      "answer": "for",
+      "options": [
+        "during for",
+        "ago",
+        "for",
+        "since"
+      ],
+      "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Scientists have studied the desert ___ many years.\nWord bank: during for · ago · for · since",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u17-3-2",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Since",
+      "title": "Since",
+      "answer": "since",
+      "options": [
+        "ago",
+        "since",
+        "for",
+        "during since"
+      ],
+      "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The sloth has lived here ___ it was born.\nWord bank: ago · since · for · during since",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u17-3-3",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Ongoing meaning",
+      "title": "Ongoing meaning",
+      "answer": "for",
+      "options": [
+        "for",
+        "since",
+        "during for",
+        "ago"
+      ],
+      "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This cactus has grown in the grassland ___ ten years.\nWord bank: for · since · during for · ago",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u17-3-4",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How long",
+      "title": "How long",
+      "answer": "has",
+      "options": [
+        "have",
+        "having",
+        "to have",
+        "has"
+      ],
+      "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How long ___ this biome existed?\nWord bank: have · having · to have · has",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u17-4-1",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "For",
+      "title": "For",
+      "answer": "Scientists have studied → the desert for → many years.",
+      "options": [
+        "Scientists have studied → the desert for → many years.",
+        "the desert for → many years. → Scientists have studied",
+        "many years. → Scientists have studied → the desert for",
+        "many years. → the desert for → Scientists have studied"
+      ],
+      "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the desert for",
+        "many years.",
+        "Scientists have studied"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u17-4-2",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Since",
+      "title": "Since",
+      "answer": "The sloth has → lived here since → it was born.",
+      "options": [
+        "The sloth has → lived here since → it was born.",
+        "lived here since → it was born. → The sloth has",
+        "it was born. → The sloth has → lived here since",
+        "it was born. → lived here since → The sloth has"
+      ],
+      "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "lived here since",
+        "it was born.",
+        "The sloth has"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u17-4-3",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Ongoing meaning",
+      "title": "Ongoing meaning",
+      "answer": "This cactus has grown → in the grassland → for ten years.",
+      "options": [
+        "This cactus has grown → in the grassland → for ten years.",
+        "in the grassland → for ten years. → This cactus has grown",
+        "for ten years. → This cactus has grown → in the grassland",
+        "for ten years. → in the grassland → This cactus has grown"
+      ],
+      "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "in the grassland",
+        "for ten years.",
+        "This cactus has grown"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u17-4-4",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How long",
+      "title": "How long",
+      "answer": "How long → has this → biome existed?",
+      "options": [
+        "How long → has this → biome existed?",
+        "has this → biome existed? → How long",
+        "biome existed? → How long → has this",
+        "biome existed? → has this → How long"
+      ],
+      "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "has this",
+        "biome existed?",
+        "How long"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u17-5-1",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "For",
+      "title": "For",
+      "answer": "Scientists have studied the desert for many years.",
+      "options": [
+        "Scientists have studied the desert for many years.",
+        "Scientists have studied the desert since many years.",
+        "Scientists have studied the desert during for many years.",
+        "Scientists have studied the desert ago many years."
+      ],
+      "hint": "For trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "why": "Scientists have studied the desert for many years.\nFor trả lời câu hỏi bao lâu: for two years, for a month, for a long time. Khoảng thời gian có độ dài nhưng không nêu điểm bắt đầu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: For",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u17-5-2",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Since",
+      "title": "Since",
+      "answer": "The sloth has lived here since it was born.",
+      "options": [
+        "The sloth has lived here for it was born.",
+        "The sloth has lived here during since it was born.",
+        "The sloth has lived here ago it was born.",
+        "The sloth has lived here since it was born."
+      ],
+      "hint": "Since đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "why": "The sloth has lived here since it was born.\nSince đi với một thời điểm hoặc mệnh đề quá khứ: since 2020, since Monday, since I was a child. Hành động hoặc trạng thái tiếp tục tới hiện tại.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Since",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u17-5-3",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Ongoing meaning",
+      "title": "Ongoing meaning",
+      "answer": "This cactus has grown in the grassland for ten years.",
+      "options": [
+        "This cactus has grown in the grassland during for ten years.",
+        "This cactus has grown in the grassland ago ten years.",
+        "This cactus has grown in the grassland for ten years.",
+        "This cactus has grown in the grassland since ten years."
+      ],
+      "hint": "Nếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "why": "This cactus has grown in the grassland for ten years.\nNếu khoảng thời gian đã kết thúc hoàn toàn, dùng quá khứ đơn. Nếu tình trạng vẫn còn đúng ở hiện tại, dùng hiện tại hoàn thành.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Ongoing meaning",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u17-5-4",
+      "type": "choice",
+      "unit": 17,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/v9d4b2s/",
+        "unit": 17,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How long",
+      "title": "How long",
+      "answer": "How long has this biome existed?",
+      "options": [
+        "How long to have this biome existed?",
+        "How long has this biome existed?",
+        "How long have this biome existed?",
+        "How long having this biome existed?"
+      ],
+      "hint": "Câu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "why": "How long has this biome existed?\nCâu hỏi thường dùng How long + have/has + subject + past participle. Câu trả lời có thể dùng for hoặc since tùy thông tin được nêu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: How long",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "course": "discover-2",
+  "unit": 11,
+  "title": "Unit 11 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+    "unit": 11,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "in / on / above",
+      "note": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "example": "There's smoke above the city.",
+      "formula": [
+        [
+          "in",
+          "bên trong"
+        ],
+        [
+          "on",
+          "trên bề mặt"
+        ],
+        [
+          "above",
+          "phía trên"
+        ]
+      ]
+    },
+    {
+      "tag": "behind / in front of",
+      "note": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "example": "The trash can is behind the tree.",
+      "formula": [
+        [
+          "behind",
+          "phía sau"
+        ],
+        [
+          "in front of",
+          "phía trước"
+        ]
+      ]
+    },
+    {
+      "tag": "across from / next to",
+      "note": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "example": "The landfill is across from the park.",
+      "formula": [
+        [
+          "across from",
+          "đối diện"
+        ],
+        [
+          "next to",
+          "bên cạnh"
+        ]
+      ]
+    },
+    {
+      "tag": "between",
+      "note": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "example": "The trash can is between the trees.",
+      "formula": [
+        [
+          "between",
+          "+",
+          "A",
+          "+",
+          "and",
+          "+",
+          "B"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u11-1-1",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "in / on / above",
+      "title": "in / on / above",
+      "answer": "above",
+      "options": [
+        "above",
+        "behind",
+        "between",
+        "across from"
+      ],
+      "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: higher than the city.\nThere's smoke ___ the city.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u11-1-2",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "behind / in front of",
+      "title": "behind / in front of",
+      "answer": "behind",
+      "options": [
+        "in front of",
+        "above",
+        "across from",
+        "behind"
+      ],
+      "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: at the back of the tree.\nThe trash can is ___ the tree.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u11-1-3",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "across from / next to",
+      "title": "across from / next to",
+      "answer": "across from",
+      "options": [
+        "between",
+        "behind",
+        "across from",
+        "above"
+      ],
+      "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: on the opposite side from the park.\nThe landfill is ___ the park.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u11-1-4",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "between",
+      "title": "between",
+      "answer": "between",
+      "options": [
+        "across from",
+        "between",
+        "above",
+        "behind"
+      ],
+      "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: in the middle of two trees.\nThe trash can is ___ the trees.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u11-2-1",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "in / on / above",
+      "title": "in / on / above",
+      "answer": "above",
+      "options": [
+        "behind",
+        "between",
+        "across from",
+        "above"
+      ],
+      "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: higher than the city.\nThere's smoke [behind] the city.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u11-2-2",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "behind / in front of",
+      "title": "behind / in front of",
+      "answer": "behind",
+      "options": [
+        "above",
+        "across from",
+        "behind",
+        "in front of"
+      ],
+      "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: at the back of the tree.\nThe trash can is [in front of] the tree.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u11-2-3",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "across from / next to",
+      "title": "across from / next to",
+      "answer": "across from",
+      "options": [
+        "behind",
+        "across from",
+        "above",
+        "between"
+      ],
+      "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: on the opposite side from the park.\nThe landfill is [above] the park.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u11-2-4",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "between",
+      "title": "between",
+      "answer": "between",
+      "options": [
+        "between",
+        "above",
+        "behind",
+        "across from"
+      ],
+      "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: in the middle of two trees.\nThe trash can is [above] the trees.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u11-3-1",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "in / on / above",
+      "title": "in / on / above",
+      "answer": "above",
+      "options": [
+        "between",
+        "across from",
+        "above",
+        "behind"
+      ],
+      "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: higher than the city.\nThere's smoke ___ the city.\nWord bank: between · across from · above · behind",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u11-3-2",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "behind / in front of",
+      "title": "behind / in front of",
+      "answer": "behind",
+      "options": [
+        "across from",
+        "behind",
+        "in front of",
+        "above"
+      ],
+      "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: at the back of the tree.\nThe trash can is ___ the tree.\nWord bank: across from · behind · in front of · above",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u11-3-3",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "across from / next to",
+      "title": "across from / next to",
+      "answer": "across from",
+      "options": [
+        "across from",
+        "above",
+        "between",
+        "behind"
+      ],
+      "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: on the opposite side from the park.\nThe landfill is ___ the park.\nWord bank: across from · above · between · behind",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u11-3-4",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "between",
+      "title": "between",
+      "answer": "between",
+      "options": [
+        "above",
+        "behind",
+        "across from",
+        "between"
+      ],
+      "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: in the middle of two trees.\nThe trash can is ___ the trees.\nWord bank: above · behind · across from · between",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u11-4-1",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "in / on / above",
+      "title": "in / on / above",
+      "answer": "There's smoke → above the → city.",
+      "options": [
+        "There's smoke → above the → city.",
+        "above the → city. → There's smoke",
+        "city. → There's smoke → above the",
+        "city. → above the → There's smoke"
+      ],
+      "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: higher than the city.\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "above the",
+        "city.",
+        "There's smoke"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u11-4-2",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "behind / in front of",
+      "title": "behind / in front of",
+      "answer": "The trash can → is behind → the tree.",
+      "options": [
+        "The trash can → is behind → the tree.",
+        "is behind → the tree. → The trash can",
+        "the tree. → The trash can → is behind",
+        "the tree. → is behind → The trash can"
+      ],
+      "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: at the back of the tree.\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "is behind",
+        "the tree.",
+        "The trash can"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u11-4-3",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "across from / next to",
+      "title": "across from / next to",
+      "answer": "The landfill is → across from → the park.",
+      "options": [
+        "The landfill is → across from → the park.",
+        "across from → the park. → The landfill is",
+        "the park. → The landfill is → across from",
+        "the park. → across from → The landfill is"
+      ],
+      "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: on the opposite side from the park.\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "across from",
+        "the park.",
+        "The landfill is"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u11-4-4",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "between",
+      "title": "between",
+      "answer": "The trash can → is between → the trees.",
+      "options": [
+        "The trash can → is between → the trees.",
+        "is between → the trees. → The trash can",
+        "the trees. → The trash can → is between",
+        "the trees. → is between → The trash can"
+      ],
+      "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: in the middle of two trees.\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "is between",
+        "the trees.",
+        "The trash can"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u11-5-1",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "in / on / above",
+      "title": "in / on / above",
+      "answer": "There's smoke above the city.",
+      "options": [
+        "There's smoke above the city.",
+        "There's smoke behind the city.",
+        "There's smoke between the city.",
+        "There's smoke across from the city."
+      ],
+      "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: higher than the city.\nGrammar focus: in / on / above",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u11-5-2",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "behind / in front of",
+      "title": "behind / in front of",
+      "answer": "The trash can is behind the tree.",
+      "options": [
+        "The trash can is in front of the tree.",
+        "The trash can is above the tree.",
+        "The trash can is across from the tree.",
+        "The trash can is behind the tree."
+      ],
+      "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: at the back of the tree.\nGrammar focus: behind / in front of",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u11-5-3",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "across from / next to",
+      "title": "across from / next to",
+      "answer": "The landfill is across from the park.",
+      "options": [
+        "The landfill is between the park.",
+        "The landfill is behind the park.",
+        "The landfill is across from the park.",
+        "The landfill is above the park."
+      ],
+      "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: on the opposite side from the park.\nGrammar focus: across from / next to",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u11-5-4",
+      "type": "choice",
+      "unit": 11,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/xed95th/",
+        "unit": 11,
+        "kind": "class-grammar-model"
+      },
+      "focus": "between",
+      "title": "between",
+      "answer": "The trash can is between the trees.",
+      "options": [
+        "The trash can is across from the trees.",
+        "The trash can is between the trees.",
+        "The trash can is above the trees.",
+        "The trash can is behind the trees."
+      ],
+      "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Location: in the middle of two trees.\nGrammar focus: between",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

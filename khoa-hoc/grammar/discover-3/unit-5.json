@@ -1,0 +1,697 @@
+{
+  "course": "discover-3",
+  "unit": 5,
+  "title": "Unit 5 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+    "unit": 5,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Affirmative",
+      "note": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "example": "A butterfly was flying over the thicket.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "was / were",
+          "+",
+          "verb-ing"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative",
+      "note": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "example": "The crickets weren't jumping.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "wasn't / weren't",
+          "+",
+          "verb-ing"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "example": "Was the bee flying? Yes, it was.",
+      "formula": [
+        [
+          "Was / Were",
+          "+",
+          "subject",
+          "+",
+          "verb-ing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Time in progress",
+      "note": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "example": "At noon, the kangaroo was resting.",
+      "formula": [
+        [
+          "At + past time",
+          ",",
+          "subject + was/were + V-ing"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u5-1-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Affirmative",
+      "title": "Affirmative",
+      "answer": "was",
+      "options": [
+        "was",
+        "were",
+        "am",
+        "be"
+      ],
+      "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nA butterfly ___ flying over the thicket.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u5-1-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "weren't",
+      "options": [
+        "wasn't",
+        "am not",
+        "not were",
+        "weren't"
+      ],
+      "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "why": "The crickets weren't jumping.\nĐặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nThe crickets ___ jumping.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u5-1-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Was",
+      "options": [
+        "Am",
+        "Be",
+        "Was",
+        "Were"
+      ],
+      "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n___ the bee flying? Yes, it was.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u5-1-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Time in progress",
+      "title": "Time in progress",
+      "answer": "was",
+      "options": [
+        "be",
+        "was",
+        "were",
+        "am"
+      ],
+      "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nAt noon, the kangaroo ___ resting.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u5-2-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Affirmative",
+      "title": "Affirmative",
+      "answer": "was",
+      "options": [
+        "were",
+        "am",
+        "be",
+        "was"
+      ],
+      "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nA butterfly [were] flying over the thicket.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u5-2-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "weren't",
+      "options": [
+        "am not",
+        "not were",
+        "weren't",
+        "wasn't"
+      ],
+      "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "why": "The crickets weren't jumping.\nĐặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nThe crickets [wasn't] jumping.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u5-2-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Was",
+      "options": [
+        "Be",
+        "Was",
+        "Were",
+        "Am"
+      ],
+      "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n[Were] the bee flying? Yes, it was.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u5-2-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Time in progress",
+      "title": "Time in progress",
+      "answer": "was",
+      "options": [
+        "was",
+        "were",
+        "am",
+        "be"
+      ],
+      "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nAt noon, the kangaroo [were] resting.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u5-3-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Affirmative",
+      "title": "Affirmative",
+      "answer": "was",
+      "options": [
+        "am",
+        "be",
+        "was",
+        "were"
+      ],
+      "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nA butterfly ___ flying over the thicket.\nWord bank: am · be · was · were",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u5-3-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "weren't",
+      "options": [
+        "not were",
+        "weren't",
+        "wasn't",
+        "am not"
+      ],
+      "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "why": "The crickets weren't jumping.\nĐặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nThe crickets ___ jumping.\nWord bank: not were · weren't · wasn't · am not",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u5-3-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Was",
+      "options": [
+        "Was",
+        "Were",
+        "Am",
+        "Be"
+      ],
+      "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n___ the bee flying? Yes, it was.\nWord bank: Was · Were · Am · Be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u5-3-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Time in progress",
+      "title": "Time in progress",
+      "answer": "was",
+      "options": [
+        "were",
+        "am",
+        "be",
+        "was"
+      ],
+      "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nAt noon, the kangaroo ___ resting.\nWord bank: were · am · be · was",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u5-4-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Affirmative",
+      "title": "Affirmative",
+      "answer": "A butterfly was → flying over → the thicket.",
+      "options": [
+        "A butterfly was → flying over → the thicket.",
+        "flying over → the thicket. → A butterfly was",
+        "the thicket. → A butterfly was → flying over",
+        "the thicket. → flying over → A butterfly was"
+      ],
+      "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "flying over",
+        "the thicket.",
+        "A butterfly was"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u5-4-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "The crickets → weren't → jumping.",
+      "options": [
+        "The crickets → weren't → jumping.",
+        "weren't → jumping. → The crickets",
+        "jumping. → The crickets → weren't",
+        "jumping. → weren't → The crickets"
+      ],
+      "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "why": "The crickets weren't jumping.\nĐặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "weren't",
+        "jumping.",
+        "The crickets"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u5-4-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Was the bee → flying? Yes, → it was.",
+      "options": [
+        "Was the bee → flying? Yes, → it was.",
+        "flying? Yes, → it was. → Was the bee",
+        "it was. → Was the bee → flying? Yes,",
+        "it was. → flying? Yes, → Was the bee"
+      ],
+      "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "flying? Yes,",
+        "it was.",
+        "Was the bee"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u5-4-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Time in progress",
+      "title": "Time in progress",
+      "answer": "At noon, → the kangaroo → was resting.",
+      "options": [
+        "At noon, → the kangaroo → was resting.",
+        "the kangaroo → was resting. → At noon,",
+        "was resting. → At noon, → the kangaroo",
+        "was resting. → the kangaroo → At noon,"
+      ],
+      "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\n",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the kangaroo",
+        "was resting.",
+        "At noon,"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u5-5-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Affirmative",
+      "title": "Affirmative",
+      "answer": "A butterfly was flying over the thicket.",
+      "options": [
+        "A butterfly was flying over the thicket.",
+        "A butterfly were flying over the thicket.",
+        "A butterfly am flying over the thicket.",
+        "A butterfly be flying over the thicket."
+      ],
+      "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nGrammar focus: Affirmative",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u5-5-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative",
+      "title": "Negative",
+      "answer": "The crickets weren't jumping.",
+      "options": [
+        "The crickets wasn't jumping.",
+        "The crickets am not jumping.",
+        "The crickets not were jumping.",
+        "The crickets weren't jumping."
+      ],
+      "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "why": "The crickets weren't jumping.\nĐặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nGrammar focus: Negative",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u5-5-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Was the bee flying? Yes, it was.",
+      "options": [
+        "Am the bee flying? Yes, it was.",
+        "Be the bee flying? Yes, it was.",
+        "Was the bee flying? Yes, it was.",
+        "Were the bee flying? Yes, it was."
+      ],
+      "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nGrammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u5-5-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ces2gat/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Time in progress",
+      "title": "Time in progress",
+      "answer": "At noon, the kangaroo was resting.",
+      "options": [
+        "At noon, the kangaroo be resting.",
+        "At noon, the kangaroo was resting.",
+        "At noon, the kangaroo were resting.",
+        "At noon, the kangaroo am resting."
+      ],
+      "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Use the past continuous (yesterday).\nGrammar focus: Time in progress",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

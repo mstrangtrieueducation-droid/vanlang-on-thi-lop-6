@@ -1,0 +1,705 @@
+{
+  "course": "discover-3",
+  "unit": 15,
+  "title": "Unit 15 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+    "unit": 15,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Measure words",
+      "note": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "example": "The plant needs a cup of water.",
+      "formula": [
+        [
+          "number",
+          "+",
+          "measure word",
+          "+",
+          "of",
+          "+",
+          "noncount noun"
+        ]
+      ]
+    },
+    {
+      "tag": "Plural measure words",
+      "note": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "example": "We used two bags of soil.",
+      "formula": [
+        [
+          "one bottle of water"
+        ],
+        [
+          "two bottles of water"
+        ]
+      ]
+    },
+    {
+      "tag": "Common combinations",
+      "note": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "example": "A bee collects a drop of nectar.",
+      "formula": [
+        [
+          "a glass of",
+          "water"
+        ],
+        [
+          "a bag of",
+          "soil"
+        ],
+        [
+          "a grain of",
+          "pollen"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "example": "How many bags of soil do the gardeners need?",
+      "formula": [
+        [
+          "How many bags of soil",
+          "?"
+        ],
+        [
+          "How much soil",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u15-1-1",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Measure words",
+      "title": "Measure words",
+      "answer": "a cup of",
+      "options": [
+        "a cup of",
+        "a cup",
+        "a cups of",
+        "cup of a"
+      ],
+      "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The plant needs ___ water.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u15-1-2",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Plural measure words",
+      "title": "Plural measure words",
+      "answer": "two bags of",
+      "options": [
+        "two bag of",
+        "two bags",
+        "two bag",
+        "two bags of"
+      ],
+      "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We used ___ soil.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u15-1-3",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common combinations",
+      "title": "Common combinations",
+      "answer": "a drop of",
+      "options": [
+        "a drop",
+        "drop a",
+        "a drop of",
+        "a drops of"
+      ],
+      "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A bee collects ___ nectar.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u15-1-4",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "an",
+        "many",
+        "much",
+        "a"
+      ],
+      "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ bags of soil do the gardeners need?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u15-2-1",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Measure words",
+      "title": "Measure words",
+      "answer": "a cup of",
+      "options": [
+        "a cup",
+        "a cups of",
+        "cup of a",
+        "a cup of"
+      ],
+      "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The plant needs [a cup] water.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u15-2-2",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Plural measure words",
+      "title": "Plural measure words",
+      "answer": "two bags of",
+      "options": [
+        "two bags",
+        "two bag",
+        "two bags of",
+        "two bag of"
+      ],
+      "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We used [two bag of] soil.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u15-2-3",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common combinations",
+      "title": "Common combinations",
+      "answer": "a drop of",
+      "options": [
+        "drop a",
+        "a drop of",
+        "a drops of",
+        "a drop"
+      ],
+      "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A bee collects [a drops of] nectar.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u15-2-4",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "many",
+        "much",
+        "a",
+        "an"
+      ],
+      "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How [much] bags of soil do the gardeners need?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u15-3-1",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Measure words",
+      "title": "Measure words",
+      "answer": "a cup of",
+      "options": [
+        "a cups of",
+        "cup of a",
+        "a cup of",
+        "a cup"
+      ],
+      "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The plant needs ___ water.\nWord bank: a cups of · cup of a · a cup of · a cup",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u15-3-2",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Plural measure words",
+      "title": "Plural measure words",
+      "answer": "two bags of",
+      "options": [
+        "two bag",
+        "two bags of",
+        "two bag of",
+        "two bags"
+      ],
+      "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We used ___ soil.\nWord bank: two bag · two bags of · two bag of · two bags",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u15-3-3",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common combinations",
+      "title": "Common combinations",
+      "answer": "a drop of",
+      "options": [
+        "a drop of",
+        "a drops of",
+        "a drop",
+        "drop a"
+      ],
+      "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A bee collects ___ nectar.\nWord bank: a drop of · a drops of · a drop · drop a",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u15-3-4",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "much",
+        "a",
+        "an",
+        "many"
+      ],
+      "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ bags of soil do the gardeners need?\nWord bank: much · a · an · many",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u15-4-1",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Measure words",
+      "title": "Measure words",
+      "answer": "The plant needs → a cup → of water.",
+      "options": [
+        "The plant needs → a cup → of water.",
+        "a cup → of water. → The plant needs",
+        "of water. → The plant needs → a cup",
+        "of water. → a cup → The plant needs"
+      ],
+      "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a cup",
+        "of water.",
+        "The plant needs"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u15-4-2",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Plural measure words",
+      "title": "Plural measure words",
+      "answer": "We used → two bags → of soil.",
+      "options": [
+        "We used → two bags → of soil.",
+        "two bags → of soil. → We used",
+        "of soil. → We used → two bags",
+        "of soil. → two bags → We used"
+      ],
+      "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "two bags",
+        "of soil.",
+        "We used"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u15-4-3",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common combinations",
+      "title": "Common combinations",
+      "answer": "A bee collects → a drop → of nectar.",
+      "options": [
+        "A bee collects → a drop → of nectar.",
+        "a drop → of nectar. → A bee collects",
+        "of nectar. → A bee collects → a drop",
+        "of nectar. → a drop → A bee collects"
+      ],
+      "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a drop",
+        "of nectar.",
+        "A bee collects"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u15-4-4",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How many bags → of soil do → the gardeners need?",
+      "options": [
+        "How many bags → of soil do → the gardeners need?",
+        "of soil do → the gardeners need? → How many bags",
+        "the gardeners need? → How many bags → of soil do",
+        "the gardeners need? → of soil do → How many bags"
+      ],
+      "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "of soil do",
+        "the gardeners need?",
+        "How many bags"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u15-5-1",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Measure words",
+      "title": "Measure words",
+      "answer": "The plant needs a cup of water.",
+      "options": [
+        "The plant needs a cup of water.",
+        "The plant needs a cup water.",
+        "The plant needs a cups of water.",
+        "The plant needs cup of a water."
+      ],
+      "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Measure words",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u15-5-2",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Plural measure words",
+      "title": "Plural measure words",
+      "answer": "We used two bags of soil.",
+      "options": [
+        "We used two bag of soil.",
+        "We used two bags soil.",
+        "We used two bag soil.",
+        "We used two bags of soil."
+      ],
+      "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Plural measure words",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u15-5-3",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common combinations",
+      "title": "Common combinations",
+      "answer": "A bee collects a drop of nectar.",
+      "options": [
+        "A bee collects a drop nectar.",
+        "A bee collects drop a nectar.",
+        "A bee collects a drop of nectar.",
+        "A bee collects a drops of nectar."
+      ],
+      "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Common combinations",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u15-5-4",
+      "type": "choice",
+      "unit": 15,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ur2ywjc/",
+        "unit": 15,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How many bags of soil do the gardeners need?",
+      "options": [
+        "How an bags of soil do the gardeners need?",
+        "How many bags of soil do the gardeners need?",
+        "How much bags of soil do the gardeners need?",
+        "How a bags of soil do the gardeners need?"
+      ],
+      "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

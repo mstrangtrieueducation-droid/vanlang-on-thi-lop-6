@@ -1,0 +1,778 @@
+{
+  "course": "discover-1",
+  "unit": 16,
+  "title": "Unit 16 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+    "unit": 16,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Câu hỏi Yes/No · Đảo be",
+      "note": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "example": "Are they singing?",
+      "formula": [
+        [
+          "Am / Is / Are",
+          "+",
+          "chủ ngữ",
+          "+",
+          "động từ-ing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Am I · Chủ ngữ I",
+      "note": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "example": "Am I making a shaker?",
+      "formula": [
+        [
+          "Am",
+          "+",
+          "I",
+          "+",
+          "động từ-ing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Is · he, she, it",
+      "note": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "example": "Is she dancing?",
+      "formula": [
+        [
+          "Is",
+          "+",
+          "he / she / it",
+          "+",
+          "động từ-ing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Are · you, we, they",
+      "note": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "example": "Are we having fun?",
+      "formula": [
+        [
+          "Are",
+          "+",
+          "you / we / they",
+          "+",
+          "động từ-ing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Trả lời ngắn · Yes",
+      "note": "Câu trả lời ngắn khẳng định dùng Yes + đại từ + am/is/are. Không nói Yes, I'm hoặc Yes, she's; trong câu trả lời ngắn khẳng định, be không viết tắt.",
+      "example": "Yes, they are.",
+      "formula": [
+        [
+          "Are you ...?",
+          "→",
+          "Yes, I am."
+        ],
+        [
+          "Is she ...?",
+          "→",
+          "Yes, she is."
+        ],
+        [
+          "Are they ...?",
+          "→",
+          "Yes, they are."
+        ]
+      ]
+    },
+    {
+      "tag": "Trả lời ngắn · No",
+      "note": "Sau No, dùng đúng đại từ rồi đến be phủ định: I'm not, he isn't, she isn't, we aren't, they aren't. Không lặp lại động từ -ing trong câu trả lời ngắn.",
+      "example": "No, she isn't.",
+      "formula": [
+        [
+          "Are you ...?",
+          "→",
+          "No, I'm not."
+        ],
+        [
+          "Is he ...?",
+          "→",
+          "No, he isn't."
+        ],
+        [
+          "Are they ...?",
+          "→",
+          "No, they aren't."
+        ]
+      ]
+    },
+    {
+      "tag": "Câu hỏi mở · What",
+      "note": "What đứng đầu câu, sau đó vẫn giữ trật tự câu hỏi: What + am/is/are + chủ ngữ + doing? Câu trả lời phải nêu rõ hành động bằng hiện tại tiếp diễn.",
+      "example": "What are they doing?",
+      "formula": [
+        [
+          "What",
+          "+",
+          "am / is / are",
+          "+",
+          "chủ ngữ",
+          "+",
+          "doing",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Ngữ điệu · Câu hỏi",
+      "note": "Câu hỏi Yes/No thường lên giọng ở cuối: Are they singing? Câu hỏi có What thường xuống giọng ở cuối: What are they doing? Con vẫn nối tự nhiên are_you, is_she và what_are.",
+      "example": "What are they doing?",
+      "formula": [
+        [
+          "Are they singing?",
+          "↗"
+        ],
+        [
+          "What are they doing?",
+          "↘"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u16-1-1",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi Yes/No · Đảo be",
+      "title": "Câu hỏi Yes/No · Đảo be",
+      "answer": "Are",
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Be"
+      ],
+      "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ they singing?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u16-1-2",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Am I · Chủ ngữ I",
+      "title": "Am I · Chủ ngữ I",
+      "answer": "Am",
+      "options": [
+        "Is",
+        "Are",
+        "Be",
+        "Am"
+      ],
+      "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ I making a shaker?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u16-1-3",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · he, she, it",
+      "title": "Is · he, she, it",
+      "answer": "Is",
+      "options": [
+        "Are",
+        "Be",
+        "Is",
+        "Am"
+      ],
+      "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ she dancing?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u16-1-4",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · you, we, they",
+      "title": "Are · you, we, they",
+      "answer": "Are",
+      "options": [
+        "Be",
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ we having fun?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u16-2-1",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi Yes/No · Đảo be",
+      "title": "Câu hỏi Yes/No · Đảo be",
+      "answer": "Are",
+      "options": [
+        "Is",
+        "Am",
+        "Be",
+        "Are"
+      ],
+      "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Is] they singing?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u16-2-2",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Am I · Chủ ngữ I",
+      "title": "Am I · Chủ ngữ I",
+      "answer": "Am",
+      "options": [
+        "Are",
+        "Be",
+        "Am",
+        "Is"
+      ],
+      "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Is] I making a shaker?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u16-2-3",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · he, she, it",
+      "title": "Is · he, she, it",
+      "answer": "Is",
+      "options": [
+        "Be",
+        "Is",
+        "Am",
+        "Are"
+      ],
+      "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Am] she dancing?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u16-2-4",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · you, we, they",
+      "title": "Are · you, we, they",
+      "answer": "Are",
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Be"
+      ],
+      "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Is] we having fun?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u16-3-1",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi Yes/No · Đảo be",
+      "title": "Câu hỏi Yes/No · Đảo be",
+      "answer": "Are",
+      "options": [
+        "Am",
+        "Be",
+        "Are",
+        "Is"
+      ],
+      "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ they singing?\nWord bank: Am · Be · Are · Is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u16-3-2",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Am I · Chủ ngữ I",
+      "title": "Am I · Chủ ngữ I",
+      "answer": "Am",
+      "options": [
+        "Be",
+        "Am",
+        "Is",
+        "Are"
+      ],
+      "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ I making a shaker?\nWord bank: Be · Am · Is · Are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u16-3-3",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · he, she, it",
+      "title": "Is · he, she, it",
+      "answer": "Is",
+      "options": [
+        "Is",
+        "Am",
+        "Are",
+        "Be"
+      ],
+      "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ she dancing?\nWord bank: Is · Am · Are · Be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u16-3-4",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · you, we, they",
+      "title": "Are · you, we, they",
+      "answer": "Are",
+      "options": [
+        "Is",
+        "Am",
+        "Be",
+        "Are"
+      ],
+      "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ we having fun?\nWord bank: Is · Am · Be · Are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u16-4-1",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi Yes/No · Đảo be",
+      "title": "Câu hỏi Yes/No · Đảo be",
+      "answer": "Are → they → singing?",
+      "options": [
+        "Are → they → singing?",
+        "they → singing? → Are",
+        "singing? → Are → they",
+        "singing? → they → Are"
+      ],
+      "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "they",
+        "singing?",
+        "Are"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u16-4-2",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Am I · Chủ ngữ I",
+      "title": "Am I · Chủ ngữ I",
+      "answer": "Am I → making a → shaker?",
+      "options": [
+        "Am I → making a → shaker?",
+        "making a → shaker? → Am I",
+        "shaker? → Am I → making a",
+        "shaker? → making a → Am I"
+      ],
+      "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "making a",
+        "shaker?",
+        "Am I"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u16-4-3",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · he, she, it",
+      "title": "Is · he, she, it",
+      "answer": "Is → she → dancing?",
+      "options": [
+        "Is → she → dancing?",
+        "she → dancing? → Is",
+        "dancing? → Is → she",
+        "dancing? → she → Is"
+      ],
+      "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "she",
+        "dancing?",
+        "Is"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u16-4-4",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · you, we, they",
+      "title": "Are · you, we, they",
+      "answer": "Are we → having → fun?",
+      "options": [
+        "Are we → having → fun?",
+        "having → fun? → Are we",
+        "fun? → Are we → having",
+        "fun? → having → Are we"
+      ],
+      "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "having",
+        "fun?",
+        "Are we"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u16-5-1",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi Yes/No · Đảo be",
+      "title": "Câu hỏi Yes/No · Đảo be",
+      "answer": "Are they singing?",
+      "options": [
+        "Are they singing?",
+        "Is they singing?",
+        "Am they singing?",
+        "Be they singing?"
+      ],
+      "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Câu hỏi Yes/No · Đảo be",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u16-5-2",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Am I · Chủ ngữ I",
+      "title": "Am I · Chủ ngữ I",
+      "answer": "Am I making a shaker?",
+      "options": [
+        "Is I making a shaker?",
+        "Are I making a shaker?",
+        "Be I making a shaker?",
+        "Am I making a shaker?"
+      ],
+      "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Am I · Chủ ngữ I",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u16-5-3",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · he, she, it",
+      "title": "Is · he, she, it",
+      "answer": "Is she dancing?",
+      "options": [
+        "Are she dancing?",
+        "Be she dancing?",
+        "Is she dancing?",
+        "Am she dancing?"
+      ],
+      "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Is · he, she, it",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u16-5-4",
+      "type": "choice",
+      "unit": 16,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n7gyfp7/",
+        "unit": 16,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · you, we, they",
+      "title": "Are · you, we, they",
+      "answer": "Are we having fun?",
+      "options": [
+        "Be we having fun?",
+        "Are we having fun?",
+        "Is we having fun?",
+        "Am we having fun?"
+      ],
+      "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Are · you, we, they",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "course": "discover-2",
+  "unit": 2,
+  "title": "Unit 2 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+    "unit": 2,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Mức độ thường xuyên",
+      "note": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "example": "Lily always escapes.",
+      "formula": [
+        [
+          "always",
+          "→",
+          "usually",
+          "→",
+          "sometimes",
+          "→",
+          "hardly ever",
+          "→",
+          "never"
+        ]
+      ]
+    },
+    {
+      "tag": "Vị trí · Động từ thường",
+      "note": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "example": "Leo sometimes hunts for birds.",
+      "formula": [
+        [
+          "chủ ngữ",
+          "+",
+          "trạng từ tần suất",
+          "+",
+          "động từ thường"
+        ]
+      ]
+    },
+    {
+      "tag": "Vị trí · Động từ be",
+      "note": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "example": "Lily is usually nervous.",
+      "formula": [
+        [
+          "chủ ngữ",
+          "+",
+          "am / is / are",
+          "+",
+          "trạng từ tần suất"
+        ]
+      ]
+    },
+    {
+      "tag": "Câu hỏi · ever",
+      "note": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "example": "Does Leo ever catch Lily? No, he never does.",
+      "formula": [
+        [
+          "Do / Does",
+          "+",
+          "chủ ngữ",
+          "+",
+          "ever",
+          "+",
+          "động từ nguyên mẫu",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u2-1-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Mức độ thường xuyên",
+      "title": "Mức độ thường xuyên",
+      "answer": "escapes",
+      "options": [
+        "escapes",
+        "escape",
+        "escaping",
+        "to escape"
+      ],
+      "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily always ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u2-1-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ thường",
+      "title": "Vị trí · Động từ thường",
+      "answer": "hunts",
+      "options": [
+        "hunt",
+        "hunting",
+        "to hunt",
+        "hunts"
+      ],
+      "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Leo sometimes ___ for birds.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u2-1-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ be",
+      "title": "Vị trí · Động từ be",
+      "answer": "is",
+      "options": [
+        "am",
+        "be",
+        "is",
+        "are"
+      ],
+      "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily ___ usually nervous.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u2-1-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · ever",
+      "title": "Câu hỏi · ever",
+      "answer": "catch",
+      "options": [
+        "caught",
+        "catch",
+        "catches",
+        "catching"
+      ],
+      "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Does Leo ever ___ Lily? No, he never does.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u2-2-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Mức độ thường xuyên",
+      "title": "Mức độ thường xuyên",
+      "answer": "escapes",
+      "options": [
+        "escape",
+        "escaping",
+        "to escape",
+        "escapes"
+      ],
+      "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily always [escape].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u2-2-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ thường",
+      "title": "Vị trí · Động từ thường",
+      "answer": "hunts",
+      "options": [
+        "hunting",
+        "to hunt",
+        "hunts",
+        "hunt"
+      ],
+      "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Leo sometimes [hunt] for birds.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u2-2-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ be",
+      "title": "Vị trí · Động từ be",
+      "answer": "is",
+      "options": [
+        "be",
+        "is",
+        "are",
+        "am"
+      ],
+      "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily [are] usually nervous.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u2-2-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · ever",
+      "title": "Câu hỏi · ever",
+      "answer": "catch",
+      "options": [
+        "catch",
+        "catches",
+        "catching",
+        "caught"
+      ],
+      "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Does Leo ever [catches] Lily? No, he never does.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u2-3-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Mức độ thường xuyên",
+      "title": "Mức độ thường xuyên",
+      "answer": "escapes",
+      "options": [
+        "escaping",
+        "to escape",
+        "escapes",
+        "escape"
+      ],
+      "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily always ___.\nWord bank: escaping · to escape · escapes · escape",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u2-3-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ thường",
+      "title": "Vị trí · Động từ thường",
+      "answer": "hunts",
+      "options": [
+        "to hunt",
+        "hunts",
+        "hunt",
+        "hunting"
+      ],
+      "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Leo sometimes ___ for birds.\nWord bank: to hunt · hunts · hunt · hunting",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u2-3-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ be",
+      "title": "Vị trí · Động từ be",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Lily ___ usually nervous.\nWord bank: is · are · am · be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u2-3-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · ever",
+      "title": "Câu hỏi · ever",
+      "answer": "catch",
+      "options": [
+        "catches",
+        "catching",
+        "caught",
+        "catch"
+      ],
+      "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Does Leo ever ___ Lily? No, he never does.\nWord bank: catches · catching · caught · catch",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u2-4-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Mức độ thường xuyên",
+      "title": "Mức độ thường xuyên",
+      "answer": "Lily → always → escapes.",
+      "options": [
+        "Lily → always → escapes.",
+        "always → escapes. → Lily",
+        "escapes. → Lily → always",
+        "escapes. → always → Lily"
+      ],
+      "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "always",
+        "escapes.",
+        "Lily"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u2-4-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ thường",
+      "title": "Vị trí · Động từ thường",
+      "answer": "Leo sometimes → hunts for → birds.",
+      "options": [
+        "Leo sometimes → hunts for → birds.",
+        "hunts for → birds. → Leo sometimes",
+        "birds. → Leo sometimes → hunts for",
+        "birds. → hunts for → Leo sometimes"
+      ],
+      "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "hunts for",
+        "birds.",
+        "Leo sometimes"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u2-4-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ be",
+      "title": "Vị trí · Động từ be",
+      "answer": "Lily is → usually → nervous.",
+      "options": [
+        "Lily is → usually → nervous.",
+        "usually → nervous. → Lily is",
+        "nervous. → Lily is → usually",
+        "nervous. → usually → Lily is"
+      ],
+      "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "usually",
+        "nervous.",
+        "Lily is"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u2-4-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · ever",
+      "title": "Câu hỏi · ever",
+      "answer": "Does Leo ever → catch Lily? No, → he never does.",
+      "options": [
+        "Does Leo ever → catch Lily? No, → he never does.",
+        "catch Lily? No, → he never does. → Does Leo ever",
+        "he never does. → Does Leo ever → catch Lily? No,",
+        "he never does. → catch Lily? No, → Does Leo ever"
+      ],
+      "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "catch Lily? No,",
+        "he never does.",
+        "Does Leo ever"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u2-5-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Mức độ thường xuyên",
+      "title": "Mức độ thường xuyên",
+      "answer": "Lily always escapes.",
+      "options": [
+        "Lily always escapes.",
+        "Lily always escape.",
+        "Lily always escaping.",
+        "Lily always to escape."
+      ],
+      "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Mức độ thường xuyên",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u2-5-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ thường",
+      "title": "Vị trí · Động từ thường",
+      "answer": "Leo sometimes hunts for birds.",
+      "options": [
+        "Leo sometimes hunt for birds.",
+        "Leo sometimes hunting for birds.",
+        "Leo sometimes to hunt for birds.",
+        "Leo sometimes hunts for birds."
+      ],
+      "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Vị trí · Động từ thường",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u2-5-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí · Động từ be",
+      "title": "Vị trí · Động từ be",
+      "answer": "Lily is usually nervous.",
+      "options": [
+        "Lily am usually nervous.",
+        "Lily be usually nervous.",
+        "Lily is usually nervous.",
+        "Lily are usually nervous."
+      ],
+      "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Vị trí · Động từ be",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u2-5-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nvvrr4s/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · ever",
+      "title": "Câu hỏi · ever",
+      "answer": "Does Leo ever catch Lily? No, he never does.",
+      "options": [
+        "Does Leo ever caught Lily? No, he never does.",
+        "Does Leo ever catch Lily? No, he never does.",
+        "Does Leo ever catches Lily? No, he never does.",
+        "Does Leo ever catching Lily? No, he never does."
+      ],
+      "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Câu hỏi · ever",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

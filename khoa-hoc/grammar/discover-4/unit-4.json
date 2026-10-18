@@ -1,0 +1,697 @@
+{
+  "course": "discover-4",
+  "unit": 4,
+  "title": "Unit 4 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+    "unit": 4,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Verb + gerund",
+      "note": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "example": "The paleontologist enjoys examining dinosaur bones.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "verb",
+          "+",
+          "verb-ing"
+        ]
+      ]
+    },
+    {
+      "tag": "Common patterns",
+      "note": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "example": "The team finished excavating the lowest layer.",
+      "formula": [
+        [
+          "finish / practice / avoid / keep",
+          "+",
+          "verb-ing"
+        ]
+      ]
+    },
+    {
+      "tag": "Spelling",
+      "note": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "example": "They kept digging near the sedimentary rock.",
+      "formula": [
+        [
+          "examine",
+          "->",
+          "examining"
+        ],
+        [
+          "dig",
+          "->",
+          "digging"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative gerund",
+      "note": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "example": "The team prefers not working in the dangerous ravine.",
+      "formula": [
+        [
+          "main verb",
+          "+",
+          "not + verb-ing"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u4-1-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb + gerund",
+      "title": "Verb + gerund",
+      "answer": "examining",
+      "options": [
+        "examining",
+        "to examine",
+        "examines",
+        "examined"
+      ],
+      "hint": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "why": "The paleontologist enjoys examining dinosaur bones.\nEnjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The paleontologist enjoys ___ dinosaur bones.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u4-1-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common patterns",
+      "title": "Common patterns",
+      "answer": "excavating",
+      "options": [
+        "to excavate",
+        "excavates",
+        "excavated",
+        "excavating"
+      ],
+      "hint": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "why": "The team finished excavating the lowest layer.\nFinish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team finished ___ the lowest layer.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u4-1-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Spelling",
+      "title": "Spelling",
+      "answer": "digging",
+      "options": [
+        "digs",
+        "dug",
+        "digging",
+        "to dig"
+      ],
+      "hint": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "why": "They kept digging near the sedimentary rock.\nBỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They kept ___ near the sedimentary rock.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u4-1-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative gerund",
+      "title": "Negative gerund",
+      "answer": "not working",
+      "options": [
+        "not work",
+        "not working",
+        "not works",
+        "not worked"
+      ],
+      "hint": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "why": "The team prefers not working in the dangerous ravine.\nNot đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team prefers ___ in the dangerous ravine.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u4-2-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb + gerund",
+      "title": "Verb + gerund",
+      "answer": "examining",
+      "options": [
+        "to examine",
+        "examines",
+        "examined",
+        "examining"
+      ],
+      "hint": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "why": "The paleontologist enjoys examining dinosaur bones.\nEnjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The paleontologist enjoys [to examine] dinosaur bones.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u4-2-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common patterns",
+      "title": "Common patterns",
+      "answer": "excavating",
+      "options": [
+        "excavates",
+        "excavated",
+        "excavating",
+        "to excavate"
+      ],
+      "hint": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "why": "The team finished excavating the lowest layer.\nFinish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team finished [to excavate] the lowest layer.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u4-2-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Spelling",
+      "title": "Spelling",
+      "answer": "digging",
+      "options": [
+        "dug",
+        "digging",
+        "to dig",
+        "digs"
+      ],
+      "hint": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "why": "They kept digging near the sedimentary rock.\nBỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They kept [to dig] near the sedimentary rock.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u4-2-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative gerund",
+      "title": "Negative gerund",
+      "answer": "not working",
+      "options": [
+        "not working",
+        "not works",
+        "not worked",
+        "not work"
+      ],
+      "hint": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "why": "The team prefers not working in the dangerous ravine.\nNot đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team prefers [not works] in the dangerous ravine.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u4-3-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb + gerund",
+      "title": "Verb + gerund",
+      "answer": "examining",
+      "options": [
+        "examines",
+        "examined",
+        "examining",
+        "to examine"
+      ],
+      "hint": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "why": "The paleontologist enjoys examining dinosaur bones.\nEnjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The paleontologist enjoys ___ dinosaur bones.\nWord bank: examines · examined · examining · to examine",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u4-3-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common patterns",
+      "title": "Common patterns",
+      "answer": "excavating",
+      "options": [
+        "excavated",
+        "excavating",
+        "to excavate",
+        "excavates"
+      ],
+      "hint": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "why": "The team finished excavating the lowest layer.\nFinish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team finished ___ the lowest layer.\nWord bank: excavated · excavating · to excavate · excavates",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u4-3-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Spelling",
+      "title": "Spelling",
+      "answer": "digging",
+      "options": [
+        "digging",
+        "to dig",
+        "digs",
+        "dug"
+      ],
+      "hint": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "why": "They kept digging near the sedimentary rock.\nBỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They kept ___ near the sedimentary rock.\nWord bank: digging · to dig · digs · dug",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u4-3-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative gerund",
+      "title": "Negative gerund",
+      "answer": "not working",
+      "options": [
+        "not works",
+        "not worked",
+        "not work",
+        "not working"
+      ],
+      "hint": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "why": "The team prefers not working in the dangerous ravine.\nNot đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The team prefers ___ in the dangerous ravine.\nWord bank: not works · not worked · not work · not working",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u4-4-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb + gerund",
+      "title": "Verb + gerund",
+      "answer": "The paleontologist → enjoys examining → dinosaur bones.",
+      "options": [
+        "The paleontologist → enjoys examining → dinosaur bones.",
+        "enjoys examining → dinosaur bones. → The paleontologist",
+        "dinosaur bones. → The paleontologist → enjoys examining",
+        "dinosaur bones. → enjoys examining → The paleontologist"
+      ],
+      "hint": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "why": "The paleontologist enjoys examining dinosaur bones.\nEnjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "enjoys examining",
+        "dinosaur bones.",
+        "The paleontologist"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u4-4-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common patterns",
+      "title": "Common patterns",
+      "answer": "The team finished → excavating the → lowest layer.",
+      "options": [
+        "The team finished → excavating the → lowest layer.",
+        "excavating the → lowest layer. → The team finished",
+        "lowest layer. → The team finished → excavating the",
+        "lowest layer. → excavating the → The team finished"
+      ],
+      "hint": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "why": "The team finished excavating the lowest layer.\nFinish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "excavating the",
+        "lowest layer.",
+        "The team finished"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u4-4-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Spelling",
+      "title": "Spelling",
+      "answer": "They kept digging → near the → sedimentary rock.",
+      "options": [
+        "They kept digging → near the → sedimentary rock.",
+        "near the → sedimentary rock. → They kept digging",
+        "sedimentary rock. → They kept digging → near the",
+        "sedimentary rock. → near the → They kept digging"
+      ],
+      "hint": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "why": "They kept digging near the sedimentary rock.\nBỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "near the",
+        "sedimentary rock.",
+        "They kept digging"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u4-4-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative gerund",
+      "title": "Negative gerund",
+      "answer": "The team prefers → not working in → the dangerous ravine.",
+      "options": [
+        "The team prefers → not working in → the dangerous ravine.",
+        "not working in → the dangerous ravine. → The team prefers",
+        "the dangerous ravine. → The team prefers → not working in",
+        "the dangerous ravine. → not working in → The team prefers"
+      ],
+      "hint": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "why": "The team prefers not working in the dangerous ravine.\nNot đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "not working in",
+        "the dangerous ravine.",
+        "The team prefers"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u4-5-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb + gerund",
+      "title": "Verb + gerund",
+      "answer": "The paleontologist enjoys examining dinosaur bones.",
+      "options": [
+        "The paleontologist enjoys examining dinosaur bones.",
+        "The paleontologist enjoys to examine dinosaur bones.",
+        "The paleontologist enjoys examines dinosaur bones.",
+        "The paleontologist enjoys examined dinosaur bones."
+      ],
+      "hint": "Enjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "why": "The paleontologist enjoys examining dinosaur bones.\nEnjoy, finish, practice, avoid, keep và mind thường đi với V-ing. Trong cấu trúc này, V-ing gọi tên một hoạt động và hoạt động ấy là bổ ngữ của động từ trước.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Verb + gerund",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u4-5-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common patterns",
+      "title": "Common patterns",
+      "answer": "The team finished excavating the lowest layer.",
+      "options": [
+        "The team finished to excavate the lowest layer.",
+        "The team finished excavates the lowest layer.",
+        "The team finished excavated the lowest layer.",
+        "The team finished excavating the lowest layer."
+      ],
+      "hint": "Finish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "why": "The team finished excavating the lowest layer.\nFinish nhấn mạnh hoàn tất; practice nói về luyện tập; avoid nói về tránh làm; keep nói về tiếp tục. Không tự ý đổi V-ing thành to + verb sau các động từ này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Common patterns",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u4-5-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Spelling",
+      "title": "Spelling",
+      "answer": "They kept digging near the sedimentary rock.",
+      "options": [
+        "They kept digs near the sedimentary rock.",
+        "They kept dug near the sedimentary rock.",
+        "They kept digging near the sedimentary rock.",
+        "They kept to dig near the sedimentary rock."
+      ],
+      "hint": "Bỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "why": "They kept digging near the sedimentary rock.\nBỏ e câm trước -ing, như examine thành examining. Động từ ngắn có mẫu phụ âm-nguyên âm-phụ âm thường gấp đôi phụ âm cuối, như dig thành digging.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Spelling",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u4-5-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ud4z7hc/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative gerund",
+      "title": "Negative gerund",
+      "answer": "The team prefers not working in the dangerous ravine.",
+      "options": [
+        "The team prefers not work in the dangerous ravine.",
+        "The team prefers not working in the dangerous ravine.",
+        "The team prefers not works in the dangerous ravine.",
+        "The team prefers not worked in the dangerous ravine."
+      ],
+      "hint": "Not đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "why": "The team prefers not working in the dangerous ravine.\nNot đứng ngay trước gerund. Cần phân biệt don't like working là không thích làm với like not working là thích trạng thái không phải làm.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative gerund",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

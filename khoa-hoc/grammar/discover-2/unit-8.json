@@ -1,0 +1,707 @@
+{
+  "course": "discover-2",
+  "unit": 8,
+  "title": "Unit 8 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+    "unit": 8,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Did ...? · Bất quy tắc",
+      "note": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "example": "Did Bandar steal the candy?",
+      "formula": [
+        [
+          "Did",
+          "+",
+          "chủ ngữ",
+          "+",
+          "go / steal / hide",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Short answers",
+      "note": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "example": "Did he let go? No, he didn't.",
+      "formula": [
+        [
+          "Yes,",
+          "+",
+          "chủ ngữ",
+          "+",
+          "did."
+        ],
+        [
+          "No,",
+          "+",
+          "chủ ngữ",
+          "+",
+          "didn't."
+        ]
+      ]
+    },
+    {
+      "tag": "Wh- questions",
+      "note": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "example": "Where did Bandar hide the jar?",
+      "formula": [
+        [
+          "Wh-word",
+          "+",
+          "did",
+          "+",
+          "chủ ngữ",
+          "+",
+          "động từ nguyên mẫu",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Cụm động từ",
+      "note": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "example": "What did he dig up?",
+      "formula": [
+        [
+          "did",
+          "+",
+          "let go / dig up"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u8-1-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Did ...? · Bất quy tắc",
+      "title": "Did ...? · Bất quy tắc",
+      "answer": "steal",
+      "options": [
+        "steal",
+        "stole",
+        "steals",
+        "stealing"
+      ],
+      "hint": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "why": "Did Bandar steal the candy?\nDù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Bandar ___ the candy?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u8-1-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Short answers",
+      "title": "Short answers",
+      "answer": "go",
+      "options": [
+        "went",
+        "goes",
+        "going",
+        "go"
+      ],
+      "hint": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "why": "Did he let go? No, he didn't.\nCâu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did he let ___? No, he didn't.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u8-1-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "hide",
+      "options": [
+        "hides",
+        "hiding",
+        "hide",
+        "hid"
+      ],
+      "hint": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "why": "Where did Bandar hide the jar?\nWhat hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where did Bandar ___ the jar?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u8-1-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Cụm động từ",
+      "title": "Cụm động từ",
+      "answer": "dig",
+      "options": [
+        "digging",
+        "dig",
+        "dug",
+        "digs"
+      ],
+      "hint": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "why": "What did he dig up?\nVới let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What did he ___ up?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u8-2-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Did ...? · Bất quy tắc",
+      "title": "Did ...? · Bất quy tắc",
+      "answer": "steal",
+      "options": [
+        "stole",
+        "steals",
+        "stealing",
+        "steal"
+      ],
+      "hint": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "why": "Did Bandar steal the candy?\nDù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Bandar [stole] the candy?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u8-2-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Short answers",
+      "title": "Short answers",
+      "answer": "go",
+      "options": [
+        "goes",
+        "going",
+        "go",
+        "went"
+      ],
+      "hint": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "why": "Did he let go? No, he didn't.\nCâu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did he let [went]? No, he didn't.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u8-2-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "hide",
+      "options": [
+        "hiding",
+        "hide",
+        "hid",
+        "hides"
+      ],
+      "hint": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "why": "Where did Bandar hide the jar?\nWhat hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where did Bandar [hid] the jar?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u8-2-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Cụm động từ",
+      "title": "Cụm động từ",
+      "answer": "dig",
+      "options": [
+        "dig",
+        "dug",
+        "digs",
+        "digging"
+      ],
+      "hint": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "why": "What did he dig up?\nVới let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What did he [dug] up?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u8-3-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Did ...? · Bất quy tắc",
+      "title": "Did ...? · Bất quy tắc",
+      "answer": "steal",
+      "options": [
+        "steals",
+        "stealing",
+        "steal",
+        "stole"
+      ],
+      "hint": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "why": "Did Bandar steal the candy?\nDù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Bandar ___ the candy?\nWord bank: steals · stealing · steal · stole",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u8-3-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Short answers",
+      "title": "Short answers",
+      "answer": "go",
+      "options": [
+        "going",
+        "go",
+        "went",
+        "goes"
+      ],
+      "hint": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "why": "Did he let go? No, he didn't.\nCâu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did he let ___? No, he didn't.\nWord bank: going · go · went · goes",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u8-3-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "hide",
+      "options": [
+        "hide",
+        "hid",
+        "hides",
+        "hiding"
+      ],
+      "hint": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "why": "Where did Bandar hide the jar?\nWhat hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where did Bandar ___ the jar?\nWord bank: hide · hid · hides · hiding",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u8-3-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Cụm động từ",
+      "title": "Cụm động từ",
+      "answer": "dig",
+      "options": [
+        "dug",
+        "digs",
+        "digging",
+        "dig"
+      ],
+      "hint": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "why": "What did he dig up?\nVới let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What did he ___ up?\nWord bank: dug · digs · digging · dig",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u8-4-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Did ...? · Bất quy tắc",
+      "title": "Did ...? · Bất quy tắc",
+      "answer": "Did Bandar → steal the → candy?",
+      "options": [
+        "Did Bandar → steal the → candy?",
+        "steal the → candy? → Did Bandar",
+        "candy? → Did Bandar → steal the",
+        "candy? → steal the → Did Bandar"
+      ],
+      "hint": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "why": "Did Bandar steal the candy?\nDù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "steal the",
+        "candy?",
+        "Did Bandar"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u8-4-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Short answers",
+      "title": "Short answers",
+      "answer": "Did he let → go? No, → he didn't.",
+      "options": [
+        "Did he let → go? No, → he didn't.",
+        "go? No, → he didn't. → Did he let",
+        "he didn't. → Did he let → go? No,",
+        "he didn't. → go? No, → Did he let"
+      ],
+      "hint": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "why": "Did he let go? No, he didn't.\nCâu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "go? No,",
+        "he didn't.",
+        "Did he let"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u8-4-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where did → Bandar hide → the jar?",
+      "options": [
+        "Where did → Bandar hide → the jar?",
+        "Bandar hide → the jar? → Where did",
+        "the jar? → Where did → Bandar hide",
+        "the jar? → Bandar hide → Where did"
+      ],
+      "hint": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "why": "Where did Bandar hide the jar?\nWhat hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "Bandar hide",
+        "the jar?",
+        "Where did"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u8-4-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Cụm động từ",
+      "title": "Cụm động từ",
+      "answer": "What did → he dig → up?",
+      "options": [
+        "What did → he dig → up?",
+        "he dig → up? → What did",
+        "up? → What did → he dig",
+        "up? → he dig → What did"
+      ],
+      "hint": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "why": "What did he dig up?\nVới let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "he dig",
+        "up?",
+        "What did"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u8-5-1",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Did ...? · Bất quy tắc",
+      "title": "Did ...? · Bất quy tắc",
+      "answer": "Did Bandar steal the candy?",
+      "options": [
+        "Did Bandar steal the candy?",
+        "Did Bandar stole the candy?",
+        "Did Bandar steals the candy?",
+        "Did Bandar stealing the candy?"
+      ],
+      "hint": "Dù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "why": "Did Bandar steal the candy?\nDù câu kể dùng went, stole hoặc hid, câu hỏi dùng did + go, steal hoặc hide. Không dùng dạng quá khứ sau did.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Did ...? · Bất quy tắc",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u8-5-2",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Short answers",
+      "title": "Short answers",
+      "answer": "Did he let go? No, he didn't.",
+      "options": [
+        "Did he let went? No, he didn't.",
+        "Did he let goes? No, he didn't.",
+        "Did he let going? No, he didn't.",
+        "Did he let go? No, he didn't."
+      ],
+      "hint": "Câu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "why": "Did he let go? No, he didn't.\nCâu trả lời ngắn dùng did/didn't và đại từ phù hợp. Không lặp lại động từ bất quy tắc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Short answers",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u8-5-3",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where did Bandar hide the jar?",
+      "options": [
+        "Where did Bandar hides the jar?",
+        "Where did Bandar hiding the jar?",
+        "Where did Bandar hide the jar?",
+        "Where did Bandar hid the jar?"
+      ],
+      "hint": "What hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "why": "Where did Bandar hide the jar?\nWhat hỏi sự vật, where hỏi nơi chốn, why hỏi lý do. Động từ sau chủ ngữ ở nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Wh- questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u8-5-4",
+      "type": "choice",
+      "unit": 8,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/nfx5nnj/",
+        "unit": 8,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Cụm động từ",
+      "title": "Cụm động từ",
+      "answer": "What did he dig up?",
+      "options": [
+        "What did he digging up?",
+        "What did he dig up?",
+        "What did he dug up?",
+        "What did he digs up?"
+      ],
+      "hint": "Với let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "why": "What did he dig up?\nVới let go và dig up, không bỏ phần sau của cụm. Nói Did he let go...? và What did he dig up?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Cụm động từ",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

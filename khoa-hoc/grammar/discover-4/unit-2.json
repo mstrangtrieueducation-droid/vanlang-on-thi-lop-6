@@ -1,0 +1,699 @@
+{
+  "course": "discover-4",
+  "unit": 2,
+  "title": "Unit 2 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+    "unit": 2,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Form",
+      "note": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "example": "If the space probe reaches Mars, it will send pictures.",
+      "formula": [
+        [
+          "If",
+          "+",
+          "present simple",
+          ",",
+          "will + base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Clause order",
+      "note": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "example": "Astronomers will learn more if the probe enters orbit.",
+      "formula": [
+        [
+          "If + condition",
+          ",",
+          "result"
+        ],
+        [
+          "result",
+          "+",
+          "if + condition"
+        ]
+      ]
+    },
+    {
+      "tag": "No will after if",
+      "note": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "example": "If the space probe works, we will see the surface clearly.",
+      "formula": [
+        [
+          "if + subject + present simple"
+        ],
+        [
+          "not:",
+          "if + subject + will"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative forms",
+      "note": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "example": "If gravity doesn't hold the matter, it will float away.",
+      "formula": [
+        [
+          "If + subject + don't / doesn't + verb",
+          ",",
+          "subject + won't + verb"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u2-1-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "reaches",
+      "options": [
+        "reaches",
+        "will reaches",
+        "reaching",
+        "to reach"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe ___ Mars, it will send pictures.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u2-1-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "enters",
+      "options": [
+        "will enters",
+        "entering",
+        "to enter",
+        "enters"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Astronomers will learn more if the probe ___ orbit.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u2-1-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "No will after if",
+      "title": "No will after if",
+      "answer": "works",
+      "options": [
+        "working",
+        "to work",
+        "works",
+        "will works"
+      ],
+      "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe ___, we will see the surface clearly.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u2-1-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "hold",
+      "options": [
+        "held",
+        "hold",
+        "holds",
+        "holding"
+      ],
+      "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If gravity doesn't ___ the matter, it will float away.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u2-2-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "reaches",
+      "options": [
+        "will reaches",
+        "reaching",
+        "to reach",
+        "reaches"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe [will reaches] Mars, it will send pictures.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u2-2-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "enters",
+      "options": [
+        "entering",
+        "to enter",
+        "enters",
+        "will enters"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Astronomers will learn more if the probe [will enters] orbit.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u2-2-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "No will after if",
+      "title": "No will after if",
+      "answer": "works",
+      "options": [
+        "to work",
+        "works",
+        "will works",
+        "working"
+      ],
+      "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe [will works], we will see the surface clearly.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u2-2-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "hold",
+      "options": [
+        "hold",
+        "holds",
+        "holding",
+        "held"
+      ],
+      "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If gravity doesn't [holds] the matter, it will float away.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u2-3-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "reaches",
+      "options": [
+        "reaching",
+        "to reach",
+        "reaches",
+        "will reaches"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe ___ Mars, it will send pictures.\nWord bank: reaching · to reach · reaches · will reaches",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u2-3-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "enters",
+      "options": [
+        "to enter",
+        "enters",
+        "will enters",
+        "entering"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Astronomers will learn more if the probe ___ orbit.\nWord bank: to enter · enters · will enters · entering",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u2-3-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "No will after if",
+      "title": "No will after if",
+      "answer": "works",
+      "options": [
+        "works",
+        "will works",
+        "working",
+        "to work"
+      ],
+      "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If the space probe ___, we will see the surface clearly.\nWord bank: works · will works · working · to work",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u2-3-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "hold",
+      "options": [
+        "holds",
+        "holding",
+        "held",
+        "hold"
+      ],
+      "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If gravity doesn't ___ the matter, it will float away.\nWord bank: holds · holding · held · hold",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u2-4-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "If the space probe → reaches Mars, it → will send pictures.",
+      "options": [
+        "If the space probe → reaches Mars, it → will send pictures.",
+        "reaches Mars, it → will send pictures. → If the space probe",
+        "will send pictures. → If the space probe → reaches Mars, it",
+        "will send pictures. → reaches Mars, it → If the space probe"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "reaches Mars, it",
+        "will send pictures.",
+        "If the space probe"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u2-4-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "Astronomers will learn → more if the → probe enters orbit.",
+      "options": [
+        "Astronomers will learn → more if the → probe enters orbit.",
+        "more if the → probe enters orbit. → Astronomers will learn",
+        "probe enters orbit. → Astronomers will learn → more if the",
+        "probe enters orbit. → more if the → Astronomers will learn"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "more if the",
+        "probe enters orbit.",
+        "Astronomers will learn"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u2-4-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "No will after if",
+      "title": "No will after if",
+      "answer": "If the space probe → works, we will see → the surface clearly.",
+      "options": [
+        "If the space probe → works, we will see → the surface clearly.",
+        "works, we will see → the surface clearly. → If the space probe",
+        "the surface clearly. → If the space probe → works, we will see",
+        "the surface clearly. → works, we will see → If the space probe"
+      ],
+      "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "works, we will see",
+        "the surface clearly.",
+        "If the space probe"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u2-4-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "If gravity doesn't hold → the matter, it → will float away.",
+      "options": [
+        "If gravity doesn't hold → the matter, it → will float away.",
+        "the matter, it → will float away. → If gravity doesn't hold",
+        "will float away. → If gravity doesn't hold → the matter, it",
+        "will float away. → the matter, it → If gravity doesn't hold"
+      ],
+      "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the matter, it",
+        "will float away.",
+        "If gravity doesn't hold"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u2-5-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "If the space probe reaches Mars, it will send pictures.",
+      "options": [
+        "If the space probe reaches Mars, it will send pictures.",
+        "If the space probe will reaches Mars, it will send pictures.",
+        "If the space probe reaching Mars, it will send pictures.",
+        "If the space probe to reach Mars, it will send pictures."
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Form",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u2-5-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "Astronomers will learn more if the probe enters orbit.",
+      "options": [
+        "Astronomers will learn more if the probe will enters orbit.",
+        "Astronomers will learn more if the probe entering orbit.",
+        "Astronomers will learn more if the probe to enter orbit.",
+        "Astronomers will learn more if the probe enters orbit."
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Clause order",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u2-5-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "No will after if",
+      "title": "No will after if",
+      "answer": "If the space probe works, we will see the surface clearly.",
+      "options": [
+        "If the space probe working, we will see the surface clearly.",
+        "If the space probe to work, we will see the surface clearly.",
+        "If the space probe works, we will see the surface clearly.",
+        "If the space probe will works, we will see the surface clearly."
+      ],
+      "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: No will after if",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u2-5-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/dptsezu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "If gravity doesn't hold the matter, it will float away.",
+      "options": [
+        "If gravity doesn't held the matter, it will float away.",
+        "If gravity doesn't hold the matter, it will float away.",
+        "If gravity doesn't holds the matter, it will float away.",
+        "If gravity doesn't holding the matter, it will float away."
+      ],
+      "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative forms",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

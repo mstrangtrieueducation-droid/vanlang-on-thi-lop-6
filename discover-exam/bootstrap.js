@@ -6,5 +6,5 @@
  const items=DiscoverExamCore.items(test,lessonId),back=new URL('../vu-tru/',location.href);back.search=location.search;back.searchParams.delete('test');back.searchParams.delete('play');back.searchParams.delete('startAt');back.searchParams.set('view','map');
  window.GAME_CONFIG={id:'course-'+course,courseId:course,lessonId,storageKey:`mtt-course-${course}-${lessonId}-v1`,title:`Discover ${course.at(-1)} · Progress Test ${number}`,brand:'MS TRANG TRIEU EDUCATION',journeyUrl:back.href};
  window.DISCOVER_TEST_LESSON={id:lessonId,testId,title:test.title||`Progress Test ${number}`};window.ADVENTURE={exam:true,kind:'progress-test',items};host.id='adventure';
- await script('../game-kit/profile.js?v=cloud-1');await script('../vu-tru/lesson-bridge.js?v=world-3');await script('app.js?v=sheet-1');
+ await script('../game-kit/profile.js?v=cloud-1');await script('../vu-tru/lesson-bridge.js?v=world-3');await script('app.js?v=grammar-1');
 })().catch(e=>{FlowBoot?.cancel();document.querySelector('main').textContent='Chưa tải được bài kiểm tra. Con tải lại trang nhé.';console.error(e);});

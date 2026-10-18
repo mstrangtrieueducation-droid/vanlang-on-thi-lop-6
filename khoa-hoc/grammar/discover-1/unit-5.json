@@ -1,0 +1,737 @@
+{
+  "course": "discover-1",
+  "unit": 5,
+  "title": "Unit 5 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+    "unit": 5,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Where is ...? · Hỏi vị trí số ít",
+      "note": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "example": "Where is the eagle?",
+      "formula": [
+        [
+          "Where is",
+          "+",
+          "the + danh từ số ít",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Where's ...? · Dạng nói gọn",
+      "note": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "example": "Where's the opossum?",
+      "formula": [
+        [
+          "Where is",
+          "=",
+          "Where's"
+        ]
+      ]
+    },
+    {
+      "tag": "Where are ...? · Hỏi vị trí số nhiều",
+      "note": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "example": "Where are the chicks?",
+      "formula": [
+        [
+          "Where are",
+          "+",
+          "the + danh từ số nhiều",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Trả lời · It's / They're",
+      "note": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "example": "They're in the nest.",
+      "formula": [
+        [
+          "It's",
+          "+",
+          "cụm chỉ vị trí"
+        ],
+        [
+          "They're",
+          "+",
+          "cụm chỉ vị trí"
+        ]
+      ]
+    },
+    {
+      "tag": "Is ...? / Are ...? · Kiểm tra vị trí",
+      "note": "Where hỏi vị trí chưa biết. Khi muốn kiểm tra một vị trí đã nêu, con đặt Is trước chủ ngữ số ít hoặc Are trước chủ ngữ số nhiều. Câu trả lời phải dùng đúng it hoặc they.",
+      "example": "Are the honeybees in the hive?",
+      "formula": [
+        [
+          "Is",
+          "+",
+          "chủ ngữ số ít",
+          "+",
+          "cụm vị trí",
+          "?"
+        ],
+        [
+          "Are",
+          "+",
+          "chủ ngữ số nhiều",
+          "+",
+          "cụm vị trí",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Câu trả lời ngắn · it / they",
+      "note": "Với một vật, con nói Yes, it is hoặc No, it isn't. Với nhiều vật, con nói Yes, they are hoặc No, they aren't. Không dùng Yes, it are hoặc No, they isn't.",
+      "example": "Yes, they are.",
+      "formula": [
+        [
+          "Yes, it is.",
+          "/",
+          "No, it isn't."
+        ],
+        [
+          "Yes, they are.",
+          "/",
+          "No, they aren't."
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u5-1-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...? · Hỏi vị trí số ít",
+      "title": "Where is ...? · Hỏi vị trí số ít",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "hint": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "why": "Where is the eagle?\nSau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the eagle?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u5-1-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where's ...? · Dạng nói gọn",
+      "title": "Where's ...? · Dạng nói gọn",
+      "answer": "Where's",
+      "options": [
+        "Where are",
+        "Where am",
+        "Where be",
+        "Where's"
+      ],
+      "hint": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "why": "Where's the opossum?\nWhere is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the opossum?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u5-1-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...? · Hỏi vị trí số nhiều",
+      "title": "Where are ...? · Hỏi vị trí số nhiều",
+      "answer": "are",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "hint": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "why": "Where are the chicks?\nSau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the chicks?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u5-1-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Trả lời · It's / They're",
+      "title": "Trả lời · It's / They're",
+      "answer": "They're",
+      "options": [
+        "They am",
+        "They're",
+        "It is",
+        "They is"
+      ],
+      "hint": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "why": "They're in the nest.\nVới câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ in the nest.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u5-2-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...? · Hỏi vị trí số ít",
+      "title": "Where is ...? · Hỏi vị trí số ít",
+      "answer": "is",
+      "options": [
+        "are",
+        "am",
+        "be",
+        "is"
+      ],
+      "hint": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "why": "Where is the eagle?\nSau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where [are] the eagle?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u5-2-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where's ...? · Dạng nói gọn",
+      "title": "Where's ...? · Dạng nói gọn",
+      "answer": "Where's",
+      "options": [
+        "Where am",
+        "Where be",
+        "Where's",
+        "Where are"
+      ],
+      "hint": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "why": "Where's the opossum?\nWhere is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Where are] the opossum?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u5-2-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...? · Hỏi vị trí số nhiều",
+      "title": "Where are ...? · Hỏi vị trí số nhiều",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "why": "Where are the chicks?\nSau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where [is] the chicks?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u5-2-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Trả lời · It's / They're",
+      "title": "Trả lời · It's / They're",
+      "answer": "They're",
+      "options": [
+        "They're",
+        "It is",
+        "They is",
+        "They am"
+      ],
+      "hint": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "why": "They're in the nest.\nVới câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[It is] in the nest.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u5-3-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...? · Hỏi vị trí số ít",
+      "title": "Where is ...? · Hỏi vị trí số ít",
+      "answer": "is",
+      "options": [
+        "am",
+        "be",
+        "is",
+        "are"
+      ],
+      "hint": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "why": "Where is the eagle?\nSau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the eagle?\nWord bank: am · be · is · are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u5-3-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where's ...? · Dạng nói gọn",
+      "title": "Where's ...? · Dạng nói gọn",
+      "answer": "Where's",
+      "options": [
+        "Where be",
+        "Where's",
+        "Where are",
+        "Where am"
+      ],
+      "hint": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "why": "Where's the opossum?\nWhere is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the opossum?\nWord bank: Where be · Where's · Where are · Where am",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u5-3-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...? · Hỏi vị trí số nhiều",
+      "title": "Where are ...? · Hỏi vị trí số nhiều",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "hint": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "why": "Where are the chicks?\nSau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the chicks?\nWord bank: are · is · am · be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u5-3-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Trả lời · It's / They're",
+      "title": "Trả lời · It's / They're",
+      "answer": "They're",
+      "options": [
+        "It is",
+        "They is",
+        "They am",
+        "They're"
+      ],
+      "hint": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "why": "They're in the nest.\nVới câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ in the nest.\nWord bank: It is · They is · They am · They're",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u5-4-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...? · Hỏi vị trí số ít",
+      "title": "Where is ...? · Hỏi vị trí số ít",
+      "answer": "Where is → the → eagle?",
+      "options": [
+        "Where is → the → eagle?",
+        "the → eagle? → Where is",
+        "eagle? → Where is → the",
+        "eagle? → the → Where is"
+      ],
+      "hint": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "why": "Where is the eagle?\nSau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the",
+        "eagle?",
+        "Where is"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u5-4-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where's ...? · Dạng nói gọn",
+      "title": "Where's ...? · Dạng nói gọn",
+      "answer": "Where's → the → opossum?",
+      "options": [
+        "Where's → the → opossum?",
+        "the → opossum? → Where's",
+        "opossum? → Where's → the",
+        "opossum? → the → Where's"
+      ],
+      "hint": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "why": "Where's the opossum?\nWhere is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the",
+        "opossum?",
+        "Where's"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u5-4-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...? · Hỏi vị trí số nhiều",
+      "title": "Where are ...? · Hỏi vị trí số nhiều",
+      "answer": "Where are → the → chicks?",
+      "options": [
+        "Where are → the → chicks?",
+        "the → chicks? → Where are",
+        "chicks? → Where are → the",
+        "chicks? → the → Where are"
+      ],
+      "hint": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "why": "Where are the chicks?\nSau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the",
+        "chicks?",
+        "Where are"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u5-4-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Trả lời · It's / They're",
+      "title": "Trả lời · It's / They're",
+      "answer": "They're in → the → nest.",
+      "options": [
+        "They're in → the → nest.",
+        "the → nest. → They're in",
+        "nest. → They're in → the",
+        "nest. → the → They're in"
+      ],
+      "hint": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "why": "They're in the nest.\nVới câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the",
+        "nest.",
+        "They're in"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u5-5-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where is ...? · Hỏi vị trí số ít",
+      "title": "Where is ...? · Hỏi vị trí số ít",
+      "answer": "Where is the eagle?",
+      "options": [
+        "Where is the eagle?",
+        "Where are the eagle?",
+        "Where am the eagle?",
+        "Where be the eagle?"
+      ],
+      "hint": "Sau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "why": "Where is the eagle?\nSau Where is là danh từ số ít hoặc đại từ chỉ một người, một vật. Câu hỏi này yêu cầu thông tin về vị trí, vì vậy câu trả lời cần có động từ be và một cụm giới từ chỉ nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Where is ...? · Hỏi vị trí số ít",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u5-5-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where's ...? · Dạng nói gọn",
+      "title": "Where's ...? · Dạng nói gọn",
+      "answer": "Where's the opossum?",
+      "options": [
+        "Where are the opossum?",
+        "Where am the opossum?",
+        "Where be the opossum?",
+        "Where's the opossum?"
+      ],
+      "hint": "Where is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "why": "Where's the opossum?\nWhere is và Where's có cùng nghĩa. Trong khi nói, Where's thường tự nhiên hơn. Dạng rút gọn này chỉ thay cho Where is; không dùng Where's để thay cho Where are.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Where's ...? · Dạng nói gọn",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u5-5-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Where are ...? · Hỏi vị trí số nhiều",
+      "title": "Where are ...? · Hỏi vị trí số nhiều",
+      "answer": "Where are the chicks?",
+      "options": [
+        "Where am the chicks?",
+        "Where be the chicks?",
+        "Where are the chicks?",
+        "Where is the chicks?"
+      ],
+      "hint": "Sau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "why": "Where are the chicks?\nSau Where are là danh từ số nhiều hoặc đại từ they. Con chú ý danh từ thường có đuôi -s và không đổi Where are thành Where is khi chủ ngữ có từ hai vật trở lên.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Where are ...? · Hỏi vị trí số nhiều",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u5-5-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/asmekmn/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Trả lời · It's / They're",
+      "title": "Trả lời · It's / They're",
+      "answer": "They're in the nest.",
+      "options": [
+        "They am in the nest.",
+        "They're in the nest.",
+        "It is in the nest.",
+        "They is in the nest."
+      ],
+      "hint": "Với câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "why": "They're in the nest.\nVới câu hỏi Where is, con trả lời bằng It is hoặc It's nếu nói về đồ vật hay con vật. Với Where are, con trả lời bằng They are hoặc They're. Sau đó thêm giới từ và nơi chốn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Trả lời · It's / They're",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

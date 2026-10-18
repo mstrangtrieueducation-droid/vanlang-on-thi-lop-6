@@ -1,0 +1,705 @@
+{
+  "course": "discover-3",
+  "unit": 4,
+  "title": "Unit 4 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+    "unit": 4,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Real condition",
+      "note": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "example": "If people live in an urban area, they use public transportation.",
+      "formula": [
+        [
+          "If",
+          "+",
+          "present simple",
+          ",",
+          "present simple"
+        ]
+      ]
+    },
+    {
+      "tag": "Clause order",
+      "note": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "example": "People visit a clinic if they are sick.",
+      "formula": [
+        [
+          "If condition",
+          ",",
+          "result"
+        ],
+        [
+          "Result",
+          "+",
+          "if condition"
+        ]
+      ]
+    },
+    {
+      "tag": "if and when",
+      "note": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "example": "When a factory opens, the area changes.",
+      "formula": [
+        [
+          "if",
+          "=",
+          "nếu"
+        ],
+        [
+          "when",
+          "=",
+          "khi"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "example": "What happens if a suburb grows?",
+      "formula": [
+        [
+          "What happens",
+          "+",
+          "if",
+          "+",
+          "subject + verb",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u4-1-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Real condition",
+      "title": "Real condition",
+      "answer": "live",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "to live"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If people ___ in an urban area, they use public transportation.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u4-1-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "are",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People visit a clinic if they ___ sick.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u4-1-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "if and when",
+      "title": "if and when",
+      "answer": "opens",
+      "options": [
+        "opening",
+        "to open",
+        "opens",
+        "open"
+      ],
+      "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "When a factory ___, the area changes.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u4-1-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "grows",
+      "options": [
+        "to grow",
+        "grows",
+        "grow",
+        "growing"
+      ],
+      "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What happens if a suburb ___?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u4-2-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Real condition",
+      "title": "Real condition",
+      "answer": "live",
+      "options": [
+        "lives",
+        "living",
+        "to live",
+        "live"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If people [lives] in an urban area, they use public transportation.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u4-2-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "are",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People visit a clinic if they [is] sick.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u4-2-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "if and when",
+      "title": "if and when",
+      "answer": "opens",
+      "options": [
+        "to open",
+        "opens",
+        "open",
+        "opening"
+      ],
+      "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "When a factory [open], the area changes.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u4-2-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "grows",
+      "options": [
+        "grows",
+        "grow",
+        "growing",
+        "to grow"
+      ],
+      "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What happens if a suburb [grow]?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u4-3-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Real condition",
+      "title": "Real condition",
+      "answer": "live",
+      "options": [
+        "living",
+        "to live",
+        "live",
+        "lives"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "If people ___ in an urban area, they use public transportation.\nWord bank: living · to live · live · lives",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u4-3-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People visit a clinic if they ___ sick.\nWord bank: be · are · is · am",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u4-3-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "if and when",
+      "title": "if and when",
+      "answer": "opens",
+      "options": [
+        "opens",
+        "open",
+        "opening",
+        "to open"
+      ],
+      "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "When a factory ___, the area changes.\nWord bank: opens · open · opening · to open",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u4-3-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "grows",
+      "options": [
+        "grow",
+        "growing",
+        "to grow",
+        "grows"
+      ],
+      "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "What happens if a suburb ___?\nWord bank: grow · growing · to grow · grows",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u4-4-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Real condition",
+      "title": "Real condition",
+      "answer": "If people live in → an urban area, they → use public transportation.",
+      "options": [
+        "If people live in → an urban area, they → use public transportation.",
+        "an urban area, they → use public transportation. → If people live in",
+        "use public transportation. → If people live in → an urban area, they",
+        "use public transportation. → an urban area, they → If people live in"
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "an urban area, they",
+        "use public transportation.",
+        "If people live in"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u4-4-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "People visit a → clinic if they → are sick.",
+      "options": [
+        "People visit a → clinic if they → are sick.",
+        "clinic if they → are sick. → People visit a",
+        "are sick. → People visit a → clinic if they",
+        "are sick. → clinic if they → People visit a"
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "clinic if they",
+        "are sick.",
+        "People visit a"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u4-4-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "if and when",
+      "title": "if and when",
+      "answer": "When a factory → opens, the → area changes.",
+      "options": [
+        "When a factory → opens, the → area changes.",
+        "opens, the → area changes. → When a factory",
+        "area changes. → When a factory → opens, the",
+        "area changes. → opens, the → When a factory"
+      ],
+      "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "opens, the",
+        "area changes.",
+        "When a factory"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u4-4-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "What happens → if a → suburb grows?",
+      "options": [
+        "What happens → if a → suburb grows?",
+        "if a → suburb grows? → What happens",
+        "suburb grows? → What happens → if a",
+        "suburb grows? → if a → What happens"
+      ],
+      "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "if a",
+        "suburb grows?",
+        "What happens"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u4-5-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Real condition",
+      "title": "Real condition",
+      "answer": "If people live in an urban area, they use public transportation.",
+      "options": [
+        "If people live in an urban area, they use public transportation.",
+        "If people lives in an urban area, they use public transportation.",
+        "If people living in an urban area, they use public transportation.",
+        "If people to live in an urban area, they use public transportation."
+      ],
+      "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "why": "If people live in an urban area, they use public transportation.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề còn lại nêu kết quả. Khi nói sự thật hoặc thói quen, cả hai mệnh đề thường dùng hiện tại đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Real condition",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u4-5-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Clause order",
+      "title": "Clause order",
+      "answer": "People visit a clinic if they are sick.",
+      "options": [
+        "People visit a clinic if they is sick.",
+        "People visit a clinic if they am sick.",
+        "People visit a clinic if they be sick.",
+        "People visit a clinic if they are sick."
+      ],
+      "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "why": "People visit a clinic if they are sick.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy giữa hai mệnh đề. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Clause order",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u4-5-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "if and when",
+      "title": "if and when",
+      "answer": "When a factory opens, the area changes.",
+      "options": [
+        "When a factory opening, the area changes.",
+        "When a factory to open, the area changes.",
+        "When a factory opens, the area changes.",
+        "When a factory open, the area changes."
+      ],
+      "hint": "If nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "why": "When a factory opens, the area changes.\nIf nhấn mạnh điều kiện. When nhấn mạnh thời điểm hoặc điều chắc chắn xảy ra. Với sự thật lặp lại, đôi khi cả hai đều phù hợp nhưng sắc thái khác nhau.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: if and when",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u4-5-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ahmpdnt/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "What happens if a suburb grows?",
+      "options": [
+        "What happens if a suburb to grow?",
+        "What happens if a suburb grows?",
+        "What happens if a suburb grow?",
+        "What happens if a suburb growing?"
+      ],
+      "hint": "Dùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "why": "What happens if a suburb grows?\nDùng cấu trúc câu hỏi ở mệnh đề chính; mệnh đề if vẫn giữ trật tự khẳng định. Không đảo trợ động từ bên trong mệnh đề if.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

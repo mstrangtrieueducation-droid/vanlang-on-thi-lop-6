@@ -1,0 +1,702 @@
+{
+  "course": "discover-4",
+  "unit": 14,
+  "title": "Unit 14 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+    "unit": 14,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Form",
+      "note": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "example": "The reporter has interviewed the mayor.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "have / has",
+          "+",
+          "past participle"
+        ]
+      ]
+    },
+    {
+      "tag": "Unspecified past",
+      "note": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "example": "The editor has decided which headline to use.",
+      "formula": [
+        [
+          "unspecified past",
+          "->",
+          "present perfect"
+        ],
+        [
+          "finished past time",
+          "->",
+          "simple past"
+        ]
+      ]
+    },
+    {
+      "tag": "Past participles",
+      "note": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "example": "The journalist has written a story about a hero.",
+      "formula": [
+        [
+          "regular:",
+          "verb + ed"
+        ],
+        [
+          "irregular:",
+          "write -> written, see -> seen"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative and questions",
+      "note": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "example": "Has the editor found the mistake? No, she hasn't.",
+      "formula": [
+        [
+          "subject + haven't / hasn't + past participle"
+        ],
+        [
+          "Have / Has + subject + past participle",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u14-1-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "has",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "to have"
+      ],
+      "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The reporter ___ interviewed the mayor.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u14-1-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified past",
+      "title": "Unspecified past",
+      "answer": "has",
+      "options": [
+        "have",
+        "having",
+        "to have",
+        "has"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The editor ___ decided which headline to use.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u14-1-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past participles",
+      "title": "Past participles",
+      "answer": "written",
+      "options": [
+        "write",
+        "writes",
+        "written",
+        "wrote"
+      ],
+      "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The journalist has ___ a story about a hero.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u14-1-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative and questions",
+      "title": "Negative and questions",
+      "answer": "found",
+      "options": [
+        "finding",
+        "found",
+        "find",
+        "finds"
+      ],
+      "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Has the editor ___ the mistake? No, she hasn't.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u14-2-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "has",
+      "options": [
+        "have",
+        "having",
+        "to have",
+        "has"
+      ],
+      "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The reporter [have] interviewed the mayor.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u14-2-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified past",
+      "title": "Unspecified past",
+      "answer": "has",
+      "options": [
+        "having",
+        "to have",
+        "has",
+        "have"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The editor [have] decided which headline to use.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u14-2-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past participles",
+      "title": "Past participles",
+      "answer": "written",
+      "options": [
+        "writes",
+        "written",
+        "wrote",
+        "write"
+      ],
+      "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The journalist has [wrote] a story about a hero.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u14-2-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative and questions",
+      "title": "Negative and questions",
+      "answer": "found",
+      "options": [
+        "found",
+        "find",
+        "finds",
+        "finding"
+      ],
+      "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Has the editor [find] the mistake? No, she hasn't.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u14-3-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "has",
+      "options": [
+        "having",
+        "to have",
+        "has",
+        "have"
+      ],
+      "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The reporter ___ interviewed the mayor.\nWord bank: having · to have · has · have",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u14-3-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified past",
+      "title": "Unspecified past",
+      "answer": "has",
+      "options": [
+        "to have",
+        "has",
+        "have",
+        "having"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The editor ___ decided which headline to use.\nWord bank: to have · has · have · having",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u14-3-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past participles",
+      "title": "Past participles",
+      "answer": "written",
+      "options": [
+        "written",
+        "wrote",
+        "write",
+        "writes"
+      ],
+      "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The journalist has ___ a story about a hero.\nWord bank: written · wrote · write · writes",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u14-3-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative and questions",
+      "title": "Negative and questions",
+      "answer": "found",
+      "options": [
+        "find",
+        "finds",
+        "finding",
+        "found"
+      ],
+      "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Has the editor ___ the mistake? No, she hasn't.\nWord bank: find · finds · finding · found",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u14-4-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "The reporter → has interviewed → the mayor.",
+      "options": [
+        "The reporter → has interviewed → the mayor.",
+        "has interviewed → the mayor. → The reporter",
+        "the mayor. → The reporter → has interviewed",
+        "the mayor. → has interviewed → The reporter"
+      ],
+      "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "has interviewed",
+        "the mayor.",
+        "The reporter"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u14-4-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified past",
+      "title": "Unspecified past",
+      "answer": "The editor has → decided which headline → to use.",
+      "options": [
+        "The editor has → decided which headline → to use.",
+        "decided which headline → to use. → The editor has",
+        "to use. → The editor has → decided which headline",
+        "to use. → decided which headline → The editor has"
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "decided which headline",
+        "to use.",
+        "The editor has"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u14-4-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past participles",
+      "title": "Past participles",
+      "answer": "The journalist has → written a story → about a hero.",
+      "options": [
+        "The journalist has → written a story → about a hero.",
+        "written a story → about a hero. → The journalist has",
+        "about a hero. → The journalist has → written a story",
+        "about a hero. → written a story → The journalist has"
+      ],
+      "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "written a story",
+        "about a hero.",
+        "The journalist has"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u14-4-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative and questions",
+      "title": "Negative and questions",
+      "answer": "Has the editor → found the mistake? → No, she hasn't.",
+      "options": [
+        "Has the editor → found the mistake? → No, she hasn't.",
+        "found the mistake? → No, she hasn't. → Has the editor",
+        "No, she hasn't. → Has the editor → found the mistake?",
+        "No, she hasn't. → found the mistake? → Has the editor"
+      ],
+      "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "found the mistake?",
+        "No, she hasn't.",
+        "Has the editor"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u14-5-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Form",
+      "title": "Form",
+      "answer": "The reporter has interviewed the mayor.",
+      "options": [
+        "The reporter has interviewed the mayor.",
+        "The reporter have interviewed the mayor.",
+        "The reporter having interviewed the mayor.",
+        "The reporter to have interviewed the mayor."
+      ],
+      "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Form",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u14-5-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Unspecified past",
+      "title": "Unspecified past",
+      "answer": "The editor has decided which headline to use.",
+      "options": [
+        "The editor have decided which headline to use.",
+        "The editor having decided which headline to use.",
+        "The editor to have decided which headline to use.",
+        "The editor has decided which headline to use."
+      ],
+      "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Unspecified past",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u14-5-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past participles",
+      "title": "Past participles",
+      "answer": "The journalist has written a story about a hero.",
+      "options": [
+        "The journalist has write a story about a hero.",
+        "The journalist has writes a story about a hero.",
+        "The journalist has written a story about a hero.",
+        "The journalist has wrote a story about a hero."
+      ],
+      "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Past participles",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u14-5-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/ycp6jqa/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative and questions",
+      "title": "Negative and questions",
+      "answer": "Has the editor found the mistake? No, she hasn't.",
+      "options": [
+        "Has the editor finding the mistake? No, she hasn't.",
+        "Has the editor found the mistake? No, she hasn't.",
+        "Has the editor find the mistake? No, she hasn't.",
+        "Has the editor finds the mistake? No, she hasn't."
+      ],
+      "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative and questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "course": "discover-3",
+  "unit": 1,
+  "title": "Unit 1 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+    "unit": 1,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "-ed adjectives",
+      "note": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "example": "The players are excited about the race.",
+      "formula": [
+        [
+          "person / animal",
+          "+",
+          "be",
+          "+",
+          "adjective-ed"
+        ]
+      ]
+    },
+    {
+      "tag": "-ing adjectives",
+      "note": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "example": "The race is exciting.",
+      "formula": [
+        [
+          "thing / event",
+          "+",
+          "be",
+          "+",
+          "adjective-ing"
+        ]
+      ]
+    },
+    {
+      "tag": "-ed or -ing?",
+      "note": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "example": "The folk dance is amazing, and the audience is amazed.",
+      "formula": [
+        [
+          "The fair",
+          "is",
+          "interesting"
+        ],
+        [
+          "We",
+          "are",
+          "interested"
+        ]
+      ]
+    },
+    {
+      "tag": "Common prepositions",
+      "note": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "example": "The winner is excited about the score.",
+      "formula": [
+        [
+          "be excited",
+          "about",
+          "something"
+        ],
+        [
+          "be interested",
+          "in",
+          "something"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u1-1-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed adjectives",
+      "title": "-ed adjectives",
+      "answer": "excited",
+      "options": [
+        "excited",
+        "excite",
+        "excites",
+        "excitingly"
+      ],
+      "hint": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "why": "The players are excited about the race.\nTính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The players are ___ about the race.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u1-1-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ing adjectives",
+      "title": "-ing adjectives",
+      "answer": "exciting",
+      "options": [
+        "excite",
+        "excites",
+        "excitedly",
+        "exciting"
+      ],
+      "hint": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "why": "The race is exciting.\nTính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The race is ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u1-1-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed or -ing?",
+      "title": "-ed or -ing?",
+      "answer": "amazing",
+      "options": [
+        "amazes",
+        "amazedly",
+        "amazing",
+        "amaze"
+      ],
+      "hint": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "why": "The folk dance is amazing, and the audience is amazed.\nCùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The folk dance is ___, and the audience is amazed.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u1-1-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common prepositions",
+      "title": "Common prepositions",
+      "answer": "about",
+      "options": [
+        "in about",
+        "about",
+        "at about",
+        "with about"
+      ],
+      "hint": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "why": "The winner is excited about the score.\nHọc cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The winner is excited ___ the score.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u1-2-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed adjectives",
+      "title": "-ed adjectives",
+      "answer": "excited",
+      "options": [
+        "excite",
+        "excites",
+        "excitingly",
+        "excited"
+      ],
+      "hint": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "why": "The players are excited about the race.\nTính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The players are [excite] about the race.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u1-2-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ing adjectives",
+      "title": "-ing adjectives",
+      "answer": "exciting",
+      "options": [
+        "excites",
+        "excitedly",
+        "exciting",
+        "excite"
+      ],
+      "hint": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "why": "The race is exciting.\nTính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The race is [excite].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u1-2-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed or -ing?",
+      "title": "-ed or -ing?",
+      "answer": "amazing",
+      "options": [
+        "amazedly",
+        "amazing",
+        "amaze",
+        "amazes"
+      ],
+      "hint": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "why": "The folk dance is amazing, and the audience is amazed.\nCùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The folk dance is [amaze], and the audience is amazed.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u1-2-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common prepositions",
+      "title": "Common prepositions",
+      "answer": "about",
+      "options": [
+        "about",
+        "at about",
+        "with about",
+        "in about"
+      ],
+      "hint": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "why": "The winner is excited about the score.\nHọc cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The winner is excited [at about] the score.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u1-3-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed adjectives",
+      "title": "-ed adjectives",
+      "answer": "excited",
+      "options": [
+        "excites",
+        "excitingly",
+        "excited",
+        "excite"
+      ],
+      "hint": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "why": "The players are excited about the race.\nTính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The players are ___ about the race.\nWord bank: excites · excitingly · excited · excite",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u1-3-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ing adjectives",
+      "title": "-ing adjectives",
+      "answer": "exciting",
+      "options": [
+        "excitedly",
+        "exciting",
+        "excite",
+        "excites"
+      ],
+      "hint": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "why": "The race is exciting.\nTính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The race is ___.\nWord bank: excitedly · exciting · excite · excites",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u1-3-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed or -ing?",
+      "title": "-ed or -ing?",
+      "answer": "amazing",
+      "options": [
+        "amazing",
+        "amaze",
+        "amazes",
+        "amazedly"
+      ],
+      "hint": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "why": "The folk dance is amazing, and the audience is amazed.\nCùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The folk dance is ___, and the audience is amazed.\nWord bank: amazing · amaze · amazes · amazedly",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u1-3-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common prepositions",
+      "title": "Common prepositions",
+      "answer": "about",
+      "options": [
+        "at about",
+        "with about",
+        "in about",
+        "about"
+      ],
+      "hint": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "why": "The winner is excited about the score.\nHọc cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The winner is excited ___ the score.\nWord bank: at about · with about · in about · about",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u1-4-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed adjectives",
+      "title": "-ed adjectives",
+      "answer": "The players are → excited about → the race.",
+      "options": [
+        "The players are → excited about → the race.",
+        "excited about → the race. → The players are",
+        "the race. → The players are → excited about",
+        "the race. → excited about → The players are"
+      ],
+      "hint": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "why": "The players are excited about the race.\nTính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "excited about",
+        "the race.",
+        "The players are"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u1-4-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ing adjectives",
+      "title": "-ing adjectives",
+      "answer": "The race → is → exciting.",
+      "options": [
+        "The race → is → exciting.",
+        "is → exciting. → The race",
+        "exciting. → The race → is",
+        "exciting. → is → The race"
+      ],
+      "hint": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "why": "The race is exciting.\nTính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "is",
+        "exciting.",
+        "The race"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u1-4-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed or -ing?",
+      "title": "-ed or -ing?",
+      "answer": "The folk dance is → amazing, and the → audience is amazed.",
+      "options": [
+        "The folk dance is → amazing, and the → audience is amazed.",
+        "amazing, and the → audience is amazed. → The folk dance is",
+        "audience is amazed. → The folk dance is → amazing, and the",
+        "audience is amazed. → amazing, and the → The folk dance is"
+      ],
+      "hint": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "why": "The folk dance is amazing, and the audience is amazed.\nCùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "amazing, and the",
+        "audience is amazed.",
+        "The folk dance is"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u1-4-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common prepositions",
+      "title": "Common prepositions",
+      "answer": "The winner is → excited about → the score.",
+      "options": [
+        "The winner is → excited about → the score.",
+        "excited about → the score. → The winner is",
+        "the score. → The winner is → excited about",
+        "the score. → excited about → The winner is"
+      ],
+      "hint": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "why": "The winner is excited about the score.\nHọc cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "excited about",
+        "the score.",
+        "The winner is"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u1-5-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed adjectives",
+      "title": "-ed adjectives",
+      "answer": "The players are excited about the race.",
+      "options": [
+        "The players are excited about the race.",
+        "The players are excite about the race.",
+        "The players are excites about the race.",
+        "The players are excitingly about the race."
+      ],
+      "hint": "Tính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "why": "The players are excited about the race.\nTính từ đuôi -ed diễn tả cảm xúc của người hoặc con vật chịu tác động. Sau be, tính từ cho biết trạng thái của chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: -ed adjectives",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u1-5-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ing adjectives",
+      "title": "-ing adjectives",
+      "answer": "The race is exciting.",
+      "options": [
+        "The race is excite.",
+        "The race is excites.",
+        "The race is excitedly.",
+        "The race is exciting."
+      ],
+      "hint": "Tính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "why": "The race is exciting.\nTính từ đuôi -ing miêu tả người, sự vật hoặc sự kiện gây nên cảm xúc. Không chọn đuôi theo thì của câu; hãy chọn theo ý nghĩa.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: -ing adjectives",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u1-5-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "-ed or -ing?",
+      "title": "-ed or -ing?",
+      "answer": "The folk dance is amazing, and the audience is amazed.",
+      "options": [
+        "The folk dance is amazes, and the audience is amazed.",
+        "The folk dance is amazedly, and the audience is amazed.",
+        "The folk dance is amazing, and the audience is amazed.",
+        "The folk dance is amaze, and the audience is amazed."
+      ],
+      "hint": "Cùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "why": "The folk dance is amazing, and the audience is amazed.\nCùng một gốc từ có thể tạo thành hai tính từ: interested là cảm thấy hứng thú, interesting là gây hứng thú. Hãy xác định chủ ngữ là người cảm nhận hay nguyên nhân.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: -ed or -ing?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u1-5-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/n4h5v4x/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Common prepositions",
+      "title": "Common prepositions",
+      "answer": "The winner is excited about the score.",
+      "options": [
+        "The winner is excited in about the score.",
+        "The winner is excited about the score.",
+        "The winner is excited at about the score.",
+        "The winner is excited with about the score."
+      ],
+      "hint": "Học cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "why": "The winner is excited about the score.\nHọc cả cụm: excited about, interested in, surprised at/by, bored with, frightened of. Giới từ là một phần của cụm và không nên bỏ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Common prepositions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "course": "discover-2",
+  "unit": 14,
+  "title": "Unit 14 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+    "unit": 14,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "today / this morning",
+      "note": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "example": "This morning, Olga goes to school early.",
+      "formula": [
+        [
+          "today / this morning",
+          "+",
+          "mệnh đề"
+        ]
+      ]
+    },
+    {
+      "tag": "yesterday / last ...",
+      "note": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "example": "Mark went to music class yesterday morning.",
+      "formula": [
+        [
+          "yesterday / last night / last week",
+          "→",
+          "past simple"
+        ]
+      ]
+    },
+    {
+      "tag": "... ago",
+      "note": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "example": "The musician recorded a solo two days ago.",
+      "formula": [
+        [
+          "khoảng thời gian",
+          "+",
+          "ago"
+        ]
+      ]
+    },
+    {
+      "tag": "Vị trí trong câu",
+      "note": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "example": "Last week, Olga gave a concert.",
+      "formula": [
+        [
+          "Yesterday,",
+          "+",
+          "mệnh đề"
+        ],
+        [
+          "mệnh đề",
+          "+",
+          "yesterday"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u14-1-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "today / this morning",
+      "title": "today / this morning",
+      "answer": "goes",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "to go"
+      ],
+      "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This morning, Olga ___ to school early.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u14-1-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "yesterday / last ...",
+      "title": "yesterday / last ...",
+      "answer": "went",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Mark ___ to music class yesterday morning.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u14-1-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "... ago",
+      "title": "... ago",
+      "answer": "ago",
+      "options": [
+        "yesterday",
+        "since",
+        "ago",
+        "last"
+      ],
+      "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The musician recorded a solo two days ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u14-1-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí trong câu",
+      "title": "Vị trí trong câu",
+      "answer": "gave",
+      "options": [
+        "giving",
+        "gave",
+        "give",
+        "gives"
+      ],
+      "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Last week, Olga ___ a concert.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u14-2-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "today / this morning",
+      "title": "today / this morning",
+      "answer": "goes",
+      "options": [
+        "go",
+        "going",
+        "to go",
+        "goes"
+      ],
+      "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This morning, Olga [go] to school early.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u14-2-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "yesterday / last ...",
+      "title": "yesterday / last ...",
+      "answer": "went",
+      "options": [
+        "goes",
+        "going",
+        "went",
+        "go"
+      ],
+      "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Mark [go] to music class yesterday morning.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u14-2-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "... ago",
+      "title": "... ago",
+      "answer": "ago",
+      "options": [
+        "since",
+        "ago",
+        "last",
+        "yesterday"
+      ],
+      "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The musician recorded a solo two days [last].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u14-2-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí trong câu",
+      "title": "Vị trí trong câu",
+      "answer": "gave",
+      "options": [
+        "gave",
+        "give",
+        "gives",
+        "giving"
+      ],
+      "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Last week, Olga [give] a concert.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u14-3-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "today / this morning",
+      "title": "today / this morning",
+      "answer": "goes",
+      "options": [
+        "going",
+        "to go",
+        "goes",
+        "go"
+      ],
+      "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This morning, Olga ___ to school early.\nWord bank: going · to go · goes · go",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u14-3-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "yesterday / last ...",
+      "title": "yesterday / last ...",
+      "answer": "went",
+      "options": [
+        "going",
+        "went",
+        "go",
+        "goes"
+      ],
+      "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Mark ___ to music class yesterday morning.\nWord bank: going · went · go · goes",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u14-3-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "... ago",
+      "title": "... ago",
+      "answer": "ago",
+      "options": [
+        "ago",
+        "last",
+        "yesterday",
+        "since"
+      ],
+      "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The musician recorded a solo two days ___.\nWord bank: ago · last · yesterday · since",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u14-3-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí trong câu",
+      "title": "Vị trí trong câu",
+      "answer": "gave",
+      "options": [
+        "give",
+        "gives",
+        "giving",
+        "gave"
+      ],
+      "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Last week, Olga ___ a concert.\nWord bank: give · gives · giving · gave",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u14-4-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "today / this morning",
+      "title": "today / this morning",
+      "answer": "This morning, Olga → goes to → school early.",
+      "options": [
+        "This morning, Olga → goes to → school early.",
+        "goes to → school early. → This morning, Olga",
+        "school early. → This morning, Olga → goes to",
+        "school early. → goes to → This morning, Olga"
+      ],
+      "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "goes to",
+        "school early.",
+        "This morning, Olga"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u14-4-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "yesterday / last ...",
+      "title": "yesterday / last ...",
+      "answer": "Mark went to → music class → yesterday morning.",
+      "options": [
+        "Mark went to → music class → yesterday morning.",
+        "music class → yesterday morning. → Mark went to",
+        "yesterday morning. → Mark went to → music class",
+        "yesterday morning. → music class → Mark went to"
+      ],
+      "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "music class",
+        "yesterday morning.",
+        "Mark went to"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u14-4-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "... ago",
+      "title": "... ago",
+      "answer": "The musician recorded → a solo two → days ago.",
+      "options": [
+        "The musician recorded → a solo two → days ago.",
+        "a solo two → days ago. → The musician recorded",
+        "days ago. → The musician recorded → a solo two",
+        "days ago. → a solo two → The musician recorded"
+      ],
+      "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a solo two",
+        "days ago.",
+        "The musician recorded"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u14-4-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí trong câu",
+      "title": "Vị trí trong câu",
+      "answer": "Last week, → Olga gave → a concert.",
+      "options": [
+        "Last week, → Olga gave → a concert.",
+        "Olga gave → a concert. → Last week,",
+        "a concert. → Last week, → Olga gave",
+        "a concert. → Olga gave → Last week,"
+      ],
+      "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "Olga gave",
+        "a concert.",
+        "Last week,"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u14-5-1",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "today / this morning",
+      "title": "today / this morning",
+      "answer": "This morning, Olga goes to school early.",
+      "options": [
+        "This morning, Olga goes to school early.",
+        "This morning, Olga go to school early.",
+        "This morning, Olga going to school early.",
+        "This morning, Olga to go to school early."
+      ],
+      "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: today / this morning",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u14-5-2",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "yesterday / last ...",
+      "title": "yesterday / last ...",
+      "answer": "Mark went to music class yesterday morning.",
+      "options": [
+        "Mark go to music class yesterday morning.",
+        "Mark goes to music class yesterday morning.",
+        "Mark going to music class yesterday morning.",
+        "Mark went to music class yesterday morning."
+      ],
+      "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: yesterday / last ...",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u14-5-3",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "... ago",
+      "title": "... ago",
+      "answer": "The musician recorded a solo two days ago.",
+      "options": [
+        "The musician recorded a solo two days yesterday.",
+        "The musician recorded a solo two days since.",
+        "The musician recorded a solo two days ago.",
+        "The musician recorded a solo two days last."
+      ],
+      "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: ... ago",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u14-5-4",
+      "type": "choice",
+      "unit": 14,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rp2dc7q/",
+        "unit": 14,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Vị trí trong câu",
+      "title": "Vị trí trong câu",
+      "answer": "Last week, Olga gave a concert.",
+      "options": [
+        "Last week, Olga giving a concert.",
+        "Last week, Olga gave a concert.",
+        "Last week, Olga give a concert.",
+        "Last week, Olga gives a concert."
+      ],
+      "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Vị trí trong câu",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

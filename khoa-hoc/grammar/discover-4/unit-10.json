@@ -1,0 +1,708 @@
+{
+  "course": "discover-4",
+  "unit": 10,
+  "title": "Unit 10 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+    "unit": 10,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Opposite polarity",
+      "note": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "example": "The mayor is at city hall, isn't she?",
+      "formula": [
+        [
+          "positive statement",
+          ",",
+          "negative tag",
+          "?"
+        ],
+        [
+          "negative statement",
+          ",",
+          "positive tag",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Match the auxiliary",
+      "note": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "example": "The volunteers cleaned the playground, didn't they?",
+      "formula": [
+        [
+          "is",
+          "->",
+          "isn't"
+        ],
+        [
+          "will",
+          "->",
+          "won't"
+        ],
+        [
+          "past simple",
+          "->",
+          "did / didn't"
+        ]
+      ]
+    },
+    {
+      "tag": "Pronoun in the tag",
+      "note": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "example": "The city council will meet today, won't it?",
+      "formula": [
+        [
+          "noun subject",
+          "->",
+          "matching pronoun in tag"
+        ]
+      ]
+    },
+    {
+      "tag": "Answer the fact",
+      "note": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "example": "The news conference isn't over, is it? No, it isn't.",
+      "formula": [
+        [
+          "Yes, subject + auxiliary."
+        ],
+        [
+          "No, subject + negative auxiliary."
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u10-1-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Opposite polarity",
+      "title": "Opposite polarity",
+      "answer": "isn't she",
+      "options": [
+        "isn't she",
+        "is she",
+        "doesn't she",
+        "aren't she"
+      ],
+      "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The mayor is at city hall, ___?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u10-1-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Match the auxiliary",
+      "title": "Match the auxiliary",
+      "answer": "didn't they",
+      "options": [
+        "did they",
+        "don't they",
+        "weren't they",
+        "didn't they"
+      ],
+      "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The volunteers cleaned the playground, ___?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u10-1-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Pronoun in the tag",
+      "title": "Pronoun in the tag",
+      "answer": "won't it",
+      "options": [
+        "doesn't it",
+        "isn't it",
+        "won't it",
+        "will it"
+      ],
+      "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The city council will meet today, ___?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u10-1-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Answer the fact",
+      "title": "Answer the fact",
+      "answer": "is it",
+      "options": [
+        "was it",
+        "is it",
+        "isn't it",
+        "does it"
+      ],
+      "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The news conference isn't over, ___? No, it isn't.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u10-2-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Opposite polarity",
+      "title": "Opposite polarity",
+      "answer": "isn't she",
+      "options": [
+        "is she",
+        "doesn't she",
+        "aren't she",
+        "isn't she"
+      ],
+      "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The mayor is at city hall, [is she]?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u10-2-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Match the auxiliary",
+      "title": "Match the auxiliary",
+      "answer": "didn't they",
+      "options": [
+        "don't they",
+        "weren't they",
+        "didn't they",
+        "did they"
+      ],
+      "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The volunteers cleaned the playground, [did they]?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u10-2-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Pronoun in the tag",
+      "title": "Pronoun in the tag",
+      "answer": "won't it",
+      "options": [
+        "isn't it",
+        "won't it",
+        "will it",
+        "doesn't it"
+      ],
+      "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The city council will meet today, [will it]?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u10-2-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Answer the fact",
+      "title": "Answer the fact",
+      "answer": "is it",
+      "options": [
+        "is it",
+        "isn't it",
+        "does it",
+        "was it"
+      ],
+      "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The news conference isn't over, [isn't it]? No, it isn't.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u10-3-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Opposite polarity",
+      "title": "Opposite polarity",
+      "answer": "isn't she",
+      "options": [
+        "doesn't she",
+        "aren't she",
+        "isn't she",
+        "is she"
+      ],
+      "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The mayor is at city hall, ___?\nWord bank: doesn't she · aren't she · isn't she · is she",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u10-3-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Match the auxiliary",
+      "title": "Match the auxiliary",
+      "answer": "didn't they",
+      "options": [
+        "weren't they",
+        "didn't they",
+        "did they",
+        "don't they"
+      ],
+      "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The volunteers cleaned the playground, ___?\nWord bank: weren't they · didn't they · did they · don't they",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u10-3-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Pronoun in the tag",
+      "title": "Pronoun in the tag",
+      "answer": "won't it",
+      "options": [
+        "won't it",
+        "will it",
+        "doesn't it",
+        "isn't it"
+      ],
+      "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The city council will meet today, ___?\nWord bank: won't it · will it · doesn't it · isn't it",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u10-3-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Answer the fact",
+      "title": "Answer the fact",
+      "answer": "is it",
+      "options": [
+        "isn't it",
+        "does it",
+        "was it",
+        "is it"
+      ],
+      "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The news conference isn't over, ___? No, it isn't.\nWord bank: isn't it · does it · was it · is it",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u10-4-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Opposite polarity",
+      "title": "Opposite polarity",
+      "answer": "The mayor is → at city hall, → isn't she?",
+      "options": [
+        "The mayor is → at city hall, → isn't she?",
+        "at city hall, → isn't she? → The mayor is",
+        "isn't she? → The mayor is → at city hall,",
+        "isn't she? → at city hall, → The mayor is"
+      ],
+      "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "at city hall,",
+        "isn't she?",
+        "The mayor is"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u10-4-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Match the auxiliary",
+      "title": "Match the auxiliary",
+      "answer": "The volunteers cleaned → the playground, → didn't they?",
+      "options": [
+        "The volunteers cleaned → the playground, → didn't they?",
+        "the playground, → didn't they? → The volunteers cleaned",
+        "didn't they? → The volunteers cleaned → the playground,",
+        "didn't they? → the playground, → The volunteers cleaned"
+      ],
+      "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the playground,",
+        "didn't they?",
+        "The volunteers cleaned"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u10-4-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Pronoun in the tag",
+      "title": "Pronoun in the tag",
+      "answer": "The city council → will meet today, → won't it?",
+      "options": [
+        "The city council → will meet today, → won't it?",
+        "will meet today, → won't it? → The city council",
+        "won't it? → The city council → will meet today,",
+        "won't it? → will meet today, → The city council"
+      ],
+      "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "will meet today,",
+        "won't it?",
+        "The city council"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u10-4-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Answer the fact",
+      "title": "Answer the fact",
+      "answer": "The news conference isn't → over, is it? → No, it isn't.",
+      "options": [
+        "The news conference isn't → over, is it? → No, it isn't.",
+        "over, is it? → No, it isn't. → The news conference isn't",
+        "No, it isn't. → The news conference isn't → over, is it?",
+        "No, it isn't. → over, is it? → The news conference isn't"
+      ],
+      "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "over, is it?",
+        "No, it isn't.",
+        "The news conference isn't"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u10-5-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Opposite polarity",
+      "title": "Opposite polarity",
+      "answer": "The mayor is at city hall, isn't she?",
+      "options": [
+        "The mayor is at city hall, isn't she?",
+        "The mayor is at city hall, is she?",
+        "The mayor is at city hall, doesn't she?",
+        "The mayor is at city hall, aren't she?"
+      ],
+      "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Opposite polarity",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u10-5-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Match the auxiliary",
+      "title": "Match the auxiliary",
+      "answer": "The volunteers cleaned the playground, didn't they?",
+      "options": [
+        "The volunteers cleaned the playground, did they?",
+        "The volunteers cleaned the playground, don't they?",
+        "The volunteers cleaned the playground, weren't they?",
+        "The volunteers cleaned the playground, didn't they?"
+      ],
+      "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Match the auxiliary",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u10-5-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Pronoun in the tag",
+      "title": "Pronoun in the tag",
+      "answer": "The city council will meet today, won't it?",
+      "options": [
+        "The city council will meet today, doesn't it?",
+        "The city council will meet today, isn't it?",
+        "The city council will meet today, won't it?",
+        "The city council will meet today, will it?"
+      ],
+      "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Pronoun in the tag",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u10-5-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rbmthjw/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Answer the fact",
+      "title": "Answer the fact",
+      "answer": "The news conference isn't over, is it? No, it isn't.",
+      "options": [
+        "The news conference isn't over, was it? No, it isn't.",
+        "The news conference isn't over, is it? No, it isn't.",
+        "The news conference isn't over, isn't it? No, it isn't.",
+        "The news conference isn't over, does it? No, it isn't."
+      ],
+      "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Answer the fact",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "course": "discover-2",
+  "unit": 4,
+  "title": "Unit 4 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+    "unit": 4,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Was ...? · Câu hỏi số ít",
+      "note": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "example": "Was the freezer door open?",
+      "formula": [
+        [
+          "Was",
+          "+",
+          "chủ ngữ số ít",
+          "+",
+          "bổ ngữ",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Were ...? · Câu hỏi số nhiều",
+      "note": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "example": "Were the plastic bags closed?",
+      "formula": [
+        [
+          "Were",
+          "+",
+          "you / we / they / danh từ số nhiều",
+          "+",
+          "bổ ngữ",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Câu trả lời ngắn",
+      "note": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "example": "Was the cream cold? Yes, it was.",
+      "formula": [
+        [
+          "Yes,",
+          "+",
+          "chủ ngữ",
+          "+",
+          "was / were."
+        ],
+        [
+          "No,",
+          "+",
+          "chủ ngữ",
+          "+",
+          "wasn't / weren't."
+        ]
+      ]
+    },
+    {
+      "tag": "Wh- questions",
+      "note": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "example": "Where were the plastic bags?",
+      "formula": [
+        [
+          "Wh-word",
+          "+",
+          "was / were",
+          "+",
+          "chủ ngữ",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u4-1-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Was ...? · Câu hỏi số ít",
+      "title": "Was ...? · Câu hỏi số ít",
+      "answer": "Was",
+      "options": [
+        "Was",
+        "Were",
+        "Be",
+        "Being"
+      ],
+      "hint": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "why": "Was the freezer door open?\nDùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the freezer door open?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u4-1-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Were ...? · Câu hỏi số nhiều",
+      "title": "Were ...? · Câu hỏi số nhiều",
+      "answer": "Were",
+      "options": [
+        "Was",
+        "Be",
+        "Being",
+        "Were"
+      ],
+      "hint": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "why": "Were the plastic bags closed?\nDùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the plastic bags closed?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u4-1-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
+      "answer": "was",
+      "options": [
+        "be",
+        "being",
+        "was",
+        "were"
+      ],
+      "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Was the cream cold? Yes, it ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u4-1-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "were",
+      "options": [
+        "being",
+        "were",
+        "was",
+        "be"
+      ],
+      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the plastic bags?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u4-2-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Was ...? · Câu hỏi số ít",
+      "title": "Was ...? · Câu hỏi số ít",
+      "answer": "Was",
+      "options": [
+        "Were",
+        "Be",
+        "Being",
+        "Was"
+      ],
+      "hint": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "why": "Was the freezer door open?\nDùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Were] the freezer door open?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u4-2-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Were ...? · Câu hỏi số nhiều",
+      "title": "Were ...? · Câu hỏi số nhiều",
+      "answer": "Were",
+      "options": [
+        "Be",
+        "Being",
+        "Were",
+        "Was"
+      ],
+      "hint": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "why": "Were the plastic bags closed?\nDùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Was] the plastic bags closed?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u4-2-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
+      "answer": "was",
+      "options": [
+        "being",
+        "was",
+        "were",
+        "be"
+      ],
+      "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Was the cream cold? Yes, it [were].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u4-2-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "were",
+      "options": [
+        "were",
+        "was",
+        "be",
+        "being"
+      ],
+      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where [was] the plastic bags?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u4-3-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Was ...? · Câu hỏi số ít",
+      "title": "Was ...? · Câu hỏi số ít",
+      "answer": "Was",
+      "options": [
+        "Be",
+        "Being",
+        "Was",
+        "Were"
+      ],
+      "hint": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "why": "Was the freezer door open?\nDùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the freezer door open?\nWord bank: Be · Being · Was · Were",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u4-3-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Were ...? · Câu hỏi số nhiều",
+      "title": "Were ...? · Câu hỏi số nhiều",
+      "answer": "Were",
+      "options": [
+        "Being",
+        "Were",
+        "Was",
+        "Be"
+      ],
+      "hint": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "why": "Were the plastic bags closed?\nDùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ the plastic bags closed?\nWord bank: Being · Were · Was · Be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u4-3-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
+      "answer": "was",
+      "options": [
+        "was",
+        "were",
+        "be",
+        "being"
+      ],
+      "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Was the cream cold? Yes, it ___.\nWord bank: was · were · be · being",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u4-3-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "were",
+      "options": [
+        "was",
+        "be",
+        "being",
+        "were"
+      ],
+      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Where ___ the plastic bags?\nWord bank: was · be · being · were",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u4-4-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Was ...? · Câu hỏi số ít",
+      "title": "Was ...? · Câu hỏi số ít",
+      "answer": "Was the → freezer door → open?",
+      "options": [
+        "Was the → freezer door → open?",
+        "freezer door → open? → Was the",
+        "open? → Was the → freezer door",
+        "open? → freezer door → Was the"
+      ],
+      "hint": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "why": "Was the freezer door open?\nDùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "freezer door",
+        "open?",
+        "Was the"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u4-4-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Were ...? · Câu hỏi số nhiều",
+      "title": "Were ...? · Câu hỏi số nhiều",
+      "answer": "Were the → plastic bags → closed?",
+      "options": [
+        "Were the → plastic bags → closed?",
+        "plastic bags → closed? → Were the",
+        "closed? → Were the → plastic bags",
+        "closed? → plastic bags → Were the"
+      ],
+      "hint": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "why": "Were the plastic bags closed?\nDùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "plastic bags",
+        "closed?",
+        "Were the"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u4-4-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
+      "answer": "Was the cream → cold? Yes, → it was.",
+      "options": [
+        "Was the cream → cold? Yes, → it was.",
+        "cold? Yes, → it was. → Was the cream",
+        "it was. → Was the cream → cold? Yes,",
+        "it was. → cold? Yes, → Was the cream"
+      ],
+      "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "cold? Yes,",
+        "it was.",
+        "Was the cream"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u4-4-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where were → the plastic → bags?",
+      "options": [
+        "Where were → the plastic → bags?",
+        "the plastic → bags? → Where were",
+        "bags? → Where were → the plastic",
+        "bags? → the plastic → Where were"
+      ],
+      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the plastic",
+        "bags?",
+        "Where were"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u4-5-1",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Was ...? · Câu hỏi số ít",
+      "title": "Was ...? · Câu hỏi số ít",
+      "answer": "Was the freezer door open?",
+      "options": [
+        "Was the freezer door open?",
+        "Were the freezer door open?",
+        "Be the freezer door open?",
+        "Being the freezer door open?"
+      ],
+      "hint": "Dùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "why": "Was the freezer door open?\nDùng Was với I, he, she, it hoặc một danh từ số ít. Phần còn lại của câu giữ nguyên.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Was ...? · Câu hỏi số ít",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u4-5-2",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Were ...? · Câu hỏi số nhiều",
+      "title": "Were ...? · Câu hỏi số nhiều",
+      "answer": "Were the plastic bags closed?",
+      "options": [
+        "Was the plastic bags closed?",
+        "Be the plastic bags closed?",
+        "Being the plastic bags closed?",
+        "Were the plastic bags closed?"
+      ],
+      "hint": "Dùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "why": "Were the plastic bags closed?\nDùng Were khi chủ ngữ là you hoặc số nhiều. Không dùng did cùng was hoặc were.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Were ...? · Câu hỏi số nhiều",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u4-5-3",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
+      "answer": "Was the cream cold? Yes, it was.",
+      "options": [
+        "Was the cream cold? Yes, it be.",
+        "Was the cream cold? Yes, it being.",
+        "Was the cream cold? Yes, it was.",
+        "Was the cream cold? Yes, it were."
+      ],
+      "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Câu trả lời ngắn",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u4-5-4",
+      "type": "choice",
+      "unit": 4,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
+        "unit": 4,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Wh- questions",
+      "title": "Wh- questions",
+      "answer": "Where were the plastic bags?",
+      "options": [
+        "Where being the plastic bags?",
+        "Where were the plastic bags?",
+        "Where was the plastic bags?",
+        "Where be the plastic bags?"
+      ],
+      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Wh- questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

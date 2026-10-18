@@ -1,0 +1,697 @@
+{
+  "course": "discover-3",
+  "unit": 10,
+  "title": "Unit 10 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+    "unit": 10,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Count nouns",
+      "note": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "example": "There are many taxis in the traffic jam.",
+      "formula": [
+        [
+          "many / a few",
+          "+",
+          "plural count noun"
+        ]
+      ]
+    },
+    {
+      "tag": "Noncount nouns",
+      "note": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "example": "The ambulance has a little fuel left.",
+      "formula": [
+        [
+          "much / a little",
+          "+",
+          "noncount noun"
+        ]
+      ]
+    },
+    {
+      "tag": "a lot of",
+      "note": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "example": "A subway carries a lot of passengers.",
+      "formula": [
+        [
+          "a lot of",
+          "+",
+          "plural count noun / noncount noun"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "example": "How many trains arrive every hour?",
+      "formula": [
+        [
+          "How many",
+          "+",
+          "plural noun",
+          "?"
+        ],
+        [
+          "How much",
+          "+",
+          "noncount noun",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u10-1-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Count nouns",
+      "title": "Count nouns",
+      "answer": "many",
+      "options": [
+        "many",
+        "much",
+        "a little",
+        "an"
+      ],
+      "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There are ___ taxis in the traffic jam.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u10-1-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Noncount nouns",
+      "title": "Noncount nouns",
+      "answer": "a little",
+      "options": [
+        "a few",
+        "many",
+        "an",
+        "a little"
+      ],
+      "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The ambulance has ___ fuel left.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u10-1-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "a lot of",
+      "title": "a lot of",
+      "answer": "carries",
+      "options": [
+        "carrying",
+        "to carry",
+        "carries",
+        "carry"
+      ],
+      "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A subway ___ a lot of passengers.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u10-1-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "an",
+        "many",
+        "much",
+        "a little"
+      ],
+      "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ trains arrive every hour?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u10-2-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Count nouns",
+      "title": "Count nouns",
+      "answer": "many",
+      "options": [
+        "much",
+        "a little",
+        "an",
+        "many"
+      ],
+      "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There are [much] taxis in the traffic jam.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u10-2-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Noncount nouns",
+      "title": "Noncount nouns",
+      "answer": "a little",
+      "options": [
+        "many",
+        "an",
+        "a little",
+        "a few"
+      ],
+      "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The ambulance has [a few] fuel left.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u10-2-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "a lot of",
+      "title": "a lot of",
+      "answer": "carries",
+      "options": [
+        "to carry",
+        "carries",
+        "carry",
+        "carrying"
+      ],
+      "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A subway [carry] a lot of passengers.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u10-2-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "many",
+        "much",
+        "a little",
+        "an"
+      ],
+      "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How [much] trains arrive every hour?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u10-3-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Count nouns",
+      "title": "Count nouns",
+      "answer": "many",
+      "options": [
+        "a little",
+        "an",
+        "many",
+        "much"
+      ],
+      "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There are ___ taxis in the traffic jam.\nWord bank: a little · an · many · much",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u10-3-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Noncount nouns",
+      "title": "Noncount nouns",
+      "answer": "a little",
+      "options": [
+        "an",
+        "a little",
+        "a few",
+        "many"
+      ],
+      "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "The ambulance has ___ fuel left.\nWord bank: an · a little · a few · many",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u10-3-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "a lot of",
+      "title": "a lot of",
+      "answer": "carries",
+      "options": [
+        "carries",
+        "carry",
+        "carrying",
+        "to carry"
+      ],
+      "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "A subway ___ a lot of passengers.\nWord bank: carries · carry · carrying · to carry",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u10-3-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "many",
+      "options": [
+        "much",
+        "a little",
+        "an",
+        "many"
+      ],
+      "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ trains arrive every hour?\nWord bank: much · a little · an · many",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u10-4-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Count nouns",
+      "title": "Count nouns",
+      "answer": "There are many → taxis in the → traffic jam.",
+      "options": [
+        "There are many → taxis in the → traffic jam.",
+        "taxis in the → traffic jam. → There are many",
+        "traffic jam. → There are many → taxis in the",
+        "traffic jam. → taxis in the → There are many"
+      ],
+      "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "taxis in the",
+        "traffic jam.",
+        "There are many"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u10-4-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Noncount nouns",
+      "title": "Noncount nouns",
+      "answer": "The ambulance has → a little → fuel left.",
+      "options": [
+        "The ambulance has → a little → fuel left.",
+        "a little → fuel left. → The ambulance has",
+        "fuel left. → The ambulance has → a little",
+        "fuel left. → a little → The ambulance has"
+      ],
+      "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a little",
+        "fuel left.",
+        "The ambulance has"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u10-4-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "a lot of",
+      "title": "a lot of",
+      "answer": "A subway carries → a lot → of passengers.",
+      "options": [
+        "A subway carries → a lot → of passengers.",
+        "a lot → of passengers. → A subway carries",
+        "of passengers. → A subway carries → a lot",
+        "of passengers. → a lot → A subway carries"
+      ],
+      "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a lot",
+        "of passengers.",
+        "A subway carries"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u10-4-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How many → trains arrive → every hour?",
+      "options": [
+        "How many → trains arrive → every hour?",
+        "trains arrive → every hour? → How many",
+        "every hour? → How many → trains arrive",
+        "every hour? → trains arrive → How many"
+      ],
+      "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "trains arrive",
+        "every hour?",
+        "How many"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u10-5-1",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Count nouns",
+      "title": "Count nouns",
+      "answer": "There are many taxis in the traffic jam.",
+      "options": [
+        "There are many taxis in the traffic jam.",
+        "There are much taxis in the traffic jam.",
+        "There are a little taxis in the traffic jam.",
+        "There are an taxis in the traffic jam."
+      ],
+      "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Count nouns",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u10-5-2",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Noncount nouns",
+      "title": "Noncount nouns",
+      "answer": "The ambulance has a little fuel left.",
+      "options": [
+        "The ambulance has a few fuel left.",
+        "The ambulance has many fuel left.",
+        "The ambulance has an fuel left.",
+        "The ambulance has a little fuel left."
+      ],
+      "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Noncount nouns",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u10-5-3",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "a lot of",
+      "title": "a lot of",
+      "answer": "A subway carries a lot of passengers.",
+      "options": [
+        "A subway carrying a lot of passengers.",
+        "A subway to carry a lot of passengers.",
+        "A subway carries a lot of passengers.",
+        "A subway carry a lot of passengers."
+      ],
+      "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: a lot of",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u10-5-4",
+      "type": "choice",
+      "unit": 10,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/f2baskz/",
+        "unit": 10,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "How many trains arrive every hour?",
+      "options": [
+        "How an trains arrive every hour?",
+        "How many trains arrive every hour?",
+        "How much trains arrive every hour?",
+        "How a little trains arrive every hour?"
+      ],
+      "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

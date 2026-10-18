@@ -1,0 +1,699 @@
+{
+  "course": "discover-3",
+  "unit": 3,
+  "title": "Unit 3 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+    "unit": 3,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "can",
+      "note": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "example": "She can go ice skating.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "can",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "could",
+      "note": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "example": "He could go fishing when he lived near the river.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "could",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Negative forms",
+      "note": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "example": "We couldn't go sledding without snow.",
+      "formula": [
+        [
+          "subject",
+          "+",
+          "can't / couldn't",
+          "+",
+          "base verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Questions and short answers",
+      "note": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "example": "Can they help with the packing? Yes, they can.",
+      "formula": [
+        [
+          "Can / Could",
+          "+",
+          "subject",
+          "+",
+          "base verb",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-3-grammar-u3-1-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "can",
+      "title": "can",
+      "answer": "go",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She can ___ ice skating.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u3-1-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "could",
+      "title": "could",
+      "answer": "go",
+      "options": [
+        "goes",
+        "going",
+        "went",
+        "go"
+      ],
+      "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He could ___ fishing when he lived near the river.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u3-1-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "go",
+      "options": [
+        "going",
+        "went",
+        "go",
+        "goes"
+      ],
+      "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We couldn't ___ sledding without snow.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u3-1-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions and short answers",
+      "title": "Questions and short answers",
+      "answer": "help",
+      "options": [
+        "helped",
+        "help",
+        "helps",
+        "helping"
+      ],
+      "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Can they ___ with the packing? Yes, they can.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-3-grammar-u3-2-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "can",
+      "title": "can",
+      "answer": "go",
+      "options": [
+        "goes",
+        "going",
+        "went",
+        "go"
+      ],
+      "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She can [goes] ice skating.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u3-2-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "could",
+      "title": "could",
+      "answer": "go",
+      "options": [
+        "going",
+        "went",
+        "go",
+        "goes"
+      ],
+      "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He could [goes] fishing when he lived near the river.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u3-2-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "go",
+      "options": [
+        "went",
+        "go",
+        "goes",
+        "going"
+      ],
+      "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We couldn't [goes] sledding without snow.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u3-2-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions and short answers",
+      "title": "Questions and short answers",
+      "answer": "help",
+      "options": [
+        "help",
+        "helps",
+        "helping",
+        "helped"
+      ],
+      "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Can they [helps] with the packing? Yes, they can.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-3-grammar-u3-3-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "can",
+      "title": "can",
+      "answer": "go",
+      "options": [
+        "going",
+        "went",
+        "go",
+        "goes"
+      ],
+      "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She can ___ ice skating.\nWord bank: going · went · go · goes",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u3-3-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "could",
+      "title": "could",
+      "answer": "go",
+      "options": [
+        "went",
+        "go",
+        "goes",
+        "going"
+      ],
+      "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He could ___ fishing when he lived near the river.\nWord bank: went · go · goes · going",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u3-3-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "go",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We couldn't ___ sledding without snow.\nWord bank: go · goes · going · went",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u3-3-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions and short answers",
+      "title": "Questions and short answers",
+      "answer": "help",
+      "options": [
+        "helps",
+        "helping",
+        "helped",
+        "help"
+      ],
+      "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Can they ___ with the packing? Yes, they can.\nWord bank: helps · helping · helped · help",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-3-grammar-u3-4-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "can",
+      "title": "can",
+      "answer": "She can → go ice → skating.",
+      "options": [
+        "She can → go ice → skating.",
+        "go ice → skating. → She can",
+        "skating. → She can → go ice",
+        "skating. → go ice → She can"
+      ],
+      "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "go ice",
+        "skating.",
+        "She can"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u3-4-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "could",
+      "title": "could",
+      "answer": "He could go fishing → when he lived → near the river.",
+      "options": [
+        "He could go fishing → when he lived → near the river.",
+        "when he lived → near the river. → He could go fishing",
+        "near the river. → He could go fishing → when he lived",
+        "near the river. → when he lived → He could go fishing"
+      ],
+      "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "when he lived",
+        "near the river.",
+        "He could go fishing"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u3-4-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "We couldn't → go sledding → without snow.",
+      "options": [
+        "We couldn't → go sledding → without snow.",
+        "go sledding → without snow. → We couldn't",
+        "without snow. → We couldn't → go sledding",
+        "without snow. → go sledding → We couldn't"
+      ],
+      "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "go sledding",
+        "without snow.",
+        "We couldn't"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u3-4-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions and short answers",
+      "title": "Questions and short answers",
+      "answer": "Can they help → with the packing? → Yes, they can.",
+      "options": [
+        "Can they help → with the packing? → Yes, they can.",
+        "with the packing? → Yes, they can. → Can they help",
+        "Yes, they can. → Can they help → with the packing?",
+        "Yes, they can. → with the packing? → Can they help"
+      ],
+      "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "with the packing?",
+        "Yes, they can.",
+        "Can they help"
+      ]
+    },
+    {
+      "id": "discover-3-grammar-u3-5-1",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "can",
+      "title": "can",
+      "answer": "She can go ice skating.",
+      "options": [
+        "She can go ice skating.",
+        "She can goes ice skating.",
+        "She can going ice skating.",
+        "She can went ice skating."
+      ],
+      "hint": "Can đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "why": "She can go ice skating.\nCan đi với mọi chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không có to. Can không thêm -s với he, she hoặc it.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: can",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u3-5-2",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "could",
+      "title": "could",
+      "answer": "He could go fishing when he lived near the river.",
+      "options": [
+        "He could goes fishing when he lived near the river.",
+        "He could going fishing when he lived near the river.",
+        "He could went fishing when he lived near the river.",
+        "He could go fishing when he lived near the river."
+      ],
+      "hint": "Could là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "why": "He could go fishing when he lived near the river.\nCould là dạng quá khứ của can khi nói về khả năng chung. Sau could vẫn dùng động từ nguyên mẫu.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: could",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u3-5-3",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative forms",
+      "title": "Negative forms",
+      "answer": "We couldn't go sledding without snow.",
+      "options": [
+        "We couldn't going sledding without snow.",
+        "We couldn't went sledding without snow.",
+        "We couldn't go sledding without snow.",
+        "We couldn't goes sledding without snow."
+      ],
+      "hint": "Cannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "why": "We couldn't go sledding without snow.\nCannot thường được viết liền; dạng nói gọn là can't. Could not có dạng nói gọn couldn't. Không dùng don't hoặc didn't cùng can/could.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative forms",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-3-grammar-u3-5-4",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/g8g3423/",
+        "unit": 3,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions and short answers",
+      "title": "Questions and short answers",
+      "answer": "Can they help with the packing? Yes, they can.",
+      "options": [
+        "Can they helped with the packing? Yes, they can.",
+        "Can they help with the packing? Yes, they can.",
+        "Can they helps with the packing? Yes, they can.",
+        "Can they helping with the packing? Yes, they can."
+      ],
+      "hint": "Không cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "why": "Can they help with the packing? Yes, they can.\nKhông cần thêm do, does hoặc did. Câu trả lời ngắn lặp lại can/can't hoặc could/couldn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions and short answers",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

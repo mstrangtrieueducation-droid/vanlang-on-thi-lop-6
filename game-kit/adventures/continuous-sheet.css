@@ -10,6 +10,7 @@ html[data-mode=night] #adventure.flow-live .play.sheet-play .continuous-sheet{ba
 #adventure.flow-live .play.sheet-play .sheet-layout>.continuous-sheet{background:#f4f9ff!important;padding:0 16px 16px!important;scroll-padding-bottom:12px!important}
 html[data-mode=night] #adventure.flow-live .play.sheet-play .sheet-layout>.continuous-sheet{background:#182b43!important}
 .sheet-question .reading-dialogue{max-height:none!important;height:auto!important;overflow:visible!important}
+@media(max-width:650px) and (orientation:portrait){#adventure.flow-live .play.sheet-play .sheet-layout:has(.has-reading-passage){grid-template-rows:minmax(190px,35dvh) minmax(0,1fr)!important}}
 @media(max-width:650px){#adventure.flow-live .play.sheet-play .sheet-layout>.continuous-sheet{padding:0 10px 12px!important}}
 #adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading,#adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading h1,#adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading p{color:#19384f!important;text-shadow:none!important}
 html[data-mode=night] #adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading,html[data-mode=night] #adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading h1,html[data-mode=night] #adventure.flow-live .play.sheet-play .sheet-layout .sheet-heading p{color:#f0f6ff!important}

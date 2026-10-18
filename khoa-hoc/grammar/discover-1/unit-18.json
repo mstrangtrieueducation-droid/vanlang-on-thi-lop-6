@@ -1,0 +1,773 @@
+{
+  "course": "discover-1",
+  "unit": 18,
+  "title": "Unit 18 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+    "unit": 18,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Lời khuyên · Should",
+      "note": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "example": "You should run away.",
+      "formula": [
+        [
+          "Chủ ngữ",
+          "+",
+          "should",
+          "+",
+          "động từ nguyên thể"
+        ]
+      ]
+    },
+    {
+      "tag": "Lời khuyên · Shouldn't",
+      "note": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "example": "He shouldn't talk to the fox.",
+      "formula": [
+        [
+          "Chủ ngữ",
+          "+",
+          "shouldn't / should not",
+          "+",
+          "động từ nguyên thể"
+        ]
+      ]
+    },
+    {
+      "tag": "Động từ · Dạng nguyên thể",
+      "note": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "example": "She should close the door.",
+      "formula": [
+        [
+          "She",
+          "+",
+          "should",
+          "+",
+          "close the door"
+        ],
+        [
+          "They",
+          "+",
+          "should",
+          "+",
+          "stop"
+        ]
+      ]
+    },
+    {
+      "tag": "Câu hỏi · Should",
+      "note": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "example": "Should I cross the river?",
+      "formula": [
+        [
+          "Should",
+          "+",
+          "chủ ngữ",
+          "+",
+          "động từ nguyên thể",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Trả lời ngắn · Yes",
+      "note": "Sau Yes, dùng đại từ phù hợp rồi dùng should. Không lặp lại động từ chính trong câu trả lời ngắn.",
+      "example": "Yes, you should.",
+      "formula": [
+        [
+          "Should I stop?",
+          "→",
+          "Yes, you should."
+        ],
+        [
+          "Should they play outside?",
+          "→",
+          "Yes, they should."
+        ]
+      ]
+    },
+    {
+      "tag": "Trả lời ngắn · No",
+      "note": "Sau No, dùng đại từ phù hợp rồi dùng shouldn't. Khi câu hỏi có I, người nghe trả lời bằng you: Should I stay? No, you shouldn't.",
+      "example": "No, you shouldn't.",
+      "formula": [
+        [
+          "Should I stay?",
+          "→",
+          "No, you shouldn't."
+        ],
+        [
+          "Should he talk to the fox?",
+          "→",
+          "No, he shouldn't."
+        ]
+      ]
+    },
+    {
+      "tag": "Ý nghĩa · Lời khuyên",
+      "note": "Con cần hiểu tình huống trước khi chọn. Hành động có lợi hoặc an toàn thường dùng should; hành động có hại, nguy hiểm hoặc không phù hợp thường dùng shouldn't.",
+      "example": "You shouldn't eat junk food.",
+      "formula": [
+        [
+          "healthy / safe",
+          "→",
+          "should"
+        ],
+        [
+          "unhealthy / unsafe",
+          "→",
+          "shouldn't"
+        ]
+      ]
+    },
+    {
+      "tag": "Phát âm · Should",
+      "note": "Trong câu nói tự nhiên, should thường được đọc nhẹ /ʃəd/. Với shouldn't, con giữ cụm âm cuối đủ rõ để người nghe nhận ra nghĩa phủ định; câu hỏi Yes/No lên giọng nhẹ ở cuối.",
+      "example": "You shouldn't stay.",
+      "formula": [
+        [
+          "You should run.",
+          "·",
+          "You shouldn't stay."
+        ],
+        [
+          "Should I stop?",
+          "↗"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u18-1-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Should",
+      "title": "Lời khuyên · Should",
+      "answer": "run",
+      "options": [
+        "run",
+        "runs",
+        "running",
+        "ran"
+      ],
+      "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "You should ___ away.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u18-1-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Shouldn't",
+      "title": "Lời khuyên · Shouldn't",
+      "answer": "talk",
+      "options": [
+        "talks",
+        "talking",
+        "talked",
+        "talk"
+      ],
+      "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He shouldn't ___ to the fox.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u18-1-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Động từ · Dạng nguyên thể",
+      "title": "Động từ · Dạng nguyên thể",
+      "answer": "close",
+      "options": [
+        "closing",
+        "closed",
+        "close",
+        "closes"
+      ],
+      "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She should ___ the door.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u18-1-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · Should",
+      "title": "Câu hỏi · Should",
+      "answer": "cross",
+      "options": [
+        "crossed",
+        "cross",
+        "crosses",
+        "crossing"
+      ],
+      "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Should I ___ the river?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u18-2-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Should",
+      "title": "Lời khuyên · Should",
+      "answer": "run",
+      "options": [
+        "runs",
+        "running",
+        "ran",
+        "run"
+      ],
+      "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "You should [runs] away.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u18-2-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Shouldn't",
+      "title": "Lời khuyên · Shouldn't",
+      "answer": "talk",
+      "options": [
+        "talking",
+        "talked",
+        "talk",
+        "talks"
+      ],
+      "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He shouldn't [talks] to the fox.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u18-2-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Động từ · Dạng nguyên thể",
+      "title": "Động từ · Dạng nguyên thể",
+      "answer": "close",
+      "options": [
+        "closed",
+        "close",
+        "closes",
+        "closing"
+      ],
+      "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She should [closes] the door.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u18-2-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · Should",
+      "title": "Câu hỏi · Should",
+      "answer": "cross",
+      "options": [
+        "cross",
+        "crosses",
+        "crossing",
+        "crossed"
+      ],
+      "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Should I [crosses] the river?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u18-3-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Should",
+      "title": "Lời khuyên · Should",
+      "answer": "run",
+      "options": [
+        "running",
+        "ran",
+        "run",
+        "runs"
+      ],
+      "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "You should ___ away.\nWord bank: running · ran · run · runs",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u18-3-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Shouldn't",
+      "title": "Lời khuyên · Shouldn't",
+      "answer": "talk",
+      "options": [
+        "talked",
+        "talk",
+        "talks",
+        "talking"
+      ],
+      "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He shouldn't ___ to the fox.\nWord bank: talked · talk · talks · talking",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u18-3-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Động từ · Dạng nguyên thể",
+      "title": "Động từ · Dạng nguyên thể",
+      "answer": "close",
+      "options": [
+        "close",
+        "closes",
+        "closing",
+        "closed"
+      ],
+      "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She should ___ the door.\nWord bank: close · closes · closing · closed",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u18-3-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · Should",
+      "title": "Câu hỏi · Should",
+      "answer": "cross",
+      "options": [
+        "crosses",
+        "crossing",
+        "crossed",
+        "cross"
+      ],
+      "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Should I ___ the river?\nWord bank: crosses · crossing · crossed · cross",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u18-4-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Should",
+      "title": "Lời khuyên · Should",
+      "answer": "You should → run → away.",
+      "options": [
+        "You should → run → away.",
+        "run → away. → You should",
+        "away. → You should → run",
+        "away. → run → You should"
+      ],
+      "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "run",
+        "away.",
+        "You should"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u18-4-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Shouldn't",
+      "title": "Lời khuyên · Shouldn't",
+      "answer": "He shouldn't → talk to → the fox.",
+      "options": [
+        "He shouldn't → talk to → the fox.",
+        "talk to → the fox. → He shouldn't",
+        "the fox. → He shouldn't → talk to",
+        "the fox. → talk to → He shouldn't"
+      ],
+      "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "talk to",
+        "the fox.",
+        "He shouldn't"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u18-4-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Động từ · Dạng nguyên thể",
+      "title": "Động từ · Dạng nguyên thể",
+      "answer": "She should → close the → door.",
+      "options": [
+        "She should → close the → door.",
+        "close the → door. → She should",
+        "door. → She should → close the",
+        "door. → close the → She should"
+      ],
+      "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "close the",
+        "door.",
+        "She should"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u18-4-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · Should",
+      "title": "Câu hỏi · Should",
+      "answer": "Should I → cross the → river?",
+      "options": [
+        "Should I → cross the → river?",
+        "cross the → river? → Should I",
+        "river? → Should I → cross the",
+        "river? → cross the → Should I"
+      ],
+      "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "cross the",
+        "river?",
+        "Should I"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u18-5-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Should",
+      "title": "Lời khuyên · Should",
+      "answer": "You should run away.",
+      "options": [
+        "You should run away.",
+        "You should runs away.",
+        "You should running away.",
+        "You should ran away."
+      ],
+      "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Lời khuyên · Should",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u18-5-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Lời khuyên · Shouldn't",
+      "title": "Lời khuyên · Shouldn't",
+      "answer": "He shouldn't talk to the fox.",
+      "options": [
+        "He shouldn't talks to the fox.",
+        "He shouldn't talking to the fox.",
+        "He shouldn't talked to the fox.",
+        "He shouldn't talk to the fox."
+      ],
+      "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Lời khuyên · Shouldn't",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u18-5-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Động từ · Dạng nguyên thể",
+      "title": "Động từ · Dạng nguyên thể",
+      "answer": "She should close the door.",
+      "options": [
+        "She should closing the door.",
+        "She should closed the door.",
+        "She should close the door.",
+        "She should closes the door."
+      ],
+      "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Động từ · Dạng nguyên thể",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u18-5-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/bqr2zmk/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Câu hỏi · Should",
+      "title": "Câu hỏi · Should",
+      "answer": "Should I cross the river?",
+      "options": [
+        "Should I crossed the river?",
+        "Should I cross the river?",
+        "Should I crosses the river?",
+        "Should I crossing the river?"
+      ],
+      "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Câu hỏi · Should",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

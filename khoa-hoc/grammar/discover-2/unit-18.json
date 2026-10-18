@@ -1,0 +1,720 @@
+{
+  "course": "discover-2",
+  "unit": 18,
+  "title": "Unit 18 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+    "unit": 18,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "any · Câu hỏi",
+      "note": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "example": "Are there any colored pencils?",
+      "formula": [
+        [
+          "Are there",
+          "+",
+          "any",
+          "+",
+          "danh từ số nhiều",
+          "?"
+        ],
+        [
+          "Is there",
+          "+",
+          "any",
+          "+",
+          "danh từ không đếm được",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "How many ...?",
+      "note": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "example": "How many markers are there?",
+      "formula": [
+        [
+          "How many",
+          "+",
+          "danh từ số nhiều",
+          "+",
+          "are there",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "How much ...?",
+      "note": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "example": "How much glue is there?",
+      "formula": [
+        [
+          "How much",
+          "+",
+          "danh từ không đếm được",
+          "+",
+          "is / was there",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Quá khứ trong câu hỏi",
+      "note": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "example": "Did Maki have any pencils?",
+      "formula": [
+        [
+          "How many",
+          "+",
+          "plural noun",
+          "+",
+          "were there",
+          "?"
+        ],
+        [
+          "Did",
+          "+",
+          "subject",
+          "+",
+          "have any",
+          "+",
+          "plural noun",
+          "?"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u18-1-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "any · Câu hỏi",
+      "title": "any · Câu hỏi",
+      "answer": "Are",
+      "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Be"
+      ],
+      "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there any colored pencils?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u18-1-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How many ...?",
+      "title": "How many ...?",
+      "answer": "many",
+      "options": [
+        "much",
+        "a",
+        "an",
+        "many"
+      ],
+      "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ markers are there?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u18-1-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How much ...?",
+      "title": "How much ...?",
+      "answer": "much",
+      "options": [
+        "a",
+        "an",
+        "much",
+        "many"
+      ],
+      "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ glue is there?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u18-1-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quá khứ trong câu hỏi",
+      "title": "Quá khứ trong câu hỏi",
+      "answer": "have",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ],
+      "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Maki ___ any pencils?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u18-2-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "any · Câu hỏi",
+      "title": "any · Câu hỏi",
+      "answer": "Are",
+      "options": [
+        "Is",
+        "Am",
+        "Be",
+        "Are"
+      ],
+      "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Is] there any colored pencils?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u18-2-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How many ...?",
+      "title": "How many ...?",
+      "answer": "many",
+      "options": [
+        "a",
+        "an",
+        "many",
+        "much"
+      ],
+      "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How [much] markers are there?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u18-2-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How much ...?",
+      "title": "How much ...?",
+      "answer": "much",
+      "options": [
+        "an",
+        "much",
+        "many",
+        "a"
+      ],
+      "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How [many] glue is there?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u18-2-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quá khứ trong câu hỏi",
+      "title": "Quá khứ trong câu hỏi",
+      "answer": "have",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Maki [has] any pencils?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u18-3-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "any · Câu hỏi",
+      "title": "any · Câu hỏi",
+      "answer": "Are",
+      "options": [
+        "Am",
+        "Be",
+        "Are",
+        "Is"
+      ],
+      "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there any colored pencils?\nWord bank: Am · Be · Are · Is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u18-3-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How many ...?",
+      "title": "How many ...?",
+      "answer": "many",
+      "options": [
+        "an",
+        "many",
+        "much",
+        "a"
+      ],
+      "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ markers are there?\nWord bank: an · many · much · a",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u18-3-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How much ...?",
+      "title": "How much ...?",
+      "answer": "much",
+      "options": [
+        "much",
+        "many",
+        "a",
+        "an"
+      ],
+      "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "How ___ glue is there?\nWord bank: much · many · a · an",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u18-3-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quá khứ trong câu hỏi",
+      "title": "Quá khứ trong câu hỏi",
+      "answer": "have",
+      "options": [
+        "has",
+        "having",
+        "had",
+        "have"
+      ],
+      "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Did Maki ___ any pencils?\nWord bank: has · having · had · have",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u18-4-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "any · Câu hỏi",
+      "title": "any · Câu hỏi",
+      "answer": "Are there → any colored → pencils?",
+      "options": [
+        "Are there → any colored → pencils?",
+        "any colored → pencils? → Are there",
+        "pencils? → Are there → any colored",
+        "pencils? → any colored → Are there"
+      ],
+      "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "any colored",
+        "pencils?",
+        "Are there"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u18-4-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How many ...?",
+      "title": "How many ...?",
+      "answer": "How many → markers are → there?",
+      "options": [
+        "How many → markers are → there?",
+        "markers are → there? → How many",
+        "there? → How many → markers are",
+        "there? → markers are → How many"
+      ],
+      "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "markers are",
+        "there?",
+        "How many"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u18-4-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How much ...?",
+      "title": "How much ...?",
+      "answer": "How much → glue is → there?",
+      "options": [
+        "How much → glue is → there?",
+        "glue is → there? → How much",
+        "there? → How much → glue is",
+        "there? → glue is → How much"
+      ],
+      "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "glue is",
+        "there?",
+        "How much"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u18-4-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quá khứ trong câu hỏi",
+      "title": "Quá khứ trong câu hỏi",
+      "answer": "Did Maki → have any → pencils?",
+      "options": [
+        "Did Maki → have any → pencils?",
+        "have any → pencils? → Did Maki",
+        "pencils? → Did Maki → have any",
+        "pencils? → have any → Did Maki"
+      ],
+      "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "have any",
+        "pencils?",
+        "Did Maki"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u18-5-1",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "any · Câu hỏi",
+      "title": "any · Câu hỏi",
+      "answer": "Are there any colored pencils?",
+      "options": [
+        "Are there any colored pencils?",
+        "Is there any colored pencils?",
+        "Am there any colored pencils?",
+        "Be there any colored pencils?"
+      ],
+      "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: any · Câu hỏi",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u18-5-2",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How many ...?",
+      "title": "How many ...?",
+      "answer": "How many markers are there?",
+      "options": [
+        "How much markers are there?",
+        "How a markers are there?",
+        "How an markers are there?",
+        "How many markers are there?"
+      ],
+      "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: How many ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u18-5-3",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "How much ...?",
+      "title": "How much ...?",
+      "answer": "How much glue is there?",
+      "options": [
+        "How a glue is there?",
+        "How an glue is there?",
+        "How much glue is there?",
+        "How many glue is there?"
+      ],
+      "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: How much ...?",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u18-5-4",
+      "type": "choice",
+      "unit": 18,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/sab4uy2/",
+        "unit": 18,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quá khứ trong câu hỏi",
+      "title": "Quá khứ trong câu hỏi",
+      "answer": "Did Maki have any pencils?",
+      "options": [
+        "Did Maki had any pencils?",
+        "Did Maki have any pencils?",
+        "Did Maki has any pencils?",
+        "Did Maki having any pencils?"
+      ],
+      "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Quá khứ trong câu hỏi",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

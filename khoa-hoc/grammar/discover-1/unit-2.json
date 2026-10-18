@@ -1,0 +1,756 @@
+{
+  "course": "discover-1",
+  "unit": 2,
+  "title": "Unit 2 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+    "unit": 2,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Be · Câu hỏi Yes / No",
+      "note": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "example": "Is that your family?",
+      "formula": [
+        [
+          "Am / Is / Are",
+          "+",
+          "chủ ngữ",
+          "+",
+          "thông tin",
+          "?"
+        ]
+      ]
+    },
+    {
+      "tag": "Is · Câu trả lời ngắn",
+      "note": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "example": "No, it isn't.",
+      "formula": [
+        [
+          "Yes,",
+          "it is."
+        ],
+        [
+          "No,",
+          "it isn't."
+        ]
+      ]
+    },
+    {
+      "tag": "Are · Câu trả lời ngắn",
+      "note": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "example": "Yes, they are.",
+      "formula": [
+        [
+          "Yes,",
+          "they are."
+        ],
+        [
+          "No,",
+          "they aren't."
+        ]
+      ]
+    },
+    {
+      "tag": "This · That",
+      "note": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "example": "This is a zebra.",
+      "formula": [
+        [
+          "This",
+          "+",
+          "is",
+          "+",
+          "danh từ số ít ở gần"
+        ],
+        [
+          "That",
+          "+",
+          "is",
+          "+",
+          "danh từ số ít ở xa"
+        ]
+      ]
+    },
+    {
+      "tag": "These · Those",
+      "note": "These và those đi với danh từ số nhiều. Dùng these cho những người hoặc vật ở gần; dùng those cho những người hoặc vật ở xa. Sau these và those, con dùng are và danh từ phải có dạng số nhiều.",
+      "example": "Those are lions.",
+      "formula": [
+        [
+          "These",
+          "+",
+          "are",
+          "+",
+          "danh từ số nhiều ở gần"
+        ],
+        [
+          "Those",
+          "+",
+          "are",
+          "+",
+          "danh từ số nhiều ở xa"
+        ]
+      ]
+    },
+    {
+      "tag": "Điểm cần nhớ",
+      "note": "Con chọn từ chỉ định theo hai bước: trước tiên nhìn một hay nhiều, sau đó nhìn gần hay xa. Một vật dùng this hoặc that với is; nhiều vật dùng these hoặc those với are. Đây là hai dấu hiệu phải đúng cùng lúc.",
+      "example": "These are tortoises.",
+      "formula": [
+        [
+          "một + gần",
+          "→",
+          "this is"
+        ],
+        [
+          "một + xa",
+          "→",
+          "that is"
+        ],
+        [
+          "nhiều + gần",
+          "→",
+          "these are"
+        ],
+        [
+          "nhiều + xa",
+          "→",
+          "those are"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u2-1-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Be · Câu hỏi Yes / No",
+      "title": "Be · Câu hỏi Yes / No",
+      "answer": "Is",
+      "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Be"
+      ],
+      "hint": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "why": "Is that your family?\nKhi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ that your family?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u2-1-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · Câu trả lời ngắn",
+      "title": "Is · Câu trả lời ngắn",
+      "answer": "isn't",
+      "options": [
+        "aren't",
+        "am not",
+        "not is",
+        "isn't"
+      ],
+      "hint": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "why": "No, it isn't.\nVới câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "No, it ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u2-1-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · Câu trả lời ngắn",
+      "title": "Are · Câu trả lời ngắn",
+      "answer": "are",
+      "options": [
+        "am",
+        "be",
+        "are",
+        "is"
+      ],
+      "hint": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "why": "Yes, they are.\nKhi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Yes, they ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u2-1-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "This · That",
+      "title": "This · That",
+      "answer": "is",
+      "options": [
+        "be",
+        "is",
+        "are",
+        "am"
+      ],
+      "hint": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "why": "This is a zebra.\nThis và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This ___ a zebra.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u2-2-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Be · Câu hỏi Yes / No",
+      "title": "Be · Câu hỏi Yes / No",
+      "answer": "Is",
+      "options": [
+        "Are",
+        "Am",
+        "Be",
+        "Is"
+      ],
+      "hint": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "why": "Is that your family?\nKhi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Are] that your family?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u2-2-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · Câu trả lời ngắn",
+      "title": "Is · Câu trả lời ngắn",
+      "answer": "isn't",
+      "options": [
+        "am not",
+        "not is",
+        "isn't",
+        "aren't"
+      ],
+      "hint": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "why": "No, it isn't.\nVới câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "No, it [aren't].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u2-2-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · Câu trả lời ngắn",
+      "title": "Are · Câu trả lời ngắn",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "why": "Yes, they are.\nKhi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Yes, they [is].",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u2-2-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "This · That",
+      "title": "This · That",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "hint": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "why": "This is a zebra.\nThis và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This [are] a zebra.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u2-3-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Be · Câu hỏi Yes / No",
+      "title": "Be · Câu hỏi Yes / No",
+      "answer": "Is",
+      "options": [
+        "Am",
+        "Be",
+        "Is",
+        "Are"
+      ],
+      "hint": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "why": "Is that your family?\nKhi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ that your family?\nWord bank: Am · Be · Is · Are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u2-3-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · Câu trả lời ngắn",
+      "title": "Is · Câu trả lời ngắn",
+      "answer": "isn't",
+      "options": [
+        "not is",
+        "isn't",
+        "aren't",
+        "am not"
+      ],
+      "hint": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "why": "No, it isn't.\nVới câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "No, it ___.\nWord bank: not is · isn't · aren't · am not",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u2-3-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · Câu trả lời ngắn",
+      "title": "Are · Câu trả lời ngắn",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "hint": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "why": "Yes, they are.\nKhi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Yes, they ___.\nWord bank: are · is · am · be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u2-3-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "This · That",
+      "title": "This · That",
+      "answer": "is",
+      "options": [
+        "are",
+        "am",
+        "be",
+        "is"
+      ],
+      "hint": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "why": "This is a zebra.\nThis và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "This ___ a zebra.\nWord bank: are · am · be · is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u2-4-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Be · Câu hỏi Yes / No",
+      "title": "Be · Câu hỏi Yes / No",
+      "answer": "Is that → your → family?",
+      "options": [
+        "Is that → your → family?",
+        "your → family? → Is that",
+        "family? → Is that → your",
+        "family? → your → Is that"
+      ],
+      "hint": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "why": "Is that your family?\nKhi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "your",
+        "family?",
+        "Is that"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u2-4-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · Câu trả lời ngắn",
+      "title": "Is · Câu trả lời ngắn",
+      "answer": "No, → it → isn't.",
+      "options": [
+        "No, → it → isn't.",
+        "it → isn't. → No,",
+        "isn't. → No, → it",
+        "isn't. → it → No,"
+      ],
+      "hint": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "why": "No, it isn't.\nVới câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "it",
+        "isn't.",
+        "No,"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u2-4-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · Câu trả lời ngắn",
+      "title": "Are · Câu trả lời ngắn",
+      "answer": "Yes, → they → are.",
+      "options": [
+        "Yes, → they → are.",
+        "they → are. → Yes,",
+        "are. → Yes, → they",
+        "are. → they → Yes,"
+      ],
+      "hint": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "why": "Yes, they are.\nKhi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "they",
+        "are.",
+        "Yes,"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u2-4-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "This · That",
+      "title": "This · That",
+      "answer": "This is → a → zebra.",
+      "options": [
+        "This is → a → zebra.",
+        "a → zebra. → This is",
+        "zebra. → This is → a",
+        "zebra. → a → This is"
+      ],
+      "hint": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "why": "This is a zebra.\nThis và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a",
+        "zebra.",
+        "This is"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u2-5-1",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Be · Câu hỏi Yes / No",
+      "title": "Be · Câu hỏi Yes / No",
+      "answer": "Is that your family?",
+      "options": [
+        "Is that your family?",
+        "Are that your family?",
+        "Am that your family?",
+        "Be that your family?"
+      ],
+      "hint": "Khi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "why": "Is that your family?\nKhi câu có động từ be, con tạo câu hỏi bằng cách đưa am, is hoặc are lên đầu. Không thêm do hoặc does. Phần còn lại của câu giữ nguyên, rồi lên giọng nhẹ ở cuối câu hỏi Yes / No.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Be · Câu hỏi Yes / No",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u2-5-2",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Is · Câu trả lời ngắn",
+      "title": "Is · Câu trả lời ngắn",
+      "answer": "No, it isn't.",
+      "options": [
+        "No, it aren't.",
+        "No, it am not.",
+        "No, it not is.",
+        "No, it isn't."
+      ],
+      "hint": "Với câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "why": "No, it isn't.\nVới câu hỏi bắt đầu bằng Is, con dùng Yes, it is hoặc No, it isn't khi nói về một con vật hay một đồ vật. Không trả lời “Yes, it’s” vì dạng rút gọn không đứng một mình ở cuối câu trả lời ngắn.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Is · Câu trả lời ngắn",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u2-5-3",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Are · Câu trả lời ngắn",
+      "title": "Are · Câu trả lời ngắn",
+      "answer": "Yes, they are.",
+      "options": [
+        "Yes, they am.",
+        "Yes, they be.",
+        "Yes, they are.",
+        "Yes, they is."
+      ],
+      "hint": "Khi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "why": "Yes, they are.\nKhi chủ ngữ là số nhiều, câu hỏi bắt đầu bằng Are. Con trả lời Yes, they are hoặc No, they aren't. Đại từ they thay cho hai hay nhiều con vật hoặc đồ vật đã được nhắc tới.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Are · Câu trả lời ngắn",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u2-5-4",
+      "type": "choice",
+      "unit": 2,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rmm2fwu/",
+        "unit": 2,
+        "kind": "class-grammar-model"
+      },
+      "focus": "This · That",
+      "title": "This · That",
+      "answer": "This is a zebra.",
+      "options": [
+        "This be a zebra.",
+        "This is a zebra.",
+        "This are a zebra.",
+        "This am a zebra."
+      ],
+      "hint": "This và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "why": "This is a zebra.\nThis và that đều đi với danh từ số ít. Dùng this khi người hoặc vật ở gần người nói; dùng that khi ở xa hơn. Sau this và that, con dùng is. That is thường được nói gọn thành that's.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: This · That",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

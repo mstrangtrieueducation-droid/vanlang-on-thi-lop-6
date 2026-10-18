@@ -1,0 +1,703 @@
+{
+  "course": "discover-4",
+  "unit": 9,
+  "title": "Unit 9 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+    "unit": 9,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Negative pronouns",
+      "note": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "example": "Nobody is waiting beside the canal.",
+      "formula": [
+        [
+          "nobody / no one",
+          "=",
+          "not any person"
+        ],
+        [
+          "nothing",
+          "=",
+          "not anything"
+        ]
+      ]
+    },
+    {
+      "tag": "Singular verb",
+      "note": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "example": "Nothing looks old in the modern port.",
+      "formula": [
+        [
+          "nobody / no one / nothing",
+          "+",
+          "singular verb"
+        ]
+      ]
+    },
+    {
+      "tag": "Equivalent forms",
+      "note": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "example": "There isn't anything for the street vendor to sell.",
+      "formula": [
+        [
+          "Nobody came."
+        ],
+        [
+          "No one came."
+        ],
+        [
+          "I didn't see anybody."
+        ]
+      ]
+    },
+    {
+      "tag": "Questions",
+      "note": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "example": "Is there anything unusual among the antiques?",
+      "formula": [
+        [
+          "Is anyone...?"
+        ],
+        [
+          "Is there anything...?"
+        ],
+        [
+          "No one... / Nothing..."
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-4-grammar-u9-1-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative pronouns",
+      "title": "Negative pronouns",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "hint": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "why": "Nobody is waiting beside the canal.\nNobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nobody ___ waiting beside the canal.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u9-1-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Singular verb",
+      "title": "Singular verb",
+      "answer": "looks",
+      "options": [
+        "look",
+        "looking",
+        "to look",
+        "looks"
+      ],
+      "hint": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "why": "Nothing looks old in the modern port.\nDùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nothing ___ old in the modern port.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u9-1-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Equivalent forms",
+      "title": "Equivalent forms",
+      "answer": "isn't",
+      "options": [
+        "am not",
+        "not is",
+        "isn't",
+        "aren't"
+      ],
+      "hint": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "why": "There isn't anything for the street vendor to sell.\nNobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ anything for the street vendor to sell.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u9-1-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Is",
+      "options": [
+        "Be",
+        "Is",
+        "Are",
+        "Am"
+      ],
+      "hint": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "why": "Is there anything unusual among the antiques?\nDùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there anything unusual among the antiques?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-4-grammar-u9-2-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative pronouns",
+      "title": "Negative pronouns",
+      "answer": "is",
+      "options": [
+        "are",
+        "am",
+        "be",
+        "is"
+      ],
+      "hint": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "why": "Nobody is waiting beside the canal.\nNobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nobody [are] waiting beside the canal.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u9-2-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Singular verb",
+      "title": "Singular verb",
+      "answer": "looks",
+      "options": [
+        "looking",
+        "to look",
+        "looks",
+        "look"
+      ],
+      "hint": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "why": "Nothing looks old in the modern port.\nDùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nothing [look] old in the modern port.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u9-2-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Equivalent forms",
+      "title": "Equivalent forms",
+      "answer": "isn't",
+      "options": [
+        "not is",
+        "isn't",
+        "aren't",
+        "am not"
+      ],
+      "hint": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "why": "There isn't anything for the street vendor to sell.\nNobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There [aren't] anything for the street vendor to sell.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u9-2-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Is",
+      "options": [
+        "Is",
+        "Are",
+        "Am",
+        "Be"
+      ],
+      "hint": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "why": "Is there anything unusual among the antiques?\nDùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[Are] there anything unusual among the antiques?",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-4-grammar-u9-3-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative pronouns",
+      "title": "Negative pronouns",
+      "answer": "is",
+      "options": [
+        "am",
+        "be",
+        "is",
+        "are"
+      ],
+      "hint": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "why": "Nobody is waiting beside the canal.\nNobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nobody ___ waiting beside the canal.\nWord bank: am · be · is · are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u9-3-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Singular verb",
+      "title": "Singular verb",
+      "answer": "looks",
+      "options": [
+        "to look",
+        "looks",
+        "look",
+        "looking"
+      ],
+      "hint": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "why": "Nothing looks old in the modern port.\nDùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Nothing ___ old in the modern port.\nWord bank: to look · looks · look · looking",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u9-3-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Equivalent forms",
+      "title": "Equivalent forms",
+      "answer": "isn't",
+      "options": [
+        "isn't",
+        "aren't",
+        "am not",
+        "not is"
+      ],
+      "hint": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "why": "There isn't anything for the street vendor to sell.\nNobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "There ___ anything for the street vendor to sell.\nWord bank: isn't · aren't · am not · not is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u9-3-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Is",
+      "options": [
+        "Are",
+        "Am",
+        "Be",
+        "Is"
+      ],
+      "hint": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "why": "Is there anything unusual among the antiques?\nDùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ there anything unusual among the antiques?\nWord bank: Are · Am · Be · Is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-4-grammar-u9-4-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative pronouns",
+      "title": "Negative pronouns",
+      "answer": "Nobody is → waiting beside → the canal.",
+      "options": [
+        "Nobody is → waiting beside → the canal.",
+        "waiting beside → the canal. → Nobody is",
+        "the canal. → Nobody is → waiting beside",
+        "the canal. → waiting beside → Nobody is"
+      ],
+      "hint": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "why": "Nobody is waiting beside the canal.\nNobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "waiting beside",
+        "the canal.",
+        "Nobody is"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u9-4-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Singular verb",
+      "title": "Singular verb",
+      "answer": "Nothing looks old → in the → modern port.",
+      "options": [
+        "Nothing looks old → in the → modern port.",
+        "in the → modern port. → Nothing looks old",
+        "modern port. → Nothing looks old → in the",
+        "modern port. → in the → Nothing looks old"
+      ],
+      "hint": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "why": "Nothing looks old in the modern port.\nDùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "in the",
+        "modern port.",
+        "Nothing looks old"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u9-4-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Equivalent forms",
+      "title": "Equivalent forms",
+      "answer": "There isn't anything → for the street → vendor to sell.",
+      "options": [
+        "There isn't anything → for the street → vendor to sell.",
+        "for the street → vendor to sell. → There isn't anything",
+        "vendor to sell. → There isn't anything → for the street",
+        "vendor to sell. → for the street → There isn't anything"
+      ],
+      "hint": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "why": "There isn't anything for the street vendor to sell.\nNobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "for the street",
+        "vendor to sell.",
+        "There isn't anything"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u9-4-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Is there anything → unusual among → the antiques?",
+      "options": [
+        "Is there anything → unusual among → the antiques?",
+        "unusual among → the antiques? → Is there anything",
+        "the antiques? → Is there anything → unusual among",
+        "the antiques? → unusual among → Is there anything"
+      ],
+      "hint": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "why": "Is there anything unusual among the antiques?\nDùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "unusual among",
+        "the antiques?",
+        "Is there anything"
+      ]
+    },
+    {
+      "id": "discover-4-grammar-u9-5-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Negative pronouns",
+      "title": "Negative pronouns",
+      "answer": "Nobody is waiting beside the canal.",
+      "options": [
+        "Nobody is waiting beside the canal.",
+        "Nobody are waiting beside the canal.",
+        "Nobody am waiting beside the canal.",
+        "Nobody be waiting beside the canal."
+      ],
+      "hint": "Nobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "why": "Nobody is waiting beside the canal.\nNobody và no one nói về người; nothing nói về vật hoặc sự việc. Không thêm not vào cùng mệnh đề vì như vậy sẽ tạo phủ định kép.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Negative pronouns",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u9-5-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Singular verb",
+      "title": "Singular verb",
+      "answer": "Nothing looks old in the modern port.",
+      "options": [
+        "Nothing look old in the modern port.",
+        "Nothing looking old in the modern port.",
+        "Nothing to look old in the modern port.",
+        "Nothing looks old in the modern port."
+      ],
+      "hint": "Dùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "why": "Nothing looks old in the modern port.\nDùng is, has và động từ thêm -s ở hiện tại đơn. Nghĩa có thể bao quát nhiều người, nhưng cấu trúc ngữ pháp vẫn là số ít.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Singular verb",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u9-5-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Equivalent forms",
+      "title": "Equivalent forms",
+      "answer": "There isn't anything for the street vendor to sell.",
+      "options": [
+        "There am not anything for the street vendor to sell.",
+        "There not is anything for the street vendor to sell.",
+        "There isn't anything for the street vendor to sell.",
+        "There aren't anything for the street vendor to sell."
+      ],
+      "hint": "Nobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "why": "There isn't anything for the street vendor to sell.\nNobody came và No one came đều đúng. Khi dùng anybody, câu phải có trợ động từ phủ định: I didn't see anybody. Không dùng Nobody didn't come vì đó là phủ định kép.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Equivalent forms",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-4-grammar-u9-5-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/a2r9dfd/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Questions",
+      "title": "Questions",
+      "answer": "Is there anything unusual among the antiques?",
+      "options": [
+        "Be there anything unusual among the antiques?",
+        "Is there anything unusual among the antiques?",
+        "Are there anything unusual among the antiques?",
+        "Am there anything unusual among the antiques?"
+      ],
+      "hint": "Dùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "why": "Is there anything unusual among the antiques?\nDùng Is anyone...? và Is there anything...? khi người nói chưa biết câu trả lời. No one và nothing thường dùng trong câu trả lời phủ định.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Questions",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

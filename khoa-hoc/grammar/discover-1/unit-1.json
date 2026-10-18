@@ -1,0 +1,750 @@
+{
+  "course": "discover-1",
+  "unit": 1,
+  "title": "Unit 1 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+    "unit": 1,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Verb be · Công dụng",
+      "note": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "example": "I am a student.",
+      "formula": [
+        [
+          "Chủ ngữ",
+          "+",
+          "am / is / are",
+          "+",
+          "danh từ · tính từ · tuổi"
+        ]
+      ]
+    },
+    {
+      "tag": "I + am",
+      "note": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "example": "I'm eight years old.",
+      "formula": [
+        [
+          "I am",
+          "→",
+          "I’m"
+        ],
+        [
+          "I am not",
+          "→",
+          "I’m not"
+        ]
+      ]
+    },
+    {
+      "tag": "He · She · It + is",
+      "note": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "example": "My mother is a teacher.",
+      "formula": [
+        [
+          "He / She / It",
+          "+",
+          "is"
+        ],
+        [
+          "He is",
+          "→",
+          "He’s"
+        ],
+        [
+          "He is not",
+          "→",
+          "He isn’t / He’s not"
+        ]
+      ]
+    },
+    {
+      "tag": "You · We · They + are",
+      "note": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "example": "My parents are kind.",
+      "formula": [
+        [
+          "You / We / They",
+          "+",
+          "are"
+        ],
+        [
+          "We are",
+          "→",
+          "We’re"
+        ],
+        [
+          "They are not",
+          "→",
+          "They aren’t / They’re not"
+        ]
+      ]
+    },
+    {
+      "tag": "Câu phủ định",
+      "note": "Muốn nói “không phải” hoặc “không ở trạng thái đó”, con thêm not ngay sau am, is hoặc are. Không thêm do hoặc does vào câu có động từ be: nói “He isn’t…”, không nói “He doesn’t be…”.",
+      "example": "He isn't my brother.",
+      "formula": [
+        [
+          "Chủ ngữ",
+          "+",
+          "am / is / are",
+          "+",
+          "not",
+          "+",
+          "thông tin"
+        ]
+      ]
+    },
+    {
+      "tag": "Điểm cần nhớ",
+      "note": "Trong giọng Mỹ của bộ sách, family được xem là một nhóm số ít nên dùng is: “My family is big.” Khi nói trực tiếp nhiều thành viên, con dùng are: “My parents are kind.” Hãy nhìn đúng danh từ làm chủ ngữ, không đếm số người trong bức ảnh.",
+      "example": "My family is big.",
+      "formula": [
+        [
+          "My family",
+          "+",
+          "is"
+        ],
+        [
+          "My parents / My friends",
+          "+",
+          "are"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u1-1-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb be · Công dụng",
+      "title": "Verb be · Công dụng",
+      "answer": "am",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I ___ a student.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u1-1-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "I + am",
+      "title": "I + am",
+      "answer": "I'm",
+      "options": [
+        "I is",
+        "I are",
+        "I be",
+        "I'm"
+      ],
+      "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ eight years old.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u1-1-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "He · She · It + is",
+      "title": "He · She · It + is",
+      "answer": "is",
+      "options": [
+        "am",
+        "be",
+        "is",
+        "are"
+      ],
+      "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My mother ___ a teacher.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u1-1-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "You · We · They + are",
+      "title": "You · We · They + are",
+      "answer": "are",
+      "options": [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My parents ___ kind.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u1-2-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb be · Công dụng",
+      "title": "Verb be · Công dụng",
+      "answer": "am",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I [is] a student.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u1-2-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "I + am",
+      "title": "I + am",
+      "answer": "I'm",
+      "options": [
+        "I are",
+        "I be",
+        "I'm",
+        "I is"
+      ],
+      "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "[I is] eight years old.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u1-2-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "He · She · It + is",
+      "title": "He · She · It + is",
+      "answer": "is",
+      "options": [
+        "be",
+        "is",
+        "are",
+        "am"
+      ],
+      "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My mother [are] a teacher.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u1-2-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "You · We · They + are",
+      "title": "You · We · They + are",
+      "answer": "are",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ],
+      "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My parents [is] kind.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u1-3-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb be · Công dụng",
+      "title": "Verb be · Công dụng",
+      "answer": "am",
+      "options": [
+        "are",
+        "be",
+        "am",
+        "is"
+      ],
+      "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "I ___ a student.\nWord bank: are · be · am · is",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u1-3-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "I + am",
+      "title": "I + am",
+      "answer": "I'm",
+      "options": [
+        "I be",
+        "I'm",
+        "I is",
+        "I are"
+      ],
+      "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "___ eight years old.\nWord bank: I be · I'm · I is · I are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u1-3-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "He · She · It + is",
+      "title": "He · She · It + is",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My mother ___ a teacher.\nWord bank: is · are · am · be",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u1-3-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "You · We · They + are",
+      "title": "You · We · They + are",
+      "answer": "are",
+      "options": [
+        "is",
+        "am",
+        "be",
+        "are"
+      ],
+      "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "My parents ___ kind.\nWord bank: is · am · be · are",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u1-4-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb be · Công dụng",
+      "title": "Verb be · Công dụng",
+      "answer": "I am → a → student.",
+      "options": [
+        "I am → a → student.",
+        "a → student. → I am",
+        "student. → I am → a",
+        "student. → a → I am"
+      ],
+      "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a",
+        "student.",
+        "I am"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u1-4-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "I + am",
+      "title": "I + am",
+      "answer": "I'm eight → years → old.",
+      "options": [
+        "I'm eight → years → old.",
+        "years → old. → I'm eight",
+        "old. → I'm eight → years",
+        "old. → years → I'm eight"
+      ],
+      "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "years",
+        "old.",
+        "I'm eight"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u1-4-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "He · She · It + is",
+      "title": "He · She · It + is",
+      "answer": "My mother → is a → teacher.",
+      "options": [
+        "My mother → is a → teacher.",
+        "is a → teacher. → My mother",
+        "teacher. → My mother → is a",
+        "teacher. → is a → My mother"
+      ],
+      "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "is a",
+        "teacher.",
+        "My mother"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u1-4-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "You · We · They + are",
+      "title": "You · We · They + are",
+      "answer": "My parents → are → kind.",
+      "options": [
+        "My parents → are → kind.",
+        "are → kind. → My parents",
+        "kind. → My parents → are",
+        "kind. → are → My parents"
+      ],
+      "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "are",
+        "kind.",
+        "My parents"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u1-5-1",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Verb be · Công dụng",
+      "title": "Verb be · Công dụng",
+      "answer": "I am a student.",
+      "options": [
+        "I am a student.",
+        "I is a student.",
+        "I are a student.",
+        "I be a student."
+      ],
+      "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Verb be · Công dụng",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u1-5-2",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "I + am",
+      "title": "I + am",
+      "answer": "I'm eight years old.",
+      "options": [
+        "I is eight years old.",
+        "I are eight years old.",
+        "I be eight years old.",
+        "I'm eight years old."
+      ],
+      "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: I + am",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u1-5-3",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "He · She · It + is",
+      "title": "He · She · It + is",
+      "answer": "My mother is a teacher.",
+      "options": [
+        "My mother am a teacher.",
+        "My mother be a teacher.",
+        "My mother is a teacher.",
+        "My mother are a teacher."
+      ],
+      "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: He · She · It + is",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u1-5-4",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/gxy5mzk/",
+        "unit": 1,
+        "kind": "class-grammar-model"
+      },
+      "focus": "You · We · They + are",
+      "title": "You · We · They + are",
+      "answer": "My parents are kind.",
+      "options": [
+        "My parents be kind.",
+        "My parents are kind.",
+        "My parents is kind.",
+        "My parents am kind."
+      ],
+      "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: You · We · They + are",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "course": "discover-2",
+  "unit": 5,
+  "title": "Unit 5 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+    "unit": 5,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Past regular · Khẳng định",
+      "note": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "example": "People listened to the news on the radio.",
+      "formula": [
+        [
+          "chủ ngữ",
+          "+",
+          "động từ-ed"
+        ]
+      ]
+    },
+    {
+      "tag": "Quy tắc chính tả",
+      "note": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "example": "They traveled by boat.",
+      "formula": [
+        [
+          "live",
+          "→",
+          "lived"
+        ],
+        [
+          "carry",
+          "→",
+          "carried"
+        ],
+        [
+          "stop",
+          "→",
+          "stopped"
+        ]
+      ]
+    },
+    {
+      "tag": "didn't · Phủ định",
+      "note": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "example": "They didn't watch the news on TV.",
+      "formula": [
+        [
+          "chủ ngữ",
+          "+",
+          "didn't",
+          "+",
+          "động từ nguyên mẫu"
+        ]
+      ]
+    },
+    {
+      "tag": "Âm cuối -ed",
+      "note": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "example": "Grandpa visited his family.",
+      "formula": [
+        [
+          "/t/",
+          "watched"
+        ],
+        [
+          "/d/",
+          "traveled"
+        ],
+        [
+          "/ɪd/",
+          "visited"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-2-grammar-u5-1-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past regular · Khẳng định",
+      "title": "Past regular · Khẳng định",
+      "answer": "listened",
+      "options": [
+        "listened",
+        "listening",
+        "listens",
+        "to listen"
+      ],
+      "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People ___ to the news on the radio.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u5-1-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quy tắc chính tả",
+      "title": "Quy tắc chính tả",
+      "answer": "traveled",
+      "options": [
+        "traveling",
+        "travels",
+        "to travel",
+        "traveled"
+      ],
+      "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They ___ by boat.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u5-1-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "didn't · Phủ định",
+      "title": "didn't · Phủ định",
+      "answer": "watch",
+      "options": [
+        "watches",
+        "watching",
+        "watch",
+        "watched"
+      ],
+      "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They didn't ___ the news on TV.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u5-1-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Âm cuối -ed",
+      "title": "Âm cuối -ed",
+      "answer": "visited",
+      "options": [
+        "to visit",
+        "visited",
+        "visiting",
+        "visits"
+      ],
+      "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grandpa ___ his family.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-2-grammar-u5-2-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past regular · Khẳng định",
+      "title": "Past regular · Khẳng định",
+      "answer": "listened",
+      "options": [
+        "listening",
+        "listens",
+        "to listen",
+        "listened"
+      ],
+      "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People [listening] to the news on the radio.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u5-2-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quy tắc chính tả",
+      "title": "Quy tắc chính tả",
+      "answer": "traveled",
+      "options": [
+        "travels",
+        "to travel",
+        "traveled",
+        "traveling"
+      ],
+      "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They [traveling] by boat.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u5-2-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "didn't · Phủ định",
+      "title": "didn't · Phủ định",
+      "answer": "watch",
+      "options": [
+        "watching",
+        "watch",
+        "watched",
+        "watches"
+      ],
+      "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They didn't [watched] the news on TV.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u5-2-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Âm cuối -ed",
+      "title": "Âm cuối -ed",
+      "answer": "visited",
+      "options": [
+        "visited",
+        "visiting",
+        "visits",
+        "to visit"
+      ],
+      "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grandpa [visiting] his family.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-2-grammar-u5-3-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past regular · Khẳng định",
+      "title": "Past regular · Khẳng định",
+      "answer": "listened",
+      "options": [
+        "listens",
+        "to listen",
+        "listened",
+        "listening"
+      ],
+      "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "People ___ to the news on the radio.\nWord bank: listens · to listen · listened · listening",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u5-3-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quy tắc chính tả",
+      "title": "Quy tắc chính tả",
+      "answer": "traveled",
+      "options": [
+        "to travel",
+        "traveled",
+        "traveling",
+        "travels"
+      ],
+      "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They ___ by boat.\nWord bank: to travel · traveled · traveling · travels",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u5-3-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "didn't · Phủ định",
+      "title": "didn't · Phủ định",
+      "answer": "watch",
+      "options": [
+        "watch",
+        "watched",
+        "watches",
+        "watching"
+      ],
+      "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They didn't ___ the news on TV.\nWord bank: watch · watched · watches · watching",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u5-3-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Âm cuối -ed",
+      "title": "Âm cuối -ed",
+      "answer": "visited",
+      "options": [
+        "visiting",
+        "visits",
+        "to visit",
+        "visited"
+      ],
+      "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grandpa ___ his family.\nWord bank: visiting · visits · to visit · visited",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-2-grammar-u5-4-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past regular · Khẳng định",
+      "title": "Past regular · Khẳng định",
+      "answer": "People listened to → the news on → the radio.",
+      "options": [
+        "People listened to → the news on → the radio.",
+        "the news on → the radio. → People listened to",
+        "the radio. → People listened to → the news on",
+        "the radio. → the news on → People listened to"
+      ],
+      "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the news on",
+        "the radio.",
+        "People listened to"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u5-4-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quy tắc chính tả",
+      "title": "Quy tắc chính tả",
+      "answer": "They traveled → by → boat.",
+      "options": [
+        "They traveled → by → boat.",
+        "by → boat. → They traveled",
+        "boat. → They traveled → by",
+        "boat. → by → They traveled"
+      ],
+      "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "by",
+        "boat.",
+        "They traveled"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u5-4-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "didn't · Phủ định",
+      "title": "didn't · Phủ định",
+      "answer": "They didn't watch → the news → on TV.",
+      "options": [
+        "They didn't watch → the news → on TV.",
+        "the news → on TV. → They didn't watch",
+        "on TV. → They didn't watch → the news",
+        "on TV. → the news → They didn't watch"
+      ],
+      "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "the news",
+        "on TV.",
+        "They didn't watch"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u5-4-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Âm cuối -ed",
+      "title": "Âm cuối -ed",
+      "answer": "Grandpa visited → his → family.",
+      "options": [
+        "Grandpa visited → his → family.",
+        "his → family. → Grandpa visited",
+        "family. → Grandpa visited → his",
+        "family. → his → Grandpa visited"
+      ],
+      "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "his",
+        "family.",
+        "Grandpa visited"
+      ]
+    },
+    {
+      "id": "discover-2-grammar-u5-5-1",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Past regular · Khẳng định",
+      "title": "Past regular · Khẳng định",
+      "answer": "People listened to the news on the radio.",
+      "options": [
+        "People listened to the news on the radio.",
+        "People listening to the news on the radio.",
+        "People listens to the news on the radio.",
+        "People to listen to the news on the radio."
+      ],
+      "hint": "Dạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "why": "People listened to the news on the radio.\nDạng quá khứ có quy tắc giống nhau với mọi chủ ngữ. Nhiều động từ chỉ cần thêm -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Past regular · Khẳng định",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u5-5-2",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Quy tắc chính tả",
+      "title": "Quy tắc chính tả",
+      "answer": "They traveled by boat.",
+      "options": [
+        "They traveling by boat.",
+        "They travels by boat.",
+        "They to travel by boat.",
+        "They traveled by boat."
+      ],
+      "hint": "Động từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "why": "They traveled by boat.\nĐộng từ tận cùng bằng e chỉ thêm -d. Phụ âm + y đổi y thành i rồi thêm -ed. Một số từ ngắn gấp đôi phụ âm cuối trước -ed.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Quy tắc chính tả",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u5-5-3",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "didn't · Phủ định",
+      "title": "didn't · Phủ định",
+      "answer": "They didn't watch the news on TV.",
+      "options": [
+        "They didn't watches the news on TV.",
+        "They didn't watching the news on TV.",
+        "They didn't watch the news on TV.",
+        "They didn't watched the news on TV."
+      ],
+      "hint": "Didn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "why": "They didn't watch the news on TV.\nDidn't đã mang nghĩa quá khứ, vì vậy động từ sau nó không thêm -ed. Nói didn't travel, không nói didn't traveled.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: didn't · Phủ định",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-2-grammar-u5-5-4",
+      "type": "choice",
+      "unit": 5,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/jp4pe8p/",
+        "unit": 5,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Âm cuối -ed",
+      "title": "Âm cuối -ed",
+      "answer": "Grandpa visited his family.",
+      "options": [
+        "Grandpa to visit his family.",
+        "Grandpa visited his family.",
+        "Grandpa visiting his family.",
+        "Grandpa visits his family."
+      ],
+      "hint": "Đuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "why": "Grandpa visited his family.\nĐuôi -ed có ba cách đọc. Con nghe mẫu và giữ âm cuối rõ; không tự thêm một âm tiết nếu từ không cần /ɪd/.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Âm cuối -ed",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}

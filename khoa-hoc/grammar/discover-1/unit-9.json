@@ -1,0 +1,749 @@
+{
+  "course": "discover-1",
+  "unit": 9,
+  "title": "Unit 9 · Grammar Focus",
+  "source": {
+    "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+    "unit": 9,
+    "kind": "class-grammar-model"
+  },
+  "summary": [
+    {
+      "tag": "Have · I / you / we / they",
+      "note": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "example": "We have five notebooks.",
+      "formula": [
+        [
+          "I / You / We / They",
+          "+",
+          "have",
+          "+",
+          "danh từ"
+        ]
+      ]
+    },
+    {
+      "tag": "Has · He / she / it",
+      "note": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "example": "He has a backpack.",
+      "formula": [
+        [
+          "He / She / It",
+          "+",
+          "has",
+          "+",
+          "danh từ"
+        ]
+      ]
+    },
+    {
+      "tag": "Phủ định · don't have",
+      "note": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "example": "They don't have ten rulers.",
+      "formula": [
+        [
+          "I / You / We / They",
+          "+",
+          "don't have",
+          "+",
+          "danh từ"
+        ]
+      ]
+    },
+    {
+      "tag": "Phủ định · doesn't have",
+      "note": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "example": "She doesn't have the answer.",
+      "formula": [
+        [
+          "He / She / It",
+          "+",
+          "doesn't have",
+          "+",
+          "danh từ"
+        ]
+      ]
+    },
+    {
+      "tag": "Chủ ngữ · Nhận diện số ít và số nhiều",
+      "note": "Một tên người hoặc một danh từ số ít dùng has. Hai người nối bằng and hoặc một danh từ số nhiều dùng have. My sister and I được thay bằng we; the students được thay bằng they.",
+      "example": "My sister and I have pencils.",
+      "formula": [
+        [
+          "My sister",
+          "→",
+          "has"
+        ],
+        [
+          "My sister and I",
+          "→",
+          "have"
+        ]
+      ]
+    },
+    {
+      "tag": "Danh từ · a / an và số nhiều",
+      "note": "Với một danh từ đếm được số ít, con cần a hoặc an: a pen, an eraser. Với số lượng từ hai trở lên, danh từ thường thêm -s: two rulers, five notebooks. Số lượng và danh từ phải khớp nhau.",
+      "example": "She has an eraser.",
+      "formula": [
+        [
+          "has",
+          "+",
+          "a pen / an eraser"
+        ],
+        [
+          "have",
+          "+",
+          "two rulers"
+        ]
+      ]
+    },
+    {
+      "tag": "Phát âm · has / have / doesn't",
+      "note": "Has kết thúc bằng âm /z/; have kết thúc bằng /v/. Trong doesn't, con đọc liền cả từ rồi chuyển sang have. Không bỏ âm cuối vì người nghe cần các âm này để nhận ra đúng dạng động từ.",
+      "example": "He doesn't have a ruler.",
+      "formula": [
+        [
+          "has",
+          "→",
+          "/hæz/"
+        ],
+        [
+          "have",
+          "→",
+          "/hæv/"
+        ]
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "discover-1-grammar-u9-1-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Have · I / you / we / they",
+      "title": "Have · I / you / we / they",
+      "answer": "have",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "to have"
+      ],
+      "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We ___ five notebooks.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u9-1-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Has · He / she / it",
+      "title": "Has · He / she / it",
+      "answer": "has",
+      "options": [
+        "have",
+        "having",
+        "to have",
+        "has"
+      ],
+      "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He ___ a backpack.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u9-1-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · don't have",
+      "title": "Phủ định · don't have",
+      "answer": "have",
+      "options": [
+        "having",
+        "had",
+        "have",
+        "has"
+      ],
+      "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They don't ___ ten rulers.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u9-1-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · doesn't have",
+      "title": "Phủ định · doesn't have",
+      "answer": "have",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ],
+      "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "difficulty": "easy",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She doesn't ___ the answer.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap"
+    },
+    {
+      "id": "discover-1-grammar-u9-2-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Have · I / you / we / they",
+      "title": "Have · I / you / we / they",
+      "answer": "have",
+      "options": [
+        "has",
+        "having",
+        "to have",
+        "have"
+      ],
+      "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We [has] five notebooks.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u9-2-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Has · He / she / it",
+      "title": "Has · He / she / it",
+      "answer": "has",
+      "options": [
+        "having",
+        "to have",
+        "has",
+        "have"
+      ],
+      "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He [have] a backpack.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u9-2-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · don't have",
+      "title": "Phủ định · don't have",
+      "answer": "have",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ],
+      "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They don't [has] ten rulers.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u9-2-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · doesn't have",
+      "title": "Phủ định · doesn't have",
+      "answer": "have",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She doesn't [has] the answer.",
+      "prompt": "Replace the words in brackets.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the correction."
+    },
+    {
+      "id": "discover-1-grammar-u9-3-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Have · I / you / we / they",
+      "title": "Have · I / you / we / they",
+      "answer": "have",
+      "options": [
+        "having",
+        "to have",
+        "have",
+        "has"
+      ],
+      "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "We ___ five notebooks.\nWord bank: having · to have · have · has",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u9-3-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Has · He / she / it",
+      "title": "Has · He / she / it",
+      "answer": "has",
+      "options": [
+        "to have",
+        "has",
+        "have",
+        "having"
+      ],
+      "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "He ___ a backpack.\nWord bank: to have · has · have · having",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u9-3-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · don't have",
+      "title": "Phủ định · don't have",
+      "answer": "have",
+      "options": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "They don't ___ ten rulers.\nWord bank: have · has · having · had",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u9-3-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · doesn't have",
+      "title": "Phủ định · doesn't have",
+      "answer": "have",
+      "options": [
+        "has",
+        "having",
+        "had",
+        "have"
+      ],
+      "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "difficulty": "medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "She doesn't ___ the answer.\nWord bank: has · having · had · have",
+      "prompt": "Write the missing words.",
+      "inputMode": "typing",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Use the word bank. Write the missing words."
+    },
+    {
+      "id": "discover-1-grammar-u9-4-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Have · I / you / we / they",
+      "title": "Have · I / you / we / they",
+      "answer": "We have → five → notebooks.",
+      "options": [
+        "We have → five → notebooks.",
+        "five → notebooks. → We have",
+        "notebooks. → We have → five",
+        "notebooks. → five → We have"
+      ],
+      "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "five",
+        "notebooks.",
+        "We have"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u9-4-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Has · He / she / it",
+      "title": "Has · He / she / it",
+      "answer": "He has → a → backpack.",
+      "options": [
+        "He has → a → backpack.",
+        "a → backpack. → He has",
+        "backpack. → He has → a",
+        "backpack. → a → He has"
+      ],
+      "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "a",
+        "backpack.",
+        "He has"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u9-4-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · don't have",
+      "title": "Phủ định · don't have",
+      "answer": "They don't → have ten → rulers.",
+      "options": [
+        "They don't → have ten → rulers.",
+        "have ten → rulers. → They don't",
+        "rulers. → They don't → have ten",
+        "rulers. → have ten → They don't"
+      ],
+      "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "have ten",
+        "rulers.",
+        "They don't"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u9-4-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · doesn't have",
+      "title": "Phủ định · doesn't have",
+      "answer": "She doesn't → have the → answer.",
+      "options": [
+        "She doesn't → have the → answer.",
+        "have the → answer. → She doesn't",
+        "answer. → She doesn't → have the",
+        "answer. → have the → She doesn't"
+      ],
+      "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Build a complete sentence.",
+      "prompt": "Put the words in order.",
+      "partType": "build",
+      "orderWords": [
+        "have the",
+        "answer.",
+        "She doesn't"
+      ]
+    },
+    {
+      "id": "discover-1-grammar-u9-5-1",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Have · I / you / we / they",
+      "title": "Have · I / you / we / they",
+      "answer": "We have five notebooks.",
+      "options": [
+        "We have five notebooks.",
+        "We has five notebooks.",
+        "We having five notebooks.",
+        "We to have five notebooks."
+      ],
+      "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Have · I / you / we / they",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u9-5-2",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Has · He / she / it",
+      "title": "Has · He / she / it",
+      "answer": "He has a backpack.",
+      "options": [
+        "He have a backpack.",
+        "He having a backpack.",
+        "He to have a backpack.",
+        "He has a backpack."
+      ],
+      "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "why": "He has a backpack.\nHave là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Has · He / she / it",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u9-5-3",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · don't have",
+      "title": "Phủ định · don't have",
+      "answer": "They don't have ten rulers.",
+      "options": [
+        "They don't having ten rulers.",
+        "They don't had ten rulers.",
+        "They don't have ten rulers.",
+        "They don't has ten rulers."
+      ],
+      "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Phủ định · don't have",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    },
+    {
+      "id": "discover-1-grammar-u9-5-4",
+      "type": "choice",
+      "unit": 9,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://mstrangtrieueducation-droid.github.io/rdmgxs7/",
+        "unit": 9,
+        "kind": "class-grammar-model"
+      },
+      "focus": "Phủ định · doesn't have",
+      "title": "Phủ định · doesn't have",
+      "answer": "She doesn't have the answer.",
+      "options": [
+        "She doesn't had the answer.",
+        "She doesn't have the answer.",
+        "She doesn't has the answer.",
+        "She doesn't having the answer."
+      ],
+      "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
+      "difficulty": "advanced",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Grammar focus: Phủ định · doesn't have",
+      "prompt": "Which sentence follows the rule?",
+      "partType": "readChoose",
+      "partTitle": "Apply the Rule",
+      "partInstruction": "Choose the sentence that follows the rule."
+    }
+  ]
+}
