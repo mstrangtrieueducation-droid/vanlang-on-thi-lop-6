@@ -10,10 +10,12 @@
  const wrap=(body,w=600,h=240)=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="Question illustration">${body}</svg>`;
  let artContext=null;
  const artwork=()=>typeof module==='object'?require('./pictures/family-cards/3d-v3/manifest.json'):window.FamilyArtwork;
- function atlasSvg(p){if(!p)return '';const w=p.width/p.columns,h=p.height/p.rows,x=p.cell%p.columns*w,y=Math.floor(p.cell/p.columns)*h;return `<svg x="0" y="0" width="100" height="100" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${esc(p.atlas)}" x="0" y="0" width="${p.width}" height="${p.height}"/></svg>`;}
+ function atlasSvg(p){if(!p)return '';const individual=typeof window!=='undefined'&&window.TitiImages?.source(p);if(individual)return '<image href="'+esc(individual)+'" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>';const w=p.width/p.columns,h=p.height/p.rows,x=p.cell%p.columns*w,y=Math.floor(p.cell/p.columns)*h;return `<svg x="0" y="0" width="100" height="100" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${esc(p.atlas)}" x="0" y="0" width="${p.width}" height="${p.height}"/></svg>`;}
  function artIcon(name){if(!artContext)return null;const lib=artwork();return lib?.items[`${artContext.book}:${artContext.unit}:${name}`]||lib?.icons[name];}
  function artPerson(p){if(!artContext)return null;const lib=artwork(),gender=p.gender||'boy';let key;
-  if(p.job)key=p.job;
+  if(p.age==='elder')key=gender==='girl'?'grandma':'grandpa';
+  else if(p.age==='adult')key=gender==='girl'?'woman':'man';
+  else if(p.job)key=p.job;
   else if(p.mood)key=p.mood+'-'+gender;
   else if(p.wear)key=p.wear+'-'+gender;
   else if(p.hair==='curly'&&p.hairColor==='#e5b75b')key='curly-blond-boy';
@@ -81,7 +83,7 @@
  }
  const place=(body,x,y,w=100,h=w)=>`<svg x="${x}" y="${y}" width="${w}" height="${h}" viewBox="0 0 100 100">${body}</svg>`;
  function single(p){return p.kind==='person'?personSvg(p):iconSvg(p.name);}
- function smallRoom(name,people=[]){const furnishing={'bedroom':['bed','cupboard'],'bathroom':['bathtub','toilet'],'kitchen':['cooking','fridge'],'living room':['couch and lamp','television'],'dining room':['table','chair'],'upstairs':['upstairs']}[name];if(!furnishing)throw Error('Unknown room '+name);return rect(0,0,260,180,'#e5f5e4',12)+rect(0,135,260,45,'#f4d9ad',5)+furnishing.map((n,i)=>place(iconSvg(n),15+i*120,45,105,100)).join('')+people.map((n,i)=>place(personSvg({gender:/Mum|Grandma|Mia/.test(n)?'girl':'boy',age:/Grand/.test(n)?'elder':'adult'}),25+i*70,65,65,85)+text(n,57+i*70,167,13)).join('');}
+ function smallRoom(name,people=[]){const furnishing={'bedroom':['bed','cupboard'],'bathroom':['bathtub','toilet'],'kitchen':['cooking','fridge'],'living room':['couch and lamp','television'],'dining room':['table','chair'],'upstairs':['upstairs']}[name];if(!furnishing)throw Error('Unknown room '+name);return rect(0,0,260,180,'#e5f5e4',12)+rect(0,135,260,45,'#f4d9ad',5)+furnishing.map((n,i)=>place(iconSvg(n),15+i*120,45,105,100)).join('')+people.map((n,i)=>place(personSvg({gender:/Mum|Grandma|Mia/.test(n)?'girl':'boy',age:/Grand/.test(n)?'elder':/^(Mum|Mom|Dad|Mother|Father)$/.test(n)?'adult':'child'}),25+i*70,65,65,85)+text(n,57+i*70,167,13)).join('');}
  function visual(v){if(!v)return '';let out='';
   if(artContext&&['cards','labelled'].includes(v.kind))return `<div class="test-3d-strip" style="--picture-count:${v.items.length}">${v.items.map(p=>{const drawing=p.kind==='desk'?atlasSvg(artIcon(p.tidy?'tidy-desk':'untidy-desk')||artwork().people['tidy-desk']):['help','mischief'].includes(p.kind)?atlasSvg(artIcon(p.kind)):single(p);return `<figure>${wrap(drawing,100,100)}${p.label?`<figcaption>${esc(p.label)}</figcaption>`:''}</figure>`;}).join('')}</div>`;
   if(artContext&&v.kind==='body'&&artIcon(v.highlight))return wrap(place(atlasSvg(artIcon(v.highlight)),185,0,230,230));
@@ -104,7 +106,11 @@
    case 'size':return wrap(v.subjects.map((s,i)=>place(s==='girl'?personSvg({gender:'girl'}):iconSvg(s),100+i*220,v.size==='small'?100:8,v.size==='small'?100:200,v.size==='small'?110:220)).join('')+(v.size==='small'?place(custom('table'),260,30,200,190):''));
    case 'ability':return wrap(place(v.name==='boy'||v.name==='girl'?personSvg({gender:v.name}):iconSvg(v.name),170,15,160,205)+place(iconSvg(v.action),360,10,100,130)+circle(415,178,30,v.can?'#a4dfb4':'#f5b9ad')+text(v.can?'✓':'×',415,191,40));
    case 'abilityTable':case 'schedule':return `<table class="source-fact-table"><tbody>${v.rows.map(([person,action,yes])=>`<tr><th>${esc(person)}</th><td>${esc(action)}</td><td class="${yes?'fact-yes':'fact-no'}">${yes?'✓':'×'}</td></tr>`).join('')}</tbody></table>`;
-   case 'distance':{const x=v.near?180:430;return wrap(place(personSvg({gender:'girl'}),20,20,150,210)+line(145,110,x-8,110,'#7b9d9c',3)+Array.from({length:v.count},(_,i)=>place(iconSvg(v.name),x+i*30,85-i*10,95,110)).join(''));}
+   case 'distance':{
+    const count=Math.max(1,Number(v.count)||1),size=Math.min(v.near?102:70,(v.near?365:220)/count-10),start=v.near?165:375,baseline=v.near?217:120;
+    const floor='<path d="M14 225H588L490 90H300Z" fill="#e7eff4"/><path d="M145 225 350 90M300 225 410 90M460 225 470 90" stroke="#c9d8e0" stroke-width="2"/>';
+    return wrap(floor+place(personSvg({gender:'girl'}),12,40,150,185)+line(140,133,start-8,baseline-size*.55,'#658999',2)+Array.from({length:count},(_,i)=>'<g data-counted-object="'+(i+1)+'">'+place(iconSvg(v.name),start+i*(size+12),baseline-size,size,size)+'</g>').join(''));
+   }
    case 'ownership':return wrap(place(personSvg({gender:'boy',speaking:v.ours}),45,10,140,220)+place(personSvg({gender:'girl',speaking:v.ours}),420,10,140,220)+place(iconSvg(v.name),235,55,130,140)+(v.ours?'':text('↗',170,90,42)));
    case 'daytime':{const night=v.time==='night',evening=v.time==='evening';return wrap(rect(20,5,560,220,night?'#344367':evening?'#eaa385':'#aee5f2',25)+circle(v.time==='afternoon'?310:480,v.time==='afternoon'?42:130,30,night?'#fff2bb':'#ffcf5c')+rect(20,170,560,55,night?'#648378':'#8dc8a5',20)+place(iconSvg('house'),170,80,190,140)+(night?[70,160,240,390].map(x=>text('✦',x,45,16)).join(''):''));}
    case 'compare':{const leftSize=v.smaller?90:v.short?130:210,rightSize=v.tall?140:210;return wrap(place(single(v.left),100,225-leftSize,leftSize,leftSize)+place(single(v.right),340,225-rightSize,rightSize,rightSize)+(v.left.label?text(v.left.label,160,238,14):'')+(v.right.label?text(v.right.label,430,238,14):''));}

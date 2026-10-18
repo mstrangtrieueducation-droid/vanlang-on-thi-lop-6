@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-18",
+  "checks": {
+    "unitTests": 173,
+    "fighter": {
+      "viewports": [
+        [
+          390,
+          844
+        ],
+        [
+          844,
+          390
+        ]
+      ],
+      "skills": [
+        "core",
+        "logic",
+        "clasp",
+        "paraphrase",
+        "headline",
+        "family"
+      ],
+      "completedScore": "6/6 in both orientations",
+      "nativeSizedText": true,
+      "reviewWorks": true
+    },
+    "sharedPicture": {
+      "viewports": [
+        [
+          1366,
+          850
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          844,
+          390
+        ]
+      ],
+      "discover": "Pinned bounds unchanged while question panel scrolls; zoom dialog works",
+      "familyAndFriends": "Shared house illustration in separate row, no horizontal overflow"
+    },
+    "dialogue": {
+      "files": 1097,
+      "decoded": 1097,
+      "missing": 0,
+      "liveSequence": "Billy → Rosy, speaker label updated",
+      "originalTestAudio": "Unchanged"
+    },
+    "globes": {
+      "count": 12,
+      "resolution": [
+        1254,
+        1254
+      ],
+      "oldAdultOverlays": 0,
+      "uniqueAnimalSets": true
+    },
+    "sceneSemantics": "Near/far object counts 1–4 and house child/adult/elder identity tests pass"
+  },
+  "limits": [
+    "Phone checks use browser viewport emulation; no physical iPhone tested.",
+    "Character voices are synthetic performances, with roles selected from source annotations.",
+    "Globe assets are 3D-style illustrations with existing idle animation, not live rigged 3D models.",
+    "Known scene errors were corrected and key references visually checked; this does not assert a new visual audit of all 598 test illustrations."
+  ]
+}

@@ -16,7 +16,7 @@
     <p class="preview-note">Bản duyệt toàn bộ nội dung luyện tập · Tiến độ thử lưu riêng trên máy, không cộng điểm học sinh.</p>
     <nav class="preview-units" aria-label="Chọn Unit">${Array.from({length:18},(_,i)=>`<a href="${esc(route(id,null,i+1))}" ${unit===i+1?'aria-current="page"':''}>Unit ${i+1}</a>`).join('')}</nav>
     <section class="preview-levels" aria-label="Các bài của Unit ${unit}">${shown.map(l=>`<a class="preview-level ${l.kind==='unit-review'?'checkpoint':''}" href="${esc(route(id,l.id,unit))}"><span class="preview-number">${l.kind==='unit-review'?'🏆':l.session}</span><div><small>${l.kind==='unit-review'?'UNIT REVIEW':'TIẾT '+l.session} · ${l.questionCount} CÂU</small><h2>${esc(l.title)}</h2><p>${l.skills.map(skill=>skills[skill]||skill).join(' · ')}</p></div><b>Vào thử thách →</b></a>`).join('')}</section>
-    <details class="preview-tests"><summary>Đề kiểm tra gốc · 9 bài / sách</summary><p>Các liên kết này mở bài kiểm tra hiện có của trung tâm. Phần chuyển đổi tranh và giao diện kiểm tra mới chưa hoàn tất.</p><nav>${(course.officialTests||[]).map(t=>`<a href="${esc(t.url)}" target="_blank" rel="noopener noreferrer">Progress Test ${t.test} · Units ${t.test*2-1}–${t.test*2} ↗</a>`).join('')}</nav></details>
+    <details class="preview-tests"><summary>Đề kiểm tra gốc · 9 bài / sách</summary><p>Mở bản kiểm tra với tranh màu 3D và âm thanh gốc. Giữ nguyên dạng bài và cách tính điểm.</p><nav>${(course.officialTests||[]).map(t=>`<a href="../discover-exam/?review=1&course=${id}&test=${t.test}">Progress Test ${t.test} · Units ${t.test*2-1}–${t.test*2} ↗</a>`).join('')}</nav></details>
     <p class="preview-foot">Nội dung luyện tập do trung tâm biên soạn từ Program, Class Resources và Student Book. Các tiết Word Study có thể giới thiệu từ của Unit kế tiếp theo Program; bài Unit Review chỉ ôn Unit vừa học.</p>`;
    return;
   }
@@ -30,6 +30,6 @@
   window.ADVENTURE={exam:false,n:course.lessons.findIndex(l=>l.id===lesson.id)+1,week:course.name,name:lesson.title,en:lesson.kind==='unit-review'?'Unit Review':'Session '+lesson.session,theme:'forest',icon:'🌟',reward:'Discover Explorer',goal:'Listen, think and explore with Titi.',topics:'Review · No leaderboard points',kind:lesson.kind,unit:lesson.unit,items:lesson.items};
   document.documentElement.dataset.courseWorld=id;document.documentElement.dataset.courseRoad=window.CourseWorld?.kind({id})||'city';document.documentElement.style.setProperty('--course-world-art',`url("../vu-tru/assets/${id}.webp")`);
   const back=document.querySelector('.flow-boot button');if(back)back.onclick=()=>{window.FlowBoot.cancel();location.assign(route(id,null,lesson.unit));};
-  await script('voice.js?v=program-2');await script('../game-kit/adventures/gameplay.js?v=parts-2');await script('../game-kit/adventures/engine.js?v=release-20261018a');
+  await script('voice.js?v=program-2');await script('../game-kit/adventures/gameplay.js?v=parts-2');await script('../game-kit/adventures/dialogue-voice.js?v=cast-1');await window.DialogueVoice.install(id);await script('../game-kit/adventures/engine.js?v=cast-1');
  }catch(error){window.FlowBoot?.cancel();host.className='preview-home';host.innerHTML=`<h1>Chưa mở được bài thử</h1><p>Tải lại trang để thử lại.</p><a href="${esc(route(id))}">Về danh sách bài</a>`;console.error('Discover preview failed',error);}
 })();

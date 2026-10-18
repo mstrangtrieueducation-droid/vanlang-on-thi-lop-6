@@ -1,0 +1,61 @@
+/* Readable native-size UI on phones/tablets, never a scaled-down desktop canvas. */
+html[data-fighter-fluid=true] #adventure{display:grid;grid-template-rows:auto minmax(0,1fr) auto;border-radius:0;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+html[data-fighter-fluid=true] .topbar{height:auto;min-height:52px;padding:6px 10px;gap:8px;flex-wrap:wrap}
+html[data-fighter-fluid=true] .brand{font-size:9px;letter-spacing:.4px;min-width:0}
+html[data-fighter-fluid=true] .brand strong{font-size:17px;letter-spacing:.2px}
+html[data-fighter-fluid=true] .icon,html[data-fighter-fluid=true] .back{min-height:44px;min-width:44px;padding:9px;font-size:14px}
+html[data-fighter-fluid=true] .score{font-size:14px;padding:9px}
+html[data-fighter-fluid=true] .bottom{height:auto;min-height:24px;padding:5px 10px;font-size:10px;gap:8px}
+html[data-fighter-fluid=true] .screen{height:auto;min-height:0;padding:10px 12px;overflow:hidden}
+html[data-fighter-fluid=true] .run-top{gap:8px;margin-bottom:8px}
+html[data-fighter-fluid=true] .run-top h2{font-size:18px}
+html[data-fighter-fluid=true] .run-top p{font-size:12px}
+html[data-fighter-fluid=true] .time{min-width:65px;font-size:17px;padding:8px}
+html[data-fighter-fluid=true] .question{min-height:0;max-height:25dvh;margin-bottom:8px;overflow:auto;overscroll-behavior:contain}
+html[data-fighter-fluid=true] .question h1{font-size:clamp(18px,3vw,23px);line-height:1.4;margin:3px 0 7px;overflow-wrap:anywhere}
+html[data-fighter-fluid=true] .question p{font-size:14px;line-height:1.45;margin:3px 0}
+html[data-fighter-fluid=true] .playarea{overflow:auto;overscroll-behavior:contain;min-height:0;align-items:stretch;justify-content:flex-start;padding:4px 3px 10px;scrollbar-gutter:stable}
+html[data-fighter-fluid=true] .passage{flex:none;max-height:none;width:100%;padding:12px;font-size:18px;line-height:2;overflow:visible}
+html[data-fighter-fluid=true] .word-token{min-height:40px;padding:3px 5px;font-size:18px;line-height:1.5}
+html[data-fighter-fluid=true] .choices{max-width:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding-bottom:5px;flex:none}
+html[data-fighter-fluid=true] .option{min-width:0;max-width:none;min-height:48px;padding:12px 10px;font-size:17px;overflow-wrap:anywhere;animation:none}
+html[data-fighter-fluid=true] .slot-row{max-width:none;gap:9px;display:grid;grid-template-columns:1fr 1fr}
+html[data-fighter-fluid=true] .slot-row.slot-first .slot{grid-column:1;grid-row:1}
+html[data-fighter-fluid=true] .magnet-head,html[data-fighter-fluid=true] .slot{min-width:0;padding:12px;font-size:18px;min-height:62px;overflow-wrap:anywhere}
+html[data-fighter-fluid=true] .core-chunks{padding:12px;font-size:18px;line-height:2.1}
+html[data-fighter-fluid=true] .core-chunks button{min-height:44px;padding:5px 7px;line-height:1.5}
+html[data-fighter-fluid=true] .academic-check{min-height:44px;font-size:15px;padding:10px 18px}
+html[data-fighter-fluid=true] .academic-origin{font-size:11px;line-height:1.4}
+html[data-fighter-fluid=true] .academic-passage button{font-size:16px;line-height:1.55;min-height:44px;padding:9px}
+html[data-fighter-fluid=true] .heading-options button,html[data-fighter-fluid=true] .paraphrase-grid button{font-size:15px;line-height:1.5;min-height:48px;padding:10px;overflow-wrap:anywhere}
+html[data-fighter-fluid=true] .paraphrase-grid{gap:10px;grid-template-columns:1fr 1fr}
+html[data-fighter-fluid=true] .context-drawer{font-size:15px;line-height:1.5}
+html[data-fighter-fluid=true] .context-drawer summary{min-height:44px;padding:8px 0;cursor:pointer}
+html[data-fighter-fluid=true] .logic-pair{gap:8px;grid-template-columns:1fr 110px 1fr}
+html[data-fighter-fluid=true] .logic-pair p{font-size:16px;line-height:1.55;padding:12px}
+html[data-fighter-fluid=true] .feedback{font-size:14px!important;line-height:1.5!important;max-height:22dvh;min-height:40px;padding:8px 10px;margin-top:6px}
+html[data-fighter-fluid=true] .home{height:auto;min-height:0;padding:12px;gap:12px;grid-template-columns:220px minmax(0,1fr);overflow:auto}
+html[data-fighter-fluid=true] .side{min-height:120px}
+html[data-fighter-fluid=true] .unit-list{max-height:40dvh}
+html[data-fighter-fluid=true] .home>div{min-width:0}
+html[data-fighter-fluid=true] .intro{padding-right:85px}
+html[data-fighter-fluid=true] .intro h1{font-size:24px}
+html[data-fighter-fluid=true] .titi{width:85px;height:85px}
+html[data-fighter-fluid=true] .modes{gap:9px}
+html[data-fighter-fluid=true] .mode{min-height:140px;padding:12px 10px}
+html[data-fighter-fluid=true] .mode small{font-size:13px;line-height:1.4}
+html[data-fighter-fluid=true] .mini-actions{flex-wrap:wrap}
+html[data-fighter-fluid=true] .mini-actions button{min-height:44px;font-size:14px}
+html[data-fighter-fluid=true] .result,html[data-fighter-fluid=true] .countdown{height:auto;min-height:0;overflow:auto;padding:18px 12px}
+html[data-fighter-fluid=true] .result{justify-content:flex-start;gap:14px}
+html[data-fighter-fluid=true] .result h1{font-size:26px;text-align:center}
+html[data-fighter-fluid=true] .metrics{gap:7px;width:100%;justify-content:center}
+html[data-fighter-fluid=true] .metrics div{padding:12px;min-width:0;flex:1}
+html[data-fighter-fluid=true] .metrics b{font-size:23px}
+html[data-fighter-fluid=true] .modal{padding:12px}
+html[data-fighter-fluid=true] .modal section{width:100%;max-height:100%;padding:16px}
+html[data-fighter-fluid=true] .modal .close{position:sticky;top:0;z-index:2;background:#253b60}
+html[data-fighter-fluid=true] .word-card,html[data-fighter-fluid=true] .reasoning-list p{font-size:16px;line-height:1.55}
+html[data-fighter-fluid=true] #rotate{display:none}
+@media(max-width:600px){html[data-fighter-fluid=true] .home{grid-template-columns:1fr;display:block}html[data-fighter-fluid=true] .side{margin-bottom:14px}html[data-fighter-fluid=true] .side h2{margin:10px 14px}html[data-fighter-fluid=true] .unit-list{max-height:130px}html[data-fighter-fluid=true] .modes{grid-template-columns:1fr}html[data-fighter-fluid=true] .mode{min-height:95px}html[data-fighter-fluid=true] .mode i{float:left;margin-right:12px}html[data-fighter-fluid=true] .headline-grid{grid-template-columns:1fr}html[data-fighter-fluid=true] .logic-pair{grid-template-columns:1fr}html[data-fighter-fluid=true] .logic-pair .slot{min-height:50px}html[data-fighter-fluid=true] .vault-list{grid-template-columns:1fr}html[data-fighter-fluid=true] .brand{max-width:140px}}
+@media(max-height:500px){html[data-fighter-fluid=true] .topbar{min-height:44px;padding:3px 10px}html[data-fighter-fluid=true] .brand{font-size:8px}html[data-fighter-fluid=true] .screen{padding:5px 10px}html[data-fighter-fluid=true] .question{max-height:23dvh}html[data-fighter-fluid=true] .run-top{margin-bottom:3px}html[data-fighter-fluid=true] .question h1{font-size:18px;margin:2px}html[data-fighter-fluid=true] .question p{font-size:13px}html[data-fighter-fluid=true] .feedback{min-height:30px;max-height:18dvh}html[data-fighter-fluid=true] .bottom{display:none}html[data-fighter-fluid=true] #adventure{grid-template-rows:auto minmax(0,1fr)}html[data-fighter-fluid=true] .choices{grid-template-columns:repeat(3,minmax(0,1fr))}}

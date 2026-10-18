@@ -2,7 +2,11 @@
 const $=s=>document.querySelector(s),app=$('#adventure'),C=FighterCore,D=FIGHTER_DATA,p=new URLSearchParams(location.search),SC=window.StudentContext;
 const meaning=w=>String(w.meaning||'').split(/\s+[·•]\s+/)[0].trim();
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function fit(){const v=window.visualViewport,w=v?.width||innerWidth,h=v?.height||innerHeight,scale=Math.min(w/960,h/540);Object.assign($('#stage').style,{transform:`scale(${scale})`,left:((w-960*scale)/2+(v?.offsetLeft||0))+'px',top:((h-540*scale)/2+(v?.offsetTop||0))+'px'});}fit();addEventListener('resize',fit);visualViewport?.addEventListener('resize',fit);
+function fit(){
+ const v=window.visualViewport,w=v?.width||innerWidth,h=v?.height||innerHeight,fluid=w<1000||h<600,scale=fluid?1:Math.min(w/960,h/540);
+ document.documentElement.dataset.fighterFluid=String(fluid);
+ Object.assign($('#stage').style,{width:fluid?w+'px':'960px',height:fluid?h+'px':'540px',transform:fluid?'none':`scale(${scale})`,left:((fluid?0:(w-960*scale)/2)+(v?.offsetLeft||0))+'px',top:((fluid?0:(h-540*scale)/2)+(v?.offsetTop||0))+'px'});
+}fit();addEventListener('resize',fit);window.visualViewport?.addEventListener('resize',fit);window.visualViewport?.addEventListener('scroll',fit);
 let unit=D.units.find(u=>u.originalLesson===p.get('lesson')||u.id===p.get('unit'))||D.units.find(u=>u.track===(p.get('track')||'Reading 1'))||D.units[0];
 window.GAME_CONFIG={id:'fighter-word-quest',courseId:'fighter',lessonId:unit.originalLesson,storageKey:'fighter-word-quest-v1'};
 await new Promise((r,j)=>{const s=document.createElement('script');s.src='../game-kit/profile.js?v=cloud-1';s.onload=r;s.onerror=j;document.body.append(s);});
