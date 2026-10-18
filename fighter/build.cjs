@@ -16,8 +16,8 @@ function build(source){
   if(words.length===7&&track==='Reading 3'&&unit===11){const parent=words.find(w=>w.word==='material'),text=parent.example,m=occurrence(text,'materialism');words.push({...parent,id:id+'-materialism',word:'materialism',pos:'n',meaning:'lối sống hoặc quan niệm quá coi trọng tiền bạc, của cải và tiện nghi vật chất',collocation:[],excerpt:text,excerptOrigin:'example',excerptTitle:'Source family example',clue:{start:m.index,end:m.index+m[0].length,answer:m[0]},forms:[{word:'materialism',pos:'n'},...parent.forms],familyQuestion:{sentence:text.replace(/materialism/,'___'),answer:'materialism',pos:'n'},sourceIndex:parent.sourceIndex});}
   // Short source patterns are useful for clasp practice; never relabel arbitrary n-grams as collocations.
   for(const w of words){if(!w.collocation.length){const e=u.entries[w.sourceIndex];w.collocation=[...new Set((e?.sourceTerm||e?.term||'').replace(/\([^)]*\)/g,'').split(/[·~#><]/).map(s=>s.replace(/\b(?:sb|sth|st)\b/g,'').replace(/\s+/g,' ').trim()).filter(s=>/^[A-Za-z]+(?: [A-Za-z]+){1,5}$/.test(s)&&! /\b(sb|sth|somebody|something|V)\b/.test(s)))];w.collocationOrigin='source-pattern';}else w.collocationOrigin='source-collocation';}
-  return {id,originalLesson,track,unit,title:u.title,source:u.source,sourceFiles:u.sourceFiles,words};
- });return {version:1,fetchedAt:source.fetchedAt,units};
+  const result={id,originalLesson,track,unit,title:u.title,source:u.source,sourceFiles:u.sourceFiles,words};result.academic=require('./academic-build.cjs')(result,u);return result;
+ });return {version:2,fetchedAt:source.fetchedAt,units};
 }
 if(require.main===module){const source=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));const data=build(source);fs.writeFileSync(path.join(__dirname,'data.js'),'/* Source snapshot: '+data.fetchedAt+' */\n(function(r){const data='+JSON.stringify(data)+';if(typeof module===\'object\')module.exports=data;else r.FIGHTER_DATA=data;})(globalThis);\n');console.log(data.units.length+' Units / '+data.units.reduce((n,u)=>n+u.words.length,0)+' focus entries');}
 module.exports=build;
