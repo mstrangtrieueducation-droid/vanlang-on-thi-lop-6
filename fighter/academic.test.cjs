@@ -1,32 +1,21 @@
-const {test}=require('node:test'),assert=require('node:assert/strict');
-const C=require('./core.js'),D=require('./data.js'),families=require('./word-families.cjs');
-const skills=['core','logic','clasp','paraphrase','headline','family'];
-test('Every Unit offers all six academic skills; Boss covers all six and Unit rotates three or four',()=>{
- for(const u of D.units){
-  assert.equal(C.start(u,[u],'boss').tasks.length,10,u.id+' when only this Unit is unlocked');
-  const pool=C.pool(u,D.units);for(const k of skills)assert.ok(pool.some(t=>t.kind===k),u.id+' '+k);
-  for(let i=0;i<3;i++){const boss=C.start(u,D.units,'boss');assert.equal(boss.tasks.length,10);for(const k of skills)assert.ok(boss.tasks.some(t=>t.kind===k),u.id+' '+k);}
-  const kinds=new Set(C.start(u,D.units,'unit').tasks.map(t=>t.kind));assert.ok(kinds.size>=3&&kinds.size<=4,u.id);
- }
+const {test}=require('node:test'),assert=require('node:assert/strict'),D=require('./data.js'),source=require('./source-snapshot.json'),authored=require('./authored-contexts.json');
+test('Primary headword never becomes an unrelated family or antonym entry',()=>{const u=D.units.find(u=>u.track==='Reading 3'&&u.unit===1);assert.equal(u.words[1].word,'establish');assert.equal(u.words[1].pos,'verb');assert.equal(u.words[2].word,'victory');assert.equal(u.words[2].pos,'noun');assert.ok(!u.words[2].forms.some(f=>f.word==='defeat'));});
+test('Full source corpus preserved with explicit nullable fields and unique task IDs',()=>{
+ assert.equal(D.units.reduce((n,u)=>n+u.words.length,0),1930);const ids=new Set();
+ for(const u of D.units){const raw=source.units.find(x=>x.track===u.track&&x.unit===u.unit);assert.equal(raw.entries.length,u.words.length);for(const w of u.words){for(const field of ['unit','word','pos','ipa','meaning','collocation','example','family'])assert.ok(field in w,w.id+' '+field);assert.deepEqual(Object.keys(w.family),['noun','verb','adj','adv']);assert.equal(w.sourceIndex,u.words.indexOf(w));}for(const t of u.tasks){assert.ok(!ids.has(t.id),t.id);ids.add(t.id);assert.equal(t.word,u.words.find(w=>w.id===t.wordId));assert.ok(t.explanation);assert.ok(t.source);}}
 });
-test('Core tasks retain complete subject, verb and complement; headlines require evidence as well as heading',()=>{
- for(const u of D.units){
-  const core=u.academic.find(t=>t.kind==='core'),count=core.sentence.split(/\s+/).length;
-  assert.ok(count>=25&&count<=40,u.id+' '+count);assert.equal(core.chunks.filter(t=>!t.remove).map(t=>t.text).join(' ').replace(/\.$/,''),core.simplified.replace(/\.$/,''));
-  assert.ok(C.check(core,core.answer.split(',').reverse().join(',')));assert.ok(!C.check(core,core.answer+',1'));assert.ok(!C.check(core,'0,0'));
-  const t=u.academic.find(t=>t.kind==='headline');assert.ok(t.paragraph.length>=4&&t.paragraph.length<=6);
-  assert.ok(C.check(t,t.answer));assert.ok(!C.check(t,JSON.stringify({heading:t.heading})));assert.ok(!C.check(t,JSON.stringify({heading:1,evidence:0})));
- }
+test('Every cloze reconstructs the exact source example, with distinct valid options',()=>{
+ for(const u of D.units)for(const t of u.tasks.filter(t=>t.sentence)){assert.equal(t.sentence.replace('___',t.answer),t.word.example,t.id);assert.equal(new Set(t.choices.map(x=>x.toLowerCase())).size,t.choices.length,t.id);assert.ok(t.choices.includes(t.answer));assert.ok(t.choices.length>=3&&t.choices.length<=4);}
 });
-test('Four same-root grammar choices and contextual paraphrases retain attributable source information',()=>{
- for(const u of D.units){const t=u.academic.find(t=>t.kind==='family');assert.ok(families.some(f=>JSON.stringify(f)===JSON.stringify(t.family)));assert.equal(new Set(t.choices.map(s=>s.toLowerCase())).size,4);assert.equal(t.choices.filter(v=>v===t.answer).length,1);assert.ok(t.sentence.includes('___'));assert.ok(t.origin);assert.ok(t.source);
-  const p=u.academic.find(t=>t.kind==='paraphrase');assert.equal(new Set(p.pairs.map(p=>p.left)).size,p.pairs.length);assert.equal(new Set(p.pairs.map(p=>p.right.toLowerCase())).size,p.pairs.length);for(const pair of p.pairs)assert.ok(p.paragraph.join(' ').includes(pair.right));assert.ok(C.check(p,p.answer.split('|').reverse().join('|')));assert.ok(!C.check(p,'0:0|0:0'));assert.match(p.origin,/not a textbook quotation/);
- }
+test('Word family options are from the same source row and reviewed root, never another word entry',()=>{
+ const roots=require('./word-families.cjs');for(const u of D.units)for(const t of u.tasks.filter(t=>t.kind==='family')){assert.ok(roots.some(root=>t.family.every(w=>root.includes(w))),t.id);assert.ok(t.word.forms.length>=3);for(const choice of t.choices.filter(c=>c!==t.answer))assert.ok(t.word.forms.some(f=>f.word===choice),t.id);assert.equal(t.origin,'Ví dụ gốc · Word Family');}
 });
-test('Arena restricts review to the latest three taught Units in the same book',()=>{
- const u=D.units.find(u=>u.track==='Reading 5'&&u.unit===12),allowed=D.units.filter(x=>x.track===u.track&&x.unit<=12);
- for(let n=0;n<15;n++){const r=C.start(u,allowed,'arena'),review=r.tasks.filter(t=>!u.words.some(w=>w.id===t.wordId));assert.equal(review.length,3);for(const t of review)assert.ok(allowed.filter(x=>x.unit>=9&&x.unit<12).some(x=>x.words.some(w=>w.id===t.wordId)));}
+test('Reading clues are verifiable source spans; authored contexts are labelled separately',()=>{
+ for(const u of D.units){const raw=source.units.find(x=>x.track===u.track&&x.unit===u.unit);for(const t of u.tasks.filter(t=>t.kind==='clue'||t.kind==='context')){assert.equal(t.excerpt.slice(t.start,t.end),t.answer,t.id);assert.ok(t.end>t.start);if(t.kind==='context')assert.equal(t.excerpt,t.word.example);else if(t.authored){assert.match(t.origin,/biên soạn/);assert.ok(authored[u.track+':'+u.unit].some(p=>p.text.includes(t.excerpt)));}else{assert.match(t.origin,/Trích nguyên văn/);const normal=s=>s.replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();assert.ok(Object.values(raw.passages).some(p=>(p.paragraphs||[]).some(p=>normal(p.text).includes(normal(t.excerpt)))),t.id);}}}
 });
-test('Academic errors do not incorrectly rescue an unrelated word; correction does not award first-try points',()=>{
- const u=D.units[0],r=C.start(u,D.units,'unit'),t=u.academic.find(t=>t.kind==='headline');r.tasks=[t];const vault={};C.updateVault(vault,C.answer(r,'wrong'));assert.deepEqual(vault,{});C.answer(r,t.answer);assert.equal(r.index,1);assert.equal(r.points,0);assert.equal(C.summary(r).correct,0);assert.deepEqual(C.summary(JSON.parse(JSON.stringify(r)),r.startedAt+1000),C.summary(r,r.startedAt+1000));
+test('Magnetic reconstruction uses an attested collocation, preserving repeated tiles',()=>{
+ for(const u of D.units)for(const t of u.tasks.filter(t=>t.kind==='magnet')){assert.ok(t.word.collocation.includes(t.answer),t.id);assert.equal(t.tiles.join(' '),t.answer);assert.ok(t.tiles.length>=2&&t.tiles.length<=6);}
+});
+test('Supplemental Guidelines test passages cover all Reading 1 and 2 Units without credentials',()=>{
+ for(const u of source.units.filter(u=>['Reading 1','Reading 2'].includes(u.track))){assert.ok(u.passages.test.paragraphs.length>=4);assert.match(u.passages.test.source,/docs.google.com/);}assert.ok(!/access=|token=|api_key=/i.test(JSON.stringify(source)));
 });
