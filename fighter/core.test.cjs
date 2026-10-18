@@ -27,3 +27,4 @@ test('Only taught predecessors with a passed current checkpoint unlock; teacher 
 test('Evidence requires the exact span; substring guesses and wrong locations fail',()=>{
  const t=D.units.flatMap(u=>u.tasks).find(t=>t.kind==='clue');assert.ok(C.check(t,{start:t.start,end:t.end}));assert.ok(!C.check(t,{start:t.start,end:t.end-1}));assert.ok(!C.check(t,{start:t.start+1,end:t.end}));
 });
+test('Repeated evidence and trailing punctuation are accepted without allowing partial words',()=>{const t={kind:'clue',excerpt:'Research helps. More research follows; researchers work.',answer:'research',start:0,end:8};assert.ok(C.check(t,{start:0,end:8}));assert.ok(C.check(t,{start:21,end:29}));assert.ok(!C.check(t,{start:39,end:47}));const p={kind:'context',excerpt:'That is possible.',answer:'possible',start:8,end:16};assert.ok(C.check(p,{start:8,end:17}));assert.ok(!C.check(p,{start:-1,end:17}));});
