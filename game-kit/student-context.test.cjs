@@ -28,7 +28,7 @@ test('Fighter books are independently gated; later taught games never imply earl
  p.lessons[reading[0].id]={stars:1};assert.equal(C.summary(c,p,ctx).next,c.lessons.indexOf(reading[1])+1);assert.equal(C.summary(c,p,ctx).limit,2);
 });
 test('Source evidence needs every lesson group; manual ceilings cannot grant untaught lessons',()=>{
- for(const c of catalog){for(const l of c.lessons){const entry=mapping[c.id]?.[l.id],groups=entry?.sourceGroups;if(entry?.pendingTeaching){assert.equal(groups.length,0);assert.ok(!P.limits([c],mapping,[],{[c.id]:999}).allowed[c.id].includes(l.id));continue;}assert.ok(groups?.length,l.id);for(const group of groups)for(const src of group){const u=new URL(src);assert.equal(u.search,'');assert.equal(u.hash,'');}
+ for(const c of catalog){for(const l of c.lessons){const entry=mapping[c.id]?.[l.id],groups=entry?.sourceGroups;if(entry?.programGroups){const rows=entry.programGroups.map(g=>({program:g.courseId,title:'Session '+g.session,completed:true}));assert.ok(P.limits([c],mapping,rows).allowed[c.id].includes(l.id),l.id);assert.ok(!P.limits([c],mapping,[],{[c.id]:999}).allowed[c.id].includes(l.id));continue;}if(entry?.pendingTeaching){assert.equal(groups.length,0);assert.ok(!P.limits([c],mapping,[],{[c.id]:999}).allowed[c.id].includes(l.id));continue;}assert.ok(groups?.length,l.id);for(const group of groups)for(const src of group){const u=new URL(src);assert.equal(u.search,'');assert.equal(u.hash,'');}
  const rows=groups.map(g=>({url:g[0]})),r=P.limits([c],mapping,rows);assert.ok(r.allowed[c.id].includes(l.id),l.id);
  }}
  const c=catalog.find(c=>c.id==='phonics-1'),groups=mapping[c.id][c.lessons[0].id].sourceGroups;
@@ -74,8 +74,8 @@ test('Current book follows classroom dates in either order; old course progress 
  for(const input of [rows,[...rows].reverse()]){const fresh=P.currentBooks(catalog,mapping,input);assert.deepEqual(fresh.books,{[now.id]:[]});assert.deepEqual(fresh.allowed[now.id],['starter']);assert.equal(fresh.allowed[old.id],undefined);const ctx=context(now,fresh.allowed[now.id],{books:fresh.books});assert.equal(C.visible(old,ctx).length,0);assert.equal(C.status(old,1,{lessons:{'game-1':{stars:3}}},ctx).open,false);}
 });
 test('Moving books on the first session never revives a completed old textbook or invents a full two-session game',()=>{
- const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['game-1'].sourceGroups[0][0]}}];
- const fresh=P.currentBooks(catalog,mapping,rows);assert.deepEqual(fresh.books,{'discover-2':[]});assert.equal(fresh.allowed[now.id].length,0);
+ const old=catalog.find(c=>c.id==='phonics-1'),now=catalog.find(c=>c.id==='discover-2'),rows=[...taughtRows(old,old.lessons[0].id,'01/10/2026'),{program:'Oxford Discover 2',lesson:{dateLabel:'10/10/2026',endTime:'20:00'},assignment:{url:mapping[now.id]['lesson-1'].programGroups[0].urls[0]}}];
+ const fresh=P.currentBooks(catalog,mapping,rows);assert.deepEqual(fresh.books,{'discover-2':[]});assert.deepEqual(fresh.allowed[now.id],['lesson-1']);
  rows.push({program:'Discover 5',lessonDate:'11/10/2026'});assert.deepEqual(P.currentBooks(catalog,mapping,rows).books,{});
 });
 test('Fighter selects current Reading and Vocabulary independently, hiding retired and future books',()=>{

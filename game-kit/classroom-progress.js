@@ -15,7 +15,7 @@
    const date=lesson.lessonDate||lesson.dateLabel||lesson.date||row.lessonDate||assignment.lessonDate;
    const at=moment(date,lesson.endTime||row.endTime||'23:59:59');if(!at||at>Date.now())continue;
    const seen=urls(row),named=courseId(program,courses),matches=[];
-   for(const c of courses){for(const l of c.lessons){if((map[c.id]?.[l.id]?.sourceGroups||[]).some(g=>g.some(u=>seen.has(source(u)))))matches.push({course:c.id,track:l.track||''});}}
+   for(const c of courses){for(const l of c.lessons){if([...(map[c.id]?.[l.id]?.sourceGroups||[]),...(map[c.id]?.[l.id]?.programGroups||[]).map(g=>g.urls||[])].some(g=>g.some(u=>seen.has(source(u)))))matches.push({course:c.id,track:l.track||''});}}
    let selected=[];
    if(named&&!(courses.find(c=>c.id===named)?.tracks||[]).length)selected=[{course:named,track:''}];
    else{
@@ -40,7 +40,7 @@
  function limits(courses,map,completed,explicit={}){
   const seen=urls(completed),active=new Set(),result={},allowed={};
   for(const row of completed||[]){const id=courseId(row.program||row.courseId,courses);if(id)active.add(id);}
-  for(const course of courses){allowed[course.id]=[];let limit=0;course.lessons.forEach((l,i)=>{const groups=map[course.id]?.[l.id]?.sourceGroups||[];if(groups.some(g=>g.some(u=>seen.has(source(u)))))active.add(course.id);if(groups.length&&groups.every(g=>g.some(u=>seen.has(source(u))))){
+   for(const course of courses){allowed[course.id]=[];let limit=0;course.lessons.forEach((l,i)=>{const entry=map[course.id]?.[l.id]||{},groups=entry.sourceGroups||[],program=entry.programGroups||[];const programMatch=program.length>0&&program.every(g=>(g.urls||[]).some(u=>seen.has(source(u)))||(completed||[]).some(row=>{const a={...row,...row.lesson,...row.assignment};const book=courseId(row.program||a.program||row.courseId,courses);if(book!==g.courseId)return false;const title=String(a.title||a.lessonTitle||a.lesson||a.session||'');const session=String(a.session||title).match(/^(?:Tiết|Session|Lesson)\s*0*(\d+)$/i);return normalized(title)===normalized(g.title)||!!session&&Number(session[1])===g.session;}));if(groups.some(g=>g.some(u=>seen.has(source(u))))||programMatch)active.add(course.id);if(groups.length&&groups.every(g=>g.some(u=>seen.has(source(u))))||programMatch){
     // A manual ceiling may restrict classroom evidence, but must never invent it.
     const ceiling=explicit[course.id];if(ceiling!==undefined&&/^(0|[1-9]\d*)$/.test(String(ceiling))&&i>=Number(ceiling))return;
     allowed[course.id].push(l.id);limit=i+1;

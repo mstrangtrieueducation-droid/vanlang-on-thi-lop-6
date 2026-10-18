@@ -1,0 +1,4 @@
+/* Full-resolution individual cells avoid loading a twelve-picture atlas for one answer. */
+(()=>{const cache=new Map();const source=p=>p&&window.TitiImageSources?.[[p.atlas,p.columns,p.rows,p.cell].join('|')];function warm(q){if(!q)return;const pictures=[q.picturePrompt,...Object.values(q.pictureOptions||{}),...(q.matchPictures||[]).map(p=>p.picture||p)];for(const p of pictures){if(!p)continue;const src=source(p)||p.src||p.atlas||(p.sheet!==undefined?'../game-kit/adventures/pictures/phonics-sheet-'+p.sheet+'-v1.png':'');if(!src||cache.has(src))continue;const im=new Image();im.decoding='async';im.src=src;cache.set(src,im);im.decode?.().catch(()=>{});if(cache.size>20)cache.delete(cache.keys().next().value);}}
+window.TitiImages={source,warm,near:(items,index)=>items.slice(index,index+3).forEach(warm)};
+})();

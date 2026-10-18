@@ -1,5 +1,7 @@
 import {digest,fail,verify} from './authority.mjs';
 import answerRules from '../../game-kit/adventures/rules.js';
+import examRules from '../../discover-exam/core.js';
+const check=(q,value)=>q.grading==='discover-original'?examRules.check(q,value):answerRules.check(q,value);
 export function periods(at){const d=new Date(at+25200000),month=d.toISOString().slice(0,7);d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return ['all','m:'+month,'w:'+d.toISOString().slice(0,10)];}
 const uuid=()=>crypto.randomUUID(),validId=x=>typeof x==='string'&&/^[\w-]{1,100}$/.test(x),boards=new Map();
 export class LeaderboardService{
@@ -38,8 +40,8 @@ export class LeaderboardService{
   const r=await this.one('SELECT * FROM runs WHERE id=? AND student=?',b.run,s.student);if(!r)fail('Không tìm thấy lượt chơi này.',404);if(r.result)return JSON.parse(r.result);if(this.now()>r.expires)fail('Lượt chơi đã quá thời gian đồng bộ.',410);
   const l=this.lesson(s,r.course,r.lesson);if(!b.answers||Array.isArray(b.answers)||typeof b.answers!=='object'||Object.keys(b.answers).some(id=>!l.items.some(q=>q.id===id)))fail('Câu trả lời không khớp bài.');
   const entries=Object.entries(b.answers);let correct=0,assisted=false;const done=[];
-  for(const [id,a] of entries){if(!a||typeof a.first!=='string'||a.first.length>500||typeof a.last!=='string'||a.last.length>500)fail('Đáp án chưa hợp lệ.');const q=l.items.find(x=>x.id===id);if(answerRules.check(q,a.first))correct++;if(answerRules.check(q,a.last))done.push(id);assisted||=a.assisted===true;}
-  const complete=entries.length===l.items.length&&entries.every(([,a])=>a.last.trim().length>0),accuracy=correct/l.items.length,stars=complete?(accuracy>=.9?3:accuracy>=.65?2:1):0;
+  for(const [id,a] of entries){if(!a||typeof a.first!=='string'||a.first.length>2000||typeof a.last!=='string'||a.last.length>2000)fail('Đáp án chưa hợp lệ.');const q=l.items.find(x=>x.id===id);if(check(q,a.first))correct++;if(check(q,a.last))done.push(id);assisted||=a.assisted===true;}
+  const complete=entries.length===l.items.length&&(l.exam||entries.every(([,a])=>a.last.trim().length>0)),accuracy=correct/l.items.length,stars=complete?(accuracy>=.9?3:accuracy>=.65?2:1):0;
   const old=await this.one('SELECT done,stars FROM progress WHERE student=? AND course=? AND lesson=?',s.student,r.course,r.lesson),merged=[...new Set([...(old?JSON.parse(old.done):[]),...done])];
   const c=this.data.catalog.find(x=>x.id===r.course),target=c.lessons.find(x=>x.id===r.lesson),prior=c.lessons.slice(0,c.lessons.indexOf(target)).filter(x=>x.track===target.track&&s.access.allowed[r.course].includes(x.id));
   const passed=await this.rows('SELECT lesson FROM progress WHERE student=? AND course=? AND stars>=1',s.student,r.course),ranked=complete&&!assisted&&prior.every(x=>passed.some(p=>p.lesson===x.id));

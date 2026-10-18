@@ -109,4 +109,5 @@ require('./family.cjs')(courses);
 require('./program/family-art.cjs')(courses);
 require('./dialogues.cjs')(courses);
 require('./image-library.cjs')(courses);
+require('./discover-release.cjs')(courses);
 module.exports=courses;

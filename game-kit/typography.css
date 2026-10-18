@@ -1,0 +1,6 @@
+/* One system family includes full Vietnamese; no font download or fallback swap. */
+:root{--titi-font:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+body,button,input,select,textarea,h1,h2,h3,p,.atlas-ribbon,.atlas-era,.launch,.option,.word-token{font-family:var(--titi-font)!important}
+button,input,select,textarea{font-size:inherit}
+h1,h2,h3,.atlas-ribbon,.atlas-era{font-weight:750;letter-spacing:normal}
+.word-token{letter-spacing:normal;word-spacing:normal}
