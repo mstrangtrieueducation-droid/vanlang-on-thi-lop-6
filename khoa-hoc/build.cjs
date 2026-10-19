@@ -12,3 +12,5 @@ require('../vu-tru/build-catalog.cjs');
 require('./build-grammar.cjs').write();
 
 require('./build-hidden.cjs').write();
+
+require('./build-panorama.cjs').write();

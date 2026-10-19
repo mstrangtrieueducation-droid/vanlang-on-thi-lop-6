@@ -1,0 +1,13 @@
+{
+  "version": "panorama-2",
+  "date": "2026-10-19",
+  "scope": ["phonics-1", "phonics-2", "phonics-3", "phonics-4"],
+  "unitIllustrations": 32,
+  "questionsPerUnit": 20,
+  "totalChallenges": 640,
+  "nativeVoice": "en-US-AnaNeural",
+  "artwork": "New seamless illustrations based on Unit vocabulary; not textbook scans.",
+  "storage": "Existing student/course/lesson namespace plus :hunt-panorama-v2; supplemental practice only.",
+  "audioPolicy": "User starts round; praise then next command automatically. Replay available. Pause on hidden tab.",
+  "unchangedPendingWork": ["Original-resource dictation retrieval", "Canonical question-bank duplicate replacement"]
+}
