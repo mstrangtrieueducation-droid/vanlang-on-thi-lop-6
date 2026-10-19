@@ -21,7 +21,7 @@ Original MP3s and full-resolution PNGs are in [titi-game-media](https://github.c
 
 **Image generation mode: Built-in.** The 20 scene plates and 32 transparent object atlases, together with every generation prompt and cell specification, are recorded in [`hunt-worlds/sources.json`](../game-kit/adventures/hunt-worlds/sources.json). The PNG assets are under `assets/hunt-worlds/scenes/` and `assets/hunt-worlds/objects/` in the media repository. The Canvas decoder separates alpha components to prevent atlas-cell overflow from clipping an object or showing a neighbouring object.
 
-Phoneme recordings are credited to [University of Hamburg · English Explorations](https://englishexplorations.check.uni-hamburg.de/basic-concepts-of-english-phonetics-and-pronunciation/); individual sources are recorded in `hunt-worlds/phonemes/sources.json`. Titi's instructions use the existing native `en-US-AnaNeural` voice. There are no paid runtime APIs, new third-party game libraries or browser-side AI generation.
+Phoneme recordings are credited to [University of Hamburg · English Explorations](https://englishexplorations.check.uni-hamburg.de/basic-concepts-of-english-phonetics-and-pronunciation/); individual sources and crop boundaries are recorded in `hunt-worlds/phonemes/sources.json`. Each demonstration's first isolated sound is extracted **before** the vocabulary examples, at its original sample rate and pitch, into a lossless PCM WAV. Titi's instructions use the existing native `en-US-AnaNeural` voice. There are no paid runtime APIs, new third-party game libraries or browser-side AI generation.
 
 ## Build and progress safety
 

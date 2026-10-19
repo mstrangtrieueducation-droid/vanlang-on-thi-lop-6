@@ -13,7 +13,7 @@
   const replacements=new Map(profile.colors.map((c,i)=>[c,colors[i]]));
   const sceneOrder=shuffle(scenes,hash(v2.course+v2.unit));
   const questions=v2.questions.map((q,i)=>({...q,id:q.id.replace('v2','v3'),prompt:q.prompt.replace(/\b\w+\b/g,w=>replacements.get(w)||w),world:sceneOrder[i].id,background:'/titi-game-media/assets/hunt-worlds/scenes/'+sceneOrder[i].file,objects:layout(objects,hash(v2.course+'/'+v2.unit+'/'+i))}));
-  soundLetters(profile.letters).forEach((letter,i)=>{const [ipa,clip]=sounds[letter],q=questions[[4,12][i]],targets=objects.filter(o=>o.kind==='letter'&&o.word.toUpperCase()===letter).map(o=>o.id);Object.assign(q,{prompt:`What letter makes the sound /${ipa}/?`,sound:{letter,ipa,clip:'/titi-game-media/assets/hunt-worlds/phonemes/'+clip+'.mp3',repetitions:2,pauseMs:550},groups:[{targets,need:1}]});});
+  soundLetters(profile.letters).forEach((letter,i)=>{const [ipa,clip]=sounds[letter],q=questions[[4,12][i]],targets=objects.filter(o=>o.kind==='letter'&&o.word.toUpperCase()===letter).map(o=>o.id);Object.assign(q,{prompt:`What letter makes the sound /${ipa}/?`,sound:{letter,ipa,clip:'/titi-game-media/assets/hunt-worlds/phonemes/'+clip+'-isolated.wav',repetitions:2,pauseMs:550},groups:[{targets,need:1}]});});
   return {...v2,version:3,atlas:'/titi-game-media/assets/hunt-worlds/objects/'+art.file,objects,questions};
  }
  return {hash,shuffle,layout,sounds,soundLetters,make};

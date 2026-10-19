@@ -5,8 +5,8 @@
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
   const [pack,voices]=await Promise.all([
-   fetch(`../khoa-hoc/hunt-worlds/${c.courseId}/unit-${g.unit}.json?v=worlds-3`).then(r=>{if(!r.ok)throw Error('Panorama unavailable');return r.json();}),
-   fetch('../game-kit/adventures/hunt-audio/worlds-v3.json?v=worlds-3').then(r=>{if(!r.ok)throw Error('Hunt audio unavailable');return r.json();})
+   fetch(`../khoa-hoc/hunt-worlds/${c.courseId}/unit-${g.unit}.json?v=phonemes-4`).then(r=>{if(!r.ok)throw Error('Panorama unavailable');return r.json();}),
+   fetch('../game-kit/adventures/hunt-audio/worlds-v3.json?v=phonemes-4').then(r=>{if(!r.ok)throw Error('Hunt audio unavailable');return r.json();})
   ]);
   if(pack.version!==3||pack.course!==c.courseId||pack.unit!==g.unit||pack.questions.length!==20)throw Error('Invalid panorama pack');
   const sprites=await HuntWorldRenderer.decode(pack.atlas,[...new Set(pack.objects.map(o=>o.cell))]);
@@ -53,6 +53,7 @@
   async function celebrate(){
    locked=true;const token=epoch;status('Great job! ✨');await new Promise(r=>setTimeout(r,450));
    if(current().sound&&!await narration){if(token===epoch&&active)pause();return;}
+   if(current().sound)sound();
    if(token!==epoch||!active||document.hidden)return;
    const ok=await say(state.index%2?'Awesome!':'Great job!');
    if(token!==epoch||!active||document.hidden)return;
@@ -63,7 +64,7 @@
   function choose(b){
    if(!active||locked)return;const id=b.dataset.hotspot;if(state.collected.includes(id))return;
    if(!valid(id)){wrong(b);return;}
-   state.collected.push(id);b.classList.add('found');b.setAttribute('aria-pressed','true');sound();
+   state.collected.push(id);b.classList.add('found');b.setAttribute('aria-pressed','true');if(!current().sound)sound();
    host.querySelector('#hunt-count').textContent=state.collected.length+'/'+current().groups.reduce((n,g)=>n+g.need,0);
    if(enough()){state.answers[state.index]=!state.missed;state.complete=true;save();celebrate();}else{save();status('Keep looking! ✨');}
   }
