@@ -7,14 +7,22 @@
  }
  const sounds={A:['æ','ae'],B:['b','b'],C:['k','k'],D:['d','d'],E:['ɛ','e'],F:['f','f'],G:['g','g'],H:['h','h'],I:['ɪ','sit'],J:['dʒ','dz'],K:['k','k'],L:['l','l'],M:['m','m'],N:['n','n'],P:['p','p'],R:['r','r'],S:['s','s'],T:['t','t'],U:['ʌ','mud'],V:['v','v'],W:['w','w'],X:['ks','ks'],Y:['j','j'],Z:['z','z']};
  function soundLetters(letters){return letters.filter(l=>sounds[l]).slice(0,2);}
- function make(v2,profile,art,scenes){
+ function soundPlan(profile,unit){const patterns=new Set((unit?.levels||[]).flatMap(l=>l.patterns)),word=profile.words[0].toLowerCase(),base=soundLetters(profile.letters).map(letter=>({letters:[letter],ipa:sounds[letter][0],clip:sounds[letter][1],pattern:'letter-'+letter}));
+  const recipes=[['a_e',/a.e$/,['A'],'eɪ','ei'],['i_e',/i.e$/,['I'],'aɪ','ai'],['o_e',/o.e$/,['O'],'oʊ','ou'],['ai',/ai/,['A','I'],'eɪ','ei'],['ee',/ee/,['E','E'],'iː','i'],['ie',/ie/,['I','E'],'aɪ','ai'],['oa',/oa/,['O','A'],'oʊ','ou'],['oo',/oo/,['O','O'],'uː','uu']];
+  const focus=recipes.find(([pattern,rx])=>patterns.has(pattern)&&rx.test(word));if(focus){const [pattern,,letters,ipa,clip]=focus,first=base.find(p=>!letters.includes(p.letters[0]))||base[0];return [first,{pattern,letters,ipa,clip}];}
+  if(patterns.has('sh')&&word.startsWith('sh'))return [{pattern:'sh',letters:['S','H'],ipa:'ʃ',clip:'sh'},base.find(p=>!['S','H'].includes(p.letters[0]))||{letters:['E'],ipa:'ɛ',clip:'e',pattern:'letter-E'}];
+  if(patterns.has('c-soft')&&/^c[ei]/.test(word))return base.map(p=>p.letters[0]==='C'?{...p,ipa:'s',clip:'s',pattern:'c-soft'}:p);
+  return base;
+ }
+ function make(v2,profile,art,scenes,unit){
   const colors=art.cells.slice(0,3).map(s=>s.split(' ')[0]),objects=v2.objects.map(o=>{let cell=o.id.startsWith('first-')?Math.max(0,+o.id.slice(6)-2):o.id.startsWith('second-')?3:o.id.startsWith('main-')?4+Number(o.id.slice(5)):o.case==='upper'?8+Number(o.id.slice(6)):11+Number(o.id.slice(6));return {...o,cell,color:o.id.startsWith('first-')?colors[cell]:o.color};});
   // The v2 prompts use profile colours. This replacement is data-driven from the new atlas.
   const replacements=new Map(profile.colors.map((c,i)=>[c,colors[i]]));
   const sceneOrder=shuffle(scenes,hash(v2.course+v2.unit));
-  const questions=v2.questions.map((q,i)=>({...q,id:q.id.replace('v2','v3'),prompt:q.prompt.replace(/\b\w+\b/g,w=>replacements.get(w)||w),world:sceneOrder[i].id,background:'/titi-game-media/assets/hunt-worlds/scenes/'+sceneOrder[i].file,objects:layout(objects,hash(v2.course+'/'+v2.unit+'/'+i))}));
-  soundLetters(profile.letters).forEach((letter,i)=>{const [ipa,clip]=sounds[letter],q=questions[[4,12][i]],targets=objects.filter(o=>o.kind==='letter'&&o.word.toUpperCase()===letter).map(o=>o.id);Object.assign(q,{prompt:`What letter makes the sound /${ipa}/?`,sound:{letter,ipa,clip:'/titi-game-media/assets/hunt-worlds/phonemes/'+clip+'-isolated.wav',repetitions:2,pauseMs:550},groups:[{targets,need:1}]});});
-  return {...v2,version:3,atlas:'/titi-game-media/assets/hunt-worlds/objects/'+art.file,objects,questions};
+  const questions=v2.questions.map((q,i)=>({...q,id:q.id.replace('v2','v4'),prompt:q.prompt.replace(/\b\w+\b/g,w=>replacements.get(w)||w),world:sceneOrder[i].id,background:'/titi-game-media/assets/hunt-worlds/scenes/'+sceneOrder[i].file,objects:layout(objects,hash(v2.course+'/'+v2.unit+'/'+i))}));
+  soundPlan(profile,unit).forEach(({letters,ipa,clip,pattern},i)=>{const q=questions[[4,12][i]],counts=new Map();letters.forEach(l=>counts.set(l,(counts.get(l)||0)+1));const groups=[...counts].map(([letter,need])=>({targets:objects.filter(o=>o.kind==='letter'&&o.word.toUpperCase()===letter).map(o=>o.id),need}));if(groups.some(g=>g.targets.length<g.need))throw Error('Missing Unit sound letters '+profile.course+'/'+profile.unit);
+   Object.assign(q,{prompt:letters.length===2?`Which two letters make the sound /${ipa}/?`:`What letter makes the sound /${ipa}/?`,sound:{letters,letter:letters.join(''),sourcePattern:pattern,ipa,instruction:letters.length===2?'Find the two letters for this sound.':'What letter makes this sound?',clip:'/titi-game-media/assets/hunt-worlds/phonemes/'+clip+'-isolated.wav',repetitions:2,pauseMs:550},groups});});
+  return {...v2,version:4,atlas:'/titi-game-media/assets/hunt-worlds/objects/'+art.file,objects,questions};
  }
- return {hash,shuffle,layout,sounds,soundLetters,make};
+ return {hash,shuffle,layout,sounds,soundLetters,soundPlan,make};
 });

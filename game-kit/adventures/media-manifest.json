@@ -1949,6 +1949,11 @@
       "sha256": "d5da805479e6221bdc744730cf09345aa5af2fbed2bde652aae893a6370c1de2"
     },
     {
+      "url": "/titi-game-media/assets/hunt-audio/85bf22ac8e0856c551a0.mp3",
+      "bytes": 19152,
+      "sha256": "87634c20102777976c217118d7ed02e1064ca2b1157fea322b49dcc73ace262a"
+    },
+    {
       "url": "/titi-game-media/assets/hunt-audio/8683ef71d6165c3e9b30.mp3",
       "bytes": 13536,
       "sha256": "4c28438b0542eddd789559bd47e088020fe3e8a2588656c1c5fa6f51815019c1"
@@ -3224,6 +3229,16 @@
       "sha256": "6ee79c16618919cb03348156d1b4708de755266d56c5f83f277a938011d71f8b"
     },
     {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ai-isolated.wav",
+      "bytes": 125322,
+      "sha256": "aef2555c6655e397cdae5c418a47afa2b7bfbb09f230a1a515500a66dffdbb98"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ai.mp3",
+      "bytes": 84863,
+      "sha256": "ca89ba012b54284e9a6c062ff66679fcb4629270290658e7814416981402d488"
+    },
+    {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/b-isolated.wav",
       "bytes": 100626,
       "sha256": "b0d3a4e197ca1a6c1f14c61c9775ed679a78dc931175c34227cf07da4522cc87"
@@ -3264,6 +3279,16 @@
       "sha256": "40323688dcce0e1f6fbd1011db3dd533a932a5949486be821595e4f9bdf6ae65"
     },
     {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ei-isolated.wav",
+      "bytes": 120030,
+      "sha256": "e70f4bdff5792cbf32f3b93770ebab2e734428e8933029f689d4d30c6064e343"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ei.mp3",
+      "bytes": 70990,
+      "sha256": "dbb292e9844ea4ce867f6c6dc217f72bc8335d2d1af74ea2ef1378375f5b3d8d"
+    },
+    {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/f-isolated.wav",
       "bytes": 116502,
       "sha256": "465130773ec7a57142bcbeb6af9d9470f4ffa1027bd8b20d9b7b96a547f9f504"
@@ -3292,6 +3317,16 @@
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/h.mp3",
       "bytes": 59725,
       "sha256": "f48d762b16e02f981626b5c9addb942560cc866e291576800b3d828b9ed1da53"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/i-isolated.wav",
+      "bytes": 111210,
+      "sha256": "20feeb31bb6b1fa44214bed3854d888a286c5a5daad32d6063151a5400d5dcd7"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/i.mp3",
+      "bytes": 85799,
+      "sha256": "81da25e608b9ed20f0cb33710a5979af212b6feb69aa10e9298414aced5d7562"
     },
     {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/instruction.mp3",
@@ -3369,6 +3404,16 @@
       "sha256": "463c97dee0c69e419d888bf8f460bc2fec76ab1384cbe3ae9ae2e9e1b76fbc37"
     },
     {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ou-isolated.wav",
+      "bytes": 109446,
+      "sha256": "7473d73435db6316efd69ca8c67c5cfe5abfd8df728ae45531958a1081979ba5"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/ou.mp3",
+      "bytes": 66454,
+      "sha256": "4af4705c650d0d3f2502f6670014899a6d187b7f321c50aef681e649b4160b71"
+    },
+    {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/p-isolated.wav",
       "bytes": 65346,
       "sha256": "bd4d87c95b2a02bb744b25863aec7db57cf584d0973a0b9f99f31074ef39232f"
@@ -3399,6 +3444,16 @@
       "sha256": "35653fcfa2b5446065826ac7858f59a585e81be57e70ad71b4881a03ff4b7413"
     },
     {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/sh-isolated.wav",
+      "bytes": 127086,
+      "sha256": "b05e621792b9c61e19b21536bc989ec0f23e2461d6436da43f490f0001a6b831"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/sh.mp3",
+      "bytes": 94298,
+      "sha256": "842ac4bc2dbc2bd5ef9742a9a98c8ac41c01f81298e499567a66871600299593"
+    },
+    {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/sit-isolated.wav",
       "bytes": 70638,
       "sha256": "1c232c31e08db2960e0d0df8139b41bc16ba33f5d181572ca3d9faf739dfea37"
@@ -3410,8 +3465,8 @@
     },
     {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/sources.json",
-      "bytes": 4856,
-      "sha256": "57d49b1640f2a3ae8208ac30d66d4fc5bc90387f01c8614b74e257ef74fac425"
+      "bytes": 5956,
+      "sha256": "ba13a15112c26eb4222230434c1ae1a84299a912d96dfe91208eea8c38713ede"
     },
     {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/t-isolated.wav",
@@ -3422,6 +3477,16 @@
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/t.mp3",
       "bytes": 70731,
       "sha256": "4e0cd8cb3500bbd130607c76fcce44dbd5349015b9de09749ece13575210031b"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/uu-isolated.wav",
+      "bytes": 107682,
+      "sha256": "222808a6d0a3ea3174df1497b1ffc52b9b31df73e5ee662e9e802728f519356d"
+    },
+    {
+      "url": "/titi-game-media/assets/hunt-worlds/phonemes/uu.mp3",
+      "bytes": 69688,
+      "sha256": "78703d934b9e0f7dfde4d916a15a5f49cb724ffc55d81a39414a5e3d942ed00d"
     },
     {
       "url": "/titi-game-media/assets/hunt-worlds/phonemes/v-isolated.wav",

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "course": "phonics-4",
   "unit": 5,
   "image": "../game-kit/adventures/panoramas/phonics-4-unit-5-panorama-v2.png",
@@ -176,7 +176,7 @@
   ],
   "questions": [
     {
-      "id": "phonics-4-u5-hunt-v3-1",
+      "id": "phonics-4-u5-hunt-v4-1",
       "prompt": "Find the quilt!",
       "groups": [
         {
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-2",
+      "id": "phonics-4-u5-hunt-v4-2",
       "prompt": "Where is the rocket?",
       "groups": [
         {
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-3",
+      "id": "phonics-4-u5-hunt-v4-3",
       "prompt": "Can you see the white duck?",
       "groups": [
         {
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-4",
+      "id": "phonics-4-u5-hunt-v4-4",
       "prompt": "Touch the brown duck!",
       "groups": [
         {
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-5",
+      "id": "phonics-4-u5-hunt-v4-5",
       "prompt": "What letter makes the sound /d/?",
       "groups": [
         {
@@ -1068,15 +1068,20 @@
         }
       ],
       "sound": {
+        "letters": [
+          "D"
+        ],
         "letter": "D",
+        "sourcePattern": "letter-D",
         "ipa": "d",
+        "instruction": "What letter makes this sound?",
         "clip": "/titi-game-media/assets/hunt-worlds/phonemes/d-isolated.wav",
         "repetitions": 2,
         "pauseMs": 550
       }
     },
     {
-      "id": "phonics-4-u5-hunt-v3-6",
+      "id": "phonics-4-u5-hunt-v4-6",
       "prompt": "Find the small d!",
       "groups": [
         {
@@ -1254,7 +1259,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-7",
+      "id": "phonics-4-u5-hunt-v4-7",
       "prompt": "Find one big duck!",
       "groups": [
         {
@@ -1436,7 +1441,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-8",
+      "id": "phonics-4-u5-hunt-v4-8",
       "prompt": "Find one rocket!",
       "groups": [
         {
@@ -1616,7 +1621,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-9",
+      "id": "phonics-4-u5-hunt-v4-9",
       "prompt": "Where is the big U?",
       "groups": [
         {
@@ -1794,7 +1799,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-10",
+      "id": "phonics-4-u5-hunt-v4-10",
       "prompt": "Where is the small u?",
       "groups": [
         {
@@ -1972,7 +1977,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-11",
+      "id": "phonics-4-u5-hunt-v4-11",
       "prompt": "Find the white duck!",
       "groups": [
         {
@@ -2150,7 +2155,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-12",
+      "id": "phonics-4-u5-hunt-v4-12",
       "prompt": "Find the brown duck!",
       "groups": [
         {
@@ -2328,7 +2333,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-13",
+      "id": "phonics-4-u5-hunt-v4-13",
       "prompt": "What letter makes the sound /ʌ/?",
       "groups": [
         {
@@ -2506,15 +2511,20 @@
         }
       ],
       "sound": {
+        "letters": [
+          "U"
+        ],
         "letter": "U",
+        "sourcePattern": "letter-U",
         "ipa": "ʌ",
+        "instruction": "What letter makes this sound?",
         "clip": "/titi-game-media/assets/hunt-worlds/phonemes/mud-isolated.wav",
         "repetitions": 2,
         "pauseMs": 550
       }
     },
     {
-      "id": "phonics-4-u5-hunt-v3-14",
+      "id": "phonics-4-u5-hunt-v4-14",
       "prompt": "Can you see the small c?",
       "groups": [
         {
@@ -2692,7 +2702,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-15",
+      "id": "phonics-4-u5-hunt-v4-15",
       "prompt": "Find 3 big yellow ducks!",
       "groups": [
         {
@@ -2872,7 +2882,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-16",
+      "id": "phonics-4-u5-hunt-v4-16",
       "prompt": "Find all 3 rockets!",
       "groups": [
         {
@@ -3052,7 +3062,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-17",
+      "id": "phonics-4-u5-hunt-v4-17",
       "prompt": "Find all 5 big ducks!",
       "groups": [
         {
@@ -3234,7 +3244,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-18",
+      "id": "phonics-4-u5-hunt-v4-18",
       "prompt": "Find 2 yellow ducks!",
       "groups": [
         {
@@ -3414,7 +3424,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-19",
+      "id": "phonics-4-u5-hunt-v4-19",
       "prompt": "Find 2 rockets!",
       "groups": [
         {
@@ -3594,7 +3604,7 @@
       ]
     },
     {
-      "id": "phonics-4-u5-hunt-v3-20",
+      "id": "phonics-4-u5-hunt-v4-20",
       "prompt": "Find one yellow duck and the white duck!",
       "groups": [
         {

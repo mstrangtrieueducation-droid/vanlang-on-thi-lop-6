@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "course": "phonics-3",
   "unit": 3,
   "image": "../game-kit/adventures/panoramas/phonics-3-unit-3-panorama-v2.png",
@@ -206,7 +206,7 @@
   ],
   "questions": [
     {
-      "id": "phonics-3-u3-hunt-v3-1",
+      "id": "phonics-3-u3-hunt-v4-1",
       "prompt": "Find the cone!",
       "groups": [
         {
@@ -414,7 +414,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-2",
+      "id": "phonics-3-u3-hunt-v4-2",
       "prompt": "Where is the rope?",
       "groups": [
         {
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-3",
+      "id": "phonics-3-u3-hunt-v4-3",
       "prompt": "Can you see the cube?",
       "groups": [
         {
@@ -830,7 +830,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-4",
+      "id": "phonics-3-u3-hunt-v4-4",
       "prompt": "Touch the mule!",
       "groups": [
         {
@@ -1038,7 +1038,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-5",
+      "id": "phonics-3-u3-hunt-v4-5",
       "prompt": "What letter makes the sound /h/?",
       "groups": [
         {
@@ -1246,15 +1246,20 @@
         }
       ],
       "sound": {
+        "letters": [
+          "H"
+        ],
         "letter": "H",
+        "sourcePattern": "letter-H",
         "ipa": "h",
+        "instruction": "What letter makes this sound?",
         "clip": "/titi-game-media/assets/hunt-worlds/phonemes/h-isolated.wav",
         "repetitions": 2,
         "pauseMs": 550
       }
     },
     {
-      "id": "phonics-3-u3-hunt-v3-6",
+      "id": "phonics-3-u3-hunt-v4-6",
       "prompt": "Find the small h!",
       "groups": [
         {
@@ -1462,7 +1467,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-7",
+      "id": "phonics-3-u3-hunt-v4-7",
       "prompt": "Find one big home!",
       "groups": [
         {
@@ -1674,7 +1679,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-8",
+      "id": "phonics-3-u3-hunt-v4-8",
       "prompt": "Find one bone!",
       "groups": [
         {
@@ -1884,7 +1889,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-9",
+      "id": "phonics-3-u3-hunt-v4-9",
       "prompt": "Where is the big O?",
       "groups": [
         {
@@ -2092,7 +2097,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-10",
+      "id": "phonics-3-u3-hunt-v4-10",
       "prompt": "Where is the small o?",
       "groups": [
         {
@@ -2300,7 +2305,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-11",
+      "id": "phonics-3-u3-hunt-v4-11",
       "prompt": "Find the blue home!",
       "groups": [
         {
@@ -2508,7 +2513,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-12",
+      "id": "phonics-3-u3-hunt-v4-12",
       "prompt": "Find the green home!",
       "groups": [
         {
@@ -2716,13 +2721,13 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-13",
-      "prompt": "What letter makes the sound /m/?",
+      "id": "phonics-3-u3-hunt-v4-13",
+      "prompt": "What letter makes the sound /oʊ/?",
       "groups": [
         {
           "targets": [
-            "upper-2",
-            "lower-2"
+            "upper-1",
+            "lower-1"
           ],
           "need": 1
         }
@@ -2924,15 +2929,20 @@
         }
       ],
       "sound": {
-        "letter": "M",
-        "ipa": "m",
-        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/m-isolated.wav",
+        "letters": [
+          "O"
+        ],
+        "letter": "O",
+        "sourcePattern": "o_e",
+        "ipa": "oʊ",
+        "instruction": "What letter makes this sound?",
+        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/ou-isolated.wav",
         "repetitions": 2,
         "pauseMs": 550
       }
     },
     {
-      "id": "phonics-3-u3-hunt-v3-14",
+      "id": "phonics-3-u3-hunt-v4-14",
       "prompt": "Can you see the small m?",
       "groups": [
         {
@@ -3140,7 +3150,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-15",
+      "id": "phonics-3-u3-hunt-v4-15",
       "prompt": "Find 3 big red homes!",
       "groups": [
         {
@@ -3350,7 +3360,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-16",
+      "id": "phonics-3-u3-hunt-v4-16",
       "prompt": "Find all 3 bones!",
       "groups": [
         {
@@ -3560,7 +3570,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-17",
+      "id": "phonics-3-u3-hunt-v4-17",
       "prompt": "Find all 5 big homes!",
       "groups": [
         {
@@ -3772,7 +3782,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-18",
+      "id": "phonics-3-u3-hunt-v4-18",
       "prompt": "Find 2 red homes!",
       "groups": [
         {
@@ -3982,7 +3992,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-19",
+      "id": "phonics-3-u3-hunt-v4-19",
       "prompt": "Find 2 bones!",
       "groups": [
         {
@@ -4192,7 +4202,7 @@
       ]
     },
     {
-      "id": "phonics-3-u3-hunt-v3-20",
+      "id": "phonics-3-u3-hunt-v4-20",
       "prompt": "Find one red home and the blue home!",
       "groups": [
         {

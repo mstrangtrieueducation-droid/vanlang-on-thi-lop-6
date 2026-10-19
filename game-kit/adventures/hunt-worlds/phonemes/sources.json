@@ -180,6 +180,54 @@
       "startSeconds": 0.38,
       "endSeconds": 0.93,
       "nextUtteranceStarts": 1.83
+    },
+    {
+      "name": "ei",
+      "source": "ei.mp3",
+      "isolated": "ei-isolated.wav",
+      "startSeconds": 0.09,
+      "endSeconds": 0.77,
+      "nextUtteranceStarts": 1.61
+    },
+    {
+      "name": "ai",
+      "source": "ai.mp3",
+      "isolated": "ai-isolated.wav",
+      "startSeconds": 0.05,
+      "endSeconds": 0.76,
+      "nextUtteranceStarts": 1.97
+    },
+    {
+      "name": "ou",
+      "source": "ou.mp3",
+      "isolated": "ou-isolated.wav",
+      "startSeconds": 0.07,
+      "endSeconds": 0.69,
+      "nextUtteranceStarts": 1.55
+    },
+    {
+      "name": "i",
+      "source": "i.mp3",
+      "isolated": "i-isolated.wav",
+      "startSeconds": 0.06,
+      "endSeconds": 0.69,
+      "nextUtteranceStarts": 1.63
+    },
+    {
+      "name": "uu",
+      "source": "uu.mp3",
+      "isolated": "uu-isolated.wav",
+      "startSeconds": 0.03,
+      "endSeconds": 0.64,
+      "nextUtteranceStarts": 1.69
+    },
+    {
+      "name": "sh",
+      "source": "sh.mp3",
+      "isolated": "sh-isolated.wav",
+      "startSeconds": 0.08,
+      "endSeconds": 0.8,
+      "nextUtteranceStarts": 1.84
     }
   ],
   "cluster": {

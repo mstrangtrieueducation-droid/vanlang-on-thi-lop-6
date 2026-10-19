@@ -5,14 +5,14 @@
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
   const [pack,voices]=await Promise.all([
-   fetch(`../khoa-hoc/hunt-worlds/${c.courseId}/unit-${g.unit}.json?v=phonemes-4`).then(r=>{if(!r.ok)throw Error('Panorama unavailable');return r.json();}),
-   fetch('../game-kit/adventures/hunt-audio/worlds-v3.json?v=phonemes-4').then(r=>{if(!r.ok)throw Error('Hunt audio unavailable');return r.json();})
+   fetch(`../khoa-hoc/hunt-worlds/${c.courseId}/unit-${g.unit}.json?v=unit-sounds-5`).then(r=>{if(!r.ok)throw Error('Panorama unavailable');return r.json();}),
+   fetch('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5').then(r=>{if(!r.ok)throw Error('Hunt audio unavailable');return r.json();})
   ]);
-  if(pack.version!==3||pack.course!==c.courseId||pack.unit!==g.unit||pack.questions.length!==20)throw Error('Invalid panorama pack');
+  if(pack.version!==4||pack.course!==c.courseId||pack.unit!==g.unit||pack.questions.length!==20)throw Error('Invalid panorama pack');
   const sprites=await HuntWorldRenderer.decode(pack.atlas,[...new Set(pack.objects.map(o=>o.cell))]);
-  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v3',fresh=()=>({version:3,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
+  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v4',fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
   let state;try{state=JSON.parse(storage.getItem(key));}catch{}
-  if(!state||state.version!==3||!Number.isInteger(state.index)||state.index<0||state.index>20)state=fresh();
+  if(!state||state.version!==4||!Number.isInteger(state.index)||state.index<0||state.index>20)state=fresh();
   state.answers=Array.isArray(state.answers)?state.answers.slice(0,20):[];
   state.collected=Array.isArray(state.collected)?[...new Set(state.collected)].filter(id=>pack.objects.some(o=>o.id===id)):[];
   state.elapsedMs=Math.max(0,Number(state.elapsedMs)||0);
@@ -23,7 +23,7 @@
   function stopVoice(){voiceTicket++;player.pause();if(cancelClip){const f=cancelClip;cancelClip=null;f(false);}host.querySelector('#hunt-listen')?.classList.remove('speaking');}
   async function say(text){
    stopVoice();if(!state.sound)return true;
-   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?'What letter makes this sound?':question?.prompt||text,clips=question?.sound?[voices[prompt],{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]].flat().filter(Boolean);if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
+   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?.prompt||text,clips=question?.sound?[voices[prompt],{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]].flat().filter(Boolean);if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
    host.querySelector('#hunt-listen')?.classList.add('speaking');
    for(const clip of clips){if(ticket!==voiceTicket)return false;const ok=await new Promise(resolve=>{
     let finished=false;const timer=setTimeout(()=>done(false),20000);
