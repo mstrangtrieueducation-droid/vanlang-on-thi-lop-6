@@ -89,7 +89,7 @@
   ],
   "items": [
     {
-      "id": "discover-2-grammar-u4-1-1",
+      "id": "discover-2-grammar-u4-1-1-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -97,7 +97,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Was ...? · Câu hỏi số ít",
       "title": "Was ...? · Câu hỏi số ít",
@@ -116,12 +117,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ the freezer door open?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n___ the freezer door open?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-2-grammar-u4-1-2",
+      "id": "discover-2-grammar-u4-1-2-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -129,7 +130,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Were ...? · Câu hỏi số nhiều",
       "title": "Were ...? · Câu hỏi số nhiều",
@@ -148,12 +150,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ the plastic bags closed?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n___ the plastic bags closed?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-2-grammar-u4-1-3",
+      "id": "discover-2-grammar-u4-1-3-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -161,7 +163,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn",
       "title": "Câu trả lời ngắn",
@@ -173,19 +176,19 @@
         "were"
       ],
       "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
-      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ...",
+      "why": "It was at school yesterday; the attendance record confirms it.\nTrả lời Yes, ...",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Was the cream cold? Yes, it ___.",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nIt ___ at school yesterday; the attendance record confirms it.",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-2-grammar-u4-1-4",
+      "id": "discover-2-grammar-u4-1-4-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -193,7 +196,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Wh- questions",
       "title": "Wh- questions",
@@ -212,12 +216,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Where ___ the plastic bags?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nWhere ___ the plastic bags?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-2-grammar-u4-2-1",
+      "id": "discover-2-grammar-u4-2-1-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -225,7 +229,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Was ...? · Câu hỏi số ít",
       "title": "Was ...? · Câu hỏi số ít",
@@ -244,14 +249,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "[Were] the freezer door open?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n[Were] the freezer door open?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-2-grammar-u4-2-2",
+      "id": "discover-2-grammar-u4-2-2-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -259,7 +264,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Were ...? · Câu hỏi số nhiều",
       "title": "Were ...? · Câu hỏi số nhiều",
@@ -278,14 +284,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "[Was] the plastic bags closed?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n[Was] the plastic bags closed?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-2-grammar-u4-2-3",
+      "id": "discover-2-grammar-u4-2-3-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -293,7 +299,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn",
       "title": "Câu trả lời ngắn",
@@ -305,21 +312,21 @@
         "be"
       ],
       "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
-      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ...",
+      "why": "It was at school yesterday; the attendance record confirms it.\nTrả lời Yes, ...",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Was the cream cold? Yes, it [were].",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nIt [were] at school yesterday; the attendance record confirms it.",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-2-grammar-u4-2-4",
+      "id": "discover-2-grammar-u4-2-4-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -327,7 +334,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Wh- questions",
       "title": "Wh- questions",
@@ -346,14 +354,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Where [was] the plastic bags?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nWhere [was] the plastic bags?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-2-grammar-u4-3-1",
+      "id": "discover-2-grammar-u4-3-1-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -361,7 +369,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Was ...? · Câu hỏi số ít",
       "title": "Was ...? · Câu hỏi số ít",
@@ -380,7 +389,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ the freezer door open?\nWord bank: Be · Being · Was · Were",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n___ the freezer door open?\nWord bank: Be · Being · Was · Were",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -388,7 +397,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-2-grammar-u4-3-2",
+      "id": "discover-2-grammar-u4-3-2-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -396,7 +405,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Were ...? · Câu hỏi số nhiều",
       "title": "Were ...? · Câu hỏi số nhiều",
@@ -415,7 +425,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ the plastic bags closed?\nWord bank: Being · Were · Was · Be",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n___ the plastic bags closed?\nWord bank: Being · Were · Was · Be",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -423,7 +433,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-2-grammar-u4-3-3",
+      "id": "discover-2-grammar-u4-3-3-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -431,7 +441,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn",
       "title": "Câu trả lời ngắn",
@@ -443,14 +454,14 @@
         "being"
       ],
       "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
-      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ...",
+      "why": "It was at school yesterday; the attendance record confirms it.\nTrả lời Yes, ...",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Was the cream cold? Yes, it ___.\nWord bank: was · were · be · being",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nIt ___ at school yesterday; the attendance record confirms it.\nWord bank: was · were · be · being",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -458,7 +469,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-2-grammar-u4-3-4",
+      "id": "discover-2-grammar-u4-3-4-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -466,7 +477,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Wh- questions",
       "title": "Wh- questions",
@@ -485,7 +497,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Where ___ the plastic bags?\nWord bank: was · be · being · were",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nWhere ___ the plastic bags?\nWord bank: was · be · being · were",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -493,7 +505,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-2-grammar-u4-4-1",
+      "id": "discover-2-grammar-u4-4-1-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -501,7 +513,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Was ...? · Câu hỏi số ít",
       "title": "Was ...? · Câu hỏi số ít",
@@ -520,7 +533,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -530,7 +543,7 @@
       ]
     },
     {
-      "id": "discover-2-grammar-u4-4-2",
+      "id": "discover-2-grammar-u4-4-2-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -538,7 +551,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Were ...? · Câu hỏi số nhiều",
       "title": "Were ...? · Câu hỏi số nhiều",
@@ -557,7 +571,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -567,7 +581,7 @@
       ]
     },
     {
-      "id": "discover-2-grammar-u4-4-3",
+      "id": "discover-2-grammar-u4-4-3-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -575,36 +589,37 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn",
       "title": "Câu trả lời ngắn",
-      "answer": "Was the cream → cold? Yes, → it was.",
+      "answer": "It was at school → yesterday; the attendance → record confirms it.",
       "options": [
-        "Was the cream → cold? Yes, → it was.",
-        "cold? Yes, → it was. → Was the cream",
-        "it was. → Was the cream → cold? Yes,",
-        "it was. → cold? Yes, → Was the cream"
+        "It was at school → yesterday; the attendance → record confirms it.",
+        "yesterday; the attendance → record confirms it. → It was at school",
+        "record confirms it. → It was at school → yesterday; the attendance",
+        "record confirms it. → yesterday; the attendance → It was at school"
       ],
       "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
-      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ...",
+      "why": "It was at school yesterday; the attendance record confirms it.\nTrả lời Yes, ...",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
-        "cold? Yes,",
-        "it was.",
-        "Was the cream"
+        "yesterday; the attendance",
+        "record confirms it.",
+        "It was at school"
       ]
     },
     {
-      "id": "discover-2-grammar-u4-4-4",
+      "id": "discover-2-grammar-u4-4-4-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -612,7 +627,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Wh- questions",
       "title": "Wh- questions",
@@ -631,7 +647,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -641,7 +657,7 @@
       ]
     },
     {
-      "id": "discover-2-grammar-u4-5-1",
+      "id": "discover-2-grammar-u4-5-1-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -649,7 +665,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Was ...? · Câu hỏi số ít",
       "title": "Was ...? · Câu hỏi số ít",
@@ -668,14 +685,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Was ...? · Câu hỏi số ít",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nGrammar focus: Was ...? · Câu hỏi số ít",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-2-grammar-u4-5-2",
+      "id": "discover-2-grammar-u4-5-2-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -683,7 +700,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Were ...? · Câu hỏi số nhiều",
       "title": "Were ...? · Câu hỏi số nhiều",
@@ -702,14 +720,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Were ...? · Câu hỏi số nhiều",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nGrammar focus: Were ...? · Câu hỏi số nhiều",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-2-grammar-u4-5-3",
+      "id": "discover-2-grammar-u4-5-3-context2",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -717,33 +735,34 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn",
       "title": "Câu trả lời ngắn",
-      "answer": "Was the cream cold? Yes, it was.",
+      "answer": "It was at school yesterday; the attendance record confirms it.",
       "options": [
-        "Was the cream cold? Yes, it be.",
-        "Was the cream cold? Yes, it being.",
-        "Was the cream cold? Yes, it was.",
-        "Was the cream cold? Yes, it were."
+        "It be at school yesterday; the attendance record confirms it.",
+        "It being at school yesterday; the attendance record confirms it.",
+        "It was at school yesterday; the attendance record confirms it.",
+        "It were at school yesterday; the attendance record confirms it."
       ],
       "hint": "Trả lời Yes, ... was/were hoặc No, ... wasn't/weren't. Đại từ trong câu trả lời phải thay đúng cho chủ ngữ.",
-      "why": "Was the cream cold? Yes, it was.\nTrả lời Yes, ...",
+      "why": "It was at school yesterday; the attendance record confirms it.\nTrả lời Yes, ...",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Câu trả lời ngắn",
+      "scene": "The class took ice from the freezer. The freezer door is still open.\nGrammar focus: Câu trả lời ngắn",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-2-grammar-u4-5-4",
+      "id": "discover-2-grammar-u4-5-4-context2-life",
       "type": "choice",
       "unit": 4,
       "skill": "grammar",
@@ -751,30 +770,32 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/rcudsv4/",
         "unit": 4,
-        "kind": "class-grammar-model"
+        "kind": "authored-life-application-aligned-to-unit",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Wh- questions",
-      "title": "Wh- questions",
-      "answer": "Where were the plastic bags?",
+      "title": "Use English in Real Life",
+      "answer": "They close the door after checking that everyone is finished.",
       "options": [
-        "Where being the plastic bags?",
-        "Where were the plastic bags?",
-        "Where was the plastic bags?",
-        "Where be the plastic bags?"
+        "They turn the freezer into a toy cupboard.",
+        "They close the door after checking that everyone is finished.",
+        "They leave the door open all afternoon.",
+        "They hide the ice in a book bag."
       ],
-      "hint": "Where hỏi nơi chốn, when hỏi thời gian và why hỏi lý do. Sau từ hỏi vẫn dùng trật tự was/were + chủ ngữ.",
-      "why": "Where were the plastic bags?\nWhere hỏi nơi chốn, when hỏi thời gian và why hỏi lý do.",
+      "hint": "Read the situation. Think about its effect on other people.",
+      "why": "Hoàn thành thao tác và tránh lãng phí năng lượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "partId": "grammar-life-application",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Wh- questions",
-      "prompt": "Which sentence follows the rule?",
+      "scene": "The class took ice from the freezer. The freezer door is still open.",
+      "prompt": "What is the best choice?",
       "partType": "readChoose",
-      "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partTitle": "Think and Choose",
+      "partInstruction": "Read and choose the best response.",
+      "contextApplication": true
     }
   ]
 }

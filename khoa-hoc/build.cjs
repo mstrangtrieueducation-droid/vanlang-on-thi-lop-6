@@ -14,3 +14,8 @@ require('./build-grammar.cjs').write();
 require('./build-hidden.cjs').write();
 
 require('./build-panorama.cjs').write();
+
+require('./build-hunt-worlds.cjs');
+require('./build-dictation.cjs').write();
+
+require('./build-context-view.cjs');

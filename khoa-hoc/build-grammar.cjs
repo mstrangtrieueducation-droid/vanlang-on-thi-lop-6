@@ -4,9 +4,10 @@ const fs=require('node:fs'),path=require('node:path');
 const family=require('./program/family-units.cjs'),fg=require('./program/family-grammar.cjs'),fr=require('./program/family-grammar-rules.cjs');
 const discover=require('./program/discover-resources.json'),dg=require('./program/discover-grammar.cjs');
 const summaries=require('./program/grammar-summary-vi.cjs');
+const context=require('./program/contextual-grammar.cjs');
 const rotate=(a,n)=>a.slice(n%a.length).concat(a.slice(0,n%a.length));
 const rx=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-function questions(course,unit,models,variants){const items=[];
+function questions(course,unit,models,variants){const items=[];models=models.map((m,i)=>context.enrich(m,course,unit,i));
  for(let variant=0;variant<variants;variant++)for(const [i,m]of models.entries()){
   const full=m.scene.replace('___',m.answer),context=m.cue?m.cue+'\n':'',options=[m.answer,...m.wrong];
   const common={id:`${course}-grammar-u${unit}-${variant+1}-${i+1}`,type:'choice',unit,skill:'grammar',phonicsSequence:true,source:m.source,focus:m.focus,title:m.focus,answer:m.answer,options:rotate(options,i+variant),hint:m.note,why:`${full}\n${m.note}`,difficulty:variant<1?'easy':variant<3?'medium':'advanced',grammarModule:true,cognitiveLevel:variant<1?'easy':variant<3?'medium':'advanced',partId:'grammar-'+(variant<1?'easy':variant<3?'medium':'advanced'),spokenPrompt:'',spokenScene:''};
@@ -17,6 +18,8 @@ function questions(course,unit,models,variants){const items=[];
    items.push({...common,scene:context||'Build a complete sentence.',prompt:'Put the words in order.',partType:'build',answer,orderWords:rotate(chunks,1),options:[answer,rotate(chunks,1).join(' → '),rotate(chunks,2).join(' → '),[...chunks].reverse().join(' → ')]});}
   if(variant===4)items.push({...common,scene:context+`Grammar focus: ${m.focus}`,prompt:'Which sentence follows the rule?',partType:'readChoose',partTitle:'Apply the Rule',partInstruction:'Choose the sentence that follows the rule.',answer:full,options:rotate(options.map(o=>m.scene.replace('___',o)),i+variant)});
  }
+ for(const q of items)q.id+='-context2';
+ items[19]=context.application(items[19],course,unit);
  if(items.length!==20)throw Error('Expected 20 grammar questions: '+course+'/'+unit);
  return items;
 }

@@ -164,7 +164,7 @@
   ],
   "items": [
     {
-      "id": "discover-1-grammar-u12-1-1",
+      "id": "discover-1-grammar-u12-1-1-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -172,7 +172,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi Yes / No · Does",
       "title": "Câu hỏi Yes / No · Does",
@@ -191,12 +192,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does Maria ___ a kitten?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes Maria ___ a kitten?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u12-1-2",
+      "id": "discover-1-grammar-u12-1-2-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -204,7 +205,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Quy tắc quan trọng · Động từ nguyên mẫu",
       "title": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -223,12 +225,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does she ___ a kitten?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes she ___ a kitten?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u12-1-3",
+      "id": "discover-1-grammar-u12-1-3-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -236,7 +238,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn · does / doesn't",
       "title": "Câu trả lời ngắn · does / doesn't",
@@ -248,19 +251,19 @@
         "don't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "She doesn't take other pupils' things without asking.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, she ___.",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nShe ___ take other pupils' things without asking.",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u12-1-4",
+      "id": "discover-1-grammar-u12-1-4-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -268,7 +271,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi mở · What does",
       "title": "Câu hỏi mở · What does",
@@ -287,12 +291,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "What ___ Akif want?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nWhat ___ Akif want?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u12-2-1",
+      "id": "discover-1-grammar-u12-2-1-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -300,7 +304,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi Yes / No · Does",
       "title": "Câu hỏi Yes / No · Does",
@@ -319,14 +324,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does Maria [has] a kitten?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes Maria [has] a kitten?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u12-2-2",
+      "id": "discover-1-grammar-u12-2-2-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -334,7 +339,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Quy tắc quan trọng · Động từ nguyên mẫu",
       "title": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -353,14 +359,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does she [wants] a kitten?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes she [wants] a kitten?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u12-2-3",
+      "id": "discover-1-grammar-u12-2-3-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -368,7 +374,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn · does / doesn't",
       "title": "Câu trả lời ngắn · does / doesn't",
@@ -380,21 +387,21 @@
         "isn't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "She doesn't take other pupils' things without asking.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, she [don't].",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nShe [don't] take other pupils' things without asking.",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u12-2-4",
+      "id": "discover-1-grammar-u12-2-4-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -402,7 +409,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi mở · What does",
       "title": "Câu hỏi mở · What does",
@@ -421,14 +429,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "What [do] Akif want?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nWhat [do] Akif want?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u12-3-1",
+      "id": "discover-1-grammar-u12-3-1-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -436,7 +444,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi Yes / No · Does",
       "title": "Câu hỏi Yes / No · Does",
@@ -455,7 +464,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does Maria ___ a kitten?\nWord bank: having · had · have · has",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes Maria ___ a kitten?\nWord bank: having · had · have · has",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -463,7 +472,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u12-3-2",
+      "id": "discover-1-grammar-u12-3-2-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -471,7 +480,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Quy tắc quan trọng · Động từ nguyên mẫu",
       "title": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -490,7 +500,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Does she ___ a kitten?\nWord bank: wanted · want · wants · wanting",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nDoes she ___ a kitten?\nWord bank: wanted · want · wants · wanting",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -498,7 +508,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u12-3-3",
+      "id": "discover-1-grammar-u12-3-3-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -506,7 +516,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn · does / doesn't",
       "title": "Câu trả lời ngắn · does / doesn't",
@@ -518,14 +529,14 @@
         "hasn't"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "She doesn't take other pupils' things without asking.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, she ___.\nWord bank: doesn't · don't · isn't · hasn't",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nShe ___ take other pupils' things without asking.\nWord bank: doesn't · don't · isn't · hasn't",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -533,7 +544,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u12-3-4",
+      "id": "discover-1-grammar-u12-3-4-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -541,7 +552,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi mở · What does",
       "title": "Câu hỏi mở · What does",
@@ -560,7 +572,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "What ___ Akif want?\nWord bank: do · is · has · does",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nWhat ___ Akif want?\nWord bank: do · is · has · does",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -568,7 +580,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u12-4-1",
+      "id": "discover-1-grammar-u12-4-1-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -576,7 +588,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi Yes / No · Does",
       "title": "Câu hỏi Yes / No · Does",
@@ -595,7 +608,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -605,7 +618,7 @@
       ]
     },
     {
-      "id": "discover-1-grammar-u12-4-2",
+      "id": "discover-1-grammar-u12-4-2-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -613,7 +626,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Quy tắc quan trọng · Động từ nguyên mẫu",
       "title": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -632,7 +646,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -642,7 +656,7 @@
       ]
     },
     {
-      "id": "discover-1-grammar-u12-4-3",
+      "id": "discover-1-grammar-u12-4-3-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -650,36 +664,37 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn · does / doesn't",
       "title": "Câu trả lời ngắn · does / doesn't",
-      "answer": "No, → she → doesn't.",
+      "answer": "She doesn't take → other pupils' things → without asking.",
       "options": [
-        "No, → she → doesn't.",
-        "she → doesn't. → No,",
-        "doesn't. → No, → she",
-        "doesn't. → she → No,"
+        "She doesn't take → other pupils' things → without asking.",
+        "other pupils' things → without asking. → She doesn't take",
+        "without asking. → She doesn't take → other pupils' things",
+        "without asking. → other pupils' things → She doesn't take"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "She doesn't take other pupils' things without asking.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
-        "she",
-        "doesn't.",
-        "No,"
+        "other pupils' things",
+        "without asking.",
+        "She doesn't take"
       ]
     },
     {
-      "id": "discover-1-grammar-u12-4-4",
+      "id": "discover-1-grammar-u12-4-4-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -687,7 +702,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi mở · What does",
       "title": "Câu hỏi mở · What does",
@@ -706,7 +722,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -716,7 +732,7 @@
       ]
     },
     {
-      "id": "discover-1-grammar-u12-5-1",
+      "id": "discover-1-grammar-u12-5-1-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -724,7 +740,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi Yes / No · Does",
       "title": "Câu hỏi Yes / No · Does",
@@ -743,14 +760,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Câu hỏi Yes / No · Does",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nGrammar focus: Câu hỏi Yes / No · Does",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u12-5-2",
+      "id": "discover-1-grammar-u12-5-2-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -758,7 +775,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Quy tắc quan trọng · Động từ nguyên mẫu",
       "title": "Quy tắc quan trọng · Động từ nguyên mẫu",
@@ -777,14 +795,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Quy tắc quan trọng · Động từ nguyên mẫu",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nGrammar focus: Quy tắc quan trọng · Động từ nguyên mẫu",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u12-5-3",
+      "id": "discover-1-grammar-u12-5-3-context2",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -792,33 +810,34 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu trả lời ngắn · does / doesn't",
       "title": "Câu trả lời ngắn · does / doesn't",
-      "answer": "No, she doesn't.",
+      "answer": "She doesn't take other pupils' things without asking.",
       "options": [
-        "No, she isn't.",
-        "No, she hasn't.",
-        "No, she doesn't.",
-        "No, she don't."
+        "She isn't take other pupils' things without asking.",
+        "She hasn't take other pupils' things without asking.",
+        "She doesn't take other pupils' things without asking.",
+        "She don't take other pupils' things without asking."
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Với he, she hoặc it, con dùng Yes, ... does hoặc No, ... doesn't. Doesn't là dạng nói gọn của does not.",
-      "why": "No, she doesn't.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "She doesn't take other pupils' things without asking.\nCâu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Câu trả lời ngắn · does / doesn't",
+      "scene": "A child wants a pet, but the family has not discussed its needs.\nGrammar focus: Câu trả lời ngắn · does / doesn't",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u12-5-4",
+      "id": "discover-1-grammar-u12-5-4-context2-life",
       "type": "choice",
       "unit": 12,
       "skill": "grammar",
@@ -826,30 +845,32 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/f6kadmq/",
         "unit": 12,
-        "kind": "class-grammar-model"
+        "kind": "authored-life-application-aligned-to-unit",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Câu hỏi mở · What does",
-      "title": "Câu hỏi mở · What does",
-      "answer": "What does Akif want?",
+      "title": "Use English in Real Life",
+      "answer": "The child talks with the family about caring for a pet first.",
       "options": [
-        "What has Akif want?",
-        "What does Akif want?",
-        "What do Akif want?",
-        "What is Akif want?"
+        "The child chooses a pet only because it looks cute.",
+        "The child talks with the family about caring for a pet first.",
+        "The child secretly brings an animal home.",
+        "The child promises never to clean anything."
       ],
-      "hint": "What đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới. Sau chủ ngữ, động từ vẫn ở dạng nguyên mẫu. Mẫu này không trả lời bằng Yes hoặc No mà cần nêu thông tin cụ thể.",
-      "why": "What does Akif want?\nWhat đứng trước does để hỏi về đồ vật hoặc điều được nhắc tới.",
+      "hint": "Read the situation. Think about its effect on other people.",
+      "why": "Mong muốn cần đi cùng trách nhiệm chăm sóc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "partId": "grammar-life-application",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Câu hỏi mở · What does",
-      "prompt": "Which sentence follows the rule?",
+      "scene": "A child wants a pet, but the family has not discussed its needs.",
+      "prompt": "What is the best choice?",
       "partType": "readChoose",
-      "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partTitle": "Think and Choose",
+      "partInstruction": "Read and choose the best response.",
+      "contextApplication": true
     }
   ]
 }

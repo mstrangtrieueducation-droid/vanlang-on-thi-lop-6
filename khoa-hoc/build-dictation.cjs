@@ -1,0 +1,4 @@
+/* Checked classroom recordings and transcripts; generation only decides cloze positions. */
+const fs=require('fs'),path=require('path'),core=require('../game-kit/adventures/dictation-core.js');
+function write(){const sources=require('./program/dictation-sources.json'),media=require('../game-kit/adventures/media-manifest.json');if(sources.length!==102)throw Error('Expected 102 classroom listening sources');let blanks=0;for(const source of sources){for(const url of source.audio)if(!media.assets.some(a=>a.url===url&&a.sha256===source.source.audioSha256))throw Error('Missing verified audio: '+url);const pack=core.build(source),dir=path.join(__dirname,'dictation',source.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${source.unit}.json`),JSON.stringify(pack,null,2)+'\n');blanks+=pack.blankCount;}console.log(`${sources.length} classroom dictations · ${blanks} inline blanks`);}
+if(require.main===module)write();module.exports={write};

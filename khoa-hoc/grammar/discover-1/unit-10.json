@@ -173,7 +173,7 @@
   ],
   "items": [
     {
-      "id": "discover-1-grammar-u10-1-1",
+      "id": "discover-1-grammar-u10-1-1-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -181,7 +181,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Do ... have? · I / you / we / they",
       "title": "Do ... have? · I / you / we / they",
@@ -200,12 +201,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ you have any food?",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n___ you have any food?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u10-1-2",
+      "id": "discover-1-grammar-u10-1-2-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -213,7 +214,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Does ... have? · He / she / it",
       "title": "Does ... have? · He / she / it",
@@ -232,12 +234,12 @@
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ he have sausages?",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n___ he have sausages?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u10-1-3",
+      "id": "discover-1-grammar-u10-1-3-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -245,7 +247,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · do / don't",
       "title": "Trả lời ngắn · do / don't",
@@ -257,19 +260,19 @@
         "doesn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "why": "We don't take other pupils' things without asking.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, we ___.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWe ___ take other pupils' things without asking.",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u10-1-4",
+      "id": "discover-1-grammar-u10-1-4-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -277,7 +280,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · does / doesn't",
       "title": "Trả lời ngắn · does / doesn't",
@@ -289,19 +293,19 @@
         "is"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "why": "Why does he have extra supplies for the class project?\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Yes, he ___.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWhy ___ he have extra supplies for the class project?",
       "prompt": "Choose the missing words.",
       "partType": "readGap"
     },
     {
-      "id": "discover-1-grammar-u10-2-1",
+      "id": "discover-1-grammar-u10-2-1-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -309,7 +313,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Do ... have? · I / you / we / they",
       "title": "Do ... have? · I / you / we / they",
@@ -328,14 +333,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "[Does] you have any food?",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n[Does] you have any food?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u10-2-2",
+      "id": "discover-1-grammar-u10-2-2-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -343,7 +348,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Does ... have? · He / she / it",
       "title": "Does ... have? · He / she / it",
@@ -362,14 +368,14 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "[Do] he have sausages?",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n[Do] he have sausages?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u10-2-3",
+      "id": "discover-1-grammar-u10-2-3-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -377,7 +383,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · do / don't",
       "title": "Trả lời ngắn · do / don't",
@@ -389,21 +396,21 @@
         "isn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "why": "We don't take other pupils' things without asking.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, we [doesn't].",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWe [doesn't] take other pupils' things without asking.",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u10-2-4",
+      "id": "discover-1-grammar-u10-2-4-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -411,7 +418,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · does / doesn't",
       "title": "Trả lời ngắn · does / doesn't",
@@ -423,21 +431,21 @@
         "has"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "why": "Why does he have extra supplies for the class project?\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Yes, he [do].",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWhy [do] he have extra supplies for the class project?",
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
       "partInstruction": "Choose the correction."
     },
     {
-      "id": "discover-1-grammar-u10-3-1",
+      "id": "discover-1-grammar-u10-3-1-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -445,7 +453,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Do ... have? · I / you / we / they",
       "title": "Do ... have? · I / you / we / they",
@@ -464,7 +473,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ you have any food?\nWord bank: Is · Has · Do · Does",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n___ you have any food?\nWord bank: Is · Has · Do · Does",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -472,7 +481,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u10-3-2",
+      "id": "discover-1-grammar-u10-3-2-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -480,7 +489,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Does ... have? · He / she / it",
       "title": "Does ... have? · He / she / it",
@@ -499,7 +509,7 @@
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "___ he have sausages?\nWord bank: Has · Does · Do · Are",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n___ he have sausages?\nWord bank: Has · Does · Do · Are",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -507,7 +517,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u10-3-3",
+      "id": "discover-1-grammar-u10-3-3-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -515,7 +525,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · do / don't",
       "title": "Trả lời ngắn · do / don't",
@@ -527,14 +538,14 @@
         "hasn't"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "why": "We don't take other pupils' things without asking.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "No, we ___.\nWord bank: don't · doesn't · isn't · hasn't",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWe ___ take other pupils' things without asking.\nWord bank: don't · doesn't · isn't · hasn't",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -542,7 +553,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u10-3-4",
+      "id": "discover-1-grammar-u10-3-4-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -550,7 +561,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · does / doesn't",
       "title": "Trả lời ngắn · does / doesn't",
@@ -562,14 +574,14 @@
         "does"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "why": "Why does he have extra supplies for the class project?\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Yes, he ___.\nWord bank: do · is · has · does",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nWhy ___ he have extra supplies for the class project?\nWord bank: do · is · has · does",
       "prompt": "Write the missing words.",
       "inputMode": "typing",
       "partType": "readWrite",
@@ -577,7 +589,7 @@
       "partInstruction": "Use the word bank. Write the missing words."
     },
     {
-      "id": "discover-1-grammar-u10-4-1",
+      "id": "discover-1-grammar-u10-4-1-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -585,7 +597,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Do ... have? · I / you / we / they",
       "title": "Do ... have? · I / you / we / they",
@@ -604,7 +617,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -614,7 +627,7 @@
       ]
     },
     {
-      "id": "discover-1-grammar-u10-4-2",
+      "id": "discover-1-grammar-u10-4-2-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -622,7 +635,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Does ... have? · He / she / it",
       "title": "Does ... have? · He / she / it",
@@ -641,7 +655,7 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
@@ -651,7 +665,7 @@
       ]
     },
     {
-      "id": "discover-1-grammar-u10-4-3",
+      "id": "discover-1-grammar-u10-4-3-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -659,36 +673,37 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · do / don't",
       "title": "Trả lời ngắn · do / don't",
-      "answer": "No, → we → don't.",
+      "answer": "We don't take → other pupils' things → without asking.",
       "options": [
-        "No, → we → don't.",
-        "we → don't. → No,",
-        "don't. → No, → we",
-        "don't. → we → No,"
+        "We don't take → other pupils' things → without asking.",
+        "other pupils' things → without asking. → We don't take",
+        "without asking. → We don't take → other pupils' things",
+        "without asking. → other pupils' things → We don't take"
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "why": "We don't take other pupils' things without asking.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
-        "we",
-        "don't.",
-        "No,"
+        "other pupils' things",
+        "without asking.",
+        "We don't take"
       ]
     },
     {
-      "id": "discover-1-grammar-u10-4-4",
+      "id": "discover-1-grammar-u10-4-4-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -696,36 +711,37 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · does / doesn't",
       "title": "Trả lời ngắn · does / doesn't",
-      "answer": "Yes, → he → does.",
+      "answer": "Why does he have → extra supplies for → the class project?",
       "options": [
-        "Yes, → he → does.",
-        "he → does. → Yes,",
-        "does. → Yes, → he",
-        "does. → he → Yes,"
+        "Why does he have → extra supplies for → the class project?",
+        "extra supplies for → the class project? → Why does he have",
+        "the class project? → Why does he have → extra supplies for",
+        "the class project? → extra supplies for → Why does he have"
       ],
       "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "why": "Why does he have extra supplies for the class project?\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Build a complete sentence.",
+      "scene": "Anna finds a notebook with a classmate's name inside.\n",
       "prompt": "Put the words in order.",
       "partType": "build",
       "orderWords": [
-        "he",
-        "does.",
-        "Yes,"
+        "extra supplies for",
+        "the class project?",
+        "Why does he have"
       ]
     },
     {
-      "id": "discover-1-grammar-u10-5-1",
+      "id": "discover-1-grammar-u10-5-1-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -733,7 +749,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Do ... have? · I / you / we / they",
       "title": "Do ... have? · I / you / we / they",
@@ -752,14 +769,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Do ... have? · I / you / we / they",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nGrammar focus: Do ... have? · I / you / we / they",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u10-5-2",
+      "id": "discover-1-grammar-u10-5-2-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -767,7 +784,8 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Does ... have? · He / she / it",
       "title": "Does ... have? · He / she / it",
@@ -786,14 +804,14 @@
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Does ... have? · He / she / it",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nGrammar focus: Does ... have? · He / she / it",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u10-5-3",
+      "id": "discover-1-grammar-u10-5-3-context2",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -801,33 +819,34 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "class-grammar-model",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · do / don't",
       "title": "Trả lời ngắn · do / don't",
-      "answer": "No, we don't.",
+      "answer": "We don't take other pupils' things without asking.",
       "options": [
-        "No, we isn't.",
-        "No, we hasn't.",
-        "No, we don't.",
-        "No, we doesn't."
+        "We isn't take other pupils' things without asking.",
+        "We hasn't take other pupils' things without asking.",
+        "We don't take other pupils' things without asking.",
+        "We doesn't take other pupils' things without asking."
       ],
       "hint": "Câu trả lời ngắn lặp lại đúng đại từ và trợ động từ. Do you...? thường được trả lời bằng Yes, I do hoặc No, I don't. Do they...? dùng they trong câu trả lời.",
-      "why": "No, we don't.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
+      "why": "We don't take other pupils' things without asking.\nCâu trả lời ngắn lặp lại đúng đại từ và trợ động từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Trả lời ngắn · do / don't",
+      "scene": "Anna finds a notebook with a classmate's name inside.\nGrammar focus: Trả lời ngắn · do / don't",
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
       "partInstruction": "Choose the sentence that follows the rule."
     },
     {
-      "id": "discover-1-grammar-u10-5-4",
+      "id": "discover-1-grammar-u10-5-4-context2-life",
       "type": "choice",
       "unit": 10,
       "skill": "grammar",
@@ -835,30 +854,32 @@
       "source": {
         "url": "https://mstrangtrieueducation-droid.github.io/a8hjzqn/",
         "unit": 10,
-        "kind": "class-grammar-model"
+        "kind": "authored-life-application-aligned-to-unit",
+        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
       "focus": "Trả lời ngắn · does / doesn't",
-      "title": "Trả lời ngắn · does / doesn't",
-      "answer": "Yes, he does.",
+      "title": "Use English in Real Life",
+      "answer": "Anna gives the notebook back to its owner.",
       "options": [
-        "Yes, he has.",
-        "Yes, he does.",
-        "Yes, he do.",
-        "Yes, he is."
+        "Anna tears out the pages.",
+        "Anna gives the notebook back to its owner.",
+        "Anna erases the name and keeps it.",
+        "Anna hides it behind a cupboard."
       ],
-      "hint": "Với he, she và it, câu trả lời ngắn dùng does hoặc doesn't. Không lặp lại have trong câu trả lời ngắn: Yes, he does, không nói Yes, he does have.",
-      "why": "Yes, he does.\nVới he, she và it, câu trả lời ngắn dùng does hoặc doesn't.",
+      "hint": "Read the situation. Think about its effect on other people.",
+      "why": "Dùng bằng chứng về chủ sở hữu để chọn hành động đúng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "partId": "grammar-life-application",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Grammar focus: Trả lời ngắn · does / doesn't",
-      "prompt": "Which sentence follows the rule?",
+      "scene": "Anna finds a notebook with a classmate's name inside.",
+      "prompt": "What is the best choice?",
       "partType": "readChoose",
-      "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partTitle": "Think and Choose",
+      "partInstruction": "Read and choose the best response.",
+      "contextApplication": true
     }
   ]
 }

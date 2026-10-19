@@ -1,0 +1,4412 @@
+{
+  "version": 3,
+  "course": "phonics-4",
+  "unit": 7,
+  "image": "../game-kit/adventures/panoramas/phonics-4-unit-7-panorama-v2.png",
+  "imageWidth": 1672,
+  "imageHeight": 941,
+  "source": {
+    "url": "https://drive.google.com/file/d/166c92ueRvhX7jNRbSkt_lrW0XChpHJdX/view",
+    "page": 71,
+    "adaptation": "New panorama composed from this Unit vocabulary; not a reproduced textbook scan."
+  },
+  "objects": [
+    {
+      "id": "first-0",
+      "word": "skunk",
+      "color": "brown",
+      "x": 8,
+      "y": 47,
+      "w": 9,
+      "h": 16,
+      "cell": 0
+    },
+    {
+      "id": "first-1",
+      "word": "skunk",
+      "color": "brown",
+      "x": 17,
+      "y": 50,
+      "w": 9,
+      "h": 16,
+      "cell": 0
+    },
+    {
+      "id": "first-2",
+      "word": "skunk",
+      "color": "brown",
+      "x": 25,
+      "y": 48,
+      "w": 9,
+      "h": 16,
+      "cell": 0
+    },
+    {
+      "id": "first-3",
+      "word": "skunk",
+      "color": "white",
+      "x": 44,
+      "y": 80,
+      "w": 10,
+      "h": 17,
+      "cell": 1
+    },
+    {
+      "id": "first-4",
+      "word": "skunk",
+      "color": "black",
+      "x": 91,
+      "y": 81,
+      "w": 10,
+      "h": 17,
+      "cell": 2
+    },
+    {
+      "id": "second-0",
+      "word": "desk",
+      "color": null,
+      "x": 35,
+      "y": 48,
+      "w": 8,
+      "h": 21,
+      "cell": 3
+    },
+    {
+      "id": "second-1",
+      "word": "desk",
+      "color": null,
+      "x": 43,
+      "y": 51,
+      "w": 8,
+      "h": 21,
+      "cell": 3
+    },
+    {
+      "id": "second-2",
+      "word": "desk",
+      "color": null,
+      "x": 52,
+      "y": 50,
+      "w": 8,
+      "h": 21,
+      "cell": 3
+    },
+    {
+      "id": "main-0",
+      "word": "scale",
+      "color": null,
+      "x": 66,
+      "y": 47,
+      "w": 12,
+      "h": 16,
+      "cell": 4
+    },
+    {
+      "id": "main-1",
+      "word": "squid",
+      "color": null,
+      "x": 89,
+      "y": 55,
+      "w": 16,
+      "h": 23,
+      "cell": 5
+    },
+    {
+      "id": "main-2",
+      "word": "square",
+      "color": null,
+      "x": 23,
+      "y": 81,
+      "w": 16,
+      "h": 23,
+      "cell": 6
+    },
+    {
+      "id": "main-3",
+      "word": "splint",
+      "color": null,
+      "x": 67,
+      "y": 83,
+      "w": 16,
+      "h": 23,
+      "cell": 7
+    },
+    {
+      "id": "upper-0",
+      "word": "S",
+      "color": null,
+      "x": 19.5,
+      "y": 14,
+      "w": 9,
+      "h": 13,
+      "kind": "letter",
+      "case": "upper",
+      "cell": 8
+    },
+    {
+      "id": "lower-0",
+      "word": "s",
+      "color": null,
+      "x": 19.5,
+      "y": 26,
+      "w": 8,
+      "h": 11,
+      "kind": "letter",
+      "case": "lower",
+      "cell": 11
+    },
+    {
+      "id": "upper-1",
+      "word": "K",
+      "color": null,
+      "x": 49,
+      "y": 14,
+      "w": 9,
+      "h": 13,
+      "kind": "letter",
+      "case": "upper",
+      "cell": 9
+    },
+    {
+      "id": "lower-1",
+      "word": "k",
+      "color": null,
+      "x": 49,
+      "y": 26,
+      "w": 8,
+      "h": 11,
+      "kind": "letter",
+      "case": "lower",
+      "cell": 12
+    },
+    {
+      "id": "upper-2",
+      "word": "U",
+      "color": null,
+      "x": 82.2,
+      "y": 14,
+      "w": 9,
+      "h": 13,
+      "kind": "letter",
+      "case": "upper",
+      "cell": 10
+    },
+    {
+      "id": "lower-2",
+      "word": "u",
+      "color": null,
+      "x": 82.2,
+      "y": 26,
+      "w": 8,
+      "h": 11,
+      "kind": "letter",
+      "case": "lower",
+      "cell": 13
+    }
+  ],
+  "questions": [
+    {
+      "id": "phonics-4-u7-hunt-v3-1",
+      "prompt": "Find the scale!",
+      "groups": [
+        {
+          "targets": [
+            "main-0"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "harbour",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/harbour-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 25,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 59,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 73,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-2",
+      "prompt": "Where is the squid?",
+      "groups": [
+        {
+          "targets": [
+            "main-1"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "garden",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/garden-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 25,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 41,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 89,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 43,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-3",
+      "prompt": "Can you see the square?",
+      "groups": [
+        {
+          "targets": [
+            "main-2"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "bedroom",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/bedroom-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 73,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 89,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 43,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 9,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-4",
+      "prompt": "Touch the splint!",
+      "groups": [
+        {
+          "targets": [
+            "main-3"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "museum",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/museum-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 25,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 41,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 27,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 59,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-5",
+      "prompt": "What letter makes the sound /s/?",
+      "groups": [
+        {
+          "targets": [
+            "upper-0",
+            "lower-0"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "beach",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/beach-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 73,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 59,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 9,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 73,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 89,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        }
+      ],
+      "sound": {
+        "letter": "S",
+        "ipa": "s",
+        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/s.mp3",
+        "repetitions": 2,
+        "pauseMs": 550
+      }
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-6",
+      "prompt": "Find the small s!",
+      "groups": [
+        {
+          "targets": [
+            "lower-0"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "camp",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/camp-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 25,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 25,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 41,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-7",
+      "prompt": "Find one big skunk!",
+      "groups": [
+        {
+          "targets": [
+            "first-0",
+            "first-1",
+            "first-2",
+            "first-3",
+            "first-4"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "snow",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/snow-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 41,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 73,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 59,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 25,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 41,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-8",
+      "prompt": "Find one desk!",
+      "groups": [
+        {
+          "targets": [
+            "second-0",
+            "second-1",
+            "second-2"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "treehouse",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/treehouse-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 25,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 41,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-9",
+      "prompt": "Where is the big K?",
+      "groups": [
+        {
+          "targets": [
+            "upper-1"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "picnic",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/picnic-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 41,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 41,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 57,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 73,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 89,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-10",
+      "prompt": "Where is the small k?",
+      "groups": [
+        {
+          "targets": [
+            "lower-1"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "cave",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/cave-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 57,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 73,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 43,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 91,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 57,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-11",
+      "prompt": "Find the white skunk!",
+      "groups": [
+        {
+          "targets": [
+            "first-3"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "park",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/park-scene-v3.png",
+      "objects": [
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 9,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 27,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 59,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 41,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-12",
+      "prompt": "Find the black skunk!",
+      "groups": [
+        {
+          "targets": [
+            "first-4"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "rooftop",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/rooftop-scene-v3.png",
+      "objects": [
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 25,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 43,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 91,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 9,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-13",
+      "prompt": "What letter makes the sound /k/?",
+      "groups": [
+        {
+          "targets": [
+            "upper-1",
+            "lower-1"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "kitchen",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/kitchen-scene-v3.png",
+      "objects": [
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 9,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 89,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 41,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 73,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        }
+      ],
+      "sound": {
+        "letter": "K",
+        "ipa": "k",
+        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/k.mp3",
+        "repetitions": 2,
+        "pauseMs": 550
+      }
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-14",
+      "prompt": "Can you see the small u?",
+      "groups": [
+        {
+          "targets": [
+            "lower-2"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "library",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/library-scene-v3.png",
+      "objects": [
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 41,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 57,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 73,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 57,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-15",
+      "prompt": "Find 3 big brown skunks!",
+      "groups": [
+        {
+          "targets": [
+            "first-0",
+            "first-1",
+            "first-2"
+          ],
+          "need": 3
+        }
+      ],
+      "world": "orchard",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/orchard-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 41,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 57,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 27,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 43,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 25,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-16",
+      "prompt": "Find all 3 desks!",
+      "groups": [
+        {
+          "targets": [
+            "second-0",
+            "second-1",
+            "second-2"
+          ],
+          "need": 3
+        }
+      ],
+      "world": "classroom",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/classroom-scene-v3.png",
+      "objects": [
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 41,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 27,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 43,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 75,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 25,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-17",
+      "prompt": "Find all 5 big skunks!",
+      "groups": [
+        {
+          "targets": [
+            "first-0",
+            "first-1",
+            "first-2",
+            "first-3",
+            "first-4"
+          ],
+          "need": 5
+        }
+      ],
+      "world": "forest",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/forest-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 41,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 75,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 91,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 25,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 73,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 89,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-18",
+      "prompt": "Find 2 brown skunks!",
+      "groups": [
+        {
+          "targets": [
+            "first-0",
+            "first-1",
+            "first-2"
+          ],
+          "need": 2
+        }
+      ],
+      "world": "jungle",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/jungle-scene-v3.png",
+      "objects": [
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 25,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 57,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 89,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 57,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-19",
+      "prompt": "Find 2 desks!",
+      "groups": [
+        {
+          "targets": [
+            "second-0",
+            "second-1",
+            "second-2"
+          ],
+          "need": 2
+        }
+      ],
+      "world": "space",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/space-scene-v3.png",
+      "objects": [
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 9,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        },
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 41,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 73,
+          "y": 44.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 89,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 11,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 27,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 59,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 75,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 91,
+          "y": 68.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 9,
+          "y": 90.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 89,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        }
+      ]
+    },
+    {
+      "id": "phonics-4-u7-hunt-v3-20",
+      "prompt": "Find one brown skunk and the white skunk!",
+      "groups": [
+        {
+          "targets": [
+            "first-0",
+            "first-1",
+            "first-2"
+          ],
+          "need": 1
+        },
+        {
+          "targets": [
+            "first-3"
+          ],
+          "need": 1
+        }
+      ],
+      "world": "farm",
+      "background": "/titi-game-media/assets/hunt-worlds/scenes/farm-scene-v3.png",
+      "objects": [
+        {
+          "id": "first-1",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-3",
+          "word": "skunk",
+          "color": "white",
+          "x": 25,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 1
+        },
+        {
+          "id": "lower-1",
+          "word": "k",
+          "color": null,
+          "x": 41,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 12
+        },
+        {
+          "id": "second-2",
+          "word": "desk",
+          "color": null,
+          "x": 57,
+          "y": 43,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "lower-2",
+          "word": "u",
+          "color": null,
+          "x": 73,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 13
+        },
+        {
+          "id": "lower-0",
+          "word": "s",
+          "color": null,
+          "x": 89,
+          "y": 46.5,
+          "w": 8,
+          "h": 11,
+          "kind": "letter",
+          "case": "lower",
+          "cell": 11
+        },
+        {
+          "id": "upper-0",
+          "word": "S",
+          "color": null,
+          "x": 11,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 8
+        },
+        {
+          "id": "main-1",
+          "word": "squid",
+          "color": null,
+          "x": 27,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 5
+        },
+        {
+          "id": "main-0",
+          "word": "scale",
+          "color": null,
+          "x": 43,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 4
+        },
+        {
+          "id": "upper-2",
+          "word": "U",
+          "color": null,
+          "x": 59,
+          "y": 66.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 10
+        },
+        {
+          "id": "second-0",
+          "word": "desk",
+          "color": null,
+          "x": 75,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "second-1",
+          "word": "desk",
+          "color": null,
+          "x": 91,
+          "y": 65,
+          "w": 12,
+          "h": 18,
+          "cell": 3
+        },
+        {
+          "id": "first-0",
+          "word": "skunk",
+          "color": "brown",
+          "x": 9,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "first-4",
+          "word": "skunk",
+          "color": "black",
+          "x": 25,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 2
+        },
+        {
+          "id": "main-3",
+          "word": "splint",
+          "color": null,
+          "x": 41,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 7
+        },
+        {
+          "id": "main-2",
+          "word": "square",
+          "color": null,
+          "x": 57,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 6
+        },
+        {
+          "id": "first-2",
+          "word": "skunk",
+          "color": "brown",
+          "x": 73,
+          "y": 87,
+          "w": 12,
+          "h": 18,
+          "cell": 0
+        },
+        {
+          "id": "upper-1",
+          "word": "K",
+          "color": null,
+          "x": 89,
+          "y": 88.5,
+          "w": 8,
+          "h": 15,
+          "kind": "letter",
+          "case": "upper",
+          "cell": 9
+        }
+      ]
+    }
+  ],
+  "atlas": "/titi-game-media/assets/hunt-worlds/objects/phonics-4-unit-7-objects-v3.png"
+}

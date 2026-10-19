@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path'),core=require('../game-kit/adventures/hunt-world-core.js'),v2=require('./build-panorama.cjs'),profiles=require('../game-kit/adventures/panoramas/profiles.json'),sources=require('../game-kit/adventures/hunt-worlds/sources.json');
+for(const p of profiles){const art=sources.objects.find(a=>a.course===p.course&&a.unit===p.unit);if(!art)throw Error('Missing atlas '+p.course+p.unit);const pack=core.make(v2.build(p),p,art,sources.scenes),dir=path.join(__dirname,'hunt-worlds',p.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${p.unit}.json`),JSON.stringify(pack,null,2)+'\n');}
+console.log('32 Unit packs · 640 challenges · 20 distinct settings per Unit');

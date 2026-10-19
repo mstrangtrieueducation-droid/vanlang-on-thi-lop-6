@@ -6,9 +6,10 @@
  function enabled(id,items,part,exam=false){const rows=part.indices.map(i=>items[i]);return course(id)&&rows.every(q=>(q.type==='choice'||q.inputMode==='typing')&&!q.orderWords&&!q.matchPictures);}
  const blanks=q=>q.inputMode==='typing'?String(q.answer).split(' / ').length:0;
  function value(q,run,flow){return run.sheetDrafts?.[q.id]??flow.answer(run,q.id).last??'';}
- function ready(q,v){return q.inputMode==='typing'?String(v||'').split(' / ').length===blanks(q)&&String(v).split(' / ').every(s=>s.trim()):q.options?.includes(v);}
+ function ready(q,v){return q.inputMode==='typing'?String(v??'').split(' / ').length===blanks(q)&&String(v??'').split(' / ').every(s=>s.trim()):q.options?.includes(v);}
  function media(items,part){const rows=part.indices.map(i=>items[i]),first=rows[0];return {...first,sheetPartId:part.id,sheetAudioItems:rows,storyTitle:first.storyTitle||part.title};}
  function render(items,part,run,flow,coach,layout,pictures,dialogue,testScenes,exam){
+  if(globalThis.DictationSheet?.eligible(items,part))return DictationSheet.render(items,part,run,flow,coach);
   return `<header class="sheet-heading"><div><small>PART ${part.number} / ${part.total} · ${part.count} QUESTIONS</small><h1>${esc(part.title)}</h1></div><button id="part-instruction" aria-label="Replay Part instruction">🔊</button><p>${esc(part.instruction)}</p><span class="sheet-count" role="status"></span></header><div class="sheet-rows">`+part.indices.map((i,row)=>{
    const q=items[i],v=value(q,run,flow),answered=!!run.answers[q.id],correct=run.answers[q.id]?.firstCorrect;
    const view=globalThis.ReadingPassage?.question(q)||q;const scene=dialogue?.render(view)||(view.scene?`<p class="sheet-context">${esc(view.scene)}</p>`:'');

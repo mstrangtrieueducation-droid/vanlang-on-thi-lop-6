@@ -1,0 +1,5 @@
+const fs=require('fs'),family=require('./program/family-grammar.cjs'),discover=require('./program/discover-resources.json'),config=require('./program/discover-grammar.cjs'),rewrite=require('./program/contextual-grammar.cjs');
+const forms={},spoken=new Set(),add=(course,unit,model)=>{const next=rewrite.enrich(model,course,unit,0);if(next.scene===model.scene)return;const text=next.scene.replace('___','…');forms[course+'|'+unit+'|'+model.scene]={scene:next.scene,spokenScene:text};spoken.add(text);};
+for(const n of [1,2])for(let i=0;i<15;i++)for(const m of family[n][i])add('family-friends-'+n,i+1,m);
+for(const b of discover.books)for(const u of b.units)u.grammar.rules.slice(0,4).forEach((r,i)=>{const [answer,wrong]=config[b.level][u.unit-1][i];add('discover-'+b.level,u.unit,{scene:r.example.replace(answer,'___'),answer,wrong});});
+fs.writeFileSync('game-kit/adventures/context-forms.json',JSON.stringify({version:1,forms},null,2)+'\n');fs.writeFileSync('context-voice-texts.json',JSON.stringify([...spoken],null,2));console.log(Object.keys(forms).length,'short-form prompts gain a complete sentence; source IDs and keys unchanged');
