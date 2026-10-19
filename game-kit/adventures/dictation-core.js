@@ -14,7 +14,7 @@
     if(!blank)return {text};
     const id=`${source.course}-dictation-u${source.unit}-${paragraph+1}-${position+1}`,index=items.length;
     items.push({id,type:'choice',inputMode:'typing',answer:text,options:[text],unit:source.unit,skill:'listening',dictation:true,dictationIndex:index,letters:n,partId:source.course+'-u'+source.unit+'-dictation',partType:'listenWrite',partTitle:'Listening Dictation',partInstruction:'Listen and complete the passage.',prompt:'Listen and write.',scene:'',spokenPrompt:'',spokenScene:'',storyId:source.course+'-u'+source.unit+'-dictation',storyTitle:source.title,sourceAudio:source.audio,source:source.source,hint:`Listen for ${n} letters.`,why:`Từ trong bản ghi: ${text}. Nghe lại để kiểm tra âm đầu, âm cuối và cách viết.`,difficulty:index<8?'easy':index<20?'medium':'advanced'});
-    const q=items[items.length-1],plain=text.replace(/['’]/g,'');q.acceptedAnswers=[...new Set([plain,text.normalize('NFD').replace(/\p{M}/gu,''),...(source.variants?.[text.toLowerCase()]||[])])].filter(w=>w!==text);q.keepOrder=true;
+    const q=items[items.length-1],plain=text.replace(/['’]/g,'');q.acceptedAnswers=[...new Set([plain,plain.replace(/-/g,''),plain.replace(/-/g,' '),text.normalize('NFD').replace(/\p{M}/gu,''),...(source.variants?.[text.toLowerCase()]||[])])].filter(w=>w!==text);q.keepOrder=true;
     const before=words.slice(0,position).join(''),after=words.slice(position+1).join('');q.reviewScene=before.slice(Math.max(before.lastIndexOf('.'),before.lastIndexOf('!'),before.lastIndexOf('?'))+1).trimStart()+'___'+after.split(/(?<=[.!?])\s/)[0];
     return {text,id,index,letters:n};
    })};
