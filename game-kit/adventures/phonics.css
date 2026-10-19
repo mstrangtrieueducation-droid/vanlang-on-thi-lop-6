@@ -55,3 +55,5 @@
 #adventure.flow-live .pair-pictures .pair-assignment{position:absolute;right:8px;bottom:3px;padding:1px 5px;background:#fffffff0;border-radius:6px;font-size:clamp(12px,1.3vw,17px)}
 @media(max-width:600px){#adventure.flow-live .pair-pictures .phonics-card-image{max-height:100px}}
 @media(max-height:550px){#adventure.flow-live .pair-pictures .phonics-card-image{max-height:48px}#adventure.flow-live .pair-pictures button{gap:0;padding:2px 5px}}
+.phonics-card-image.clay-picture{background:transparent!important;border-radius:0}
+.picture-choice .phonics-card-image.clay-picture{max-width:min(82%,150px)}

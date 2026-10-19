@@ -6,7 +6,7 @@ Run `node fighter/build.cjs` from the repository root to rebuild `data.js` and `
 
 ## Question authoring rules
 
-- Word Family: blank a source example, use at least three distinct same-root forms actually present in that source row. The reviewed root allowlist filters synonyms/antonyms out; it never supplies missing forms.
+- Word Family: blank a source example and use distinct same-root forms. Original source forms remain separate from reviewed lexical supplements in `b1-families.tsv`; supplements belong to the practice task and never overwrite the source row.
 - Collocation cloze: blank an attested particle/preposition or a reviewed lexical collocation. Exclude alternative prepositions declared in the source pattern.
 - Collocation Magnet: assemble a source collocation from individual tiles, including distinct tile IDs when a word occurs twice. Source patterns such as `seem (v) to V` may supply `seem to`.
 - Reading Clue Hunter: select the exact character span in a two/three-sentence source excerpt. Preserve natural inline sentences and source attribution.
@@ -14,6 +14,14 @@ Run `node fighter/build.cjs` from the repository root to rebuild `data.js` and `
 - `authored-contexts.json` contains separately labelled practice contexts composed from a Unit's vocabulary when no original passage was extracted. These are not presented as quotations from the textbook.
 
 Fields absent from the original source remain `null`/empty and are listed in `source-audit.json`. In particular, do not invent IPA or word families just to reach a fixed option count. A row may support some task types but not others. All source rows remain available in Word Vault.
+
+## B1+ practice layer
+
+`b1-refine.cjs` refines eligible tasks before the source audit. The bank retains 1,930 vocabulary rows across 88 Units, with 3,825 eligible practice tasks. `b1-glosses.tsv` supplies 643 reviewed English clues where source definitions are absent. Evidence selection uses English contextual definitions; Vietnamese appears in explanations after answering. Definitions that reveal the answer are excluded.
+
+`b1-collocations.cjs` adds reviewed contextual clozes only when the associated collocation occurs in that Unit's source vocabulary. Newly composed contexts and lexical family supplements are labelled explicitly, not attributed verbatim to the textbook. Word-family answers show parts of speech and preserve a single lexical root. Very short two-tile collocation puzzles are excluded.
+
+Unanswered tasks in a saved version-3 run refresh by stable ID when that task still exists in the revised bank. Recorded answers, points and history remain intact. Start a new round to use the complete revised pool.
 
 ## Learning and scoring
 
@@ -27,6 +35,6 @@ Stored run schema is version 3. Old unfinished runs are not resumed with new tas
 
 ## Validation
 
-`node --test fighter/core.test.cjs fighter/academic.test.cjs`
+`node --test fighter/core.test.cjs fighter/academic.test.cjs fighter/b1.test.cjs`
 
 Tests cover source row count, original cloze reconstruction, same-root options, exact excerpt spans/provenance, collocation tiles, 60/40 sampling, mistake priority, scoring, checkpoint expiry, and classroom-limited unlocking. Browser QA covers touch-size layouts at 390×844 and 844×390 plus desktop, tapping/selection, all task types, feedback, and result review.

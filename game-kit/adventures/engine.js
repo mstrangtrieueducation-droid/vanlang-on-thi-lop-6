@@ -1,5 +1,6 @@
 (async () => {
  'use strict';
+ if(document.readyState==='loading')await new Promise(resolve=>document.addEventListener('DOMContentLoaded',resolve,{once:true}));
  if(!window.StudentGate){document.querySelector('#adventure').innerHTML='<p>Chưa kiểm tra được bài đã mở. Con tải lại trang hoặc mở từ bảng theo dõi nhé.</p>';return;}
  try{await window.TitiCloud?.restore();await window.TitiCloud?.flush();}catch{}
  if(!await StudentGate.enter()){window.FlowBoot?.cancel();return;}
