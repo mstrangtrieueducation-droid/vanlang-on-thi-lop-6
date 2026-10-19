@@ -55,7 +55,7 @@
  let waiting=false;
  function reveal(){waiting=false;}
  function readClue(){
-  if(!q()||app.querySelector('.continuous-sheet')||window.ListeningDock?.eligible(q(),G.exam))return;const clips=TaskParts.speech(q()),epoch=roundEpoch;let i=0;
+  if(!q()||app.querySelector('.continuous-sheet')||window.ListeningDock?.eligible(q(),G.exam))return;const clips=TaskParts.speech(q(),{course:GAME_CONFIG.courseId}),epoch=roundEpoch;let i=0;
   function next(){if(epoch!==roundEpoch||!active||committed||i>=clips.length)return;
    speak(clips[i++],()=>{voiceDelay=setTimeout(next,200);});
   }next();

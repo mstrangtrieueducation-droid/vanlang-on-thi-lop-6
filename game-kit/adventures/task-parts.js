@@ -59,11 +59,15 @@
  }
  function at(items,pos){const all=sections(items),part=all.find(p=>p.indices.includes(pos));return {...part,total:all.length,question:part.indices.indexOf(pos)+1,count:part.indices.length};}
  function questionPrompt(q){return generic(q.prompt)?'':String(q.prompt||'');}
- function speech(q){
+ function speech(q,options={}){
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.
   const scene=String(q.spokenScene??q.scene??'').trim(),prompt=String(q.spokenPrompt??q.prompt??'').trim();
   const out=[];
-  if(scene&&!generic(scene)&&!(q.storyText&&scene===q.storyText))out.push(scene);
+  // An imperative can be the actual clue ("Read books", "Look! The bus is
+  // coming"). Only exact direction placeholders are omitted from scene audio.
+  const pairedClue=Array.isArray(q.pairs)&&q.pairs.some(pair=>pair[0]===scene);
+  const sceneDirection=!q.spokenScene&&!pairedClue&&(/^Listen to Titi[.!]?$/i.test(scene)||/^(?:Listen|Read|Look|Write|Build|Match|Choose|Sort)[.!]?$/i.test(scene)||/^(?:Build|Put|Match|Sort|Choose|Select|Tap|Click|Follow|Count|Complete|Fill|Find|Write|Read|Listen|Look)\s+(?:the|each|all|a|an|and|at|carefully)\b/i.test(scene)||scene===prompt||scene===describe(q).instruction||Object.values(tasks).some(t=>scene===t[1]));
+  if(scene&&!(options.course==='van-lang'?sceneDirection:generic(scene))&&!(q.storyText&&scene===q.storyText))out.push(scene);
   if(prompt&&!generic(prompt)&&!out.includes(prompt))out.push(prompt);
   return out;
  }
