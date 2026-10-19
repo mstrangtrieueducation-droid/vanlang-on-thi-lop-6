@@ -18,13 +18,13 @@
 /* The four transparent frames have 3:4 cells in a 3:1 sheet. Keep natural proportions,
    and clip only the neighbouring frame gutters, rather than stretching each face. */
 .teacher-fox:not(.reacting):not(.think) i{
- background-image:url('teacher-titi-idle.webp')!important;background-size:300% 100%!important;
+ background-image:url("/titi-game-media/assets/optimized-images/6b2e87566bdfb6d26c0a.webp")!important;background-size:300% 100%!important;
  background-position:-6.25% center;clip-path:inset(0 12.5%);transform-origin:50% 88%;
  animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-soft-breathe 3s ease-in-out infinite!important;
 }
 .teacher-fox.reacting i,.teacher-fox.think i{clip-path:none}
 .teacher-fox.life-thinking:not(.reacting) i,.teacher-fox.think:not(.reacting) i{
- background-image:url('teacher-titi-idle.webp')!important;background-size:300% 100%!important;background-position:68.75% center;clip-path:inset(0 12.5%);
+ background-image:url("/titi-game-media/assets/optimized-images/6b2e87566bdfb6d26c0a.webp")!important;background-size:300% 100%!important;background-position:68.75% center;clip-path:inset(0 12.5%);
  animation:titi-think-together 2.6s ease-in-out infinite!important;
 }
 .teacher-fox.life-stepping:not(.reacting) i{animation:titi-friendly-frames 6.4s steps(1,end) infinite,titi-little-steps 2.2s ease-in-out infinite!important}

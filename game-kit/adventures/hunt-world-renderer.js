@@ -1,6 +1,6 @@
 /* Decode alpha components, rather than clipping overflowing atlas cells. All assets local. */
 (()=>{'use strict';
- const cache=new Map(),image=url=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=window.GameMedia?.url(url)||url;});
+ const cache=new Map(),image=url=>window.TitiImages?.load?TitiImages.load(window.GameMedia?.url(url)||url):new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=window.GameMedia?.url(url)||url;});
  async function background(url){if(!cache.has(url)){cache.set(url,image(url));if(cache.size>3)cache.delete(cache.keys().next().value);}return cache.get(url);}
  async function decode(url,cells){const img=await image(url),c=document.createElement('canvas');c.width=img.width;c.height=img.height;const cx=c.getContext('2d',{willReadFrequently:true});cx.drawImage(img,0,0);const d=cx.getImageData(0,0,c.width,c.height),w=c.width,h=c.height,labels=new Int32Array(w*h),stack=new Int32Array(w*h),parts=[];let id=0;
   for(let p=0;p<w*h;p++){if(labels[p]||d.data[p*4+3]<48)continue;id++;let top=0,count=0,minX=w,maxX=0,minY=h,maxY=0,sumX=0,sumY=0;stack[top++]=p;labels[p]=id;

@@ -1,0 +1,17 @@
+.quiz-fixed-visuals{display:contents;pointer-events:none}
+.quiz-fixed-background{position:fixed;inset:0;z-index:0;overflow:hidden;will-change:transform;transform:translateZ(0);contain:strict;pointer-events:none}
+.quiz-fixed-background svg{width:100%;height:100%;opacity:.6}
+.quiz-fixed-mascot{position:fixed;max-width:500px;pointer-events:none;will-change:transform;transform:translateZ(0);contain:layout style}
+#adventure .quiz-fixed-mascot>.teacher-fox{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;margin:0!important;max-width:500px!important}
+#adventure .quiz-fixed-mascot>.teacher-fox i{width:100%!important;height:auto!important;aspect-ratio:1;will-change:transform;transform:translateZ(0)}
+#adventure .quiz-fixed-mascot>.teacher-fox>span{display:none!important}
+.quiz-mascot-slot{visibility:hidden!important;pointer-events:none!important}
+.quiz-mascot-slot i{background:none!important;animation:none!important;filter:none!important}
+#adventure>.play,#adventure>.lobby,#adventure>.finish,#adventure>.screen,#adventure>.home{position:relative;z-index:1}
+.quiz-fixed-visuals[hidden]{display:none}
+.quiz-fixed-visuals:not(.visuals-playing) .quiz-fixed-background{visibility:hidden}
+.quiz-fixed-visuals .quiz-fixed-mascot{z-index:2}
+/* Promote only the large shared layers, not every small option (mobile GPU memory is finite). */
+.nebula,.atlas-world,.atlas-titi,.listening-art,.listening-titi,.hunt-world{backface-visibility:hidden;transform:translateZ(0)}
+.nebula,.atlas-world,.atlas-titi{will-change:transform}
+@media(prefers-reduced-motion:reduce){.quiz-fixed-mascot *{animation:none!important}}

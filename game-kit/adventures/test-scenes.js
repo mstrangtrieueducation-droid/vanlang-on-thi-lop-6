@@ -10,7 +10,7 @@
  const wrap=(body,w=600,h=240)=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="Question illustration">${body}</svg>`;
  let artContext=null;
  const artwork=()=>typeof module==='object'?require('./pictures/family-cards/3d-v3/manifest.json'):window.FamilyArtwork;
- function atlasSvg(p){if(!p)return '';const individual=typeof window!=='undefined'&&window.TitiImages?.source(p);if(individual)return '<image href="'+esc(individual)+'" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>';const w=p.width/p.columns,h=p.height/p.rows,x=p.cell%p.columns*w,y=Math.floor(p.cell/p.columns)*h;return `<svg x="0" y="0" width="100" height="100" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${esc(p.atlas)}" x="0" y="0" width="${p.width}" height="${p.height}"/></svg>`;}
+ function atlasSvg(p){if(!p)return '';const individual=typeof window!=='undefined'&&window.TitiImages?.source(p);if(individual)return '<image href="'+esc(individual)+'" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>';const w=p.width/p.columns,h=p.height/p.rows,x=p.cell%p.columns*w,y=Math.floor(p.cell/p.columns)*h;return `<svg x="0" y="0" width="100" height="100" viewBox="${x} ${y} ${w} ${h}" overflow="hidden"><image href="${esc(globalThis.TitiImages?.url(p.atlas)||p.atlas)}" x="0" y="0" width="${p.width}" height="${p.height}"/></svg>`;}
  function artIcon(name){if(!artContext)return null;const lib=artwork();return lib?.items[`${artContext.book}:${artContext.unit}:${name}`]||lib?.icons[name];}
  function artPerson(p){if(!artContext)return null;const lib=artwork(),gender=p.gender||'boy';let key;
   if(p.age==='elder')key=gender==='girl'?'grandma':'grandpa';

@@ -2,7 +2,7 @@
 #adventure{max-width:1440px;margin:18px auto;min-height:0;border:3px solid #d2ef9b;border-radius:28px;background:#174b38}
 #adventure>header{padding:12px 24px;min-height:74px;background:linear-gradient(110deg,#103e34,#277346);border-bottom:1px solid #b8dd8144}
 #adventure>header .logo{width:46px;height:46px}#adventure>header .brand small{font-size:10px}#adventure>header .brand b{font-size:15px}
-.teacher-fox i{background-image:url('teacher-titi-chibi.webp')!important;background-size:300% 100%;background-repeat:no-repeat}
+.teacher-fox i{background-image:url("/titi-game-media/assets/optimized-images/844652ba1d31bdc3835e.webp")!important;background-size:300% 100%;background-repeat:no-repeat}
 #adventure .play{padding:18px 24px 24px;background:linear-gradient(90deg,#154e3877,#17473444),url('forest-classroom-bg.webp') center/cover}
 #adventure .play-layout,#adventure.focused .play-layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,2fr)!important;gap:24px;align-items:start;height:auto}
 #adventure .scene-panel,#adventure.focused .scene-panel{display:flex!important;flex-direction:column;align-items:center;position:sticky;top:16px;min-width:0;min-height:450px;border:0;box-shadow:none;background:none;padding:12px 0;overflow:visible}

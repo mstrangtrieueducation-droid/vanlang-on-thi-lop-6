@@ -8,6 +8,6 @@
   }).join('')}</p>`).join('');
   return `<section class="dictation-sheet"><header class="sheet-heading"><div><small>PART ${part.number} / ${part.total} · ${part.count} BLANKS</small><h1>${esc(doc.title)}</h1></div><button id="part-instruction" aria-label="Listen to instruction">🔊</button><p>Listen and complete the passage.</p><span class="sheet-count" role="status"></span></header><p class="dictation-tip">Nghe cả đoạn rồi gõ liên tục. Dùng Tab hoặc Enter để chuyển ô; có thể quay lại sửa trước khi kiểm tra.</p><div class="dictation-passage">${passage}</div><footer class="sheet-actions"><button data-sheet-prev ${part.number===1?'disabled':''}>← Previous Part</button><button data-sheet-check>✓ Kiểm tra phần đã điền</button><button data-sheet-next>${part.number===part.total?'Nộp bài ✓':'Next Part →'}</button></footer></section>`;
  }
- function bind(root){const fields=[...root.querySelectorAll('.dictation-gap input')];fields.forEach((input,i)=>input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const next=fields.slice(i+1).find(x=>!x.disabled)||fields.find(x=>!x.disabled);next?.focus();}}));}
+ function bind(root){const fields=[...root.querySelectorAll('.dictation-gap input')];fields.forEach((input,i)=>input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();const next=fields.slice(i+1).find(x=>!x.disabled)||fields.find(x=>!x.disabled);next?.focus();}});}
  window.DictationSheet={eligible,render,bind};
 })();

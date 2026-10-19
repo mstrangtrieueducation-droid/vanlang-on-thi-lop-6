@@ -48,7 +48,7 @@
    // Warm only the next few short local clips, rather than the entire audio bank.
    for(const text of [current().prompt,pack.questions[state.index+1]?.prompt,'Great job!','Awesome!'])for(const clip of [voices[text]].flat().filter(Boolean))fetch(window.GameMedia?.url(clip)||clip,{cache:'force-cache'}).catch(()=>{});
   }
-  async function paint(){const q=current(),i=state.index;locked=true;await HuntWorldRenderer.draw(host.querySelector('.panorama-image'),q,sprites);if(i!==state.index)return;host.querySelectorAll('[data-hotspot]').forEach(b=>{const o=q.objects.find(o=>o.id===b.dataset.hotspot);b.style.cssText=`left:${o.x}%;top:${o.y}%;width:${o.w}%;height:${o.h}%`;});locked=false;HuntWorldRenderer.warm(pack.questions[i+1]?.background||q.background).catch(()=>{});}
+  async function paint(){const q=current(),i=state.index;locked=true;await HuntWorldRenderer.draw(host.querySelector('.panorama-image'),q,sprites);if(i!==state.index)return;host.querySelectorAll('[data-hotspot]').forEach(b=>{const o=q.objects.find(o=>o.id===b.dataset.hotspot);b.style.cssText=`left:${o.x}%;top:${o.y}%;width:${o.w}%;height:${o.h}%`;});locked=false;window.TitiImages?.near(pack.questions,i);}
   async function advance(){if(!active||!state.complete)return;state.index++;state.collected=[];state.missed=false;state.complete=false;locked=true;epoch++;save();if(state.index<20){status('Đang khám phá khung cảnh mới…');try{await paint();update();if(active)readQuestion();}catch(e){pause();status('Chưa tải được cảnh. Chạm Chơi tiếp để thử lại.');}}else result();}
   async function celebrate(){
    locked=true;const token=epoch;status('Great job! ✨');await new Promise(r=>setTimeout(r,450));
