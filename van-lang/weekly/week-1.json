@@ -1,0 +1,297 @@
+{
+  "week": 1,
+  "source": {
+    "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+    "title": "Lý thuyết tuần 1",
+    "modified": "2026-09-10T16:07:35.613Z"
+  },
+  "summary": [
+    {
+      "tag": "Information questions",
+      "formula": "Where + be + S + from? / What nationality + be + S?",
+      "usage": "Phân biệt nơi xuất thân, nơi ở và quốc tịch.",
+      "example": "Where is Mai from? — She is from Vietnam.",
+      "exampleVi": "Mai đến từ đâu? — Bạn ấy đến từ Việt Nam."
+    },
+    {
+      "tag": "Time prepositions",
+      "formula": "at + time / on + day / in + month or year",
+      "usage": "Chọn giới từ theo đơn vị thời gian.",
+      "example": "Our club meets on Monday at six.",
+      "exampleVi": "Câu lạc bộ gặp nhau vào thứ Hai lúc sáu giờ."
+    },
+    {
+      "tag": "Question words",
+      "formula": "How many + plural noun / How much + uncountable noun",
+      "usage": "Đếm số lượng dùng how many; lượng không đếm được hoặc giá dùng how much.",
+      "example": "How many notebooks do you need?",
+      "exampleVi": "Bạn cần bao nhiêu quyển vở?"
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w1-grammar-1",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Mai has moved from Hue to Hanoi. Her new teacher asks, \"___ do you live now?\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Where",
+        "When",
+        "Who",
+        "Why"
+      ],
+      "answer": "Where",
+      "why": "Live hỏi nơi đang ở, nên dùng Where; Hue là nơi trước đây.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-2",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "The new pupil is from Japan. \"What ___ are you?\" asks Ben.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "nationality",
+        "address",
+        "hometown",
+        "name"
+      ],
+      "answer": "nationality",
+      "why": "Nationality hỏi quốc tịch; address là địa chỉ và hometown là quê hương.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-3",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "The art club starts ___ 4:30 p.m. Please arrive before it begins.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": "at",
+      "why": "At đi với giờ cụ thể. On đi với ngày, in đi với tháng hoặc năm.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-4",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "We visit the library ___ Saturdays after breakfast.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "answer": "on",
+      "why": "Saturdays là ngày trong tuần nên dùng on.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-5",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Our new school year begins ___ September, after the summer holiday.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "of"
+      ],
+      "answer": "in",
+      "why": "In đi với tháng September.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-6",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "The ticket is twelve thousand dong. \"___ is one ticket?\" asks Mai.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "How much",
+        "How many",
+        "How often",
+        "How long"
+      ],
+      "answer": "How much",
+      "why": "How much hỏi giá tiền; how many hỏi số lượng vật đếm được.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-7",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Lan needs three notebooks. \"___ notebooks do you need?\" asks the shopkeeper.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "How many",
+        "How much",
+        "How old",
+        "How often"
+      ],
+      "answer": "How many",
+      "why": "Notebooks là danh từ đếm được số nhiều nên dùng How many.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-8",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "The bus journey takes twenty minutes. \"___ does the journey take?\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "How long",
+        "How far",
+        "Whose",
+        "Who"
+      ],
+      "answer": "How long",
+      "why": "How long hỏi khoảng thời gian; câu trả lời là twenty minutes.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-9",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Nam practises the piano every evening. \"___ do you practise?\" asks his friend.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "How often",
+        "How old",
+        "How much",
+        "Whose"
+      ],
+      "answer": "How often",
+      "why": "Every evening diễn tả tần suất, phù hợp How often.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-10",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "The notebook has Lan's name on it. \"___ notebook is this?\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Whose",
+        "Who",
+        "Where",
+        "When"
+      ],
+      "answer": "Whose",
+      "why": "Whose hỏi sự sở hữu và đứng trước notebook.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-11",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Two colours are available. \"___ do you prefer, red or blue?\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Which",
+        "Who",
+        "When",
+        "Whose"
+      ],
+      "answer": "Which",
+      "why": "Which dùng khi chọn trong các phương án đã nêu.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w1-grammar-12",
+      "type": "choice",
+      "title": "Week 1 · Grammar",
+      "scene": "Lan missed the bus because she got up late. \"___ were you late?\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Why",
+        "Whose",
+        "How many",
+        "Where"
+      ],
+      "answer": "Why",
+      "why": "Why hỏi nguyên nhân; câu trả lời có because.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1-6mcfcVhtSv4OokH5-2YhZWJvxRYnDz7yrn8w0IlFRI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

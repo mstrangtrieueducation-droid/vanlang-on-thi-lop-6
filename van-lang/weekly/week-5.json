@@ -1,0 +1,297 @@
+{
+  "week": 5,
+  "source": {
+    "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+    "title": "Lý thuyết tuần 5",
+    "modified": "2026-09-10T16:08:22.142Z"
+  },
+  "summary": [
+    {
+      "tag": "Quantifiers",
+      "formula": "many/a few + plural countable noun / much/a little + uncountable noun",
+      "usage": "Phân biệt danh từ đếm được và không đếm được.",
+      "example": "We have a few apples and a little milk.",
+      "exampleVi": "Chúng ta có vài quả táo và một ít sữa."
+    },
+    {
+      "tag": "Some and lots of",
+      "formula": "some / a lot of + countable or uncountable noun",
+      "usage": "Some thường dùng trong câu khẳng định và lời mời.",
+      "example": "Would you like some orange juice?",
+      "exampleVi": "Bạn muốn một ít nước cam không?"
+    },
+    {
+      "tag": "Prices",
+      "formula": "How much + be + noun? / How much + do/does + noun + cost?",
+      "usage": "Sau does dùng cost, không dùng costs.",
+      "example": "How much does this jacket cost?",
+      "exampleVi": "Chiếc áo khoác này giá bao nhiêu?"
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w5-grammar-1",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "We need ___ apples for the fruit salad; four will be enough.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "a bit"
+      ],
+      "answer": "a few",
+      "why": "Apples đếm được số nhiều; a few chỉ một vài.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-2",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "There is ___ milk left in the jug, enough for one cup.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "a little",
+        "a few",
+        "many",
+        "several"
+      ],
+      "answer": "a little",
+      "why": "Milk không đếm được nên dùng a little.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-3",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "How ___ water should we bring for the walk?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "much",
+        "many",
+        "few",
+        "several"
+      ],
+      "answer": "much",
+      "why": "Water là danh từ không đếm được, dùng How much.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-4",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "How ___ eggs do we need to make the cake?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "many",
+        "much",
+        "little",
+        "any"
+      ],
+      "answer": "many",
+      "why": "Eggs đếm được số nhiều, dùng How many.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-5",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "Would you like ___ juice while you wait for lunch?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "some",
+        "many",
+        "a few",
+        "an"
+      ],
+      "answer": "some",
+      "why": "Some tự nhiên trong lời mời với juice không đếm được.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-6",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "The shop has ___ fresh bread, so everyone can buy a loaf.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "a lot of",
+        "many",
+        "a few",
+        "an"
+      ],
+      "answer": "a lot of",
+      "why": "A lot of dùng được với bread không đếm được.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-7",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "How much does this school bag ___?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "cost",
+        "costs",
+        "costing",
+        "to cost"
+      ],
+      "answer": "cost",
+      "why": "Sau trợ động từ does, động từ chính giữ nguyên cost.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-8",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "How much ___ these two notebooks together?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "are",
+        "is",
+        "does",
+        "has"
+      ],
+      "answer": "are",
+      "why": "These two notebooks số nhiều; hỏi giá dùng How much are.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-9",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "What is the ___ of this blue jacket?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "price",
+        "costs",
+        "much",
+        "many"
+      ],
+      "answer": "price",
+      "why": "The price of + đồ vật là cấu trúc hỏi mức giá.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-10",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "Lan buys a ___ of bread to share with her family.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "loaf",
+        "bottle",
+        "bowl",
+        "cup"
+      ],
+      "answer": "loaf",
+      "why": "Danh từ đơn vị phù hợp với bread là loaf.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-11",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "We do not have ___ time before the bus leaves, so let's finish eating.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "much",
+        "many",
+        "a few",
+        "several"
+      ],
+      "answer": "much",
+      "why": "Time không đếm được; phủ định dùng much tự nhiên.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w5-grammar-12",
+      "type": "choice",
+      "title": "Week 5 · Grammar",
+      "scene": "There are only ___ clean plates, but they are enough for our small group.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "a loaf"
+      ],
+      "answer": "a few",
+      "why": "Plates đếm được số nhiều; a few là một vài và đủ dùng.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1JjLUjh5s2dPnifFJP6py6CBm959v0Zm9jqSKv2OevWM/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

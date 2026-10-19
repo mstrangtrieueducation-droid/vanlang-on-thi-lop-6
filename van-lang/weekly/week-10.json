@@ -1,0 +1,297 @@
+{
+  "week": 10,
+  "source": {
+    "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+    "title": "Lý thuyết tuần 10",
+    "modified": "2026-09-10T16:09:17.805Z"
+  },
+  "summary": [
+    {
+      "tag": "Past simple",
+      "formula": "S + V-ed/irregular past / did not + V",
+      "usage": "Diễn tả sự việc đã kết thúc trong quá khứ.",
+      "example": "We visited the museum yesterday.",
+      "exampleVi": "Chúng tôi đã thăm bảo tàng hôm qua."
+    },
+    {
+      "tag": "Past be and questions",
+      "formula": "was/were / Did + S + V?",
+      "usage": "Sau did dùng nguyên mẫu; we/you/they đi với were.",
+      "example": "Were the pupils at the campsite last night?",
+      "exampleVi": "Tối qua học sinh có ở khu cắm trại không?"
+    },
+    {
+      "tag": "Past endings",
+      "formula": "/t/: watched / /d/: played / /ɪd/: wanted",
+      "usage": "Phân loại theo âm cuối trước -ed; /t/ và /d/ thêm một âm tiết /ɪd/.",
+      "example": "We wanted to play, so we finished our work first.",
+      "exampleVi": "Chúng tôi muốn chơi nên đã làm xong việc trước."
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w10-grammar-1",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "We ___ the museum yesterday and wrote about it afterwards.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "visited",
+        "visit",
+        "visits",
+        "visiting"
+      ],
+      "answer": "visited",
+      "why": "Yesterday chỉ quá khứ đã kết thúc, nên visited.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-2",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "The children ___ at the campsite last night.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": "were",
+      "why": "Children số nhiều; to be quá khứ dùng were.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-3",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "Mai ___ tired after the long walk yesterday.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "was",
+      "why": "Mai số ít; to be quá khứ là was.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-4",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "Did you ___ photos during the trip last Saturday?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "take",
+        "took",
+        "taking",
+        "takes"
+      ],
+      "answer": "take",
+      "why": "Sau Did dùng nguyên mẫu take, không dùng took.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-5",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "We did not ___ a campfire because the ground was too dry.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "build",
+        "built",
+        "building",
+        "builds"
+      ],
+      "answer": "build",
+      "why": "Sau did not dùng nguyên mẫu build.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-6",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "Nam ___ his grandmother two days ago.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "visited",
+        "visits",
+        "visit",
+        "is visiting"
+      ],
+      "answer": "visited",
+      "why": "Two days ago là dấu hiệu quá khứ, chọn visited.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-7",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "The children ___ to the aquarium last Sunday.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "went",
+        "go",
+        "goes",
+        "going"
+      ],
+      "answer": "went",
+      "why": "Go là động từ bất quy tắc; quá khứ là went.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-8",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "Mai ___ a postcard at the gift shop yesterday.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buying"
+      ],
+      "answer": "bought",
+      "why": "Buy có quá khứ bất quy tắc bought.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-9",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "We ___ the coach arrive, so we packed our bags.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "saw",
+        "see",
+        "sees",
+        "seeing"
+      ],
+      "answer": "saw",
+      "why": "Mạch câu quá khứ; see đổi thành saw.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-10",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "The pupils ___ the classroom after the trip; it is tidy now.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "cleaned",
+        "cleans",
+        "cleaning",
+        "are clean"
+      ],
+      "answer": "cleaned",
+      "why": "Sự việc dọn lớp đã hoàn thành; cleaned phù hợp.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-11",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "Which past-tense ending adds a separate syllable?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "wanted",
+        "walked",
+        "washed",
+        "played"
+      ],
+      "answer": "wanted",
+      "why": "Wanted có -ed /ɪd/ vì want kết thúc bằng /t/; các từ kia không thêm âm tiết.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w10-grammar-12",
+      "type": "choice",
+      "title": "Week 10 · Grammar",
+      "scene": "\"___ you at the campsite yesterday?\" \"Yes, we were.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": "Were",
+      "why": "Câu hỏi to be quá khứ với you dùng Were, khớp we were.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1jtJKcIs5plSnip6SxkSgShkK00vzMv-PkrW_j-KKV4g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

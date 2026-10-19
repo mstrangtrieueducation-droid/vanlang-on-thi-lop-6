@@ -26,7 +26,7 @@
   }catch{return null;}
  }
  function tune(humming){
-  if(!context||context.state!=='running')return;
+  if(root.EpicBGM||!context||context.state!=='running')return;
   const song=[392,494,587,659,587,494,440,392];
   song.forEach((hz,i)=>{
    const t=context.currentTime+i*.48,o=context.createOscillator(),g=context.createGain();

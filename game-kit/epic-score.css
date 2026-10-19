@@ -1,0 +1,15 @@
+[data-epic-bgm]{white-space:nowrap}
+@media(max-width:600px){
+ #adventure>header{display:flex!important;flex-wrap:nowrap!important;gap:4px!important;padding:6px!important;min-height:44px!important;max-height:54px!important;flex-shrink:0}
+ #adventure>header .brand,#adventure>header>.logo{display:none!important}
+ #adventure>header .map-link{width:30px!important;min-width:30px!important;padding:5px!important;text-align:center!important}
+ #adventure>header .map-link span{display:none!important}
+ #adventure>header .journey-shortcuts{display:flex!important;gap:3px!important;min-width:0!important;flex:1!important}
+ #adventure>header [data-journey-total]{min-width:0!important;max-width:75px!important;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px!important;padding:4px!important;flex:1}
+ #adventure>header [data-journey-profile]{width:30px!important;min-width:30px!important;padding:3px!important}
+ #adventure>header #score{white-space:nowrap!important;font-size:10px!important;padding:5px!important;min-width:42px!important}
+ #adventure>header #sound,#adventure>header #focus,#adventure>header [data-epic-bgm]{width:30px!important;min-width:30px!important;padding:4px!important}
+ #adventure>header [data-epic-bgm]{font-size:0!important}#adventure>header [data-epic-bgm]:before{content:'♫';font-size:17px}
+ .topbar .brand{font-size:0!important;min-width:0}.topbar .brand strong{font-size:12px!important;line-height:1.2}.topbar .spacer{display:none}.topbar{gap:6px!important}.topbar .icon{min-width:32px!important;width:32px!important;padding:4px!important}.topbar .back{font-size:11px;padding:5px!important}
+}
+@media(max-width:350px){#adventure>header [data-journey-total]{display:none!important}}

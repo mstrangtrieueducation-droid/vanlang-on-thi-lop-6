@@ -1,4 +1,4 @@
-/* A new setting and placement for every challenge; vocabulary stays Unit-specific. */
+/* One stable Unit scene and placement; vocabulary and sounds stay curriculum-specific. */
 (function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else root.HuntWorldCore=api;})(globalThis,()=>{
  const hash=s=>[...s].reduce((a,c)=>Math.imul(a^c.charCodeAt(0),16777619)>>>0,2166136261);
  function shuffle(a,seed){a=[...a];let s=seed;for(let i=a.length-1;i>0;i--){s=(Math.imul(s,1664525)+1013904223)>>>0;const j=s%(i+1);[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -19,7 +19,8 @@
   // The v2 prompts use profile colours. This replacement is data-driven from the new atlas.
   const replacements=new Map(profile.colors.map((c,i)=>[c,colors[i]]));
   const sceneOrder=shuffle(scenes,hash(v2.course+v2.unit));
-  const questions=v2.questions.map((q,i)=>({...q,id:q.id.replace('v2','v4'),prompt:q.prompt.replace(/\b\w+\b/g,w=>replacements.get(w)||w),world:sceneOrder[i].id,background:'/titi-game-media/assets/hunt-worlds/scenes/'+sceneOrder[i].file,objects:layout(objects,hash(v2.course+'/'+v2.unit+'/'+i))}));
+  const unitObjects=layout(objects,hash(v2.course+'/'+v2.unit));
+  const questions=v2.questions.map(q=>({...q,id:q.id.replace('v2','v4'),prompt:q.prompt.replace(/\b\w+\b/g,w=>replacements.get(w)||w),world:sceneOrder[0].id,background:'/titi-game-media/assets/hunt-worlds/scenes/'+sceneOrder[0].file,objects:unitObjects}));
   soundPlan(profile,unit).forEach(({letters,ipa,clip,pattern},i)=>{const q=questions[[4,12][i]],counts=new Map();letters.forEach(l=>counts.set(l,(counts.get(l)||0)+1));const groups=[...counts].map(([letter,need])=>({targets:objects.filter(o=>o.kind==='letter'&&o.word.toUpperCase()===letter).map(o=>o.id),need}));if(groups.some(g=>g.targets.length<g.need))throw Error('Missing Unit sound letters '+profile.course+'/'+profile.unit);
    Object.assign(q,{prompt:letters.length===2?`Which two letters make the sound /${ipa}/?`:`What letter makes the sound /${ipa}/?`,sound:{letters,letter:letters.join(''),sourcePattern:pattern,ipa,instruction:letters.length===2?'Find the two letters for this sound.':'What letter makes this sound?',clip:'/titi-game-media/assets/hunt-worlds/phonemes/'+clip+'-isolated.wav',repetitions:2,pauseMs:550},groups});});
   return {...v2,version:4,atlas:'/titi-game-media/assets/hunt-worlds/objects/'+art.file,objects,questions};

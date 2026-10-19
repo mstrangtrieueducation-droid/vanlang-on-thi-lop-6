@@ -1,0 +1,297 @@
+{
+  "week": 8,
+  "source": {
+    "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+    "title": "Lý thuyết tuần 8",
+    "modified": "2026-09-10T16:08:52.876Z"
+  },
+  "summary": [
+    {
+      "tag": "Future decisions",
+      "formula": "S + will/will not + V",
+      "usage": "Dùng cho quyết định lúc nói, lời hứa hoặc dự đoán.",
+      "example": "I will help you carry those books.",
+      "exampleVi": "Tôi sẽ giúp bạn mang những quyển sách đó."
+    },
+    {
+      "tag": "Plans",
+      "formula": "S + am/is/are + going to + V",
+      "usage": "Dùng cho kế hoạch đã định trước.",
+      "example": "We are going to visit Hue next month.",
+      "exampleVi": "Chúng tôi dự định thăm Huế tháng tới."
+    },
+    {
+      "tag": "Logical connectors",
+      "formula": "but = contrast / or = choice or warning / because = reason",
+      "usage": "Đọc quan hệ giữa hai ý trước khi chọn liên từ.",
+      "example": "We stayed indoors because the storm was strong.",
+      "exampleVi": "Chúng tôi ở trong nhà vì bão mạnh."
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w8-grammar-1",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "\"Those books look heavy.\" \"I ___ help you carry them.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "will",
+        "am",
+        "am going",
+        "was"
+      ],
+      "answer": "will",
+      "why": "Quyết định giúp ngay lúc nói dùng will + V.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-2",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "We have bought the tickets. We ___ going to visit Hue next week.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "will"
+      ],
+      "answer": "are",
+      "why": "We dùng are trong mẫu be going to + V; có kế hoạch trước.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-3",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "Lan ___ going to decorate the classroom tomorrow; she has already bought paper.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "will"
+      ],
+      "answer": "is",
+      "why": "Lan số ít nên is going to; kế hoạch đã chuẩn bị.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-4",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "I promise I ___ return your book tomorrow.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "will",
+        "am",
+        "am going",
+        "was"
+      ],
+      "answer": "will",
+      "why": "Lời hứa dùng will + động từ nguyên mẫu return.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-5",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "We stayed indoors ___ the storm made the roads dangerous.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "because",
+        "but",
+        "or",
+        "and"
+      ],
+      "answer": "because",
+      "why": "Vế sau giải thích lý do, dùng because.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-6",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "The puppy is small, ___ it can run very fast.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "but",
+        "because",
+        "or",
+        "so"
+      ],
+      "answer": "but",
+      "why": "Hai ý trái với điều thường dự đoán, dùng but.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-7",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "Hurry up, ___ you will miss the school bus.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "or",
+        "because",
+        "and",
+        "but"
+      ],
+      "answer": "or",
+      "why": "Or trong mệnh lệnh có nghĩa nếu không thì.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-8",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "Would you like water ___ milk? Please choose one.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "or",
+        "and",
+        "because",
+        "so"
+      ],
+      "answer": "or",
+      "why": "Câu yêu cầu chọn một trong hai đồ uống, dùng or.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-9",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "What ___ the weather be like tomorrow?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "will",
+        "is",
+        "does",
+        "has"
+      ],
+      "answer": "will",
+      "why": "Dạng câu hỏi tương lai: What will the weather be like?",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-10",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "We are going to ___ lanterns for the festival after lunch.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "make",
+        "making",
+        "makes",
+        "made"
+      ],
+      "answer": "make",
+      "why": "Sau going to dùng nguyên mẫu make.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-11",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "\"I think the weather ___ be sunny tomorrow,\" says Mai.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "will",
+        "is",
+        "does",
+        "has"
+      ],
+      "answer": "will",
+      "why": "Dự đoán có I think dùng will be.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w8-grammar-12",
+      "type": "choice",
+      "title": "Week 8 · Grammar",
+      "scene": "Because the path was wet, we ___ carefully instead of running.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "walked",
+        "ran",
+        "rushed",
+        "hurried"
+      ],
+      "answer": "walked",
+      "why": "Quan hệ nguyên nhân cho thấy đi cẩn thận là hợp lý; ba từ còn lại đều đi nhanh.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LqYHvYOPlveqXuBNdX_VELTbVY7KDLXDaCAJMsfVRDc/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "week": 4,
+  "source": {
+    "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+    "title": "Lý thuyết tuần 4",
+    "modified": "2026-09-10T16:08:12.041Z"
+  },
+  "summary": [
+    {
+      "tag": "Existence and possession",
+      "formula": "There is + singular / There are + plural / S + has",
+      "usage": "There is/are giới thiệu sự tồn tại; has diễn tả sở hữu.",
+      "example": "There are two windows in our room.",
+      "exampleVi": "Phòng chúng tôi có hai cửa sổ."
+    },
+    {
+      "tag": "Owners and position",
+      "formula": "Whose + noun? / belong to + owner / between A and B",
+      "usage": "Whose hỏi người sở hữu; between cần hai mốc.",
+      "example": "Whose bag is this? — It belongs to Mai.",
+      "exampleVi": "Túi này của ai? — Của Mai."
+    },
+    {
+      "tag": "Exclamations and adjectives",
+      "formula": "What + a/an + adjective + singular noun!",
+      "usage": "Tính chất/kích cỡ thường đứng trước màu sắc và chất liệu.",
+      "example": "What a beautiful old wooden chair!",
+      "exampleVi": "Chiếc ghế gỗ cũ thật đẹp!"
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w4-grammar-1",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "There ___ two windows in our classroom, so it is bright.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "are",
+        "is",
+        "has",
+        "am"
+      ],
+      "answer": "are",
+      "why": "Two windows số nhiều nên dùng there are.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-2",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "There ___ a clean towel beside the sink.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "is",
+        "are",
+        "have",
+        "be"
+      ],
+      "answer": "is",
+      "why": "A clean towel số ít nên dùng there is.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-3",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "This room ___ a desk near the window, where Lan does her homework.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "answer": "has",
+      "why": "This room là chủ ngữ số ít; has diễn tả sở hữu.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-4",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "The library is ___ the bank and the museum on this map.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "between",
+        "under",
+        "behind",
+        "above"
+      ],
+      "answer": "between",
+      "why": "Giữa hai mốc có and dùng between A and B.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-5",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "\"Whose bag is this?\" \"It belongs ___ Mai.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "with"
+      ],
+      "answer": "to",
+      "why": "Belong to là kết hợp cố định chỉ sở hữu.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-6",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "___ a beautiful house your grandparents have!",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "What",
+        "How",
+        "Where",
+        "Whose"
+      ],
+      "answer": "What",
+      "why": "What + a + adjective + singular noun là câu cảm thán.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-7",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "___ peaceful this village is in the early morning!",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "How",
+        "What",
+        "Who",
+        "When"
+      ],
+      "answer": "How",
+      "why": "How + adjective + S + be, không có danh từ ngay sau peaceful.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-8",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "The puppy is sleeping ___ the table, beneath its wooden top.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "under",
+        "above",
+        "between",
+        "opposite"
+      ],
+      "answer": "under",
+      "why": "Beneath diễn đạt vị trí phía dưới, tương ứng under.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-9",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "Choose the natural phrase for a chair made of wood.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "a beautiful old wooden chair",
+        "a wooden beautiful old chair",
+        "an old wooden beautiful chair",
+        "a chair wooden beautiful old"
+      ],
+      "answer": "a beautiful old wooden chair",
+      "why": "Opinion beautiful đứng trước age old, rồi material wooden.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-10",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "The picture hangs ___ the sofa, higher on the same wall.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "above",
+        "under",
+        "between",
+        "inside"
+      ],
+      "answer": "above",
+      "why": "Higher trên cùng bức tường chỉ vị trí above.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-11",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "\"___ is the owner of this house?\" \"My uncle is.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Who",
+        "Whose",
+        "Where",
+        "How"
+      ],
+      "answer": "Who",
+      "why": "Who hỏi người làm chủ; sau Whose cần danh từ hoặc cấu trúc sở hữu khác.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w4-grammar-12",
+      "type": "choice",
+      "title": "Week 4 · Grammar",
+      "scene": "There ___ any chairs in the empty room, so we must bring some.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "are not",
+        "is not",
+        "does not",
+        "has not"
+      ],
+      "answer": "are not",
+      "why": "Chairs số nhiều dùng are not trong there are not.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1m7a1L33-N2NdyKBl3LjbgHcmR5iUgsPCVUUSFy_TKmw/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ test('A wrong first answer stays wrong after retries; time remains precise in mi
 test('Speed titles also require accuracy; last answer fixes the completion time',()=>{let run={total:2,elapsedMs:90000,finishedElapsed:12000,answers:{a:{firstCorrect:true},b:{firstCorrect:true}}};assert.equal(r.summarize(run).title,'🏆 Kỉ lục gia');run.answers.a.firstCorrect=false;assert.equal(r.summarize(run).title,'🐢 Rùa chăm chỉ');});
 const vm=require('node:vm'),source=require('node:fs').readFileSync(__dirname+'/engine.js','utf8');
 test('Question entry is silent; only the explicit speaker action reads instruction and clue',()=>{
- const calls=[],scope={q:()=>({}),muted:false,committed:false,run:{},active:true,roundEpoch:1,part:{id:'listen',instruction:'Listen and choose.'},currentPart:()=>scope.part,checkpoint:()=>{},speak:(t,done,onClip,onStart)=>{calls.push(t);onStart?.();done?.();},readClue:()=>calls.push('clue')};
+ const calls=[],scope={GAME_CONFIG:{courseId:'phonics-1'},q:()=>({}),muted:false,committed:false,run:{},active:true,roundEpoch:1,part:{id:'listen',key:'listen',instruction:'Listen and choose.'},currentPart:()=>scope.part,checkpoint:()=>{},speak:(t,done,onClip,onStart)=>{calls.push(t);onStart?.();done?.();},readClue:()=>calls.push('clue')};
  vm.runInNewContext(source.slice(source.indexOf('function readMission('),source.indexOf('let waiting=')),scope);
  vm.runInNewContext('readMission();readMission();',scope);assert.deepEqual(calls,[]);
  vm.runInNewContext('readMission(true);',scope);assert.deepEqual(calls,['Listen and choose.','clue']);

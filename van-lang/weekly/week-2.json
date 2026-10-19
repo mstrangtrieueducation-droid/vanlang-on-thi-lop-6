@@ -1,0 +1,297 @@
+{
+  "week": 2,
+  "source": {
+    "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+    "title": "Lý thuyết tuần 2",
+    "modified": "2026-09-10T16:07:51.945Z"
+  },
+  "summary": [
+    {
+      "tag": "Present simple",
+      "formula": "I/You/We/They + V / He/She/It + V-s/es",
+      "usage": "Diễn tả thói quen hoặc sự thật.",
+      "example": "Lan walks to school every day.",
+      "exampleVi": "Lan đi bộ đến trường mỗi ngày."
+    },
+    {
+      "tag": "Questions and negatives",
+      "formula": "Do/Does + S + V? / S + do not/does not + V",
+      "usage": "Sau do/does dùng động từ nguyên mẫu.",
+      "example": "Does Nam study science on Tuesday?",
+      "exampleVi": "Nam có học khoa học vào thứ Ba không?"
+    },
+    {
+      "tag": "Preferences",
+      "formula": "like/enjoy + V-ing / be interested in + noun or V-ing",
+      "usage": "Nói về sở thích; không bỏ giới từ in.",
+      "example": "We are interested in making models.",
+      "exampleVi": "Chúng tôi thích làm mô hình."
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w2-grammar-1",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Lan ___ to school every morning because her house is nearby.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "walks",
+        "walk",
+        "walking",
+        "is walk"
+      ],
+      "answer": "walks",
+      "why": "Lan là chủ ngữ số ít; every morning chỉ thói quen nên walks.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-2",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "My classmates ___ science on Tuesdays and Thursdays.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "study",
+        "studies",
+        "studying",
+        "is study"
+      ],
+      "answer": "study",
+      "why": "My classmates số nhiều, hiện tại đơn dùng study nguyên mẫu.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-3",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "The sun ___ in the east, even when clouds hide it.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "rises",
+        "rise",
+        "rising",
+        "is rise"
+      ],
+      "answer": "rises",
+      "why": "Sự thật hiển nhiên dùng hiện tại đơn; the sun số ít nên rises.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-4",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Our teacher ___ not set homework on the first day of the holiday.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "has"
+      ],
+      "answer": "does",
+      "why": "Teacher số ít nên dùng does not; set giữ nguyên.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-5",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "___ your brother enjoy making models after school?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+      ],
+      "answer": "Does",
+      "why": "Câu hỏi hiện tại đơn có động từ enjoy dùng Does với your brother.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-6",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Nam does not ___ television before he finishes his homework.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "watch",
+        "watches",
+        "watching",
+        "watched"
+      ],
+      "answer": "watch",
+      "why": "Sau does not dùng động từ nguyên mẫu watch.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-7",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "I am interested ___ learning about animals in science lessons.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": "in",
+      "why": "Cụm cố định be interested in; sau in có thể dùng V-ing.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-8",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Mai likes ___ stories to her little sister at bedtime.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "reading",
+        "read",
+        "reads",
+        "to reading"
+      ],
+      "answer": "reading",
+      "why": "Sau likes có thể dùng V-ing; reading đúng trong bốn lựa chọn này.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-9",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "My favourite ___ is history because I enjoy learning about the past.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "subject",
+        "nationality",
+        "address",
+        "facility"
+      ],
+      "answer": "subject",
+      "why": "History là một môn học; subject phù hợp nghĩa và cấu trúc.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-10",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Our classroom ___ bright and tidy every morning.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      "answer": "is",
+      "why": "Our classroom số ít; to be hiện tại là is.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-11",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "\"Thanks for helping me find the library.\" \"___.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "You are welcome",
+        "Good luck",
+        "What a pity",
+        "See you tomorrow"
+      ],
+      "answer": "You are welcome",
+      "why": "You are welcome đáp lại lời cảm ơn; các câu còn lại không đáp đúng ý.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w2-grammar-12",
+      "type": "choice",
+      "title": "Week 2 · Grammar",
+      "scene": "Our music lesson ___ at nine every Friday, according to the timetable.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "starts",
+        "start",
+        "starting",
+        "is start"
+      ],
+      "answer": "starts",
+      "why": "Timetable nói lịch thường lệ; lesson số ít nên starts.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1iI6i-Fjo1Zr97iddEVlGDpUhhisLPLhRlg5eEQiF7qI/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

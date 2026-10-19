@@ -1,0 +1,297 @@
+{
+  "week": 6,
+  "source": {
+    "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+    "title": "Lý thuyết tuần 6",
+    "modified": "2026-09-10T16:08:34.030Z"
+  },
+  "summary": [
+    {
+      "tag": "Advice and ability",
+      "formula": "should/should not + V / can + V",
+      "usage": "Should đưa lời khuyên; can nói khả năng.",
+      "example": "You should tell an adult if you feel ill.",
+      "exampleVi": "Bạn nên báo người lớn nếu thấy mệt."
+    },
+    {
+      "tag": "Obligation",
+      "formula": "have to/has to + V",
+      "usage": "Diễn tả việc bắt buộc theo nội quy hoặc hoàn cảnh.",
+      "example": "We have to arrive before the school bus leaves.",
+      "exampleVi": "Chúng tôi phải đến trước khi xe buýt trường rời đi."
+    },
+    {
+      "tag": "Safety instructions",
+      "formula": "Do not + V / It is a good idea to + V",
+      "usage": "Mệnh lệnh ngăn cấm dùng do not và nguyên mẫu.",
+      "example": "Do not touch an unfamiliar animal.",
+      "exampleVi": "Đừng chạm vào một con vật lạ."
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w6-grammar-1",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "Your friend has a high temperature. You ___ tell an adult.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "should",
+        "shouldn't",
+        "mustn't",
+        "can't"
+      ],
+      "answer": "should",
+      "why": "Should đưa lời khuyên an toàn: báo người lớn khi sốt cao.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-2",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "You should not ___ an unfamiliar dog in the street.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "touch",
+        "touches",
+        "touching",
+        "to touch"
+      ],
+      "answer": "touch",
+      "why": "Sau should not dùng nguyên mẫu touch.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-3",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "The school bus leaves at seven. We ___ arrive before then.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "have to",
+        "has to",
+        "having to",
+        "are have to"
+      ],
+      "answer": "have to",
+      "why": "We đi với have to; đây là yêu cầu bắt buộc vì giờ xe chạy.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-4",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "Mai ___ wear a helmet when she rides her bike, according to the school rules.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "has to",
+        "have to",
+        "having to",
+        "is have to"
+      ],
+      "answer": "has to",
+      "why": "Mai số ít nên has to, rồi động từ nguyên mẫu wear.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-5",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "___ run across the road when the light is red.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "Don't",
+        "Doesn't",
+        "Not",
+        "No"
+      ],
+      "answer": "Don't",
+      "why": "Mệnh lệnh ngăn cấm dùng Don't + V.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-6",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "It is a good idea ___ water after exercising.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "to drink",
+        "drinking",
+        "drink",
+        "drinks"
+      ],
+      "answer": "to drink",
+      "why": "It is a good idea to + động từ nguyên mẫu.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-7",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "You should ___ your hands before eating to keep them clean.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "wash",
+        "washes",
+        "washing",
+        "washed"
+      ],
+      "answer": "wash",
+      "why": "Sau should dùng nguyên mẫu wash.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-8",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "\"What is the matter ___ you?\" \"I have a headache.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "with",
+        "on",
+        "for",
+        "at"
+      ],
+      "answer": "with",
+      "why": "Mẫu hỏi sức khỏe: What is the matter with you?",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-9",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "My sister can ___ a bike, but she does not ride on busy roads.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "ride",
+        "rides",
+        "riding",
+        "to ride"
+      ],
+      "answer": "ride",
+      "why": "Sau can dùng nguyên mẫu; cả câu vẫn thể hiện kỹ năng an toàn.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-10",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "It is wrong of you ___ rubbish into the stream.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "to throw",
+        "throwing",
+        "throw",
+        "throws"
+      ],
+      "answer": "to throw",
+      "why": "It is wrong of somebody to + V đánh giá hành vi không đúng.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-11",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "When you have a toothache, you should visit a ___.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "dentist",
+        "pilot",
+        "farmer",
+        "chef"
+      ],
+      "answer": "dentist",
+      "why": "Dentist là nha sĩ, người giúp xử lý vấn đề răng.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w6-grammar-12",
+      "type": "choice",
+      "title": "Week 6 · Grammar",
+      "scene": "The medicine is for adults only. Children ___ take it without an adult's advice.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "should not",
+        "should",
+        "can",
+        "have to"
+      ],
+      "answer": "should not",
+      "why": "Nhãn thuốc chỉ cho người lớn; lời khuyên an toàn là should not.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1LtgVvivVoEsGo7EbeoSL4z4m0839CCU5UF7OahR-u-g/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

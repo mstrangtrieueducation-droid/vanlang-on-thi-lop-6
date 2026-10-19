@@ -1,0 +1,297 @@
+{
+  "week": 3,
+  "source": {
+    "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+    "title": "Lý thuyết tuần 3",
+    "modified": "2026-09-10T16:08:01.696Z"
+  },
+  "summary": [
+    {
+      "tag": "Likes and ability",
+      "formula": "enjoy + V-ing / can + V",
+      "usage": "Sau enjoy dùng V-ing; sau can dùng nguyên mẫu.",
+      "example": "Mai can swim, and she enjoys swimming.",
+      "exampleVi": "Mai biết bơi và thích bơi."
+    },
+    {
+      "tag": "Suggestions",
+      "formula": "Let’s + V / What about + V-ing? / Would you like to + V?",
+      "usage": "Chọn dạng động từ theo mẫu lời mời.",
+      "example": "What about playing chess after class?",
+      "exampleVi": "Sau giờ học chơi cờ vua nhé?"
+    },
+    {
+      "tag": "Agreement",
+      "formula": "So + auxiliary + S / Neither + auxiliary + S",
+      "usage": "So đồng tình khẳng định; neither đồng tình phủ định, không thêm not.",
+      "example": "I do not like noisy games. — Neither do I.",
+      "exampleVi": "Tôi không thích trò ồn ào. — Tôi cũng không."
+    }
+  ],
+  "items": [
+    {
+      "id": "vl-w3-grammar-1",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "After finishing her homework, Mai enjoys ___ the guitar.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "playing",
+        "play",
+        "plays",
+        "to play"
+      ],
+      "answer": "playing",
+      "why": "Sau enjoy bắt buộc dùng V-ing: enjoys playing.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-2",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "Nam can ___ across the pool, but he still follows the safety rules.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "swim",
+        "swims",
+        "swimming",
+        "to swim"
+      ],
+      "answer": "swim",
+      "why": "Sau động từ khuyết thiếu can dùng nguyên mẫu swim.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-3",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "We are keen ___ collecting old stamps from different countries.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": "on",
+      "why": "Kết hợp cố định be keen on + V-ing.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-4",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "The weather is pleasant. Let's ___ for a walk after lunch.",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "go",
+        "going",
+        "goes",
+        "to go"
+      ],
+      "answer": "go",
+      "why": "Let's đi với động từ nguyên mẫu go.",
+      "skill": "grammar",
+      "difficulty": "easy",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-5",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "We have a free afternoon. What about ___ badminton in the park?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "playing",
+        "play",
+        "to play",
+        "plays"
+      ],
+      "answer": "playing",
+      "why": "What about đi với V-ing, nên playing.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-6",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "Would you like ___ the chess club with us next week?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "to join",
+        "joining",
+        "join",
+        "joins"
+      ],
+      "answer": "to join",
+      "why": "Would you like to + V là mẫu lời mời lịch sự.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-7",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "Why don't we ___ photos of the flowers instead of picking them?",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "take",
+        "taking",
+        "to take",
+        "takes"
+      ],
+      "answer": "take",
+      "why": "Sau Why don't we dùng nguyên mẫu take.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-8",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "\"I like quiet board games.\" \"So ___ I.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "do",
+        "am",
+        "does",
+        "can"
+      ],
+      "answer": "do",
+      "why": "Like là động từ hiện tại đơn; I dùng trợ động từ do.",
+      "skill": "grammar",
+      "difficulty": "medium",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-9",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "\"I don't enjoy noisy games.\" \"Neither ___ I.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "do",
+        "don't",
+        "am",
+        "does"
+      ],
+      "answer": "do",
+      "why": "Neither đã mang nghĩa phủ định, nên dùng do, không dùng don't.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-10",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "\"I can play the piano.\" \"So ___ I.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "can",
+        "do",
+        "am",
+        "does"
+      ],
+      "answer": "can",
+      "why": "Đồng tình với can phải giữ đúng trợ động từ can.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-11",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "\"I don't like swimming in cold water.\" \"I don't, ___.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "either",
+        "too",
+        "so",
+        "neither"
+      ],
+      "answer": "either",
+      "why": "Either đứng cuối câu phủ định; too dùng cho câu khẳng định.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    },
+    {
+      "id": "vl-w3-grammar-12",
+      "type": "choice",
+      "title": "Week 3 · Grammar",
+      "scene": "\"I enjoy making models.\" \"I do, ___.\"",
+      "prompt": "Choose the best answer.",
+      "options": [
+        "too",
+        "either",
+        "neither",
+        "so"
+      ],
+      "answer": "too",
+      "why": "Too đứng cuối câu đồng tình khẳng định.",
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "url": "https://docs.google.com/document/d/1dVkB6Mn7c0y9hDaPWU7ZvwbjtfgSD3FC-ONJghaAO6M/edit",
+        "section": "C. CẤU TRÚC",
+        "adaptation": "Centre-authored application of the linked weekly theory."
+      }
+    }
+  ]
+}

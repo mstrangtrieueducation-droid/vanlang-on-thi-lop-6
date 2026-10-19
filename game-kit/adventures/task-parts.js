@@ -23,7 +23,8 @@
   route:['Follow the Route','Follow the directions.'],
   spot:['Find & Fix','Find and fix the mistake.']
  };
- const generic=p=>/^(?:listen\b|read\b|look\b|choose\b|select\b|tap\b|click\b|match\b|put\b|build\b|sort\b|write\b|fill\b|complete\b|follow\b|find\b|count\b|which (?:letter|letters|sound|word) (?:is missing|completes?))/i.test(String(p||'').trim());
+ const taskQuestion=p=>/^(?:Which answer matches the clue\?|Which group does this belong to\?|Which word(?: or phrase)? (?:completes the sentence|fits)\?|Which list contains exactly the requested items\?|Which preposition goes before this time expression\?|Which order matches the story\?|Which word (?:has stress on the second syllable|ends with (?:the sound )?\/s\/)\?|Which instruction has the opposite meaning\?)$/i.test(String(p||'').trim());
+ const generic=p=>taskQuestion(p)||/^(?:listen\b|read\b|look\b|choose\b|select\b|tap\b|click\b|match\b|put\b|build\b|sort\b|write\b|fill\b|complete\b|follow\b|find\b|count\b|which (?:letter|letters|sound|word) (?:is missing|completes?))/i.test(String(p||'').trim());
  function describe(q){
   let type='readChoose';
   if(q.partType&&tasks[q.partType])type=q.partType;
@@ -40,7 +41,8 @@
   // Keep source sections and passage-linked tasks together. Explicit section
   // identifiers take precedence for original tests with similar task wording.
   const link=q.partId||q.sourceSection||q.storyId||(q.exam&&q.source?.exercise?'source-'+q.source.url+'-'+q.source.page+'-'+q.source.exercise:'')||(String(q.scene||'').length>160?q.scene:'');
-  return {key:type+(q.partInstruction?':'+q.partInstruction:''),block:link,type,title:q.partTitle||tasks[type][0],instruction:q.partInstruction||tasks[type][1]};
+  const instruction=q.partInstruction||(taskQuestion(q.prompt)?q.prompt:tasks[type][1]);
+  return {key:type+':'+instruction,block:link,type,title:q.partTitle||tasks[type][0],instruction};
  }
  function group(items){
   // Questions explicitly dependent on a previous answer cannot be reordered.
