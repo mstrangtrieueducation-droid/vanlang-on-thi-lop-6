@@ -1,0 +1,53 @@
+{
+  "characterName": "Cô giáo Titi",
+  "mode": "built-in image_gen",
+  "approvedDesign": "Chibi demo v3",
+  "scope": "Visual replacement only; no game, audio, scoring or admission changes.",
+  "assets": [
+    {
+      "state": "welcome",
+      "file": "game-kit/art/teacher-titi-v1/welcome.webp",
+      "width": 500,
+      "height": 750,
+      "bytes": 71568,
+      "sha256": "b2d8492955a1fa2e716e38c088677778e48949186da2a40f4213bb5a9c85b893",
+      "prompt": "Mode: Built-in image_gen, targeted likeness edit of Chibi v2. Preview only.\nFinal image: co-trang-chibi-demo-v3.png\n\nTargeted likeness refinement of the CHIBI CHARACTER in reference image 1. Reference image 2 is the actual teacher whose distinctive face should guide this small refinement. Reference 3 is the official uniform logo. Keep the same coherent cute 3D CARTOON/chibi art style, oversized head, small body, wave pose, navy short-sleeved collared polo, navy skirt, white sneakers and transparent background. Refine ONLY facial shapes and expression to feel more specifically like the woman in photo 2, rather than a generic baby-faced doll. Her real face is a gently elongated soft oval with a tapered rounded chin, slightly narrower cheeks, naturally arched eyebrows, dark almond-shaped smiling eyes whose outer corners gently lift; in the new chibi reduce eye roundness and iris size slightly, make eyes a little narrower and more smiling, while still big and sparkling. Faithfully stylize her particular slightly long delicate nose and broad friendly curved lips. Change the huge open laughing mouth to her characteristic warm teeth-showing smile, mainly upper teeth visible, lips closer together and subtly asymmetrical raised smile corners as in the photo. Keep the side part and long dark hair over one shoulder. Use these identity cues only as CARTOON SCULPTING guides: the entire face remains smooth stylized 3D animation, no photo skin texture or realistic photographic face, no face pasted onto body. Preserve cute rosy cheeks and friendly teacher energy, adult-teacher identity. Do not overcorrect to realism; this is the same chibi mascot, just a modest increase in likeness around oval face, eyes, nose and smile. Preserve complete official golden book symbol plus white 'MS. TRANG TRIEU EDUCATION' chest logo and tiny supplied tagline from reference3, exact design proportions; no generic T-alone substitute. Sharp premium educational-game character render, full body feet and wave hand visible, transparent background without opaque scenery, no new props or text.\n"
+    },
+    {
+      "state": "correct",
+      "file": "game-kit/art/teacher-titi-v1/correct.webp",
+      "width": 500,
+      "height": 750,
+      "bytes": 72894,
+      "sha256": "37f8c24cb7639bbe2ebd965f720977432f8ec2f05a13763a1fb9eaf5f808d9da",
+      "prompt": "Edit the approved chibi teacher in reference1 into the specified existing game-animation pose. Keep EXACT SAME character face identity, almond smiling eyes, oval face, smile, hairstyle and side part, 2.5-head chibi proportions, polished 3D cartoon rendering, navy short-sleeved collared polo and skirt, white sneakers. Official full chest logo from reference2 remains the golden book symbol plus white MS. TRANG TRIEU EDUCATION wordmark and tiny supplied tagline, never a generic T alone. Transparent background, no opaque halo or scenery, crisp large full-body standalone character, no text captions or objects unless specified. This is the same mascot in another pose, not a new design. Warm enthusiastic praise reaction: smiling brightly with upper teeth, raise one hand in a clear THUMBS UP, other arm relaxed, a very slight happy bounce pose. Keep full body and thumb visible."
+    },
+    {
+      "state": "regret",
+      "file": "game-kit/art/teacher-titi-v1/regret.webp",
+      "width": 500,
+      "height": 750,
+      "bytes": 65570,
+      "sha256": "914f7ea844fcdf9ec6a815afcadba0a69593909248d58134a53c791c7821fe0f",
+      "prompt": "Edit the approved chibi teacher in reference1 into the specified existing game-animation pose. Keep EXACT SAME character face identity, almond smiling eyes, oval face, smile, hairstyle and side part, 2.5-head chibi proportions, polished 3D cartoon rendering, navy short-sleeved collared polo and skirt, white sneakers. Official full chest logo from reference2 remains the golden book symbol plus white MS. TRANG TRIEU EDUCATION wordmark and tiny supplied tagline, never a generic T alone. Transparent background, no opaque halo or scenery, crisp large full-body standalone character, no text captions or objects unless specified. This is the same mascot in another pose, not a new design. Gentle encouraging wrong-answer reaction: slight sympathetic downturned eyebrows and soft small closed smile, tilt head a little, hold open palms in a mild reassuring 'try again' gesture. Kind, cute, never crying or harshly sad. Full body visible."
+    },
+    {
+      "state": "thinking",
+      "file": "game-kit/art/teacher-titi-v1/thinking.webp",
+      "width": 500,
+      "height": 750,
+      "bytes": 62202,
+      "sha256": "0ad08a22f325b32286654aff631bca03f79bf2956730d7a8d97c1d3a13276442",
+      "prompt": "Edit the approved chibi teacher in reference1 into the specified existing game-animation pose. Keep EXACT SAME character face identity, almond smiling eyes, oval face, smile, hairstyle and side part, 2.5-head chibi proportions, polished 3D cartoon rendering, navy short-sleeved collared polo and skirt, white sneakers. Official full chest logo from reference2 remains the golden book symbol plus white MS. TRANG TRIEU EDUCATION wordmark and tiny supplied tagline, never a generic T alone. Transparent background, no opaque halo or scenery, crisp large full-body standalone character, no text captions or objects unless specified. This is the same mascot in another pose, not a new design. Thinking together with a pupil: one index finger at chin, other arm relaxed near waist, mild curious raised eyebrow and warm small smile. Cute thoughtful expression, full body visible."
+    },
+    {
+      "state": "rocket",
+      "file": "game-kit/art/teacher-titi-v1/rocket.webp",
+      "width": 720,
+      "height": 480,
+      "bytes": 77390,
+      "sha256": "fd5d3011342f3c5b21f95f69fb4cefe1a0555b2552896483755d9405992bfcd0",
+      "prompt": "Edit the approved chibi teacher in reference1 into the specified existing game-animation pose. Keep EXACT SAME character face identity, almond smiling eyes, oval face, smile, hairstyle and side part, 2.5-head chibi proportions, polished 3D cartoon rendering, navy short-sleeved collared polo and skirt, white sneakers. Official full chest logo from reference2 remains the golden book symbol plus white MS. TRANG TRIEU EDUCATION wordmark and tiny supplied tagline, never a generic T alone. Transparent background, no opaque halo or scenery, crisp large full-body standalone character, no text captions or objects unless specified. This is the same mascot in another pose, not a new design. Ride a small colorful 3D orange-and-gold SPACE ROCKET travelling horizontally toward the RIGHT. Same human chibi teacher sits astride near the rear, hands holding the rocket, smiling with one hand waving. Uniform and full chest logo visible. Rocket sleek rounded nose points right, a small cyan window, little fins, short warm golden flame at left end. No fox, fox ears or tail. Horizontal composition, entire rocket and human visible with spacious transparent padding. This replaces the previous fox-riding-rocket timer visual; keep its purpose clearly readable at small size."
+    }
+  ]
+}

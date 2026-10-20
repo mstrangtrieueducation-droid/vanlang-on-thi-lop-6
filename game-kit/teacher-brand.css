@@ -1,0 +1,27 @@
+/* Cô giáo Titi: approved human Chibi. Appearance only; existing game states stay intact. */
+:root{--titi-welcome:url('art/teacher-titi-v1/welcome.webp');--titi-correct:url('art/teacher-titi-v1/correct.webp');--titi-regret:url('art/teacher-titi-v1/regret.webp');--titi-thinking:url('art/teacher-titi-v1/thinking.webp')}
+html body .teacher-fox.teacher-fox.teacher-fox i,
+html body .atlas-titi.atlas-titi i,
+html body .titi-portrait.titi-portrait i,
+html body .listening-titi.listening-titi,
+html body #titi-games .titi-teacher-pose.titi-teacher-pose{
+ background-image:var(--titi-welcome)!important;background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important;
+ clip-path:none!important;animation:titi-human-breathe 3.4s ease-in-out infinite!important;transform-origin:50% 92%;
+}
+html body .teacher-fox.teacher-fox.teacher-fox.yay i{background-image:var(--titi-correct)!important;animation:titi-like .65s ease-in-out 3!important}
+html body .teacher-fox.teacher-fox.teacher-fox.regret i{background-image:var(--titi-regret)!important;animation:titi-regret 1.4s ease-in-out both!important}
+html body .teacher-fox.teacher-fox.teacher-fox.encourage i{animation:titi-reassure 1.2s ease-in-out 2!important}
+html body .teacher-fox.teacher-fox.teacher-fox.think i,
+html body .teacher-fox.teacher-fox.teacher-fox.life-thinking:not(.reacting) i{background-image:var(--titi-thinking)!important;animation:titi-think-together 2.6s ease-in-out infinite!important}
+html body .teacher-fox.teacher-fox.teacher-fox.life-stepping:not(.reacting) i{animation:titi-little-steps 2.2s ease-in-out infinite!important}
+html body .teacher-fox.teacher-fox.teacher-fox.life-curious:not(.reacting) i{animation:titi-curious-tilt 2.8s ease-in-out infinite!important}
+html body .teacher-fox.teacher-fox.teacher-fox.life-speaking:not(.reacting) i{animation:titi-speaking-bob 1.2s ease-in-out infinite!important}
+html body .quiz-mascot-slot.teacher-fox.teacher-fox.teacher-fox i{background:none!important;animation:none!important}
+html body .titi-portrait.titi-portrait{overflow:hidden}
+html body .titi-portrait.titi-portrait i{background-position:center top!important;background-size:100% auto!important}
+html body .titi-portrait .space-visor,html body .titi-portrait .space-suit{display:none!important}
+html body .atlas-titi.atlas-titi i{background-position:center bottom!important}
+html body #titi-games.titi-compact .titi-play-sign:before,html body #titi-games.titi-compact .titi-play-sign:after{background:linear-gradient(#ffdece,#f3c1a7);border-bottom-color:#cf9d85}
+html body #titi-games.titi-dragging .titi-teacher-pose{animation-play-state:paused!important}
+@keyframes titi-human-breathe{0%,100%{transform:translateY(0) rotate(-.4deg)}50%{transform:translateY(-2px) rotate(.4deg)}}
+@media(prefers-reduced-motion:reduce){html body .teacher-fox.teacher-fox.teacher-fox i,html body .atlas-titi.atlas-titi i,html body .titi-portrait.titi-portrait i,html body .listening-titi.listening-titi,html body #titi-games .titi-teacher-pose.titi-teacher-pose{animation:none!important}}
