@@ -10,5 +10,16 @@
  function text(value){return value==null?'Chưa chọn':Array.isArray(value)?value.join(' → '):String(value);}
  function review(q,run,coach){const r=answer(run,q.id),skill=coach.skill(q),scene=String(q.scene||''),gaps=scene.match(/_{2,}|\.{2,}|…/g)||[],pieces=typeof q.answer==='string'?q.answer.split(' / '):[];let completed=null;if(gaps.length&&gaps.length===pieces.length&&!/[A-Za-z]_+|_+[A-Za-z]/.test(scene)){let i=0;completed=scene.replace(/_{2,}|\.{2,}|…/g,()=>pieces[i++]);}
  return {first:r.first,last:r.last,correct:q.answer,why:q.explanation||coach.explanation(q),completed,reflect:coach.reflect(q),strategy:{listening:'Nghe lại từ/câu, chú ý âm đầu và âm cuối rồi đối chiếu với đáp án.',phonics:'Đọc thành tiếng từ và âm đang được hỏi; so sánh phần âm tương ứng.',grammar:'Đọc trọn câu sau khi điền; kiểm tra chủ ngữ, dạng từ và dấu hiệu thời gian.',dialogue:'Xác định người nói đang hỏi thông tin gì, rồi kiểm tra câu đáp có đúng ý không.',reading:'Tìm chi tiết trong đoạn đọc làm căn cứ. Đối chiếu nghĩa cả câu, không chỉ một từ trùng nhau.',vocabulary:'Nối nghĩa của từ với ngữ cảnh, rồi đặt từ đúng trở lại câu để kiểm tra.'}[skill]};}
- return {response,answer,status,counts,next,label,text,review};
+ function reconcile(run,items,newId){
+  if(!run)return null;const allowed=new Set(items.map(q=>q.id));
+  if(!Object.keys(run.answers||{}).some(id=>!allowed.has(id))&&!Object.keys(run.cloudAnswers||{}).some(id=>!allowed.has(id)))return run;
+  const migrated={...run,id:newId,combo:0,total:items.length};
+  for(const key of ['answers','responses','cloudAnswers','views','sheetDrafts'])migrated[key]=Object.fromEntries(Object.entries(run[key]||{}).filter(([id])=>allowed.has(id)));
+  for(const key of ['cloud','cloudOwner','cloudError','resultSent'])delete migrated[key];
+  // Retain valid work, but imported responses must never create a speed record.
+  migrated.gameplay={...run.gameplay,assisted:[...new Set([...(run.gameplay?.assisted||[]),...Object.keys(migrated.answers)])]};
+  for(const a of Object.values(migrated.cloudAnswers))a.assisted=true;
+  return migrated;
+ }
+ return {response,answer,status,counts,next,label,text,review,reconcile};
 });

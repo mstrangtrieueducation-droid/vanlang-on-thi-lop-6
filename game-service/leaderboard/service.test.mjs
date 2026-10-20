@@ -4,6 +4,16 @@ const curriculum={catalog:[{id:'discover-1',name:'Discover 1',tracks:[],lessons:
 function db(){const sql=new DatabaseSync(':memory:');sql.exec(fs.readFileSync(new URL('schema.sql',import.meta.url),'utf8'));const d={prepare(s){let args=[];return {bind(...a){args=a;return this;},async first(){return sql.prepare(s).get(...args)||null;},async all(){return {results:sql.prepare(s).all(...args)};},async run(){return sql.prepare(s).run(...args);}};},async batch(queries){sql.exec('BEGIN');try{const v=[];for(const q of queries)v.push(await q.run());sql.exec('COMMIT');return v;}catch(e){sql.exec('ROLLBACK');throw e;}}};return {d,sql};}
 function fixture(data=curriculum){const {d,sql}=db();let now=Date.now(),revoked=false;const service=new LeaderboardService(d,data,{now:()=>now,authority:async(klass,hash)=>{if(revoked)throw Object.assign(Error('Revoked'),{status:401});return {identity:hash,alias:'Bee',allowed:{'discover-1':['game-1','game-2']},books:{'discover-1':[]}};}});return {service,sql,advance:x=>now+=x,revoke:()=>revoked=true};}
 const login=(f,student='A'.repeat(22))=>f.service.handle('/session',{student,className:'KIDS21'},'','test');
+
+test('A bank update accepts only already-started archived runs during the migration window',async()=>{
+ const data=structuredClone(curriculum),prior=structuredClone(data.lessons['discover-1']['game-1']);
+ const f=fixture(data),s=await login(f),r=await f.service.handle('/start',{clientId:crypto.randomUUID(),course:'discover-1',lesson:'game-1'},s.token);
+ data.legacy={cutoverAt:r.started,expiresAt:r.started+7200000,lessons:{'discover-1':{'game-1':prior}}};
+ data.lessons['discover-1']['game-1']={...prior,items:prior.items.map(q=>({...q,id:'new-'+q.id}))};
+ f.advance(5000);const result=await f.service.handle('/finish',{run:r.id,answers:{q1:{first:'one',last:'one'},q2:{first:'two',last:'two'}}},s.token);assert.equal(result.correct,2);assert.equal(result.total,2);
+ const later=await f.service.handle('/start',{clientId:crypto.randomUUID(),course:'discover-1',lesson:'game-1'},s.token);
+ await assert.rejects(f.service.handle('/finish',{run:later.id,answers:{q1:{first:'one',last:'one'}}},s.token),/khớp bài/);
+});
 const begin=(f,s,lesson='game-1',clientId=crypto.randomUUID())=>f.service.handle('/start',{course:'discover-1',lesson,clientId},s.token,'test');
 const answers={q1:{first:'one',last:'one'},q2:{first:'two',last:'two'}};
 test('Original exams retain source grading and zero-point blanks while recording submitted completion',async()=>{const data=structuredClone(curriculum);const l=data.lessons['discover-1']['game-1'];l.exam=true;l.items=[{id:'q1',grading:'discover-original',answer:"isn't playing",acceptedAnswers:['is not playing']},{id:'q2',grading:'discover-original',answer:'flute',acceptedAnswers:[]}];const f=fixture(data),s=await login(f),r=await begin(f,s);f.advance(20000);const result=await f.service.handle('/finish',{run:r.id,answers:{q1:{first:'IS NOT PLAYING',last:'IS NOT PLAYING'},q2:{first:'',last:''}}},s.token);assert.equal(result.correct,1);assert.equal(result.points,10);assert.equal(result.stars,1);assert.equal(f.sql.prepare('SELECT complete FROM journey_runs').get().complete,1);});

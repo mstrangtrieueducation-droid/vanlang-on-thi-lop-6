@@ -4,9 +4,10 @@
  const weekOf=(g,c)=>c?.courseId==='van-lang'&&/^tu-luyen-\d+$/.test(c.lessonId||c.id||'')?Number((c.lessonId||c.id).split('-').at(-1)):null;
  const hasGrammar=week=>Number.isInteger(week)&&week>=1&&week<=12;
  function url(section){const u=new URL(location.href);u.searchParams.delete('play');u.searchParams.delete('startAt');u.searchParams.delete('section');if(section)u.searchParams.set('section',section);if(section==='grammar-practice'||section==='practice')u.searchParams.set('play','1');return u.href;}
+ function sourceSave(c){c.timeLimitSeconds=ADVENTURE.sourceDurationSeconds||2700;c.storageKey+=":source-tests-2027";if(window.GameProfile)window.GameProfile={...GameProfile,storageKey:GameProfile.storageKey+":source-tests-2027"};}
  async function prepare(){const c=GAME_CONFIG,g=ADVENTURE,week=weekOf(g,c);if(!week)return true;c.vanLangWeek=week;
-  if(!hasGrammar(week)){c.autoStart=true;return true;}
-  const section=new URLSearchParams(location.search).get('section');c.weeklyMenu=url();if(section==='practice'){c.autoStart=true;return true;}
+  if(!hasGrammar(week)){sourceSave(c);c.autoStart=true;return true;}
+  const section=new URLSearchParams(location.search).get('section');c.weeklyMenu=url();if(section==='practice'){sourceSave(c);c.autoStart=true;return true;}
   let pack;try{const r=await fetch('../van-lang/weekly/week-'+week+'.json?v=weekly-1');if(!r.ok)throw Error('Missing weekly source');pack=await r.json();if(pack.week!==week||pack.items.length!==12)throw Error('Invalid weekly grammar');}catch(e){window.FlowBoot?.cancel();document.querySelector('#adventure').innerHTML='<p>Chưa mở được phần ôn tuần này. Con thử lại nhé.</p><a href="'+esc(url())+'">Tải lại</a>';console.error(e);return false;}
   if(section==='grammar-practice'){c.supplementalGrammar=true;c.storageKey+=':vl-grammar-v1';if(window.GameProfile)window.GameProfile={...GameProfile,storageKey:GameProfile.storageKey+':vl-grammar-v1'};c.timeLimitSeconds=900;c.journeyUrl=url();c.autoStart=true;Object.assign(g,{items:pack.items,supplemental:true,name:'Tuần '+week+' · Grammar Quest',en:'Grammar Quest',goal:'Ôn quy tắc, vận dụng vào tình huống.',topics:pack.summary.map(r=>r.tag).join(' · '),reward:'Grammar Explorer'});return true;}
   window.FlowBoot?.cancel();const host=document.querySelector('#adventure');host.className='unit-review-menu vanlang-week-menu';

@@ -1,0 +1,2814 @@
+{
+  "version": 1,
+  "method": "Source MP3 split at spoken numbered-question boundaries; no synthetic replacement",
+  "parts": [
+    {
+      "test": "discover-1-test-1",
+      "part": "C",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-1-C-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-C1.mp3",
+          "start": 10.11,
+          "end": 11.45,
+          "text": "Daughter.",
+          "originalAudio": "../discover-exam/audio/e06db109c1a05c841dbc2052.mp3",
+          "originalSha256": "e06db109c1a05c841dbc20520871ccfad2043bd43caf1ec0d5287853c12c9fa8"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-C2.mp3",
+          "start": 16.39,
+          "end": 17.93,
+          "text": "Young.",
+          "originalAudio": "../discover-exam/audio/e06db109c1a05c841dbc2052.mp3",
+          "originalSha256": "e06db109c1a05c841dbc20520871ccfad2043bd43caf1ec0d5287853c12c9fa8"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-C3.mp3",
+          "start": 22.79,
+          "end": 24.09,
+          "text": "Uncle.",
+          "originalAudio": "../discover-exam/audio/e06db109c1a05c841dbc2052.mp3",
+          "originalSha256": "e06db109c1a05c841dbc20520871ccfad2043bd43caf1ec0d5287853c12c9fa8"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-1",
+      "part": "K",
+      "sectionIndex": 10,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-1-K-instruction.mp3",
+      "questions": {
+        "K1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-K1.mp3",
+          "start": 9.67,
+          "end": 13.65,
+          "text": "This is my friend Sam.",
+          "originalAudio": "../discover-exam/audio/44ba185c78b3482cfc9ce221.mp3",
+          "originalSha256": "44ba185c78b3482cfc9ce221de308eabef39e240cce8dc4129539bb71e94e27c"
+        },
+        "K2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-K2.mp3",
+          "start": 15.99,
+          "end": 19.57,
+          "text": "Those are Hannah's cousins.",
+          "originalAudio": "../discover-exam/audio/44ba185c78b3482cfc9ce221.mp3",
+          "originalSha256": "44ba185c78b3482cfc9ce221de308eabef39e240cce8dc4129539bb71e94e27c"
+        },
+        "K3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-K3.mp3",
+          "start": 22.41,
+          "end": 25.49,
+          "text": "That is a lion.",
+          "originalAudio": "../discover-exam/audio/44ba185c78b3482cfc9ce221.mp3",
+          "originalSha256": "44ba185c78b3482cfc9ce221de308eabef39e240cce8dc4129539bb71e94e27c"
+        },
+        "K4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-1-K4.mp3",
+          "start": 28.23,
+          "end": 31.49,
+          "text": "These are zebras.",
+          "originalAudio": "../discover-exam/audio/44ba185c78b3482cfc9ce221.mp3",
+          "originalSha256": "44ba185c78b3482cfc9ce221de308eabef39e240cce8dc4129539bb71e94e27c"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-2",
+      "part": "A",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-2-A-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-A1.mp3",
+          "start": 7.05,
+          "end": 12.25,
+          "text": "Color the bed. Red.",
+          "originalAudio": "../discover-exam/audio/1a70b49af1dcb295b81c7389.mp3",
+          "originalSha256": "1a70b49af1dcb295b81c738936b31d8ecd8f461034b9826df1744594269984e6"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-A2.mp3",
+          "start": 14.39,
+          "end": 18.45,
+          "text": "Color the hamster. Brown.",
+          "originalAudio": "../discover-exam/audio/1a70b49af1dcb295b81c7389.mp3",
+          "originalSha256": "1a70b49af1dcb295b81c738936b31d8ecd8f461034b9826df1744594269984e6"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-A3.mp3",
+          "start": 21.91,
+          "end": 25.19,
+          "text": "Color the flower. Yellow.",
+          "originalAudio": "../discover-exam/audio/1a70b49af1dcb295b81c7389.mp3",
+          "originalSha256": "1a70b49af1dcb295b81c738936b31d8ecd8f461034b9826df1744594269984e6"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-A4.mp3",
+          "start": 28.31,
+          "end": 33.69,
+          "text": "Color the butterfly's orange.",
+          "originalAudio": "../discover-exam/audio/1a70b49af1dcb295b81c7389.mp3",
+          "originalSha256": "1a70b49af1dcb295b81c738936b31d8ecd8f461034b9826df1744594269984e6"
+        },
+        "A5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-A5.mp3",
+          "start": 36.05,
+          "end": 40.29,
+          "text": "Color the spider black.",
+          "originalAudio": "../discover-exam/audio/1a70b49af1dcb295b81c7389.mp3",
+          "originalSha256": "1a70b49af1dcb295b81c738936b31d8ecd8f461034b9826df1744594269984e6"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-2",
+      "part": "J",
+      "sectionIndex": 9,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-2-J-instruction.mp3",
+      "questions": {
+        "J1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J1.mp3",
+          "start": 9.55,
+          "end": 12.99,
+          "text": "I am on the beach.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        },
+        "J2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J2.mp3",
+          "start": 15.39,
+          "end": 19.71,
+          "text": "My friend is in the ocean.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        },
+        "J3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J3.mp3",
+          "start": 22.43,
+          "end": 27.81,
+          "text": "The seashell is next to the small fish.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        },
+        "J4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J4.mp3",
+          "start": 30.49,
+          "end": 35.91,
+          "text": "The jellyfish is under the starfish.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        },
+        "J5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J5.mp3",
+          "start": 38.41,
+          "end": 42.97,
+          "text": "The seaweed is not in the sand.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        },
+        "J6": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-2-J6.mp3",
+          "start": 45.65,
+          "end": 49.19,
+          "text": "There is sand on my jacket.",
+          "originalAudio": "../discover-exam/audio/3dc92ac0de110be0bb565fc4.mp3",
+          "originalSha256": "3dc92ac0de110be0bb565fc4a6fd76f2c28b009d3b021b89b93af22da804bff9"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-3",
+      "part": "A",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-3-A-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-A1.mp3",
+          "start": 10.21,
+          "end": 15.13,
+          "text": "There's a gray squirrel in that tree.",
+          "originalAudio": "../discover-exam/audio/6e370bd4e7081617225db9d7.mp3",
+          "originalSha256": "6e370bd4e7081617225db9d7ccfcf4a8e72b5865b7064a23b654c526662582e9"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-A2.mp3",
+          "start": 17.25,
+          "end": 21.63,
+          "text": "A lot of animals live in this field.",
+          "originalAudio": "../discover-exam/audio/6e370bd4e7081617225db9d7.mp3",
+          "originalSha256": "6e370bd4e7081617225db9d7ccfcf4a8e72b5865b7064a23b654c526662582e9"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-A3.mp3",
+          "start": 24.43,
+          "end": 27.45,
+          "text": "Lizards live in trees.",
+          "originalAudio": "../discover-exam/audio/6e370bd4e7081617225db9d7.mp3",
+          "originalSha256": "6e370bd4e7081617225db9d7ccfcf4a8e72b5865b7064a23b654c526662582e9"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-3",
+      "part": "H",
+      "sectionIndex": 7,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-3-H-instruction.mp3",
+      "questions": {
+        "H1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-H1.mp3",
+          "start": 9.77,
+          "end": 15.59,
+          "text": "There are baby orangutans at the Happy House Reserve.",
+          "originalAudio": "../discover-exam/audio/acc1f4511249c085dd8d0130.mp3",
+          "originalSha256": "acc1f4511249c085dd8d0130ab9f73b46508983912610f51fa7ba005a7e9460c"
+        },
+        "H2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-H2.mp3",
+          "start": 18.19,
+          "end": 22.81,
+          "text": "My grandparents take care of me at home.",
+          "originalAudio": "../discover-exam/audio/acc1f4511249c085dd8d0130.mp3",
+          "originalSha256": "acc1f4511249c085dd8d0130ab9f73b46508983912610f51fa7ba005a7e9460c"
+        },
+        "H3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-H3.mp3",
+          "start": 25.33,
+          "end": 29.17,
+          "text": "Our teachers teach us about animals.",
+          "originalAudio": "../discover-exam/audio/acc1f4511249c085dd8d0130.mp3",
+          "originalSha256": "acc1f4511249c085dd8d0130ab9f73b46508983912610f51fa7ba005a7e9460c"
+        },
+        "H4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-3-H4.mp3",
+          "start": 31.97,
+          "end": 37.15,
+          "text": "I miss my best friend. She is in school this afternoon.",
+          "originalAudio": "../discover-exam/audio/acc1f4511249c085dd8d0130.mp3",
+          "originalSha256": "acc1f4511249c085dd8d0130ab9f73b46508983912610f51fa7ba005a7e9460c"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-4",
+      "part": "C",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-4-C-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-C1.mp3",
+          "start": 10.43,
+          "end": 12.11,
+          "text": "Cool.",
+          "originalAudio": "../discover-exam/audio/24e20071d63dc270380e9cfb.mp3",
+          "originalSha256": "24e20071d63dc270380e9cfbeed26a9785a8dbb31f80d0083059d23f0983132d"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-C2.mp3",
+          "start": 16.81,
+          "end": 18.51,
+          "text": "Long.",
+          "originalAudio": "../discover-exam/audio/24e20071d63dc270380e9cfb.mp3",
+          "originalSha256": "24e20071d63dc270380e9cfbeed26a9785a8dbb31f80d0083059d23f0983132d"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-C3.mp3",
+          "start": 23.35,
+          "end": 24.75,
+          "text": "Sunny.",
+          "originalAudio": "../discover-exam/audio/24e20071d63dc270380e9cfb.mp3",
+          "originalSha256": "24e20071d63dc270380e9cfbeed26a9785a8dbb31f80d0083059d23f0983132d"
+        },
+        "C4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-C4.mp3",
+          "start": 29.75,
+          "end": 31.27,
+          "text": "Hot.",
+          "originalAudio": "../discover-exam/audio/24e20071d63dc270380e9cfb.mp3",
+          "originalSha256": "24e20071d63dc270380e9cfbeed26a9785a8dbb31f80d0083059d23f0983132d"
+        },
+        "C5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-C5.mp3",
+          "start": 36.07,
+          "end": 37.41,
+          "text": "Big.",
+          "originalAudio": "../discover-exam/audio/24e20071d63dc270380e9cfb.mp3",
+          "originalSha256": "24e20071d63dc270380e9cfbeed26a9785a8dbb31f80d0083059d23f0983132d"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-4",
+      "part": "K",
+      "sectionIndex": 10,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-4-K-instruction.mp3",
+      "questions": {
+        "K1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K1.mp3",
+          "start": 14.51,
+          "end": 19.63,
+          "text": "Do we teach in this spring? No, we don't.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        },
+        "K2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K1.mp3",
+          "start": 14.51,
+          "end": 19.63,
+          "text": "Do we teach in this spring? No, we don't.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        },
+        "K3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K3.mp3",
+          "start": 24.09,
+          "end": 29.27,
+          "text": "Do you eat ice cream at school? Yes, I do.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        },
+        "K4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K3.mp3",
+          "start": 24.09,
+          "end": 29.27,
+          "text": "Do you eat ice cream at school? Yes, I do.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        },
+        "K5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K5.mp3",
+          "start": 34.11,
+          "end": 39.97,
+          "text": "Do they fly kites in the park? Yes, they do.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        },
+        "K6": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-4-K5.mp3",
+          "start": 34.11,
+          "end": 39.97,
+          "text": "Do they fly kites in the park? Yes, they do.",
+          "originalAudio": "../discover-exam/audio/8ed5a924388bc0af33f9ee93.mp3",
+          "originalSha256": "8ed5a924388bc0af33f9ee930abeca92654e466661961c21c553d24b47db1dda"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-5",
+      "part": "B",
+      "sectionIndex": 1,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-5-B-instruction.mp3",
+      "questions": {
+        "B1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-B1.mp3",
+          "start": 9.93,
+          "end": 13.71,
+          "text": "My backpack is black and gray.",
+          "originalAudio": "../discover-exam/audio/0f2954b47c0439d6eaf7a7db.mp3",
+          "originalSha256": "0f2954b47c0439d6eaf7a7db69dea6126e0a6f3568ca31ac959a1bed7addbd4d"
+        },
+        "B2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-B2.mp3",
+          "start": 18.23,
+          "end": 22.01,
+          "text": "There are 20 pencils on her bed.",
+          "originalAudio": "../discover-exam/audio/0f2954b47c0439d6eaf7a7db.mp3",
+          "originalSha256": "0f2954b47c0439d6eaf7a7db69dea6126e0a6f3568ca31ac959a1bed7addbd4d"
+        },
+        "B3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-B3.mp3",
+          "start": 26.63,
+          "end": 30.51,
+          "text": "My sister is 17 years old.",
+          "originalAudio": "../discover-exam/audio/0f2954b47c0439d6eaf7a7db.mp3",
+          "originalSha256": "0f2954b47c0439d6eaf7a7db69dea6126e0a6f3568ca31ac959a1bed7addbd4d"
+        },
+        "B4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-B4.mp3",
+          "start": 35.23,
+          "end": 38.33,
+          "text": "My notebook is very big.",
+          "originalAudio": "../discover-exam/audio/0f2954b47c0439d6eaf7a7db.mp3",
+          "originalSha256": "0f2954b47c0439d6eaf7a7db69dea6126e0a6f3568ca31ac959a1bed7addbd4d"
+        },
+        "B5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-B5.mp3",
+          "start": 43.09,
+          "end": 46.87,
+          "text": "My brother is 14 years old.",
+          "originalAudio": "../discover-exam/audio/0f2954b47c0439d6eaf7a7db.mp3",
+          "originalSha256": "0f2954b47c0439d6eaf7a7db69dea6126e0a6f3568ca31ac959a1bed7addbd4d"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-5",
+      "part": "I",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-5-I-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-I1.mp3",
+          "start": 9.71,
+          "end": 11.89,
+          "text": "It's an orange.",
+          "originalAudio": "../discover-exam/audio/0a83bb73152f81c0d3bb1892.mp3",
+          "originalSha256": "0a83bb73152f81c0d3bb189263f39f491b969fc045642d2be8f5c205baf8847a"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-I2.mp3",
+          "start": 16.41,
+          "end": 19.13,
+          "text": "It's a pot.",
+          "originalAudio": "../discover-exam/audio/0a83bb73152f81c0d3bb1892.mp3",
+          "originalSha256": "0a83bb73152f81c0d3bb189263f39f491b969fc045642d2be8f5c205baf8847a"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-5-I3.mp3",
+          "start": 23.43,
+          "end": 25.73,
+          "text": "There's sausages.",
+          "originalAudio": "../discover-exam/audio/0a83bb73152f81c0d3bb1892.mp3",
+          "originalSha256": "0a83bb73152f81c0d3bb189263f39f491b969fc045642d2be8f5c205baf8847a"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-6",
+      "part": "A",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-6-A-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A1.mp3",
+          "start": 9.77,
+          "end": 11.29,
+          "text": "Game.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A2.mp3",
+          "start": 14.15,
+          "end": 15.75,
+          "text": "Pins.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A3.mp3",
+          "start": 18.67,
+          "end": 20.09,
+          "text": "Farmer.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A4.mp3",
+          "start": 23.13,
+          "end": 24.53,
+          "text": "Milk.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        },
+        "A5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A5.mp3",
+          "start": 27.51,
+          "end": 29.13,
+          "text": "Cell.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        },
+        "A6": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-A6.mp3",
+          "start": 31.97,
+          "end": 33.93,
+          "text": "Ice cream.",
+          "originalAudio": "../discover-exam/audio/907cd036d65278e1fd0d6449.mp3",
+          "originalSha256": "907cd036d65278e1fd0d64490a5f65194fac6b8f6208eee4a29b6c605e26283c"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-6",
+      "part": "I",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-6-I-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-I1.mp3",
+          "start": 9.71,
+          "end": 13.9,
+          "text": "Cats and dogs. Don't need clothes.",
+          "originalAudio": "../discover-exam/audio/440332c84b6d84f21e8033cd.mp3",
+          "originalSha256": "440332c84b6d84f21e8033cd03d7c4dee119425872e06edecf618c84c5b4439a"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-I2.mp3",
+          "start": 18.71,
+          "end": 21.88,
+          "text": "Doctors keep us healthy.",
+          "originalAudio": "../discover-exam/audio/440332c84b6d84f21e8033cd.mp3",
+          "originalSha256": "440332c84b6d84f21e8033cd03d7c4dee119425872e06edecf618c84c5b4439a"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-I3.mp3",
+          "start": 26.61,
+          "end": 30.05,
+          "text": "People get money from jobs.",
+          "originalAudio": "../discover-exam/audio/440332c84b6d84f21e8033cd.mp3",
+          "originalSha256": "440332c84b6d84f21e8033cd03d7c4dee119425872e06edecf618c84c5b4439a"
+        },
+        "I4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-6-I4.mp3",
+          "start": 34.87,
+          "end": 38.73,
+          "text": "It's good to drink juice in the morning.",
+          "originalAudio": "../discover-exam/audio/440332c84b6d84f21e8033cd.mp3",
+          "originalSha256": "440332c84b6d84f21e8033cd03d7c4dee119425872e06edecf618c84c5b4439a"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-7",
+      "part": "C",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-7-C-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C1.mp3",
+          "start": 12.87,
+          "end": 16.71,
+          "text": "Rain helps plants to grow.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C1.mp3",
+          "start": 12.87,
+          "end": 16.71,
+          "text": "Rain helps plants to grow.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C3.mp3",
+          "start": 21.05,
+          "end": 25.91,
+          "text": "My mother waters the plants in our garden.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        },
+        "C4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C3.mp3",
+          "start": 21.05,
+          "end": 25.91,
+          "text": "My mother waters the plants in our garden.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        },
+        "C5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C5.mp3",
+          "start": 30.51,
+          "end": 34.07,
+          "text": "It snows a lot in the winter.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        },
+        "C6": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-C5.mp3",
+          "start": 30.51,
+          "end": 34.07,
+          "text": "It snows a lot in the winter.",
+          "originalAudio": "../discover-exam/audio/a1da8b044b27035c85f75824.mp3",
+          "originalSha256": "a1da8b044b27035c85f7582494f57888f265135bf13899c309c647fad52a6d30"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-7",
+      "part": "L",
+      "sectionIndex": 11,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-7-L-instruction.mp3",
+      "questions": {
+        "L1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-L1.mp3",
+          "start": 9.59,
+          "end": 11.45,
+          "text": "I.",
+          "originalAudio": "../discover-exam/audio/eda033960beb43d026a30be5.mp3",
+          "originalSha256": "eda033960beb43d026a30be5d686021f2d104f226e26859588f5dd780016a36e"
+        },
+        "L2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-L2.mp3",
+          "start": 15.87,
+          "end": 17.63,
+          "text": "You.",
+          "originalAudio": "../discover-exam/audio/eda033960beb43d026a30be5.mp3",
+          "originalSha256": "eda033960beb43d026a30be5d686021f2d104f226e26859588f5dd780016a36e"
+        },
+        "L3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-L3.mp3",
+          "start": 22.29,
+          "end": 24.11,
+          "text": "We.",
+          "originalAudio": "../discover-exam/audio/eda033960beb43d026a30be5.mp3",
+          "originalSha256": "eda033960beb43d026a30be5d686021f2d104f226e26859588f5dd780016a36e"
+        },
+        "L4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-7-L4.mp3",
+          "start": 28.49,
+          "end": 34.717,
+          "text": "They. 1. You.",
+          "originalAudio": "../discover-exam/audio/eda033960beb43d026a30be5.mp3",
+          "originalSha256": "eda033960beb43d026a30be5d686021f2d104f226e26859588f5dd780016a36e"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-8",
+      "part": "C",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-8-C-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-C1.mp3",
+          "start": 10.33,
+          "end": 13.63,
+          "text": "He's playing a triangle.",
+          "originalAudio": "../discover-exam/audio/cbfca9fe05821fa2b6d42361.mp3",
+          "originalSha256": "cbfca9fe05821fa2b6d42361fa21191b05ac093deeeb49ff6dbb4647a7e38880"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-C2.mp3",
+          "start": 16.25,
+          "end": 20.41,
+          "text": "They're striking the symbols together.",
+          "originalAudio": "../discover-exam/audio/cbfca9fe05821fa2b6d42361.mp3",
+          "originalSha256": "cbfca9fe05821fa2b6d42361fa21191b05ac093deeeb49ff6dbb4647a7e38880"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-C3.mp3",
+          "start": 22.57,
+          "end": 26.37,
+          "text": "We aren't shaking the tambourines.",
+          "originalAudio": "../discover-exam/audio/cbfca9fe05821fa2b6d42361.mp3",
+          "originalSha256": "cbfca9fe05821fa2b6d42361fa21191b05ac093deeeb49ff6dbb4647a7e38880"
+        },
+        "C4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-C4.mp3",
+          "start": 27.97,
+          "end": 32.23,
+          "text": "I'm not playing a drum.",
+          "originalAudio": "../discover-exam/audio/cbfca9fe05821fa2b6d42361.mp3",
+          "originalSha256": "cbfca9fe05821fa2b6d42361fa21191b05ac093deeeb49ff6dbb4647a7e38880"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-8",
+      "part": "G",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-8-G-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-G1.mp3",
+          "start": 9.89,
+          "end": 14.65,
+          "text": "I clap to the beat of the music.",
+          "originalAudio": "../discover-exam/audio/1cd05de43f4ee7b6cc36c81a.mp3",
+          "originalSha256": "1cd05de43f4ee7b6cc36c81ab319393c506c127efc8365ab476894772dce6d28"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-G2.mp3",
+          "start": 18.39,
+          "end": 22.57,
+          "text": "The boy buys a ticket to the circus.",
+          "originalAudio": "../discover-exam/audio/1cd05de43f4ee7b6cc36c81a.mp3",
+          "originalSha256": "1cd05de43f4ee7b6cc36c81ab319393c506c127efc8365ab476894772dce6d28"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-G3.mp3",
+          "start": 27.25,
+          "end": 32.21,
+          "text": "We sing in our music lesson at school.",
+          "originalAudio": "../discover-exam/audio/1cd05de43f4ee7b6cc36c81a.mp3",
+          "originalSha256": "1cd05de43f4ee7b6cc36c81ab319393c506c127efc8365ab476894772dce6d28"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-8-G4.mp3",
+          "start": 36.13,
+          "end": 39.27,
+          "text": "People dance at a concert.",
+          "originalAudio": "../discover-exam/audio/1cd05de43f4ee7b6cc36c81a.mp3",
+          "originalSha256": "1cd05de43f4ee7b6cc36c81ab319393c506c127efc8365ab476894772dce6d28"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-9",
+      "part": "B",
+      "sectionIndex": 1,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-9-B-instruction.mp3",
+      "questions": {
+        "B1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-B1.mp3",
+          "start": 9.95,
+          "end": 14.75,
+          "text": "People and animals can change and grow.",
+          "originalAudio": "../discover-exam/audio/ea31e2de16ba23825759ecee.mp3",
+          "originalSha256": "ea31e2de16ba23825759ecee8e19b92ac967c2a03bb12fbfca526af675cd7725"
+        },
+        "B2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-B2.mp3",
+          "start": 19.35,
+          "end": 23.83,
+          "text": "Living things need air or water.",
+          "originalAudio": "../discover-exam/audio/ea31e2de16ba23825759ecee.mp3",
+          "originalSha256": "ea31e2de16ba23825759ecee8e19b92ac967c2a03bb12fbfca526af675cd7725"
+        },
+        "B3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-B3.mp3",
+          "start": 28.47,
+          "end": 33.37,
+          "text": "He's sitting on the grass and reading.",
+          "originalAudio": "../discover-exam/audio/ea31e2de16ba23825759ecee.mp3",
+          "originalSha256": "ea31e2de16ba23825759ecee8e19b92ac967c2a03bb12fbfca526af675cd7725"
+        },
+        "B4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-B4.mp3",
+          "start": 37.29,
+          "end": 41.23,
+          "text": "The roses are next to the bush.",
+          "originalAudio": "../discover-exam/audio/ea31e2de16ba23825759ecee.mp3",
+          "originalSha256": "ea31e2de16ba23825759ecee8e19b92ac967c2a03bb12fbfca526af675cd7725"
+        }
+      }
+    },
+    {
+      "test": "discover-1-test-9",
+      "part": "J",
+      "sectionIndex": 9,
+      "instruction": "../discover-exam/audio/questions-v1/discover-1-test-9-J-instruction.mp3",
+      "questions": {
+        "J1": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J1.mp3",
+          "start": 10.05,
+          "end": 14.01,
+          "text": "They shouldn't cross the street.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        },
+        "J2": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J2.mp3",
+          "start": 16.17,
+          "end": 20.23,
+          "text": "She should open the window.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        },
+        "J3": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J3.mp3",
+          "start": 22.19,
+          "end": 25.57,
+          "text": "It shouldn't chase the ball.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        },
+        "J4": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J4.mp3",
+          "start": 27.69,
+          "end": 31.31,
+          "text": "I should bake some cookies.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        },
+        "J5": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J5.mp3",
+          "start": 33.99,
+          "end": 35.89,
+          "text": "He should.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        },
+        "J6": {
+          "src": "../discover-exam/audio/questions-v1/discover-1-test-9-J6.mp3",
+          "start": 38.69,
+          "end": 41.01,
+          "text": "We shouldn't.",
+          "originalAudio": "../discover-exam/audio/78756695d2983403e013a08f.mp3",
+          "originalSha256": "78756695d2983403e013a08f7790cf9167830367da780e3178082357ceef90f9"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-1",
+      "part": "part-3",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-1-part-3-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-C1.mp3",
+          "start": 9.51,
+          "end": 12.21,
+          "text": "Birds have wings.",
+          "originalAudio": "../discover-exam/audio/0f5fe3b87389b0749ccbdd41.mp3",
+          "originalSha256": "0f5fe3b87389b0749ccbdd41c2879135c32060c3553e2172f033c5abdd8918bd"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-C2.mp3",
+          "start": 14.89,
+          "end": 18.71,
+          "text": "Elephants and bears are mammals.",
+          "originalAudio": "../discover-exam/audio/0f5fe3b87389b0749ccbdd41.mp3",
+          "originalSha256": "0f5fe3b87389b0749ccbdd41c2879135c32060c3553e2172f033c5abdd8918bd"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-C3.mp3",
+          "start": 21.53,
+          "end": 25.73,
+          "text": "Alligators have scales on their bodies.",
+          "originalAudio": "../discover-exam/audio/0f5fe3b87389b0749ccbdd41.mp3",
+          "originalSha256": "0f5fe3b87389b0749ccbdd41c2879135c32060c3553e2172f033c5abdd8918bd"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-1",
+      "part": "part-9",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-1-part-9-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-I1.mp3",
+          "start": 11.81,
+          "end": 13.67,
+          "text": "Fierce.",
+          "originalAudio": "../discover-exam/audio/51d18f3c672cdd07a2323884.mp3",
+          "originalSha256": "51d18f3c672cdd07a2323884a043b1e49d90706281cec93598ebacddbac4dd08"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-I2.mp3",
+          "start": 16.07,
+          "end": 17.61,
+          "text": "Strong.",
+          "originalAudio": "../discover-exam/audio/51d18f3c672cdd07a2323884.mp3",
+          "originalSha256": "51d18f3c672cdd07a2323884a043b1e49d90706281cec93598ebacddbac4dd08"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-1-I3.mp3",
+          "start": 20.45,
+          "end": 21.77,
+          "text": "Gentle. Gentle.",
+          "originalAudio": "../discover-exam/audio/51d18f3c672cdd07a2323884.mp3",
+          "originalSha256": "51d18f3c672cdd07a2323884a043b1e49d90706281cec93598ebacddbac4dd08"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-2",
+      "part": "part-3",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-2-part-3-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-C1.mp3",
+          "start": 9.21,
+          "end": 13.41,
+          "text": "Birds have wings and can fly.",
+          "originalAudio": "../discover-exam/audio/b1b6174c7ccc66816d39fe24.mp3",
+          "originalSha256": "b1b6174c7ccc66816d39fe240684cd7ed02a7e0003143904dff4b4bd4d7523bf"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-C2.mp3",
+          "start": 15.67,
+          "end": 19.43,
+          "text": "We're going to the school play.",
+          "originalAudio": "../discover-exam/audio/b1b6174c7ccc66816d39fe24.mp3",
+          "originalSha256": "b1b6174c7ccc66816d39fe240684cd7ed02a7e0003143904dff4b4bd4d7523bf"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-C3.mp3",
+          "start": 21.65,
+          "end": 25.11,
+          "text": "They're having fish for dinner.",
+          "originalAudio": "../discover-exam/audio/b1b6174c7ccc66816d39fe24.mp3",
+          "originalSha256": "b1b6174c7ccc66816d39fe240684cd7ed02a7e0003143904dff4b4bd4d7523bf"
+        },
+        "C4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-C4.mp3",
+          "start": 27.43,
+          "end": 32.65,
+          "text": "We steam vegetables. It makes them soft.",
+          "originalAudio": "../discover-exam/audio/b1b6174c7ccc66816d39fe24.mp3",
+          "originalSha256": "b1b6174c7ccc66816d39fe240684cd7ed02a7e0003143904dff4b4bd4d7523bf"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-2",
+      "part": "part-8",
+      "sectionIndex": 7,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-2-part-8-instruction.mp3",
+      "questions": {
+        "H1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-H1.mp3",
+          "start": 10.01,
+          "end": 13.83,
+          "text": "Please pour me some juice",
+          "originalAudio": "../discover-exam/audio/348bb9790a8e8abda5474948.mp3",
+          "originalSha256": "348bb9790a8e8abda54749485a19db44bf9c97230728c991ce685a16f71ef45e"
+        },
+        "H2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-H2.mp3",
+          "start": 15.07,
+          "end": 19.39,
+          "text": "I put salt on my dinner",
+          "originalAudio": "../discover-exam/audio/348bb9790a8e8abda5474948.mp3",
+          "originalSha256": "348bb9790a8e8abda54749485a19db44bf9c97230728c991ce685a16f71ef45e"
+        },
+        "H3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-H3.mp3",
+          "start": 21.25,
+          "end": 25.21,
+          "text": "The ice cubes are in the freezer",
+          "originalAudio": "../discover-exam/audio/348bb9790a8e8abda5474948.mp3",
+          "originalSha256": "348bb9790a8e8abda54749485a19db44bf9c97230728c991ce685a16f71ef45e"
+        },
+        "H4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-2-H4.mp3",
+          "start": 26.19,
+          "end": 32.19,
+          "text": "A mixture has more than one thing in it",
+          "originalAudio": "../discover-exam/audio/348bb9790a8e8abda5474948.mp3",
+          "originalSha256": "348bb9790a8e8abda54749485a19db44bf9c97230728c991ce685a16f71ef45e"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-3",
+      "part": "part-2",
+      "sectionIndex": 1,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-3-part-2-instruction.mp3",
+      "questions": {
+        "B1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-B1.mp3",
+          "start": 9.41,
+          "end": 14.67,
+          "text": "I take the bus to school every day.",
+          "originalAudio": "../discover-exam/audio/7b5254b04d35430fb4b225da.mp3",
+          "originalSha256": "7b5254b04d35430fb4b225da83fed4760885f9591e96eee5a63c619bd2239251"
+        },
+        "B2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-B2.mp3",
+          "start": 16.07,
+          "end": 19.61,
+          "text": "We travel every summer.",
+          "originalAudio": "../discover-exam/audio/7b5254b04d35430fb4b225da.mp3",
+          "originalSha256": "7b5254b04d35430fb4b225da83fed4760885f9591e96eee5a63c619bd2239251"
+        },
+        "B3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-B3.mp3",
+          "start": 21.79,
+          "end": 25.63,
+          "text": "I listen to music on the radio.",
+          "originalAudio": "../discover-exam/audio/7b5254b04d35430fb4b225da.mp3",
+          "originalSha256": "7b5254b04d35430fb4b225da83fed4760885f9591e96eee5a63c619bd2239251"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-3",
+      "part": "part-9",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-3-part-9-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-I1.mp3",
+          "start": 11.19,
+          "end": 12.65,
+          "text": "Chair.",
+          "originalAudio": "../discover-exam/audio/c530d1bd90459dfaa0235458.mp3",
+          "originalSha256": "c530d1bd90459dfaa0235458b0a31c03e41ce38766b7bd5f40b6e152df86fddf"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-I2.mp3",
+          "start": 15.39,
+          "end": 16.85,
+          "text": "Lamp.",
+          "originalAudio": "../discover-exam/audio/c530d1bd90459dfaa0235458.mp3",
+          "originalSha256": "c530d1bd90459dfaa0235458b0a31c03e41ce38766b7bd5f40b6e152df86fddf"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-3-I3.mp3",
+          "start": 19.71,
+          "end": 20.97,
+          "text": "Sync.",
+          "originalAudio": "../discover-exam/audio/c530d1bd90459dfaa0235458.mp3",
+          "originalSha256": "c530d1bd90459dfaa0235458b0a31c03e41ce38766b7bd5f40b6e152df86fddf"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-4",
+      "part": "part-3",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-4-part-3-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-C1.mp3",
+          "start": 13.83,
+          "end": 15.53,
+          "text": "Clean",
+          "originalAudio": "../discover-exam/audio/06d58806f50abca8d2803bf1.mp3",
+          "originalSha256": "06d58806f50abca8d2803bf1f1e7252471f6adec488e2ec369e52520dadba959"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-C2.mp3",
+          "start": 18.15,
+          "end": 19.93,
+          "text": "Dirty",
+          "originalAudio": "../discover-exam/audio/06d58806f50abca8d2803bf1.mp3",
+          "originalSha256": "06d58806f50abca8d2803bf1f1e7252471f6adec488e2ec369e52520dadba959"
+        },
+        "C3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-C3.mp3",
+          "start": 22.35,
+          "end": 24.07,
+          "text": "Column",
+          "originalAudio": "../discover-exam/audio/06d58806f50abca8d2803bf1.mp3",
+          "originalSha256": "06d58806f50abca8d2803bf1f1e7252471f6adec488e2ec369e52520dadba959"
+        },
+        "C4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-C4.mp3",
+          "start": 26.65,
+          "end": 31.19,
+          "text": "Subtraction 1",
+          "originalAudio": "../discover-exam/audio/06d58806f50abca8d2803bf1.mp3",
+          "originalSha256": "06d58806f50abca8d2803bf1f1e7252471f6adec488e2ec369e52520dadba959"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-4",
+      "part": "part-9",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-4-part-9-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-I1.mp3",
+          "start": 9.27,
+          "end": 12.71,
+          "text": "Please let go of the toy.",
+          "originalAudio": "../discover-exam/audio/ac24181c08b9965fd4907e81.mp3",
+          "originalSha256": "ac24181c08b9965fd4907e81257c05c0862240edb3a936e8ad7f75d9a5ab9c2f"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-I2.mp3",
+          "start": 15.07,
+          "end": 19.91,
+          "text": "She was greedy and ate too much candy.",
+          "originalAudio": "../discover-exam/audio/ac24181c08b9965fd4907e81.mp3",
+          "originalSha256": "ac24181c08b9965fd4907e81257c05c0862240edb3a936e8ad7f75d9a5ab9c2f"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-4-I3.mp3",
+          "start": 22.53,
+          "end": 25.25,
+          "text": "Let's dig up the garden.",
+          "originalAudio": "../discover-exam/audio/ac24181c08b9965fd4907e81.mp3",
+          "originalSha256": "ac24181c08b9965fd4907e81257c05c0862240edb3a936e8ad7f75d9a5ab9c2f"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-5",
+      "part": "part-4",
+      "sectionIndex": 3,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-5-part-4-instruction.mp3",
+      "questions": {
+        "D1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-D1.mp3",
+          "start": 10.23,
+          "end": 14.89,
+          "text": "Who's sneakers are those? They're hers.",
+          "originalAudio": "../discover-exam/audio/445a74bc6e28cad6a3309a71.mp3",
+          "originalSha256": "445a74bc6e28cad6a3309a7192fff40a94968313d240acdce8720f7d232faef2"
+        },
+        "D2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-D2.mp3",
+          "start": 17.29,
+          "end": 21.57,
+          "text": "Who's book is that? It's mine.",
+          "originalAudio": "../discover-exam/audio/445a74bc6e28cad6a3309a71.mp3",
+          "originalSha256": "445a74bc6e28cad6a3309a7192fff40a94968313d240acdce8720f7d232faef2"
+        },
+        "D3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-D3.mp3",
+          "start": 24.13,
+          "end": 28.49,
+          "text": "Who's cookies are those? They're ours.",
+          "originalAudio": "../discover-exam/audio/445a74bc6e28cad6a3309a71.mp3",
+          "originalSha256": "445a74bc6e28cad6a3309a7192fff40a94968313d240acdce8720f7d232faef2"
+        },
+        "D4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-D4.mp3",
+          "start": 31.17,
+          "end": 35.25,
+          "text": "Who's hat is this? It's his.",
+          "originalAudio": "../discover-exam/audio/445a74bc6e28cad6a3309a71.mp3",
+          "originalSha256": "445a74bc6e28cad6a3309a7192fff40a94968313d240acdce8720f7d232faef2"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-5",
+      "part": "part-9",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-5-part-9-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-I1.mp3",
+          "start": 11.11,
+          "end": 12.81,
+          "text": "Computer",
+          "originalAudio": "../discover-exam/audio/ab622b8a621a6690ab196b42.mp3",
+          "originalSha256": "ab622b8a621a6690ab196b42a429ce11ee9bd47ba1102cea33ed20b4e8a2a668"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-I2.mp3",
+          "start": 15.53,
+          "end": 17.91,
+          "text": "Headphones",
+          "originalAudio": "../discover-exam/audio/ab622b8a621a6690ab196b42.mp3",
+          "originalSha256": "ab622b8a621a6690ab196b42a429ce11ee9bd47ba1102cea33ed20b4e8a2a668"
+        },
+        "I3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-5-I3.mp3",
+          "start": 19.99,
+          "end": 21.69,
+          "text": "Tablet",
+          "originalAudio": "../discover-exam/audio/ab622b8a621a6690ab196b42.mp3",
+          "originalSha256": "ab622b8a621a6690ab196b42a429ce11ee9bd47ba1102cea33ed20b4e8a2a668"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-6",
+      "part": "part-3",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-6-part-3-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-6-C1.mp3",
+          "start": 11.27,
+          "end": 12.97,
+          "text": "Camp",
+          "originalAudio": "../discover-exam/audio/94c3c2f639f46967b21d32c3.mp3",
+          "originalSha256": "94c3c2f639f46967b21d32c304183dce56a180336b9be1ab84fd6c67a819ee1f"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-6-C2.mp3",
+          "start": 15.45,
+          "end": 17.15,
+          "text": "Surf",
+          "originalAudio": "../discover-exam/audio/94c3c2f639f46967b21d32c3.mp3",
+          "originalSha256": "94c3c2f639f46967b21d32c304183dce56a180336b9be1ab84fd6c67a819ee1f"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-6",
+      "part": "part-9",
+      "sectionIndex": 8,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-6-part-9-instruction.mp3",
+      "questions": {
+        "I1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-6-I1.mp3",
+          "start": 13.47,
+          "end": 20.43,
+          "text": "Is there a landfill across from the town? Yes, there is.",
+          "originalAudio": "../discover-exam/audio/ee7bd97f13981acc17c93c38.mp3",
+          "originalSha256": "ee7bd97f13981acc17c93c38851759de39a8ffb6bd5c91489f946f98773a6bf9"
+        },
+        "I2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-6-I2.mp3",
+          "start": 22.33,
+          "end": 27.25,
+          "text": "Where are my books? There behind your desk.",
+          "originalAudio": "../discover-exam/audio/ee7bd97f13981acc17c93c38.mp3",
+          "originalSha256": "ee7bd97f13981acc17c93c38851759de39a8ffb6bd5c91489f946f98773a6bf9"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-7",
+      "part": "part-6",
+      "sectionIndex": 5,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-7-part-6-instruction.mp3",
+      "questions": {
+        "F1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-F1.mp3",
+          "start": 13.91,
+          "end": 20.21,
+          "text": "When does he do homework? He does homework at night.",
+          "originalAudio": "../discover-exam/audio/7ddc729041d1840866844047.mp3",
+          "originalSha256": "7ddc729041d1840866844047e4b3c70fba24bb82d97f9582f2121f4b27f706f9"
+        },
+        "F2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-F2.mp3",
+          "start": 22.53,
+          "end": 28.73,
+          "text": "When do they play soccer? They play soccer on Sunday.",
+          "originalAudio": "../discover-exam/audio/7ddc729041d1840866844047.mp3",
+          "originalSha256": "7ddc729041d1840866844047e4b3c70fba24bb82d97f9582f2121f4b27f706f9"
+        },
+        "F3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-F3.mp3",
+          "start": 31.47,
+          "end": 37.93,
+          "text": "When does she eat lunch? She eats lunch at 2 o'clock.",
+          "originalAudio": "../discover-exam/audio/7ddc729041d1840866844047.mp3",
+          "originalSha256": "7ddc729041d1840866844047e4b3c70fba24bb82d97f9582f2121f4b27f706f9"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-7",
+      "part": "part-11",
+      "sectionIndex": 10,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-7-part-11-instruction.mp3",
+      "questions": {
+        "K1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-K1.mp3",
+          "start": 10.43,
+          "end": 15.07,
+          "text": "She played baseball yesterday afternoon.",
+          "originalAudio": "../discover-exam/audio/8b365918c3407004782ef0ed.mp3",
+          "originalSha256": "8b365918c3407004782ef0ed5e8cc48fd4ff650fb6bf385fec860549ef697392"
+        },
+        "K2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-K2.mp3",
+          "start": 17.53,
+          "end": 20.87,
+          "text": "She went shopping this morning.",
+          "originalAudio": "../discover-exam/audio/8b365918c3407004782ef0ed.mp3",
+          "originalSha256": "8b365918c3407004782ef0ed5e8cc48fd4ff650fb6bf385fec860549ef697392"
+        },
+        "K3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-K3.mp3",
+          "start": 23.77,
+          "end": 27.73,
+          "text": "He read a book yesterday evening.",
+          "originalAudio": "../discover-exam/audio/8b365918c3407004782ef0ed.mp3",
+          "originalSha256": "8b365918c3407004782ef0ed5e8cc48fd4ff650fb6bf385fec860549ef697392"
+        },
+        "K4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-7-K4.mp3",
+          "start": 30.27,
+          "end": 33.75,
+          "text": "He did homework last night.",
+          "originalAudio": "../discover-exam/audio/8b365918c3407004782ef0ed.mp3",
+          "originalSha256": "8b365918c3407004782ef0ed5e8cc48fd4ff650fb6bf385fec860549ef697392"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-8",
+      "part": "part-2",
+      "sectionIndex": 1,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-8-part-2-instruction.mp3",
+      "questions": {
+        "B1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-B1.mp3",
+          "start": 10.57,
+          "end": 11.73,
+          "text": "Happy.",
+          "originalAudio": "../discover-exam/audio/bc1a666d605bf1b67ef37a4e.mp3",
+          "originalSha256": "bc1a666d605bf1b67ef37a4ef6d12b33fc8167383a1693b6780448bb9eb20453"
+        },
+        "B2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-B2.mp3",
+          "start": 14.59,
+          "end": 16.15,
+          "text": "Safe.",
+          "originalAudio": "../discover-exam/audio/bc1a666d605bf1b67ef37a4e.mp3",
+          "originalSha256": "bc1a666d605bf1b67ef37a4ef6d12b33fc8167383a1693b6780448bb9eb20453"
+        },
+        "B3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-B3.mp3",
+          "start": 18.89,
+          "end": 20.33,
+          "text": "Loud.",
+          "originalAudio": "../discover-exam/audio/bc1a666d605bf1b67ef37a4e.mp3",
+          "originalSha256": "bc1a666d605bf1b67ef37a4ef6d12b33fc8167383a1693b6780448bb9eb20453"
+        },
+        "B4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-B4.mp3",
+          "start": 23.21,
+          "end": 24.43,
+          "text": "Heavy.",
+          "originalAudio": "../discover-exam/audio/bc1a666d605bf1b67ef37a4e.mp3",
+          "originalSha256": "bc1a666d605bf1b67ef37a4ef6d12b33fc8167383a1693b6780448bb9eb20453"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-8",
+      "part": "part-8",
+      "sectionIndex": 7,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-8-part-8-instruction.mp3",
+      "questions": {
+        "H1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-H1.mp3",
+          "start": 12.17,
+          "end": 13.17,
+          "text": "forward,",
+          "originalAudio": "../discover-exam/audio/9e449dac98079cb03336ed62.mp3",
+          "originalSha256": "9e449dac98079cb03336ed622d9c2c7845ee33c6b1e6c12844d7a9dc4a941e74"
+        },
+        "H2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-8-H2.mp3",
+          "start": 16.03,
+          "end": 17.43,
+          "text": "horns,",
+          "originalAudio": "../discover-exam/audio/9e449dac98079cb03336ed62.mp3",
+          "originalSha256": "9e449dac98079cb03336ed622d9c2c7845ee33c6b1e6c12844d7a9dc4a941e74"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-9",
+      "part": "part-3",
+      "sectionIndex": 2,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-9-part-3-instruction.mp3",
+      "questions": {
+        "C1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-C1.mp3",
+          "start": 11.57,
+          "end": 13.09,
+          "text": "sculpture,",
+          "originalAudio": "../discover-exam/audio/30a693bcbe1bdac3b725063f.mp3",
+          "originalSha256": "30a693bcbe1bdac3b725063f6175d0a96b626ba546175cba15771e1479541b39"
+        },
+        "C2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-C2.mp3",
+          "start": 15.97,
+          "end": 17.61,
+          "text": "origami",
+          "originalAudio": "../discover-exam/audio/30a693bcbe1bdac3b725063f.mp3",
+          "originalSha256": "30a693bcbe1bdac3b725063f6175d0a96b626ba546175cba15771e1479541b39"
+        }
+      }
+    },
+    {
+      "test": "discover-2-test-9",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-2-test-9-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-G1.mp3",
+          "start": 9.81,
+          "end": 13.45,
+          "text": "I have a shiny coin.",
+          "originalAudio": "../discover-exam/audio/7f80766c68347270911eb867.mp3",
+          "originalSha256": "7f80766c68347270911eb8670a72aadb2df2b314587596fef1063e0a4a4ab6c1"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-G2.mp3",
+          "start": 15.53,
+          "end": 18.75,
+          "text": "Please fold the paper.",
+          "originalAudio": "../discover-exam/audio/7f80766c68347270911eb867.mp3",
+          "originalSha256": "7f80766c68347270911eb8670a72aadb2df2b314587596fef1063e0a4a4ab6c1"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-G3.mp3",
+          "start": 21.13,
+          "end": 25.65,
+          "text": "The book is on the edge of the couch.",
+          "originalAudio": "../discover-exam/audio/7f80766c68347270911eb867.mp3",
+          "originalSha256": "7f80766c68347270911eb8670a72aadb2df2b314587596fef1063e0a4a4ab6c1"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-2-test-9-G4.mp3",
+          "start": 28.13,
+          "end": 30.63,
+          "text": "How high can he climb?",
+          "originalAudio": "../discover-exam/audio/7f80766c68347270911eb867.mp3",
+          "originalSha256": "7f80766c68347270911eb8670a72aadb2df2b314587596fef1063e0a4a4ab6c1"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-1",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-1-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-A1.mp3",
+          "start": 9.23,
+          "end": 13.67,
+          "text": "Two people get married at a wedding.",
+          "originalAudio": "../discover-exam/audio/607fc8f119542fdaff8f2a03.mp3",
+          "originalSha256": "607fc8f119542fdaff8f2a0384ccb608d1c000dc6f09fded41570da56b732f94"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-A2.mp3",
+          "start": 16.01,
+          "end": 19.59,
+          "text": "An athlete is a player.",
+          "originalAudio": "../discover-exam/audio/607fc8f119542fdaff8f2a03.mp3",
+          "originalSha256": "607fc8f119542fdaff8f2a0384ccb608d1c000dc6f09fded41570da56b732f94"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-A3.mp3",
+          "start": 21.97,
+          "end": 26.45,
+          "text": "A festival is a place to study English.",
+          "originalAudio": "../discover-exam/audio/607fc8f119542fdaff8f2a03.mp3",
+          "originalSha256": "607fc8f119542fdaff8f2a0384ccb608d1c000dc6f09fded41570da56b732f94"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-A4.mp3",
+          "start": 29.05,
+          "end": 33.51,
+          "text": "A team has only one person on it.",
+          "originalAudio": "../discover-exam/audio/607fc8f119542fdaff8f2a03.mp3",
+          "originalSha256": "607fc8f119542fdaff8f2a0384ccb608d1c000dc6f09fded41570da56b732f94"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-1",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-1-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-G1.mp3",
+          "start": 9.49,
+          "end": 13.21,
+          "text": "A cliff is a place to swim.",
+          "originalAudio": "../discover-exam/audio/fb9de5ee2df7567695917b49.mp3",
+          "originalSha256": "fb9de5ee2df7567695917b49f30862637b3978377b1b3f127b24c84bc3afa73d"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-G2.mp3",
+          "start": 15.37,
+          "end": 20.43,
+          "text": "You can toss a mountain or a house.",
+          "originalAudio": "../discover-exam/audio/fb9de5ee2df7567695917b49.mp3",
+          "originalSha256": "fb9de5ee2df7567695917b49f30862637b3978377b1b3f127b24c84bc3afa73d"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-G3.mp3",
+          "start": 22.69,
+          "end": 26.77,
+          "text": "A bow constrictor is a kind of snake.",
+          "originalAudio": "../discover-exam/audio/fb9de5ee2df7567695917b49.mp3",
+          "originalSha256": "fb9de5ee2df7567695917b49f30862637b3978377b1b3f127b24c84bc3afa73d"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-1-G4.mp3",
+          "start": 29.21,
+          "end": 34.83,
+          "text": "In basketball, players bounce the ball with their hands.",
+          "originalAudio": "../discover-exam/audio/fb9de5ee2df7567695917b49.mp3",
+          "originalSha256": "fb9de5ee2df7567695917b49f30862637b3978377b1b3f127b24c84bc3afa73d"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-2",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-2-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-A1.mp3",
+          "start": 9.43,
+          "end": 14.45,
+          "text": "You can go ice skating outside in the summer.",
+          "originalAudio": "../discover-exam/audio/a543f315ff02bc1f4a455739.mp3",
+          "originalSha256": "a543f315ff02bc1f4a45573929c89ba58d2e797189d90308723f6d3de1590426"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-A2.mp3",
+          "start": 16.81,
+          "end": 21.51,
+          "text": "Curry is a kind of Indian food.",
+          "originalAudio": "../discover-exam/audio/a543f315ff02bc1f4a455739.mp3",
+          "originalSha256": "a543f315ff02bc1f4a45573929c89ba58d2e797189d90308723f6d3de1590426"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-A3.mp3",
+          "start": 23.37,
+          "end": 28.35,
+          "text": "Moving means going to a new place to live.",
+          "originalAudio": "../discover-exam/audio/a543f315ff02bc1f4a455739.mp3",
+          "originalSha256": "a543f315ff02bc1f4a45573929c89ba58d2e797189d90308723f6d3de1590426"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-A4.mp3",
+          "start": 31.07,
+          "end": 35.67,
+          "text": "Sometimes people go sledding in the winter.",
+          "originalAudio": "../discover-exam/audio/a543f315ff02bc1f4a455739.mp3",
+          "originalSha256": "a543f315ff02bc1f4a45573929c89ba58d2e797189d90308723f6d3de1590426"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-2",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-2-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-G1.mp3",
+          "start": 9.91,
+          "end": 13.19,
+          "text": "Doctors work at the hospital.",
+          "originalAudio": "../discover-exam/audio/be811fbf67e386e3f4d25259.mp3",
+          "originalSha256": "be811fbf67e386e3f4d2525915b100999e7c84793e80c4ce1f96225d70866222"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-G2.mp3",
+          "start": 15.79,
+          "end": 21.39,
+          "text": "Immigrants are people who move to other countries to live.",
+          "originalAudio": "../discover-exam/audio/be811fbf67e386e3f4d25259.mp3",
+          "originalSha256": "be811fbf67e386e3f4d2525915b100999e7c84793e80c4ce1f96225d70866222"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-G3.mp3",
+          "start": 23.77,
+          "end": 28.37,
+          "text": "A factory makes things we buy in stores.",
+          "originalAudio": "../discover-exam/audio/be811fbf67e386e3f4d25259.mp3",
+          "originalSha256": "be811fbf67e386e3f4d2525915b100999e7c84793e80c4ce1f96225d70866222"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-G4.mp3",
+          "start": 31.05,
+          "end": 37.09,
+          "text": "If you want to buy new clothes, you should go to a shopping mall.",
+          "originalAudio": "../discover-exam/audio/be811fbf67e386e3f4d25259.mp3",
+          "originalSha256": "be811fbf67e386e3f4d2525915b100999e7c84793e80c4ce1f96225d70866222"
+        },
+        "G5": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-2-G5.mp3",
+          "start": 39.59,
+          "end": 44.99,
+          "text": "If a person is from China, they are Irish.",
+          "originalAudio": "../discover-exam/audio/be811fbf67e386e3f4d25259.mp3",
+          "originalSha256": "be811fbf67e386e3f4d2525915b100999e7c84793e80c4ce1f96225d70866222"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-3",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-3-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-A1.mp3",
+          "start": 13.01,
+          "end": 16.91,
+          "text": "This insect is very small.",
+          "originalAudio": "../discover-exam/audio/9b1fc105ea9184c5ba3a03de.mp3",
+          "originalSha256": "9b1fc105ea9184c5ba3a03ded9ab24098ed27006c6c6b6891534c051225b30f3"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-A2.mp3",
+          "start": 19.51,
+          "end": 22.17,
+          "text": "This can jump.",
+          "originalAudio": "../discover-exam/audio/9b1fc105ea9184c5ba3a03de.mp3",
+          "originalSha256": "9b1fc105ea9184c5ba3a03ded9ab24098ed27006c6c6b6891534c051225b30f3"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-A3.mp3",
+          "start": 24.67,
+          "end": 27.69,
+          "text": "This insect is noisy.",
+          "originalAudio": "../discover-exam/audio/9b1fc105ea9184c5ba3a03de.mp3",
+          "originalSha256": "9b1fc105ea9184c5ba3a03ded9ab24098ed27006c6c6b6891534c051225b30f3"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-A4.mp3",
+          "start": 30.29,
+          "end": 33.17,
+          "text": "This is a verb.",
+          "originalAudio": "../discover-exam/audio/9b1fc105ea9184c5ba3a03de.mp3",
+          "originalSha256": "9b1fc105ea9184c5ba3a03ded9ab24098ed27006c6c6b6891534c051225b30f3"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-3",
+      "part": "part-10",
+      "sectionIndex": 9,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-3-part-10-instruction.mp3",
+      "questions": {
+        "J1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-J1.mp3",
+          "start": 9.89,
+          "end": 16.55,
+          "text": "What were you doing when the doorbell rang? I was watching TV.",
+          "originalAudio": "../discover-exam/audio/5a286ac8b0bb1728073a99a8.mp3",
+          "originalSha256": "5a286ac8b0bb1728073a99a8840ad4af4ac91a6881e67b48f4728134c18a8d96"
+        },
+        "J2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-J2.mp3",
+          "start": 20.03,
+          "end": 27.59,
+          "text": "What happened yesterday when Maria was ice skating? It started to snow.",
+          "originalAudio": "../discover-exam/audio/5a286ac8b0bb1728073a99a8.mp3",
+          "originalSha256": "5a286ac8b0bb1728073a99a8840ad4af4ac91a6881e67b48f4728134c18a8d96"
+        },
+        "J3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-J3.mp3",
+          "start": 31.21,
+          "end": 40.01,
+          "text": "Were the students reading their books when you went to the classroom? Yes. They were reading poems.",
+          "originalAudio": "../discover-exam/audio/5a286ac8b0bb1728073a99a8.mp3",
+          "originalSha256": "5a286ac8b0bb1728073a99a8840ad4af4ac91a6881e67b48f4728134c18a8d96"
+        },
+        "J4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-3-J4.mp3",
+          "start": 43.71,
+          "end": 50.67,
+          "text": "What happened yesterday when the teacher was talking? Pete fell asleep.",
+          "originalAudio": "../discover-exam/audio/5a286ac8b0bb1728073a99a8.mp3",
+          "originalSha256": "5a286ac8b0bb1728073a99a8840ad4af4ac91a6881e67b48f4728134c18a8d96"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-4",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-4-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-A1.mp3",
+          "start": 9.17,
+          "end": 13.07,
+          "text": "One hour is 30 minutes.",
+          "originalAudio": "../discover-exam/audio/87016a4d9c05b3258d0d6e1d.mp3",
+          "originalSha256": "87016a4d9c05b3258d0d6e1d01a9bbee85043794255d50eba33553b6dba67776"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-A2.mp3",
+          "start": 15.95,
+          "end": 20.33,
+          "text": "Cold is the opposite of hot.",
+          "originalAudio": "../discover-exam/audio/87016a4d9c05b3258d0d6e1d.mp3",
+          "originalSha256": "87016a4d9c05b3258d0d6e1d01a9bbee85043794255d50eba33553b6dba67776"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-A3.mp3",
+          "start": 22.97,
+          "end": 27.27,
+          "text": "There are 60 seconds in one minute.",
+          "originalAudio": "../discover-exam/audio/87016a4d9c05b3258d0d6e1d.mp3",
+          "originalSha256": "87016a4d9c05b3258d0d6e1d01a9bbee85043794255d50eba33553b6dba67776"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-4",
+      "part": "part-11",
+      "sectionIndex": 10,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-4-part-11-instruction.mp3",
+      "questions": {
+        "K1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-K1.mp3",
+          "start": 9.97,
+          "end": 16.59,
+          "text": "Where are you going to go tomorrow? I'm going to see the doctor.",
+          "originalAudio": "../discover-exam/audio/006f5a2e4c7eecfbb4bdb159.mp3",
+          "originalSha256": "006f5a2e4c7eecfbb4bdb159e5f634d799d4da5cf332a45664a399507a96a543"
+        },
+        "K2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-K2.mp3",
+          "start": 19.07,
+          "end": 26.19,
+          "text": "Are the students going to study time zones? Yes, they are.",
+          "originalAudio": "../discover-exam/audio/006f5a2e4c7eecfbb4bdb159.mp3",
+          "originalSha256": "006f5a2e4c7eecfbb4bdb159e5f634d799d4da5cf332a45664a399507a96a543"
+        },
+        "K3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-4-K3.mp3",
+          "start": 26.71,
+          "end": 34.71,
+          "text": "Is Joe going to visit his friend? No, he isn't.",
+          "originalAudio": "../discover-exam/audio/006f5a2e4c7eecfbb4bdb159.mp3",
+          "originalSha256": "006f5a2e4c7eecfbb4bdb159e5f634d799d4da5cf332a45664a399507a96a543"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-5",
+      "part": "part-4",
+      "sectionIndex": 3,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-5-part-4-instruction.mp3",
+      "questions": {
+        "D1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-D1.mp3",
+          "start": 10.15,
+          "end": 16.35,
+          "text": "John loves windmills. He might like to see a wind farm.",
+          "originalAudio": "../discover-exam/audio/7a4cdb6304d9ff0f5ffd3de7.mp3",
+          "originalSha256": "7a4cdb6304d9ff0f5ffd3de7d27f3e948a609170fc8eaff7983b7b468777e33a"
+        },
+        "D2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-D2.mp3",
+          "start": 18.95,
+          "end": 27.81,
+          "text": "That building looks like a factory. Do you know what it is? It might be a power plant.",
+          "originalAudio": "../discover-exam/audio/7a4cdb6304d9ff0f5ffd3de7.mp3",
+          "originalSha256": "7a4cdb6304d9ff0f5ffd3de7d27f3e948a609170fc8eaff7983b7b468777e33a"
+        },
+        "D3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-D3.mp3",
+          "start": 30.39,
+          "end": 37.79,
+          "text": "Today it is not windy. The wind turbines might not work.",
+          "originalAudio": "../discover-exam/audio/7a4cdb6304d9ff0f5ffd3de7.mp3",
+          "originalSha256": "7a4cdb6304d9ff0f5ffd3de7d27f3e948a609170fc8eaff7983b7b468777e33a"
+        },
+        "D4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-D4.mp3",
+          "start": 39.87,
+          "end": 45.69,
+          "text": "This factory burns coal. It might cause pollution.",
+          "originalAudio": "../discover-exam/audio/7a4cdb6304d9ff0f5ffd3de7.mp3",
+          "originalSha256": "7a4cdb6304d9ff0f5ffd3de7d27f3e948a609170fc8eaff7983b7b468777e33a"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-5",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-5-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-G1.mp3",
+          "start": 13.05,
+          "end": 17.89,
+          "text": "This is when there are many cars on the road.",
+          "originalAudio": "../discover-exam/audio/29e9787421cba4a8cb3b5976.mp3",
+          "originalSha256": "29e9787421cba4a8cb3b5976d4964f2cafce1961c01e893664c40352b567a048"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-G2.mp3",
+          "start": 20.05,
+          "end": 24.71,
+          "text": "You can cover your face with this.",
+          "originalAudio": "../discover-exam/audio/29e9787421cba4a8cb3b5976.mp3",
+          "originalSha256": "29e9787421cba4a8cb3b5976d4964f2cafce1961c01e893664c40352b567a048"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-G3.mp3",
+          "start": 25.33,
+          "end": 33.24,
+          "text": "When you ride a bike, you put your feet on this.",
+          "originalAudio": "../discover-exam/audio/29e9787421cba4a8cb3b5976.mp3",
+          "originalSha256": "29e9787421cba4a8cb3b5976d4964f2cafce1961c01e893664c40352b567a048"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-5-G4.mp3",
+          "start": 34.57,
+          "end": 41.11,
+          "text": "You take this if you don't want to take the stairs to the second floor.",
+          "originalAudio": "../discover-exam/audio/29e9787421cba4a8cb3b5976.mp3",
+          "originalSha256": "29e9787421cba4a8cb3b5976d4964f2cafce1961c01e893664c40352b567a048"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-6",
+      "part": "part-4",
+      "sectionIndex": 3,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-6-part-4-instruction.mp3",
+      "questions": {
+        "D1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-D1.mp3",
+          "start": 10.15,
+          "end": 18.07,
+          "text": "I think the orchestra is more interesting than the circus. I prefer the orchestra.",
+          "originalAudio": "../discover-exam/audio/f4d6c4d90190c265fdf09eb3.mp3",
+          "originalSha256": "f4d6c4d90190c265fdf09eb32a8c96f5373cae72d794684410a3e91122a33530"
+        },
+        "D2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-D2.mp3",
+          "start": 20.97,
+          "end": 27.39,
+          "text": "The trumpet is louder than the cello. The cello is quieter.",
+          "originalAudio": "../discover-exam/audio/f4d6c4d90190c265fdf09eb3.mp3",
+          "originalSha256": "f4d6c4d90190c265fdf09eb32a8c96f5373cae72d794684410a3e91122a33530"
+        },
+        "D3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-D3.mp3",
+          "start": 30.41,
+          "end": 38.43,
+          "text": "Lillian has the highest voice. No student has a higher voice than Lillian.",
+          "originalAudio": "../discover-exam/audio/f4d6c4d90190c265fdf09eb3.mp3",
+          "originalSha256": "f4d6c4d90190c265fdf09eb32a8c96f5373cae72d794684410a3e91122a33530"
+        },
+        "D4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-D4.mp3",
+          "start": 41.31,
+          "end": 50.51,
+          "text": "Rachel says the timpani is easier than the trombone. Rachel thinks the trombone is harder.",
+          "originalAudio": "../discover-exam/audio/f4d6c4d90190c265fdf09eb3.mp3",
+          "originalSha256": "f4d6c4d90190c265fdf09eb32a8c96f5373cae72d794684410a3e91122a33530"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-6",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-6-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-G1.mp3",
+          "start": 9.69,
+          "end": 12.87,
+          "text": "A zamura is a drum.",
+          "originalAudio": "../discover-exam/audio/61270a6e383a4a4f1e821294.mp3",
+          "originalSha256": "61270a6e383a4a4f1e821294b5cbaa8f749df5df3480ce0f97f786a7d72ce8a8"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-G2.mp3",
+          "start": 15.39,
+          "end": 20.49,
+          "text": "The didgeridu is an Australian instrument.",
+          "originalAudio": "../discover-exam/audio/61270a6e383a4a4f1e821294.mp3",
+          "originalSha256": "61270a6e383a4a4f1e821294b5cbaa8f749df5df3480ce0f97f786a7d72ce8a8"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-G3.mp3",
+          "start": 22.79,
+          "end": 27.05,
+          "text": "The Urhoo is an African instrument.",
+          "originalAudio": "../discover-exam/audio/61270a6e383a4a4f1e821294.mp3",
+          "originalSha256": "61270a6e383a4a4f1e821294b5cbaa8f749df5df3480ce0f97f786a7d72ce8a8"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-6-G4.mp3",
+          "start": 29.69,
+          "end": 34.69,
+          "text": "The violin is smaller than the cello.",
+          "originalAudio": "../discover-exam/audio/61270a6e383a4a4f1e821294.mp3",
+          "originalSha256": "61270a6e383a4a4f1e821294b5cbaa8f749df5df3480ce0f97f786a7d72ce8a8"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-7",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-7-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-A1.mp3",
+          "start": 9.83,
+          "end": 12.87,
+          "text": "Light bulbs need electricity.",
+          "originalAudio": "../discover-exam/audio/1489d6a0b4ef24c6e2d88aa6.mp3",
+          "originalSha256": "1489d6a0b4ef24c6e2d88aa6affb85dfb23165ab0f0d0c06e60b539d170f3e1d"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-A2.mp3",
+          "start": 15.87,
+          "end": 20.09,
+          "text": "You use a doorknob to open a door.",
+          "originalAudio": "../discover-exam/audio/1489d6a0b4ef24c6e2d88aa6.mp3",
+          "originalSha256": "1489d6a0b4ef24c6e2d88aa6affb85dfb23165ab0f0d0c06e60b539d170f3e1d"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-A3.mp3",
+          "start": 22.63,
+          "end": 26.23,
+          "text": "A screw is a type of wedge.",
+          "originalAudio": "../discover-exam/audio/1489d6a0b4ef24c6e2d88aa6.mp3",
+          "originalSha256": "1489d6a0b4ef24c6e2d88aa6affb85dfb23165ab0f0d0c06e60b539d170f3e1d"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-7",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-7-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-G1.mp3",
+          "start": 9.99,
+          "end": 13.43,
+          "text": "Eye glasses help you see.",
+          "originalAudio": "../discover-exam/audio/094099235d458d75b8e124e7.mp3",
+          "originalSha256": "094099235d458d75b8e124e7f032adde17de4722aa98d45795671eb5ed628f2d"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-G2.mp3",
+          "start": 15.79,
+          "end": 19.59,
+          "text": "You can wear frames on your face.",
+          "originalAudio": "../discover-exam/audio/094099235d458d75b8e124e7.mp3",
+          "originalSha256": "094099235d458d75b8e124e7f032adde17de4722aa98d45795671eb5ed628f2d"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-7-G3.mp3",
+          "start": 22.25,
+          "end": 25.41,
+          "text": "Glassware is not delicate.",
+          "originalAudio": "../discover-exam/audio/094099235d458d75b8e124e7.mp3",
+          "originalSha256": "094099235d458d75b8e124e7f032adde17de4722aa98d45795671eb5ed628f2d"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-8",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-8-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-A1.mp3",
+          "start": 13.83,
+          "end": 16.87,
+          "text": "This is part of a plant.",
+          "originalAudio": "../discover-exam/audio/556454dd59313f79ba67e2e6.mp3",
+          "originalSha256": "556454dd59313f79ba67e2e6be7dfd3ee1ee43f4ff4222753dc40eaf13df0949"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-A2.mp3",
+          "start": 19.91,
+          "end": 23.05,
+          "text": "Plants need this to live.",
+          "originalAudio": "../discover-exam/audio/556454dd59313f79ba67e2e6.mp3",
+          "originalSha256": "556454dd59313f79ba67e2e6be7dfd3ee1ee43f4ff4222753dc40eaf13df0949"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-A3.mp3",
+          "start": 25.59,
+          "end": 32.01,
+          "text": "This is a very, small part of a plant.",
+          "originalAudio": "../discover-exam/audio/556454dd59313f79ba67e2e6.mp3",
+          "originalSha256": "556454dd59313f79ba67e2e6be7dfd3ee1ee43f4ff4222753dc40eaf13df0949"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-A4.mp3",
+          "start": 34.05,
+          "end": 38.09,
+          "text": "This word describes the shape of something.",
+          "originalAudio": "../discover-exam/audio/556454dd59313f79ba67e2e6.mp3",
+          "originalSha256": "556454dd59313f79ba67e2e6be7dfd3ee1ee43f4ff4222753dc40eaf13df0949"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-8",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-8-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-G1.mp3",
+          "start": 10.17,
+          "end": 14.67,
+          "text": "A crowd is a big group of people.",
+          "originalAudio": "../discover-exam/audio/b31a72b1a51e6651f7d63cf1.mp3",
+          "originalSha256": "b31a72b1a51e6651f7d63cf17febe122608634bf99b8df6cd4908bc46ab11806"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-G2.mp3",
+          "start": 16.93,
+          "end": 20.57,
+          "text": "Vines are a type of animal.",
+          "originalAudio": "../discover-exam/audio/b31a72b1a51e6651f7d63cf1.mp3",
+          "originalSha256": "b31a72b1a51e6651f7d63cf17febe122608634bf99b8df6cd4908bc46ab11806"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-G3.mp3",
+          "start": 23.07,
+          "end": 27.93,
+          "text": "You can use a shopping cart in a grocery store.",
+          "originalAudio": "../discover-exam/audio/b31a72b1a51e6651f7d63cf1.mp3",
+          "originalSha256": "b31a72b1a51e6651f7d63cf17febe122608634bf99b8df6cd4908bc46ab11806"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-8-G4.mp3",
+          "start": 30.37,
+          "end": 33.69,
+          "text": "A sweet potato is a fruit.",
+          "originalAudio": "../discover-exam/audio/b31a72b1a51e6651f7d63cf1.mp3",
+          "originalSha256": "b31a72b1a51e6651f7d63cf17febe122608634bf99b8df6cd4908bc46ab11806"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-9",
+      "part": "part-4",
+      "sectionIndex": 3,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-9-part-4-instruction.mp3",
+      "questions": {
+        "D1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-D1.mp3",
+          "start": 10.37,
+          "end": 16.55,
+          "text": "It's just started to rain. Let's go into that building.",
+          "originalAudio": "../discover-exam/audio/9aacd1e81d680b02d0e9c454.mp3",
+          "originalSha256": "9aacd1e81d680b02d0e9c454b702d3acb0495f5d3a989b7dae8fa81f04d5da6d"
+        },
+        "D2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-D2.mp3",
+          "start": 18.91,
+          "end": 25.49,
+          "text": "This lake is not very big. We can walk around it.",
+          "originalAudio": "../discover-exam/audio/9aacd1e81d680b02d0e9c454.mp3",
+          "originalSha256": "9aacd1e81d680b02d0e9c454b702d3acb0495f5d3a989b7dae8fa81f04d5da6d"
+        },
+        "D3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-D3.mp3",
+          "start": 27.27,
+          "end": 38.33,
+          "text": "Pedro forgot his bag at home. He has no books for his class. He's going to go back to his house.",
+          "originalAudio": "../discover-exam/audio/9aacd1e81d680b02d0e9c454.mp3",
+          "originalSha256": "9aacd1e81d680b02d0e9c454b702d3acb0495f5d3a989b7dae8fa81f04d5da6d"
+        },
+        "D4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-D4.mp3",
+          "start": 40.41,
+          "end": 45.37,
+          "text": "Where did you ride your bike? I rode along the river.",
+          "originalAudio": "../discover-exam/audio/9aacd1e81d680b02d0e9c454.mp3",
+          "originalSha256": "9aacd1e81d680b02d0e9c454b702d3acb0495f5d3a989b7dae8fa81f04d5da6d"
+        }
+      }
+    },
+    {
+      "test": "discover-3-test-9",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-3-test-9-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-G1.mp3",
+          "start": 10.03,
+          "end": 14.01,
+          "text": "An order can swim in the ocean.",
+          "originalAudio": "../discover-exam/audio/91661f7399d3cd042659c6da.mp3",
+          "originalSha256": "91661f7399d3cd042659c6da345a6248ba8d1f2c8a196a771dcedec3c1068fbf"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-G2.mp3",
+          "start": 16.19,
+          "end": 20.79,
+          "text": "The humpback whale is very big.",
+          "originalAudio": "../discover-exam/audio/91661f7399d3cd042659c6da.mp3",
+          "originalSha256": "91661f7399d3cd042659c6da345a6248ba8d1f2c8a196a771dcedec3c1068fbf"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-G3.mp3",
+          "start": 23.19,
+          "end": 26.15,
+          "text": "Kelp is an animal.",
+          "originalAudio": "../discover-exam/audio/91661f7399d3cd042659c6da.mp3",
+          "originalSha256": "91661f7399d3cd042659c6da345a6248ba8d1f2c8a196a771dcedec3c1068fbf"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-3-test-9-G4.mp3",
+          "start": 29.01,
+          "end": 32.79,
+          "text": "The leafy sea dragon is a plant.",
+          "originalAudio": "../discover-exam/audio/91661f7399d3cd042659c6da.mp3",
+          "originalSha256": "91661f7399d3cd042659c6da345a6248ba8d1f2c8a196a771dcedec3c1068fbf"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-1",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-1-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A1.mp3",
+          "start": 9.55,
+          "end": 14.21,
+          "text": "Something that is vast is very small.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A2.mp3",
+          "start": 16.63,
+          "end": 20.79,
+          "text": "A meteorite can fall to earth.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A3.mp3",
+          "start": 22.87,
+          "end": 28.95,
+          "text": "You use a telescope to see things that are close to you.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A4.mp3",
+          "start": 31.23,
+          "end": 35.45,
+          "text": "A spacecraft can travel to other planets.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        },
+        "A5": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A5.mp3",
+          "start": 38.37,
+          "end": 43.41,
+          "text": "Only the earth and the sun are a part of the universe.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        },
+        "A6": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-A6.mp3",
+          "start": 46.35,
+          "end": 49.57,
+          "text": "Asteroids move through the sky.",
+          "originalAudio": "../discover-exam/audio/b8064ec0bb130f785c042fea.mp3",
+          "originalSha256": "b8064ec0bb130f785c042fea795ed8af3ec9c87ad067b7af809bb73546af1219"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-1",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-1-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-G1.mp3",
+          "start": 8.71,
+          "end": 14.43,
+          "text": "This is at the center of some things, like the earth.",
+          "originalAudio": "../discover-exam/audio/41e052ebec914c47cb4a86f4.mp3",
+          "originalSha256": "41e052ebec914c47cb4a86f4ab52611d3556a7d99c79619a0d4587d92a511b18"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-G2.mp3",
+          "start": 16.55,
+          "end": 20.41,
+          "text": "This keeps us on the ground.",
+          "originalAudio": "../discover-exam/audio/41e052ebec914c47cb4a86f4.mp3",
+          "originalSha256": "41e052ebec914c47cb4a86f4ab52611d3556a7d99c79619a0d4587d92a511b18"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-G3.mp3",
+          "start": 22.91,
+          "end": 27.95,
+          "text": "This is very different or one of a kind.",
+          "originalAudio": "../discover-exam/audio/41e052ebec914c47cb4a86f4.mp3",
+          "originalSha256": "41e052ebec914c47cb4a86f4ab52611d3556a7d99c79619a0d4587d92a511b18"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-G4.mp3",
+          "start": 30.79,
+          "end": 35.15,
+          "text": "Things are made up of this.",
+          "originalAudio": "../discover-exam/audio/41e052ebec914c47cb4a86f4.mp3",
+          "originalSha256": "41e052ebec914c47cb4a86f4ab52611d3556a7d99c79619a0d4587d92a511b18"
+        },
+        "G5": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-1-G5.mp3",
+          "start": 36.99,
+          "end": 40.63,
+          "text": "Not near the inside of something.",
+          "originalAudio": "../discover-exam/audio/41e052ebec914c47cb4a86f4.mp3",
+          "originalSha256": "41e052ebec914c47cb4a86f4ab52611d3556a7d99c79619a0d4587d92a511b18"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-2",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-2-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-A1.mp3",
+          "start": 9.65,
+          "end": 14.65,
+          "text": "An archaeologist studies ancient cities.",
+          "originalAudio": "../discover-exam/audio/b84b5ebdac99f70383301ba1.mp3",
+          "originalSha256": "b84b5ebdac99f70383301ba1d8f1700ed213a205758d12d47060d3bbbc77b66e"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-A2.mp3",
+          "start": 16.93,
+          "end": 20.77,
+          "text": "Armor protects the body.",
+          "originalAudio": "../discover-exam/audio/b84b5ebdac99f70383301ba1.mp3",
+          "originalSha256": "b84b5ebdac99f70383301ba1d8f1700ed213a205758d12d47060d3bbbc77b66e"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-A3.mp3",
+          "start": 22.67,
+          "end": 25.99,
+          "text": "A florist draws pictures.",
+          "originalAudio": "../discover-exam/audio/b84b5ebdac99f70383301ba1.mp3",
+          "originalSha256": "b84b5ebdac99f70383301ba1d8f1700ed213a205758d12d47060d3bbbc77b66e"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-A4.mp3",
+          "start": 28.69,
+          "end": 32.99,
+          "text": "An emperor rules over many people.",
+          "originalAudio": "../discover-exam/audio/b84b5ebdac99f70383301ba1.mp3",
+          "originalSha256": "b84b5ebdac99f70383301ba1d8f1700ed213a205758d12d47060d3bbbc77b66e"
+        },
+        "A5": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-A5.mp3",
+          "start": 37.59,
+          "end": 41.17,
+          "text": "Tumes are never under the ground.",
+          "originalAudio": "../discover-exam/audio/b84b5ebdac99f70383301ba1.mp3",
+          "originalSha256": "b84b5ebdac99f70383301ba1d8f1700ed213a205758d12d47060d3bbbc77b66e"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-2",
+      "part": "part-12",
+      "sectionIndex": 11,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-2-part-12-instruction.mp3",
+      "questions": {
+        "L1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-L1.mp3",
+          "start": 14.01,
+          "end": 18.39,
+          "text": "What does he like doing? He likes swimming.",
+          "originalAudio": "../discover-exam/audio/aacf46637c125b98a6717651.mp3",
+          "originalSha256": "aacf46637c125b98a6717651e1fd0ea1dad100b596346a0d3d8c67bfa07879ca"
+        },
+        "L2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-2-L2.mp3",
+          "start": 21.19,
+          "end": 25.69,
+          "text": "Where is she going? She is going to the museum.",
+          "originalAudio": "../discover-exam/audio/aacf46637c125b98a6717651.mp3",
+          "originalSha256": "aacf46637c125b98a6717651e1fd0ea1dad100b596346a0d3d8c67bfa07879ca"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-3",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-3-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-A1.mp3",
+          "start": 8.59,
+          "end": 12.92,
+          "text": "If food spoils, it's okay to eat it.",
+          "originalAudio": "../discover-exam/audio/08f91cb66e58cafa5500fb7d.mp3",
+          "originalSha256": "08f91cb66e58cafa5500fb7d3079cf81d651cbc819ccc03fe76e00063c2fb30f"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-A2.mp3",
+          "start": 15.75,
+          "end": 19.7,
+          "text": "Many cakes and cookies have vanilla in them.",
+          "originalAudio": "../discover-exam/audio/08f91cb66e58cafa5500fb7d.mp3",
+          "originalSha256": "08f91cb66e58cafa5500fb7d3079cf81d651cbc819ccc03fe76e00063c2fb30f"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-A3.mp3",
+          "start": 22.45,
+          "end": 27.39,
+          "text": "When you peel an apple, you take the skin off of it.",
+          "originalAudio": "../discover-exam/audio/08f91cb66e58cafa5500fb7d.mp3",
+          "originalSha256": "08f91cb66e58cafa5500fb7d3079cf81d651cbc819ccc03fe76e00063c2fb30f"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-A4.mp3",
+          "start": 29.75,
+          "end": 33.11,
+          "text": "Cinnamon is a kind of vegetable.",
+          "originalAudio": "../discover-exam/audio/08f91cb66e58cafa5500fb7d.mp3",
+          "originalSha256": "08f91cb66e58cafa5500fb7d3079cf81d651cbc819ccc03fe76e00063c2fb30f"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-3",
+      "part": "part-11",
+      "sectionIndex": 10,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-3-part-11-instruction.mp3",
+      "questions": {
+        "K1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-K1.mp3",
+          "start": 13.69,
+          "end": 18.67,
+          "text": "Would you like an apple? Yes, thank you.",
+          "originalAudio": "../discover-exam/audio/b7210ca2c2931465eb227fac.mp3",
+          "originalSha256": "b7210ca2c2931465eb227face3f8fcbb5d08328d349c620625eaa2a309ce6d2c"
+        },
+        "K2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-3-K2.mp3",
+          "start": 20.55,
+          "end": 25.17,
+          "text": "Would you like to come with me? No, thank you.",
+          "originalAudio": "../discover-exam/audio/b7210ca2c2931465eb227fac.mp3",
+          "originalSha256": "b7210ca2c2931465eb227face3f8fcbb5d08328d349c620625eaa2a309ce6d2c"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-4",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-4-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-A1.mp3",
+          "start": 8.93,
+          "end": 15.35,
+          "text": "You can use this to put color onto a piece of art that you are making.",
+          "originalAudio": "../discover-exam/audio/6a31b550b39f1abedc4698e9.mp3",
+          "originalSha256": "6a31b550b39f1abedc4698e93a291d007f313173eeee33725d1e16d2551f779c"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-A2.mp3",
+          "start": 17.85,
+          "end": 22.61,
+          "text": "This person uses clay to make art.",
+          "originalAudio": "../discover-exam/audio/6a31b550b39f1abedc4698e9.mp3",
+          "originalSha256": "6a31b550b39f1abedc4698e93a291d007f313173eeee33725d1e16d2551f779c"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-A3.mp3",
+          "start": 24.69,
+          "end": 28.87,
+          "text": "This describes a person who doesn't tell the truth.",
+          "originalAudio": "../discover-exam/audio/6a31b550b39f1abedc4698e9.mp3",
+          "originalSha256": "6a31b550b39f1abedc4698e93a291d007f313173eeee33725d1e16d2551f779c"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-A4.mp3",
+          "start": 31.91,
+          "end": 37.19,
+          "text": "This is when you have a very, very big interest in something.",
+          "originalAudio": "../discover-exam/audio/6a31b550b39f1abedc4698e9.mp3",
+          "originalSha256": "6a31b550b39f1abedc4698e93a291d007f313173eeee33725d1e16d2551f779c"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-4",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-4-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-G1.mp3",
+          "start": 9.61,
+          "end": 13.83,
+          "text": "You can see many paintings at an exhibition.",
+          "originalAudio": "../discover-exam/audio/2fecdd397da2d1d076fa13ef.mp3",
+          "originalSha256": "2fecdd397da2d1d076fa13efdd211d28d293c7216eb9c32c77993f154b922152"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-G2.mp3",
+          "start": 16.57,
+          "end": 20.57,
+          "text": "A landscape is a painting of a person.",
+          "originalAudio": "../discover-exam/audio/2fecdd397da2d1d076fa13ef.mp3",
+          "originalSha256": "2fecdd397da2d1d076fa13efdd211d28d293c7216eb9c32c77993f154b922152"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-G3.mp3",
+          "start": 23.27,
+          "end": 27.29,
+          "text": "If something is stained, it is clean.",
+          "originalAudio": "../discover-exam/audio/2fecdd397da2d1d076fa13ef.mp3",
+          "originalSha256": "2fecdd397da2d1d076fa13efdd211d28d293c7216eb9c32c77993f154b922152"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-4-G4.mp3",
+          "start": 30.09,
+          "end": 33.53,
+          "text": "Frames can be many different sizes.",
+          "originalAudio": "../discover-exam/audio/2fecdd397da2d1d076fa13ef.mp3",
+          "originalSha256": "2fecdd397da2d1d076fa13efdd211d28d293c7216eb9c32c77993f154b922152"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-5",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-5-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-A1.mp3",
+          "start": 8.85,
+          "end": 12.25,
+          "text": "You can't eat this.",
+          "originalAudio": "../discover-exam/audio/ce31afeb204f8a4fa8ae6aa2.mp3",
+          "originalSha256": "ce31afeb204f8a4fa8ae6aa208d89e1ddb11bd11dabc1fc03355a4d07ac00269"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-A2.mp3",
+          "start": 14.01,
+          "end": 17.15,
+          "text": "This must be on water.",
+          "originalAudio": "../discover-exam/audio/ce31afeb204f8a4fa8ae6aa2.mp3",
+          "originalSha256": "ce31afeb204f8a4fa8ae6aa208d89e1ddb11bd11dabc1fc03355a4d07ac00269"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-A3.mp3",
+          "start": 19.69,
+          "end": 23.11,
+          "text": "These are always old.",
+          "originalAudio": "../discover-exam/audio/ce31afeb204f8a4fa8ae6aa2.mp3",
+          "originalSha256": "ce31afeb204f8a4fa8ae6aa208d89e1ddb11bd11dabc1fc03355a4d07ac00269"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-A4.mp3",
+          "start": 25.29,
+          "end": 28.23,
+          "text": "You can ride in this.",
+          "originalAudio": "../discover-exam/audio/ce31afeb204f8a4fa8ae6aa2.mp3",
+          "originalSha256": "ce31afeb204f8a4fa8ae6aa208d89e1ddb11bd11dabc1fc03355a4d07ac00269"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-5",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-5-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-G1.mp3",
+          "start": 10.13,
+          "end": 14.47,
+          "text": "The mayor is the leader of a country.",
+          "originalAudio": "../discover-exam/audio/7d89d626314ecf091fbfb7d2.mp3",
+          "originalSha256": "7d89d626314ecf091fbfb7d2188c7f38173a73db8f2888a8fe1aa7330e760bee"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-G2.mp3",
+          "start": 16.89,
+          "end": 22.17,
+          "text": "A mayor's assistant does things like make phone calls.",
+          "originalAudio": "../discover-exam/audio/7d89d626314ecf091fbfb7d2.mp3",
+          "originalSha256": "7d89d626314ecf091fbfb7d2188c7f38173a73db8f2888a8fe1aa7330e760bee"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-G3.mp3",
+          "start": 24.89,
+          "end": 31.11,
+          "text": "City Hall is one of the places where decisions for a city are paid.",
+          "originalAudio": "../discover-exam/audio/7d89d626314ecf091fbfb7d2.mp3",
+          "originalSha256": "7d89d626314ecf091fbfb7d2188c7f38173a73db8f2888a8fe1aa7330e760bee"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-5-G4.mp3",
+          "start": 34.67,
+          "end": 38.11,
+          "text": "Volunteers get paid for their work.",
+          "originalAudio": "../discover-exam/audio/7d89d626314ecf091fbfb7d2.mp3",
+          "originalSha256": "7d89d626314ecf091fbfb7d2188c7f38173a73db8f2888a8fe1aa7330e760bee"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-6",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-6-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-A1.mp3",
+          "start": 9.03,
+          "end": 12.77,
+          "text": "You do this when you breathe in.",
+          "originalAudio": "../discover-exam/audio/0a31479b8ef8b969f9ad7ec7.mp3",
+          "originalSha256": "0a31479b8ef8b969f9ad7ec7221e1e65fe422d05cc34d8faf816b039b7e43e49"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-A2.mp3",
+          "start": 14.91,
+          "end": 18.13,
+          "text": "This can make you sick.",
+          "originalAudio": "../discover-exam/audio/0a31479b8ef8b969f9ad7ec7.mp3",
+          "originalSha256": "0a31479b8ef8b969f9ad7ec7221e1e65fe422d05cc34d8faf816b039b7e43e49"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-A3.mp3",
+          "start": 20.61,
+          "end": 25.09,
+          "text": "This happens when something becomes smaller.",
+          "originalAudio": "../discover-exam/audio/0a31479b8ef8b969f9ad7ec7.mp3",
+          "originalSha256": "0a31479b8ef8b969f9ad7ec7221e1e65fe422d05cc34d8faf816b039b7e43e49"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-A4.mp3",
+          "start": 27.77,
+          "end": 30.83,
+          "text": "This is a kind of sickness.",
+          "originalAudio": "../discover-exam/audio/0a31479b8ef8b969f9ad7ec7.mp3",
+          "originalSha256": "0a31479b8ef8b969f9ad7ec7221e1e65fe422d05cc34d8faf816b039b7e43e49"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-6",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-6-part-7-instruction.mp3",
+      "questions": {
+        "H1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-H1.mp3",
+          "start": 10.15,
+          "end": 15.93,
+          "text": "Concentrate is a verb. Concentration is a noun.",
+          "originalAudio": "../discover-exam/audio/8f21338205b71f89f3132604.mp3",
+          "originalSha256": "8f21338205b71f89f31326048cb319b17e5d2662b038a97e497fc1aa1b1d0b01"
+        },
+        "H2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-H2.mp3",
+          "start": 18.57,
+          "end": 24.27,
+          "text": "You can feel your pulse if you put your fingers on your lips.",
+          "originalAudio": "../discover-exam/audio/8f21338205b71f89f3132604.mp3",
+          "originalSha256": "8f21338205b71f89f31326048cb319b17e5d2662b038a97e497fc1aa1b1d0b01"
+        },
+        "H3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-H3.mp3",
+          "start": 27.13,
+          "end": 30.67,
+          "text": "Capillaries are very tiny.",
+          "originalAudio": "../discover-exam/audio/8f21338205b71f89f3132604.mp3",
+          "originalSha256": "8f21338205b71f89f31326048cb319b17e5d2662b038a97e497fc1aa1b1d0b01"
+        },
+        "H4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-6-H4.mp3",
+          "start": 33.27,
+          "end": 37.85,
+          "text": "When you cut yourself, you sometimes see blood.",
+          "originalAudio": "../discover-exam/audio/8f21338205b71f89f3132604.mp3",
+          "originalSha256": "8f21338205b71f89f31326048cb319b17e5d2662b038a97e497fc1aa1b1d0b01"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-7",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-7-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-A1.mp3",
+          "start": 9.11,
+          "end": 15.11,
+          "text": "You can look for information about anything on this.",
+          "originalAudio": "../discover-exam/audio/73c1012027af241363be5b13.mp3",
+          "originalSha256": "73c1012027af241363be5b13c58cba3ec125a1565cda84c08cd918688cf35e94"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-A2.mp3",
+          "start": 16.69,
+          "end": 21.35,
+          "text": "This is a company that makes books.",
+          "originalAudio": "../discover-exam/audio/73c1012027af241363be5b13.mp3",
+          "originalSha256": "73c1012027af241363be5b13c58cba3ec125a1565cda84c08cd918688cf35e94"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-A3.mp3",
+          "start": 23.61,
+          "end": 33.15,
+          "text": "This includes all the ways to communicate. This brings news and knowledge to a lot of people.",
+          "originalAudio": "../discover-exam/audio/73c1012027af241363be5b13.mp3",
+          "originalSha256": "73c1012027af241363be5b13c58cba3ec125a1565cda84c08cd918688cf35e94"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-A4.mp3",
+          "start": 34.93,
+          "end": 40.97,
+          "text": "You can connect quickly and easily with your friends using this.",
+          "originalAudio": "../discover-exam/audio/73c1012027af241363be5b13.mp3",
+          "originalSha256": "73c1012027af241363be5b13c58cba3ec125a1565cda84c08cd918688cf35e94"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-7",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-7-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-G1.mp3",
+          "start": 10.17,
+          "end": 15.13,
+          "text": "A headline tells you everything about an article.",
+          "originalAudio": "../discover-exam/audio/25db04534ad967b354190383.mp3",
+          "originalSha256": "25db04534ad967b3541903838aca6cd2e7a5ffe087f9fc647035d02b3fe2f4fb"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-G2.mp3",
+          "start": 17.65,
+          "end": 23.11,
+          "text": "Huge and immense, both mean very big.",
+          "originalAudio": "../discover-exam/audio/25db04534ad967b354190383.mp3",
+          "originalSha256": "25db04534ad967b3541903838aca6cd2e7a5ffe087f9fc647035d02b3fe2f4fb"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-G3.mp3",
+          "start": 25.59,
+          "end": 29.47,
+          "text": "A hero is a very brave person.",
+          "originalAudio": "../discover-exam/audio/25db04534ad967b354190383.mp3",
+          "originalSha256": "25db04534ad967b3541903838aca6cd2e7a5ffe087f9fc647035d02b3fe2f4fb"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-7-G4.mp3",
+          "start": 32.31,
+          "end": 37.93,
+          "text": "When you discuss something, you just listen to one person talking.",
+          "originalAudio": "../discover-exam/audio/25db04534ad967b354190383.mp3",
+          "originalSha256": "25db04534ad967b3541903838aca6cd2e7a5ffe087f9fc647035d02b3fe2f4fb"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-8",
+      "part": "part-6",
+      "sectionIndex": 5,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-8-part-6-instruction.mp3",
+      "questions": {
+        "F1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-F1.mp3",
+          "start": 14.29,
+          "end": 18.85,
+          "text": "Have you ever seen a tornado? No, I haven't.",
+          "originalAudio": "../discover-exam/audio/36c241aa61f37d674d443033.mp3",
+          "originalSha256": "36c241aa61f37d674d443033870fb73767c12baaf8b977239067409ff0daefcc"
+        },
+        "F2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-F2.mp3",
+          "start": 21.61,
+          "end": 26.17,
+          "text": "Have you ever worked in an office? Yes, I have.",
+          "originalAudio": "../discover-exam/audio/36c241aa61f37d674d443033.mp3",
+          "originalSha256": "36c241aa61f37d674d443033870fb73767c12baaf8b977239067409ff0daefcc"
+        },
+        "F3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-F3.mp3",
+          "start": 28.7,
+          "end": 34.41,
+          "text": "Have you ever stayed home because of snow? No, I haven't.",
+          "originalAudio": "../discover-exam/audio/36c241aa61f37d674d443033.mp3",
+          "originalSha256": "36c241aa61f37d674d443033870fb73767c12baaf8b977239067409ff0daefcc"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-8",
+      "part": "part-7",
+      "sectionIndex": 6,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-8-part-7-instruction.mp3",
+      "questions": {
+        "G1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-G1.mp3",
+          "start": 9.67,
+          "end": 12.65,
+          "text": "This can keep you warm at night.",
+          "originalAudio": "../discover-exam/audio/faa2b5f6259c4dd1da7c8cd7.mp3",
+          "originalSha256": "faa2b5f6259c4dd1da7c8cd7a94a9457e15d920c308027947f81bc303ec78ee5"
+        },
+        "G2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-G2.mp3",
+          "start": 15.21,
+          "end": 20.01,
+          "text": "You can hide in this during a bad storm.",
+          "originalAudio": "../discover-exam/audio/faa2b5f6259c4dd1da7c8cd7.mp3",
+          "originalSha256": "faa2b5f6259c4dd1da7c8cd7a94a9457e15d920c308027947f81bc303ec78ee5"
+        },
+        "G3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-G3.mp3",
+          "start": 22.59,
+          "end": 28.53,
+          "text": "Small appliances, like radios, need these to work.",
+          "originalAudio": "../discover-exam/audio/faa2b5f6259c4dd1da7c8cd7.mp3",
+          "originalSha256": "faa2b5f6259c4dd1da7c8cd7a94a9457e15d920c308027947f81bc303ec78ee5"
+        },
+        "G4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-8-G4.mp3",
+          "start": 31.13,
+          "end": 35.73,
+          "text": "You can use this when you fall and cut your knee.",
+          "originalAudio": "../discover-exam/audio/faa2b5f6259c4dd1da7c8cd7.mp3",
+          "originalSha256": "faa2b5f6259c4dd1da7c8cd7a94a9457e15d920c308027947f81bc303ec78ee5"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-9",
+      "part": "part-1",
+      "sectionIndex": 0,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-9-part-1-instruction.mp3",
+      "questions": {
+        "A1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A1.mp3",
+          "start": 9.33,
+          "end": 15.09,
+          "text": "There are only a few kinds of plants and animals in a biome.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        },
+        "A2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A2.mp3",
+          "start": 17.77,
+          "end": 22.81,
+          "text": "Small animals can easily hide in grasslands.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        },
+        "A3": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A3.mp3",
+          "start": 25.23,
+          "end": 29.59,
+          "text": "There is no snow in the taiga.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        },
+        "A4": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A4.mp3",
+          "start": 31.89,
+          "end": 36.73,
+          "text": "A river is a freshwater body of water.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        },
+        "A5": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A5.mp3",
+          "start": 39.01,
+          "end": 43.82,
+          "text": "A tropical rainforest has many green trees.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        },
+        "A6": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-A6.mp3",
+          "start": 46.54,
+          "end": 51.06,
+          "text": "You should wear shorts and a t-shirt in the tundra.",
+          "originalAudio": "../discover-exam/audio/777595d7edae432dc6c40b05.mp3",
+          "originalSha256": "777595d7edae432dc6c40b05dc1754f9b92faea628f95941e5c734d655cf0e64"
+        }
+      }
+    },
+    {
+      "test": "discover-4-test-9",
+      "part": "part-12",
+      "sectionIndex": 11,
+      "instruction": "../discover-exam/audio/questions-v1/discover-4-test-9-part-12-instruction.mp3",
+      "questions": {
+        "L1": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-L1.mp3",
+          "start": 14.19,
+          "end": 19.61,
+          "text": "Have they studied sea horses? Yes, they have.",
+          "originalAudio": "../discover-exam/audio/c0117cc935d7ca9d63dc7b56.mp3",
+          "originalSha256": "c0117cc935d7ca9d63dc7b5685dc57efed6f34a4a389e20ef34074d3d36d1417"
+        },
+        "L2": {
+          "src": "../discover-exam/audio/questions-v1/discover-4-test-9-L2.mp3",
+          "start": 22.03,
+          "end": 26.79,
+          "text": "Has he ever seen a manta ray? No, he hasn't.",
+          "originalAudio": "../discover-exam/audio/c0117cc935d7ca9d63dc7b56.mp3",
+          "originalSha256": "c0117cc935d7ca9d63dc7b5685dc57efed6f34a4a389e20ef34074d3d36d1417"
+        }
+      }
+    }
+  ]
+}

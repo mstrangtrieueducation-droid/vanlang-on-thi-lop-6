@@ -30,3 +30,7 @@ html[data-mode=night] #adventure.flow-live .play .play-layout.listening-layout>.
 #adventure.flow-live .play .play-layout.listening-layout .listening-question-map{max-height:66px;margin-bottom:8px;padding:6px 10px}
 #adventure.flow-live .play .play-layout.listening-layout .question-panel{padding:10px 14px!important}
 @media(max-height:500px){#adventure.flow-live .play .play-layout.listening-layout .listening-question-map{max-height:50px}#adventure.flow-live .play .play-layout.listening-layout .answer-footer{padding:6px!important}}
+
+.audio-only-story .listening-art{height:auto;min-height:0;display:block}.story-scene-illustration{display:block;width:100%;height:auto;max-height:48dvh;object-fit:contain;border-radius:18px}.audio-only-story .shared-passage{display:none}
+
+.dictation-gap.listening-sentence input{outline:2px solid #42aacf;outline-offset:2px}[data-listening-sentence]{min-height:1.4em;font-weight:700}

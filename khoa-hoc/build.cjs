@@ -8,6 +8,7 @@ for(const c of Object.values(courses)){
  fs.writeFileSync(path.join(output,c.id+'.index.json'),JSON.stringify({...c,lessons:c.lessons.map(({items,...l})=>({...l,questionCount:items.length}))}));
 }
 console.log(`${Object.keys(courses).length} courses; ${Object.values(courses).reduce((n,c)=>n+c.lessons.length,0)} lessons; ${Object.values(courses).reduce((n,c)=>n+c.lessons.reduce((n,l)=>n+l.items.length,0),0)} questions.`);
+require('../van-lang/import-tests.cjs');
 require('../vu-tru/build-catalog.cjs');
 require('./build-grammar.cjs').write();
 

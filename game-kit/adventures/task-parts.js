@@ -23,7 +23,7 @@
   route:['Follow the Route','Follow the directions.'],
   spot:['Find & Fix','Find and fix the mistake.']
  };
- const taskQuestion=p=>/^(?:Which answer matches the clue\?|Which group does this belong to\?|Which word(?: or phrase)? (?:completes the sentence|fits)\?|Which list contains exactly the requested items\?|Which preposition goes before this time expression\?|Which order matches the story\?|Which word (?:has stress on the second syllable|ends with (?:the sound )?\/s\/)\?|Which instruction has the opposite meaning\?)$/i.test(String(p||'').trim());
+ const taskQuestion=p=>/^(?:Which answer matches the clue\?|Which group does this belong to\?|Which word(?: or phrase)? (?:completes the sentence|fits)\?|Which word (?:matches the picture|belongs to this (?:letter|spelling) group|has the same (?:first|last) sound)\?|Which list contains exactly the requested items\?|Which preposition goes before this time expression\?|Which order matches the story\?|Which word (?:has stress on the second syllable|ends with (?:the sound )?\/s\/)\?|Which instruction has the opposite meaning\?)$/i.test(String(p||'').trim());
  const generic=p=>taskQuestion(p)||/^(?:listen\b|read\b|look\b|choose\b|select\b|tap\b|click\b|match\b|put\b|build\b|sort\b|write\b|fill\b|complete\b|follow\b|find\b|count\b|which (?:letter|letters|sound|word) (?:is missing|completes?))/i.test(String(p||'').trim());
  function describe(q){
   let type='readChoose';
@@ -53,14 +53,28 @@
  function sections(items){
   const out=[];for(const [index,q] of items.entries()){
    const d=describe(q),last=out.at(-1);
-   if(last?.key===d.key&&last.block===d.block&&(last.level===(q.cognitiveLevel||q.difficulty||'')||/^(family-friends-|discover-)/.test(q.id||'')))last.indices.push(index);
+   if(last?.key===d.key&&last.block===d.block)last.indices.push(index);
    else out.push({...d,level:q.cognitiveLevel||q.difficulty||'',id:d.key+':'+q.id,number:out.length+1,indices:[index]});
   }return out;
  }
  function at(items,pos){const all=sections(items),part=all.find(p=>p.indices.includes(pos));return {...part,total:all.length,question:part.indices.indexOf(pos)+1,count:part.indices.length};}
  function questionPrompt(q){return generic(q.prompt)?'':String(q.prompt||'');}
+ const phonics=id=>/^phonics-[1-4]$/.test(id||'');
+ const listening=q=>q.skill==='listening'||!!q.sourceAudio||q.interaction==='dictation';
+ const stream=(q,id)=>!q.dictation&&(phonics(id)||/^(family-friends-[12]|discover-[1-4])$/.test(id||'')&&listening(q));
+ function automatic(q,id){
+  if(q.dictation)return !!q.questionAudio;
+  if(id==='van-lang'){
+   const d=describe(q),gap=/_{2,}|\.{2,}|…/.test(q.scene||'')||/Gap|Write/.test(d.type)||/fill|cloze|điền/i.test(q.sourceSection||q.section||'');
+   const passage=q.storyText||q.readingPassage||q.passage||q.scene||'';
+   return !gap&&String(passage).split(/\s+/).length<55;
+  }
+  return stream(q,id);
+ }
+ const hiddenStory=(q,id)=>phonics(id)&&!!q.storyId;
  function speech(q,options={}){
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.
+  if(hiddenStory(q,options.course))return [q.storySentence||q.spokenScene].filter(Boolean);
   const scene=String(q.spokenScene??q.scene??'').trim(),prompt=String(q.spokenPrompt??q.prompt??'').trim();
   const out=[];
   // An imperative can be the actual clue ("Read books", "Look! The bus is
@@ -71,5 +85,6 @@
   if(prompt&&!generic(prompt)&&!out.includes(prompt))out.push(prompt);
   return out;
  }
- return {tasks,describe,group,sections,at,generic,questionPrompt,speech};
+ const markup=s=>String(s||'').replace(/<[^>]*>/g,t=>/^<\/?(?:u|b|strong|em|i|br|p)\s*\/?>$/i.test(t)?t:'');
+ return {tasks,describe,group,sections,at,generic,questionPrompt,speech,stream,automatic,hiddenStory,markup};
 });

@@ -1,6 +1,6 @@
 /* Bounded decoded-image cache; never preload the whole course. */
 (()=>{'use strict';const cache=new Map(),limit=32*1024*1024;let bytes=0;
-const url=s=>window.TitiImageVariants?.url(s)||s;
+const url=s=>window.GameMedia?.url(s)||window.TitiImageVariants?.url(s)||s;
 const source=p=>p&&url(window.ClayArtwork?.source(p)||window.TitiImageSources?.[[p.atlas,p.columns,p.rows,p.cell].join('|')]);
 function load(src){src=url(src);if(!src)return Promise.reject(Error('Missing image'));
  const previous=cache.get(src);if(previous){cache.delete(src);cache.set(src,previous);return previous.promise;}
@@ -9,7 +9,7 @@ function load(src){src=url(src);if(!src)return Promise.reject(Error('Missing ima
   while(cache.size>24||bytes>limit){const key=cache.keys().next().value;if(!key)break;const old=cache.get(key);cache.delete(key);bytes-=old.bytes;}
   resolve(image);};image.onerror=()=>{if(cache.get(src)===entry)cache.delete(src);reject(Error('Image unavailable: '+src));};image.src=src;});cache.set(src,entry);return entry.promise;
 }
-async function warm(q){if(!q)return;const pictures=[q.background?{src:q.background}:null,q.picturePrompt,...Object.values(q.pictureOptions||{}),...(q.matchPictures||[]).map(p=>p.picture||p)];for(const p of pictures){if(!p)continue;const src=source(p)||p.src||p.atlas||(p.sheet!==undefined?'../game-kit/adventures/pictures/phonics-sheet-'+p.sheet+'-v1.png':'');if(src)try{await load(src);}catch{}}}
+async function warm(q){if(!q)return;const pictures=[q.storyIllustration?{src:q.storyIllustration}:null,q.background?{src:q.background}:null,q.picturePrompt,...Object.values(q.pictureOptions||{}),...(q.matchPictures||[]).map(p=>p.picture||p)];for(const p of pictures){if(!p)continue;const src=source(p)||p.src||p.atlas||(p.sheet!==undefined?'../game-kit/adventures/pictures/phonics-sheet-'+p.sheet+'-v1.png':'');if(src)try{await load(src);}catch{}}}
 const windows=new WeakMap();let scheduled=0,observer;
 function near(items,index){const end=Math.min(items.length,index%2===0?index+3:index+2);windows.set(items,{start:index,end});warm(items[index]);if(navigator.connection?.saveData)return;
  const ticket=++scheduled,work=()=>{if(ticket!==scheduled)return;for(let i=index+1;i<end;i++)warm(items[i]);};(window.requestIdleCallback||((f)=>setTimeout(f,80)))(work,{timeout:600});}

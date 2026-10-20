@@ -1,14 +1,13 @@
 /* One fixed 2D storybook panorama per Unit; narrated prompts and direct visible hotspots. */
 (()=>{'use strict';
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const packs=new Map();
+ async function json(url){let error;for(const cache of ['default','reload']){try{const r=await fetch(url,{cache,signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(r.status+' '+url);return await r.json();}catch(e){error=e;}}throw error;}
+ function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=listening-3`),json('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
  async function open(){
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
-  const [pack,voices]=await Promise.all([
-   fetch(`../khoa-hoc/hunt-worlds/${c.courseId}/unit-${g.unit}.json?v=storybook-1`).then(r=>{if(!r.ok)throw Error('Panorama unavailable');return r.json();}),
-   fetch('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5').then(r=>{if(!r.ok)throw Error('Hunt audio unavailable');return r.json();})
-  ]);
-  if(pack.version!==5||pack.course!==c.courseId||pack.unit!==g.unit||pack.questions.length!==20)throw Error('Invalid panorama pack');
+  host.className='unit-review-menu hunt-loading';host.setAttribute('aria-busy','true');host.innerHTML='<header><h1>Cùng Titi mở bức tranh!</h1><p>Đang chuẩn bị khu vườn bí mật…</p></header><a href="'+esc(back.href)+'">← Unit Review</a>';const {pack,voices}=await preload(c.courseId,g.unit);host.removeAttribute('aria-busy');
   const sprites=null;let paintedBackground=null;
   const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v4',fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
   let state;try{state=JSON.parse(storage.getItem(key));}catch{}
@@ -97,5 +96,5 @@
   const clock=setInterval(()=>{if(!host.isConnected||!host.classList.contains('panorama-hunt')){clearInterval(clock);window.removeEventListener('resize',onResize);document.removeEventListener('visibilitychange',onVisibility);window.removeEventListener('pagehide',onHide);stopVoice();audioContext?.close();return;}settle();host.querySelectorAll('.rocket-timer').forEach(el=>RocketTimer.update(el,Math.min(99,state.elapsedMs/6000)));},250);
   return false;
  }
- window.HiddenListening={open};
+ window.HiddenListening={open,preload};
 })();

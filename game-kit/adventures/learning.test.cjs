@@ -2,7 +2,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const coach=require('./learning.js'),courses=require('../../khoa-hoc/content.cjs'),legacy=require('../../vu-tru/legacy-lessons.json');
 const all=[...Object.values(courses).flatMap(c=>c.lessons),...legacy.lessons];
 test('All lessons retain every question and exact values; grouped rounds resume exactly',()=>{
- assert.equal(all.length,719);
+ assert.equal(all.length,724);
  for(const l of all){const before=JSON.stringify(l.items);const planned=coach.plan(l.items),standard=coach.plan(l.items,{standard:true});
   assert.deepEqual(standard,planned);assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
   assert.deepEqual([...planned].map(q=>q.id).sort(),l.items.map(q=>q.id).sort());assert.ok(planned.every(q=>l.items.includes(q)));assert.equal(JSON.stringify(l.items),before);
