@@ -12,6 +12,7 @@ test('Reading parser never invents alternating speakers or misreads a heading',(
  assert.deepEqual(view.parse('Words: apple, ant, ax.'),[]);
  assert.deepEqual(view.parse('What is this? It is a pen.'),[]);
  assert.deepEqual(view.parse('Tim: What is this?\nRosy: It is a pen.'),[{speaker:'Tim',text:'What is this?'},{speaker:'Rosy',text:'It is a pen.'}]);
+ assert.deepEqual(view.parse('After class, Tim meets Rosy. Tim: Hello!\nRosy: Hi!').map(t=>t.speaker),['Narrator','Tim','Rosy']);
  assert.equal(view.parse('First speaker: I like apples. Second speaker: I like pears.').length,2);
 });
 test('Every explicit dialogue renders safe visible speaker names with or without avatars',()=>{

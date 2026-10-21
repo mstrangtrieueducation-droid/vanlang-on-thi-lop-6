@@ -11,6 +11,7 @@
  async function play(instructionOnly=false){if(!active())return;api.beforePlay();stop();const epoch=ticket,q=current(),id=api.state.part+':'+q.id;api.state.heardListeningParts||={};api.state.questionPlays||={};
   if(instructionOnly||!api.state.heardListeningParts[api.state.part]){const ok=await clip(part.instruction,epoch,()=>{api.state.heardListeningParts[api.state.part]=true;api.save();});if(!ok||epoch!==ticket||instructionOnly)return;}
   if(part.original&&(api.state.questionPlays[id]||0)>=api.maxPlays){note('Con đã nghe đủ số lượt của câu này. Có thể tiếp tục làm bài.');return;}
+  const number=api.section.questions.indexOf(q)+1,numberClips=window.QuestionNumbers?.clips(number)||[];if(numberClips.length&&!await clip(numberClips,epoch))return;if(epoch!==ticket)return;
   const src=part.questions[q.id]?.src;if(!src){note('Đoạn nghe của câu này chưa tải được. Con thử lại nhé.');return;}
   const control=api.host.querySelector('[data-audio]');if(control)control.textContent='Ⅱ Listening';await clip(src,epoch,()=>{api.state.questionPlays[id]=(api.state.questionPlays[id]||0)+1;api.save();const count=api.host.querySelector('[data-plays]');if(count)count.textContent=api.state.questionPlays[id];});
   if(epoch===ticket){const b=api.host.querySelector('[data-audio]');if(b)b.textContent='▶ Listen again';}

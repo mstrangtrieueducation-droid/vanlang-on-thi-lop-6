@@ -1,9 +1,9 @@
-const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const root=path.resolve(__dirname,'../..'),D=require('../adventures/dialogue.js'),{cast}=require('./dialogue-cast.cjs');
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),vm=require('node:vm');
+const root=path.resolve(__dirname,'../..'),D=require('../adventures/dialogue.js'),{cast,castTurns}=require('./dialogue-cast.cjs');
 const out=path.join(root,'game-kit/adventures/dialogue-audio');fs.mkdirSync(out,{recursive:true});
 const clips=new Map(),courses={},roles={};
-function sequence(lines){const result=[];lines.forEach((t,turn)=>{
- const speaker=t.speaker||t.role||'Narrator',p=cast(speaker);roles[speaker]=p;
+function sequence(lines){const result=[],performers=castTurns(lines);lines.forEach((t,turn)=>{
+ const speaker=t.speaker||t.role||'Narrator',p=performers.get(speaker)||cast(speaker);roles[speaker]=p;
  // Blanks are nonverbal cues. Never pronounce underscore or reveal the answer.
  const pieces=String(t.text).split(/(_{2,}|\.{2,}|…)/).filter(Boolean);
  for(const text of pieces){if(/^(_{2,}|\.{2,}|…)$/.test(text)){result.push({src:'../game-kit/adventures/audio/gap-cue.wav',turn,speaker});continue;}
@@ -11,15 +11,15 @@ function sequence(lines){const result=[];lines.forEach((t,turn)=>{
  clips.set(id,{id,text:clean,...p});result.push({src:'../game-kit/adventures/dialogue-audio/'+id+'.mp3',turn,speaker});
  }
  });return result;}
-for(const id of ['family-friends-1','family-friends-2','discover-1','discover-2','discover-3','discover-4']){
- const data=JSON.parse(fs.readFileSync(path.join(root,'khoa-hoc/data',id+'.json'),'utf8')),entries={};
+for(const id of ['family-friends-1','family-friends-2','discover-1','discover-2','discover-3','discover-4','van-lang']){
+ const data=id==='van-lang'?{lessons:Array.from({length:20},(_,i)=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'tu-luyen-'+(i+1),'quiz-data.js'),'utf8'),c);return c.window.ADVENTURE;})}:JSON.parse(fs.readFileSync(path.join(root,'khoa-hoc/data',id+'.json'),'utf8')),entries={};
  const add=(text,lines)=>{if(text?.trim()&&lines?.length)entries[text.trim()]=sequence(lines);};
  for(const lesson of data.lessons)for(const q of lesson.items||[]){
   if(q.sourceAudio)continue;
   const lines=D.turns(q),story=q.storyDialogue||D.parse(q.storySpeech)||[];
   const full=story.length?story:q.scene===q.storyText?lines:[];
   add(q.storySpeech,full);add(q.storyText,full);add(q.scene,lines);add(D.transcript(lines),lines);
-  if(q.spokenScene){const who=lines.find(t=>q.spokenScene.startsWith(t.speaker+': '));if(who)add(q.spokenScene,[{speaker:who.speaker,text:q.spokenScene.slice(who.speaker.length+2)}]);}
+  if(q.spokenScene&&!entries[q.spokenScene.trim()]){const who=lines.find(t=>q.spokenScene.startsWith(t.speaker+': '));if(who)add(q.spokenScene,[{speaker:who.speaker,text:q.spokenScene.slice(who.speaker.length+2)}]);}
  }
  courses[id]=Object.keys(entries).length;fs.writeFileSync(path.join(out,id+'.json'),JSON.stringify({version:1,entries}));
 }

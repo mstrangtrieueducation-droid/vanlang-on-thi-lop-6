@@ -1,7 +1,8 @@
 const fs=require('fs'),path=require('path'),{themes,anchors}=require('./storybook-scene.cjs');
 const base=path.resolve(__dirname,'..'),media=process.env.TITI_MEDIA_REPO;if(!media)throw Error('Set TITI_MEDIA_REPO');
 const art=require('./storybook-art.json'),profiles=require('../game-kit/adventures/panoramas/profiles.json'),backgrounds=require('./storybook-backgrounds.json');
-const out=path.join(media,'assets/storybook-v1/scenes');fs.mkdirSync(out,{recursive:true});
+const {materialMask,paintedUse}=require('./storybook-materials.cjs');
+const out=path.join(base,'game-kit/adventures/storybook-v1/scenes');fs.mkdirSync(out,{recursive:true});
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hues={red:0,blue:210,green:120,black:0,yellow:55,purple:280,orange:30};
 const manifest=[];
@@ -12,8 +13,8 @@ for(const [index,p]of profiles.entries()){
  let defs='',draw='';const used=new Set();for(const o of objects){
   const x=o.x*16,y=o.y*9,w=o.w*16,h=o.h*9;
   if(o.kind==='letter')draw+=`<g transform="translate(${x} ${y}) rotate(${(o.id.length+index)%9-4})"><text text-anchor="middle" dominant-baseline="central" font-family="Verdana,Arial,sans-serif" font-weight="bold" font-size="${h}" fill="${['#edb85e','#e79b83','#fff2b5'][index%3]}" stroke="#345b52" stroke-width="2.5">${esc(o.word)}</text></g>`;
-  else{const noun=p.displayNames?.[o.word]||o.word,sprite=art[noun]||art[o.word];if(!sprite)throw Error('No 2D object '+o.word);const symbol=o.word.replace(/[^a-z0-9]/gi,'-');if(!used.has(symbol)){used.add(symbol);const bytes=fs.readFileSync(path.join(media,sprite.src.replace('/titi-game-media/','')));defs+=`<image id="${symbol}" width="320" height="320" href="data:image/webp;base64,${bytes.toString('base64')}"/>`;}
-   const color=o.id.startsWith('first-')?o.color:null,filter=color?` filter="url(#paint-${color})"`:'';draw+=`<g transform="translate(${x-w/2} ${y-h/2}) scale(${w/320} ${h/320})"${filter}><use href="#${symbol}"/></g>`;
+  else{const noun=p.displayNames?.[o.word]||o.word,sprite=art[noun]||art[o.word];if(!sprite)throw Error('No 2D object '+o.word);const symbol=o.word.replace(/[^a-z0-9]/gi,'-');if(!used.has(symbol)){used.add(symbol);const bytes=fs.readFileSync(path.join(media,sprite.src.replace('/titi-game-media/','')));defs+=materialMask(symbol,noun)+`<image id="${symbol}" width="320" height="320" href="data:image/webp;base64,${bytes.toString('base64')}"/>`;}
+   const color=o.id.startsWith('first-')?o.color:null;draw+=`<g transform="translate(${x-w/2} ${y-h/2}) scale(${w/320} ${h/320})">${color?paintedUse(symbol,color):`<use href="#${symbol}"/>`}</g>`;
   }
   // Restore the actual scenery in front of the lower portion of each target.
   // The covering leaves, shelf texture or rocks are part of this same picture,

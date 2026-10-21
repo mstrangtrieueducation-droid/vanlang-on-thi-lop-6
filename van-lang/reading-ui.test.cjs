@@ -3,8 +3,8 @@ const root=path.resolve(__dirname,'..'),T=require('../game-kit/adventures/task-p
 test('Văn Lang never narrates option fallback text; a reading question is separate from its passage',()=>{
  assert.deepEqual(T.speech({scene:'',spokenScene:'red, blue, green, white.',options:['red','blue','green','white'],prompt:''},{course:'van-lang'}),[]);
  const q={scene:'Why did the boys enter the cave?',spokenScene:'wrong cached option fallback',storyText:Array(100).fill('passage').join(' '),partType:'readChoose',options:['To swim','To play','To sleep','To eat']};
- assert.deepEqual(T.speech(q,{course:'van-lang'}),[q.scene]);assert.equal(T.automatic(q,'van-lang'),false);assert.equal(T.instructionOnly(q,'van-lang'),true);
- for(const item of [{scene:'Blank (24)',partType:'readGap'},{scene:'She ___ at home.'},{scene:q.storyText}])assert.equal(T.automatic(item,'van-lang'),false);
+ assert.deepEqual(T.speech(q,{course:'van-lang'}),[q.scene]);assert.equal(T.automatic(q,'van-lang'),true);assert.equal(T.instructionOnly(q,'van-lang'),false);
+ for(const item of [{scene:'Blank (24)',partType:'readGap'},{scene:'She ___ at home.'}])assert.equal(T.automatic(item,'van-lang'),true);assert.equal(T.automatic({scene:q.storyText},'van-lang'),false);assert.deepEqual(T.speech({scene:'Blank (24)',partType:'readGap'},{course:'van-lang'}),['Choose the word for blank 24.']);
 });
 test('Every cloze and comprehension question keeps the entire canonical source passage and answer',()=>{
  let references=0;const sources=new Map(Array.from({length:17},(_,i)=>[i+1,require('./exams/source/test-'+(i+1)+'.json')]));

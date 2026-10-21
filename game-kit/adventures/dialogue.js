@@ -5,10 +5,11 @@
  function parse(text){
   text=String(text||'');
   const labels=[...text.matchAll(/(?:^|\n|(?<=[.!?])\s+)([A-Z][A-Za-z’' -]{0,28}):\s+/g)];
-  if(new Set(labels.map(m=>m[1])).size<2||text.slice(0,labels[0].index).trim())return [];
-  return labels.map((m,i)=>({speaker:m[1],text:text.slice(m.index+m[0].length,labels[i+1]?.index??text.length).trim()}));
+  if(new Set(labels.map(m=>m[1])).size<2||labels.some(m=>/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|WEATHER FORECAST)$/.test(m[1])))return [];
+  const introduction=text.slice(0,labels[0].index).trim();
+  return [...(introduction?[{speaker:'Narrator',text:introduction}]:[]),...labels.map((m,i)=>({speaker:m[1],text:text.slice(m.index+m[0].length,labels[i+1]?.index??text.length).trim()}))];
  }
- function turns(q){return Array.isArray(q.dialogue)?q.dialogue:parse(q.scene);}
+ function turns(q){if(q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction].filter(Boolean).join(' ')))return [];return Array.isArray(q.dialogue)?q.dialogue:parse(q.scene);}
  function render(q,{review=false}={}){
   const lines=turns(q);if(!lines.length)return '';
   const cast=[...new Set(lines.map(t=>t.speaker))];

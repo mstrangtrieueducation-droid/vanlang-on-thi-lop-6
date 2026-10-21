@@ -1,7 +1,8 @@
 /* Bounded decoded-image cache; never preload the whole course. */
 (()=>{'use strict';const cache=new Map(),limit=32*1024*1024;let bytes=0;
-const url=s=>window.GameMedia?.url(s)||window.TitiImageVariants?.url(s)||s;
-const source=p=>p&&url(window.ClayArtwork?.source(p)||window.TitiImageSources?.[[p.atlas,p.columns,p.rows,p.cell].join('|')]);
+const originalTest=s=>/(?:^|\/)van-lang\/exams\/source\/test-\d+\//.test(String(s||''));
+const url=s=>originalTest(s)?s:window.GameMedia?.url(s)||window.TitiImageVariants?.url(s)||s;
+const source=p=>p&&(originalTest(p.src)?p.src:url(window.ClayArtwork?.source(p)||window.TitiImageSources?.[[p.atlas,p.columns,p.rows,p.cell].join('|')]));
 function load(src){src=url(src);if(!src)return Promise.reject(Error('Missing image'));
  const previous=cache.get(src);if(previous){cache.delete(src);cache.set(src,previous);return previous.promise;}
  const image=new Image();image.decoding='async';image.fetchPriority='low';const entry={image,bytes:0,promise:null};

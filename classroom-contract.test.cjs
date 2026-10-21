@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm');
 const T=require('./game-kit/adventures/task-parts'),E=require('./game-kit/adventures/reading-evidence'),L=require('./khoa-hoc/program/grammar-language.cjs');
-test('Văn Lang exceptions read directions only; other courses read question content without repeating directions',()=>{
- for(const q of [{scene:'She ___ kind.'},{storyText:'Reference',scene:'Why did she help?'},{type:'build',scene:'Put these words in order.'}]){assert.equal(T.automatic(q,'van-lang'),false);assert.equal(T.instructionOnly(q,'van-lang'),true);}
+test('Văn Lang reads short questions but not long references; other courses read question content without repeating directions',()=>{
+ for(const q of [{scene:'She ___ kind.'},{storyText:'Reference',scene:'Why did she help?'}]){assert.equal(T.automatic(q,'van-lang'),true);assert.equal(T.instructionOnly(q,'van-lang'),false);}const order={type:'build',scene:'Put these words in order.'};assert.equal(T.automatic(order,'van-lang'),false);assert.equal(T.instructionOnly(order,'van-lang'),true);
  assert.equal(T.automatic({scene:'What does the notice say?'},'van-lang'),true);
  for(const id of ['family-friends-1','family-friends-2','discover-1','discover-2','discover-3','discover-4']){const q={storyText:'Long reference.',scene:'Long reference.',prompt:'Who helps Kim?',partType:'readChoose'};assert(T.automatic(q,id));assert.deepEqual(T.speech(q,{course:id}),['Who helps Kim?']);}
 });

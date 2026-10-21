@@ -7,14 +7,15 @@
     "discover-1": 9,
     "discover-2": 7,
     "discover-3": 9,
-    "discover-4": 9
+    "discover-4": 9,
+    "van-lang": 28
   },
   "roles": {
     "Billy": {
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     "Rosy": {
       "role": "girl",
@@ -116,7 +117,7 @@
     },
     "Classmate": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -148,7 +149,7 @@
     },
     "Emma": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -174,20 +175,20 @@
     },
     "Children": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     "Babies’ mum": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Customer": {
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Café owner": {
@@ -222,7 +223,7 @@
     },
     "Sara": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -240,7 +241,7 @@
     },
     "Tim’s mum": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -252,13 +253,13 @@
     },
     "Milly": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     "Head teacher": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -382,7 +383,7 @@
     },
     "Son": {
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -492,7 +493,7 @@
     },
     "Student B": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -600,13 +601,13 @@
     },
     "Hyo": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     "Maria": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -630,7 +631,7 @@
     },
     "Robert Louis Stevenson (poem)": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -660,7 +661,7 @@
     },
     "Husband": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -676,12 +677,6 @@
       "rate": "+0%",
       "pitch": "+0Hz"
     },
-    "Lisa (narrator)": {
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
     "Marco": {
       "role": "boy",
       "voice": "en-US-EricNeural",
@@ -690,7 +685,7 @@
     },
     "Lisa": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -720,6 +715,12 @@
       "rate": "+3%",
       "pitch": "+0Hz"
     },
+    "Lisa (narrator)": {
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
     "Antonio Rossi": {
       "role": "man",
       "voice": "en-US-GuyNeural",
@@ -734,19 +735,19 @@
     },
     "Lombardi": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Mr. Lombardi (note)": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Mr. Lombardi": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -758,7 +759,7 @@
     },
     "Washington": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -770,7 +771,7 @@
     },
     "Rodriguez": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -788,13 +789,13 @@
     },
     "Mrs. Washington": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Mrs. Rodriguez": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -826,19 +827,19 @@
     },
     "Javier": {
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     "Pepe": {
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     "Fernando": {
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -874,13 +875,13 @@
     },
     "Farmer Sabine": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Patrick": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -892,7 +893,7 @@
     },
     "Farmer François": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -916,7 +917,7 @@
     },
     "Theo": {
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -940,13 +941,13 @@
     },
     "Clark": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Hilda Hanson": {
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -964,7 +965,7 @@
     },
     "Mr. Clark": {
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -1006,11 +1007,89 @@
     },
     "Camila (class talk)": {
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     "Camila (petition)": {
+      "role": "girl",
+      "voice": "en-US-AriaNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    "Lan": {
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    "Nam": {
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Student": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Peter": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Hoa": {
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    "Minh": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Tom": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Tung": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Phong": {
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Boy": {
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    "Shop assistant": {
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    "Linh": {
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    "Mai": {
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -1019,12 +1098,12 @@
   },
   "clips": [
     {
-      "id": "67d3c587171ba6dfbacc",
+      "id": "9fca6cec6bf32fe1ac94",
       "text": "Look at the train, Rosy.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "4c2495c60566bd72f28e",
@@ -1043,12 +1122,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "296225bc3af7250352f9",
+      "id": "ba2365d53e3a99e0537b",
       "text": "It's a pen.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "5eb6faecb73dec57384d",
@@ -1059,12 +1138,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "a9411c1a99db0edca457",
+      "id": "07a7a0b37eef7979e341",
       "text": "It's a rubber.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "4e9cfff29462e3281b2e",
@@ -1075,44 +1154,44 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "ab198ff9c5a0fa22160c",
+      "id": "601f8e1a15f2c91c52fa",
       "text": "OK, here you are",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "5c3ef34b018effba5e35",
+      "id": "3ad207f0fc6a92f74951",
       "text": "Your pencil, pen, ruler and rubber.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "6c823089b4e323b543c5",
+      "id": "22cd3083782bafb332f3",
       "text": "Look at the",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "cf5244d832365b8942f9",
+      "id": "06e5fea60d8f1ef59dc1",
       "text": ", Rosy.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "0b32a1564c2e0f78a22f",
+      "id": "3f5481c1c1ef40693fc2",
       "text": "It's a",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "9dd2f8d73f50e55b0a71",
@@ -1227,12 +1306,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "e65a3252151f0df9b60a",
+      "id": "0bdaeeb96703de97ce36",
       "text": "These are my arms.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "4553132917475b49dfb3",
@@ -1243,12 +1322,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "979c60685ce23afc3755",
+      "id": "b7943b9b4c472b943c2c",
       "text": "This is my nose.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "90440fa3a8a969698755",
@@ -1267,20 +1346,20 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "28224fbe3f53b7b27151",
+      "id": "ad5800d98e655509cc87",
       "text": "OK, Rosy.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "a81f4cee59fa5f1bf9cd",
+      "id": "763b5b7810769aa83242",
       "text": "Look, Rosy!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "71bbeedd4c96440ca443",
@@ -1355,12 +1434,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "0820cf6e0e16cd6898e1",
+      "id": "83252d18d05cd103392d",
       "text": "No, she isn't. She's a housewife.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "5c18f28d1275fd4ff9d5",
@@ -1379,20 +1458,20 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "e707dc71d7bd32a415f0",
+      "id": "ee46122d513730ff884f",
       "text": "Oh no!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "3c9a0c3c7885771ceeb7",
+      "id": "73142fdcf0d652a5f399",
       "text": "Look at Grandpa. Is he a fireman?",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "72adeca48fbb5fca103b",
@@ -1449,6 +1528,14 @@
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
+    },
+    {
+      "id": "e707dc71d7bd32a415f0",
+      "text": "Oh no!",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
     },
     {
       "id": "e8c91a442474b25422af",
@@ -2121,10 +2208,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "ebd88590d93ec4df962a",
+      "id": "210cb36ddfa37e5916b0",
       "text": "I've got an apple. And I've got a banana. Choose one.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -2343,12 +2430,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "e616b784b4ef742bc717",
+      "id": "95885abd5dbceed1ed42",
       "text": "The zoo. Great! I like animals.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "4d13e24d558678ac0a22",
@@ -2359,12 +2446,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "771e78b64d6d6bf4d6c9",
+      "id": "1665e106352612fc69a4",
       "text": "Oh no! I don't like elephants. They're big!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "c4d071523d4bac2d4526",
@@ -2375,12 +2462,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8f848e73597831ddb0fd",
+      "id": "478ee0939eb92dce707c",
       "text": "Ahh! I don't like giraffes. They're tall!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "66278be8af1992f1d80f",
@@ -2391,20 +2478,20 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "d6d321f218089230edcc",
+      "id": "45fa3911239443f068dc",
       "text": "Look over there!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "7f49501bd3f28927231b",
+      "id": "97d6b9537763e20e4097",
       "text": "I like monkeys! I like monkeys! They're little and I'm little too.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "dae20e9248dc17583428",
@@ -2439,20 +2526,20 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "35b048b8aeb7fd6d7d61",
+      "id": "e04fdf6c84db865b23e5",
       "text": "I like",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "be12bec808428358aac6",
+      "id": "2719e18c5c3e41fcf29c",
       "text": "I like monkeys!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "5c62999debeb823bed4f",
@@ -2463,10 +2550,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6f8f92bf67ce92d16158",
+      "id": "ed0efc11c475c93a0871",
       "text": "I like ice cream, too. And I like fish and eggs. I like rice but I don't like carrots. I like bananas but I don't like grapes. I like milk but I don't like apple juice.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -2567,12 +2654,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "1a74f530ebc567321508",
+      "id": "2ddfd66128419d785c66",
       "text": "No, I don't. No carrots for me!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "2666642a7d1f39e34b0d",
@@ -2583,12 +2670,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "31a683adda2346ec03f2",
+      "id": "1fff0e0b7e8bae384111",
       "text": "Yes, I do!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "c1df86c009176df18df9",
@@ -2599,12 +2686,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "3b7d7c387ac864ce72e9",
+      "id": "7c2d95ea7d4687a38573",
       "text": "Finished!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "f635448452aa6ef26991",
@@ -2615,12 +2702,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "1a460613943c12214420",
+      "id": "78c6fe8a44c15b07e66f",
       "text": "Mmm. I like yogurt.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "9e86b8368fa48fa47a51",
@@ -2735,12 +2822,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "a743fa124237b32263a1",
+      "id": "721b7a3444551a30c89b",
       "text": "Do you like my hat?",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "c2b26710a198da964b59",
@@ -2821,12 +2908,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "33510e9a0e6c8fe09733",
+      "id": "d45609be1268c20ee13f",
       "text": "Look at my toy, Uncle. His name's Action Boy.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "f522ab53cc02348c10f3",
@@ -2837,44 +2924,44 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "0c9f29c8afd1a205bbde",
+      "id": "5991bddbc8db1064b301",
       "text": "Look! He can run.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "02c51d3410a135b7f0b1",
+      "id": "7a68c4e9c88b94d1c8c4",
       "text": "Look, Tim. Action Boy can fly.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "395763b1a54d5bd17b09",
+      "id": "d06599a8561a812da47a",
       "text": "Great! Can he play football?",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "3cacb15c5d9c5e03da88",
+      "id": "7021111a977b7b21b911",
       "text": "Yes, he can.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "edf5761ac3d7068fe233",
+      "id": "e59ce7f39772a018c6af",
       "text": "Look, Rosy. Action Boy can walk. He can run and he can fly.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "f65314b393e5ca15f67e",
@@ -2893,60 +2980,60 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "083c573dbd9c60b412a9",
+      "id": "b71919d10d38f581f9fb",
       "text": "Silly Rosy! He can't talk. He's a toy.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "8b1186611f5d171e677a",
+      "id": "f8d837d337266499376b",
       "text": "He can",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "131b44811ea65ceea860",
+      "id": "441716c78a7bddf36ce9",
       "text": "He can run.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "7c470ea72aaff0adc617",
+      "id": "3d157b6ecd09b6afbe8b",
       "text": "Action Boy can",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "e2e2b0d2ac681ab56ef9",
+      "id": "bc6f64eb609342082171",
       "text": "Action Boy can fly.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "ce3ab11ef836fba69881",
+      "id": "906e11ddc630dfc531d5",
       "text": "He can't",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "98b774b36fd4131d443c",
+      "id": "e6c9af03a5120a93efc9",
       "text": "He can't talk.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "8bf455aa60556771a670",
@@ -2965,12 +3052,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "be1bc7ee4c09ccc31aab",
+      "id": "54ceaaa07df0c0a5324c",
       "text": "Let's play ball, Grandma!",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "84a3b3b0a5af2093eee0",
@@ -2981,12 +3068,12 @@
       "pitch": "-12Hz"
     },
     {
-      "id": "821d51a7403f76f961ce",
+      "id": "b638228f5121b4c9b260",
       "text": "Catch, Grandma!",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "0d4a617a8f193082c7b8",
@@ -3005,12 +3092,12 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "790b2cf6368dae6fb711",
+      "id": "7d6f5fe1127f25ee7248",
       "text": "Sorry.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "730f2b9ec046e0b1369c",
@@ -3021,12 +3108,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "320d79b0b659d76d2b66",
+      "id": "724a7d001f89bbfd18a8",
       "text": "Look at our sandcastle now!",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "3784e9c72e9a8b87db1a",
@@ -3045,20 +3132,28 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "1ccf9750f5df35659f11",
+      "id": "b75945c372ea531aefdd",
       "text": "Let's play",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "ee1a5d73a923c9952fa1",
+      "id": "100a6d4f60779ad3a368",
       "text": ", Grandma!",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
+    },
+    {
+      "id": "f3ce8a65e904e89fd442",
+      "text": "Let's play ball, Grandma!",
+      "role": "littleBoy",
+      "voice": "en-US-EricNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "267d9fc2cb454269e9ad",
@@ -3141,18 +3236,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "70b8a3558dad17bc69ad",
+      "id": "d540c62ba17f5075f426",
       "text": "No",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     {
-      "id": "21080b64c29acd0a00e0",
+      "id": "0cf1dfad90984baca067",
       "text": "This is my new pencil case. Look, new pencils and pens!",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -3221,6 +3316,14 @@
       "pitch": "+5Hz"
     },
     {
+      "id": "a0ed8476c0b56c3fd30d",
+      "text": "No, they aren't.",
+      "role": "woman",
+      "voice": "en-US-AriaNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
       "id": "531cb3ebca4a4d17b0cd",
       "text": "Are they cold?",
       "role": "boy",
@@ -3229,10 +3332,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "e303bae512396e4215b9",
+      "id": "3669ab04d8abd2f64577",
       "text": "No, they aren't cold.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -3253,10 +3356,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "3b11c95a0dce0fd08c2c",
+      "id": "37252d0cd900fb46e094",
       "text": "Yes. What a good idea!",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -3269,10 +3372,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "a76902dc9290b701e511",
+      "id": "ad0ddf98ecfd8977cf7b",
       "text": "Yes, they like apples.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -3453,11 +3556,11 @@
       "pitch": "-16Hz"
     },
     {
-      "id": "0149b1bae8368486d663",
+      "id": "1c72125ec22360d8b17b",
       "text": "One pizza and one banana milkshake, please.",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3469,11 +3572,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "c17636fcb94bf9a69d77",
+      "id": "92857b83ca0c376f6a97",
       "text": "Have you got tomatoes?",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3485,11 +3588,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "4f775ecbabca4e7a19e0",
+      "id": "8216b5c680cee19997c7",
       "text": "Have you got chicken? Or what about olives?",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3501,11 +3604,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "26dd97213ccb3193b657",
+      "id": "4104dd2f4506777b0a62",
       "text": "Oh no! And my milkshake? Have you got bananas?",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3517,11 +3620,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "f8edeba4ae7d6e64f920",
+      "id": "6b501c6295d9c83944c2",
       "text": "Oh good! One banana milkshake and one banana pizza, please!",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3533,83 +3636,83 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "6e6ecda9f0a11ceb3deb",
+      "id": "376f12e2a4f255b25c28",
       "text": "Yes, please. Look! I've got a banana pizza! It's my new favourite!",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ba89b7602f2342d3fa4c",
+      "id": "854c970fe74ccaf1ddad",
       "text": "One",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "2c2262fdd826fa213fa0",
+      "id": "c10b01d4674cbca07c8b",
       "text": "and one banana milkshake, please.",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "0b23e467385e16d5dbd7",
+      "id": "ca958fc18190533734bf",
       "text": "One pizza and one banana",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "e69fc94f8e5a4cac0762",
+      "id": "cc6773fe5af391d48c27",
       "text": ", please.",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fda07d151aa727ec0793",
+      "id": "e86e080ffc6bb6e853bf",
       "text": "Have you got",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "96cf2850ac4f64d738df",
+      "id": "eaaf6000ff4728a6cf51",
       "text": "Have you got chicken?",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f93a050120ff58f02698",
+      "id": "1218b29992e25f05b219",
       "text": "Have you got bananas?",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "9759b51aa62b7f53a8ae",
+      "id": "dd676aed30e4ade1af8a",
       "text": "One pizza and one",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "619be6abd389a6bea014",
+      "id": "dd50e6b2f02a3a1548eb",
       "text": "milkshake, please.",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3669,12 +3772,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "5651acf414e0d071e4a6",
+      "id": "bd1e40ff37f4ebf84b64",
       "text": "Thank you.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "bc4c5b29faf24b08847f",
@@ -3685,28 +3788,28 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "3de30758392830ea1197",
+      "id": "33efc69660563e3028e2",
       "text": "Well",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "b43e4330b19f5acbbdcc",
+      "id": "ff2aa647a35778f05897",
       "text": "they like the food.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "12978dd26f7d0255c647",
+      "id": "60a7ba427e515e07924c",
       "text": "Sorry, Mum.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "c1f7287ce5643461d31d",
@@ -3765,27 +3868,27 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6d4b1abd905632ede619",
+      "id": "8900d42510d09d4eff43",
       "text": "One banana milkshake and one",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "57453ac95d8b33116575",
+      "id": "59ae47ebdcf429215afa",
       "text": ", please!",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b3a5dab6740b1bcb3cde",
+      "id": "bd76207fb239694c2bb4",
       "text": "One banana milkshake and one banana pizza, please!",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
@@ -3925,18 +4028,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "d0547b5bdb3f867f474f",
+      "id": "f8bbc6aaf3678a532354",
       "text": "I'm Luke. After school, I help my mum and dad. Then I listen to my CDs. I sing the songs. I really like music.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "2656a1450efcf989d953",
+      "id": "95ee0f13e008f1c2d567",
       "text": "My name's Sara. I like sport. I go swimming every Monday. I play tennis with my brother every Tuesday. And every Thursday I skate in the park with my sister.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4037,10 +4140,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "36d195f67cd436865606",
+      "id": "d247dc078b3b31d5e49f",
       "text": "Good idea!",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4053,10 +4156,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "4f781d45657496c3b273",
+      "id": "86124983bafb4e744c22",
       "text": "Sorry, no. I have a music lesson every Monday. How about Tuesday?",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4069,10 +4172,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "e0ad2552963e982411d2",
+      "id": "15e99c4976951f32da64",
       "text": "Well, I don't have a music lesson. But I help my mum. Thursday?",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4245,12 +4348,12 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8554e8e9de42bd5ae15f",
+      "id": "bf84c2f9e05df6debda9",
       "text": "Thank you for my presents. I'm three now!",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "1f61b452c81974e5c0ca",
@@ -4277,20 +4380,28 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "2d693442bfe8e5259d31",
-      "text": "now!",
-      "role": "boy",
+      "id": "0157b067be379569fc90",
+      "text": "I'm",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "34f3e0bbcfb62a8d1963",
-      "text": "I'm three now!",
-      "role": "boy",
+      "id": "79ffe42a84b27a664666",
+      "text": "now!",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
+    },
+    {
+      "id": "421e96235861132cf554",
+      "text": "I'm three now!",
+      "role": "littleBoy",
+      "voice": "en-US-EricNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "1c817d60dc11264d8ffe",
@@ -4301,10 +4412,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "87a94594baa2c6968abe",
+      "id": "ed3ba374f0d894e871c2",
       "text": "Sorry, we can't. My dad's asleep.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4317,18 +4428,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "b266c4a9f49ce1288c38",
+      "id": "07a08c0bf3f05f28947f",
       "text": "Yes. He's a doctor. He works at night.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
     {
-      "id": "9b2df746162a3d9e13c0",
+      "id": "b596b11e8697a2f94cc2",
       "text": "He goes to bed at eleven o'clock in the morning. He gets up at seven o'clock.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4341,10 +4452,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b2a8b0f5a95e151a56cd",
+      "id": "5ea9c3d51e31640aa49b",
       "text": "It's seven o'clock.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4357,10 +4468,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "47c46b10fde75d1fbb60",
+      "id": "25d98d250ae40c4cc4ef",
       "text": "Sorry, we can't. My brother has dinner at seven o'clock. Then he goes to bed.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4371,6 +4482,14 @@
       "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
+    },
+    {
+      "id": "60a5843335f31196ea8d",
+      "text": "Thanks, Mum!",
+      "role": "girl",
+      "voice": "en-US-AriaNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
     },
     {
       "id": "85667cda8d0d15ed1032",
@@ -4437,10 +4556,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "8707d7b98cb7750009c8",
+      "id": "5af1d10cb5a27f427d5d",
       "text": "Where does he work?",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -4461,10 +4580,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "534fed10edd4efaf2a5c",
+      "id": "92105f70fd9b74158ec3",
       "text": "No, she doesn't.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -4477,10 +4596,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "9e942dcaa49218a1ff63",
+      "id": "69b5530ca3315acef281",
       "text": "Yes, she does. She works in a shop.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -4493,10 +4612,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "18023743e27b4f4e89b6",
+      "id": "3b7b85ce4f41d5331693",
       "text": "Yes, I know. My mum works in a cake shop!",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -4509,10 +4628,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "1188cbe02a9e6b92e085",
+      "id": "80c45404c70ce5c3fb6d",
       "text": "Oh, thank you.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -4909,10 +5028,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "a82850edeba065d6e5a2",
+      "id": "620cdb162104d8c2ff3d",
       "text": "Oh, I'm so little. And now I'm ten!",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -4973,12 +5092,12 @@
       "pitch": "-16Hz"
     },
     {
-      "id": "d97a4de196cb3d66aed4",
+      "id": "ac39a9439105938e1036",
       "text": "Look. This cow is bigger than that cow.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "0b6e94aff43e31535912",
@@ -4989,12 +5108,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "0c70010f71590cee1d4f",
+      "id": "2448014211ab6851a0cb",
       "text": "And this sheep is smaller than that sheep.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "446ed7ca1e5b97fb599a",
@@ -5005,18 +5124,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "9509c2819739a2444e4d",
+      "id": "7e2b6b9520b5c6df0c80",
       "text": "Look. A baby donkey and a mummy donkey.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "f7c3f19de02395449eb3",
+      "id": "3ff5e9e42d374251e6b9",
       "text": "That's right, Billy.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -5029,12 +5148,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "531664b7ec8ff60bb549",
+      "id": "7a2e01e6ceaf153870fd",
       "text": "Is it a daddy goat?",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "bd8058324fb2f770067e",
@@ -5045,44 +5164,44 @@
       "pitch": "-16Hz"
     },
     {
-      "id": "1483fdd1792bb87a5a4d",
+      "id": "6ce1f2da2f784d231ee2",
       "text": "This cow is",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "62d98f4fab3615c9bb64",
+      "id": "85b118821547317f2f53",
       "text": "than that cow.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "1e0556e677622a607371",
+      "id": "d0439d5b1691604b12e5",
       "text": "This cow is bigger than that cow.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "60aa3de3ce6763c449e2",
+      "id": "568d2cb74d6c4f2a704e",
       "text": "And this sheep is",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
-      "id": "bc84a0e1293783fe4c42",
+      "id": "8f35cd7c2707777dc75e",
       "text": "than that sheep.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "d501189727fe00d483bc",
@@ -5157,12 +5276,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6c94ffe9e764bfc3aa73",
+      "id": "ee2805fb4d922c64f705",
       "text": "I was naughty then. But I'm not naughty now. I'm a big boy now.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "role": "littleBoy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "0dbe117d4a2efae30337",
@@ -5261,10 +5380,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "9ee3fff7b5798f313477",
+      "id": "3000205cded47cfcc794",
       "text": "Where's the prize-giving?",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -5277,12 +5396,12 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "2266d7407138abcc9356",
+      "id": "3e3a5ec6c036968dbcf6",
       "text": "Look! Lots of men, women and children.",
-      "role": "boy",
+      "role": "littleBoy",
       "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
+      "rate": "+2%",
+      "pitch": "+55Hz"
     },
     {
       "id": "008ee189e46eefa45ee9",
@@ -5293,18 +5412,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6b8ee7b9c16d12df4334",
+      "id": "85bca22646151d6a97d2",
       "text": "The prize goes to",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "992520c4605a61f6e092",
+      "id": "ef1e31b38f2bb12f03f3",
       "text": "Rosy and Tim! Well done!",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -5681,10 +5800,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "a952cb99a88bd2a399c5",
+      "id": "718069d2895d3f18940f",
       "text": "I have three, says his son.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -6215,10 +6334,10 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "ac7ae4de9216ac8ea50d",
+      "id": "2510f9f73084113a7b32",
       "text": "Yes, it was. It was open all night. Now there's no ice cream for the party.\n\nMr.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -6375,10 +6494,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "9a21c5430e9558fe3be8",
+      "id": "777667fb1e583d49a157",
       "text": "Yes, it was. It was open all night. Now there's no ice cream for the party.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -7031,10 +7150,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ce6e7613f21a7ae1eeec",
+      "id": "394f2fb0c02a0fbc1bf8",
       "text": "What's this? You don't need a ball to play Omok!",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -7047,10 +7166,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "c6f4cbda90f65cbc4479",
+      "id": "e6f5a0e93d208990192e",
       "text": "Hey! What's this? There is no ball in this game!",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -7127,10 +7246,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "5bc72a7e2c0165938285",
+      "id": "2a80c891b9c3f7375d06",
       "text": "Bed in Summer. In winter I get up at night and dress by yellow candlelight. In summer, quite the other way, I have to go to bed by day. I have to go to bed and see the birds still hopping on the tree, or hear the grown-up people's feet still going past me in the street. And does it not seem hard to you, when all the sky is clear and blue, and I should like so much to play, to have to go to bed by day?",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7415,10 +7534,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "5fda2ac56f6f46245542",
+      "id": "ff770f4bf2d1cd6c0750",
       "text": "My wife is going to have a baby.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7559,6 +7678,116 @@
       "pitch": "+18Hz"
     },
     {
+      "id": "79213524dfcc076b3373",
+      "text": "Lisa (narrator): There is a poster on the wall at school. Surprise guest today at 2 o'clock in the gym.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "e672d72e497998db4c59",
+      "text": "Lisa, who do you think it could be? I think it's an astronaut.\n\nLisa (narrator): You don't know who it is, I say.Nobody knows who it is because it's a mystery. Marco blows bubbles into his milk through a straw. I try hard not to laugh. He makes a face at me, and when I'm sure he's looking, I cross my eyes. I read in a magazine that if you close your eyes, you can hear things more clearly. If we close our eyes, maybe we can hear things in the next room, I tell Marco. The gym is next to the lunchroom, so I'm going to listen and find out who this special guest is. I close my eyes. I hear a low, deep booming sound, but I have no idea what it could be. It sounds like thunder, I tell Marco.Maybe it's a scientific machine for making thunderstorms or something.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "4782e26e381be45fa603",
+      "text": "The mystery guest must be a scientist.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "5b15e1ea927a94002c83",
+      "text": "I want to listen.\n\nLisa (narrator): He closes his eyes and tries to listen, too.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "4998fb1044e31119c9e9",
+      "text": "I hear the sound of a loud trumpet call, Marco tells me with confidence. There is an elephant in the gym. The mystery guest is obviously a circus trainer.\n\nLisa (narrator): A trumpeting elephant is more deafening than that, I tell Marco. I like to use big words like trumpeting and deafening in front of Marco. I listen again.There is a humming, buzzing sound that makes me feel warm right down to my toes. I hear a hum, I exclaim.It sounds like lots of bees.The mystery guest is a beekeeper.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "f150ee0943e21cd69007",
+      "text": "No, it isn't, Marco declares.\n\nLisa (narrator): He closes his eyes even tighter.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "8c7ba1c21e2550123d28",
+      "text": "I'm positive this time, he tells me.I hear an enormous hungry cow. The mystery guest is a farmer and his giant cow.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "35e793ee8f6486471a3c",
+      "text": "What are you talking about?\n\nLisa (narrator): There is no hungry cow noise.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "b9c54cb4ae713f0a08f2",
+      "text": "Yes, there is, Marco argues. He takes a deep breath and shouts,Mooooo!\n\nLisa (narrator): Suddenly the school bell rings and we both realize that it is already two o'clock. It's time to see the special guest. Marco and I race each other to the gym and look inside the door.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "4bf4ca60069e127e4a8a",
+      "text": "Wow! This is so cool! Marco yells.How exciting!\n\nLisa (narrator): I agree, smiling. There is no machine that makes weather. No elephant, no bees, and no hungry cow. We see a man in a long fancy black jacket holding a thin white baton. All around him are musicians playing timpani drums, bassoons, cellos, trombones, and many more instruments.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "5b8ccaee35152eff1856",
+      "text": "They're musical instruments! Marco and I say at the same time.\n\nLisa (narrator): The conductor hears us.",
+      "role": "ensemble",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
+    },
+    {
+      "id": "13d7de0d645bfaa90821",
+      "text": "He turns around and says,Welcome to the orchestra!",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
       "id": "87e21977a9cf540349b8",
       "text": "There is a poster on the wall at school. Surprise guest today at 2 o'clock in the gym.",
       "role": "girl",
@@ -7583,10 +7812,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "4782e26e381be45fa603",
+      "id": "f56fd09e9592ef59134e",
       "text": "The mystery guest must be a scientist.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -7639,18 +7868,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "8c7ba1c21e2550123d28",
-      "text": "I'm positive this time, he tells me.I hear an enormous hungry cow. The mystery guest is a farmer and his giant cow.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
-    },
-    {
-      "id": "29fe3002684c63cf565d",
+      "id": "8e8296c9c9b4d72509ec",
       "text": "What are you talking about?",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -7723,14 +7944,6 @@
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
-    },
-    {
-      "id": "13d7de0d645bfaa90821",
-      "text": "He turns around and says,Welcome to the orchestra!",
-      "role": "narrator",
-      "voice": "en-US-AnaNeural",
-      "rate": "+3%",
-      "pitch": "+0Hz"
     },
     {
       "id": "0912f504a0af96fa09e5",
@@ -7853,10 +8066,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "4afa7f2781aae863a9bd",
+      "id": "58f4e5b861e8723d2252",
       "text": "What do you have there? he asked.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7877,10 +8090,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "f05cad5235ff63c16296",
+      "id": "69b8fa58357dc8ec25bd",
       "text": "The words, they're big.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7893,10 +8106,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "e927c4c846a789513379",
+      "id": "6635cafdd997a77f369c",
       "text": "My wife can't read my books because of her eyes. This will be my gift to her. It will be the greatest gift ever.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7933,10 +8146,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "e815b37b508294a0238b",
+      "id": "bd0f783629daf0c58512",
       "text": "Mr. Rossi, please make two beautiful vases for my wife, S. Lombardi.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7989,10 +8202,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "71f9486f63e67e698990",
+      "id": "4bd05491f89be024415d",
       "text": "I can almost smell my sweet potato pie, she winked at Marisol. I'm going to save an extra big slice for a good little gardener, I know.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8013,10 +8226,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "95c04b070512272c4dad",
+      "id": "29b05c51c2ac250db9a0",
       "text": "Oh, child, Mrs. Willie Mae Washington said. Its season is over. There's a time to bloom and a time to die.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8029,10 +8242,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "5b091253a32d50fbfadc",
+      "id": "e963ff5b2647c104104e",
       "text": "Micarino, don't cry, Mrs. Rodriguez said. That's the way of a garden. You must save the seeds and plant again next spring.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8211,10 +8424,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "49bcdda191d508f6e691",
+      "id": "efac29747811d102febc",
       "text": "I'll get it, shouted Javier.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -8227,18 +8440,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8469f41e060bf3defc38",
+      "id": "c99187af7a206e67ad25",
       "text": "Are you okay? Pepe asked.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "4fa5b424d1e12928ff06",
+      "id": "5900dcc3336990ffd7f5",
       "text": "I think so, said Javier.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -8251,18 +8464,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "90b49103ca5e0313031b",
+      "id": "ca68bb3d327827a706b2",
       "text": "I tripped on that, he said.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "f54f1364a0233fb76544",
+      "id": "7470a0e5750b72bff5ea",
       "text": "It looks like a rock, said Fernando.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -8275,26 +8488,26 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b656fb9f3ceffd5ce8b1",
+      "id": "9fd9f51552121dbe5d63",
       "text": "I don't think it's a rock, he said excitedly. I think it's something else.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "d87331a013b812ca0305",
+      "id": "ed6114677985e99c3eb8",
       "text": "Let's pull it out, said Pepe.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
     {
-      "id": "cf065a2d1c35f0edc797",
+      "id": "a850f00189c30cb10309",
       "text": "No, said Javier. It's better to leave it right here.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -8315,10 +8528,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "567dfb00f9aad6004ae9",
+      "id": "cf57fe1c163b2723f5d4",
       "text": "How do you do that? asked Javier.",
       "role": "boy",
-      "voice": "en-US-EricNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+4%",
       "pitch": "+18Hz"
     },
@@ -8443,10 +8656,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ba82bcb61d8855c0c30c",
+      "id": "ad4d92ae4bd85bec186c",
       "text": "Well, if you're making famous cinnamon buns, you've come to the right place. My vines produce the most fragrant vanilla beans in all the world.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8459,10 +8672,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "2543f676a63269d1a119",
+      "id": "58f657cbece475afabd5",
       "text": "Madagascar grows sugar cane and cinnamon, too. Let me take you to my friend Patrick's plantation.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8475,18 +8688,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "fcae76b2c81bdd00a145",
+      "id": "286e339ed5107ad128fd",
       "text": "True, I have the sweetest sugar cane and the very best cinnamon in the world. Sugar cane I can give you, but I'm afraid I can't help you with cinnamon. I'm all out. We harvested it yesterday.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4d0aed8bf2c4bf5dddc5",
+      "id": "f18b50880a758d05b929",
       "text": "No cinnamon for the cinnamon buns? Now what?",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -8555,10 +8768,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8ce8a5109a17a9d0fa4f",
+      "id": "7e07f35988f684355d2f",
       "text": "Well, you've come to the right place. My wheat makes the very best flour in the entire world.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8571,10 +8784,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "fb2ee80915b49c018635",
+      "id": "c7d30624fc35db3356a1",
       "text": "Cinnamon buns, you say? If it's vanilla you need, the finest vanilla in all the world comes from Madagascar. Come with me.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8803,6 +9016,38 @@
       "pitch": "+18Hz"
     },
     {
+      "id": "2bffa7792d200fd06d6f",
+      "text": "Shall I show you some more sketches?",
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "025124f525804da95149",
+      "text": "You are Zayan Kahn!",
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "4dabb524b6dfcaa5d328",
+      "text": "I'm Theo. One day, I want to be an artist like you.",
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "953fb7bdd96071d96e9c",
+      "text": "Oh.",
+      "role": "boy",
+      "voice": "en-US-ChristopherNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
       "id": "f6940412033073b69e45",
       "text": "Marcy was nervous. She was the winner of the Mayor for a Day contest at her school. For one day, she would be the mayor of her city. Marcy's mother drove her to the Glenview City Hall.",
       "role": "narrator",
@@ -8883,10 +9128,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ecd5cfc45c1f51785fa7",
+      "id": "1bc277b41e931a4f4922",
       "text": "You have a meeting in ten minutes with the president of the Terrific Toy Company. We want them to build a factory here in Glenview. Many people could get jobs there.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8915,10 +9160,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "c9c099a3611de75bae37",
+      "id": "ae9c404eb4b0f85007df",
       "text": "For such a young mayor, you impress me, said Hilda. We'll start building our factory here tomorrow.",
       "role": "woman",
-      "voice": "en-US-JennyNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8931,10 +9176,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "cdc3144c18760a268e7d",
+      "id": "966ecb550258c793a1ea",
       "text": "The garbage collectors are unhappy, he exclaimed. There is too much garbage to pick up. They want more workers. What will we do?",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8955,10 +9200,10 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "1cf81a32c5e0c10ad4fa",
+      "id": "230c6f3ed37fc0373397",
       "text": "Great idea, said Mr. Clark.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8971,10 +9216,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "cdebecfc641319cf2257",
+      "id": "6e4138bfd97ee43d2119",
       "text": "You have a city council meeting in five minutes, he shouted.",
       "role": "man",
-      "voice": "en-US-GuyNeural",
+      "voice": "en-US-ChristopherNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9571,10 +9816,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "62ea069815078740b8cd",
+      "id": "05e394ed51f97827a00a",
       "text": "In Glover's Reef, I learned that coral reefs are an important part of our ocean biome because they are homes for hundreds of kinds of animals and plants. They are wonderful places to see the beauty of our oceans close up. My father taught me that coral reefs keep our shores safe from powerful waves and that scientists can find new medicines from plants and animals that live there.",
       "role": "girl",
-      "voice": "en-GB-MaisieNeural",
+      "voice": "en-US-AriaNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
     },
@@ -9587,12 +9832,172 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ba72a5669ba967232df3",
+      "id": "bdcbe23031bc908dce51",
       "text": "It Read Governments of the world, please help the ocean's coral reefs. Keep our coral reefs safe and healthy for everyone.",
+      "role": "girl",
+      "voice": "en-US-AriaNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "321f69df89d960b47ec4",
+      "text": "“Hi, I’m Lan. What is your name?”",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
       "pitch": "+5Hz"
+    },
+    {
+      "id": "ede51a14adb2d33e6918",
+      "text": "“Where are you from?”",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "3c4f7d8a699a2b592f9a",
+      "text": "A teacher and a student are talking about the timetable.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "b7ae70093fc352d42f32",
+      "text": "“What subject do you have today?”",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "0467472f5e8e55983cb6",
+      "text": "A student asks about facilities at school.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "a4fbdbc99df2febcc810",
+      "text": "“Does your school have a computer room?”",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "cd842c42455a4f3d904a",
+      "text": "Two classmates are talking after class.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "a208b1d0b8d8b3b91f0e",
+      "text": "“I did really well in the English test today!”",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "b50d41a029f50c52ac5e",
+      "text": "Nam and Peter are planning their weekend.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "8a830cce71469e38f94d",
+      "text": "“Can you play football with us on Sunday?”",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "4a1253edc25e9806c1ef",
+      "text": "Minh is visiting Lan's new apartment.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "41165eb732a6248e7f1e",
+      "text": "\"What a beautiful and modern flat you have, Lan!\"",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "566fc133aa01ae8b70e7",
+      "text": "Tom is visiting Nam's home and wants to wash his hands.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "473d799c4aa7919ce458",
+      "text": "\"Excuse me, Nam. Where is the bathroom?\"",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "b3efbfb4e9757af3aee4",
+      "text": "“I won the first prize in the school science competition!”",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "80e0d4b8589d83c27d17",
+      "text": "“Excuse me, how much does this big pizza cost?”",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "aed6c3c77a879b48d9f8",
+      "text": "“The fireworks show starts at 7 p.m. Will you go with me?”",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "34866b5e7e7dd6a82fab",
+      "text": "“What will the weather be like this afternoon?”",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "f4022d0f73aae76f7295",
+      "text": "“What is the monkey doing?”",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "4a7ed0823eca4e57f376",
+      "text": "“I have a bad headache.”",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
     }
   ]
 }

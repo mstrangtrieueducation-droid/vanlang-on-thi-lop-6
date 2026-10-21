@@ -62,14 +62,13 @@
  const phonics=id=>/^phonics-[1-4]$/.test(id||'');
  const listening=q=>q.skill==='listening'||!!q.sourceAudio||q.interaction==='dictation';
  const stream=(q,id)=>!q.dictation&&(phonics(id)||/^(family-friends-[12]|discover-[1-4])$/.test(id||'')&&listening(q));
- const instructionOnly=(q,id)=>id==='van-lang'&&(!!q.storyText||!!q.storyId||q.passageKind==='cloze'||['build','sequence','order'].includes(q.type)||!!q.orderWords||/Gap|Write|build|sequence|order/.test(describe(q).type)||/_{2,}|\.{2,}|…/.test(q.scene||'')||/^blank\s*\(/i.test(q.scene||'')||/điền|sắp xếp|reading|cloze|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' ')));
+ // Ordering remains a visual reasoning task. A gap alone is not a passage:
+ // short Read & Complete questions are narrated, long references never are.
+ const instructionOnly=(q,id)=>id==='van-lang'&&(['build','sequence','order'].includes(q.type)||!!q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' ')));
  function automatic(q,id){
   if(q.dictation)return !!q.questionAudio;
   if(id==='van-lang'){
-   const d=describe(q),gap=q.passageKind==='cloze'||/^blank\s*\(/i.test(q.scene||'')||/_{2,}|\.{2,}|…/.test(q.scene||'')||/Gap|Write/.test(d.type)||/fill|cloze|điền/i.test(q.sourceSection||q.section||'');
-   // The passage is a reading reference, never an automatic narration source.
-   const question=String(q.scene||'').trim();
-   return !instructionOnly(q,id)&&!gap&&!!question&&question.split(/\s+/).length<55;
+   return !instructionOnly(q,id)&&speech(q,{course:id}).length>0;
   }
   if(/^(family-friends-[12]|discover-[1-4])$/.test(id||''))return true;
   return stream(q,id);
@@ -86,7 +85,15 @@
   // Some older banks used the four options as spokenScene when the prompt was
   // empty. Văn Lang must always use the actual question, including cached banks.
   const scene=String((options.course==='van-lang'?q.scene:q.spokenScene??q.scene)??'').trim(),prompt=String((options.course==='van-lang'?q.prompt:q.spokenPrompt??q.prompt)??'').trim();
-  if(options.course==='van-lang'&&/^blank\s*\(/i.test(scene))return [];
+  if(options.course==='van-lang'){
+   if(instructionOnly(q,'van-lang'))return [];
+   const blank=scene.match(/^blank\s*\((\d+)\)\.?$/i);
+   if(blank)return ['Choose the word for blank '+blank[1]+'.'];
+   // Test images are visual evidence. Their alt text, OCR and answer choices
+   // are never used as narration substitutes. Speak only the printed question.
+   const reference=String(q.storyText||'').trim(),long=s=>s.split(/\s+/).length>=55;
+   return [...new Set([scene,generic(prompt)?'':prompt].filter(s=>s&&s!==reference&&!long(s)&&s!==describe(q).instruction&&!Object.values(tasks).some(t=>s===t[1])&&!/^Read the (?:text|passage|notice)/i.test(s)))];
+  }
   const out=[];
   // An imperative can be the actual clue ("Read books", "Look! The bus is
   // coming"). Only exact direction placeholders are omitted from scene audio.

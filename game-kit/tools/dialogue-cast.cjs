@@ -4,6 +4,7 @@ const profiles = {
   titi: {voice:'en-US-AnaNeural', rate:'+3%', pitch:'+0Hz'},
   girl: {voice:'en-GB-MaisieNeural', rate:'+2%', pitch:'+5Hz'},
   boy: {voice:'en-US-EricNeural', rate:'+4%', pitch:'+18Hz'},
+  littleBoy: {voice:'en-US-EricNeural', rate:'+2%', pitch:'+55Hz'},
   woman: {voice:'en-US-JennyNeural', rate:'+0%', pitch:'+0Hz'},
   man: {voice:'en-US-GuyNeural', rate:'+0%', pitch:'+0Hz'},
   grandmother: {voice:'en-US-AriaNeural', rate:'-6%', pitch:'-12Hz'},
@@ -11,14 +12,17 @@ const profiles = {
   narrator: {voice:'en-US-AnaNeural', rate:'+3%', pitch:'+0Hz'},
   character: {voice:'en-US-RogerNeural', rate:'+3%', pitch:'+5Hz'}
 };
-const boys = new Set(['Bill','Billy','Tim','Max','Luke','Elliot','Arnold','Hans','Henry','Son','Student A','Hector','Marco','Javier','Pepe','Fernando','Luis','Theo','Kieron Williamson','Tim’s friend']);
-const girls = new Set(['Rosy','Milly','Alice','Sally','Emma','Julia','Sara','Tuti','Dian','Olga','Maddie','Akiko','Ashanti','Hyo','Maria','Molly','Lisa','Clara','Marisol','Marcy','Camila','Elsa']);
+const boys = new Set(['Tom','Peter','Ben','Nam','Tung','Phong','Minh','Boy','Student','Bill','Billy','Tim','Max','Luke','Elliot','Arnold','Hans','Henry','Son','Student A','Hector','Marco','Javier','Pepe','Fernando','Luis','Theo','Kieron Williamson','Tim’s friend']);
+const girls = new Set(['Girl','Hoa','Lan','Linh','Mai','Rosy','Milly','Alice','Sally','Emma','Julia','Sara','Tuti','Dian','Olga','Maddie','Akiko','Ashanti','Hyo','Maria','Molly','Lisa','Clara','Marisol','Marcy','Camila','Elsa']);
 const knownMen=new Set(['Jenkins','Perez','Big','Lombardi','Clark','Kendall','Michael Rosen','Robert Louis Stevenson','Juan','Patrick']);
 const knownWomen=new Set(['Anderson','Washington','Rodriguez','Aileen Fisher']);
 function cast(speaker){
  const s=String(speaker||'Narrator'),name=s.replace(/\s*\([^)]*\)/g,'').trim();
  let role='narrator';
  if(s==='Titi')role='titi';
+ else if(/^(Bill|Billy)$/.test(name))role='littleBoy';
+ else if(['Shop assistant','Assistant'].includes(name))role='woman';
+ else if(['Customer','Tourist'].includes(name))role='man';
  else if(/Grandpa|Grandfather|Old man/i.test(s)&&!s.includes('woman'))role='grandfather';
  else if(/Grandma|Grandmother|Old woman/i.test(s))role='grandmother';
  else if(/^(?:Mum|Mom|Aunt|Woman|Teacher|Head teacher)$|(?:’s|'s) mum|^(?:Mrs\.|Ms\.?\s+Jones\b|Miss\s+Jones\b)|Babies’ mum|Meghan Michaels|Farmer Lena|Farmer Sabine|Hilda Hanson/.test(s))role='woman';
@@ -31,4 +35,7 @@ function cast(speaker){
  else if(/Mouse|Goat|Cranes|Seal|Chicken|Cow|Horse|Fox|Gingerbread/.test(s))role='character';
  const groups={'Tim and Rosy':['boy','girl'],'Alice and Adam':['girl','boy'],'Lisa and Marco':['girl','boy'],'Rosy and Grandma':['girl','grandmother'],'Old woman and old man':['grandmother','grandfather'],'Man and his son':['man','boy'],'Fernando and Pepe':['boy','boy'],'Woman and her friend':['woman','woman']};const members=groups[s];return members?{role:'ensemble',...profiles[members[0]],ensemble:members.map(r=>({role:r,...profiles[r]}))}:{role,...profiles[role]};
 }
-module.exports={profiles,cast};
+// Two children of the same gender still need distinct performances. Keep each
+// speaker consistent within the dialogue; never alternate genders arbitrarily.
+function castTurns(lines){const result=new Map(),used=new Set();for(const t of lines){const name=t.speaker||t.role||'Narrator';if(result.has(name))continue;let p=cast(name);if(!/^(Narrator|Titi)$/.test(name)&&used.has(p.voice)&&['boy','littleBoy','man','girl','woman'].includes(p.role))p={...p,voice:['boy','littleBoy','man'].includes(p.role)?'en-US-ChristopherNeural':'en-US-AriaNeural'};result.set(name,p);used.add(p.voice);}return result;}
+module.exports={profiles,cast,castTurns};
