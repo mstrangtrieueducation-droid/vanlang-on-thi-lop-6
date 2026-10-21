@@ -21,7 +21,7 @@
       ],
       "note": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "example": "There is a bed in my room.",
-      "usage": "Nhìn số lượng để chọn is/are.",
+      "usage": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "exampleVi": "Có một chiếc giường trong phòng tôi.",
       "sentenceType": "Câu khẳng định"
     },
@@ -31,7 +31,15 @@
       "example": "There's a blue rug next to my bed.",
       "usage": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "exampleVi": "Có một tấm thảm xanh dương cạnh giường tôi.",
-      "sentenceType": "Câu khẳng định"
+      "sentenceType": "Câu khẳng định",
+      "formula": [
+        [
+          "There is + số ít"
+        ],
+        [
+          "There are + số nhiều"
+        ]
+      ]
     }
   ],
   "items": [
@@ -58,7 +66,7 @@
         "do"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “is”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “is”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -96,7 +104,7 @@
         "are"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -134,7 +142,7 @@
         "is"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -172,7 +180,7 @@
         "are"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “a”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “a”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -210,7 +218,7 @@
         "an coat"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -248,7 +256,7 @@
         "is"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “is”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “is”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -288,7 +296,7 @@
         "is"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -328,7 +336,7 @@
         "am"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -368,7 +376,7 @@
         "am"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “a”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “a”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -408,7 +416,7 @@
         "coats"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -448,7 +456,7 @@
         "are"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “is”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “is”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -489,7 +497,7 @@
         "am"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -530,7 +538,7 @@
         "be"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “are”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “are”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -571,7 +579,7 @@
         "a"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “a”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “a”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -612,7 +620,7 @@
         "coat"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “coats”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -653,7 +661,7 @@
         "my room. → bed in → There is a"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “There is a → bed in → my room.”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “There is a → bed in → my room.”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -696,7 +704,7 @@
         "the shelf. → books on → There are twelve"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “There are twelve → books on → the shelf.”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “There are twelve → books on → the shelf.”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -739,7 +747,7 @@
         "my bed. → pillows on → There are two"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “There are two → pillows on → my bed.”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “There are two → pillows on → my bed.”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -782,7 +790,7 @@
         "my bed. → rug next to → There's a blue"
       ],
       "hint": "Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
-      "why": "Chọn “There's a blue → rug next to → my bed.”. Nhìn số lượng để chọn is/are.",
+      "why": "Chọn “There's a blue → rug next to → my bed.”. Nhìn số lượng để chọn is/are. Sau đó kiểm tra giới từ để xác định đúng vị trí.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",

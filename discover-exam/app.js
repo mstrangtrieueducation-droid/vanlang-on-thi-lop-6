@@ -8,7 +8,7 @@
  const storage=window.StudentContext?.browserStorage||localStorage,key=config.storageKey+window.StudentContext.suffix(window.GameProfile)+':original-test-v1';
  let saved;try{saved=JSON.parse(storage.getItem(key)||'null');}catch{}
  let state=saved?.testId===data.id?saved:{testId:data.id,part:0,answers:{},plays:{},position:{},started:0,writingStarted:0,submitted:false,run:{id:crypto.randomUUID(),answers:{},total:data.totalPoints,practice:!!window.TitiReview?.active}};
- if(saved&&!state.submitted&&state.heardListeningParts)delete state.heardListeningParts[state.part];
+ if(saved&&!state.submitted){const pending=data.sections.flatMap((s,part)=>s.questions.map(q=>({q,part}))).find(({q})=>C.fields(q).some(f=>!String(state.answers[C.key(q,f)]||'').trim()));if(pending){state.part=pending.part;state.listeningQuestions||={};state.listeningQuestions[pending.part]=pending.q.id;}if(state.heardListeningParts)delete state.heardListeningParts[state.part];}
  const questionAudio=await fetch('../discover-exam/audio/question-segments.json?v=listening-3').then(r=>{if(!r.ok)throw Error('Question audio unavailable');return r.json();});
  let activeAudio=null,playingKey=null,countdown=null,starting=false;state.audioDurations||={};state.listeningOpen||={};
  const groups=data.sections.flatMap((s,index)=>s.questions.map(q=>({q,part:index}))),items=C.items(data,lesson.id);

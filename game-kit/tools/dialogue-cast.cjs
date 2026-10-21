@@ -11,7 +11,7 @@ const profiles = {
   narrator: {voice:'en-US-AnaNeural', rate:'+3%', pitch:'+0Hz'},
   character: {voice:'en-US-RogerNeural', rate:'+3%', pitch:'+5Hz'}
 };
-const boys = new Set(['Billy','Tim','Max','Luke','Elliot','Arnold','Hans','Henry','Son','Student A','Hector','Marco','Javier','Pepe','Fernando','Luis','Theo','Kieron Williamson','Tim’s friend']);
+const boys = new Set(['Bill','Billy','Tim','Max','Luke','Elliot','Arnold','Hans','Henry','Son','Student A','Hector','Marco','Javier','Pepe','Fernando','Luis','Theo','Kieron Williamson','Tim’s friend']);
 const girls = new Set(['Rosy','Milly','Alice','Sally','Emma','Julia','Sara','Tuti','Dian','Olga','Maddie','Akiko','Ashanti','Hyo','Maria','Molly','Lisa','Clara','Marisol','Marcy','Camila','Elsa']);
 const knownMen=new Set(['Jenkins','Perez','Big','Lombardi','Clark','Kendall','Michael Rosen','Robert Louis Stevenson','Juan','Patrick']);
 const knownWomen=new Set(['Anderson','Washington','Rodriguez','Aileen Fisher']);
@@ -21,7 +21,7 @@ function cast(speaker){
  if(s==='Titi')role='titi';
  else if(/Grandpa|Grandfather|Old man/i.test(s)&&!s.includes('woman'))role='grandfather';
  else if(/Grandma|Grandmother|Old woman/i.test(s))role='grandmother';
- else if(/^(?:Mum|Mom|Aunt|Woman|Teacher|Head teacher)$|(?:’s|'s) mum|^Mrs\.|Babies’ mum|Meghan Michaels|Farmer Lena|Farmer Sabine|Hilda Hanson/.test(s))role='woman';
+ else if(/^(?:Mum|Mom|Aunt|Woman|Teacher|Head teacher)$|(?:’s|'s) mum|^(?:Mrs\.|Ms\.?\s+Jones\b|Miss\s+Jones\b)|Babies’ mum|Meghan Michaels|Farmer Lena|Farmer Sabine|Hilda Hanson/.test(s))role='woman';
  else if(/^(?:Dad|Uncle|Man|Husband|PE teacher|Farmer Flores|Farmer Ray|Farmer François|Antonio Rossi|Edgar Mueller|Zayan Kahn|Mayor Wilson)$|^Mr\.|^Dr\./.test(s))role='man';
  else if(knownMen.has(name)||/^(Father|Papa|Male teacher)$/.test(name))role='man';
  else if(knownWomen.has(name)||/^(Mother|Mama|Female teacher)$/.test(name))role='woman';

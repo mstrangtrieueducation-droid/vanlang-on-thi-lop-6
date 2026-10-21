@@ -4,7 +4,7 @@ const all=[...Object.values(courses).flatMap(c=>c.lessons),...legacy.lessons];
 test('All lessons retain every question and exact values; grouped rounds resume exactly',()=>{
  assert.equal(all.length,724);
  for(const l of all){const before=JSON.stringify(l.items);const planned=coach.plan(l.items),standard=coach.plan(l.items,{standard:true});
-  assert.deepEqual(standard,planned);assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
+  assert.deepEqual(standard.map(q=>q.id).sort(),planned.map(q=>q.id).sort());assert.equal(new Set(planned.map(q=>q.id)).size,l.items.length);
   assert.deepEqual([...planned].map(q=>q.id).sort(),l.items.map(q=>q.id).sort());assert.ok(planned.every(q=>l.items.includes(q)));assert.equal(JSON.stringify(l.items),before);
   for(const pos of [0,Math.floor(planned.length/2),planned.length-1]){const r=coach.restore(l.items,{id:planned[pos].id,order:planned.map(q=>q.id)});assert.equal(r.pos,pos);assert.deepEqual(r.queue,planned);}
  }

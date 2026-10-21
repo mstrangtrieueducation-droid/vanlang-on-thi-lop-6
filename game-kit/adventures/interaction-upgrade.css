@@ -4,3 +4,7 @@ html[data-mode=night] .sheet-correct{background:#173f30!important}html[data-mode
 #adventure .laser-board>.laser-wires{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;max-width:none!important;pointer-events:none!important;z-index:5!important}#adventure .laser-board{column-gap:clamp(32px,7vw,95px)!important}#adventure .laser-board .pair-words button{touch-action:none!important}
 
 .text-match-board{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:45px}.text-match-left,.text-match-right{display:grid;gap:15px;align-content:start}.text-match-board button{width:100%;min-height:76px;padding:12px;border:2px solid #95b9c8;border-radius:16px;background:#fff;color:#173e53;font:650 17px/1.5 system-ui;touch-action:none}.text-match-board button:focus-visible{outline:3px solid #9a72e3}.example-vi{display:block;color:#46686f;font-weight:500;margin-top:6px}
+
+.laser-wires path:not(.laser-outline),.laser-wires circle{filter:drop-shadow(0 0 2px #fff) drop-shadow(0 0 7px currentColor);stroke-linecap:round}.laser-wires .laser-outline{filter:none!important;opacity:1!important}.laser-wires path{opacity:1!important}.sheet-edit-note{color:#24445e;font-weight:700}.sheet-actions [data-sheet-edit]{background:#fff4bc;color:#352963;border:2px solid #927136}
+
+.exam-selected{outline:3px solid #367ad1!important;box-shadow:0 0 0 5px #c6e8ff!important}

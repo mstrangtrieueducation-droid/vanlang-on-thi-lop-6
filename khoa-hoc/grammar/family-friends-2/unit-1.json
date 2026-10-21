@@ -21,7 +21,7 @@
       ],
       "note": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "example": "This is my table.",
-      "usage": "This/these chỉ gần; that/those chỉ xa.",
+      "usage": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "exampleVi": "Đây là bàn của tôi.",
       "sentenceType": "Câu khẳng định"
     },
@@ -31,7 +31,15 @@
       "example": "The tables are far from me. Those are my tables.",
       "usage": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "exampleVi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi.",
-      "sentenceType": "Câu khẳng định"
+      "sentenceType": "Câu khẳng định",
+      "formula": [
+        [
+          "this / that is …"
+        ],
+        [
+          "these / those are …"
+        ]
+      ]
     }
   ],
   "items": [
@@ -58,7 +66,7 @@
         "do"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -96,7 +104,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -134,7 +142,7 @@
         "Those"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -172,7 +180,7 @@
         "That"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -210,7 +218,7 @@
         "do"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -248,7 +256,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -288,7 +296,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -328,7 +336,7 @@
         "These"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -368,7 +376,7 @@
         "It"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -408,7 +416,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -448,7 +456,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -489,7 +497,7 @@
         "am"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -530,7 +538,7 @@
         "They"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -571,7 +579,7 @@
         "Those"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -612,7 +620,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -653,7 +661,7 @@
         "table. → my → This is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This is → my → table.”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This is → my → table.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -696,7 +704,7 @@
         "books. → my → These are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “These are → my → books.”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “These are → my → books.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -739,7 +747,7 @@
         "is my pencil. → near me. This → The pencil is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “The pencil is → near me. This → is my pencil.”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “The pencil is → near me. This → is my pencil.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -782,7 +790,7 @@
         "are my tables. → from me. Those → The tables are far"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “The tables are far → from me. Those → are my tables.”. This/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “The tables are far → from me. Those → are my tables.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",

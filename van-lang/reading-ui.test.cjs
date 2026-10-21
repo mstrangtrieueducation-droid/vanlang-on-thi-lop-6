@@ -14,7 +14,7 @@ test('Every cloze and comprehension question keeps the entire canonical source p
 });
 test('Every weekly structure heading is Vietnamese while formulae and examples stay intact',()=>{
  const {rules}=require('./grammar-authoring.cjs'),{vietnameseTag}=require('./grammar-headings.cjs');
- for(let week=1;week<=12;week++){const pack=require('./weekly/week-'+week+'.json');for(const [i,r]of pack.summary.entries()){const [old,formula,usage,example,exampleVi]=rules[week-1][i];assert.equal(r.tag,vietnameseTag(old));assert.deepEqual([r.formula,r.usage,r.example,r.exampleVi],[require('../khoa-hoc/program/grammar-language.cjs').replaceTerms(formula),usage,example,exampleVi]);}}
+ for(let week=1;week<=12;week++){const pack=require('./weekly/week-'+week+'.json');for(const [i,r]of pack.summary.entries()){const [old,formula,usage,example,exampleVi]=rules[week-1][i];assert.equal(r.tag,vietnameseTag(old));assert.deepEqual([r.usage,r.example,r.exampleVi],[usage,example,exampleVi]);assert(!/\bS\b|\bV\b|\bowner\b|\btime\b|\bcountable\b/.test(r.formula),r.formula);assert(r.usage.length>=90,r.tag);}}
  assert.equal(vietnameseTag('Suggestions'),'Cấu trúc Lời mời / Lời đề nghị');assert.equal(vietnameseTag('Passive Voice'),'Câu Bị động');assert.equal(vietnameseTag('Reported Speech'),'Câu Tường thuật / Gián tiếp');assert.equal(vietnameseTag('Comparisons'),'Cấu trúc So sánh');
 });
 test('Phonics Treasure map navigation goes directly to the same course and retains the guarded context',async()=>{

@@ -3,6 +3,7 @@ const root=path.resolve(__dirname,'../..'),scope={window:{}};
 vm.runInNewContext(fs.readFileSync(__dirname+'/native-voice.js','utf8'),scope);
 vm.runInNewContext(fs.readFileSync(__dirname+"/flow-audio.js","utf8"),scope);
 vm.runInNewContext(fs.readFileSync(root+'/discover-preview/voice.js','utf8'),scope);
+vm.runInNewContext(fs.readFileSync(__dirname+'/classroom-audio.js','utf8'),scope);
 const voice=scope.window.TitiVoice,manifest=JSON.parse(fs.readFileSync(__dirname+'/audio-native/manifest.json'));
 test('Whole textbook stories are complete recordings, including pauses printed as ellipses',()=>{for(const stories of Object.values(require('../../khoa-hoc/phonics-book-stories.cjs')))for(const [,text]of stories){const clip=voice.lookup(text);assert.equal(typeof clip,'string',text);assert.ok(!clip.includes('gap-cue'));assert.ok(manifest.clips[path.basename(clip)]);}});
 test('Isolated vocabulary has a complete spoken ending without changing its lookup or answer',()=>{for(const word of ['apple','cat','dog','fish','this','three']){const clip=voice.lookup(word);assert.equal(typeof clip,'string');assert.equal(manifest.clips[path.basename(clip)],word+'.');}});

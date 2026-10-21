@@ -24,7 +24,7 @@
       ],
       "note": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "example": "We are happy.",
-      "usage": "Chọn am/is/are theo chủ ngữ.",
+      "usage": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "exampleVi": "Chúng tôi vui.",
       "sentenceType": "Câu khẳng định"
     },
@@ -34,7 +34,18 @@
       "example": "Are you tired? No, we aren't.",
       "usage": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "exampleVi": "Các bạn có mệt không? Không, chúng tôi không mệt.",
-      "sentenceType": "Câu hỏi"
+      "sentenceType": "Câu hỏi",
+      "formula": [
+        [
+          "I am …"
+        ],
+        [
+          "He / She is …"
+        ],
+        [
+          "We / They are …"
+        ]
+      ]
     }
   ],
   "items": [
@@ -61,7 +72,7 @@
         "be"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -99,7 +110,7 @@
         "is"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -137,7 +148,7 @@
         "aren't"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -175,7 +186,7 @@
         "isn't"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -213,7 +224,7 @@
         "be"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -251,7 +262,7 @@
         "are"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -291,7 +302,7 @@
         "are"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -331,7 +342,7 @@
         "is"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -371,7 +382,7 @@
         "am"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -411,7 +422,7 @@
         "am"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -451,7 +462,7 @@
         "is"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -492,7 +503,7 @@
         "am"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “is”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -533,7 +544,7 @@
         "am"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “are”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -574,7 +585,7 @@
         "aren't"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “aren't”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -615,7 +626,7 @@
         "is"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “am”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -656,7 +667,7 @@
         "happy. → are → We"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “We → are → happy.”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “We → are → happy.”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -699,7 +710,7 @@
         "thirsty. → is → He"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “He → is → thirsty.”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “He → is → thirsty.”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -742,7 +753,7 @@
         "the class activity. → help a friend with → They are ready to"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “They are ready to → help a friend with → the class activity.”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “They are ready to → help a friend with → the class activity.”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -785,7 +796,7 @@
         "an early arrival. → class register shows → We aren't late; the"
       ],
       "hint": "Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
-      "why": "Chọn “We aren't late; the → class register shows → an early arrival.”. Chọn am/is/are theo chủ ngữ.",
+      "why": "Chọn “We aren't late; the → class register shows → an early arrival.”. Chọn am/is/are theo chủ ngữ. Thêm not ngay sau be để nói không ở trạng thái đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
