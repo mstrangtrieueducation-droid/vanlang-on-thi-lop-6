@@ -3,6 +3,7 @@ const Scenes=require('./test-scenes'),T=require('./task-parts'),D=require('./dia
 const root=path.resolve(__dirname,'../..');
 test('VL reads the short question and blank number, never the reference or options',()=>{
  const passage=Array(100).fill('A long source passage.').join(' '),options=['is','are','am','be'];
+ assert(T.instructionOnly({scene:'',prompt:'',partInstruction:'Choose the word with a different sound.'},'van-lang'));
  const gap={scene:'The children ___ helping their neighbours.',partInstruction:'Read and complete.',options,answer:'are'};
  assert.equal(T.automatic(gap,'van-lang'),true);assert.deepEqual(T.speech(gap,{course:'van-lang'}),[gap.scene]);
  assert.deepEqual(T.speech({scene:'Blank (27)',storyText:passage,passageKind:'cloze'},{course:'van-lang'}),['Choose the word for blank 27.']);

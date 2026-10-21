@@ -64,7 +64,7 @@
  const stream=(q,id)=>!q.dictation&&(phonics(id)||/^(family-friends-[12]|discover-[1-4])$/.test(id||'')&&listening(q));
  // Ordering remains a visual reasoning task. A gap alone is not a passage:
  // short Read & Complete questions are narrated, long references never are.
- const instructionOnly=(q,id)=>id==='van-lang'&&(['build','sequence','order'].includes(q.type)||!!q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' ')));
+ const instructionOnly=(q,id)=>id==='van-lang'&&(['build','sequence','order'].includes(q.type)||!!q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' '))||((!String(q.scene||'').trim()||q.scene===q.storyText||String(q.scene||'').trim().split(/\s+/).length>=55)&&(!q.prompt||generic(q.prompt))));
  function automatic(q,id){
   if(q.dictation)return !!q.questionAudio;
   if(id==='van-lang'){

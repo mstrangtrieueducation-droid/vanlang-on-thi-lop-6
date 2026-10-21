@@ -62,7 +62,7 @@
    speak(clips[i++],()=>{voiceDelay=setTimeout(next,200);});
   }next();
  }
- function manualListen(){if(muted){muted=false;const b=app.querySelector('#sound');if(b){b.textContent='🔊';b.setAttribute('aria-pressed','true');}}const part=currentPart(),key=GAME_CONFIG.courseId==='van-lang'?part.key:part.id;if(TaskParts.automatic(q(),GAME_CONFIG.courseId)&&!run.heardInstructionKeys?.[key])readMission();else readClue();}
+ function manualListen(){if(muted){muted=false;const b=app.querySelector('#sound');if(b){b.textContent='🔊';b.setAttribute('aria-pressed','true');}}if(TaskParts.instructionOnly(q(),GAME_CONFIG.courseId)){readMission(true);return;}const part=currentPart(),key=GAME_CONFIG.courseId==='van-lang'?part.key:part.id;if(TaskParts.automatic(q(),GAME_CONFIG.courseId)&&!run.heardInstructionKeys?.[key])readMission();else readClue();}
  function dockListen(){if(muted){muted=false;const b=app.querySelector('#sound');if(b){b.textContent='🔊';b.setAttribute('aria-pressed','true');}}if(TaskParts.instructionOnly(q(),GAME_CONFIG.courseId)){muted=false;readMission(true);return;}if(q()?.storyText&&!TaskParts.stream(q(),GAME_CONFIG.courseId)&&/^(family-friends-[12]|discover-[1-4])$/.test(GAME_CONFIG.courseId)){window.ListeningDock?.play();return;}manualListen();}
  function audioUI(){const playing=!speech.paused;document.body.dataset.titiSpeaking=String(playing);window.EpicBGM?.duck(playing);const b=app.querySelector('#listen');if(b){b.classList.toggle('playing',playing);b.innerHTML=(playing?'Ⅱ Pause':'▶ Listen')+' <span class="waves" aria-hidden="true">▂▆▃▇▂</span>';b.setAttribute('aria-label',playing?'Tạm dừng giọng đọc':'Nghe câu hỏi tiếng Anh');}}
  speech.addEventListener('play',audioUI);speech.addEventListener('pause',audioUI);
