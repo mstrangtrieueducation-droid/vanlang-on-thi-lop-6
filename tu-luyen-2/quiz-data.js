@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "break, teacher, read, please.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "break",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "classroom, music, computer, science.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "classroom",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "homework, breakfast, subject, cartoon.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "homework",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "finish, practice, study, collect.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "finish",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "John’s Birthday Present",
       "storyText": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
       "storyHtml": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "John’s Birthday Present",
       "storyText": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
       "storyHtml": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "John’s Birthday Present",
       "storyText": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
       "storyHtml": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "John’s Birthday Present",
       "storyText": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
       "storyHtml": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "John’s Birthday Present",
       "storyText": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
       "storyHtml": "John's parents gave him a red drum for his eighth birthday. When John opened his present early that morning, he was very (23) ______ to see a drum inside! He started to play it very loudly. He played it all morning and then after lunch he wanted to play it again. (24) ______ his mum felt ill. She had a bad (25) ______ because John and his drum were so noisy. His dad said, \"John, if you want to play your drum, go outside please.\" John went into the garden and played his drum there. After five minutes, he (26) ______ some lovely music. He went out into the street and saw lots of people there. It was the circus! They drove into town in their lorries and trucks. The (27) ______ of the first truck stopped when he saw John. John jumped on the back of the truck and went to town with them. He played his drum all the way there!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "Our New School Timetable",
       "storyText": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.\n\nOn Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.\n\nEvery Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
       "storyHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "Our New School Timetable",
       "storyText": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.\n\nOn Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.\n\nEvery Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
       "storyHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "Our New School Timetable",
       "storyText": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.\n\nOn Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.\n\nEvery Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
       "storyHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "Our New School Timetable",
       "storyText": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.\n\nOn Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.\n\nEvery Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
       "storyHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "Our New School Timetable",
       "storyText": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.\n\nOn Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.\n\nEvery Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
       "storyHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
         "question": 32,

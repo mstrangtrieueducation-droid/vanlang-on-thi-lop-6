@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "wood, book, food, good.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "wood",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "drinks, beans, grapes, chips.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "drinks",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "biscuit, orange, sausage, complete.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "biscuit",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "diet, display, jacket, flower.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "diet",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 32,

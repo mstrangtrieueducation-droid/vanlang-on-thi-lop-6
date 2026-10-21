@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "picture, lamp, pencil, cupboard.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "picture",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "many, flat, lamp, map.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "many",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "quiet, peaceful, behind, building.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "quiet",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "modern, guitar, flower, bedroom.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "modern",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "A Snowy Weekend",
       "storyText": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.\n\nBut we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.\n\nThat evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
       "storyHtml": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.<br><br>But we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.<br><br>That evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "A Snowy Weekend",
       "storyText": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.\n\nBut we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.\n\nThat evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
       "storyHtml": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.<br><br>But we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.<br><br>That evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "A Snowy Weekend",
       "storyText": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.\n\nBut we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.\n\nThat evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
       "storyHtml": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.<br><br>But we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.<br><br>That evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "A Snowy Weekend",
       "storyText": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.\n\nBut we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.\n\nThat evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
       "storyHtml": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.<br><br>But we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.<br><br>That evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "A Snowy Weekend",
       "storyText": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.\n\nBut we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.\n\nThat evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
       "storyHtml": "I enjoyed last weekend very much. My sisters and I couldn't go out and play on Saturday because it snowed all day and was very windy. Our road was closed too so my parents couldn't (23) ______ us to our town to go shopping.<br><br>But we still had a lot of fun. Dad brought in some wood and made a big, warm (24) ______ in the living room. Then we all sat around it and had bowls of soup with bread and cheese to eat. Then we played games. After that, my dad played the piano, and we all (25) ______ our favourite songs.<br><br>That evening, our bedrooms were too cold to sleep in (26) ______ there was ice on the outside and on the inside of the windows! So we brought blankets and made beds on the (27) ______ of the living room and slept there! It was great!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 32,

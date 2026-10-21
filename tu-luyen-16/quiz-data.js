@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.",
       "storyHtml": "<p>Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.",
       "storyHtml": "<p>Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.",
       "storyHtml": "<p>Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.",
       "storyHtml": "<p>Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.",
       "storyHtml": "<p>Our family had a cooking afternoon on Sunday. We wanted to make soup with fresh vegetables. Dad bought carrots and (23) ____ rice for dinner. Mum gave me some useful (24) ____: wash the vegetables before cutting them. My sister put the clean bowls (25) ____ the plates and the cups on the shelf. We did not have any bread, (26) ____ Dad went to the bakery. When he returned, everything was ready. We all sat down together. Cooking as a family made an ordinary meal feel (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.",
       "storyHtml": "<p>On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.</p><p>Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.</p><p>A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.",
       "storyHtml": "<p>On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.</p><p>Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.</p><p>A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.",
       "storyHtml": "<p>On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.</p><p>Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.</p><p>A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.",
       "storyHtml": "<p>On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.</p><p>Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.</p><p>A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.",
       "storyHtml": "<p>On a hot afternoon, you may choose to sit under a tree instead of beside a wall. A tree can make its surroundings cooler in two ways. First, its leaves block some sunlight, so less heat reaches the ground below. This is why a shaded path can feel cooler than one in full sun.</p><p>Trees also take in water through their roots. Some of that water later leaves through their leaves and enters the air as water vapour. This change uses heat and helps cool the area. You cannot usually see it happening.</p><p>A drawing of a tree on a wall might look cheerful, but it cannot do the same job. Real trees need space and care to grow. When people plan a school playground, leaving room for trees can make a difference on warm days.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1nSf6S3wgzt8hPuWqRDTu8ITZnJlaA_0JVzwClkdzorU/edit?usp=drivesdk",
         "question": 32,

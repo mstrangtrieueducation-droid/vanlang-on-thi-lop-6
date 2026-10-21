@@ -33,4 +33,13 @@ html[data-mode=night] #adventure.flow-live .play .play-layout.listening-layout>.
 
 .audio-only-story .listening-art{height:auto;min-height:0;display:block}.story-scene-illustration{display:block;width:100%;height:auto;max-height:48dvh;object-fit:contain;border-radius:18px}.audio-only-story .shared-passage{display:none}
 
+/* One fixed Văn Lang reference; its question audio never reads the passage. */
+.reading-reference .shared-passage{font:500 clamp(16px,1.5vw,20px)/1.7 system-ui;white-space:normal;min-height:0;flex:1;order:2}
+.reading-reference .listening-media>h2{order:1;padding-right:0!important;min-height:0!important}
+.reading-reference .listening-kicker{order:0}
+.reading-reference .listening-controls{position:static!important;order:3;align-self:flex-start;flex-shrink:0;padding-top:8px}
+.reading-reference [data-media-replay],.reading-reference [data-media-progress],.reading-reference [data-media-time],.reading-reference [data-media-status]{display:none!important}
+.reading-reference .listening-controls button{font-size:13px;min-height:38px!important;padding:7px 12px}
+@media(max-width:650px) and (orientation:portrait){#adventure.flow-live .play .play-layout:has(.reading-reference){grid-template-rows:minmax(185px,38dvh) minmax(0,1fr)!important}.reading-reference .shared-passage{font-size:16px;line-height:1.6}.reading-reference .listening-controls{padding-top:4px}.reading-reference .listening-controls button{min-height:34px!important}}
+
 .dictation-gap.listening-sentence input{outline:2px solid #42aacf;outline-offset:2px}[data-listening-sentence]{min-height:1.4em;font-weight:700}

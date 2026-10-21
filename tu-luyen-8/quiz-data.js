@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "future, autumn, question, suggestion.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "future",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "food, school, foot, bedroom.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "food",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "invite, forecast, autumn, firework.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "invite",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "hotel, return, between, traffic.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "hotel",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL WEATHER STATION",
       "storyText": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.\n\nIf the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.\n\nEveryone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
       "storyHtml": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.<br><br>If the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.<br><br>Everyone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL WEATHER STATION",
       "storyText": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.\n\nIf the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.\n\nEveryone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
       "storyHtml": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.<br><br>If the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.<br><br>Everyone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL WEATHER STATION",
       "storyText": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.\n\nIf the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.\n\nEveryone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
       "storyHtml": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.<br><br>If the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.<br><br>Everyone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL WEATHER STATION",
       "storyText": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.\n\nIf the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.\n\nEveryone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
       "storyHtml": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.<br><br>If the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.<br><br>Everyone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL WEATHER STATION",
       "storyText": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.\n\nIf the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.\n\nEveryone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
       "storyHtml": "Our class has a small weather station beside the science room. Every morning, two pupils look at the sky and write down whether it is sunny, cloudy, rainy or windy. They read the weather forecast (23) ________ they want to plan outdoor activities safely.<br><br>If the sky is clear, the teacher (24) ________ going to take the class to the playground for PE. If it becomes rainy, the teacher will take the equipment inside (25) ________ move the lesson to the science room. The pupils can still study the sky through a large window.<br><br>Everyone has to (26) ________ the equipment carefully. This simple project helps the class understand the weather and prepare for every outdoor school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "THE SHARING SHELF",
       "storyText": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.\n\nLan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.\n\nNext month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
       "storyHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
         "question": 32,

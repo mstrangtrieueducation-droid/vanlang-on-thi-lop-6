@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "OUR FIRST NIGHT AT PINE HILL",
       "storyText": "Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.",
       "storyHtml": "<p>Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.</p><p>After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.</p><p>The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "OUR FIRST NIGHT AT PINE HILL",
       "storyText": "Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.",
       "storyHtml": "<p>Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.</p><p>After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.</p><p>The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "OUR FIRST NIGHT AT PINE HILL",
       "storyText": "Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.",
       "storyHtml": "<p>Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.</p><p>After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.</p><p>The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "OUR FIRST NIGHT AT PINE HILL",
       "storyText": "Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.",
       "storyHtml": "<p>Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.</p><p>After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.</p><p>The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "OUR FIRST NIGHT AT PINE HILL",
       "storyText": "Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.",
       "storyHtml": "<p>Last Friday, Class 5A went on a school trip to Pine Hill. When the pupils arrived, each group received a tent. At first, Nam and Hoa could not put theirs up, (23) ________ they asked another group for help.</p><p>After a few minutes, everyone (24) ________ ready. In the evening, the teacher built a campfire in the safe area. The pupils sang songs and (25) ________ stories. Before going to bed, they checked the area carefully and collected all the rubbish.</p><p>The next morning, they watched the sunrise. It was (26) ________ than they expected. The trip taught them that a good camper not only has fun but also keeps the (27) ________ clean.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "THE SOUVENIR THAT STAYED ON THE ISLAND",
       "storyText": "Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. Removing too many shells can also change the beach. Mai gently put the shell back.Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.",
       "storyHtml": "<p>Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.</p><p>Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. <u>Removing</u> too many shells can also change the beach. Mai gently put the shell back.</p><p>Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.</p><p>On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "THE SOUVENIR THAT STAYED ON THE ISLAND",
       "storyText": "Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. Removing too many shells can also change the beach. Mai gently put the shell back.Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.",
       "storyHtml": "<p>Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.</p><p>Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. <u>Removing</u> too many shells can also change the beach. Mai gently put the shell back.</p><p>Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.</p><p>On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "THE SOUVENIR THAT STAYED ON THE ISLAND",
       "storyText": "Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. Removing too many shells can also change the beach. Mai gently put the shell back.Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.",
       "storyHtml": "<p>Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.</p><p>Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. <u>Removing</u> too many shells can also change the beach. Mai gently put the shell back.</p><p>Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.</p><p>On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "THE SOUVENIR THAT STAYED ON THE ISLAND",
       "storyText": "Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. Removing too many shells can also change the beach. Mai gently put the shell back.Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.",
       "storyHtml": "<p>Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.</p><p>Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. <u>Removing</u> too many shells can also change the beach. Mai gently put the shell back.</p><p>Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.</p><p>On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "THE SOUVENIR THAT STAYED ON THE ISLAND",
       "storyText": "Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. Removing too many shells can also change the beach. Mai gently put the shell back.Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.",
       "storyHtml": "<p>Last month, Class 5D went on an eco-tour to Green Shell Island. Their guide asked them to look carefully at the beach but not to take everything home.</p><p>Mai found a large pink seashell and wanted to keep it as a souvenir. Then she saw a tiny animal inside it. The guide explained that some shells that look empty are still homes for sea animals. <u>Removing</u> too many shells can also change the beach. Mai gently put the shell back.</p><p>Instead of collecting shells, the pupils took photos of them. Later, they bought bookmarks made from recycled paper at a small island shop. Before leaving, each group collected a bag of plastic rubbish from the beach.</p><p>On the boat home, Mai said that her best souvenir was not an object. It was the lesson that visitors should protect the places they enjoy.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1Wn16c02CnH2appSmx1D597NUJAjNh6z2VFJt_WGn8CQ",
         "question": 32,

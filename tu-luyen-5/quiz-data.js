@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "wood, book, food, good.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "wood",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "drinks, beans, grapes, chips.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "drinks",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "biscuit, orange, sausage, complete.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "biscuit",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "diet, display, jacket, flower.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "diet",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "A Trip to the Supermarket",
       "storyText": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
       "storyHtml": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "A Trip to the Supermarket",
       "storyText": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
       "storyHtml": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "A Trip to the Supermarket",
       "storyText": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
       "storyHtml": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "A Trip to the Supermarket",
       "storyText": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
       "storyHtml": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "A Trip to the Supermarket",
       "storyText": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
       "storyHtml": "Last Saturday, my mother and I went to the supermarket to buy some food for the week. First, we bought a (23) ______ of rice and a (24) ______ of milk. Then my mother asked me, \"How (25) ______ apples do we need?\" I said, \"We only need a few, but let's get a lot of bananas because everyone loves them.\" Next, we went to the clothes section, and I wanted to (26) ______ on a new T-shirt. It fit me well, so we bought it. Before we left, my mother asked the shop assistant, \"How much (27) ______ this bag of biscuits?\" It wasn't expensive, so we bought two bags!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "Ben finds his dinner!",
       "storyText": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’\n\nBut Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.\n\n‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.\n\n‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
       "storyHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "Ben finds his dinner!",
       "storyText": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’\n\nBut Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.\n\n‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.\n\n‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
       "storyHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "Ben finds his dinner!",
       "storyText": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’\n\nBut Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.\n\n‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.\n\n‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
       "storyHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "Ben finds his dinner!",
       "storyText": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’\n\nBut Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.\n\n‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.\n\n‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
       "storyHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "Ben finds his dinner!",
       "storyText": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’\n\nBut Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.\n\n‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.\n\n‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
       "storyHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
         "question": 32,

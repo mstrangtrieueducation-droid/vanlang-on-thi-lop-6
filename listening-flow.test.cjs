@@ -1,6 +1,6 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),path=require('path'),T=require('./game-kit/adventures/task-parts');
 test('Automatic narration follows the course and task, including the Văn Lang exceptions',()=>{
- for(const q of [{scene:'She ___ a student.'},{scene:'Complete … carefully.'},{storyText:Array(80).fill('reading').join(' '),scene:'Why did Sam leave?'},{partType:'readGap',scene:'A sentence'}])assert.equal(T.automatic(q,'van-lang'),false);
+ for(const q of [{scene:'She ___ a student.'},{scene:'Complete … carefully.'},{scene:Array(80).fill('reading').join(' ')},{partType:'readGap',scene:'A sentence'}])assert.equal(T.automatic(q,'van-lang'),false);
  assert.equal(T.automatic({scene:'What does the notice say?'},'van-lang'),true);
  for(let n=1;n<=4;n++)assert.equal(T.automatic({skill:'phonics'},'phonics-'+n),true);
  for(const id of ['family-friends-1','family-friends-2','discover-1','discover-4']){assert.equal(T.automatic({skill:'listening'},id),true);assert.equal(T.automatic({skill:'reading'},id),false);}

@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.",
       "storyHtml": "<p>Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.",
       "storyHtml": "<p>Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.",
       "storyHtml": "<p>Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.",
       "storyHtml": "<p>Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.",
       "storyHtml": "<p>Our class held a story afternoon yesterday. Each group chose (23) ____ character from a favourite book. We made simple costumes and practised our lines. My friend Tom spoke very (24) ____, so everyone could hear him. Before the show, I felt nervous. Tom reminded me that we were working (25) ____ a team. When I forgot a line, he gave me a quiet hint. I continued speaking, and the audience smiled. The afternoon taught me that a good partner does more than perform well: a good partner also (26) ____ others when things go (27) ____.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.",
       "storyHtml": "<p>In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.</p><p>When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.</p><p>Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.",
       "storyHtml": "<p>In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.</p><p>When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.</p><p>Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.",
       "storyHtml": "<p>In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.</p><p>When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.</p><p>Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.",
       "storyHtml": "<p>In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.</p><p>When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.</p><p>Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.",
       "storyHtml": "<p>In 1941, a Swiss engineer called George de Mestral went for a walk with his dog. Afterwards, small, prickly plant parts called burrs were stuck in the dog's fur. Instead of simply pulling them off and forgetting them, he became curious about how they stayed there.</p><p>When he examined the burrs closely, he found tiny hooks. These could catch on loops in materials. He wondered whether people could make something that worked in the same way. Turning this idea into a useful product was difficult, and he tried different materials.</p><p>Eventually, his work led to a fastener with two strips: one covered in hooks and the other in loops. Pressed together, they hold; pulled apart, they separate. Today, similar fasteners are used on clothing and many other products. An everyday problem had become the starting point for an invention.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1ieA18N1QPi_yfpxEfGjUpN-bW8WCLKzgkQt9JbYVTSg/edit?usp=drivesdk",
         "question": 32,

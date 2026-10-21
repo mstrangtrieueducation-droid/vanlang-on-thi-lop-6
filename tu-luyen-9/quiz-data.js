@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "century, mountain, hotel, water.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "century",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "uniform, music, university, umbrella.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "uniform",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "zebra, forest, cartoon, puppet.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "zebra",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "invite, return, between, mountain.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "invite",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "A PUPPET SHOW WITH A PURPOSE",
       "storyText": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.\n\nThe class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.\n\nAfter the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
       "storyHtml": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.<br><br>The class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.<br><br>After the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "A PUPPET SHOW WITH A PURPOSE",
       "storyText": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.\n\nThe class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.\n\nAfter the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
       "storyHtml": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.<br><br>The class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.<br><br>After the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "A PUPPET SHOW WITH A PURPOSE",
       "storyText": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.\n\nThe class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.\n\nAfter the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
       "storyHtml": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.<br><br>The class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.<br><br>After the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "A PUPPET SHOW WITH A PURPOSE",
       "storyText": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.\n\nThe class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.\n\nAfter the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
       "storyHtml": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.<br><br>The class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.<br><br>After the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "A PUPPET SHOW WITH A PURPOSE",
       "storyText": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.\n\nThe class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.\n\nAfter the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
       "storyHtml": "Class 5B is preparing a puppet show for the first-grade pupils. The story teaches children how to cross the road safely. At the moment, Minh is painting a cardboard bus, while Hoa is making two puppets. The larger puppet is a police officer, and the smaller one is a pupil.<br><br>The class chooses bright colours (23) ________ the stage is quite dark. Lan (24) ________ practising the narrator’s lines near the window. Her voice is (25) ________ than Minh’s, so she is the narrator.<br><br>After the show, the pupils will ask the younger children to (26) ________ the three road-safety rules. The project is not only fun; it is also a useful school (27) ________.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "TWO WINDOWS, ONE LESSON",
       "storyText": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.\n\nToday, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.\n\nThis project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.\n\nNext month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
       "storyHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "TWO WINDOWS, ONE LESSON",
       "storyText": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.\n\nToday, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.\n\nThis project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.\n\nNext month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
       "storyHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "TWO WINDOWS, ONE LESSON",
       "storyText": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.\n\nToday, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.\n\nThis project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.\n\nNext month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
       "storyHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "TWO WINDOWS, ONE LESSON",
       "storyText": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.\n\nToday, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.\n\nThis project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.\n\nNext month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
       "storyHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "TWO WINDOWS, ONE LESSON",
       "storyText": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.\n\nToday, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.\n\nThis project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.\n\nNext month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
       "storyHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important.",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
         "question": 32,

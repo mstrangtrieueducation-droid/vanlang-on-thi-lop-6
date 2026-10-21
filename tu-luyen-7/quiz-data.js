@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "police, swim, trip, fish.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "police",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "watch, stomach, catch, match.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "watch",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "traffic, mobile, problem, hotel.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "traffic",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "return, repeat, reply, dentist.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "return",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "The Space Museum",
       "storyText": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.\n\nIn the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.\n\nAt the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
       "storyHtml": "Tom and his friends love learning about space. Today, they are at the local Space Museum. The museum is very big and has many interesting things to see. In the first room, there is a large model of the solar system. Tom can see the Earth and all the other (23) _______ around the sun.<br><br>In the next room, they watch a video about an astronaut. He wears a special white (24) _______. The astronaut explains that it is very difficult to eat and drink in space. He (25) _______ a special helmet when he works outside the spaceship.<br><br>At the end of the tour, the children visit the gift shop. Tom wants to buy a small toy rocket, (26) _______ he doesn’t have enough money. His best friend, Alex, gives him some money. Tom is very happy and says “(27) _______” to Alex.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "Harry and the baby elephant",
       "storyText": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.\n\nOne Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.\n\nThat week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”\n\n“You’re right,” says Harry, “so I’ll be happy, too.”",
       "storyHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
         "question": 32,

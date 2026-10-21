@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.",
       "storyHtml": "<p>Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.",
       "storyHtml": "<p>Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.",
       "storyHtml": "<p>Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.",
       "storyHtml": "<p>Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.",
       "storyHtml": "<p>Next Saturday, our neighbourhood will hold a flower festival. It will begin at nine in the park (23) ____ the museum. Our class is going to put paper (24) ____ around the entrance. Each group has a different job. We must finish early (25) ____ visitors will arrive before the music starts. The weather forecast says it will be sunny, so we will take hats and water. If you want to join us, please (26) ____ our teacher today. We hope the festival will bring people (27) ____ and make our neighbourhood friendlier.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.",
       "storyHtml": "<p>At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.</p><p>His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.</p><p>The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.",
       "storyHtml": "<p>At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.</p><p>His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.</p><p>The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.",
       "storyHtml": "<p>At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.</p><p>His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.</p><p>The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.",
       "storyHtml": "<p>At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.</p><p>His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.</p><p>The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.",
       "storyHtml": "<p>At the park entrance, Noah and his aunt studied a map before walking to the lake. A dotted line showed a short path through the woods. A solid line marked a longer path beside the river. Noah wanted the short one because his little sister was getting tired.</p><p>His aunt pointed to a small picture of steps beside the dotted line. Noah checked the map's key, the box that explains its symbols. There were thirty steps on that route. His sister was in a pushchair, so they chose the riverside path instead.</p><p>The longer walk took them past a bridge where they watched ducks on the water. They reached the lake without carrying the pushchair. Noah kept the map in his pocket. Next time, he would look at more than the length of a route.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1R_Q7_KGD6NNRACCVdLYSFwpTgdPZhc4sHI7bnUOW4xw/edit?usp=drivesdk",
         "question": 32,

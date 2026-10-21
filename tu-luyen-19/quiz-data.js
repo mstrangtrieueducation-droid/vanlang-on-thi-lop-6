@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.",
       "storyHtml": "<p>Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.",
       "storyHtml": "<p>Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.",
       "storyHtml": "<p>Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.",
       "storyHtml": "<p>Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.",
       "storyHtml": "<p>Last weekend, our class visited an eco-farm. We travelled there by bus and arrived (23) ____ nine. A guide took us around the farm and showed us young animals. We watched (24) ____ cow eating grass beside its calf. Later, we helped collect vegetables. The ground was wet, (25) ____ we walked carefully. Before lunch, we washed our hands. We ate outside and listened to birds in the trees. On the way home, I looked at my photos. They would help me (26) ____ the visit and (27) ____ what I learnt with my family.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.",
       "storyHtml": "<p>Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.</p><p>His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.</p><p>He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.",
       "storyHtml": "<p>Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.</p><p>His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.</p><p>He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.",
       "storyHtml": "<p>Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.</p><p>His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.</p><p>He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.",
       "storyHtml": "<p>Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.</p><p>His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.</p><p>He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.",
       "storyHtml": "<p>Watching birds can help scientists, but counting them is not as simple as it sounds. During a garden birdwatch, Leo saw three sparrows together near a feeder. They flew away. Later, five sparrows arrived. He first wrote eight in his notebook.</p><p>His teacher explained a rule used in Project FeederWatch: for each kind of bird, record the largest number seen together at one time. Adding every visit could mean counting the same bird again. Leo changed his number to five.</p><p>He also wrote down how long he watched. Some days, he saw very little, but he still kept careful notes. The aim was not to get the biggest number. When many people follow the same rules, their observations become more useful. A quiet half hour by a window can be part of a much bigger picture.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1UsRmOBrsDKjaSUSCPyH3OMI_2AinR8sFTeUU1UBmNsQ/edit?usp=drivesdk",
         "question": 32,

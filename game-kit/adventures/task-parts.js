@@ -65,9 +65,10 @@
  function automatic(q,id){
   if(q.dictation)return !!q.questionAudio;
   if(id==='van-lang'){
-   const d=describe(q),gap=/_{2,}|\.{2,}|…/.test(q.scene||'')||/Gap|Write/.test(d.type)||/fill|cloze|điền/i.test(q.sourceSection||q.section||'');
-   const passage=q.storyText||q.readingPassage||q.passage||q.scene||'';
-   return !gap&&String(passage).split(/\s+/).length<55;
+   const d=describe(q),gap=q.passageKind==='cloze'||/^blank\s*\(/i.test(q.scene||'')||/_{2,}|\.{2,}|…/.test(q.scene||'')||/Gap|Write/.test(d.type)||/fill|cloze|điền/i.test(q.sourceSection||q.section||'');
+   // The passage is a reading reference, never an automatic narration source.
+   const question=String(q.scene||'').trim();
+   return !gap&&!!question&&question.split(/\s+/).length<55;
   }
   return stream(q,id);
  }
@@ -75,7 +76,10 @@
  function speech(q,options={}){
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.
   if(hiddenStory(q,options.course))return [q.storySentence||q.spokenScene].filter(Boolean);
-  const scene=String(q.spokenScene??q.scene??'').trim(),prompt=String(q.spokenPrompt??q.prompt??'').trim();
+  // Some older banks used the four options as spokenScene when the prompt was
+  // empty. Văn Lang must always use the actual question, including cached banks.
+  const scene=String((options.course==='van-lang'?q.scene:q.spokenScene??q.scene)??'').trim(),prompt=String((options.course==='van-lang'?q.prompt:q.spokenPrompt??q.prompt)??'').trim();
+  if(options.course==='van-lang'&&/^blank\s*\(/i.test(scene))return [];
   const out=[];
   // An imperative can be the actual clue ("Read books", "Look! The bus is
   // coming"). Only exact direction placeholders are omitted from scene audio.

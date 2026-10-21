@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL GARDENER",
       "storyText": "Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.",
       "storyHtml": "<p>Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.</p><p>Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.</p><p>Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL GARDENER",
       "storyText": "Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.",
       "storyHtml": "<p>Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.</p><p>Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.</p><p>Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL GARDENER",
       "storyText": "Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.",
       "storyHtml": "<p>Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.</p><p>Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.</p><p>Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL GARDENER",
       "storyText": "Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.",
       "storyHtml": "<p>Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.</p><p>Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.</p><p>Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "OUR SCHOOL GARDENER",
       "storyText": "Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.",
       "storyHtml": "<p>Mr Long is the gardener at Sunrise Primary School. He arrives early every morning and checks the plants. He is strong enough to carry heavy pots, but he is also very (23) ________ with young pupils. When they ask questions, he listens carefully and answers them.</p><p>Last Thursday, a storm broke some branches, so Mr Long (24) ________ the garden safe before classes began by putting them away. Several pupils helped him, and he thanked them for being active and (25) ________.</p><p>Next month, he is going to (26) ________ the science club how to grow flowers from seeds. Many pupils would like to join that (27) ________ because they want to make the school greener.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "A SMALL HONEST CHOICE",
       "storyText": "During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.About an hour later, a visitor came to the office. She was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that returning a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.",
       "storyHtml": "<p>During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.</p><p>About an hour later, a visitor came to the office. <u>She</u> was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.</p><p>The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that <u>returning</u> a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "A SMALL HONEST CHOICE",
       "storyText": "During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.About an hour later, a visitor came to the office. She was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that returning a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.",
       "storyHtml": "<p>During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.</p><p>About an hour later, a visitor came to the office. <u>She</u> was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.</p><p>The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that <u>returning</u> a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "A SMALL HONEST CHOICE",
       "storyText": "During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.About an hour later, a visitor came to the office. She was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that returning a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.",
       "storyHtml": "<p>During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.</p><p>About an hour later, a visitor came to the office. <u>She</u> was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.</p><p>The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that <u>returning</u> a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "A SMALL HONEST CHOICE",
       "storyText": "During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.About an hour later, a visitor came to the office. She was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that returning a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.",
       "storyHtml": "<p>During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.</p><p>About an hour later, a visitor came to the office. <u>She</u> was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.</p><p>The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that <u>returning</u> a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "A SMALL HONEST CHOICE",
       "storyText": "During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.About an hour later, a visitor came to the office. She was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that returning a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.",
       "storyHtml": "<p>During break time on Monday, Nhi found a blue wallet under a bench near the playground. She did not open it to look for money. Instead, she took it to the school office and asked the teacher to help find the owner.</p><p>About an hour later, a visitor came to the office. <u>She</u> was a slim woman in a nurse’s uniform, and she said the wallet was hers. Before returning it, the teacher asked her to describe what was inside. The woman mentioned a family photo and a small red card, so the teacher knew that she was the owner.</p><p>The nurse thanked Nhi and offered her some money, but Nhi politely said no. She explained that <u>returning</u> a lost thing was simply the honest thing to do. Later, the class chose Nhi as their Helpful Pupil of the Week.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1dEbJkmAvH-zvETdwRnU6dMwRuo3svjIfvuRk2BlYd8w",
         "question": 32,

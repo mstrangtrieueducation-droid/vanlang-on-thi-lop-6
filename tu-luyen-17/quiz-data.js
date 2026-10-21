@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.",
       "storyHtml": "<p>Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.",
       "storyHtml": "<p>Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.",
       "storyHtml": "<p>Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.",
       "storyHtml": "<p>Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.",
       "storyHtml": "<p>Last Friday, our class opened (23) ____ small hobby corner. Each pupil brought one thing to share. I brought my stamp book and put it (24) ____ the table near the window. Linh showed us how to make paper birds. Her instructions were clear, (25) ____ everyone could follow them. We worked in pairs and helped our partners. At the end, we voted for our favourite (26) ____. We enjoyed the afternoon so much that we asked our teacher to organise (27) ____ one next month.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.",
       "storyHtml": "<p>When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.</p><p>Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.</p><p>Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.",
       "storyHtml": "<p>When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.</p><p>Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.</p><p>Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.",
       "storyHtml": "<p>When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.</p><p>Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.</p><p>Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.",
       "storyHtml": "<p>When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.</p><p>Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.</p><p>Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "Reading",
       "storyText": "When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.",
       "storyHtml": "<p>When Ella visited the library to borrow a book about birds, she noticed something unusual behind the desk: a pair of binoculars. These help people see distant things more clearly. The librarian explained that families could borrow them for a week, just like books.</p><p>Ella's family wanted to try birdwatching, but they did not own any binoculars. On Saturday, they took the borrowed pair to the park. At first, Ella could only see moving leaves. Then her father showed her how to hold the binoculars steady. Soon, she spotted a tiny bird carrying grass to a tree.</p><p>Before returning the binoculars, Ella wrote a note for the next family: start with birds that are sitting still. She had borrowed one object, but it had opened up a new hobby.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1LA1z6UOBJ7UDp_4eYtVrg3WpbqyeCq6dM3YUADvX0ZA/edit?usp=drivesdk",
         "question": 32,

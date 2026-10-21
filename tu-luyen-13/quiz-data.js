@@ -20,7 +20,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "pens, pencils, rulers, stops.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "pens",
@@ -57,7 +57,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "foot, food, good, took.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "foot",
@@ -94,7 +94,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "address, again, today, comic.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "address",
@@ -131,7 +131,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "hometown, morning, surprise, district.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "hometown",
@@ -856,6 +856,7 @@ window.ADVENTURE={
       "storyTitle": "Robert's Magic Flying Mat",
       "storyText": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
       "storyHtml": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
@@ -897,6 +898,7 @@ window.ADVENTURE={
       "storyTitle": "Robert's Magic Flying Mat",
       "storyText": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
       "storyHtml": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
@@ -938,6 +940,7 @@ window.ADVENTURE={
       "storyTitle": "Robert's Magic Flying Mat",
       "storyText": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
       "storyHtml": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
@@ -979,6 +982,7 @@ window.ADVENTURE={
       "storyTitle": "Robert's Magic Flying Mat",
       "storyText": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
       "storyHtml": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
@@ -1020,6 +1024,7 @@ window.ADVENTURE={
       "storyTitle": "Robert's Magic Flying Mat",
       "storyText": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
       "storyHtml": "It was Robert's birthday yesterday. He wanted a toy which could take him through space but that's very hard to find! He got up very early and ran downstairs to the kitchen. No-one was there and the house was very (23) ______. \"This is strange,\" he thought. Then he saw an old mat on the table. He put it on the floor and stood on it carefully. Suddenly, it (24) ______ up into the air and took Robert through the clouds to a (25) ______ with lots of flags on top. It had a big door. Robert opened it and saw a lovely garden which was full of flowers. There was a lake there, too. A beautiful (26) ______ swam on the water. There was a picnic with a birthday cake on the grass, too. He looked at it and saw his name on it! The mat stopped and Robert got off. He (27) ______ to eat the cake when, suddenly, he woke up! It was all a dream.",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
@@ -1061,7 +1066,8 @@ window.ADVENTURE={
       "storyTitle": "David meets a famous footballer!",
       "storyText": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.\n\nOne day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.\n\nThe next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
       "storyHtml": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.<br><br>One day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.<br><br>The next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
         "question": 28,
@@ -1102,7 +1108,8 @@ window.ADVENTURE={
       "storyTitle": "David meets a famous footballer!",
       "storyText": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.\n\nOne day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.\n\nThe next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
       "storyHtml": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.<br><br>One day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.<br><br>The next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
         "question": 29,
@@ -1143,7 +1150,8 @@ window.ADVENTURE={
       "storyTitle": "David meets a famous footballer!",
       "storyText": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.\n\nOne day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.\n\nThe next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
       "storyHtml": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.<br><br>One day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.<br><br>The next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
         "question": 30,
@@ -1184,7 +1192,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 31,
@@ -1225,7 +1234,8 @@ window.ADVENTURE={
       "storyTitle": "Uncle Tom has a difficult day!",
       "storyText": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.\n\nOne day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.\n\nThe policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.\n\nThe policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
       "storyHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
         "question": 32,

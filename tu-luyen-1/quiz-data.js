@@ -17,7 +17,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "pens, pencils, rulers, stops.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "pens",
@@ -54,7 +54,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "foot, food, good, took.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "foot",
@@ -91,7 +91,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "address, again, today, comic.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "address",
@@ -128,7 +128,7 @@ window.ADVENTURE={
       "exam": true,
       "scene": "",
       "sceneHtml": "",
-      "spokenScene": "hometown, morning, surprise, district.",
+      "spokenScene": "",
       "prompt": "",
       "options": [
         "hometown",
@@ -853,6 +853,7 @@ window.ADVENTURE={
       "storyTitle": "Fred’s Holiday",
       "storyText": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"\n\nBut Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
       "storyHtml": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"<br><br>But Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
@@ -894,6 +895,7 @@ window.ADVENTURE={
       "storyTitle": "Fred’s Holiday",
       "storyText": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"\n\nBut Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
       "storyHtml": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"<br><br>But Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
@@ -935,6 +937,7 @@ window.ADVENTURE={
       "storyTitle": "Fred’s Holiday",
       "storyText": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"\n\nBut Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
       "storyHtml": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"<br><br>But Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
@@ -976,6 +979,7 @@ window.ADVENTURE={
       "storyTitle": "Fred’s Holiday",
       "storyText": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"\n\nBut Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
       "storyHtml": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"<br><br>But Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
@@ -1017,6 +1021,7 @@ window.ADVENTURE={
       "storyTitle": "Fred’s Holiday",
       "storyText": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"\n\nBut Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
       "storyHtml": "On his last holiday, Fred went to a beautiful island. His family swam and played a lot of tennis there and at the end of the holiday, Fred didn't want to go home. But they had to! They went to the (23) ______ to catch their plane. The plane was late and they had to (24) ______ there for twelve hours. It was very boring for Fred and the room there was (25) ______ and full of people. But at last they could leave. When the plane was near London, the pilot said, \"Sorry, everyone. The weather's too (26) ______ for the plane to stop here. We'll fly to another city and you can catch a train to London.\"<br><br>But Fred and his family arrived too late to catch the last train so they (27) ______ in a hotel. They didn't get home until the next afternoon, so Fred had one more day of holiday from school. He was very happy!",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
@@ -1058,7 +1063,8 @@ window.ADVENTURE={
       "storyTitle": "Robert, Harry and the clever dog!",
       "storyText": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.\n\nThen Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"\n\nHarry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.\n\nWhen they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"\n\n\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
       "storyHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
         "question": 28,
@@ -1099,7 +1105,8 @@ window.ADVENTURE={
       "storyTitle": "Robert, Harry and the clever dog!",
       "storyText": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.\n\nThen Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"\n\nHarry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.\n\nWhen they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"\n\n\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
       "storyHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
         "question": 29,
@@ -1140,7 +1147,8 @@ window.ADVENTURE={
       "storyTitle": "Robert, Harry and the clever dog!",
       "storyText": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.\n\nThen Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"\n\nHarry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.\n\nWhen they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"\n\n\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
       "storyHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
         "question": 30,
@@ -1181,7 +1189,8 @@ window.ADVENTURE={
       "storyTitle": "Robert, Harry and the clever dog!",
       "storyText": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.\n\nThen Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"\n\nHarry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.\n\nWhen they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"\n\n\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
       "storyHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
         "question": 31,
@@ -1222,7 +1231,8 @@ window.ADVENTURE={
       "storyTitle": "Robert, Harry and the clever dog!",
       "storyText": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.\n\nThen Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"\n\nHarry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.\n\nWhen they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"\n\n\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
       "storyHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\"",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
         "question": 32,

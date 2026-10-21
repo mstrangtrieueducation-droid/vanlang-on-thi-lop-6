@@ -862,6 +862,7 @@ window.ADVENTURE={
       "storyTitle": "OUR READING PROJECT",
       "storyText": "Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.",
       "storyHtml": "<p>Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
@@ -903,6 +904,7 @@ window.ADVENTURE={
       "storyTitle": "OUR READING PROJECT",
       "storyText": "Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.",
       "storyHtml": "<p>Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
@@ -944,6 +946,7 @@ window.ADVENTURE={
       "storyTitle": "OUR READING PROJECT",
       "storyText": "Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.",
       "storyHtml": "<p>Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
@@ -985,6 +988,7 @@ window.ADVENTURE={
       "storyTitle": "OUR READING PROJECT",
       "storyText": "Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.",
       "storyHtml": "<p>Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
@@ -1026,6 +1030,7 @@ window.ADVENTURE={
       "storyTitle": "OUR READING PROJECT",
       "storyText": "Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.",
       "storyHtml": "<p>Last month, our class began (23) ________ story project. Each group chose a different topic. My group decided to create an (24) ________ about a lost turtle. Classes ended at four, and we started work fifteen minutes (25) ________ school every Tuesday. Hoa drew colourful pictures, and Nam wrote short dialogues for the characters. We chose simple sentences, (26) ________ younger pupils could understand the story easily. On Friday, we showed our first version to the class. Everyone listened carefully and gave us useful ideas. (27) ________, our teacher asked us to improve the ending before the school festival.</p>",
+      "passageKind": "cloze",
       "partType": "readGap",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
@@ -1067,7 +1072,8 @@ window.ADVENTURE={
       "storyTitle": "A BOOK FOR MINH’S PROJECT",
       "storyText": "Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested The Map in the Old Tower. It is an adventure story about a boy named Ben.In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.",
       "storyHtml": "<p>Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested <em>The Map in the Old Tower</em>. It is an adventure story about a boy named Ben.</p><p>In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.</p><p>Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
         "question": 28,
@@ -1108,7 +1114,8 @@ window.ADVENTURE={
       "storyTitle": "A BOOK FOR MINH’S PROJECT",
       "storyText": "Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested The Map in the Old Tower. It is an adventure story about a boy named Ben.In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.",
       "storyHtml": "<p>Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested <em>The Map in the Old Tower</em>. It is an adventure story about a boy named Ben.</p><p>In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.</p><p>Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
         "question": 29,
@@ -1149,7 +1156,8 @@ window.ADVENTURE={
       "storyTitle": "A BOOK FOR MINH’S PROJECT",
       "storyText": "Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested The Map in the Old Tower. It is an adventure story about a boy named Ben.In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.",
       "storyHtml": "<p>Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested <em>The Map in the Old Tower</em>. It is an adventure story about a boy named Ben.</p><p>In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.</p><p>Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
         "question": 30,
@@ -1190,7 +1198,8 @@ window.ADVENTURE={
       "storyTitle": "A BOOK FOR MINH’S PROJECT",
       "storyText": "Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested The Map in the Old Tower. It is an adventure story about a boy named Ben.In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.",
       "storyHtml": "<p>Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested <em>The Map in the Old Tower</em>. It is an adventure story about a boy named Ben.</p><p>In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.</p><p>Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
         "question": 31,
@@ -1231,7 +1240,8 @@ window.ADVENTURE={
       "storyTitle": "A BOOK FOR MINH’S PROJECT",
       "storyText": "Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested The Map in the Old Tower. It is an adventure story about a boy named Ben.In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.",
       "storyHtml": "<p>Last Saturday, Minh went to the school library to find a story for his class reading project. The librarian suggested <em>The Map in the Old Tower</em>. It is an adventure story about a boy named Ben.</p><p>In the story, Ben finds an old map inside a history book. He and his sister follow its clues to a tower. They expect to find gold, but they discover a box of letters from their great-grandmother instead. The story is exciting, but it is not spooky.</p><p>Minh liked the two main characters because they were curious and helpful. After reading, he wrote a short review and drew a picture of the tower for the classroom display. He planned to tell his classmates about the book.</p>",
-      "partType": "readGap",
+      "passageKind": "reading",
+      "partType": "readChoose",
       "source": {
         "url": "https://docs.google.com/document/d/140Nn9t1sPLUB7vswmBN6Q04i4uLrlonUxjJEl9hO1fE/edit",
         "question": 32,
