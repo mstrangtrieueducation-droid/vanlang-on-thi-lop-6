@@ -23,15 +23,15 @@
       "example": "What's the weather like?",
       "usage": "It is dùng để tả thời tiết.",
       "exampleVi": "Thời tiết thế nào?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Remember",
-      "note": "Use “It is” to describe weather. Instructions start with a base verb, such as “Put”, “Open” or “Wear”.",
+      "tag": "Điểm cần nhớ",
+      "note": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
       "example": "Don't open the window.",
-      "usage": "Use “It is” to describe weather.",
+      "usage": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
       "exampleVi": "Đừng mở cửa sổ.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "liked"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "What's the weather like?\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “like”. It is dùng để tả thời tiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "A storm has started. The class is inside with the teacher.\nWhat's the weather ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What's the weather like?",
+        "vi": "Thời tiết thế nào?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-1-2-context2",
@@ -92,7 +96,7 @@
         "is"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "It is raining.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “is”. It is dùng để tả thời tiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "A storm has started. The class is inside with the teacher.\nIt ___ raining.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It is raining.",
+        "vi": "Trời đang mưa."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-1-3-context2",
@@ -126,7 +134,7 @@
         "in"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Put on your coat. It's cold.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “on”. It is dùng để tả thời tiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "A storm has started. The class is inside with the teacher.\nPut ___ your coat. It's cold.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Put on your coat. It's cold.",
+        "vi": "Mặc áo khoác vào nhé. Trời lạnh đấy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-1-4-context2",
@@ -160,7 +172,7 @@
         "opening"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Don't open the window.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “open”. It is dùng để tả thời tiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "A storm has started. The class is inside with the teacher.\nDon't ___ the window.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Don't open the window.",
+        "vi": "Đừng mở cửa sổ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-1-5-context2",
@@ -194,7 +210,7 @@
         "made"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Let's make a snowman.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “make”. It is dùng để tả thời tiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "A storm has started. The class is inside with the teacher.\nLet's ___ a snowman.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Let's make a snowman.",
+        "vi": "Chúng mình cùng làm người tuyết nhé."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-2-1-context2",
@@ -228,7 +248,7 @@
         "like"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "What's the weather like?\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “like”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "What's the weather like?",
+        "vi": "Thời tiết thế nào?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-2-2-context2",
@@ -264,7 +288,7 @@
         "are"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "It is raining.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “is”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It is raining.",
+        "vi": "Trời đang mưa."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-2-3-context2",
@@ -300,7 +328,7 @@
         "under"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Put on your coat. It's cold.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “on”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Put on your coat. It's cold.",
+        "vi": "Mặc áo khoác vào nhé. Trời lạnh đấy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-2-4-context2",
@@ -336,7 +368,7 @@
         "opened"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Don't open the window.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “open”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Don't open the window.",
+        "vi": "Đừng mở cửa sổ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-2-5-context2",
@@ -372,7 +408,7 @@
         "make"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Let's make a snowman.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “make”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Let's make a snowman.",
+        "vi": "Chúng mình cùng làm người tuyết nhé."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-3-1-context2",
@@ -408,7 +448,7 @@
         "likes"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "What's the weather like?\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “like”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "What's the weather like?",
+        "vi": "Thời tiết thế nào?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-3-2-context2",
@@ -445,7 +489,7 @@
         "am"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "It is raining.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “is”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It is raining.",
+        "vi": "Trời đang mưa."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-3-3-context2",
@@ -482,7 +530,7 @@
         "between"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Put on your coat. It's cold.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “on”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Put on your coat. It's cold.",
+        "vi": "Mặc áo khoác vào nhé. Trời lạnh đấy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-3-4-context2",
@@ -519,7 +571,7 @@
         "open"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Don't open the window.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “open”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Don't open the window.",
+        "vi": "Đừng mở cửa sổ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-3-5-context2",
@@ -556,7 +612,7 @@
         "makes"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Let's make a snowman.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “make”. It is dùng để tả thời tiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Let's make a snowman.",
+        "vi": "Chúng mình cùng làm người tuyết nhé."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-4-1-context2",
@@ -593,7 +653,7 @@
         "like? → weather → What's the"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "What's the weather like?\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “What's the → weather → like?”. It is dùng để tả thời tiết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "weather",
         "like?",
         "What's the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "What's the weather like?",
+        "vi": "Thời tiết thế nào?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-4-2-context2",
@@ -632,7 +696,7 @@
         "raining. → is → It"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "It is raining.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “It → is → raining.”. It is dùng để tả thời tiết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "is",
         "raining.",
         "It"
-      ]
+      ],
+      "explanationExample": {
+        "en": "It is raining.",
+        "vi": "Trời đang mưa."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-4-3-context2",
@@ -671,7 +739,7 @@
         "It's cold. → your coat. → Put on"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Put on your coat. It's cold.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “Put on → your coat. → It's cold.”. It is dùng để tả thời tiết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "your coat.",
         "It's cold.",
         "Put on"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Put on your coat. It's cold.",
+        "vi": "Mặc áo khoác vào nhé. Trời lạnh đấy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-4-4-context2",
@@ -710,7 +782,7 @@
         "window. → the → Don't open"
       ],
       "hint": "It is dùng để tả thời tiết. Lời nhắc bắt đầu bằng động từ như Put, Open hoặc Wear.",
-      "why": "Don't open the window.\nIt is dùng để tả thời tiết.",
+      "why": "Chọn “Don't open → the → window.”. It is dùng để tả thời tiết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "the",
         "window.",
         "Don't open"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Don't open the window.",
+        "vi": "Đừng mở cửa sổ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u10-4-5-context2-life",

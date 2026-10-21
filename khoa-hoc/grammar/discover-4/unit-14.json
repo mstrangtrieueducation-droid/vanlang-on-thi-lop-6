@@ -9,76 +9,76 @@
   },
   "summary": [
     {
-      "tag": "Form",
+      "tag": "Cấu trúc cần ghi nhớ",
       "note": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "example": "The reporter has interviewed the mayor.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "have / has",
           "+",
-          "past participle"
+          "phân từ quá khứ"
         ]
       ],
       "usage": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "exampleVi": "Phóng viên đã phỏng vấn thị trưởng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Unspecified past",
+      "tag": "Quá khứ không nêu thời điểm cụ thể",
       "note": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
       "example": "The editor has decided which headline to use.",
       "formula": [
         [
-          "unspecified past",
+          "quá khứ không nêu thời điểm",
           "->",
-          "present perfect"
+          "thì hiện tại hoàn thành"
         ],
         [
-          "finished past time",
+          "thời điểm quá khứ đã kết thúc",
           "->",
-          "simple past"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "exampleVi": "Người biên tập đã quyết định sử dụng tiêu đề nào.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Past participles",
+      "tag": "Phân từ quá khứ",
       "note": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
       "example": "The journalist has written a story about a hero.",
       "formula": [
         [
-          "regular:",
-          "verb + ed"
+          "có quy tắc:",
+          "động từ + ed"
         ],
         [
-          "irregular:",
+          "bất quy tắc:",
           "write -> written, see -> seen"
         ]
       ],
       "usage": "Write thành written, do thành done, go thành gone, see thành seen.",
       "exampleVi": "Nhà báo đã viết một câu chuyện về một anh hùng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative and questions",
+      "tag": "Câu phủ định và câu hỏi",
       "note": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
       "example": "Has the editor found the mistake? No, she hasn't.",
       "formula": [
         [
-          "subject + haven't / hasn't + past participle"
+          "chủ ngữ + haven't / hasn't + phân từ quá khứ"
         ],
         [
-          "Have / Has + subject + past participle",
+          "Have / Has + chủ ngữ + phân từ quá khứ",
           "?"
         ]
       ],
       "usage": "Dạng nói gọn gồm haven't và hasn't.",
       "exampleVi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -94,8 +94,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "has",
       "options": [
         "has",
@@ -104,7 +104,7 @@
         "to have"
       ],
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
-      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "Chọn “has”. Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -113,7 +113,11 @@
       "spokenScene": "",
       "scene": "A school news report describes a close defeat. The team played well, but the final score was lower.\nThe reporter ___ interviewed the mayor.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The reporter has interviewed the mayor.",
+        "vi": "Phóng viên đã phỏng vấn thị trưởng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-1-2-context2",
@@ -127,8 +131,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Unspecified past",
-      "title": "Unspecified past",
+      "focus": "Quá khứ không nêu thời điểm cụ thể",
+      "title": "Quá khứ không nêu thời điểm cụ thể",
       "answer": "has",
       "options": [
         "have",
@@ -137,7 +141,7 @@
         "has"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "why": "Chọn “has”. Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -146,7 +150,11 @@
       "spokenScene": "",
       "scene": "A school news report describes a close defeat. The team played well, but the final score was lower.\nThe editor ___ decided which headline to use.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The editor has decided which headline to use.",
+        "vi": "Người biên tập đã quyết định sử dụng tiêu đề nào."
+      }
     },
     {
       "id": "discover-4-grammar-u14-1-3-context2",
@@ -160,8 +168,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past participles",
-      "title": "Past participles",
+      "focus": "Phân từ quá khứ",
+      "title": "Phân từ quá khứ",
       "answer": "written",
       "options": [
         "write",
@@ -170,7 +178,7 @@
         "wrote"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
+      "why": "Chọn “written”. Write thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -179,7 +187,11 @@
       "spokenScene": "",
       "scene": "A school news report describes a close defeat. The team played well, but the final score was lower.\nThe journalist has ___ a story about a hero.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The journalist has written a story about a hero.",
+        "vi": "Nhà báo đã viết một câu chuyện về một anh hùng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-1-4-context2",
@@ -193,8 +205,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative and questions",
-      "title": "Negative and questions",
+      "focus": "Câu phủ định và câu hỏi",
+      "title": "Câu phủ định và câu hỏi",
       "answer": "found",
       "options": [
         "finding",
@@ -203,7 +215,7 @@
         "finds"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
+      "why": "Chọn “found”. Dạng nói gọn gồm haven't và hasn't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -212,7 +224,11 @@
       "spokenScene": "",
       "scene": "A school news report describes a close defeat. The team played well, but the final score was lower.\nHas the editor ___ the mistake? No, she hasn't.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Has the editor found the mistake? No, she hasn't.",
+        "vi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có."
+      }
     },
     {
       "id": "discover-4-grammar-u14-2-1-context2",
@@ -226,8 +242,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "has",
       "options": [
         "have",
@@ -236,7 +252,7 @@
         "has"
       ],
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
-      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "Chọn “has”. Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -247,7 +263,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The reporter has interviewed the mayor.",
+        "vi": "Phóng viên đã phỏng vấn thị trưởng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-2-2-context2",
@@ -261,8 +281,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Unspecified past",
-      "title": "Unspecified past",
+      "focus": "Quá khứ không nêu thời điểm cụ thể",
+      "title": "Quá khứ không nêu thời điểm cụ thể",
       "answer": "has",
       "options": [
         "having",
@@ -271,7 +291,7 @@
         "have"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "why": "Chọn “has”. Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -282,7 +302,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The editor has decided which headline to use.",
+        "vi": "Người biên tập đã quyết định sử dụng tiêu đề nào."
+      }
     },
     {
       "id": "discover-4-grammar-u14-2-3-context2",
@@ -296,8 +320,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past participles",
-      "title": "Past participles",
+      "focus": "Phân từ quá khứ",
+      "title": "Phân từ quá khứ",
       "answer": "written",
       "options": [
         "writes",
@@ -306,7 +330,7 @@
         "write"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
+      "why": "Chọn “written”. Write thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -317,7 +341,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The journalist has written a story about a hero.",
+        "vi": "Nhà báo đã viết một câu chuyện về một anh hùng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-2-4-context2",
@@ -331,8 +359,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative and questions",
-      "title": "Negative and questions",
+      "focus": "Câu phủ định và câu hỏi",
+      "title": "Câu phủ định và câu hỏi",
       "answer": "found",
       "options": [
         "found",
@@ -341,7 +369,7 @@
         "finding"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
+      "why": "Chọn “found”. Dạng nói gọn gồm haven't và hasn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -352,7 +380,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Has the editor found the mistake? No, she hasn't.",
+        "vi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có."
+      }
     },
     {
       "id": "discover-4-grammar-u14-3-1-context2",
@@ -366,8 +398,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "has",
       "options": [
         "having",
@@ -376,7 +408,7 @@
         "have"
       ],
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
-      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "Chọn “has”. Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -388,7 +420,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The reporter has interviewed the mayor.",
+        "vi": "Phóng viên đã phỏng vấn thị trưởng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-3-2-context2",
@@ -402,8 +438,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Unspecified past",
-      "title": "Unspecified past",
+      "focus": "Quá khứ không nêu thời điểm cụ thể",
+      "title": "Quá khứ không nêu thời điểm cụ thể",
       "answer": "has",
       "options": [
         "to have",
@@ -412,7 +448,7 @@
         "having"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "why": "Chọn “has”. Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -424,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The editor has decided which headline to use.",
+        "vi": "Người biên tập đã quyết định sử dụng tiêu đề nào."
+      }
     },
     {
       "id": "discover-4-grammar-u14-3-3-context2",
@@ -438,8 +478,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past participles",
-      "title": "Past participles",
+      "focus": "Phân từ quá khứ",
+      "title": "Phân từ quá khứ",
       "answer": "written",
       "options": [
         "written",
@@ -448,7 +488,7 @@
         "writes"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
+      "why": "Chọn “written”. Write thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -460,7 +500,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The journalist has written a story about a hero.",
+        "vi": "Nhà báo đã viết một câu chuyện về một anh hùng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-3-4-context2",
@@ -474,8 +518,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative and questions",
-      "title": "Negative and questions",
+      "focus": "Câu phủ định và câu hỏi",
+      "title": "Câu phủ định và câu hỏi",
       "answer": "found",
       "options": [
         "find",
@@ -484,7 +528,7 @@
         "found"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
+      "why": "Chọn “found”. Dạng nói gọn gồm haven't và hasn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -496,7 +540,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Has the editor found the mistake? No, she hasn't.",
+        "vi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có."
+      }
     },
     {
       "id": "discover-4-grammar-u14-4-1-context2",
@@ -510,8 +558,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "The reporter → has interviewed → the mayor.",
       "options": [
         "The reporter → has interviewed → the mayor.",
@@ -520,7 +568,7 @@
         "the mayor. → has interviewed → The reporter"
       ],
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
-      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "Chọn “The reporter → has interviewed → the mayor.”. Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -534,7 +582,11 @@
         "has interviewed",
         "the mayor.",
         "The reporter"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The reporter has interviewed the mayor.",
+        "vi": "Phóng viên đã phỏng vấn thị trưởng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-4-2-context2",
@@ -548,8 +600,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Unspecified past",
-      "title": "Unspecified past",
+      "focus": "Quá khứ không nêu thời điểm cụ thể",
+      "title": "Quá khứ không nêu thời điểm cụ thể",
       "answer": "The editor has → decided which headline → to use.",
       "options": [
         "The editor has → decided which headline → to use.",
@@ -558,7 +610,7 @@
         "to use. → decided which headline → The editor has"
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "why": "Chọn “The editor has → decided which headline → to use.”. Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -572,7 +624,11 @@
         "decided which headline",
         "to use.",
         "The editor has"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The editor has decided which headline to use.",
+        "vi": "Người biên tập đã quyết định sử dụng tiêu đề nào."
+      }
     },
     {
       "id": "discover-4-grammar-u14-4-3-context2",
@@ -586,8 +642,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past participles",
-      "title": "Past participles",
+      "focus": "Phân từ quá khứ",
+      "title": "Phân từ quá khứ",
       "answer": "The journalist has → written a story → about a hero.",
       "options": [
         "The journalist has → written a story → about a hero.",
@@ -596,7 +652,7 @@
         "about a hero. → written a story → The journalist has"
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
+      "why": "Chọn “The journalist has → written a story → about a hero.”. Write thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -610,7 +666,11 @@
         "written a story",
         "about a hero.",
         "The journalist has"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The journalist has written a story about a hero.",
+        "vi": "Nhà báo đã viết một câu chuyện về một anh hùng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-4-4-context2",
@@ -624,8 +684,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative and questions",
-      "title": "Negative and questions",
+      "focus": "Câu phủ định và câu hỏi",
+      "title": "Câu phủ định và câu hỏi",
       "answer": "Has the editor → found the mistake? → No, she hasn't.",
       "options": [
         "Has the editor → found the mistake? → No, she hasn't.",
@@ -634,7 +694,7 @@
         "No, she hasn't. → found the mistake? → Has the editor"
       ],
       "hint": "Dạng nói gọn gồm haven't và hasn't. Câu trả lời ngắn lặp have/has, không lặp động từ chính.",
-      "why": "Has the editor found the mistake? No, she hasn't.\nDạng nói gọn gồm haven't và hasn't.",
+      "why": "Chọn “Has the editor → found the mistake? → No, she hasn't.”. Dạng nói gọn gồm haven't và hasn't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -648,7 +708,11 @@
         "found the mistake?",
         "No, she hasn't.",
         "Has the editor"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Has the editor found the mistake? No, she hasn't.",
+        "vi": "Biên tập viên có tìm ra lỗi không? Không, cô ấy không có."
+      }
     },
     {
       "id": "discover-4-grammar-u14-5-1-context2",
@@ -662,8 +726,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "The reporter has interviewed the mayor.",
       "options": [
         "The reporter has interviewed the mayor.",
@@ -672,7 +736,7 @@
         "The reporter to have interviewed the mayor."
       ],
       "hint": "Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
-      "why": "The reporter has interviewed the mayor.\nDùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
+      "why": "Chọn “The reporter has interviewed the mayor.”. Dùng has với he, she, it và danh từ số ít; dùng have với I, you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -683,7 +747,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The reporter has interviewed the mayor.",
+        "vi": "Phóng viên đã phỏng vấn thị trưởng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-5-2-context2",
@@ -697,8 +765,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Unspecified past",
-      "title": "Unspecified past",
+      "focus": "Quá khứ không nêu thời điểm cụ thể",
+      "title": "Quá khứ không nêu thời điểm cụ thể",
       "answer": "The editor has decided which headline to use.",
       "options": [
         "The editor have decided which headline to use.",
@@ -707,7 +775,7 @@
         "The editor has decided which headline to use."
       ],
       "hint": "Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại. Nếu nêu yesterday, last week hoặc một năm đã kết thúc, thường chuyển sang quá khứ đơn.",
-      "why": "The editor has decided which headline to use.\nTrọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
+      "why": "Chọn “The editor has decided which headline to use.”. Trọng tâm là trải nghiệm hoặc kết quả liên quan đến hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -718,7 +786,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The editor has decided which headline to use.",
+        "vi": "Người biên tập đã quyết định sử dụng tiêu đề nào."
+      }
     },
     {
       "id": "discover-4-grammar-u14-5-3-context2",
@@ -732,8 +804,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past participles",
-      "title": "Past participles",
+      "focus": "Phân từ quá khứ",
+      "title": "Phân từ quá khứ",
       "answer": "The journalist has written a story about a hero.",
       "options": [
         "The journalist has write a story about a hero.",
@@ -742,7 +814,7 @@
         "The journalist has wrote a story about a hero."
       ],
       "hint": "Write thành written, do thành done, go thành gone, see thành seen. Không dùng dạng quá khứ đơn sau have/has.",
-      "why": "The journalist has written a story about a hero.\nWrite thành written, do thành done, go thành gone, see thành seen.",
+      "why": "Chọn “The journalist has written a story about a hero.”. Write thành written, do thành done, go thành gone, see thành seen.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -753,7 +825,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The journalist has written a story about a hero.",
+        "vi": "Nhà báo đã viết một câu chuyện về một anh hùng."
+      }
     },
     {
       "id": "discover-4-grammar-u14-5-4-context2-life",

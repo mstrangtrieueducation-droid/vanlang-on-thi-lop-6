@@ -9,45 +9,45 @@
   },
   "summary": [
     {
-      "tag": "Short adverbs",
+      "tag": "Trạng từ ngắn",
       "note": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
       "example": "The glassblower works faster than the assistant.",
       "formula": [
         [
-          "adverb-er",
+          "trạng từ ngắn thêm -er",
           "+",
           "than"
         ],
         [
           "the",
           "+",
-          "adverb-est"
+          "trạng từ ngắn thêm -est"
         ]
       ],
       "usage": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "exampleVi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Adverbs ending in -ly",
+      "tag": "Trạng từ tận cùng bằng -ly",
       "note": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
       "example": "Clara handled the glass more carefully than before.",
       "formula": [
         [
-          "more + adverb",
+          "more + trạng từ",
           "+",
           "than"
         ],
         [
-          "the most + adverb"
+          "the most + trạng từ"
         ]
       ],
       "usage": "Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "exampleVi": "Clara cầm cốc cẩn thận hơn trước.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Irregular adverbs",
+      "tag": "Trạng từ bất quy tắc",
       "note": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "example": "She designed the frames better this time.",
       "formula": [
@@ -68,27 +68,27 @@
       ],
       "usage": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "exampleVi": "Lần này cô ấy thiết kế khung hình tốt hơn.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Adjective or adverb?",
+      "tag": "Phân biệt tính từ và trạng từ",
       "note": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện. Careful glassblower dùng tính từ; works carefully dùng trạng từ.",
       "example": "The careful glassblower worked carefully.",
       "formula": [
         [
-          "adjective",
+          "tính từ",
           "+",
-          "noun"
+          "danh từ"
         ],
         [
-          "verb",
+          "động từ",
           "+",
-          "adverb"
+          "trạng từ"
         ]
       ],
       "usage": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
       "exampleVi": "Người thợ thổi thủy tinh cẩn thận làm việc rất cẩn thận.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -104,8 +104,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adverbs",
-      "title": "Short adverbs",
+      "focus": "Trạng từ ngắn",
+      "title": "Trạng từ ngắn",
       "answer": "faster",
       "options": [
         "faster",
@@ -114,7 +114,7 @@
         "fasts"
       ],
       "hint": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
-      "why": "The glassblower works faster than the assistant.\nFast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
+      "why": "Chọn “faster”. Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -123,7 +123,11 @@
       "spokenScene": "",
       "scene": "An interview records four people's favourite inventions. Three mention electronic devices.\nThe glassblower works ___ than the assistant.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The glassblower works faster than the assistant.",
+        "vi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý."
+      }
     },
     {
       "id": "discover-3-grammar-u14-1-2-context2",
@@ -137,8 +141,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adverbs ending in -ly",
-      "title": "Adverbs ending in -ly",
+      "focus": "Trạng từ tận cùng bằng -ly",
+      "title": "Trạng từ tận cùng bằng -ly",
       "answer": "more carefully",
       "options": [
         "carefuller",
@@ -147,7 +151,7 @@
         "more carefully"
       ],
       "hint": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
-      "why": "Clara handled the glass more carefully than before.\nKhông thêm -er/-est vào carefully, slowly hoặc quietly.",
+      "why": "Chọn “more carefully”. Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -156,7 +160,11 @@
       "spokenScene": "",
       "scene": "An interview records four people's favourite inventions. Three mention electronic devices.\nClara handled the glass ___ than before.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Clara handled the glass more carefully than before.",
+        "vi": "Clara cầm cốc cẩn thận hơn trước."
+      }
     },
     {
       "id": "discover-3-grammar-u14-1-3-context2",
@@ -170,8 +178,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular adverbs",
-      "title": "Irregular adverbs",
+      "focus": "Trạng từ bất quy tắc",
+      "title": "Trạng từ bất quy tắc",
       "answer": "better",
       "options": [
         "more better",
@@ -180,7 +188,7 @@
         "best"
       ],
       "hint": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
-      "why": "She designed the frames better this time.\nWell thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
+      "why": "Chọn “better”. Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -189,7 +197,11 @@
       "spokenScene": "",
       "scene": "An interview records four people's favourite inventions. Three mention electronic devices.\nShe designed the frames ___ this time.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She designed the frames better this time.",
+        "vi": "Lần này cô ấy thiết kế khung hình tốt hơn."
+      }
     },
     {
       "id": "discover-3-grammar-u14-1-4-context2",
@@ -203,8 +215,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adjective or adverb?",
-      "title": "Adjective or adverb?",
+      "focus": "Phân biệt tính từ và trạng từ",
+      "title": "Phân biệt tính từ và trạng từ",
       "answer": "carefully",
       "options": [
         "care",
@@ -213,7 +225,7 @@
         "carefulness"
       ],
       "hint": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện. Careful glassblower dùng tính từ; works carefully dùng trạng từ.",
-      "why": "The careful glassblower worked carefully.\nHãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
+      "why": "Chọn “carefully”. Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -222,7 +234,11 @@
       "spokenScene": "",
       "scene": "An interview records four people's favourite inventions. Three mention electronic devices.\nThe careful glassblower worked ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The careful glassblower worked carefully.",
+        "vi": "Người thợ thổi thủy tinh cẩn thận làm việc rất cẩn thận."
+      }
     },
     {
       "id": "discover-3-grammar-u14-2-1-context2",
@@ -236,8 +252,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adverbs",
-      "title": "Short adverbs",
+      "focus": "Trạng từ ngắn",
+      "title": "Trạng từ ngắn",
       "answer": "faster",
       "options": [
         "fastest",
@@ -246,7 +262,7 @@
         "faster"
       ],
       "hint": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
-      "why": "The glassblower works faster than the assistant.\nFast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
+      "why": "Chọn “faster”. Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -257,7 +273,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The glassblower works faster than the assistant.",
+        "vi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý."
+      }
     },
     {
       "id": "discover-3-grammar-u14-2-2-context2",
@@ -271,8 +291,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adverbs ending in -ly",
-      "title": "Adverbs ending in -ly",
+      "focus": "Trạng từ tận cùng bằng -ly",
+      "title": "Trạng từ tận cùng bằng -ly",
       "answer": "more carefully",
       "options": [
         "most carefully",
@@ -281,7 +301,7 @@
         "carefuller"
       ],
       "hint": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
-      "why": "Clara handled the glass more carefully than before.\nKhông thêm -er/-est vào carefully, slowly hoặc quietly.",
+      "why": "Chọn “more carefully”. Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -292,7 +312,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Clara handled the glass more carefully than before.",
+        "vi": "Clara cầm cốc cẩn thận hơn trước."
+      }
     },
     {
       "id": "discover-3-grammar-u14-2-3-context2",
@@ -306,8 +330,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular adverbs",
-      "title": "Irregular adverbs",
+      "focus": "Trạng từ bất quy tắc",
+      "title": "Trạng từ bất quy tắc",
       "answer": "better",
       "options": [
         "gooder",
@@ -316,7 +340,7 @@
         "more better"
       ],
       "hint": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
-      "why": "She designed the frames better this time.\nWell thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
+      "why": "Chọn “better”. Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -327,7 +351,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She designed the frames better this time.",
+        "vi": "Lần này cô ấy thiết kế khung hình tốt hơn."
+      }
     },
     {
       "id": "discover-3-grammar-u14-2-4-context2",
@@ -341,8 +369,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adjective or adverb?",
-      "title": "Adjective or adverb?",
+      "focus": "Phân biệt tính từ và trạng từ",
+      "title": "Phân biệt tính từ và trạng từ",
       "answer": "carefully",
       "options": [
         "carefully",
@@ -351,7 +379,7 @@
         "care"
       ],
       "hint": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện. Careful glassblower dùng tính từ; works carefully dùng trạng từ.",
-      "why": "The careful glassblower worked carefully.\nHãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
+      "why": "Chọn “carefully”. Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -362,7 +390,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The careful glassblower worked carefully.",
+        "vi": "Người thợ thổi thủy tinh cẩn thận làm việc rất cẩn thận."
+      }
     },
     {
       "id": "discover-3-grammar-u14-3-1-context2",
@@ -376,8 +408,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adverbs",
-      "title": "Short adverbs",
+      "focus": "Trạng từ ngắn",
+      "title": "Trạng từ ngắn",
       "answer": "faster",
       "options": [
         "more faster",
@@ -386,7 +418,7 @@
         "fastest"
       ],
       "hint": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
-      "why": "The glassblower works faster than the assistant.\nFast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
+      "why": "Chọn “faster”. Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -398,7 +430,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The glassblower works faster than the assistant.",
+        "vi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý."
+      }
     },
     {
       "id": "discover-3-grammar-u14-3-2-context2",
@@ -412,8 +448,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adverbs ending in -ly",
-      "title": "Adverbs ending in -ly",
+      "focus": "Trạng từ tận cùng bằng -ly",
+      "title": "Trạng từ tận cùng bằng -ly",
       "answer": "more carefully",
       "options": [
         "more careful",
@@ -422,7 +458,7 @@
         "most carefully"
       ],
       "hint": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
-      "why": "Clara handled the glass more carefully than before.\nKhông thêm -er/-est vào carefully, slowly hoặc quietly.",
+      "why": "Chọn “more carefully”. Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -434,7 +470,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Clara handled the glass more carefully than before.",
+        "vi": "Clara cầm cốc cẩn thận hơn trước."
+      }
     },
     {
       "id": "discover-3-grammar-u14-3-3-context2",
@@ -448,8 +488,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular adverbs",
-      "title": "Irregular adverbs",
+      "focus": "Trạng từ bất quy tắc",
+      "title": "Trạng từ bất quy tắc",
       "answer": "better",
       "options": [
         "better",
@@ -458,7 +498,7 @@
         "gooder"
       ],
       "hint": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
-      "why": "She designed the frames better this time.\nWell thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
+      "why": "Chọn “better”. Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -470,7 +510,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She designed the frames better this time.",
+        "vi": "Lần này cô ấy thiết kế khung hình tốt hơn."
+      }
     },
     {
       "id": "discover-3-grammar-u14-3-4-context2",
@@ -484,8 +528,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adjective or adverb?",
-      "title": "Adjective or adverb?",
+      "focus": "Phân biệt tính từ và trạng từ",
+      "title": "Phân biệt tính từ và trạng từ",
       "answer": "carefully",
       "options": [
         "careful",
@@ -494,7 +538,7 @@
         "carefully"
       ],
       "hint": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện. Careful glassblower dùng tính từ; works carefully dùng trạng từ.",
-      "why": "The careful glassblower worked carefully.\nHãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
+      "why": "Chọn “carefully”. Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -506,7 +550,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The careful glassblower worked carefully.",
+        "vi": "Người thợ thổi thủy tinh cẩn thận làm việc rất cẩn thận."
+      }
     },
     {
       "id": "discover-3-grammar-u14-4-1-context2",
@@ -520,8 +568,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adverbs",
-      "title": "Short adverbs",
+      "focus": "Trạng từ ngắn",
+      "title": "Trạng từ ngắn",
       "answer": "The glassblower works → faster than → the assistant.",
       "options": [
         "The glassblower works → faster than → the assistant.",
@@ -530,7 +578,7 @@
         "the assistant. → faster than → The glassblower works"
       ],
       "hint": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
-      "why": "The glassblower works faster than the assistant.\nFast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
+      "why": "Chọn “The glassblower works → faster than → the assistant.”. Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -544,7 +592,11 @@
         "faster than",
         "the assistant.",
         "The glassblower works"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The glassblower works faster than the assistant.",
+        "vi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý."
+      }
     },
     {
       "id": "discover-3-grammar-u14-4-2-context2",
@@ -558,8 +610,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adverbs ending in -ly",
-      "title": "Adverbs ending in -ly",
+      "focus": "Trạng từ tận cùng bằng -ly",
+      "title": "Trạng từ tận cùng bằng -ly",
       "answer": "Clara handled the → glass more carefully → than before.",
       "options": [
         "Clara handled the → glass more carefully → than before.",
@@ -568,7 +620,7 @@
         "than before. → glass more carefully → Clara handled the"
       ],
       "hint": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
-      "why": "Clara handled the glass more carefully than before.\nKhông thêm -er/-est vào carefully, slowly hoặc quietly.",
+      "why": "Chọn “Clara handled the → glass more carefully → than before.”. Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -582,7 +634,11 @@
         "glass more carefully",
         "than before.",
         "Clara handled the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Clara handled the glass more carefully than before.",
+        "vi": "Clara cầm cốc cẩn thận hơn trước."
+      }
     },
     {
       "id": "discover-3-grammar-u14-4-3-context2",
@@ -596,8 +652,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular adverbs",
-      "title": "Irregular adverbs",
+      "focus": "Trạng từ bất quy tắc",
+      "title": "Trạng từ bất quy tắc",
       "answer": "She designed the → frames better → this time.",
       "options": [
         "She designed the → frames better → this time.",
@@ -606,7 +662,7 @@
         "this time. → frames better → She designed the"
       ],
       "hint": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
-      "why": "She designed the frames better this time.\nWell thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
+      "why": "Chọn “She designed the → frames better → this time.”. Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -620,7 +676,11 @@
         "frames better",
         "this time.",
         "She designed the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She designed the frames better this time.",
+        "vi": "Lần này cô ấy thiết kế khung hình tốt hơn."
+      }
     },
     {
       "id": "discover-3-grammar-u14-4-4-context2",
@@ -634,8 +694,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adjective or adverb?",
-      "title": "Adjective or adverb?",
+      "focus": "Phân biệt tính từ và trạng từ",
+      "title": "Phân biệt tính từ và trạng từ",
       "answer": "The careful → glassblower worked → carefully.",
       "options": [
         "The careful → glassblower worked → carefully.",
@@ -644,7 +704,7 @@
         "carefully. → glassblower worked → The careful"
       ],
       "hint": "Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện. Careful glassblower dùng tính từ; works carefully dùng trạng từ.",
-      "why": "The careful glassblower worked carefully.\nHãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
+      "why": "Chọn “The careful → glassblower worked → carefully.”. Hãy xác định từ đang miêu tả một vật hay cách hành động được thực hiện.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -658,7 +718,11 @@
         "glassblower worked",
         "carefully.",
         "The careful"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The careful glassblower worked carefully.",
+        "vi": "Người thợ thổi thủy tinh cẩn thận làm việc rất cẩn thận."
+      }
     },
     {
       "id": "discover-3-grammar-u14-5-1-context2",
@@ -672,8 +736,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adverbs",
-      "title": "Short adverbs",
+      "focus": "Trạng từ ngắn",
+      "title": "Trạng từ ngắn",
       "answer": "The glassblower works faster than the assistant.",
       "options": [
         "The glassblower works faster than the assistant.",
@@ -682,7 +746,7 @@
         "The glassblower works fasts than the assistant."
       ],
       "hint": "Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est. Dùng than với so sánh hơn và the với so sánh nhất.",
-      "why": "The glassblower works faster than the assistant.\nFast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
+      "why": "Chọn “The glassblower works faster than the assistant.”. Fast, hard, early và late thường tạo dạng so sánh bằng -er/-est.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -693,7 +757,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The glassblower works faster than the assistant.",
+        "vi": "Người thổi thủy tinh làm việc nhanh hơn người trợ lý."
+      }
     },
     {
       "id": "discover-3-grammar-u14-5-2-context2",
@@ -707,8 +775,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Adverbs ending in -ly",
-      "title": "Adverbs ending in -ly",
+      "focus": "Trạng từ tận cùng bằng -ly",
+      "title": "Trạng từ tận cùng bằng -ly",
       "answer": "Clara handled the glass more carefully than before.",
       "options": [
         "Clara handled the glass carefuller than before.",
@@ -717,7 +785,7 @@
         "Clara handled the glass more carefully than before."
       ],
       "hint": "Không thêm -er/-est vào carefully, slowly hoặc quietly. Dùng more...than để so sánh hai và the most... để so sánh từ ba.",
-      "why": "Clara handled the glass more carefully than before.\nKhông thêm -er/-est vào carefully, slowly hoặc quietly.",
+      "why": "Chọn “Clara handled the glass more carefully than before.”. Không thêm -er/-est vào carefully, slowly hoặc quietly.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -728,7 +796,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Clara handled the glass more carefully than before.",
+        "vi": "Clara cầm cốc cẩn thận hơn trước."
+      }
     },
     {
       "id": "discover-3-grammar-u14-5-3-context2",
@@ -742,8 +814,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular adverbs",
-      "title": "Irregular adverbs",
+      "focus": "Trạng từ bất quy tắc",
+      "title": "Trạng từ bất quy tắc",
       "answer": "She designed the frames better this time.",
       "options": [
         "She designed the frames more better this time.",
@@ -752,7 +824,7 @@
         "She designed the frames best this time."
       ],
       "hint": "Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
-      "why": "She designed the frames better this time.\nWell thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
+      "why": "Chọn “She designed the frames better this time.”. Well thành better/best; badly thành worse/worst; far thành farther/farthest hoặc further/furthest.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -763,7 +835,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "She designed the frames better this time.",
+        "vi": "Lần này cô ấy thiết kế khung hình tốt hơn."
+      }
     },
     {
       "id": "discover-3-grammar-u14-5-4-context2-life",

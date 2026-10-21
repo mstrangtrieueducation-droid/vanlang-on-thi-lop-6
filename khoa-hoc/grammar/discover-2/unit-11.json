@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "in / on / above",
+      "tag": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "note": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "example": "There's smoke above the city.",
       "formula": [
@@ -28,10 +28,10 @@
       ],
       "usage": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "exampleVi": "Có khói phía trên thành phố.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "behind / in front of",
+      "tag": "Giới từ chỉ vị trí: phía sau và phía trước",
       "note": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
       "example": "The trash can is behind the tree.",
       "formula": [
@@ -46,10 +46,10 @@
       ],
       "usage": "Behind là ở phía sau và in front of là ở phía trước.",
       "exampleVi": "Thùng rác ở phía sau cái cây.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "across from / next to",
+      "tag": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "note": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
       "example": "The landfill is across from the park.",
       "formula": [
@@ -64,10 +64,10 @@
       ],
       "usage": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "exampleVi": "Bãi rác nằm đối diện công viên.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "between",
+      "tag": "Giới từ chỉ vị trí ở giữa",
       "note": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "example": "The trash can is between the trees.",
       "formula": [
@@ -83,7 +83,7 @@
       ],
       "usage": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "exampleVi": "Thùng rác nằm giữa những cái cây.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -99,8 +99,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "in / on / above",
-      "title": "in / on / above",
+      "focus": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
+      "title": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "answer": "above",
       "options": [
         "above",
@@ -109,7 +109,7 @@
         "across from"
       ],
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
-      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "Chọn “above”. In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -118,7 +118,11 @@
       "spokenScene": "",
       "scene": "The park has separate bins with labels. Mia is not sure where her carton belongs.\nLocation: higher than the city.\nThere's smoke ___ the city.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There's smoke above the city.",
+        "vi": "Có khói phía trên thành phố."
+      }
     },
     {
       "id": "discover-2-grammar-u11-1-2-context2",
@@ -132,8 +136,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "behind / in front of",
-      "title": "behind / in front of",
+      "focus": "Giới từ chỉ vị trí: phía sau và phía trước",
+      "title": "Giới từ chỉ vị trí: phía sau và phía trước",
       "answer": "behind",
       "options": [
         "in front of",
@@ -142,7 +146,7 @@
         "behind"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
+      "why": "Chọn “behind”. Behind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -151,7 +155,11 @@
       "spokenScene": "",
       "scene": "The park has separate bins with labels. Mia is not sure where her carton belongs.\nLocation: at the back of the tree.\nThe trash can is ___ the tree.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The trash can is behind the tree.",
+        "vi": "Thùng rác ở phía sau cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-1-3-context2",
@@ -165,8 +173,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "across from / next to",
-      "title": "across from / next to",
+      "focus": "Giới từ chỉ vị trí: đối diện và bên cạnh",
+      "title": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "answer": "across from",
       "options": [
         "between",
@@ -175,7 +183,7 @@
         "above"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "why": "Chọn “across from”. Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -184,7 +192,11 @@
       "spokenScene": "",
       "scene": "The park has separate bins with labels. Mia is not sure where her carton belongs.\nLocation: on the opposite side from the park.\nThe landfill is ___ the park.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The landfill is across from the park.",
+        "vi": "Bãi rác nằm đối diện công viên."
+      }
     },
     {
       "id": "discover-2-grammar-u11-1-4-context2",
@@ -198,8 +210,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "between",
-      "title": "between",
+      "focus": "Giới từ chỉ vị trí ở giữa",
+      "title": "Giới từ chỉ vị trí ở giữa",
       "answer": "between",
       "options": [
         "across from",
@@ -208,7 +220,7 @@
         "behind"
       ],
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
-      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "Chọn “between”. Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -217,7 +229,11 @@
       "spokenScene": "",
       "scene": "The park has separate bins with labels. Mia is not sure where her carton belongs.\nLocation: in the middle of two trees.\nThe trash can is ___ the trees.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The trash can is between the trees.",
+        "vi": "Thùng rác nằm giữa những cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-2-1-context2",
@@ -231,8 +247,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "in / on / above",
-      "title": "in / on / above",
+      "focus": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
+      "title": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "answer": "above",
       "options": [
         "behind",
@@ -241,7 +257,7 @@
         "above"
       ],
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
-      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "Chọn “above”. In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -252,7 +268,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There's smoke above the city.",
+        "vi": "Có khói phía trên thành phố."
+      }
     },
     {
       "id": "discover-2-grammar-u11-2-2-context2",
@@ -266,8 +286,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "behind / in front of",
-      "title": "behind / in front of",
+      "focus": "Giới từ chỉ vị trí: phía sau và phía trước",
+      "title": "Giới từ chỉ vị trí: phía sau và phía trước",
       "answer": "behind",
       "options": [
         "above",
@@ -276,7 +296,7 @@
         "in front of"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
+      "why": "Chọn “behind”. Behind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -287,7 +307,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The trash can is behind the tree.",
+        "vi": "Thùng rác ở phía sau cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-2-3-context2",
@@ -301,8 +325,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "across from / next to",
-      "title": "across from / next to",
+      "focus": "Giới từ chỉ vị trí: đối diện và bên cạnh",
+      "title": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "answer": "across from",
       "options": [
         "behind",
@@ -311,7 +335,7 @@
         "between"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "why": "Chọn “across from”. Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -322,7 +346,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The landfill is across from the park.",
+        "vi": "Bãi rác nằm đối diện công viên."
+      }
     },
     {
       "id": "discover-2-grammar-u11-2-4-context2",
@@ -336,8 +364,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "between",
-      "title": "between",
+      "focus": "Giới từ chỉ vị trí ở giữa",
+      "title": "Giới từ chỉ vị trí ở giữa",
       "answer": "between",
       "options": [
         "between",
@@ -346,7 +374,7 @@
         "across from"
       ],
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
-      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "Chọn “between”. Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -357,7 +385,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The trash can is between the trees.",
+        "vi": "Thùng rác nằm giữa những cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-3-1-context2",
@@ -371,8 +403,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "in / on / above",
-      "title": "in / on / above",
+      "focus": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
+      "title": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "answer": "above",
       "options": [
         "between",
@@ -381,7 +413,7 @@
         "behind"
       ],
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
-      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "Chọn “above”. In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -393,7 +425,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There's smoke above the city.",
+        "vi": "Có khói phía trên thành phố."
+      }
     },
     {
       "id": "discover-2-grammar-u11-3-2-context2",
@@ -407,8 +443,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "behind / in front of",
-      "title": "behind / in front of",
+      "focus": "Giới từ chỉ vị trí: phía sau và phía trước",
+      "title": "Giới từ chỉ vị trí: phía sau và phía trước",
       "answer": "behind",
       "options": [
         "across from",
@@ -417,7 +453,7 @@
         "above"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
+      "why": "Chọn “behind”. Behind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -429,7 +465,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The trash can is behind the tree.",
+        "vi": "Thùng rác ở phía sau cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-3-3-context2",
@@ -443,8 +483,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "across from / next to",
-      "title": "across from / next to",
+      "focus": "Giới từ chỉ vị trí: đối diện và bên cạnh",
+      "title": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "answer": "across from",
       "options": [
         "across from",
@@ -453,7 +493,7 @@
         "behind"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "why": "Chọn “across from”. Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -465,7 +505,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The landfill is across from the park.",
+        "vi": "Bãi rác nằm đối diện công viên."
+      }
     },
     {
       "id": "discover-2-grammar-u11-3-4-context2",
@@ -479,8 +523,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "between",
-      "title": "between",
+      "focus": "Giới từ chỉ vị trí ở giữa",
+      "title": "Giới từ chỉ vị trí ở giữa",
       "answer": "between",
       "options": [
         "above",
@@ -489,7 +533,7 @@
         "between"
       ],
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
-      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "Chọn “between”. Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -501,7 +545,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The trash can is between the trees.",
+        "vi": "Thùng rác nằm giữa những cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-4-1-context2",
@@ -515,8 +563,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "in / on / above",
-      "title": "in / on / above",
+      "focus": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
+      "title": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "answer": "There's smoke → above the → city.",
       "options": [
         "There's smoke → above the → city.",
@@ -525,7 +573,7 @@
         "city. → above the → There's smoke"
       ],
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
-      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "Chọn “There's smoke → above the → city.”. In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -539,7 +587,11 @@
         "above the",
         "city.",
         "There's smoke"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There's smoke above the city.",
+        "vi": "Có khói phía trên thành phố."
+      }
     },
     {
       "id": "discover-2-grammar-u11-4-2-context2",
@@ -553,8 +605,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "behind / in front of",
-      "title": "behind / in front of",
+      "focus": "Giới từ chỉ vị trí: phía sau và phía trước",
+      "title": "Giới từ chỉ vị trí: phía sau và phía trước",
       "answer": "The trash can → is behind → the tree.",
       "options": [
         "The trash can → is behind → the tree.",
@@ -563,7 +615,7 @@
         "the tree. → is behind → The trash can"
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
+      "why": "Chọn “The trash can → is behind → the tree.”. Behind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -577,7 +629,11 @@
         "is behind",
         "the tree.",
         "The trash can"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The trash can is behind the tree.",
+        "vi": "Thùng rác ở phía sau cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-4-3-context2",
@@ -591,8 +647,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "across from / next to",
-      "title": "across from / next to",
+      "focus": "Giới từ chỉ vị trí: đối diện và bên cạnh",
+      "title": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "answer": "The landfill is → across from → the park.",
       "options": [
         "The landfill is → across from → the park.",
@@ -601,7 +657,7 @@
         "the park. → across from → The landfill is"
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "why": "Chọn “The landfill is → across from → the park.”. Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -615,7 +671,11 @@
         "across from",
         "the park.",
         "The landfill is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The landfill is across from the park.",
+        "vi": "Bãi rác nằm đối diện công viên."
+      }
     },
     {
       "id": "discover-2-grammar-u11-4-4-context2",
@@ -629,8 +689,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "between",
-      "title": "between",
+      "focus": "Giới từ chỉ vị trí ở giữa",
+      "title": "Giới từ chỉ vị trí ở giữa",
       "answer": "The trash can → is between → the trees.",
       "options": [
         "The trash can → is between → the trees.",
@@ -639,7 +699,7 @@
         "the trees. → is between → The trash can"
       ],
       "hint": "Between thường đi với hai người hoặc hai vật được nối bằng and.",
-      "why": "The trash can is between the trees.\nBetween thường đi với hai người hoặc hai vật được nối bằng and.",
+      "why": "Chọn “The trash can → is between → the trees.”. Between thường đi với hai người hoặc hai vật được nối bằng and.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -653,7 +713,11 @@
         "is between",
         "the trees.",
         "The trash can"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The trash can is between the trees.",
+        "vi": "Thùng rác nằm giữa những cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-5-1-context2",
@@ -667,8 +731,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "in / on / above",
-      "title": "in / on / above",
+      "focus": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
+      "title": "Giới từ chỉ vị trí: trong, trên bề mặt và phía trên",
       "answer": "There's smoke above the city.",
       "options": [
         "There's smoke above the city.",
@@ -677,7 +741,7 @@
         "There's smoke across from the city."
       ],
       "hint": "In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
-      "why": "There's smoke above the city.\nIn là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
+      "why": "Chọn “There's smoke above the city.”. In là ở bên trong, on là chạm bề mặt, above là ở vị trí cao hơn nhưng không nhất thiết chạm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -688,7 +752,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "There's smoke above the city.",
+        "vi": "Có khói phía trên thành phố."
+      }
     },
     {
       "id": "discover-2-grammar-u11-5-2-context2",
@@ -702,8 +770,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "behind / in front of",
-      "title": "behind / in front of",
+      "focus": "Giới từ chỉ vị trí: phía sau và phía trước",
+      "title": "Giới từ chỉ vị trí: phía sau và phía trước",
       "answer": "The trash can is behind the tree.",
       "options": [
         "The trash can is in front of the tree.",
@@ -712,7 +780,7 @@
         "The trash can is behind the tree."
       ],
       "hint": "Behind là ở phía sau và in front of là ở phía trước. Cả cụm in front of phải đi cùng nhau.",
-      "why": "The trash can is behind the tree.\nBehind là ở phía sau và in front of là ở phía trước.",
+      "why": "Chọn “The trash can is behind the tree.”. Behind là ở phía sau và in front of là ở phía trước.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -723,7 +791,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The trash can is behind the tree.",
+        "vi": "Thùng rác ở phía sau cái cây."
+      }
     },
     {
       "id": "discover-2-grammar-u11-5-3-context2",
@@ -737,8 +809,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "across from / next to",
-      "title": "across from / next to",
+      "focus": "Giới từ chỉ vị trí: đối diện và bên cạnh",
+      "title": "Giới từ chỉ vị trí: đối diện và bên cạnh",
       "answer": "The landfill is across from the park.",
       "options": [
         "The landfill is between the park.",
@@ -747,7 +819,7 @@
         "The landfill is above the park."
       ],
       "hint": "Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa. Next to là ngay bên cạnh.",
-      "why": "The landfill is across from the park.\nAcross from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
+      "why": "Chọn “The landfill is across from the park.”. Across from là ở phía đối diện, thường có đường hoặc khoảng trống ở giữa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -758,7 +830,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The landfill is across from the park.",
+        "vi": "Bãi rác nằm đối diện công viên."
+      }
     },
     {
       "id": "discover-2-grammar-u11-5-4-context2-life",

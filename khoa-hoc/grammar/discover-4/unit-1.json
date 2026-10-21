@@ -9,82 +9,82 @@
   },
   "summary": [
     {
-      "tag": "Affirmative",
+      "tag": "Câu khẳng định",
       "note": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
       "example": "Scientists will discover new galaxies.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "will",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "exampleVi": "Các nhà khoa học sẽ khám phá những thiên hà mới.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative",
+      "tag": "Câu phủ định",
       "note": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
       "example": "The spacecraft won't reach the asteroid today.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "will not / won't",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Đặt not ngay sau will.",
       "exampleVi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
       "example": "Will people build an observatory on the moon?",
       "formula": [
         [
           "Will",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
-          "base verb",
+          "động từ nguyên mẫu",
           "?"
         ],
         [
-          "Yes, subject will."
+          "Yes, chủ ngữ will."
         ],
         [
-          "No, subject won't."
+          "No, chủ ngữ won't."
         ]
       ],
       "usage": "Câu trả lời ngắn dùng will hoặc won't.",
       "exampleVi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Prediction language",
+      "tag": "Cách diễn đạt dự đoán",
       "note": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
       "example": "I think people will travel across the solar system.",
       "formula": [
         [
           "I think / believe",
           "+",
-          "subject + will"
+          "chủ ngữ + will"
         ],
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "will probably / probably won't"
         ]
       ],
       "usage": "I think và I believe thường đứng trước mệnh đề có will.",
       "exampleVi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -100,8 +100,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "discover",
       "options": [
         "discover",
@@ -110,7 +110,7 @@
         "discovered"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "why": "Chọn “discover”. Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -119,7 +119,11 @@
       "spokenScene": "",
       "scene": "A bright object appears beside the Moon. A pupil calls it a new star, but the astronomy chart marks a planet there.\nScientists will ___ new galaxies.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Scientists will discover new galaxies.",
+        "vi": "Các nhà khoa học sẽ khám phá những thiên hà mới."
+      }
     },
     {
       "id": "discover-4-grammar-u1-1-2-context2",
@@ -133,8 +137,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "reach",
       "options": [
         "reaches",
@@ -143,7 +147,7 @@
         "reach"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
+      "why": "Chọn “reach”. Đặt not ngay sau will.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -152,7 +156,11 @@
       "spokenScene": "",
       "scene": "A bright object appears beside the Moon. A pupil calls it a new star, but the astronomy chart marks a planet there.\nThe spacecraft won't ___ the asteroid today.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The spacecraft won't reach the asteroid today.",
+        "vi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay."
+      }
     },
     {
       "id": "discover-4-grammar-u1-1-3-context2",
@@ -166,8 +174,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "build",
       "options": [
         "building",
@@ -176,7 +184,7 @@
         "builds"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
+      "why": "Chọn “build”. Câu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -185,7 +193,11 @@
       "spokenScene": "",
       "scene": "A bright object appears beside the Moon. A pupil calls it a new star, but the astronomy chart marks a planet there.\nWill people ___ an observatory on the moon?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Will people build an observatory on the moon?",
+        "vi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?"
+      }
     },
     {
       "id": "discover-4-grammar-u1-1-4-context2",
@@ -199,8 +211,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prediction language",
-      "title": "Prediction language",
+      "focus": "Cách diễn đạt dự đoán",
+      "title": "Cách diễn đạt dự đoán",
       "answer": "travel",
       "options": [
         "traveled",
@@ -209,7 +221,7 @@
         "traveling"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
+      "why": "Chọn “travel”. I think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -218,7 +230,11 @@
       "spokenScene": "",
       "scene": "A bright object appears beside the Moon. A pupil calls it a new star, but the astronomy chart marks a planet there.\nI think people will ___ across the solar system.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I think people will travel across the solar system.",
+        "vi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời."
+      }
     },
     {
       "id": "discover-4-grammar-u1-2-1-context2",
@@ -232,8 +248,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "discover",
       "options": [
         "discovers",
@@ -242,7 +258,7 @@
         "discover"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "why": "Chọn “discover”. Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -253,7 +269,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Scientists will discover new galaxies.",
+        "vi": "Các nhà khoa học sẽ khám phá những thiên hà mới."
+      }
     },
     {
       "id": "discover-4-grammar-u1-2-2-context2",
@@ -267,8 +287,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "reach",
       "options": [
         "reaching",
@@ -277,7 +297,7 @@
         "reaches"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
+      "why": "Chọn “reach”. Đặt not ngay sau will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -288,7 +308,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The spacecraft won't reach the asteroid today.",
+        "vi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay."
+      }
     },
     {
       "id": "discover-4-grammar-u1-2-3-context2",
@@ -302,8 +326,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "build",
       "options": [
         "built",
@@ -312,7 +336,7 @@
         "building"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
+      "why": "Chọn “build”. Câu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -323,7 +347,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Will people build an observatory on the moon?",
+        "vi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?"
+      }
     },
     {
       "id": "discover-4-grammar-u1-2-4-context2",
@@ -337,8 +365,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prediction language",
-      "title": "Prediction language",
+      "focus": "Cách diễn đạt dự đoán",
+      "title": "Cách diễn đạt dự đoán",
       "answer": "travel",
       "options": [
         "travel",
@@ -347,7 +375,7 @@
         "traveled"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
+      "why": "Chọn “travel”. I think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -358,7 +386,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I think people will travel across the solar system.",
+        "vi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời."
+      }
     },
     {
       "id": "discover-4-grammar-u1-3-1-context2",
@@ -372,8 +404,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "discover",
       "options": [
         "discovering",
@@ -382,7 +414,7 @@
         "discovers"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "why": "Chọn “discover”. Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -394,7 +426,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Scientists will discover new galaxies.",
+        "vi": "Các nhà khoa học sẽ khám phá những thiên hà mới."
+      }
     },
     {
       "id": "discover-4-grammar-u1-3-2-context2",
@@ -408,8 +444,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "reach",
       "options": [
         "reached",
@@ -418,7 +454,7 @@
         "reaching"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
+      "why": "Chọn “reach”. Đặt not ngay sau will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -430,7 +466,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The spacecraft won't reach the asteroid today.",
+        "vi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay."
+      }
     },
     {
       "id": "discover-4-grammar-u1-3-3-context2",
@@ -444,8 +484,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "build",
       "options": [
         "build",
@@ -454,7 +494,7 @@
         "built"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
+      "why": "Chọn “build”. Câu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -466,7 +506,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Will people build an observatory on the moon?",
+        "vi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?"
+      }
     },
     {
       "id": "discover-4-grammar-u1-3-4-context2",
@@ -480,8 +524,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prediction language",
-      "title": "Prediction language",
+      "focus": "Cách diễn đạt dự đoán",
+      "title": "Cách diễn đạt dự đoán",
       "answer": "travel",
       "options": [
         "travels",
@@ -490,7 +534,7 @@
         "travel"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
+      "why": "Chọn “travel”. I think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -502,7 +546,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I think people will travel across the solar system.",
+        "vi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời."
+      }
     },
     {
       "id": "discover-4-grammar-u1-4-1-context2",
@@ -516,8 +564,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "Scientists will → discover new → galaxies.",
       "options": [
         "Scientists will → discover new → galaxies.",
@@ -526,7 +574,7 @@
         "galaxies. → discover new → Scientists will"
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "why": "Chọn “Scientists will → discover new → galaxies.”. Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -540,7 +588,11 @@
         "discover new",
         "galaxies.",
         "Scientists will"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Scientists will discover new galaxies.",
+        "vi": "Các nhà khoa học sẽ khám phá những thiên hà mới."
+      }
     },
     {
       "id": "discover-4-grammar-u1-4-2-context2",
@@ -554,8 +606,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The spacecraft won't → reach the → asteroid today.",
       "options": [
         "The spacecraft won't → reach the → asteroid today.",
@@ -564,7 +616,7 @@
         "asteroid today. → reach the → The spacecraft won't"
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
+      "why": "Chọn “The spacecraft won't → reach the → asteroid today.”. Đặt not ngay sau will.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -578,7 +630,11 @@
         "reach the",
         "asteroid today.",
         "The spacecraft won't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The spacecraft won't reach the asteroid today.",
+        "vi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay."
+      }
     },
     {
       "id": "discover-4-grammar-u1-4-3-context2",
@@ -592,8 +648,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Will people build → an observatory on → the moon?",
       "options": [
         "Will people build → an observatory on → the moon?",
@@ -602,7 +658,7 @@
         "the moon? → an observatory on → Will people build"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
+      "why": "Chọn “Will people build → an observatory on → the moon?”. Câu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -616,7 +672,11 @@
         "an observatory on",
         "the moon?",
         "Will people build"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Will people build an observatory on the moon?",
+        "vi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?"
+      }
     },
     {
       "id": "discover-4-grammar-u1-4-4-context2",
@@ -630,8 +690,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prediction language",
-      "title": "Prediction language",
+      "focus": "Cách diễn đạt dự đoán",
+      "title": "Cách diễn đạt dự đoán",
       "answer": "I think people → will travel across → the solar system.",
       "options": [
         "I think people → will travel across → the solar system.",
@@ -640,7 +700,7 @@
         "the solar system. → will travel across → I think people"
       ],
       "hint": "I think và I believe thường đứng trước mệnh đề có will. Probably thường đứng sau will nhưng đứng trước won't: will probably travel, probably won't travel.",
-      "why": "I think people will travel across the solar system.\nI think và I believe thường đứng trước mệnh đề có will.",
+      "why": "Chọn “I think people → will travel across → the solar system.”. I think và I believe thường đứng trước mệnh đề có will.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -654,7 +714,11 @@
         "will travel across",
         "the solar system.",
         "I think people"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I think people will travel across the solar system.",
+        "vi": "Tôi nghĩ mọi người sẽ du hành khắp hệ mặt trời."
+      }
     },
     {
       "id": "discover-4-grammar-u1-5-1-context2",
@@ -668,8 +732,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "Scientists will discover new galaxies.",
       "options": [
         "Scientists will discover new galaxies.",
@@ -678,7 +742,7 @@
         "Scientists will discovered new galaxies."
       ],
       "hint": "Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu. Dự đoán là điều người nói tin sẽ xảy ra, không nhất thiết là một sự thật đã được xác định.",
-      "why": "Scientists will discover new galaxies.\nWill đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
+      "why": "Chọn “Scientists will discover new galaxies.”. Will đi với mọi chủ ngữ và theo sau là động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -689,7 +753,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Scientists will discover new galaxies.",
+        "vi": "Các nhà khoa học sẽ khám phá những thiên hà mới."
+      }
     },
     {
       "id": "discover-4-grammar-u1-5-2-context2",
@@ -703,8 +771,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The spacecraft won't reach the asteroid today.",
       "options": [
         "The spacecraft won't reaches the asteroid today.",
@@ -713,7 +781,7 @@
         "The spacecraft won't reach the asteroid today."
       ],
       "hint": "Đặt not ngay sau will. Sau will not hoặc won't, động từ vẫn giữ nguyên mẫu; không thêm -s, -ed hoặc to.",
-      "why": "The spacecraft won't reach the asteroid today.\nĐặt not ngay sau will.",
+      "why": "Chọn “The spacecraft won't reach the asteroid today.”. Đặt not ngay sau will.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +792,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The spacecraft won't reach the asteroid today.",
+        "vi": "Tàu vũ trụ sẽ không đến được tiểu hành tinh ngày hôm nay."
+      }
     },
     {
       "id": "discover-4-grammar-u1-5-3-context2",
@@ -738,8 +810,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Will people build an observatory on the moon?",
       "options": [
         "Will people building an observatory on the moon?",
@@ -748,7 +820,7 @@
         "Will people builds an observatory on the moon?"
       ],
       "hint": "Câu trả lời ngắn dùng will hoặc won't. Không lặp lại động từ chính trong câu trả lời ngắn.",
-      "why": "Will people build an observatory on the moon?\nCâu trả lời ngắn dùng will hoặc won't.",
+      "why": "Chọn “Will people build an observatory on the moon?”. Câu trả lời ngắn dùng will hoặc won't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -759,7 +831,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Will people build an observatory on the moon?",
+        "vi": "Con người sẽ xây dựng một đài quan sát trên mặt trăng?"
+      }
     },
     {
       "id": "discover-4-grammar-u1-5-4-context2-life",

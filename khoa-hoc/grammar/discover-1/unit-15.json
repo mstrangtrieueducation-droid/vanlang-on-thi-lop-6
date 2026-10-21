@@ -23,7 +23,7 @@
       ],
       "usage": "Các dấu hiệu như now, right now và Look!",
       "exampleVi": "Bây giờ cậu bé đang đánh trống.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Khẳng định · Chọn đúng be",
@@ -48,7 +48,7 @@
       ],
       "usage": "I đi với am.",
       "exampleVi": "Chúng tôi đang tạo ra âm nhạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Dạng nói gọn · 'm, 's, 're",
@@ -73,7 +73,7 @@
       ],
       "usage": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "exampleVi": "Cô ấy đang lắc trống lục lạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phủ định · not sau be",
@@ -104,7 +104,7 @@
       ],
       "usage": "Câu phủ định vẫn giữ động từ be.",
       "exampleVi": "Anh ấy không chơi trống.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Chính tả · Thêm -ing",
@@ -129,7 +129,7 @@
       ],
       "usage": "Với phần lớn động từ, con giữ nguyên động từ rồi thêm -ing: play → playing, sing → singing, keep → keeping.",
       "exampleVi": "Họ đang chơi chũm chọe.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Chính tả · Bỏ e câm",
@@ -159,7 +159,7 @@
       ],
       "usage": "Khi động từ tận cùng bằng e câm, bỏ e trước khi thêm -ing: make → making, shake → shaking, strike → striking, have → having.",
       "exampleVi": "Bạn đang lắc trống lục lạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Chính tả · Gấp đôi phụ âm",
@@ -179,7 +179,7 @@
       ],
       "usage": "Với động từ ngắn có mẫu một nguyên âm ngắn đứng trước một phụ âm cuối, gấp đôi phụ âm cuối rồi thêm -ing: sit → sitting, clap → clapping.",
       "exampleVi": "Bọn trẻ đang vỗ tay.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phát âm · Đuôi -ing",
@@ -198,7 +198,7 @@
       ],
       "usage": "Đuôi -ing kết thúc bằng âm mũi /ŋ/, không thêm âm /g/ mạnh và không đọc thành /in/.",
       "exampleVi": "Chúng tôi đang tạo ra âm nhạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -224,7 +224,7 @@
         "struck"
       ],
       "hint": "Các dấu hiệu như now, right now và Look! thường cho biết hành động đang diễn ra. Câu cần động từ be và động từ chính thêm -ing; không dùng riêng động từ thêm -ing.",
-      "why": "The boy is striking the drum now.\nCác dấu hiệu như now, right now và Look!",
+      "why": "Chọn “striking”. Các dấu hiệu như now, right now và Look!",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -233,7 +233,11 @@
       "spokenScene": "",
       "scene": "The class is making music. Another group is reading nearby.\nThe boy is ___ the drum now.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The boy is striking the drum now.",
+        "vi": "Bây giờ cậu bé đang đánh trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-1-2-context2",
@@ -257,7 +261,7 @@
         "are"
       ],
       "hint": "I đi với am. He, she, it và một người hoặc vật số ít đi với is. You, we, they và danh từ số nhiều đi với are. Phần be không được bỏ đi.",
-      "why": "We are making music.\nI đi với am.",
+      "why": "Chọn “are”. I đi với am.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -266,7 +270,11 @@
       "spokenScene": "",
       "scene": "The class is making music. Another group is reading nearby.\nWe ___ making music.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We are making music.",
+        "vi": "Chúng tôi đang tạo ra âm nhạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-1-3-context2",
@@ -290,7 +298,7 @@
         "shake"
       ],
       "hint": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're. Dạng đầy đủ và dạng nói gọn đều đúng, nhưng con cần đọc liền thành một cụm.",
-      "why": "She's shaking the tambourine.\nTrong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
+      "why": "Chọn “shaking”. Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -299,7 +307,11 @@
       "spokenScene": "",
       "scene": "The class is making music. Another group is reading nearby.\nShe's ___ the tambourine.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She's shaking the tambourine.",
+        "vi": "Cô ấy đang lắc trống lục lạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-1-4-context2",
@@ -323,7 +335,7 @@
         "plays"
       ],
       "hint": "Câu phủ định vẫn giữ động từ be. I am not thường nói là I'm not. Is not có thể nói gọn thành isn't; are not có thể nói gọn thành aren't. Động từ chính vẫn giữ dạng -ing.",
-      "why": "He isn't playing the drum.\nCâu phủ định vẫn giữ động từ be.",
+      "why": "Chọn “playing”. Câu phủ định vẫn giữ động từ be.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -332,7 +344,11 @@
       "spokenScene": "",
       "scene": "The class is making music. Another group is reading nearby.\nHe isn't ___ the drum.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He isn't playing the drum.",
+        "vi": "Anh ấy không chơi trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-2-1-context2",
@@ -356,7 +372,7 @@
         "striking"
       ],
       "hint": "Các dấu hiệu như now, right now và Look! thường cho biết hành động đang diễn ra. Câu cần động từ be và động từ chính thêm -ing; không dùng riêng động từ thêm -ing.",
-      "why": "The boy is striking the drum now.\nCác dấu hiệu như now, right now và Look!",
+      "why": "Chọn “striking”. Các dấu hiệu như now, right now và Look!",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -367,7 +383,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The boy is striking the drum now.",
+        "vi": "Bây giờ cậu bé đang đánh trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-2-2-context2",
@@ -391,7 +411,7 @@
         "is"
       ],
       "hint": "I đi với am. He, she, it và một người hoặc vật số ít đi với is. You, we, they và danh từ số nhiều đi với are. Phần be không được bỏ đi.",
-      "why": "We are making music.\nI đi với am.",
+      "why": "Chọn “are”. I đi với am.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -402,7 +422,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We are making music.",
+        "vi": "Chúng tôi đang tạo ra âm nhạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-2-3-context2",
@@ -426,7 +450,7 @@
         "shakes"
       ],
       "hint": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're. Dạng đầy đủ và dạng nói gọn đều đúng, nhưng con cần đọc liền thành một cụm.",
-      "why": "She's shaking the tambourine.\nTrong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
+      "why": "Chọn “shaking”. Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -437,7 +461,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She's shaking the tambourine.",
+        "vi": "Cô ấy đang lắc trống lục lạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-2-4-context2",
@@ -461,7 +489,7 @@
         "played"
       ],
       "hint": "Câu phủ định vẫn giữ động từ be. I am not thường nói là I'm not. Is not có thể nói gọn thành isn't; are not có thể nói gọn thành aren't. Động từ chính vẫn giữ dạng -ing.",
-      "why": "He isn't playing the drum.\nCâu phủ định vẫn giữ động từ be.",
+      "why": "Chọn “playing”. Câu phủ định vẫn giữ động từ be.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -472,7 +500,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He isn't playing the drum.",
+        "vi": "Anh ấy không chơi trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-3-1-context2",
@@ -496,7 +528,7 @@
         "strike"
       ],
       "hint": "Các dấu hiệu như now, right now và Look! thường cho biết hành động đang diễn ra. Câu cần động từ be và động từ chính thêm -ing; không dùng riêng động từ thêm -ing.",
-      "why": "The boy is striking the drum now.\nCác dấu hiệu như now, right now và Look!",
+      "why": "Chọn “striking”. Các dấu hiệu như now, right now và Look!",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -508,7 +540,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The boy is striking the drum now.",
+        "vi": "Bây giờ cậu bé đang đánh trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-3-2-context2",
@@ -532,7 +568,7 @@
         "am"
       ],
       "hint": "I đi với am. He, she, it và một người hoặc vật số ít đi với is. You, we, they và danh từ số nhiều đi với are. Phần be không được bỏ đi.",
-      "why": "We are making music.\nI đi với am.",
+      "why": "Chọn “are”. I đi với am.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -544,7 +580,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We are making music.",
+        "vi": "Chúng tôi đang tạo ra âm nhạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-3-3-context2",
@@ -568,7 +608,7 @@
         "shook"
       ],
       "hint": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're. Dạng đầy đủ và dạng nói gọn đều đúng, nhưng con cần đọc liền thành một cụm.",
-      "why": "She's shaking the tambourine.\nTrong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
+      "why": "Chọn “shaking”. Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -580,7 +620,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She's shaking the tambourine.",
+        "vi": "Cô ấy đang lắc trống lục lạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-3-4-context2",
@@ -604,7 +648,7 @@
         "playing"
       ],
       "hint": "Câu phủ định vẫn giữ động từ be. I am not thường nói là I'm not. Is not có thể nói gọn thành isn't; are not có thể nói gọn thành aren't. Động từ chính vẫn giữ dạng -ing.",
-      "why": "He isn't playing the drum.\nCâu phủ định vẫn giữ động từ be.",
+      "why": "Chọn “playing”. Câu phủ định vẫn giữ động từ be.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -616,7 +660,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He isn't playing the drum.",
+        "vi": "Anh ấy không chơi trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-4-1-context2",
@@ -640,7 +688,7 @@
         "drum now. → striking the → The boy is"
       ],
       "hint": "Các dấu hiệu như now, right now và Look! thường cho biết hành động đang diễn ra. Câu cần động từ be và động từ chính thêm -ing; không dùng riêng động từ thêm -ing.",
-      "why": "The boy is striking the drum now.\nCác dấu hiệu như now, right now và Look!",
+      "why": "Chọn “The boy is → striking the → drum now.”. Các dấu hiệu như now, right now và Look!",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -654,7 +702,11 @@
         "striking the",
         "drum now.",
         "The boy is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The boy is striking the drum now.",
+        "vi": "Bây giờ cậu bé đang đánh trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-4-2-context2",
@@ -678,7 +730,7 @@
         "music. → making → We are"
       ],
       "hint": "I đi với am. He, she, it và một người hoặc vật số ít đi với is. You, we, they và danh từ số nhiều đi với are. Phần be không được bỏ đi.",
-      "why": "We are making music.\nI đi với am.",
+      "why": "Chọn “We are → making → music.”. I đi với am.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -692,7 +744,11 @@
         "making",
         "music.",
         "We are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We are making music.",
+        "vi": "Chúng tôi đang tạo ra âm nhạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-4-3-context2",
@@ -716,7 +772,7 @@
         "tambourine. → the → She's shaking"
       ],
       "hint": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're. Dạng đầy đủ và dạng nói gọn đều đúng, nhưng con cần đọc liền thành một cụm.",
-      "why": "She's shaking the tambourine.\nTrong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
+      "why": "Chọn “She's shaking → the → tambourine.”. Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -730,7 +786,11 @@
         "the",
         "tambourine.",
         "She's shaking"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She's shaking the tambourine.",
+        "vi": "Cô ấy đang lắc trống lục lạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-4-4-context2",
@@ -754,7 +814,7 @@
         "drum. → playing the → He isn't"
       ],
       "hint": "Câu phủ định vẫn giữ động từ be. I am not thường nói là I'm not. Is not có thể nói gọn thành isn't; are not có thể nói gọn thành aren't. Động từ chính vẫn giữ dạng -ing.",
-      "why": "He isn't playing the drum.\nCâu phủ định vẫn giữ động từ be.",
+      "why": "Chọn “He isn't → playing the → drum.”. Câu phủ định vẫn giữ động từ be.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -768,7 +828,11 @@
         "playing the",
         "drum.",
         "He isn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He isn't playing the drum.",
+        "vi": "Anh ấy không chơi trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-5-1-context2",
@@ -792,7 +856,7 @@
         "The boy is struck the drum now."
       ],
       "hint": "Các dấu hiệu như now, right now và Look! thường cho biết hành động đang diễn ra. Câu cần động từ be và động từ chính thêm -ing; không dùng riêng động từ thêm -ing.",
-      "why": "The boy is striking the drum now.\nCác dấu hiệu như now, right now và Look!",
+      "why": "Chọn “The boy is striking the drum now.”. Các dấu hiệu như now, right now và Look!",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -803,7 +867,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The boy is striking the drum now.",
+        "vi": "Bây giờ cậu bé đang đánh trống."
+      }
     },
     {
       "id": "discover-1-grammar-u15-5-2-context2",
@@ -827,7 +895,7 @@
         "We are making music."
       ],
       "hint": "I đi với am. He, she, it và một người hoặc vật số ít đi với is. You, we, they và danh từ số nhiều đi với are. Phần be không được bỏ đi.",
-      "why": "We are making music.\nI đi với am.",
+      "why": "Chọn “We are making music.”. I đi với am.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -838,7 +906,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We are making music.",
+        "vi": "Chúng tôi đang tạo ra âm nhạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-5-3-context2",
@@ -862,7 +934,7 @@
         "She's shake the tambourine."
       ],
       "hint": "Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're. Dạng đầy đủ và dạng nói gọn đều đúng, nhưng con cần đọc liền thành một cụm.",
-      "why": "She's shaking the tambourine.\nTrong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
+      "why": "Chọn “She's shaking the tambourine.”. Trong lời nói tự nhiên, I am thường thành I'm; he is và she is thành he's và she's; you are, we are, they are thành you're, we're, they're.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -873,7 +945,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "She's shaking the tambourine.",
+        "vi": "Cô ấy đang lắc trống lục lạc."
+      }
     },
     {
       "id": "discover-1-grammar-u15-5-4-context2-life",

@@ -9,72 +9,72 @@
   },
   "summary": [
     {
-      "tag": "Verb + infinitive",
+      "tag": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "note": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
       "example": "The archaeologist plans to examine the tomb.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
-          "verb",
+          "động từ",
           "+",
-          "to + base verb"
+          "to + động từ nguyên mẫu"
         ]
       ],
       "usage": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "exampleVi": "Nhà khảo cổ dự định kiểm tra ngôi mộ.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Meaning",
+      "tag": "Ý nghĩa và cách sử dụng",
       "note": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "example": "The soldiers promised to protect the treasure.",
       "formula": [
         [
           "plan / decide / promise / try / forget",
           "+",
-          "to + verb"
+          "to + động từ"
         ]
       ],
       "usage": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "exampleVi": "Những người lính hứa sẽ bảo vệ kho báu.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative infinitive",
+      "tag": "Dạng phủ định của động từ nguyên mẫu có to",
       "note": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
       "example": "The emperor decided not to move the clay army.",
       "formula": [
         [
-          "verb",
+          "động từ",
           "+",
           "not to",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "exampleVi": "Hoàng đế quyết định không di chuyển đội quân đất sét.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Verb + object + infinitive",
+      "tag": "Động từ, tân ngữ và động từ nguyên mẫu có to",
       "note": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
       "example": "The archaeologist asked the assistant to carry the jade.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
-          "ask / tell / want",
+          "hỏi / tell / want",
           "+",
-          "person",
+          "người",
           "+",
-          "to + verb"
+          "to + động từ"
         ]
       ],
       "usage": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "exampleVi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -90,8 +90,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + infinitive",
-      "title": "Verb + infinitive",
+      "focus": "Động từ theo sau bởi động từ nguyên mẫu có to",
+      "title": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "answer": "to examine",
       "options": [
         "to examine",
@@ -100,7 +100,7 @@
         "examined"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "why": "Chọn “to examine”. Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -109,7 +109,11 @@
       "spokenScene": "",
       "scene": "An ancient settlement has walls and salt-making equipment. A visitor says the walls prove its people were unfriendly.\nThe archaeologist plans ___ the tomb.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The archaeologist plans to examine the tomb.",
+        "vi": "Nhà khảo cổ dự định kiểm tra ngôi mộ."
+      }
     },
     {
       "id": "discover-4-grammar-u3-1-2-context2",
@@ -123,8 +127,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Meaning",
-      "title": "Meaning",
+      "focus": "Ý nghĩa và cách sử dụng",
+      "title": "Ý nghĩa và cách sử dụng",
       "answer": "to protect",
       "options": [
         "protecting",
@@ -133,7 +137,7 @@
         "to protect"
       ],
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
-      "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "why": "Chọn “to protect”. Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -142,7 +146,11 @@
       "spokenScene": "",
       "scene": "An ancient settlement has walls and salt-making equipment. A visitor says the walls prove its people were unfriendly.\nThe soldiers promised ___ the treasure.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The soldiers promised to protect the treasure.",
+        "vi": "Những người lính hứa sẽ bảo vệ kho báu."
+      }
     },
     {
       "id": "discover-4-grammar-u3-1-3-context2",
@@ -156,8 +164,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative infinitive",
-      "title": "Negative infinitive",
+      "focus": "Dạng phủ định của động từ nguyên mẫu có to",
+      "title": "Dạng phủ định của động từ nguyên mẫu có to",
       "answer": "not to move",
       "options": [
         "not moving to",
@@ -166,7 +174,7 @@
         "to not moving"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "why": "Chọn “not to move”. Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -175,7 +183,11 @@
       "spokenScene": "",
       "scene": "An ancient settlement has walls and salt-making equipment. A visitor says the walls prove its people were unfriendly.\nThe emperor decided ___ the clay army.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The emperor decided not to move the clay army.",
+        "vi": "Hoàng đế quyết định không di chuyển đội quân đất sét."
+      }
     },
     {
       "id": "discover-4-grammar-u3-1-4-context2",
@@ -189,8 +201,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + object + infinitive",
-      "title": "Verb + object + infinitive",
+      "focus": "Động từ, tân ngữ và động từ nguyên mẫu có to",
+      "title": "Động từ, tân ngữ và động từ nguyên mẫu có to",
       "answer": "to carry",
       "options": [
         "carried",
@@ -199,7 +211,7 @@
         "carries"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
+      "why": "Chọn “to carry”. Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -208,7 +220,11 @@
       "spokenScene": "",
       "scene": "An ancient settlement has walls and salt-making equipment. A visitor says the walls prove its people were unfriendly.\nThe archaeologist asked the assistant ___ the jade.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The archaeologist asked the assistant to carry the jade.",
+        "vi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi."
+      }
     },
     {
       "id": "discover-4-grammar-u3-2-1-context2",
@@ -222,8 +238,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + infinitive",
-      "title": "Verb + infinitive",
+      "focus": "Động từ theo sau bởi động từ nguyên mẫu có to",
+      "title": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "answer": "to examine",
       "options": [
         "examining",
@@ -232,7 +248,7 @@
         "to examine"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "why": "Chọn “to examine”. Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -243,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The archaeologist plans to examine the tomb.",
+        "vi": "Nhà khảo cổ dự định kiểm tra ngôi mộ."
+      }
     },
     {
       "id": "discover-4-grammar-u3-2-2-context2",
@@ -257,8 +277,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Meaning",
-      "title": "Meaning",
+      "focus": "Ý nghĩa và cách sử dụng",
+      "title": "Ý nghĩa và cách sử dụng",
       "answer": "to protect",
       "options": [
         "protects",
@@ -267,7 +287,7 @@
         "protecting"
       ],
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
-      "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "why": "Chọn “to protect”. Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -278,7 +298,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The soldiers promised to protect the treasure.",
+        "vi": "Những người lính hứa sẽ bảo vệ kho báu."
+      }
     },
     {
       "id": "discover-4-grammar-u3-2-3-context2",
@@ -292,8 +316,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative infinitive",
-      "title": "Negative infinitive",
+      "focus": "Dạng phủ định của động từ nguyên mẫu có to",
+      "title": "Dạng phủ định của động từ nguyên mẫu có to",
       "answer": "not to move",
       "options": [
         "not moves",
@@ -302,7 +326,7 @@
         "not moving to"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "why": "Chọn “not to move”. Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -313,7 +337,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The emperor decided not to move the clay army.",
+        "vi": "Hoàng đế quyết định không di chuyển đội quân đất sét."
+      }
     },
     {
       "id": "discover-4-grammar-u3-2-4-context2",
@@ -327,8 +355,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + object + infinitive",
-      "title": "Verb + object + infinitive",
+      "focus": "Động từ, tân ngữ và động từ nguyên mẫu có to",
+      "title": "Động từ, tân ngữ và động từ nguyên mẫu có to",
       "answer": "to carry",
       "options": [
         "to carry",
@@ -337,7 +365,7 @@
         "carried"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
+      "why": "Chọn “to carry”. Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -348,7 +376,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The archaeologist asked the assistant to carry the jade.",
+        "vi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi."
+      }
     },
     {
       "id": "discover-4-grammar-u3-3-1-context2",
@@ -362,8 +394,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + infinitive",
-      "title": "Verb + infinitive",
+      "focus": "Động từ theo sau bởi động từ nguyên mẫu có to",
+      "title": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "answer": "to examine",
       "options": [
         "examines",
@@ -372,7 +404,7 @@
         "examining"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "why": "Chọn “to examine”. Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -384,7 +416,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The archaeologist plans to examine the tomb.",
+        "vi": "Nhà khảo cổ dự định kiểm tra ngôi mộ."
+      }
     },
     {
       "id": "discover-4-grammar-u3-3-2-context2",
@@ -398,8 +434,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Meaning",
-      "title": "Meaning",
+      "focus": "Ý nghĩa và cách sử dụng",
+      "title": "Ý nghĩa và cách sử dụng",
       "answer": "to protect",
       "options": [
         "protected",
@@ -408,7 +444,7 @@
         "protects"
       ],
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
-      "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "why": "Chọn “to protect”. Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +456,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The soldiers promised to protect the treasure.",
+        "vi": "Những người lính hứa sẽ bảo vệ kho báu."
+      }
     },
     {
       "id": "discover-4-grammar-u3-3-3-context2",
@@ -434,8 +474,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative infinitive",
-      "title": "Negative infinitive",
+      "focus": "Dạng phủ định của động từ nguyên mẫu có to",
+      "title": "Dạng phủ định của động từ nguyên mẫu có to",
       "answer": "not to move",
       "options": [
         "not to move",
@@ -444,7 +484,7 @@
         "not moves"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "why": "Chọn “not to move”. Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -456,7 +496,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The emperor decided not to move the clay army.",
+        "vi": "Hoàng đế quyết định không di chuyển đội quân đất sét."
+      }
     },
     {
       "id": "discover-4-grammar-u3-3-4-context2",
@@ -470,8 +514,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + object + infinitive",
-      "title": "Verb + object + infinitive",
+      "focus": "Động từ, tân ngữ và động từ nguyên mẫu có to",
+      "title": "Động từ, tân ngữ và động từ nguyên mẫu có to",
       "answer": "to carry",
       "options": [
         "carrying",
@@ -480,7 +524,7 @@
         "to carry"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
+      "why": "Chọn “to carry”. Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -492,7 +536,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The archaeologist asked the assistant to carry the jade.",
+        "vi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi."
+      }
     },
     {
       "id": "discover-4-grammar-u3-4-1-context2",
@@ -506,8 +554,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + infinitive",
-      "title": "Verb + infinitive",
+      "focus": "Động từ theo sau bởi động từ nguyên mẫu có to",
+      "title": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "answer": "The archaeologist plans → to examine → the tomb.",
       "options": [
         "The archaeologist plans → to examine → the tomb.",
@@ -516,7 +564,7 @@
         "the tomb. → to examine → The archaeologist plans"
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "why": "Chọn “The archaeologist plans → to examine → the tomb.”. Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -530,7 +578,11 @@
         "to examine",
         "the tomb.",
         "The archaeologist plans"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The archaeologist plans to examine the tomb.",
+        "vi": "Nhà khảo cổ dự định kiểm tra ngôi mộ."
+      }
     },
     {
       "id": "discover-4-grammar-u3-4-2-context2",
@@ -544,8 +596,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Meaning",
-      "title": "Meaning",
+      "focus": "Ý nghĩa và cách sử dụng",
+      "title": "Ý nghĩa và cách sử dụng",
       "answer": "The soldiers promised → to protect → the treasure.",
       "options": [
         "The soldiers promised → to protect → the treasure.",
@@ -554,7 +606,7 @@
         "the treasure. → to protect → The soldiers promised"
       ],
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
-      "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "why": "Chọn “The soldiers promised → to protect → the treasure.”. Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -568,7 +620,11 @@
         "to protect",
         "the treasure.",
         "The soldiers promised"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The soldiers promised to protect the treasure.",
+        "vi": "Những người lính hứa sẽ bảo vệ kho báu."
+      }
     },
     {
       "id": "discover-4-grammar-u3-4-3-context2",
@@ -582,8 +638,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative infinitive",
-      "title": "Negative infinitive",
+      "focus": "Dạng phủ định của động từ nguyên mẫu có to",
+      "title": "Dạng phủ định của động từ nguyên mẫu có to",
       "answer": "The emperor decided → not to move → the clay army.",
       "options": [
         "The emperor decided → not to move → the clay army.",
@@ -592,7 +648,7 @@
         "the clay army. → not to move → The emperor decided"
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "why": "Chọn “The emperor decided → not to move → the clay army.”. Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -606,7 +662,11 @@
         "not to move",
         "the clay army.",
         "The emperor decided"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The emperor decided not to move the clay army.",
+        "vi": "Hoàng đế quyết định không di chuyển đội quân đất sét."
+      }
     },
     {
       "id": "discover-4-grammar-u3-4-4-context2",
@@ -620,8 +680,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + object + infinitive",
-      "title": "Verb + object + infinitive",
+      "focus": "Động từ, tân ngữ và động từ nguyên mẫu có to",
+      "title": "Động từ, tân ngữ và động từ nguyên mẫu có to",
       "answer": "The archaeologist asked → the assistant to → carry the jade.",
       "options": [
         "The archaeologist asked → the assistant to → carry the jade.",
@@ -630,7 +690,7 @@
         "carry the jade. → the assistant to → The archaeologist asked"
       ],
       "hint": "Ask, tell, want và would like có thể theo mẫu verb + person + to + verb. Tân ngữ cho biết ai là người thực hiện hành động sau.",
-      "why": "The archaeologist asked the assistant to carry the jade.\nAsk, tell, want và would like có thể theo mẫu verb + person + to + verb.",
+      "why": "Chọn “The archaeologist asked → the assistant to → carry the jade.”. Ask, tell, want và would like có thể theo mẫu verb + person + to + verb.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -644,7 +704,11 @@
         "the assistant to",
         "carry the jade.",
         "The archaeologist asked"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The archaeologist asked the assistant to carry the jade.",
+        "vi": "Nhà khảo cổ nhờ người trợ lý mang ngọc đi."
+      }
     },
     {
       "id": "discover-4-grammar-u3-5-1-context2",
@@ -658,8 +722,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb + infinitive",
-      "title": "Verb + infinitive",
+      "focus": "Động từ theo sau bởi động từ nguyên mẫu có to",
+      "title": "Động từ theo sau bởi động từ nguyên mẫu có to",
       "answer": "The archaeologist plans to examine the tomb.",
       "options": [
         "The archaeologist plans to examine the tomb.",
@@ -668,7 +732,7 @@
         "The archaeologist plans examined the tomb."
       ],
       "hint": "Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget. Cần học cả cụm vì không phải động từ nào cũng dùng cùng một kiểu bổ ngữ.",
-      "why": "The archaeologist plans to examine the tomb.\nCác động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
+      "why": "Chọn “The archaeologist plans to examine the tomb.”. Các động từ phổ biến gồm want, hope, plan, decide, promise, learn, try và forget.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -679,7 +743,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The archaeologist plans to examine the tomb.",
+        "vi": "Nhà khảo cổ dự định kiểm tra ngôi mộ."
+      }
     },
     {
       "id": "discover-4-grammar-u3-5-2-context2",
@@ -693,8 +761,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Meaning",
-      "title": "Meaning",
+      "focus": "Ý nghĩa và cách sử dụng",
+      "title": "Ý nghĩa và cách sử dụng",
       "answer": "The soldiers promised to protect the treasure.",
       "options": [
         "The soldiers promised protecting the treasure.",
@@ -703,7 +771,7 @@
         "The soldiers promised to protect the treasure."
       ],
       "hint": "Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
-      "why": "The soldiers promised to protect the treasure.\nPlan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
+      "why": "Chọn “The soldiers promised to protect the treasure.”. Plan to nói về kế hoạch; decide to nói về quyết định; promise to nói về lời hứa; try to nói về nỗ lực; forget to nói về việc quên chưa làm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -714,7 +782,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The soldiers promised to protect the treasure.",
+        "vi": "Những người lính hứa sẽ bảo vệ kho báu."
+      }
     },
     {
       "id": "discover-4-grammar-u3-5-3-context2",
@@ -728,8 +800,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative infinitive",
-      "title": "Negative infinitive",
+      "focus": "Dạng phủ định của động từ nguyên mẫu có to",
+      "title": "Dạng phủ định của động từ nguyên mẫu có to",
       "answer": "The emperor decided not to move the clay army.",
       "options": [
         "The emperor decided not moving to the clay army.",
@@ -738,7 +810,7 @@
         "The emperor decided to not moving the clay army."
       ],
       "hint": "Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì. Không đặt don't giữa động từ chính và infinitive.",
-      "why": "The emperor decided not to move the clay army.\nNot to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
+      "why": "Chọn “The emperor decided not to move the clay army.”. Not to + động từ cho biết người nào đó quyết định, hứa hoặc được yêu cầu không làm việc gì.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -749,7 +821,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The emperor decided not to move the clay army.",
+        "vi": "Hoàng đế quyết định không di chuyển đội quân đất sét."
+      }
     },
     {
       "id": "discover-4-grammar-u3-5-4-context2-life",

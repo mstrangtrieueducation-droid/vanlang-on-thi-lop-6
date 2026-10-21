@@ -3,7 +3,7 @@ test('Automatic narration follows the course and task, including the Văn Lang e
  for(const q of [{scene:'She ___ a student.'},{scene:'Complete … carefully.'},{scene:Array(80).fill('reading').join(' ')},{partType:'readGap',scene:'A sentence'}])assert.equal(T.automatic(q,'van-lang'),false);
  assert.equal(T.automatic({scene:'What does the notice say?'},'van-lang'),true);
  for(let n=1;n<=4;n++)assert.equal(T.automatic({skill:'phonics'},'phonics-'+n),true);
- for(const id of ['family-friends-1','family-friends-2','discover-1','discover-4']){assert.equal(T.automatic({skill:'listening'},id),true);assert.equal(T.automatic({skill:'reading'},id),false);}
+ for(const id of ['family-friends-1','family-friends-2','discover-1','discover-4']){assert.equal(T.automatic({skill:'listening'},id),true);assert.equal(T.automatic({skill:'reading'},id),true);}
 });
 test('Every Phonics Story question plays one exact sentence and has a dedicated illustration',()=>{
  for(let n=1;n<=4;n++)for(const l of require('./khoa-hoc/data/phonics-'+n+'.json').lessons.filter(l=>l.kind==='unit-review')){
@@ -33,5 +33,5 @@ test('Continuous dictation sentence mappings keep original answer IDs and identi
  for(const unit of manifest.units){assert(!unit.error);const pack=require(`./khoa-hoc/dictation/${unit.course}/unit-${unit.unit}.json`);assert.equal(pack.sentenceAudioVersion,1);assert.equal(Object.keys(unit.items).length,pack.items.length);
   for(const clip of unit.sentences){sentences++;assert(fs.statSync(path.resolve('khoa-hoc',clip.audio)).size>100);if(clip.start===null){fallbacks++;assert.equal(clip.alignmentMethod,'Titi transcript fallback');assert(clip.narrator.includes('Titi'));}else{assert(clip.end>clip.start);assert(clip.coverage>=.8);assert(clip.narrator.includes('Original'));}}
   for(const q of pack.items){assert.deepEqual(q.questionAudio,unit.items[q.id].questionAudio);assert(T.automatic(q,unit.course));assert(q.answer);}
- }assert.equal(sentences,2108);assert.equal(fallbacks,147);
+ }assert.equal(sentences,2107); /* Numbered list labels are not vocabulary questions. */assert.equal(fallbacks,147);
 });

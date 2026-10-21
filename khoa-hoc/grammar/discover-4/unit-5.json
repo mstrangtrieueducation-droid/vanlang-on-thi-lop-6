@@ -9,63 +9,63 @@
   },
   "summary": [
     {
-      "tag": "Future arrangement",
+      "tag": "Sự sắp xếp đã có trong tương lai",
       "note": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
       "example": "We are buying the ingredients tomorrow.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "am / is / are",
           "+",
-          "verb-ing",
+          "động từ thêm -ing",
           "+",
-          "future time"
+          "thời điểm tương lai"
         ]
       ],
       "usage": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "exampleVi": "Ngày mai chúng ta sẽ mua nguyên liệu.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Now or future?",
+      "tag": "Hành động hiện tại hay kế hoạch tương lai?",
       "note": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
       "example": "The steamship is carrying sugar cane next week.",
       "formula": [
         [
-          "present continuous",
+          "thì hiện tại tiếp diễn",
           "+",
           "now"
         ],
         [
-          "present continuous",
+          "thì hiện tại tiếp diễn",
           "+",
-          "future time"
+          "thời điểm tương lai"
         ]
       ],
       "usage": "Now, right now và at the moment thường chỉ hiện tại.",
       "exampleVi": "Tàu hơi nước sẽ chở mía vào tuần tới.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative",
+      "tag": "Câu phủ định",
       "note": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
       "example": "The plantation isn't exporting vanilla this month.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "am not / isn't / aren't",
           "+",
-          "verb-ing"
+          "động từ thêm -ing"
         ]
       ],
       "usage": "Có thể dùng isn't và aren't trong lời nói.",
       "exampleVi": "Đồn điền không xuất khẩu vani trong tháng này.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
       "example": "When are they delivering the cinnamon?",
       "formula": [
@@ -74,15 +74,15 @@
           "+",
           "am / is / are",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
-          "verb-ing",
+          "động từ thêm -ing",
           "?"
         ]
       ],
       "usage": "Câu hỏi Wh- đặt từ hỏi trước be.",
       "exampleVi": "Khi nào họ sẽ giao quế?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -98,8 +98,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Future arrangement",
-      "title": "Future arrangement",
+      "focus": "Sự sắp xếp đã có trong tương lai",
+      "title": "Sự sắp xếp đã có trong tương lai",
       "answer": "buying",
       "options": [
         "buying",
@@ -108,7 +108,7 @@
         "bought"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "why": "Chọn “buying”. Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -117,7 +117,11 @@
       "spokenScene": "",
       "scene": "Two lunches contain the same amount of food. Their ingredients and nutrients differ.\nWe are ___ the ingredients tomorrow.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We are buying the ingredients tomorrow.",
+        "vi": "Ngày mai chúng ta sẽ mua nguyên liệu."
+      }
     },
     {
       "id": "discover-4-grammar-u5-1-2-context2",
@@ -131,8 +135,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Now or future?",
-      "title": "Now or future?",
+      "focus": "Hành động hiện tại hay kế hoạch tương lai?",
+      "title": "Hành động hiện tại hay kế hoạch tương lai?",
       "answer": "carrying",
       "options": [
         "carry",
@@ -141,7 +145,7 @@
         "carrying"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
+      "why": "Chọn “carrying”. Now, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -150,7 +154,11 @@
       "spokenScene": "",
       "scene": "Two lunches contain the same amount of food. Their ingredients and nutrients differ.\nThe steamship is ___ sugar cane next week.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The steamship is carrying sugar cane next week.",
+        "vi": "Tàu hơi nước sẽ chở mía vào tuần tới."
+      }
     },
     {
       "id": "discover-4-grammar-u5-1-3-context2",
@@ -164,8 +172,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "exporting",
       "options": [
         "exports",
@@ -174,7 +182,7 @@
         "export"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
+      "why": "Chọn “exporting”. Có thể dùng isn't và aren't trong lời nói.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -183,7 +191,11 @@
       "spokenScene": "",
       "scene": "Two lunches contain the same amount of food. Their ingredients and nutrients differ.\nThe plantation isn't ___ vanilla this month.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The plantation isn't exporting vanilla this month.",
+        "vi": "Đồn điền không xuất khẩu vani trong tháng này."
+      }
     },
     {
       "id": "discover-4-grammar-u5-1-4-context2",
@@ -197,8 +209,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "delivering",
       "options": [
         "delivered",
@@ -207,7 +219,7 @@
         "delivers"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
+      "why": "Chọn “delivering”. Câu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -216,7 +228,11 @@
       "spokenScene": "",
       "scene": "Two lunches contain the same amount of food. Their ingredients and nutrients differ.\nWhen are they ___ the cinnamon?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "When are they delivering the cinnamon?",
+        "vi": "Khi nào họ sẽ giao quế?"
+      }
     },
     {
       "id": "discover-4-grammar-u5-2-1-context2",
@@ -230,8 +246,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Future arrangement",
-      "title": "Future arrangement",
+      "focus": "Sự sắp xếp đã có trong tương lai",
+      "title": "Sự sắp xếp đã có trong tương lai",
       "answer": "buying",
       "options": [
         "buy",
@@ -240,7 +256,7 @@
         "buying"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "why": "Chọn “buying”. Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -251,7 +267,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We are buying the ingredients tomorrow.",
+        "vi": "Ngày mai chúng ta sẽ mua nguyên liệu."
+      }
     },
     {
       "id": "discover-4-grammar-u5-2-2-context2",
@@ -265,8 +285,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Now or future?",
-      "title": "Now or future?",
+      "focus": "Hành động hiện tại hay kế hoạch tương lai?",
+      "title": "Hành động hiện tại hay kế hoạch tương lai?",
       "answer": "carrying",
       "options": [
         "carries",
@@ -275,7 +295,7 @@
         "carry"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
+      "why": "Chọn “carrying”. Now, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -286,7 +306,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The steamship is carrying sugar cane next week.",
+        "vi": "Tàu hơi nước sẽ chở mía vào tuần tới."
+      }
     },
     {
       "id": "discover-4-grammar-u5-2-3-context2",
@@ -300,8 +324,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "exporting",
       "options": [
         "exported",
@@ -310,7 +334,7 @@
         "exports"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
+      "why": "Chọn “exporting”. Có thể dùng isn't và aren't trong lời nói.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -321,7 +345,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The plantation isn't exporting vanilla this month.",
+        "vi": "Đồn điền không xuất khẩu vani trong tháng này."
+      }
     },
     {
       "id": "discover-4-grammar-u5-2-4-context2",
@@ -335,8 +363,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "delivering",
       "options": [
         "delivering",
@@ -345,7 +373,7 @@
         "delivered"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
+      "why": "Chọn “delivering”. Câu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -356,7 +384,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "When are they delivering the cinnamon?",
+        "vi": "Khi nào họ sẽ giao quế?"
+      }
     },
     {
       "id": "discover-4-grammar-u5-3-1-context2",
@@ -370,8 +402,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Future arrangement",
-      "title": "Future arrangement",
+      "focus": "Sự sắp xếp đã có trong tương lai",
+      "title": "Sự sắp xếp đã có trong tương lai",
       "answer": "buying",
       "options": [
         "buys",
@@ -380,7 +412,7 @@
         "buy"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "why": "Chọn “buying”. Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -392,7 +424,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We are buying the ingredients tomorrow.",
+        "vi": "Ngày mai chúng ta sẽ mua nguyên liệu."
+      }
     },
     {
       "id": "discover-4-grammar-u5-3-2-context2",
@@ -406,8 +442,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Now or future?",
-      "title": "Now or future?",
+      "focus": "Hành động hiện tại hay kế hoạch tương lai?",
+      "title": "Hành động hiện tại hay kế hoạch tương lai?",
       "answer": "carrying",
       "options": [
         "carried",
@@ -416,7 +452,7 @@
         "carries"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
+      "why": "Chọn “carrying”. Now, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -428,7 +464,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The steamship is carrying sugar cane next week.",
+        "vi": "Tàu hơi nước sẽ chở mía vào tuần tới."
+      }
     },
     {
       "id": "discover-4-grammar-u5-3-3-context2",
@@ -442,8 +482,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "exporting",
       "options": [
         "exporting",
@@ -452,7 +492,7 @@
         "exported"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
+      "why": "Chọn “exporting”. Có thể dùng isn't và aren't trong lời nói.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -464,7 +504,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The plantation isn't exporting vanilla this month.",
+        "vi": "Đồn điền không xuất khẩu vani trong tháng này."
+      }
     },
     {
       "id": "discover-4-grammar-u5-3-4-context2",
@@ -478,8 +522,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "delivering",
       "options": [
         "deliver",
@@ -488,7 +532,7 @@
         "delivering"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
+      "why": "Chọn “delivering”. Câu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -500,7 +544,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "When are they delivering the cinnamon?",
+        "vi": "Khi nào họ sẽ giao quế?"
+      }
     },
     {
       "id": "discover-4-grammar-u5-4-1-context2",
@@ -514,8 +562,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Future arrangement",
-      "title": "Future arrangement",
+      "focus": "Sự sắp xếp đã có trong tương lai",
+      "title": "Sự sắp xếp đã có trong tương lai",
       "answer": "We are → buying the → ingredients tomorrow.",
       "options": [
         "We are → buying the → ingredients tomorrow.",
@@ -524,7 +572,7 @@
         "ingredients tomorrow. → buying the → We are"
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "why": "Chọn “We are → buying the → ingredients tomorrow.”. Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -538,7 +586,11 @@
         "buying the",
         "ingredients tomorrow.",
         "We are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We are buying the ingredients tomorrow.",
+        "vi": "Ngày mai chúng ta sẽ mua nguyên liệu."
+      }
     },
     {
       "id": "discover-4-grammar-u5-4-2-context2",
@@ -552,8 +604,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Now or future?",
-      "title": "Now or future?",
+      "focus": "Hành động hiện tại hay kế hoạch tương lai?",
+      "title": "Hành động hiện tại hay kế hoạch tương lai?",
       "answer": "The steamship is → carrying sugar cane → next week.",
       "options": [
         "The steamship is → carrying sugar cane → next week.",
@@ -562,7 +614,7 @@
         "next week. → carrying sugar cane → The steamship is"
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
+      "why": "Chọn “The steamship is → carrying sugar cane → next week.”. Now, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -576,7 +628,11 @@
         "carrying sugar cane",
         "next week.",
         "The steamship is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The steamship is carrying sugar cane next week.",
+        "vi": "Tàu hơi nước sẽ chở mía vào tuần tới."
+      }
     },
     {
       "id": "discover-4-grammar-u5-4-3-context2",
@@ -590,8 +646,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The plantation isn't → exporting vanilla → this month.",
       "options": [
         "The plantation isn't → exporting vanilla → this month.",
@@ -600,7 +656,7 @@
         "this month. → exporting vanilla → The plantation isn't"
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
+      "why": "Chọn “The plantation isn't → exporting vanilla → this month.”. Có thể dùng isn't và aren't trong lời nói.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -614,7 +670,11 @@
         "exporting vanilla",
         "this month.",
         "The plantation isn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The plantation isn't exporting vanilla this month.",
+        "vi": "Đồn điền không xuất khẩu vani trong tháng này."
+      }
     },
     {
       "id": "discover-4-grammar-u5-4-4-context2",
@@ -628,8 +688,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "When are → they delivering → the cinnamon?",
       "options": [
         "When are → they delivering → the cinnamon?",
@@ -638,7 +698,7 @@
         "the cinnamon? → they delivering → When are"
       ],
       "hint": "Câu hỏi Wh- đặt từ hỏi trước be. Where hỏi địa điểm, when hỏi thời gian và what hỏi hoạt động hoặc vật liên quan.",
-      "why": "When are they delivering the cinnamon?\nCâu hỏi Wh- đặt từ hỏi trước be.",
+      "why": "Chọn “When are → they delivering → the cinnamon?”. Câu hỏi Wh- đặt từ hỏi trước be.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -652,7 +712,11 @@
         "they delivering",
         "the cinnamon?",
         "When are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "When are they delivering the cinnamon?",
+        "vi": "Khi nào họ sẽ giao quế?"
+      }
     },
     {
       "id": "discover-4-grammar-u5-5-1-context2",
@@ -666,8 +730,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Future arrangement",
-      "title": "Future arrangement",
+      "focus": "Sự sắp xếp đã có trong tương lai",
+      "title": "Sự sắp xếp đã có trong tương lai",
       "answer": "We are buying the ingredients tomorrow.",
       "options": [
         "We are buying the ingredients tomorrow.",
@@ -676,7 +740,7 @@
         "We are bought the ingredients tomorrow."
       ],
       "hint": "Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể. Thường kèm thời gian tương lai để người nghe không hiểu là hành động đang xảy ra ngay lúc nói.",
-      "why": "We are buying the ingredients tomorrow.\nDùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
+      "why": "Chọn “We are buying the ingredients tomorrow.”. Dùng am/is/are + V-ing khi người nói đã có kế hoạch cụ thể.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -687,7 +751,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We are buying the ingredients tomorrow.",
+        "vi": "Ngày mai chúng ta sẽ mua nguyên liệu."
+      }
     },
     {
       "id": "discover-4-grammar-u5-5-2-context2",
@@ -701,8 +769,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Now or future?",
-      "title": "Now or future?",
+      "focus": "Hành động hiện tại hay kế hoạch tương lai?",
+      "title": "Hành động hiện tại hay kế hoạch tương lai?",
       "answer": "The steamship is carrying sugar cane next week.",
       "options": [
         "The steamship is carry sugar cane next week.",
@@ -711,7 +779,7 @@
         "The steamship is carrying sugar cane next week."
       ],
       "hint": "Now, right now và at the moment thường chỉ hiện tại. Tomorrow, tonight, next week và on Saturday cho biết đây là một kế hoạch tương lai.",
-      "why": "The steamship is carrying sugar cane next week.\nNow, right now và at the moment thường chỉ hiện tại.",
+      "why": "Chọn “The steamship is carrying sugar cane next week.”. Now, right now và at the moment thường chỉ hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -722,7 +790,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The steamship is carrying sugar cane next week.",
+        "vi": "Tàu hơi nước sẽ chở mía vào tuần tới."
+      }
     },
     {
       "id": "discover-4-grammar-u5-5-3-context2",
@@ -736,8 +808,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The plantation isn't exporting vanilla this month.",
       "options": [
         "The plantation isn't exports vanilla this month.",
@@ -746,7 +818,7 @@
         "The plantation isn't export vanilla this month."
       ],
       "hint": "Có thể dùng isn't và aren't trong lời nói. Với I, dạng tự nhiên là I'm not; không dùng amn't.",
-      "why": "The plantation isn't exporting vanilla this month.\nCó thể dùng isn't và aren't trong lời nói.",
+      "why": "Chọn “The plantation isn't exporting vanilla this month.”. Có thể dùng isn't và aren't trong lời nói.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -757,7 +829,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The plantation isn't exporting vanilla this month.",
+        "vi": "Đồn điền không xuất khẩu vani trong tháng này."
+      }
     },
     {
       "id": "discover-4-grammar-u5-5-4-context2-life",

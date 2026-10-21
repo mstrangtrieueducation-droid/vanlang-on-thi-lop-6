@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Short comparatives",
+      "tag": "So sánh hơn với tính từ ngắn",
       "note": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
       "example": "The cello is larger than the violin.",
       "formula": [
@@ -18,17 +18,17 @@
           "+",
           "be",
           "+",
-          "adjective-er",
+          "tính từ ngắn thêm -er",
           "+",
           "than B"
         ]
       ],
       "usage": "Dùng comparative + than để so sánh hai đối tượng.",
       "exampleVi": "Cello lớn hơn violin.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Long comparatives",
+      "tag": "So sánh hơn với tính từ dài",
       "note": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
       "example": "The orchestra is more impressive than one instrument.",
       "formula": [
@@ -37,17 +37,17 @@
           "+",
           "be",
           "+",
-          "more + adjective",
+          "more + tính từ",
           "+",
           "than B"
         ]
       ],
       "usage": "Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "exampleVi": "Dàn nhạc ấn tượng hơn một nhạc cụ.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Superlatives",
+      "tag": "So sánh nhất",
       "note": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
       "example": "The cello is the largest instrument in this picture.",
       "formula": [
@@ -56,15 +56,15 @@
           "+",
           "be",
           "+",
-          "the adjective-est / the most adjective"
+          "the tính từ ngắn thêm -est / the most tính từ"
         ]
       ],
       "usage": "Thường đặt the trước tính từ so sánh nhất.",
       "exampleVi": "Cello là nhạc cụ lớn nhất trong bức tranh này.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Irregular forms",
+      "tag": "Các dạng bất quy tắc",
       "note": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest. Học các dạng này như một cụm.",
       "example": "The conductor chose the best player.",
       "formula": [
@@ -85,7 +85,7 @@
       ],
       "usage": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
       "exampleVi": "Người chỉ huy đã chọn người chơi giỏi nhất.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -101,8 +101,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short comparatives",
-      "title": "Short comparatives",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "larger",
       "options": [
         "larger",
@@ -111,7 +111,7 @@
         "more larger"
       ],
       "hint": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
-      "why": "The cello is larger than the violin.\nDùng comparative + than để so sánh hai đối tượng.",
+      "why": "Chọn “larger”. Dùng comparative + than để so sánh hai đối tượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -120,7 +120,11 @@
       "spokenScene": "",
       "scene": "A pupil with a low voice is asked to sing a very high part. The teacher can rearrange the parts.\nThe cello is ___ than the violin.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The cello is larger than the violin.",
+        "vi": "Cello lớn hơn violin."
+      }
     },
     {
       "id": "discover-3-grammar-u11-1-2-context2",
@@ -134,8 +138,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Long comparatives",
-      "title": "Long comparatives",
+      "focus": "So sánh hơn với tính từ dài",
+      "title": "So sánh hơn với tính từ dài",
       "answer": "more impressive",
       "options": [
         "impressiver",
@@ -144,7 +148,7 @@
         "more impressive"
       ],
       "hint": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
-      "why": "The orchestra is more impressive than one instrument.\nĐặt more trước tính từ dài và không thêm -er cùng lúc.",
+      "why": "Chọn “more impressive”. Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -153,7 +157,11 @@
       "spokenScene": "",
       "scene": "A pupil with a low voice is asked to sing a very high part. The teacher can rearrange the parts.\nThe orchestra is ___ than one instrument.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The orchestra is more impressive than one instrument.",
+        "vi": "Dàn nhạc ấn tượng hơn một nhạc cụ."
+      }
     },
     {
       "id": "discover-3-grammar-u11-1-3-context2",
@@ -167,8 +175,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Superlatives",
-      "title": "Superlatives",
+      "focus": "So sánh nhất",
+      "title": "So sánh nhất",
       "answer": "largest",
       "options": [
         "large",
@@ -177,7 +185,7 @@
         "larger"
       ],
       "hint": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
-      "why": "The cello is the largest instrument in this picture.\nThường đặt the trước tính từ so sánh nhất.",
+      "why": "Chọn “largest”. Thường đặt the trước tính từ so sánh nhất.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -186,7 +194,11 @@
       "spokenScene": "",
       "scene": "A pupil with a low voice is asked to sing a very high part. The teacher can rearrange the parts.\nThe cello is the ___ instrument in this picture.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The cello is the largest instrument in this picture.",
+        "vi": "Cello là nhạc cụ lớn nhất trong bức tranh này."
+      }
     },
     {
       "id": "discover-3-grammar-u11-1-4-context2",
@@ -200,8 +212,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular forms",
-      "title": "Irregular forms",
+      "focus": "Các dạng bất quy tắc",
+      "title": "Các dạng bất quy tắc",
       "answer": "best",
       "options": [
         "most best",
@@ -210,7 +222,7 @@
         "better"
       ],
       "hint": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest. Học các dạng này như một cụm.",
-      "why": "The conductor chose the best player.\nGood thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
+      "why": "Chọn “best”. Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -219,7 +231,11 @@
       "spokenScene": "",
       "scene": "A pupil with a low voice is asked to sing a very high part. The teacher can rearrange the parts.\nThe conductor chose the ___ player.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The conductor chose the best player.",
+        "vi": "Người chỉ huy đã chọn người chơi giỏi nhất."
+      }
     },
     {
       "id": "discover-3-grammar-u11-2-1-context2",
@@ -233,8 +249,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short comparatives",
-      "title": "Short comparatives",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "larger",
       "options": [
         "large",
@@ -243,7 +259,7 @@
         "larger"
       ],
       "hint": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
-      "why": "The cello is larger than the violin.\nDùng comparative + than để so sánh hai đối tượng.",
+      "why": "Chọn “larger”. Dùng comparative + than để so sánh hai đối tượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -254,7 +270,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The cello is larger than the violin.",
+        "vi": "Cello lớn hơn violin."
+      }
     },
     {
       "id": "discover-3-grammar-u11-2-2-context2",
@@ -268,8 +288,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Long comparatives",
-      "title": "Long comparatives",
+      "focus": "So sánh hơn với tính từ dài",
+      "title": "So sánh hơn với tính từ dài",
       "answer": "more impressive",
       "options": [
         "most impressive",
@@ -278,7 +298,7 @@
         "impressiver"
       ],
       "hint": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
-      "why": "The orchestra is more impressive than one instrument.\nĐặt more trước tính từ dài và không thêm -er cùng lúc.",
+      "why": "Chọn “more impressive”. Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -289,7 +309,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The orchestra is more impressive than one instrument.",
+        "vi": "Dàn nhạc ấn tượng hơn một nhạc cụ."
+      }
     },
     {
       "id": "discover-3-grammar-u11-2-3-context2",
@@ -303,8 +327,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Superlatives",
-      "title": "Superlatives",
+      "focus": "So sánh nhất",
+      "title": "So sánh nhất",
       "answer": "largest",
       "options": [
         "most largest",
@@ -313,7 +337,7 @@
         "large"
       ],
       "hint": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
-      "why": "The cello is the largest instrument in this picture.\nThường đặt the trước tính từ so sánh nhất.",
+      "why": "Chọn “largest”. Thường đặt the trước tính từ so sánh nhất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -324,7 +348,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The cello is the largest instrument in this picture.",
+        "vi": "Cello là nhạc cụ lớn nhất trong bức tranh này."
+      }
     },
     {
       "id": "discover-3-grammar-u11-2-4-context2",
@@ -338,8 +366,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular forms",
-      "title": "Irregular forms",
+      "focus": "Các dạng bất quy tắc",
+      "title": "Các dạng bất quy tắc",
       "answer": "best",
       "options": [
         "best",
@@ -348,7 +376,7 @@
         "most best"
       ],
       "hint": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest. Học các dạng này như một cụm.",
-      "why": "The conductor chose the best player.\nGood thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
+      "why": "Chọn “best”. Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -359,7 +387,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The conductor chose the best player.",
+        "vi": "Người chỉ huy đã chọn người chơi giỏi nhất."
+      }
     },
     {
       "id": "discover-3-grammar-u11-3-1-context2",
@@ -373,8 +405,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short comparatives",
-      "title": "Short comparatives",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "larger",
       "options": [
         "largest",
@@ -383,7 +415,7 @@
         "large"
       ],
       "hint": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
-      "why": "The cello is larger than the violin.\nDùng comparative + than để so sánh hai đối tượng.",
+      "why": "Chọn “larger”. Dùng comparative + than để so sánh hai đối tượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -395,7 +427,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The cello is larger than the violin.",
+        "vi": "Cello lớn hơn violin."
+      }
     },
     {
       "id": "discover-3-grammar-u11-3-2-context2",
@@ -409,8 +445,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Long comparatives",
-      "title": "Long comparatives",
+      "focus": "So sánh hơn với tính từ dài",
+      "title": "So sánh hơn với tính từ dài",
       "answer": "more impressive",
       "options": [
         "more impressiver",
@@ -419,7 +455,7 @@
         "most impressive"
       ],
       "hint": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
-      "why": "The orchestra is more impressive than one instrument.\nĐặt more trước tính từ dài và không thêm -er cùng lúc.",
+      "why": "Chọn “more impressive”. Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -431,7 +467,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The orchestra is more impressive than one instrument.",
+        "vi": "Dàn nhạc ấn tượng hơn một nhạc cụ."
+      }
     },
     {
       "id": "discover-3-grammar-u11-3-3-context2",
@@ -445,8 +485,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Superlatives",
-      "title": "Superlatives",
+      "focus": "So sánh nhất",
+      "title": "So sánh nhất",
       "answer": "largest",
       "options": [
         "largest",
@@ -455,7 +495,7 @@
         "most largest"
       ],
       "hint": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
-      "why": "The cello is the largest instrument in this picture.\nThường đặt the trước tính từ so sánh nhất.",
+      "why": "Chọn “largest”. Thường đặt the trước tính từ so sánh nhất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -467,7 +507,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The cello is the largest instrument in this picture.",
+        "vi": "Cello là nhạc cụ lớn nhất trong bức tranh này."
+      }
     },
     {
       "id": "discover-3-grammar-u11-3-4-context2",
@@ -481,8 +525,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular forms",
-      "title": "Irregular forms",
+      "focus": "Các dạng bất quy tắc",
+      "title": "Các dạng bất quy tắc",
       "answer": "best",
       "options": [
         "goodest",
@@ -491,7 +535,7 @@
         "best"
       ],
       "hint": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest. Học các dạng này như một cụm.",
-      "why": "The conductor chose the best player.\nGood thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
+      "why": "Chọn “best”. Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -503,7 +547,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The conductor chose the best player.",
+        "vi": "Người chỉ huy đã chọn người chơi giỏi nhất."
+      }
     },
     {
       "id": "discover-3-grammar-u11-4-1-context2",
@@ -517,8 +565,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short comparatives",
-      "title": "Short comparatives",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "The cello is → larger than → the violin.",
       "options": [
         "The cello is → larger than → the violin.",
@@ -527,7 +575,7 @@
         "the violin. → larger than → The cello is"
       ],
       "hint": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
-      "why": "The cello is larger than the violin.\nDùng comparative + than để so sánh hai đối tượng.",
+      "why": "Chọn “The cello is → larger than → the violin.”. Dùng comparative + than để so sánh hai đối tượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -541,7 +589,11 @@
         "larger than",
         "the violin.",
         "The cello is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The cello is larger than the violin.",
+        "vi": "Cello lớn hơn violin."
+      }
     },
     {
       "id": "discover-3-grammar-u11-4-2-context2",
@@ -555,8 +607,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Long comparatives",
-      "title": "Long comparatives",
+      "focus": "So sánh hơn với tính từ dài",
+      "title": "So sánh hơn với tính từ dài",
       "answer": "The orchestra is → more impressive than → one instrument.",
       "options": [
         "The orchestra is → more impressive than → one instrument.",
@@ -565,7 +617,7 @@
         "one instrument. → more impressive than → The orchestra is"
       ],
       "hint": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
-      "why": "The orchestra is more impressive than one instrument.\nĐặt more trước tính từ dài và không thêm -er cùng lúc.",
+      "why": "Chọn “The orchestra is → more impressive than → one instrument.”. Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -579,7 +631,11 @@
         "more impressive than",
         "one instrument.",
         "The orchestra is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The orchestra is more impressive than one instrument.",
+        "vi": "Dàn nhạc ấn tượng hơn một nhạc cụ."
+      }
     },
     {
       "id": "discover-3-grammar-u11-4-3-context2",
@@ -593,8 +649,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Superlatives",
-      "title": "Superlatives",
+      "focus": "So sánh nhất",
+      "title": "So sánh nhất",
       "answer": "The cello is → the largest instrument → in this picture.",
       "options": [
         "The cello is → the largest instrument → in this picture.",
@@ -603,7 +659,7 @@
         "in this picture. → the largest instrument → The cello is"
       ],
       "hint": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
-      "why": "The cello is the largest instrument in this picture.\nThường đặt the trước tính từ so sánh nhất.",
+      "why": "Chọn “The cello is → the largest instrument → in this picture.”. Thường đặt the trước tính từ so sánh nhất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -617,7 +673,11 @@
         "the largest instrument",
         "in this picture.",
         "The cello is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The cello is the largest instrument in this picture.",
+        "vi": "Cello là nhạc cụ lớn nhất trong bức tranh này."
+      }
     },
     {
       "id": "discover-3-grammar-u11-4-4-context2",
@@ -631,8 +691,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Irregular forms",
-      "title": "Irregular forms",
+      "focus": "Các dạng bất quy tắc",
+      "title": "Các dạng bất quy tắc",
       "answer": "The conductor → chose the → best player.",
       "options": [
         "The conductor → chose the → best player.",
@@ -641,7 +701,7 @@
         "best player. → chose the → The conductor"
       ],
       "hint": "Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest. Học các dạng này như một cụm.",
-      "why": "The conductor chose the best player.\nGood thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
+      "why": "Chọn “The conductor → chose the → best player.”. Good thành better và best; bad thành worse và worst; far có farther/further và farthest/furthest.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -655,7 +715,11 @@
         "chose the",
         "best player.",
         "The conductor"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The conductor chose the best player.",
+        "vi": "Người chỉ huy đã chọn người chơi giỏi nhất."
+      }
     },
     {
       "id": "discover-3-grammar-u11-5-1-context2",
@@ -669,8 +733,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short comparatives",
-      "title": "Short comparatives",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "The cello is larger than the violin.",
       "options": [
         "The cello is larger than the violin.",
@@ -679,7 +743,7 @@
         "The cello is more larger than the violin."
       ],
       "hint": "Dùng comparative + than để so sánh hai đối tượng. Tính từ tận cùng bằng -y đổi y thành i; một số từ ngắn gấp đôi phụ âm cuối.",
-      "why": "The cello is larger than the violin.\nDùng comparative + than để so sánh hai đối tượng.",
+      "why": "Chọn “The cello is larger than the violin.”. Dùng comparative + than để so sánh hai đối tượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -690,7 +754,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The cello is larger than the violin.",
+        "vi": "Cello lớn hơn violin."
+      }
     },
     {
       "id": "discover-3-grammar-u11-5-2-context2",
@@ -704,8 +772,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Long comparatives",
-      "title": "Long comparatives",
+      "focus": "So sánh hơn với tính từ dài",
+      "title": "So sánh hơn với tính từ dài",
       "answer": "The orchestra is more impressive than one instrument.",
       "options": [
         "The orchestra is impressiver than one instrument.",
@@ -714,7 +782,7 @@
         "The orchestra is more impressive than one instrument."
       ],
       "hint": "Đặt more trước tính từ dài và không thêm -er cùng lúc. Than đứng trước đối tượng thứ hai.",
-      "why": "The orchestra is more impressive than one instrument.\nĐặt more trước tính từ dài và không thêm -er cùng lúc.",
+      "why": "Chọn “The orchestra is more impressive than one instrument.”. Đặt more trước tính từ dài và không thêm -er cùng lúc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -725,7 +793,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The orchestra is more impressive than one instrument.",
+        "vi": "Dàn nhạc ấn tượng hơn một nhạc cụ."
+      }
     },
     {
       "id": "discover-3-grammar-u11-5-3-context2",
@@ -739,8 +811,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Superlatives",
-      "title": "Superlatives",
+      "focus": "So sánh nhất",
+      "title": "So sánh nhất",
       "answer": "The cello is the largest instrument in this picture.",
       "options": [
         "The cello is the large instrument in this picture.",
@@ -749,7 +821,7 @@
         "The cello is the larger instrument in this picture."
       ],
       "hint": "Thường đặt the trước tính từ so sánh nhất. Tính từ ngắn thêm -est; tính từ dài dùng most.",
-      "why": "The cello is the largest instrument in this picture.\nThường đặt the trước tính từ so sánh nhất.",
+      "why": "Chọn “The cello is the largest instrument in this picture.”. Thường đặt the trước tính từ so sánh nhất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -760,7 +832,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The cello is the largest instrument in this picture.",
+        "vi": "Cello là nhạc cụ lớn nhất trong bức tranh này."
+      }
     },
     {
       "id": "discover-3-grammar-u11-5-4-context2-life",

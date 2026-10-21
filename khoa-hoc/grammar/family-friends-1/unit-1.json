@@ -20,15 +20,15 @@
       "example": "What is this?",
       "usage": "Hỏi về một đồ vật bằng What is this?",
       "exampleVi": "Đây là cái gì?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Remember",
-      "note": "Use “What is this?” to ask about one thing. Reply “It is a …”. Use “an” before a vowel sound.",
+      "tag": "Điểm cần nhớ",
+      "note": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "example": "What is this? It's a book.",
-      "usage": "Use “What is this?” to ask about one thing.",
+      "usage": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "exampleVi": "Đây là cái gì? Đây là một quyển sách.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -55,7 +55,7 @@
         "do"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this?\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -64,7 +64,11 @@
       "spokenScene": "",
       "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat ___ this?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-1-2-context2",
@@ -89,7 +93,7 @@
         "is"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It is a pen.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -98,7 +102,11 @@
       "spokenScene": "",
       "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt ___ a pen.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-1-3-context2",
@@ -123,7 +131,7 @@
         "an"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It's a rubber.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -132,7 +140,11 @@
       "spokenScene": "",
       "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt's ___ rubber.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-1-4-context2",
@@ -157,7 +169,7 @@
         "Where"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a book.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -166,7 +178,11 @@
       "spokenScene": "",
       "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n___ is this? It's a book.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-1-5-context2",
@@ -191,7 +207,7 @@
         "You're"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a ruler.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -200,7 +216,11 @@
       "spokenScene": "",
       "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat is this? ___ a ruler.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-2-1-context2",
@@ -225,7 +245,7 @@
         "is"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this?\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -236,7 +256,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-2-2-context2",
@@ -261,7 +285,7 @@
         "are"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It is a pen.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -272,7 +296,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-2-3-context2",
@@ -297,7 +325,7 @@
         "are"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It's a rubber.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -308,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-2-4-context2",
@@ -333,7 +365,7 @@
         "How"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a book.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -344,7 +376,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-2-5-context2",
@@ -369,7 +405,7 @@
         "It's"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a ruler.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -380,7 +416,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-3-1-context2",
@@ -405,7 +445,7 @@
         "are"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this?\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -417,7 +457,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-3-2-context2",
@@ -442,7 +486,7 @@
         "am"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It is a pen.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -454,7 +498,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-3-3-context2",
@@ -479,7 +527,7 @@
         "am"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It's a rubber.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -491,7 +539,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-3-4-context2",
@@ -516,7 +568,7 @@
         "What"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a book.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -528,7 +580,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-3-5-context2",
@@ -553,7 +609,7 @@
         "They're"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a ruler.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -565,7 +621,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-4-1-context2",
@@ -590,7 +650,7 @@
         "this? → is → What"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this?\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “What → is → this?”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -604,7 +664,11 @@
         "is",
         "this?",
         "What"
-      ]
+      ],
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-4-2-context2",
@@ -629,7 +693,7 @@
         "pen. → a → It is"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It is a pen.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “It is → a → pen.”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -643,7 +707,11 @@
         "a",
         "pen.",
         "It is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-4-3-context2",
@@ -668,7 +736,7 @@
         "rubber. → a → It's"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "It's a rubber.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “It's → a → rubber.”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -682,7 +750,11 @@
         "a",
         "rubber.",
         "It's"
-      ]
+      ],
+      "explanationExample": {
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-4-4-context2",
@@ -707,7 +779,7 @@
         "a book. → this? It's → What is"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "What is this? It's a book.\nHỏi về một đồ vật bằng What is this?",
+      "why": "Chọn “What is → this? It's → a book.”. Hỏi về một đồ vật bằng What is this?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +793,11 @@
         "this? It's",
         "a book.",
         "What is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      }
     },
     {
       "id": "family-friends-1-grammar-u1-4-5-context2-life",

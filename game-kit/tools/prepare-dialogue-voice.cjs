@@ -7,7 +7,7 @@ function sequence(lines){const result=[];lines.forEach((t,turn)=>{
  // Blanks are nonverbal cues. Never pronounce underscore or reveal the answer.
  const pieces=String(t.text).split(/(_{2,}|\.{2,}|…)/).filter(Boolean);
  for(const text of pieces){if(/^(_{2,}|\.{2,}|…)$/.test(text)){result.push({src:'../game-kit/adventures/audio/gap-cue.wav',turn,speaker});continue;}
- const clean=text.trim();if(!/[A-Za-z0-9]/.test(clean))continue;const id=crypto.createHash('sha256').update(JSON.stringify([p.voice,p.rate,p.pitch,clean])).digest('hex').slice(0,20);
+ const clean=text.trim();if(!/[A-Za-z0-9]/.test(clean))continue;const id=crypto.createHash('sha256').update(JSON.stringify([p.voice,p.rate,p.pitch,clean,...(p.ensemble?[p.ensemble]:[])])).digest('hex').slice(0,20);
  clips.set(id,{id,text:clean,...p});result.push({src:'../game-kit/adventures/dialogue-audio/'+id+'.mp3',turn,speaker});
  }
  });return result;}

@@ -43,3 +43,5 @@ html[data-mode=night] #adventure.flow-live .play .play-layout.listening-layout>.
 @media(max-width:650px) and (orientation:portrait){#adventure.flow-live .play .play-layout:has(.reading-reference){grid-template-rows:minmax(185px,38dvh) minmax(0,1fr)!important}.reading-reference .shared-passage{font-size:16px;line-height:1.6}.reading-reference .listening-controls{padding-top:4px}.reading-reference .listening-controls button{min-height:34px!important}}
 
 .dictation-gap.listening-sentence input{outline:2px solid #42aacf;outline-offset:2px}[data-listening-sentence]{min-height:1.4em;font-weight:700}
+
+.reading-evidence{background:#ffe2df;color:#b71928;font-weight:750;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone}.evidence-question{font:800 10px/1.2 system-ui;color:#b71928;margin-left:4px;white-space:nowrap}html[data-mode=night] .reading-evidence{background:#4f2738;color:#ff9ca7}html[data-mode=night] .evidence-question{color:#ff9ca7}

@@ -9,29 +9,29 @@
   },
   "summary": [
     {
-      "tag": "Opposite polarity",
+      "tag": "Khẳng định đi với đuôi phủ định và ngược lại",
       "note": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
       "example": "The mayor is at city hall, isn't she?",
       "formula": [
         [
-          "positive statement",
+          "mệnh đề khẳng định",
           ",",
-          "negative tag",
+          "đuôi hỏi phủ định",
           "?"
         ],
         [
-          "negative statement",
+          "mệnh đề phủ định",
           ",",
-          "positive tag",
+          "đuôi hỏi khẳng định",
           "?"
         ]
       ],
       "usage": "Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "exampleVi": "Thị trưởng đang ở tòa thị chính phải không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Match the auxiliary",
+      "tag": "Chọn trợ động từ cho câu hỏi đuôi",
       "note": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "example": "The volunteers cleaned the playground, didn't they?",
       "formula": [
@@ -46,45 +46,45 @@
           "won't"
         ],
         [
-          "past simple",
+          "thì quá khứ đơn",
           "->",
           "did / didn't"
         ]
       ],
       "usage": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "exampleVi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Pronoun in the tag",
+      "tag": "Đại từ trong câu hỏi đuôi",
       "note": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
       "example": "The city council will meet today, won't it?",
       "formula": [
         [
-          "noun subject",
+          "chủ ngữ là danh từ",
           "->",
-          "matching pronoun in tag"
+          "đại từ tương ứng trong câu hỏi đuôi"
         ]
       ],
       "usage": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "exampleVi": "Hội đồng thành phố sẽ họp hôm nay phải không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Answer the fact",
+      "tag": "Trả lời theo sự việc thực tế",
       "note": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
       "example": "The news conference isn't over, is it? No, it isn't.",
       "formula": [
         [
-          "Yes, subject + auxiliary."
+          "Yes, chủ ngữ + trợ động từ."
         ],
         [
-          "No, subject + negative auxiliary."
+          "No, chủ ngữ + trợ động từ phủ định."
         ]
       ],
       "usage": "Yes, she is nghĩa là đúng, cô ấy có ở đó.",
       "exampleVi": "Cuộc họp báo vẫn chưa kết thúc phải không? Không, không phải vậy.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -100,8 +100,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Opposite polarity",
-      "title": "Opposite polarity",
+      "focus": "Khẳng định đi với đuôi phủ định và ngược lại",
+      "title": "Khẳng định đi với đuôi phủ định và ngược lại",
       "answer": "isn't she",
       "options": [
         "isn't she",
@@ -110,7 +110,7 @@
         "aren't she"
       ],
       "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
-      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng.",
+      "why": "Chọn “isn't she”. Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -119,7 +119,11 @@
       "spokenScene": "",
       "scene": "Four pupils praise different city facilities. The council can fund only one improvement this year.\nThe mayor is at city hall, ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The mayor is at city hall, isn't she?",
+        "vi": "Thị trưởng đang ở tòa thị chính phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-1-2-context2",
@@ -133,8 +137,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Match the auxiliary",
-      "title": "Match the auxiliary",
+      "focus": "Chọn trợ động từ cho câu hỏi đuôi",
+      "title": "Chọn trợ động từ cho câu hỏi đuôi",
       "answer": "didn't they",
       "options": [
         "did they",
@@ -143,7 +147,7 @@
         "didn't they"
       ],
       "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
-      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "Chọn “didn't they”. Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -152,7 +156,11 @@
       "spokenScene": "",
       "scene": "Four pupils praise different city facilities. The council can fund only one improvement this year.\nThe volunteers cleaned the playground, ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The volunteers cleaned the playground, didn't they?",
+        "vi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-1-3-context2",
@@ -166,8 +174,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Pronoun in the tag",
-      "title": "Pronoun in the tag",
+      "focus": "Đại từ trong câu hỏi đuôi",
+      "title": "Đại từ trong câu hỏi đuôi",
       "answer": "won't it",
       "options": [
         "doesn't it",
@@ -176,7 +184,7 @@
         "will it"
       ],
       "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
-      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
+      "why": "Chọn “won't it”. The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -185,7 +193,11 @@
       "spokenScene": "",
       "scene": "Four pupils praise different city facilities. The council can fund only one improvement this year.\nThe city council will meet today, ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The city council will meet today, won't it?",
+        "vi": "Hội đồng thành phố sẽ họp hôm nay phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-1-4-context2",
@@ -199,8 +211,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Answer the fact",
-      "title": "Answer the fact",
+      "focus": "Trả lời theo sự việc thực tế",
+      "title": "Trả lời theo sự việc thực tế",
       "answer": "is it",
       "options": [
         "was it",
@@ -209,7 +221,7 @@
         "does it"
       ],
       "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
-      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó.",
+      "why": "Chọn “is it”. Yes, she is nghĩa là đúng, cô ấy có ở đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -218,7 +230,11 @@
       "spokenScene": "",
       "scene": "Four pupils praise different city facilities. The council can fund only one improvement this year.\nThe news conference isn't over, ___? No, it isn't.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The news conference isn't over, is it? No, it isn't.",
+        "vi": "Cuộc họp báo vẫn chưa kết thúc phải không? Không, không phải vậy."
+      }
     },
     {
       "id": "discover-4-grammar-u10-2-1-context2",
@@ -232,8 +248,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Opposite polarity",
-      "title": "Opposite polarity",
+      "focus": "Khẳng định đi với đuôi phủ định và ngược lại",
+      "title": "Khẳng định đi với đuôi phủ định và ngược lại",
       "answer": "isn't she",
       "options": [
         "is she",
@@ -242,7 +258,7 @@
         "isn't she"
       ],
       "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
-      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng.",
+      "why": "Chọn “isn't she”. Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -253,7 +269,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The mayor is at city hall, isn't she?",
+        "vi": "Thị trưởng đang ở tòa thị chính phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-2-2-context2",
@@ -267,8 +287,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Match the auxiliary",
-      "title": "Match the auxiliary",
+      "focus": "Chọn trợ động từ cho câu hỏi đuôi",
+      "title": "Chọn trợ động từ cho câu hỏi đuôi",
       "answer": "didn't they",
       "options": [
         "don't they",
@@ -277,7 +297,7 @@
         "did they"
       ],
       "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
-      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "Chọn “didn't they”. Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -288,7 +308,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The volunteers cleaned the playground, didn't they?",
+        "vi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-2-3-context2",
@@ -302,8 +326,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Pronoun in the tag",
-      "title": "Pronoun in the tag",
+      "focus": "Đại từ trong câu hỏi đuôi",
+      "title": "Đại từ trong câu hỏi đuôi",
       "answer": "won't it",
       "options": [
         "isn't it",
@@ -312,7 +336,7 @@
         "doesn't it"
       ],
       "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
-      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
+      "why": "Chọn “won't it”. The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -323,7 +347,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The city council will meet today, won't it?",
+        "vi": "Hội đồng thành phố sẽ họp hôm nay phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-2-4-context2",
@@ -337,8 +365,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Answer the fact",
-      "title": "Answer the fact",
+      "focus": "Trả lời theo sự việc thực tế",
+      "title": "Trả lời theo sự việc thực tế",
       "answer": "is it",
       "options": [
         "is it",
@@ -347,7 +375,7 @@
         "was it"
       ],
       "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
-      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó.",
+      "why": "Chọn “is it”. Yes, she is nghĩa là đúng, cô ấy có ở đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -358,7 +386,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The news conference isn't over, is it? No, it isn't.",
+        "vi": "Cuộc họp báo vẫn chưa kết thúc phải không? Không, không phải vậy."
+      }
     },
     {
       "id": "discover-4-grammar-u10-3-1-context2",
@@ -372,8 +404,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Opposite polarity",
-      "title": "Opposite polarity",
+      "focus": "Khẳng định đi với đuôi phủ định và ngược lại",
+      "title": "Khẳng định đi với đuôi phủ định và ngược lại",
       "answer": "isn't she",
       "options": [
         "doesn't she",
@@ -382,7 +414,7 @@
         "is she"
       ],
       "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
-      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng.",
+      "why": "Chọn “isn't she”. Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -394,7 +426,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The mayor is at city hall, isn't she?",
+        "vi": "Thị trưởng đang ở tòa thị chính phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-3-2-context2",
@@ -408,8 +444,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Match the auxiliary",
-      "title": "Match the auxiliary",
+      "focus": "Chọn trợ động từ cho câu hỏi đuôi",
+      "title": "Chọn trợ động từ cho câu hỏi đuôi",
       "answer": "didn't they",
       "options": [
         "weren't they",
@@ -418,7 +454,7 @@
         "don't they"
       ],
       "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
-      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "Chọn “didn't they”. Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -430,7 +466,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The volunteers cleaned the playground, didn't they?",
+        "vi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-3-3-context2",
@@ -444,8 +484,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Pronoun in the tag",
-      "title": "Pronoun in the tag",
+      "focus": "Đại từ trong câu hỏi đuôi",
+      "title": "Đại từ trong câu hỏi đuôi",
       "answer": "won't it",
       "options": [
         "won't it",
@@ -454,7 +494,7 @@
         "isn't it"
       ],
       "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
-      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
+      "why": "Chọn “won't it”. The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -466,7 +506,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The city council will meet today, won't it?",
+        "vi": "Hội đồng thành phố sẽ họp hôm nay phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-3-4-context2",
@@ -480,8 +524,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Answer the fact",
-      "title": "Answer the fact",
+      "focus": "Trả lời theo sự việc thực tế",
+      "title": "Trả lời theo sự việc thực tế",
       "answer": "is it",
       "options": [
         "isn't it",
@@ -490,7 +534,7 @@
         "is it"
       ],
       "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
-      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó.",
+      "why": "Chọn “is it”. Yes, she is nghĩa là đúng, cô ấy có ở đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -502,7 +546,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The news conference isn't over, is it? No, it isn't.",
+        "vi": "Cuộc họp báo vẫn chưa kết thúc phải không? Không, không phải vậy."
+      }
     },
     {
       "id": "discover-4-grammar-u10-4-1-context2",
@@ -516,8 +564,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Opposite polarity",
-      "title": "Opposite polarity",
+      "focus": "Khẳng định đi với đuôi phủ định và ngược lại",
+      "title": "Khẳng định đi với đuôi phủ định và ngược lại",
       "answer": "The mayor is → at city hall, → isn't she?",
       "options": [
         "The mayor is → at city hall, → isn't she?",
@@ -526,7 +574,7 @@
         "isn't she? → at city hall, → The mayor is"
       ],
       "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
-      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng.",
+      "why": "Chọn “The mayor is → at city hall, → isn't she?”. Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -540,7 +588,11 @@
         "at city hall,",
         "isn't she?",
         "The mayor is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The mayor is at city hall, isn't she?",
+        "vi": "Thị trưởng đang ở tòa thị chính phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-4-2-context2",
@@ -554,8 +606,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Match the auxiliary",
-      "title": "Match the auxiliary",
+      "focus": "Chọn trợ động từ cho câu hỏi đuôi",
+      "title": "Chọn trợ động từ cho câu hỏi đuôi",
       "answer": "The volunteers cleaned → the playground, → didn't they?",
       "options": [
         "The volunteers cleaned → the playground, → didn't they?",
@@ -564,7 +616,7 @@
         "didn't they? → the playground, → The volunteers cleaned"
       ],
       "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
-      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "Chọn “The volunteers cleaned → the playground, → didn't they?”. Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -578,7 +630,11 @@
         "the playground,",
         "didn't they?",
         "The volunteers cleaned"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The volunteers cleaned the playground, didn't they?",
+        "vi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-4-3-context2",
@@ -592,8 +648,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Pronoun in the tag",
-      "title": "Pronoun in the tag",
+      "focus": "Đại từ trong câu hỏi đuôi",
+      "title": "Đại từ trong câu hỏi đuôi",
       "answer": "The city council → will meet today, → won't it?",
       "options": [
         "The city council → will meet today, → won't it?",
@@ -602,7 +658,7 @@
         "won't it? → will meet today, → The city council"
       ],
       "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
-      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
+      "why": "Chọn “The city council → will meet today, → won't it?”. The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -616,7 +672,11 @@
         "will meet today,",
         "won't it?",
         "The city council"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The city council will meet today, won't it?",
+        "vi": "Hội đồng thành phố sẽ họp hôm nay phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-4-4-context2",
@@ -630,8 +690,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Answer the fact",
-      "title": "Answer the fact",
+      "focus": "Trả lời theo sự việc thực tế",
+      "title": "Trả lời theo sự việc thực tế",
       "answer": "The news conference isn't → over, is it? → No, it isn't.",
       "options": [
         "The news conference isn't → over, is it? → No, it isn't.",
@@ -640,7 +700,7 @@
         "No, it isn't. → over, is it? → The news conference isn't"
       ],
       "hint": "Yes, she is nghĩa là đúng, cô ấy có ở đó. No, she isn't nghĩa là không, cô ấy không ở đó. Hãy nghe cả mệnh đề chính trước khi trả lời.",
-      "why": "The news conference isn't over, is it? No, it isn't.\nYes, she is nghĩa là đúng, cô ấy có ở đó.",
+      "why": "Chọn “The news conference isn't → over, is it? → No, it isn't.”. Yes, she is nghĩa là đúng, cô ấy có ở đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -654,7 +714,11 @@
         "over, is it?",
         "No, it isn't.",
         "The news conference isn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The news conference isn't over, is it? No, it isn't.",
+        "vi": "Cuộc họp báo vẫn chưa kết thúc phải không? Không, không phải vậy."
+      }
     },
     {
       "id": "discover-4-grammar-u10-5-1-context2",
@@ -668,8 +732,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Opposite polarity",
-      "title": "Opposite polarity",
+      "focus": "Khẳng định đi với đuôi phủ định và ngược lại",
+      "title": "Khẳng định đi với đuôi phủ định và ngược lại",
       "answer": "The mayor is at city hall, isn't she?",
       "options": [
         "The mayor is at city hall, isn't she?",
@@ -678,7 +742,7 @@
         "The mayor is at city hall, aren't she?"
       ],
       "hint": "Tag question dùng để kiểm tra điều người nói cho là đúng. Giữ nguyên thì và trợ động từ của mệnh đề chính.",
-      "why": "The mayor is at city hall, isn't she?\nTag question dùng để kiểm tra điều người nói cho là đúng.",
+      "why": "Chọn “The mayor is at city hall, isn't she?”. Tag question dùng để kiểm tra điều người nói cho là đúng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -689,7 +753,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The mayor is at city hall, isn't she?",
+        "vi": "Thị trưởng đang ở tòa thị chính phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-5-2-context2",
@@ -703,8 +771,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Match the auxiliary",
-      "title": "Match the auxiliary",
+      "focus": "Chọn trợ động từ cho câu hỏi đuôi",
+      "title": "Chọn trợ động từ cho câu hỏi đuôi",
       "answer": "The volunteers cleaned the playground, didn't they?",
       "options": [
         "The volunteers cleaned the playground, did they?",
@@ -713,7 +781,7 @@
         "The volunteers cleaned the playground, didn't they?"
       ],
       "hint": "Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
-      "why": "The volunteers cleaned the playground, didn't they?\nDùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
+      "why": "Chọn “The volunteers cleaned the playground, didn't they?”. Dùng is/are/was/were với be; dùng will/can/must nếu mệnh đề có modal; dùng do/does/did khi mệnh đề chính là hiện tại đơn hoặc quá khứ đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +792,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The volunteers cleaned the playground, didn't they?",
+        "vi": "Các tình nguyện viên đã dọn dẹp sân chơi phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-5-3-context2",
@@ -738,8 +810,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Pronoun in the tag",
-      "title": "Pronoun in the tag",
+      "focus": "Đại từ trong câu hỏi đuôi",
+      "title": "Đại từ trong câu hỏi đuôi",
       "answer": "The city council will meet today, won't it?",
       "options": [
         "The city council will meet today, doesn't it?",
@@ -748,7 +820,7 @@
         "The city council will meet today, will it?"
       ],
       "hint": "The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it. Không lặp nguyên cụm danh từ trong tag.",
-      "why": "The city council will meet today, won't it?\nThe mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
+      "why": "Chọn “The city council will meet today, won't it?”. The mayor đổi thành she hoặc he; the citizens đổi thành they; city hall đổi thành it.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -759,7 +831,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The city council will meet today, won't it?",
+        "vi": "Hội đồng thành phố sẽ họp hôm nay phải không?"
+      }
     },
     {
       "id": "discover-4-grammar-u10-5-4-context2-life",

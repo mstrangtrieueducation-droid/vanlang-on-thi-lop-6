@@ -23,15 +23,15 @@
       "example": "My dad is a fireman. He is a fireman.",
       "usage": "He thay cho nam, she thay cho nữ.",
       "exampleVi": "Bố tôi là lính cứu hỏa. Ông ấy là lính cứu hỏa.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "Use “he” for a man or boy and “she” for a woman or girl. Put “is” before the person in a question.",
+      "tag": "Điểm cần nhớ",
+      "note": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
       "example": "Is she a teacher? No, she isn't.",
-      "usage": "Use “he” for a man or boy and “she” for a woman or girl.",
+      "usage": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
       "exampleVi": "Cô ấy có phải giáo viên không? Không phải.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "They"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My dad is a fireman. He is a fireman.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “He”. He thay cho nam, she thay cho nữ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "A firefighter is helping people near the school. The children are curious.\nMy dad is a fireman. ___ is a fireman.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "My dad is a fireman. He is a fireman.",
+        "vi": "Bố tôi là lính cứu hỏa. Ông ấy là lính cứu hỏa."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-1-2-context2",
@@ -92,7 +96,7 @@
         "She"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My mum is a doctor. She is a doctor.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “She”. He thay cho nam, she thay cho nữ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "A firefighter is helping people near the school. The children are curious.\nMy mum is a doctor. ___ is a doctor.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "My mum is a doctor. She is a doctor.",
+        "vi": "Mẹ tôi là bác sĩ. Bà ấy là bác sĩ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-1-3-context2",
@@ -126,7 +134,7 @@
         "isn't"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "He is ready to help a friend with the class activity.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “is”. He thay cho nam, she thay cho nữ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "A firefighter is helping people near the school. The children are curious.\nHe ___ ready to help a friend with the class activity.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-1-4-context2",
@@ -160,7 +172,7 @@
         "aren't"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She isn't late; the class register shows an early arrival.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “isn't”. He thay cho nam, she thay cho nữ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "A firefighter is helping people near the school. The children are curious.\nShe ___ late; the class register shows an early arrival.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She isn't late; the class register shows an early arrival.",
+        "vi": "Bạn ấy không đến muộn; sổ điểm danh cho thấy bạn ấy đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-1-5-context2",
@@ -194,7 +210,7 @@
         "am"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She's a pupil.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “a”. He thay cho nam, she thay cho nữ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "A firefighter is helping people near the school. The children are curious.\nShe's ___ pupil.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She's a pupil.",
+        "vi": "Bạn ấy là học sinh."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-2-1-context2",
@@ -228,7 +248,7 @@
         "He"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My dad is a fireman. He is a fireman.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “He”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "My dad is a fireman. He is a fireman.",
+        "vi": "Bố tôi là lính cứu hỏa. Ông ấy là lính cứu hỏa."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-2-2-context2",
@@ -264,7 +288,7 @@
         "He"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My mum is a doctor. She is a doctor.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “She”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "My mum is a doctor. She is a doctor.",
+        "vi": "Mẹ tôi là bác sĩ. Bà ấy là bác sĩ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-2-3-context2",
@@ -300,7 +328,7 @@
         "are"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "He is ready to help a friend with the class activity.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “is”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-2-4-context2",
@@ -336,7 +368,7 @@
         "am"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She isn't late; the class register shows an early arrival.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “isn't”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She isn't late; the class register shows an early arrival.",
+        "vi": "Bạn ấy không đến muộn; sổ điểm danh cho thấy bạn ấy đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-2-5-context2",
@@ -372,7 +408,7 @@
         "a"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She's a pupil.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “a”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She's a pupil.",
+        "vi": "Bạn ấy là học sinh."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-3-1-context2",
@@ -408,7 +448,7 @@
         "She"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My dad is a fireman. He is a fireman.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “He”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "My dad is a fireman. He is a fireman.",
+        "vi": "Bố tôi là lính cứu hỏa. Ông ấy là lính cứu hỏa."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-3-2-context2",
@@ -445,7 +489,7 @@
         "It"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My mum is a doctor. She is a doctor.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “She”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "My mum is a doctor. She is a doctor.",
+        "vi": "Mẹ tôi là bác sĩ. Bà ấy là bác sĩ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-3-3-context2",
@@ -482,7 +530,7 @@
         "am"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "He is ready to help a friend with the class activity.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “is”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-3-4-context2",
@@ -519,7 +571,7 @@
         "isn't"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She isn't late; the class register shows an early arrival.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “isn't”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She isn't late; the class register shows an early arrival.",
+        "vi": "Bạn ấy không đến muộn; sổ điểm danh cho thấy bạn ấy đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-3-5-context2",
@@ -556,7 +612,7 @@
         "an"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She's a pupil.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “a”. He thay cho nam, she thay cho nữ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She's a pupil.",
+        "vi": "Bạn ấy là học sinh."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-4-1-context2",
@@ -593,7 +653,7 @@
         "is a fireman. → a fireman. He → My dad is"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My dad is a fireman. He is a fireman.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “My dad is → a fireman. He → is a fireman.”. He thay cho nam, she thay cho nữ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "a fireman. He",
         "is a fireman.",
         "My dad is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "My dad is a fireman. He is a fireman.",
+        "vi": "Bố tôi là lính cứu hỏa. Ông ấy là lính cứu hỏa."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-4-2-context2",
@@ -632,7 +696,7 @@
         "is a doctor. → a doctor. She → My mum is"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "My mum is a doctor. She is a doctor.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “My mum is → a doctor. She → is a doctor.”. He thay cho nam, she thay cho nữ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "a doctor. She",
         "is a doctor.",
         "My mum is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "My mum is a doctor. She is a doctor.",
+        "vi": "Mẹ tôi là bác sĩ. Bà ấy là bác sĩ."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-4-3-context2",
@@ -671,7 +739,7 @@
         "the class activity. → help a friend with → He is ready to"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "He is ready to help a friend with the class activity.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “He is ready to → help a friend with → the class activity.”. He thay cho nam, she thay cho nữ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "help a friend with",
         "the class activity.",
         "He is ready to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-4-4-context2",
@@ -710,7 +782,7 @@
         "an early arrival. → class register shows → She isn't late; the"
       ],
       "hint": "He thay cho nam, she thay cho nữ. Hỏi nghề nghiệp thì đưa is lên trước he/she.",
-      "why": "She isn't late; the class register shows an early arrival.\nHe thay cho nam, she thay cho nữ.",
+      "why": "Chọn “She isn't late; the → class register shows → an early arrival.”. He thay cho nam, she thay cho nữ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "class register shows",
         "an early arrival.",
         "She isn't late; the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She isn't late; the class register shows an early arrival.",
+        "vi": "Bạn ấy không đến muộn; sổ điểm danh cho thấy bạn ấy đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u4-4-5-context2-life",

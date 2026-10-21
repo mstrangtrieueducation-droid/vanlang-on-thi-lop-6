@@ -23,15 +23,15 @@
       "example": "I do my homework after school.",
       "usage": "Diễn tả việc thường làm dùng hiện tại đơn.",
       "exampleVi": "Tôi làm bài tập về nhà sau giờ học.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "For routines with I/you/we/they, use the base verb. Make negatives with “don’t + base verb”.",
+      "tag": "Điểm cần nhớ",
+      "note": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
       "example": "I listen to music.",
-      "usage": "For routines with I/you/we/they, use the base verb.",
+      "usage": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
       "exampleVi": "Tôi nghe nhạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "am"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I do my homework after school.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “do”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "Adam wants to watch a video, but he has not finished his homework.\nI ___ my homework after school.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I do my homework after school.",
+        "vi": "Tôi làm bài tập về nhà sau giờ học."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-1-2-context2",
@@ -92,7 +96,7 @@
         "watch"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I don't watch TV on Monday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “watch”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "Adam wants to watch a video, but he has not finished his homework.\nI don't ___ TV on Monday.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I don't watch TV on Monday.",
+        "vi": "Tôi không xem ti vi vào thứ Hai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-1-3-context2",
@@ -126,7 +134,7 @@
         "goes"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I go swimming on Saturday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “go”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "Adam wants to watch a video, but he has not finished his homework.\nI ___ swimming on Saturday.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I go swimming on Saturday.",
+        "vi": "Tôi đi bơi vào thứ Bảy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-1-4-context2",
@@ -160,7 +172,7 @@
         "in"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I listen to music.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “to”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "Adam wants to watch a video, but he has not finished his homework.\nI listen ___ music.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I listen to music.",
+        "vi": "Tôi nghe nhạc."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-1-5-context2",
@@ -194,7 +210,7 @@
         "am"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I have a music lesson on Tuesday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “have”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "Adam wants to watch a video, but he has not finished his homework.\nI ___ a music lesson on Tuesday.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I have a music lesson on Tuesday.",
+        "vi": "Tôi có tiết Âm nhạc vào thứ Ba."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-2-1-context2",
@@ -228,7 +248,7 @@
         "do"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I do my homework after school.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “do”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I do my homework after school.",
+        "vi": "Tôi làm bài tập về nhà sau giờ học."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-2-2-context2",
@@ -264,7 +288,7 @@
         "watches"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I don't watch TV on Monday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “watch”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I don't watch TV on Monday.",
+        "vi": "Tôi không xem ti vi vào thứ Hai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-2-3-context2",
@@ -300,7 +328,7 @@
         "going"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I go swimming on Saturday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “go”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I go swimming on Saturday.",
+        "vi": "Tôi đi bơi vào thứ Bảy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-2-4-context2",
@@ -336,7 +368,7 @@
         "at"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I listen to music.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “to”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I listen to music.",
+        "vi": "Tôi nghe nhạc."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-2-5-context2",
@@ -372,7 +408,7 @@
         "have"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I have a music lesson on Tuesday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “have”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I have a music lesson on Tuesday.",
+        "vi": "Tôi có tiết Âm nhạc vào thứ Ba."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-3-1-context2",
@@ -408,7 +448,7 @@
         "does"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I do my homework after school.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “do”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I do my homework after school.",
+        "vi": "Tôi làm bài tập về nhà sau giờ học."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-3-2-context2",
@@ -445,7 +489,7 @@
         "watching"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I don't watch TV on Monday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “watch”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I don't watch TV on Monday.",
+        "vi": "Tôi không xem ti vi vào thứ Hai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-3-3-context2",
@@ -482,7 +530,7 @@
         "am"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I go swimming on Saturday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “go”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I go swimming on Saturday.",
+        "vi": "Tôi đi bơi vào thứ Bảy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-3-4-context2",
@@ -519,7 +571,7 @@
         "to"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I listen to music.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “to”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I listen to music.",
+        "vi": "Tôi nghe nhạc."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-3-5-context2",
@@ -556,7 +612,7 @@
         "has"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I have a music lesson on Tuesday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “have”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I have a music lesson on Tuesday.",
+        "vi": "Tôi có tiết Âm nhạc vào thứ Ba."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-4-1-context2",
@@ -593,7 +653,7 @@
         "after school. → my homework → I do"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I do my homework after school.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “I do → my homework → after school.”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "my homework",
         "after school.",
         "I do"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I do my homework after school.",
+        "vi": "Tôi làm bài tập về nhà sau giờ học."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-4-2-context2",
@@ -632,7 +696,7 @@
         "on Monday. → watch TV → I don't"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I don't watch TV on Monday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “I don't → watch TV → on Monday.”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "watch TV",
         "on Monday.",
         "I don't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I don't watch TV on Monday.",
+        "vi": "Tôi không xem ti vi vào thứ Hai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-4-3-context2",
@@ -671,7 +739,7 @@
         "Saturday. → swimming on → I go"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I go swimming on Saturday.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “I go → swimming on → Saturday.”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "swimming on",
         "Saturday.",
         "I go"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I go swimming on Saturday.",
+        "vi": "Tôi đi bơi vào thứ Bảy."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-4-4-context2",
@@ -710,7 +782,7 @@
         "music. → to → I listen"
       ],
       "hint": "Diễn tả việc thường làm dùng hiện tại đơn. Phủ định dùng don’t rồi giữ động từ nguyên mẫu.",
-      "why": "I listen to music.\nDiễn tả việc thường làm dùng hiện tại đơn.",
+      "why": "Chọn “I listen → to → music.”. Diễn tả việc thường làm dùng hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "to",
         "music.",
         "I listen"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I listen to music.",
+        "vi": "Tôi nghe nhạc."
+      }
     },
     {
       "id": "family-friends-2-grammar-u6-4-5-context2-life",

@@ -23,15 +23,15 @@
       "example": "Where is Grandma?",
       "usage": "Một người: is; nhiều người: are.",
       "exampleVi": "Bà ở đâu?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Remember",
-      "note": "Use “Where is” for one person and “Where are” for more than one. Match “is/are” in the short answer.",
+      "tag": "Điểm cần nhớ",
+      "note": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
       "example": "Are they in the garden? No, they aren't.",
-      "usage": "Use “Where is” for one person and “Where are” for more than one.",
+      "usage": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
       "exampleVi": "Họ có ở trong vườn không? Không.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "do"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where is Grandma?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "The bathroom door is closed. Amy wants to go in.\nWhere ___ Grandma?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Where is Grandma?",
+        "vi": "Bà ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-1-2-context2",
@@ -92,7 +96,7 @@
         "are"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are Mum and Dad?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “are”. Một người: is; nhiều người: are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "The bathroom door is closed. Amy wants to go in.\nWhere ___ Mum and Dad?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Where are Mum and Dad?",
+        "vi": "Bố mẹ đang ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-1-3-context2",
@@ -126,7 +134,7 @@
         "are"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "She is ready to help a friend with the class activity.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "The bathroom door is closed. Amy wants to go in.\nShe ___ ready to help a friend with the class activity.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-1-4-context2",
@@ -160,7 +172,7 @@
         "are"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "They aren't late; the class register shows an early arrival.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “aren't”. Một người: is; nhiều người: are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "The bathroom door is closed. Amy wants to go in.\nThey ___ late; the class register shows an early arrival.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "They aren't late; the class register shows an early arrival.",
+        "vi": "Các bạn ấy không đến muộn; sổ điểm danh cho thấy các bạn đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-1-5-context2",
@@ -194,7 +210,7 @@
         "How old"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are my cousins? They are in the garden.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “Where”. Một người: is; nhiều người: are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "The bathroom door is closed. Amy wants to go in.\n___ are my cousins? They are in the garden.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Where are my cousins? They are in the garden.",
+        "vi": "Các anh chị em họ của tôi ở đâu? Họ đang ở trong vườn."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-2-1-context2",
@@ -228,7 +248,7 @@
         "is"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where is Grandma?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Where is Grandma?",
+        "vi": "Bà ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-2-2-context2",
@@ -264,7 +288,7 @@
         "is"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are Mum and Dad?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “are”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Where are Mum and Dad?",
+        "vi": "Bố mẹ đang ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-2-3-context2",
@@ -300,7 +328,7 @@
         "am"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "She is ready to help a friend with the class activity.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-2-4-context2",
@@ -336,7 +368,7 @@
         "am"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "They aren't late; the class register shows an early arrival.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “aren't”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "They aren't late; the class register shows an early arrival.",
+        "vi": "Các bạn ấy không đến muộn; sổ điểm danh cho thấy các bạn đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-2-5-context2",
@@ -372,7 +408,7 @@
         "Where"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are my cousins? They are in the garden.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “Where”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Where are my cousins? They are in the garden.",
+        "vi": "Các anh chị em họ của tôi ở đâu? Họ đang ở trong vườn."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-3-1-context2",
@@ -408,7 +448,7 @@
         "are"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where is Grandma?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Where is Grandma?",
+        "vi": "Bà ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-3-2-context2",
@@ -445,7 +489,7 @@
         "am"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are Mum and Dad?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “are”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Where are Mum and Dad?",
+        "vi": "Bố mẹ đang ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-3-3-context2",
@@ -482,7 +530,7 @@
         "isn't"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "She is ready to help a friend with the class activity.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “is”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-3-4-context2",
@@ -519,7 +571,7 @@
         "aren't"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "They aren't late; the class register shows an early arrival.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “aren't”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "They aren't late; the class register shows an early arrival.",
+        "vi": "Các bạn ấy không đến muộn; sổ điểm danh cho thấy các bạn đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-3-5-context2",
@@ -556,7 +612,7 @@
         "What"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are my cousins? They are in the garden.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “Where”. Một người: is; nhiều người: are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Where are my cousins? They are in the garden.",
+        "vi": "Các anh chị em họ của tôi ở đâu? Họ đang ở trong vườn."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-4-1-context2",
@@ -593,7 +653,7 @@
         "Grandma? → is → Where"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where is Grandma?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “Where → is → Grandma?”. Một người: is; nhiều người: are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "is",
         "Grandma?",
         "Where"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Where is Grandma?",
+        "vi": "Bà ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-4-2-context2",
@@ -632,7 +696,7 @@
         "Dad? → Mum and → Where are"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "Where are Mum and Dad?\nMột người: is; nhiều người: are.",
+      "why": "Chọn “Where are → Mum and → Dad?”. Một người: is; nhiều người: are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "Mum and",
         "Dad?",
         "Where are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Where are Mum and Dad?",
+        "vi": "Bố mẹ đang ở đâu?"
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-4-3-context2",
@@ -671,7 +739,7 @@
         "the class activity. → help a friend with → She is ready to"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "She is ready to help a friend with the class activity.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “She is ready to → help a friend with → the class activity.”. Một người: is; nhiều người: are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "help a friend with",
         "the class activity.",
         "She is ready to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She is ready to help a friend with the class activity.",
+        "vi": "Bạn ấy sẵn sàng giúp một người bạn làm hoạt động trên lớp."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-4-4-context2",
@@ -710,7 +782,7 @@
         "an early arrival. → class register shows → They aren't late; the"
       ],
       "hint": "Một người: is; nhiều người: are. Câu trả lời cũng phải khớp: She is / They are.",
-      "why": "They aren't late; the class register shows an early arrival.\nMột người: is; nhiều người: are.",
+      "why": "Chọn “They aren't late; the → class register shows → an early arrival.”. Một người: is; nhiều người: are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "class register shows",
         "an early arrival.",
         "They aren't late; the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "They aren't late; the class register shows an early arrival.",
+        "vi": "Các bạn ấy không đến muộn; sổ điểm danh cho thấy các bạn đến sớm."
+      }
     },
     {
       "id": "family-friends-1-grammar-u8-4-5-context2-life",

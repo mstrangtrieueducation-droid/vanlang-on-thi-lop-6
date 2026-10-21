@@ -23,15 +23,15 @@
       "example": "Have you got a milkshake? Yes, I have.",
       "usage": "Hỏi với he/she dùng has; you/we/they dùng have.",
       "exampleVi": "Bạn có sữa lắc không? Có.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Remember",
-      "note": "Use “Have … got?” with I/you/we/they and “Has … got?” with he/she/it. Match have/has in the short answer.",
+      "tag": "Điểm cần nhớ",
+      "note": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
       "example": "Have you got a salad?",
-      "usage": "Use “Have … got?” with I/you/we/they and “Has … got?” with he/she/it.",
+      "usage": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
       "exampleVi": "Bạn có món rau trộn không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "am"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "I have got a spare pencil to lend to a classmate.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "The class has finished its snacks. There are wrappers on the table.\nI ___ got a spare pencil to lend to a classmate.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I have got a spare pencil to lend to a classmate.",
+        "vi": "Tôi có một chiếc bút chì dự phòng để cho bạn cùng lớp mượn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-1-2-context2",
@@ -92,7 +96,7 @@
         "hasn't"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She hasn't got the missing helmet, so an adult is helping to find it.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “hasn't”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "The class has finished its snacks. There are wrappers on the table.\nShe ___ got the missing helmet, so an adult is helping to find it.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She hasn't got the missing helmet, so an adult is helping to find it.",
+        "vi": "Bạn ấy không giữ chiếc mũ bảo hiểm bị thất lạc, nên một người lớn đang giúp tìm nó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-1-3-context2",
@@ -126,7 +134,7 @@
         "Have"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Has he got a pizza?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "The class has finished its snacks. There are wrappers on the table.\n___ he got a pizza?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Has he got a pizza?",
+        "vi": "Bạn ấy có một chiếc bánh pizza không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-1-4-context2",
@@ -160,7 +172,7 @@
         "Is"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Have you got a salad?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "The class has finished its snacks. There are wrappers on the table.\n___ you got a salad?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Have you got a salad?",
+        "vi": "Bạn có món rau trộn không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-1-5-context2",
@@ -194,7 +210,7 @@
         "are"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She has got a cheese sandwich.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "The class has finished its snacks. There are wrappers on the table.\nShe ___ got a cheese sandwich.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She has got a cheese sandwich.",
+        "vi": "Bạn ấy có một chiếc bánh mì kẹp phô mai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-2-1-context2",
@@ -228,7 +248,7 @@
         "have"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "I have got a spare pencil to lend to a classmate.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I have got a spare pencil to lend to a classmate.",
+        "vi": "Tôi có một chiếc bút chì dự phòng để cho bạn cùng lớp mượn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-2-2-context2",
@@ -264,7 +288,7 @@
         "haven't"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She hasn't got the missing helmet, so an adult is helping to find it.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “hasn't”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She hasn't got the missing helmet, so an adult is helping to find it.",
+        "vi": "Bạn ấy không giữ chiếc mũ bảo hiểm bị thất lạc, nên một người lớn đang giúp tìm nó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-2-3-context2",
@@ -300,7 +328,7 @@
         "Is"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Has he got a pizza?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Has he got a pizza?",
+        "vi": "Bạn ấy có một chiếc bánh pizza không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-2-4-context2",
@@ -336,7 +368,7 @@
         "Are"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Have you got a salad?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Have you got a salad?",
+        "vi": "Bạn có món rau trộn không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-2-5-context2",
@@ -372,7 +408,7 @@
         "has"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She has got a cheese sandwich.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She has got a cheese sandwich.",
+        "vi": "Bạn ấy có một chiếc bánh mì kẹp phô mai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-3-1-context2",
@@ -408,7 +448,7 @@
         "has"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "I have got a spare pencil to lend to a classmate.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I have got a spare pencil to lend to a classmate.",
+        "vi": "Tôi có một chiếc bút chì dự phòng để cho bạn cùng lớp mượn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-3-2-context2",
@@ -445,7 +489,7 @@
         "has"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She hasn't got the missing helmet, so an adult is helping to find it.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “hasn't”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She hasn't got the missing helmet, so an adult is helping to find it.",
+        "vi": "Bạn ấy không giữ chiếc mũ bảo hiểm bị thất lạc, nên một người lớn đang giúp tìm nó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-3-3-context2",
@@ -482,7 +530,7 @@
         "Are"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Has he got a pizza?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Has he got a pizza?",
+        "vi": "Bạn ấy có một chiếc bánh pizza không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-3-4-context2",
@@ -519,7 +571,7 @@
         "Have"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Have you got a salad?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Have”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Have you got a salad?",
+        "vi": "Bạn có món rau trộn không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-3-5-context2",
@@ -556,7 +612,7 @@
         "have"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She has got a cheese sandwich.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “has”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She has got a cheese sandwich.",
+        "vi": "Bạn ấy có một chiếc bánh mì kẹp phô mai."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-4-1-context2",
@@ -593,7 +653,7 @@
         "to a classmate. → spare pencil to lend → I have got a"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "I have got a spare pencil to lend to a classmate.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “I have got a → spare pencil to lend → to a classmate.”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "spare pencil to lend",
         "to a classmate.",
         "I have got a"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I have got a spare pencil to lend to a classmate.",
+        "vi": "Tôi có một chiếc bút chì dự phòng để cho bạn cùng lớp mượn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-4-2-context2",
@@ -632,7 +696,7 @@
         "helping to find it. → helmet, so an adult is → She hasn't got the missing"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "She hasn't got the missing helmet, so an adult is helping to find it.\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “She hasn't got the missing → helmet, so an adult is → helping to find it.”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "helmet, so an adult is",
         "helping to find it.",
         "She hasn't got the missing"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She hasn't got the missing helmet, so an adult is helping to find it.",
+        "vi": "Bạn ấy không giữ chiếc mũ bảo hiểm bị thất lạc, nên một người lớn đang giúp tìm nó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-4-3-context2",
@@ -671,7 +739,7 @@
         "pizza? → got a → Has he"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Has he got a pizza?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Has he → got a → pizza?”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "got a",
         "pizza?",
         "Has he"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Has he got a pizza?",
+        "vi": "Bạn ấy có một chiếc bánh pizza không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-4-4-context2",
@@ -710,7 +782,7 @@
         "salad? → got a → Have you"
       ],
       "hint": "Hỏi với he/she dùng has; you/we/they dùng have. Trả lời ngắn dùng lại have/has tương ứng.",
-      "why": "Have you got a salad?\nHỏi với he/she dùng has; you/we/they dùng have.",
+      "why": "Chọn “Have you → got a → salad?”. Hỏi với he/she dùng has; you/we/they dùng have.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "got a",
         "salad?",
         "Have you"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Have you got a salad?",
+        "vi": "Bạn có món rau trộn không?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u4-4-5-context2-life",

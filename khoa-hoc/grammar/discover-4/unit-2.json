@@ -9,73 +9,73 @@
   },
   "summary": [
     {
-      "tag": "Form",
+      "tag": "Cấu trúc cần ghi nhớ",
       "note": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
       "example": "If the space probe reaches Mars, it will send pictures.",
       "formula": [
         [
           "If",
           "+",
-          "present simple",
+          "thì hiện tại đơn",
           ",",
-          "will + base verb"
+          "will + động từ nguyên mẫu"
         ]
       ],
       "usage": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "exampleVi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Clause order",
+      "tag": "Thứ tự các mệnh đề",
       "note": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
       "example": "Astronomers will learn more if the probe enters orbit.",
       "formula": [
         [
-          "If + condition",
+          "If + điều kiện",
           ",",
-          "result"
+          "kết quả"
         ],
         [
-          "result",
+          "kết quả",
           "+",
-          "if + condition"
+          "if + điều kiện"
         ]
       ],
       "usage": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "exampleVi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "No will after if",
+      "tag": "Không dùng will trong mệnh đề điều kiện",
       "note": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
       "example": "If the space probe works, we will see the surface clearly.",
       "formula": [
         [
-          "if + subject + present simple"
+          "if + chủ ngữ + thì hiện tại đơn"
         ],
         [
-          "not:",
-          "if + subject + will"
+          "không dùng:",
+          "if + chủ ngữ + will"
         ]
       ],
       "usage": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "exampleVi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative forms",
+      "tag": "Dạng phủ định",
       "note": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
       "example": "If gravity doesn't hold the matter, it will float away.",
       "formula": [
         [
-          "If + subject + don't / doesn't + verb",
+          "If + chủ ngữ + don't / doesn't + động từ",
           ",",
-          "subject + won't + verb"
+          "chủ ngữ + won't + động từ"
         ]
       ],
       "usage": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
       "exampleVi": "Nếu trọng lực không giữ được vật chất thì nó sẽ trôi đi.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -91,8 +91,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "reaches",
       "options": [
         "reaches",
@@ -101,7 +101,7 @@
         "to reach"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
-      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
+      "why": "Chọn “reaches”. Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -110,7 +110,11 @@
       "spokenScene": "",
       "scene": "A probe will send useful images only if its camera works. A test finds a camera fault, but the engine passes.\nIf the space probe ___ Mars, it will send pictures.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "If the space probe reaches Mars, it will send pictures.",
+        "vi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh."
+      }
     },
     {
       "id": "discover-4-grammar-u2-1-2-context2",
@@ -124,8 +128,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Clause order",
-      "title": "Clause order",
+      "focus": "Thứ tự các mệnh đề",
+      "title": "Thứ tự các mệnh đề",
       "answer": "enters",
       "options": [
         "will enters",
@@ -134,7 +138,7 @@
         "enters"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
+      "why": "Chọn “enters”. Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -143,7 +147,11 @@
       "spokenScene": "",
       "scene": "A probe will send useful images only if its camera works. A test finds a camera fault, but the engine passes.\nAstronomers will learn more if the probe ___ orbit.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Astronomers will learn more if the probe enters orbit.",
+        "vi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo."
+      }
     },
     {
       "id": "discover-4-grammar-u2-1-3-context2",
@@ -157,8 +165,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No will after if",
-      "title": "No will after if",
+      "focus": "Không dùng will trong mệnh đề điều kiện",
+      "title": "Không dùng will trong mệnh đề điều kiện",
       "answer": "works",
       "options": [
         "working",
@@ -167,7 +175,7 @@
         "will works"
       ],
       "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
-      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
+      "why": "Chọn “works”. Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -176,7 +184,11 @@
       "spokenScene": "",
       "scene": "A probe will send useful images only if its camera works. A test finds a camera fault, but the engine passes.\nIf the space probe ___, we will see the surface clearly.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "If the space probe works, we will see the surface clearly.",
+        "vi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt."
+      }
     },
     {
       "id": "discover-4-grammar-u2-1-4-context2",
@@ -190,8 +202,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative forms",
-      "title": "Negative forms",
+      "focus": "Dạng phủ định",
+      "title": "Dạng phủ định",
       "answer": "hold",
       "options": [
         "held",
@@ -200,7 +212,7 @@
         "holding"
       ],
       "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
-      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
+      "why": "Chọn “hold”. Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -209,7 +221,11 @@
       "spokenScene": "",
       "scene": "A probe will send useful images only if its camera works. A test finds a camera fault, but the engine passes.\nIf gravity doesn't ___ the matter, it will float away.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "If gravity doesn't hold the matter, it will float away.",
+        "vi": "Nếu trọng lực không giữ được vật chất thì nó sẽ trôi đi."
+      }
     },
     {
       "id": "discover-4-grammar-u2-2-1-context2",
@@ -223,8 +239,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "reaches",
       "options": [
         "will reaches",
@@ -233,7 +249,7 @@
         "reaches"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
-      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
+      "why": "Chọn “reaches”. Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -244,7 +260,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "If the space probe reaches Mars, it will send pictures.",
+        "vi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh."
+      }
     },
     {
       "id": "discover-4-grammar-u2-2-2-context2",
@@ -258,8 +278,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Clause order",
-      "title": "Clause order",
+      "focus": "Thứ tự các mệnh đề",
+      "title": "Thứ tự các mệnh đề",
       "answer": "enters",
       "options": [
         "entering",
@@ -268,7 +288,7 @@
         "will enters"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
+      "why": "Chọn “enters”. Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -279,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Astronomers will learn more if the probe enters orbit.",
+        "vi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo."
+      }
     },
     {
       "id": "discover-4-grammar-u2-2-3-context2",
@@ -293,8 +317,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No will after if",
-      "title": "No will after if",
+      "focus": "Không dùng will trong mệnh đề điều kiện",
+      "title": "Không dùng will trong mệnh đề điều kiện",
       "answer": "works",
       "options": [
         "to work",
@@ -303,7 +327,7 @@
         "working"
       ],
       "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
-      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
+      "why": "Chọn “works”. Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -314,7 +338,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "If the space probe works, we will see the surface clearly.",
+        "vi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt."
+      }
     },
     {
       "id": "discover-4-grammar-u2-2-4-context2",
@@ -328,8 +356,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative forms",
-      "title": "Negative forms",
+      "focus": "Dạng phủ định",
+      "title": "Dạng phủ định",
       "answer": "hold",
       "options": [
         "hold",
@@ -338,7 +366,7 @@
         "held"
       ],
       "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
-      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
+      "why": "Chọn “hold”. Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -349,7 +377,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "If gravity doesn't hold the matter, it will float away.",
+        "vi": "Nếu trọng lực không giữ được vật chất thì nó sẽ trôi đi."
+      }
     },
     {
       "id": "discover-4-grammar-u2-3-1-context2",
@@ -363,8 +395,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "reaches",
       "options": [
         "reaching",
@@ -373,7 +405,7 @@
         "will reaches"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
-      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
+      "why": "Chọn “reaches”. Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -385,7 +417,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "If the space probe reaches Mars, it will send pictures.",
+        "vi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh."
+      }
     },
     {
       "id": "discover-4-grammar-u2-3-2-context2",
@@ -399,8 +435,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Clause order",
-      "title": "Clause order",
+      "focus": "Thứ tự các mệnh đề",
+      "title": "Thứ tự các mệnh đề",
       "answer": "enters",
       "options": [
         "to enter",
@@ -409,7 +445,7 @@
         "entering"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
+      "why": "Chọn “enters”. Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -421,7 +457,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Astronomers will learn more if the probe enters orbit.",
+        "vi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo."
+      }
     },
     {
       "id": "discover-4-grammar-u2-3-3-context2",
@@ -435,8 +475,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No will after if",
-      "title": "No will after if",
+      "focus": "Không dùng will trong mệnh đề điều kiện",
+      "title": "Không dùng will trong mệnh đề điều kiện",
       "answer": "works",
       "options": [
         "works",
@@ -445,7 +485,7 @@
         "to work"
       ],
       "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
-      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
+      "why": "Chọn “works”. Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +497,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "If the space probe works, we will see the surface clearly.",
+        "vi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt."
+      }
     },
     {
       "id": "discover-4-grammar-u2-3-4-context2",
@@ -471,8 +515,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative forms",
-      "title": "Negative forms",
+      "focus": "Dạng phủ định",
+      "title": "Dạng phủ định",
       "answer": "hold",
       "options": [
         "holds",
@@ -481,7 +525,7 @@
         "hold"
       ],
       "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
-      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
+      "why": "Chọn “hold”. Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -493,7 +537,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "If gravity doesn't hold the matter, it will float away.",
+        "vi": "Nếu trọng lực không giữ được vật chất thì nó sẽ trôi đi."
+      }
     },
     {
       "id": "discover-4-grammar-u2-4-1-context2",
@@ -507,8 +555,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "If the space probe → reaches Mars, it → will send pictures.",
       "options": [
         "If the space probe → reaches Mars, it → will send pictures.",
@@ -517,7 +565,7 @@
         "will send pictures. → reaches Mars, it → If the space probe"
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
-      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
+      "why": "Chọn “If the space probe → reaches Mars, it → will send pictures.”. Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -531,7 +579,11 @@
         "reaches Mars, it",
         "will send pictures.",
         "If the space probe"
-      ]
+      ],
+      "explanationExample": {
+        "en": "If the space probe reaches Mars, it will send pictures.",
+        "vi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh."
+      }
     },
     {
       "id": "discover-4-grammar-u2-4-2-context2",
@@ -545,8 +597,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Clause order",
-      "title": "Clause order",
+      "focus": "Thứ tự các mệnh đề",
+      "title": "Thứ tự các mệnh đề",
       "answer": "Astronomers will learn → more if the → probe enters orbit.",
       "options": [
         "Astronomers will learn → more if the → probe enters orbit.",
@@ -555,7 +607,7 @@
         "probe enters orbit. → more if the → Astronomers will learn"
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
+      "why": "Chọn “Astronomers will learn → more if the → probe enters orbit.”. Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -569,7 +621,11 @@
         "more if the",
         "probe enters orbit.",
         "Astronomers will learn"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Astronomers will learn more if the probe enters orbit.",
+        "vi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo."
+      }
     },
     {
       "id": "discover-4-grammar-u2-4-3-context2",
@@ -583,8 +639,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No will after if",
-      "title": "No will after if",
+      "focus": "Không dùng will trong mệnh đề điều kiện",
+      "title": "Không dùng will trong mệnh đề điều kiện",
       "answer": "If the space probe → works, we will see → the surface clearly.",
       "options": [
         "If the space probe → works, we will see → the surface clearly.",
@@ -593,7 +649,7 @@
         "the surface clearly. → works, we will see → If the space probe"
       ],
       "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
-      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
+      "why": "Chọn “If the space probe → works, we will see → the surface clearly.”. Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +663,11 @@
         "works, we will see",
         "the surface clearly.",
         "If the space probe"
-      ]
+      ],
+      "explanationExample": {
+        "en": "If the space probe works, we will see the surface clearly.",
+        "vi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt."
+      }
     },
     {
       "id": "discover-4-grammar-u2-4-4-context2",
@@ -621,8 +681,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative forms",
-      "title": "Negative forms",
+      "focus": "Dạng phủ định",
+      "title": "Dạng phủ định",
       "answer": "If gravity doesn't hold → the matter, it → will float away.",
       "options": [
         "If gravity doesn't hold → the matter, it → will float away.",
@@ -631,7 +691,7 @@
         "will float away. → the matter, it → If gravity doesn't hold"
       ],
       "hint": "Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả. Chọn dạng phủ định theo đúng ý nghĩa chứ không theo vị trí mệnh đề.",
-      "why": "If gravity doesn't hold the matter, it will float away.\nDùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
+      "why": "Chọn “If gravity doesn't hold → the matter, it → will float away.”. Dùng don't/doesn't trong mệnh đề if; dùng won't trong mệnh đề kết quả.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -645,7 +705,11 @@
         "the matter, it",
         "will float away.",
         "If gravity doesn't hold"
-      ]
+      ],
+      "explanationExample": {
+        "en": "If gravity doesn't hold the matter, it will float away.",
+        "vi": "Nếu trọng lực không giữ được vật chất thì nó sẽ trôi đi."
+      }
     },
     {
       "id": "discover-4-grammar-u2-5-1-context2",
@@ -659,8 +723,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Form",
-      "title": "Form",
+      "focus": "Cấu trúc cần ghi nhớ",
+      "title": "Cấu trúc cần ghi nhớ",
       "answer": "If the space probe reaches Mars, it will send pictures.",
       "options": [
         "If the space probe reaches Mars, it will send pictures.",
@@ -669,7 +733,7 @@
         "If the space probe to reach Mars, it will send pictures."
       ],
       "hint": "Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến. Dùng hiện tại đơn sau if và dùng will + động từ nguyên mẫu cho kết quả.",
-      "why": "If the space probe reaches Mars, it will send pictures.\nMệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
+      "why": "Chọn “If the space probe reaches Mars, it will send pictures.”. Mệnh đề if nêu điều kiện có thể xảy ra; mệnh đề chính nêu kết quả dự kiến.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -680,7 +744,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "If the space probe reaches Mars, it will send pictures.",
+        "vi": "Nếu tàu thăm dò tới sao Hỏa, nó sẽ gửi ảnh."
+      }
     },
     {
       "id": "discover-4-grammar-u2-5-2-context2",
@@ -694,8 +762,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Clause order",
-      "title": "Clause order",
+      "focus": "Thứ tự các mệnh đề",
+      "title": "Thứ tự các mệnh đề",
       "answer": "Astronomers will learn more if the probe enters orbit.",
       "options": [
         "Astronomers will learn more if the probe will enters orbit.",
@@ -704,7 +772,7 @@
         "Astronomers will learn more if the probe enters orbit."
       ],
       "hint": "Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó. Khi mệnh đề kết quả đứng đầu, thường không cần dấu phẩy trước if.",
-      "why": "Astronomers will learn more if the probe enters orbit.\nKhi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
+      "why": "Chọn “Astronomers will learn more if the probe enters orbit.”. Khi mệnh đề if đứng đầu, đặt dấu phẩy sau mệnh đề đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -715,7 +783,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Astronomers will learn more if the probe enters orbit.",
+        "vi": "Các nhà thiên văn học sẽ tìm hiểu thêm nếu tàu thăm dò đi vào quỹ đạo."
+      }
     },
     {
       "id": "discover-4-grammar-u2-5-3-context2",
@@ -729,8 +801,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No will after if",
-      "title": "No will after if",
+      "focus": "Không dùng will trong mệnh đề điều kiện",
+      "title": "Không dùng will trong mệnh đề điều kiện",
       "answer": "If the space probe works, we will see the surface clearly.",
       "options": [
         "If the space probe working, we will see the surface clearly.",
@@ -739,7 +811,7 @@
         "If the space probe will works, we will see the surface clearly."
       ],
       "hint": "Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn. Với he, she, it, nhớ thêm -s hoặc -es khi cần.",
-      "why": "If the space probe works, we will see the surface clearly.\nDù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
+      "why": "Chọn “If the space probe works, we will see the surface clearly.”. Dù điều kiện nói về tương lai, động từ sau if vẫn ở hiện tại đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -750,7 +822,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "If the space probe works, we will see the surface clearly.",
+        "vi": "Nếu tàu thăm dò không gian hoạt động, chúng ta sẽ nhìn rõ bề mặt."
+      }
     },
     {
       "id": "discover-4-grammar-u2-5-4-context2-life",

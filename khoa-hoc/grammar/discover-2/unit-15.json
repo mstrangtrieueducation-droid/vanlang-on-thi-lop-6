@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Short adjectives · -er than",
+      "tag": "So sánh hơn với tính từ ngắn",
       "note": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
       "example": "A suitcase is heavier than a broom.",
       "formula": [
@@ -18,7 +18,7 @@
           "+",
           "be",
           "+",
-          "adjective-er",
+          "tính từ ngắn thêm -er",
           "+",
           "than",
           "+",
@@ -27,10 +27,10 @@
       ],
       "usage": "Với nhiều tính từ ngắn, thêm -er.",
       "exampleVi": "Một chiếc vali nặng hơn một cây chổi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "y → ier",
+      "tag": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "note": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "example": "A computer mouse is lighter than a suitcase.",
       "formula": [
@@ -47,7 +47,7 @@
       ],
       "usage": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "exampleVi": "Chuột máy tính nhẹ hơn một chiếc vali.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Gấp đôi phụ âm",
@@ -67,7 +67,7 @@
       ],
       "usage": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "exampleVi": "Bàn làm việc lớn hơn ngăn kéo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Câu hỏi so sánh",
@@ -89,7 +89,7 @@
       ],
       "usage": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "exampleVi": "Vali có nặng hơn chổi không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -105,8 +105,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adjectives · -er than",
-      "title": "Short adjectives · -er than",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "heavier",
       "options": [
         "heavier",
@@ -115,7 +115,7 @@
         "more heavier"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
+      "why": "Chọn “heavier”. Với nhiều tính từ ngắn, thêm -er.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -124,7 +124,11 @@
       "spokenScene": "",
       "scene": "Two suitcases look similar. One is much heavier, and a pupil needs help.\nA suitcase is ___ than a broom.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A suitcase is heavier than a broom.",
+        "vi": "Một chiếc vali nặng hơn một cây chổi."
+      }
     },
     {
       "id": "discover-2-grammar-u15-1-2-context2",
@@ -138,8 +142,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "y → ier",
-      "title": "y → ier",
+      "focus": "Đổi đuôi -y thành -ier khi so sánh hơn",
+      "title": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "answer": "lighter",
       "options": [
         "light",
@@ -148,7 +152,7 @@
         "lighter"
       ],
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
-      "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "why": "Chọn “lighter”. Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -157,7 +161,11 @@
       "spokenScene": "",
       "scene": "Two suitcases look similar. One is much heavier, and a pupil needs help.\nA computer mouse is ___ than a suitcase.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A computer mouse is lighter than a suitcase.",
+        "vi": "Chuột máy tính nhẹ hơn một chiếc vali."
+      }
     },
     {
       "id": "discover-2-grammar-u15-1-3-context2",
@@ -181,7 +189,7 @@
         "big"
       ],
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
-      "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "why": "Chọn “bigger”. Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -190,7 +198,11 @@
       "spokenScene": "",
       "scene": "Two suitcases look similar. One is much heavier, and a pupil needs help.\nThe desk is ___ than the drawer.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The desk is bigger than the drawer.",
+        "vi": "Bàn làm việc lớn hơn ngăn kéo."
+      }
     },
     {
       "id": "discover-2-grammar-u15-1-4-context2",
@@ -214,7 +226,7 @@
         "heaviest"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
+      "why": "Chọn “heavier”. Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -223,7 +235,11 @@
       "spokenScene": "",
       "scene": "Two suitcases look similar. One is much heavier, and a pupil needs help.\nIs a suitcase ___ than a broom?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Is a suitcase heavier than a broom?",
+        "vi": "Vali có nặng hơn chổi không?"
+      }
     },
     {
       "id": "discover-2-grammar-u15-2-1-context2",
@@ -237,8 +253,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adjectives · -er than",
-      "title": "Short adjectives · -er than",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "heavier",
       "options": [
         "heavy",
@@ -247,7 +263,7 @@
         "heavier"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
+      "why": "Chọn “heavier”. Với nhiều tính từ ngắn, thêm -er.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -258,7 +274,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A suitcase is heavier than a broom.",
+        "vi": "Một chiếc vali nặng hơn một cây chổi."
+      }
     },
     {
       "id": "discover-2-grammar-u15-2-2-context2",
@@ -272,8 +292,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "y → ier",
-      "title": "y → ier",
+      "focus": "Đổi đuôi -y thành -ier khi so sánh hơn",
+      "title": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "answer": "lighter",
       "options": [
         "lightest",
@@ -282,7 +302,7 @@
         "light"
       ],
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
-      "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "why": "Chọn “lighter”. Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -293,7 +313,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A computer mouse is lighter than a suitcase.",
+        "vi": "Chuột máy tính nhẹ hơn một chiếc vali."
+      }
     },
     {
       "id": "discover-2-grammar-u15-2-3-context2",
@@ -317,7 +341,7 @@
         "biggest"
       ],
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
-      "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "why": "Chọn “bigger”. Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -328,7 +352,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The desk is bigger than the drawer.",
+        "vi": "Bàn làm việc lớn hơn ngăn kéo."
+      }
     },
     {
       "id": "discover-2-grammar-u15-2-4-context2",
@@ -352,7 +380,7 @@
         "more heavier"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
+      "why": "Chọn “heavier”. Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -363,7 +391,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Is a suitcase heavier than a broom?",
+        "vi": "Vali có nặng hơn chổi không?"
+      }
     },
     {
       "id": "discover-2-grammar-u15-3-1-context2",
@@ -377,8 +409,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adjectives · -er than",
-      "title": "Short adjectives · -er than",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "heavier",
       "options": [
         "heaviest",
@@ -387,7 +419,7 @@
         "heavy"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
+      "why": "Chọn “heavier”. Với nhiều tính từ ngắn, thêm -er.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -399,7 +431,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A suitcase is heavier than a broom.",
+        "vi": "Một chiếc vali nặng hơn một cây chổi."
+      }
     },
     {
       "id": "discover-2-grammar-u15-3-2-context2",
@@ -413,8 +449,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "y → ier",
-      "title": "y → ier",
+      "focus": "Đổi đuôi -y thành -ier khi so sánh hơn",
+      "title": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "answer": "lighter",
       "options": [
         "more lighter",
@@ -423,7 +459,7 @@
         "lightest"
       ],
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
-      "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "why": "Chọn “lighter”. Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -435,7 +471,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A computer mouse is lighter than a suitcase.",
+        "vi": "Chuột máy tính nhẹ hơn một chiếc vali."
+      }
     },
     {
       "id": "discover-2-grammar-u15-3-3-context2",
@@ -459,7 +499,7 @@
         "more bigger"
       ],
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
-      "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "why": "Chọn “bigger”. Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -471,7 +511,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The desk is bigger than the drawer.",
+        "vi": "Bàn làm việc lớn hơn ngăn kéo."
+      }
     },
     {
       "id": "discover-2-grammar-u15-3-4-context2",
@@ -495,7 +539,7 @@
         "heavier"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
+      "why": "Chọn “heavier”. Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -507,7 +551,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Is a suitcase heavier than a broom?",
+        "vi": "Vali có nặng hơn chổi không?"
+      }
     },
     {
       "id": "discover-2-grammar-u15-4-1-context2",
@@ -521,8 +569,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adjectives · -er than",
-      "title": "Short adjectives · -er than",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "A suitcase is → heavier than → a broom.",
       "options": [
         "A suitcase is → heavier than → a broom.",
@@ -531,7 +579,7 @@
         "a broom. → heavier than → A suitcase is"
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
+      "why": "Chọn “A suitcase is → heavier than → a broom.”. Với nhiều tính từ ngắn, thêm -er.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -545,7 +593,11 @@
         "heavier than",
         "a broom.",
         "A suitcase is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A suitcase is heavier than a broom.",
+        "vi": "Một chiếc vali nặng hơn một cây chổi."
+      }
     },
     {
       "id": "discover-2-grammar-u15-4-2-context2",
@@ -559,8 +611,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "y → ier",
-      "title": "y → ier",
+      "focus": "Đổi đuôi -y thành -ier khi so sánh hơn",
+      "title": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "answer": "A computer mouse → is lighter than → a suitcase.",
       "options": [
         "A computer mouse → is lighter than → a suitcase.",
@@ -569,7 +621,7 @@
         "a suitcase. → is lighter than → A computer mouse"
       ],
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
-      "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "why": "Chọn “A computer mouse → is lighter than → a suitcase.”. Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -583,7 +635,11 @@
         "is lighter than",
         "a suitcase.",
         "A computer mouse"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A computer mouse is lighter than a suitcase.",
+        "vi": "Chuột máy tính nhẹ hơn một chiếc vali."
+      }
     },
     {
       "id": "discover-2-grammar-u15-4-3-context2",
@@ -607,7 +663,7 @@
         "the drawer. → bigger than → The desk is"
       ],
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
-      "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "why": "Chọn “The desk is → bigger than → the drawer.”. Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -621,7 +677,11 @@
         "bigger than",
         "the drawer.",
         "The desk is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The desk is bigger than the drawer.",
+        "vi": "Bàn làm việc lớn hơn ngăn kéo."
+      }
     },
     {
       "id": "discover-2-grammar-u15-4-4-context2",
@@ -645,7 +705,7 @@
         "a broom? → heavier than → Is a suitcase"
       ],
       "hint": "Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...? hoặc hỏi What's ... than...?",
-      "why": "Is a suitcase heavier than a broom?\nDùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
+      "why": "Chọn “Is a suitcase → heavier than → a broom?”. Dùng Is/Are + chủ ngữ + dạng so sánh hơn + than...?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -659,7 +719,11 @@
         "heavier than",
         "a broom?",
         "Is a suitcase"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Is a suitcase heavier than a broom?",
+        "vi": "Vali có nặng hơn chổi không?"
+      }
     },
     {
       "id": "discover-2-grammar-u15-5-1-context2",
@@ -673,8 +737,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short adjectives · -er than",
-      "title": "Short adjectives · -er than",
+      "focus": "So sánh hơn với tính từ ngắn",
+      "title": "So sánh hơn với tính từ ngắn",
       "answer": "A suitcase is heavier than a broom.",
       "options": [
         "A suitcase is heavier than a broom.",
@@ -683,7 +747,7 @@
         "A suitcase is more heavier than a broom."
       ],
       "hint": "Với nhiều tính từ ngắn, thêm -er. Than đứng trước đối tượng thứ hai.",
-      "why": "A suitcase is heavier than a broom.\nVới nhiều tính từ ngắn, thêm -er.",
+      "why": "Chọn “A suitcase is heavier than a broom.”. Với nhiều tính từ ngắn, thêm -er.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -694,7 +758,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A suitcase is heavier than a broom.",
+        "vi": "Một chiếc vali nặng hơn một cây chổi."
+      }
     },
     {
       "id": "discover-2-grammar-u15-5-2-context2",
@@ -708,8 +776,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "y → ier",
-      "title": "y → ier",
+      "focus": "Đổi đuôi -y thành -ier khi so sánh hơn",
+      "title": "Đổi đuôi -y thành -ier khi so sánh hơn",
       "answer": "A computer mouse is lighter than a suitcase.",
       "options": [
         "A computer mouse is light than a suitcase.",
@@ -718,7 +786,7 @@
         "A computer mouse is lighter than a suitcase."
       ],
       "hint": "Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
-      "why": "A computer mouse is lighter than a suitcase.\nVới tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
+      "why": "Chọn “A computer mouse is lighter than a suitcase.”. Với tính từ tận cùng bằng phụ âm + y, đổi y thành i rồi thêm -er: heavy → heavier, easy → easier.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -729,7 +797,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A computer mouse is lighter than a suitcase.",
+        "vi": "Chuột máy tính nhẹ hơn một chiếc vali."
+      }
     },
     {
       "id": "discover-2-grammar-u15-5-3-context2",
@@ -753,7 +825,7 @@
         "The desk is big than the drawer."
       ],
       "hint": "Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
-      "why": "The desk is bigger than the drawer.\nVới mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
+      "why": "Chọn “The desk is bigger than the drawer.”. Với mẫu phụ âm-nguyên âm-phụ âm, thường gấp đôi phụ âm cuối: big → bigger, hot → hotter.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -764,7 +836,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The desk is bigger than the drawer.",
+        "vi": "Bàn làm việc lớn hơn ngăn kéo."
+      }
     },
     {
       "id": "discover-2-grammar-u15-5-4-context2-life",

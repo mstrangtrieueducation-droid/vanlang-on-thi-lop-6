@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "People and things",
+      "tag": "Đại từ chỉ người và vật",
       "note": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "example": "Someone made this three-dimensional sculpture.",
       "formula": [
@@ -17,67 +17,67 @@
           "someone / anyone / everyone / no one"
         ],
         [
-          "something / anything / everything / nothing"
+          "một điều hoặc vật / anything / everything / nothing"
         ]
       ],
       "usage": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "exampleVi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Some and any",
+      "tag": "Phân biệt some và any",
       "note": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
       "example": "Did anyone bring the paintbrushes?",
       "formula": [
         [
-          "affirmative",
+          "khẳng định",
           "->",
-          "someone / something"
+          "someone / một điều hoặc vật"
         ],
         [
-          "question or negative",
+          "câu hỏi hoặc phủ định",
           "->",
           "anyone / anything"
         ]
       ],
       "usage": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "exampleVi": "Có ai mang theo cọ vẽ không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Every and no",
+      "tag": "Phân biệt ý nghĩa tất cả và không có",
       "note": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
       "example": "Everyone admired the street painter's canvas.",
       "formula": [
         [
           "everyone / everything",
           "=",
-          "all"
+          "tất cả"
         ],
         [
           "nobody / nothing",
           "=",
-          "not anyone / not anything"
+          "not anyone / không có vật gì"
         ]
       ],
       "usage": "Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "exampleVi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Singular agreement",
+      "tag": "Sự hòa hợp với động từ số ít",
       "note": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
       "example": "Everyone wants to see the prodigy's sketch.",
       "formula": [
         [
           "everyone / someone / anyone / no one",
           "+",
-          "singular verb"
+          "động từ số ít"
         ]
       ],
       "usage": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "exampleVi": "Mọi người đều muốn xem bản phác thảo của thần đồng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -93,8 +93,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "People and things",
-      "title": "People and things",
+      "focus": "Đại từ chỉ người và vật",
+      "title": "Đại từ chỉ người và vật",
       "answer": "made",
       "options": [
         "made",
@@ -103,7 +103,7 @@
         "to made"
       ],
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
-      "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "why": "Chọn “made”. Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -112,7 +112,11 @@
       "spokenScene": "",
       "scene": "A pupil uses a traditional design in digital artwork. She wants to share it publicly.\nSomeone ___ this three-dimensional sculpture.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Someone made this three-dimensional sculpture.",
+        "vi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này."
+      }
     },
     {
       "id": "discover-4-grammar-u7-1-2-context2",
@@ -126,8 +130,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Some and any",
-      "title": "Some and any",
+      "focus": "Phân biệt some và any",
+      "title": "Phân biệt some và any",
       "answer": "bring",
       "options": [
         "brings",
@@ -136,7 +140,7 @@
         "bring"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "why": "Chọn “bring”. Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -145,7 +149,11 @@
       "spokenScene": "",
       "scene": "A pupil uses a traditional design in digital artwork. She wants to share it publicly.\nDid anyone ___ the paintbrushes?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Did anyone bring the paintbrushes?",
+        "vi": "Có ai mang theo cọ vẽ không?"
+      }
     },
     {
       "id": "discover-4-grammar-u7-1-3-context2",
@@ -159,8 +167,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Every and no",
-      "title": "Every and no",
+      "focus": "Phân biệt ý nghĩa tất cả và không có",
+      "title": "Phân biệt ý nghĩa tất cả và không có",
       "answer": "admired",
       "options": [
         "admiring",
@@ -169,7 +177,7 @@
         "admireds"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
+      "why": "Chọn “admired”. Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -178,7 +186,11 @@
       "spokenScene": "",
       "scene": "A pupil uses a traditional design in digital artwork. She wants to share it publicly.\nEveryone ___ the street painter's canvas.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Everyone admired the street painter's canvas.",
+        "vi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố."
+      }
     },
     {
       "id": "discover-4-grammar-u7-1-4-context2",
@@ -192,8 +204,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Singular agreement",
-      "title": "Singular agreement",
+      "focus": "Sự hòa hợp với động từ số ít",
+      "title": "Sự hòa hợp với động từ số ít",
       "answer": "wants",
       "options": [
         "to want",
@@ -202,7 +214,7 @@
         "wanting"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
+      "why": "Chọn “wants”. Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -211,7 +223,11 @@
       "spokenScene": "",
       "scene": "A pupil uses a traditional design in digital artwork. She wants to share it publicly.\nEveryone ___ to see the prodigy's sketch.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Everyone wants to see the prodigy's sketch.",
+        "vi": "Mọi người đều muốn xem bản phác thảo của thần đồng."
+      }
     },
     {
       "id": "discover-4-grammar-u7-2-1-context2",
@@ -225,8 +241,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "People and things",
-      "title": "People and things",
+      "focus": "Đại từ chỉ người và vật",
+      "title": "Đại từ chỉ người và vật",
       "answer": "made",
       "options": [
         "mades",
@@ -235,7 +251,7 @@
         "made"
       ],
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
-      "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "why": "Chọn “made”. Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -246,7 +262,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Someone made this three-dimensional sculpture.",
+        "vi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này."
+      }
     },
     {
       "id": "discover-4-grammar-u7-2-2-context2",
@@ -260,8 +280,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Some and any",
-      "title": "Some and any",
+      "focus": "Phân biệt some và any",
+      "title": "Phân biệt some và any",
       "answer": "bring",
       "options": [
         "bringing",
@@ -270,7 +290,7 @@
         "brings"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "why": "Chọn “bring”. Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -281,7 +301,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Did anyone bring the paintbrushes?",
+        "vi": "Có ai mang theo cọ vẽ không?"
+      }
     },
     {
       "id": "discover-4-grammar-u7-2-3-context2",
@@ -295,8 +319,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Every and no",
-      "title": "Every and no",
+      "focus": "Phân biệt ý nghĩa tất cả và không có",
+      "title": "Phân biệt ý nghĩa tất cả và không có",
       "answer": "admired",
       "options": [
         "to admired",
@@ -305,7 +329,7 @@
         "admiring"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
+      "why": "Chọn “admired”. Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -316,7 +340,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Everyone admired the street painter's canvas.",
+        "vi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố."
+      }
     },
     {
       "id": "discover-4-grammar-u7-2-4-context2",
@@ -330,8 +358,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Singular agreement",
-      "title": "Singular agreement",
+      "focus": "Sự hòa hợp với động từ số ít",
+      "title": "Sự hòa hợp với động từ số ít",
       "answer": "wants",
       "options": [
         "wants",
@@ -340,7 +368,7 @@
         "to want"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
+      "why": "Chọn “wants”. Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -351,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Everyone wants to see the prodigy's sketch.",
+        "vi": "Mọi người đều muốn xem bản phác thảo của thần đồng."
+      }
     },
     {
       "id": "discover-4-grammar-u7-3-1-context2",
@@ -365,8 +397,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "People and things",
-      "title": "People and things",
+      "focus": "Đại từ chỉ người và vật",
+      "title": "Đại từ chỉ người và vật",
       "answer": "made",
       "options": [
         "making",
@@ -375,7 +407,7 @@
         "mades"
       ],
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
-      "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "why": "Chọn “made”. Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -387,7 +419,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Someone made this three-dimensional sculpture.",
+        "vi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này."
+      }
     },
     {
       "id": "discover-4-grammar-u7-3-2-context2",
@@ -401,8 +437,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Some and any",
-      "title": "Some and any",
+      "focus": "Phân biệt some và any",
+      "title": "Phân biệt some và any",
       "answer": "bring",
       "options": [
         "brought",
@@ -411,7 +447,7 @@
         "bringing"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "why": "Chọn “bring”. Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -423,7 +459,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Did anyone bring the paintbrushes?",
+        "vi": "Có ai mang theo cọ vẽ không?"
+      }
     },
     {
       "id": "discover-4-grammar-u7-3-3-context2",
@@ -437,8 +477,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Every and no",
-      "title": "Every and no",
+      "focus": "Phân biệt ý nghĩa tất cả và không có",
+      "title": "Phân biệt ý nghĩa tất cả và không có",
       "answer": "admired",
       "options": [
         "admired",
@@ -447,7 +487,7 @@
         "to admired"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
+      "why": "Chọn “admired”. Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -459,7 +499,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Everyone admired the street painter's canvas.",
+        "vi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố."
+      }
     },
     {
       "id": "discover-4-grammar-u7-3-4-context2",
@@ -473,8 +517,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Singular agreement",
-      "title": "Singular agreement",
+      "focus": "Sự hòa hợp với động từ số ít",
+      "title": "Sự hòa hợp với động từ số ít",
       "answer": "wants",
       "options": [
         "want",
@@ -483,7 +527,7 @@
         "wants"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
+      "why": "Chọn “wants”. Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -495,7 +539,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Everyone wants to see the prodigy's sketch.",
+        "vi": "Mọi người đều muốn xem bản phác thảo của thần đồng."
+      }
     },
     {
       "id": "discover-4-grammar-u7-4-1-context2",
@@ -509,8 +557,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "People and things",
-      "title": "People and things",
+      "focus": "Đại từ chỉ người và vật",
+      "title": "Đại từ chỉ người và vật",
       "answer": "Someone made → this three-dimensional → sculpture.",
       "options": [
         "Someone made → this three-dimensional → sculpture.",
@@ -519,7 +567,7 @@
         "sculpture. → this three-dimensional → Someone made"
       ],
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
-      "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "why": "Chọn “Someone made → this three-dimensional → sculpture.”. Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -533,7 +581,11 @@
         "this three-dimensional",
         "sculpture.",
         "Someone made"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Someone made this three-dimensional sculpture.",
+        "vi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này."
+      }
     },
     {
       "id": "discover-4-grammar-u7-4-2-context2",
@@ -547,8 +599,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Some and any",
-      "title": "Some and any",
+      "focus": "Phân biệt some và any",
+      "title": "Phân biệt some và any",
       "answer": "Did anyone → bring the → paintbrushes?",
       "options": [
         "Did anyone → bring the → paintbrushes?",
@@ -557,7 +609,7 @@
         "paintbrushes? → bring the → Did anyone"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "why": "Chọn “Did anyone → bring the → paintbrushes?”. Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -571,7 +623,11 @@
         "bring the",
         "paintbrushes?",
         "Did anyone"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Did anyone bring the paintbrushes?",
+        "vi": "Có ai mang theo cọ vẽ không?"
+      }
     },
     {
       "id": "discover-4-grammar-u7-4-3-context2",
@@ -585,8 +641,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Every and no",
-      "title": "Every and no",
+      "focus": "Phân biệt ý nghĩa tất cả và không có",
+      "title": "Phân biệt ý nghĩa tất cả và không có",
       "answer": "Everyone admired → the street → painter's canvas.",
       "options": [
         "Everyone admired → the street → painter's canvas.",
@@ -595,7 +651,7 @@
         "painter's canvas. → the street → Everyone admired"
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
+      "why": "Chọn “Everyone admired → the street → painter's canvas.”. Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -609,7 +665,11 @@
         "the street",
         "painter's canvas.",
         "Everyone admired"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Everyone admired the street painter's canvas.",
+        "vi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố."
+      }
     },
     {
       "id": "discover-4-grammar-u7-4-4-context2",
@@ -623,8 +683,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Singular agreement",
-      "title": "Singular agreement",
+      "focus": "Sự hòa hợp với động từ số ít",
+      "title": "Sự hòa hợp với động từ số ít",
       "answer": "Everyone wants to → see the → prodigy's sketch.",
       "options": [
         "Everyone wants to → see the → prodigy's sketch.",
@@ -633,7 +693,7 @@
         "prodigy's sketch. → see the → Everyone wants to"
       ],
       "hint": "Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít. Ở hiện tại đơn dùng is, has hoặc động từ thêm -s.",
-      "why": "Everyone wants to see the prodigy's sketch.\nDù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
+      "why": "Chọn “Everyone wants to → see the → prodigy's sketch.”. Dù everyone nói về nhiều người, về mặt ngữ pháp nó vẫn là số ít.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -647,7 +707,11 @@
         "see the",
         "prodigy's sketch.",
         "Everyone wants to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Everyone wants to see the prodigy's sketch.",
+        "vi": "Mọi người đều muốn xem bản phác thảo của thần đồng."
+      }
     },
     {
       "id": "discover-4-grammar-u7-5-1-context2",
@@ -661,8 +725,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "People and things",
-      "title": "People and things",
+      "focus": "Đại từ chỉ người và vật",
+      "title": "Đại từ chỉ người và vật",
       "answer": "Someone made this three-dimensional sculpture.",
       "options": [
         "Someone made this three-dimensional sculpture.",
@@ -671,7 +735,7 @@
         "Someone to made this three-dimensional sculpture."
       ],
       "hint": "Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
-      "why": "Someone made this three-dimensional sculpture.\nCác từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
+      "why": "Chọn “Someone made this three-dimensional sculpture.”. Các từ kết thúc bằng -one hoặc -body nói về người; các từ kết thúc bằng -thing nói về vật hoặc sự việc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -682,7 +746,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Someone made this three-dimensional sculpture.",
+        "vi": "Ai đó đã tạo ra tác phẩm điêu khắc ba chiều này."
+      }
     },
     {
       "id": "discover-4-grammar-u7-5-2-context2",
@@ -696,8 +764,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Some and any",
-      "title": "Some and any",
+      "focus": "Phân biệt some và any",
+      "title": "Phân biệt some và any",
       "answer": "Did anyone bring the paintbrushes?",
       "options": [
         "Did anyone brings the paintbrushes?",
@@ -706,7 +774,7 @@
         "Did anyone bring the paintbrushes?"
       ],
       "hint": "Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại. Dùng anyone/anything khi chưa xác định hoặc trong câu phủ định.",
-      "why": "Did anyone bring the paintbrushes?\nDùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
+      "why": "Chọn “Did anyone bring the paintbrushes?”. Dùng someone/something khi tin rằng người hoặc vật ấy tồn tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -717,7 +785,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Did anyone bring the paintbrushes?",
+        "vi": "Có ai mang theo cọ vẽ không?"
+      }
     },
     {
       "id": "discover-4-grammar-u7-5-3-context2",
@@ -731,8 +803,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Every and no",
-      "title": "Every and no",
+      "focus": "Phân biệt ý nghĩa tất cả và không có",
+      "title": "Phân biệt ý nghĩa tất cả và không có",
       "answer": "Everyone admired the street painter's canvas.",
       "options": [
         "Everyone admiring the street painter's canvas.",
@@ -741,7 +813,7 @@
         "Everyone admireds the street painter's canvas."
       ],
       "hint": "Everyone và everything mang ý nghĩa toàn bộ nhóm. Nobody, no one và nothing đã có nghĩa phủ định nên không dùng thêm not trong cùng mệnh đề.",
-      "why": "Everyone admired the street painter's canvas.\nEveryone và everything mang ý nghĩa toàn bộ nhóm.",
+      "why": "Chọn “Everyone admired the street painter's canvas.”. Everyone và everything mang ý nghĩa toàn bộ nhóm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -752,7 +824,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Everyone admired the street painter's canvas.",
+        "vi": "Mọi người đều ngưỡng mộ bức vẽ của họa sĩ đường phố."
+      }
     },
     {
       "id": "discover-4-grammar-u7-5-4-context2-life",

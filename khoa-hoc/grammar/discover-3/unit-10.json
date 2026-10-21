@@ -9,71 +9,71 @@
   },
   "summary": [
     {
-      "tag": "Count nouns",
+      "tag": "Danh từ đếm được",
       "note": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
       "example": "There are many taxis in the traffic jam.",
       "formula": [
         [
           "many / a few",
           "+",
-          "plural count noun"
+          "danh từ đếm được số nhiều"
         ]
       ],
       "usage": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "exampleVi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Noncount nouns",
+      "tag": "Danh từ không đếm được",
       "note": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
       "example": "The ambulance has a little fuel left.",
       "formula": [
         [
           "much / a little",
           "+",
-          "noncount noun"
+          "danh từ không đếm được"
         ]
       ],
       "usage": "Much thường gặp trong câu hỏi và phủ định.",
       "exampleVi": "Xe cứu thương còn lại một ít nhiên liệu.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "a lot of",
+      "tag": "Diễn tả số lượng nhiều",
       "note": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
       "example": "A subway carries a lot of passengers.",
       "formula": [
         [
           "a lot of",
           "+",
-          "plural count noun / noncount noun"
+          "danh từ đếm được số nhiều / danh từ không đếm được"
         ]
       ],
       "usage": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "exampleVi": "Một tàu điện ngầm chở rất nhiều hành khách.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
       "example": "How many trains arrive every hour?",
       "formula": [
         [
           "How many",
           "+",
-          "plural noun",
+          "danh từ số nhiều",
           "?"
         ],
         [
           "How much",
           "+",
-          "noncount noun",
+          "danh từ không đếm được",
           "?"
         ]
       ],
       "usage": "How many đi với danh từ đếm được số nhiều.",
       "exampleVi": "Có bao nhiêu chuyến tàu đến mỗi giờ?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -89,8 +89,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Count nouns",
-      "title": "Count nouns",
+      "focus": "Danh từ đếm được",
+      "title": "Danh từ đếm được",
       "answer": "many",
       "options": [
         "many",
@@ -99,7 +99,7 @@
         "an"
       ],
       "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
-      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
+      "why": "Chọn “many”. Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -108,7 +108,11 @@
       "spokenScene": "",
       "scene": "A class wants to save electricity while keeping a pupil with a medical need comfortable.\nThere are ___ taxis in the traffic jam.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There are many taxis in the traffic jam.",
+        "vi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông."
+      }
     },
     {
       "id": "discover-3-grammar-u10-1-2-context2",
@@ -122,8 +126,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Noncount nouns",
-      "title": "Noncount nouns",
+      "focus": "Danh từ không đếm được",
+      "title": "Danh từ không đếm được",
       "answer": "a little",
       "options": [
         "a few",
@@ -132,7 +136,7 @@
         "a little"
       ],
       "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
-      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định.",
+      "why": "Chọn “a little”. Much thường gặp trong câu hỏi và phủ định.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -141,7 +145,11 @@
       "spokenScene": "",
       "scene": "A class wants to save electricity while keeping a pupil with a medical need comfortable.\nThe ambulance has ___ fuel left.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The ambulance has a little fuel left.",
+        "vi": "Xe cứu thương còn lại một ít nhiên liệu."
+      }
     },
     {
       "id": "discover-3-grammar-u10-1-3-context2",
@@ -155,8 +163,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "a lot of",
-      "title": "a lot of",
+      "focus": "Diễn tả số lượng nhiều",
+      "title": "Diễn tả số lượng nhiều",
       "answer": "carries",
       "options": [
         "carrying",
@@ -165,7 +173,7 @@
         "carry"
       ],
       "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
-      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
+      "why": "Chọn “carries”. Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -174,7 +182,11 @@
       "spokenScene": "",
       "scene": "A class wants to save electricity while keeping a pupil with a medical need comfortable.\nA subway ___ a lot of passengers.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A subway carries a lot of passengers.",
+        "vi": "Một tàu điện ngầm chở rất nhiều hành khách."
+      }
     },
     {
       "id": "discover-3-grammar-u10-1-4-context2",
@@ -188,8 +200,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "an",
@@ -198,7 +210,7 @@
         "a little"
       ],
       "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
-      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều.",
+      "why": "Chọn “many”. How many đi với danh từ đếm được số nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -207,7 +219,11 @@
       "spokenScene": "",
       "scene": "A class wants to save electricity while keeping a pupil with a medical need comfortable.\nHow ___ trains arrive every hour?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "How many trains arrive every hour?",
+        "vi": "Có bao nhiêu chuyến tàu đến mỗi giờ?"
+      }
     },
     {
       "id": "discover-3-grammar-u10-2-1-context2",
@@ -221,8 +237,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Count nouns",
-      "title": "Count nouns",
+      "focus": "Danh từ đếm được",
+      "title": "Danh từ đếm được",
       "answer": "many",
       "options": [
         "much",
@@ -231,7 +247,7 @@
         "many"
       ],
       "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
-      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
+      "why": "Chọn “many”. Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -242,7 +258,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There are many taxis in the traffic jam.",
+        "vi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông."
+      }
     },
     {
       "id": "discover-3-grammar-u10-2-2-context2",
@@ -256,8 +276,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Noncount nouns",
-      "title": "Noncount nouns",
+      "focus": "Danh từ không đếm được",
+      "title": "Danh từ không đếm được",
       "answer": "a little",
       "options": [
         "many",
@@ -266,7 +286,7 @@
         "a few"
       ],
       "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
-      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định.",
+      "why": "Chọn “a little”. Much thường gặp trong câu hỏi và phủ định.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -277,7 +297,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The ambulance has a little fuel left.",
+        "vi": "Xe cứu thương còn lại một ít nhiên liệu."
+      }
     },
     {
       "id": "discover-3-grammar-u10-2-3-context2",
@@ -291,8 +315,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "a lot of",
-      "title": "a lot of",
+      "focus": "Diễn tả số lượng nhiều",
+      "title": "Diễn tả số lượng nhiều",
       "answer": "carries",
       "options": [
         "to carry",
@@ -301,7 +325,7 @@
         "carrying"
       ],
       "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
-      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
+      "why": "Chọn “carries”. Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -312,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A subway carries a lot of passengers.",
+        "vi": "Một tàu điện ngầm chở rất nhiều hành khách."
+      }
     },
     {
       "id": "discover-3-grammar-u10-2-4-context2",
@@ -326,8 +354,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "many",
@@ -336,7 +364,7 @@
         "an"
       ],
       "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
-      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều.",
+      "why": "Chọn “many”. How many đi với danh từ đếm được số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +375,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "How many trains arrive every hour?",
+        "vi": "Có bao nhiêu chuyến tàu đến mỗi giờ?"
+      }
     },
     {
       "id": "discover-3-grammar-u10-3-1-context2",
@@ -361,8 +393,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Count nouns",
-      "title": "Count nouns",
+      "focus": "Danh từ đếm được",
+      "title": "Danh từ đếm được",
       "answer": "many",
       "options": [
         "a little",
@@ -371,7 +403,7 @@
         "much"
       ],
       "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
-      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
+      "why": "Chọn “many”. Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +415,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There are many taxis in the traffic jam.",
+        "vi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông."
+      }
     },
     {
       "id": "discover-3-grammar-u10-3-2-context2",
@@ -397,8 +433,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Noncount nouns",
-      "title": "Noncount nouns",
+      "focus": "Danh từ không đếm được",
+      "title": "Danh từ không đếm được",
       "answer": "a little",
       "options": [
         "an",
@@ -407,7 +443,7 @@
         "many"
       ],
       "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
-      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định.",
+      "why": "Chọn “a little”. Much thường gặp trong câu hỏi và phủ định.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -419,7 +455,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The ambulance has a little fuel left.",
+        "vi": "Xe cứu thương còn lại một ít nhiên liệu."
+      }
     },
     {
       "id": "discover-3-grammar-u10-3-3-context2",
@@ -433,8 +473,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "a lot of",
-      "title": "a lot of",
+      "focus": "Diễn tả số lượng nhiều",
+      "title": "Diễn tả số lượng nhiều",
       "answer": "carries",
       "options": [
         "carries",
@@ -443,7 +483,7 @@
         "to carry"
       ],
       "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
-      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
+      "why": "Chọn “carries”. Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -455,7 +495,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A subway carries a lot of passengers.",
+        "vi": "Một tàu điện ngầm chở rất nhiều hành khách."
+      }
     },
     {
       "id": "discover-3-grammar-u10-3-4-context2",
@@ -469,8 +513,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "much",
@@ -479,7 +523,7 @@
         "many"
       ],
       "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
-      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều.",
+      "why": "Chọn “many”. How many đi với danh từ đếm được số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -491,7 +535,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "How many trains arrive every hour?",
+        "vi": "Có bao nhiêu chuyến tàu đến mỗi giờ?"
+      }
     },
     {
       "id": "discover-3-grammar-u10-4-1-context2",
@@ -505,8 +553,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Count nouns",
-      "title": "Count nouns",
+      "focus": "Danh từ đếm được",
+      "title": "Danh từ đếm được",
       "answer": "There are many → taxis in the → traffic jam.",
       "options": [
         "There are many → taxis in the → traffic jam.",
@@ -515,7 +563,7 @@
         "traffic jam. → taxis in the → There are many"
       ],
       "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
-      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
+      "why": "Chọn “There are many → taxis in the → traffic jam.”. Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -529,7 +577,11 @@
         "taxis in the",
         "traffic jam.",
         "There are many"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There are many taxis in the traffic jam.",
+        "vi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông."
+      }
     },
     {
       "id": "discover-3-grammar-u10-4-2-context2",
@@ -543,8 +595,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Noncount nouns",
-      "title": "Noncount nouns",
+      "focus": "Danh từ không đếm được",
+      "title": "Danh từ không đếm được",
       "answer": "The ambulance has → a little → fuel left.",
       "options": [
         "The ambulance has → a little → fuel left.",
@@ -553,7 +605,7 @@
         "fuel left. → a little → The ambulance has"
       ],
       "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
-      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định.",
+      "why": "Chọn “The ambulance has → a little → fuel left.”. Much thường gặp trong câu hỏi và phủ định.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -567,7 +619,11 @@
         "a little",
         "fuel left.",
         "The ambulance has"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The ambulance has a little fuel left.",
+        "vi": "Xe cứu thương còn lại một ít nhiên liệu."
+      }
     },
     {
       "id": "discover-3-grammar-u10-4-3-context2",
@@ -581,8 +637,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "a lot of",
-      "title": "a lot of",
+      "focus": "Diễn tả số lượng nhiều",
+      "title": "Diễn tả số lượng nhiều",
       "answer": "A subway carries → a lot → of passengers.",
       "options": [
         "A subway carries → a lot → of passengers.",
@@ -591,7 +647,7 @@
         "of passengers. → a lot → A subway carries"
       ],
       "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
-      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
+      "why": "Chọn “A subway carries → a lot → of passengers.”. Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -605,7 +661,11 @@
         "a lot",
         "of passengers.",
         "A subway carries"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A subway carries a lot of passengers.",
+        "vi": "Một tàu điện ngầm chở rất nhiều hành khách."
+      }
     },
     {
       "id": "discover-3-grammar-u10-4-4-context2",
@@ -619,8 +679,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "How many → trains arrive → every hour?",
       "options": [
         "How many → trains arrive → every hour?",
@@ -629,7 +689,7 @@
         "every hour? → trains arrive → How many"
       ],
       "hint": "How many đi với danh từ đếm được số nhiều. How much đi với danh từ không đếm được.",
-      "why": "How many trains arrive every hour?\nHow many đi với danh từ đếm được số nhiều.",
+      "why": "Chọn “How many → trains arrive → every hour?”. How many đi với danh từ đếm được số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -643,7 +703,11 @@
         "trains arrive",
         "every hour?",
         "How many"
-      ]
+      ],
+      "explanationExample": {
+        "en": "How many trains arrive every hour?",
+        "vi": "Có bao nhiêu chuyến tàu đến mỗi giờ?"
+      }
     },
     {
       "id": "discover-3-grammar-u10-5-1-context2",
@@ -657,8 +721,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Count nouns",
-      "title": "Count nouns",
+      "focus": "Danh từ đếm được",
+      "title": "Danh từ đếm được",
       "answer": "There are many taxis in the traffic jam.",
       "options": [
         "There are many taxis in the traffic jam.",
@@ -667,7 +731,7 @@
         "There are an taxis in the traffic jam."
       ],
       "hint": "Many nói số lượng lớn; a few nói một số ít nhưng vẫn có. Danh từ sau hai cụm này phải ở số nhiều.",
-      "why": "There are many taxis in the traffic jam.\nMany nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
+      "why": "Chọn “There are many taxis in the traffic jam.”. Many nói số lượng lớn; a few nói một số ít nhưng vẫn có.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -678,7 +742,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "There are many taxis in the traffic jam.",
+        "vi": "Có rất nhiều taxi trong tình trạng ùn tắc giao thông."
+      }
     },
     {
       "id": "discover-3-grammar-u10-5-2-context2",
@@ -692,8 +760,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Noncount nouns",
-      "title": "Noncount nouns",
+      "focus": "Danh từ không đếm được",
+      "title": "Danh từ không đếm được",
       "answer": "The ambulance has a little fuel left.",
       "options": [
         "The ambulance has a few fuel left.",
@@ -702,7 +770,7 @@
         "The ambulance has a little fuel left."
       ],
       "hint": "Much thường gặp trong câu hỏi và phủ định. A little có nghĩa là một ít và đi với danh từ không đếm được số ít.",
-      "why": "The ambulance has a little fuel left.\nMuch thường gặp trong câu hỏi và phủ định.",
+      "why": "Chọn “The ambulance has a little fuel left.”. Much thường gặp trong câu hỏi và phủ định.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -713,7 +781,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The ambulance has a little fuel left.",
+        "vi": "Xe cứu thương còn lại một ít nhiên liệu."
+      }
     },
     {
       "id": "discover-3-grammar-u10-5-3-context2",
@@ -727,8 +799,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "a lot of",
-      "title": "a lot of",
+      "focus": "Diễn tả số lượng nhiều",
+      "title": "Diễn tả số lượng nhiều",
       "answer": "A subway carries a lot of passengers.",
       "options": [
         "A subway carrying a lot of passengers.",
@@ -737,7 +809,7 @@
         "A subway carry a lot of passengers."
       ],
       "hint": "Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được. Cách dùng này rất phổ biến trong câu khẳng định.",
-      "why": "A subway carries a lot of passengers.\nSau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
+      "why": "Chọn “A subway carries a lot of passengers.”. Sau a lot of có thể là danh từ đếm được số nhiều hoặc danh từ không đếm được.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -748,7 +820,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A subway carries a lot of passengers.",
+        "vi": "Một tàu điện ngầm chở rất nhiều hành khách."
+      }
     },
     {
       "id": "discover-3-grammar-u10-5-4-context2-life",

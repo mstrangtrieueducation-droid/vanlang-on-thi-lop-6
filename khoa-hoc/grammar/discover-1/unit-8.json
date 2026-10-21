@@ -21,7 +21,7 @@
       ],
       "usage": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "exampleVi": "Chúng tôi trồng hoa vào mùa xuân.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Khẳng định · Không thêm -s",
@@ -41,7 +41,7 @@
       ],
       "usage": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "exampleVi": "Gia đình tôi và tôi làm bánh táo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phủ định · don't",
@@ -58,7 +58,7 @@
       ],
       "usage": "Don't là dạng nói gọn của do not.",
       "exampleVi": "Chúng tôi không xây dựng người tuyết vào mùa hè.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Câu hỏi · Do",
@@ -76,7 +76,7 @@
       ],
       "usage": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "exampleVi": "Bạn có xem ong mật không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Trả lời ngắn · do / don't",
@@ -96,7 +96,7 @@
       ],
       "usage": "Câu trả lời khẳng định dùng Yes + chủ ngữ + do.",
       "exampleVi": "Em đồng ý.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Chủ ngữ · Danh từ số nhiều",
@@ -116,10 +116,10 @@
       ],
       "usage": "Một nhóm người hoặc vật có thể được thay bằng they.",
       "exampleVi": "Những con chim ăn quả mọng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Ngữ điệu · Câu hỏi Yes/No",
+      "tag": "Ngữ điệu · Câu hỏi có hoặc không",
       "note": "Khi đọc câu hỏi bắt đầu bằng Do, con lên giọng nhẹ ở cuối để người nghe nhận ra đây là câu hỏi Yes/No. Ở câu trả lời Yes, I do hoặc No, I don't, con hạ giọng và đọc liền don't thành một từ.",
       "example": "Do you like the fall? Yes, I do.",
       "formula": [
@@ -134,7 +134,7 @@
       ],
       "usage": "Khi đọc câu hỏi bắt đầu bằng Do, con lên giọng nhẹ ở cuối để người nghe nhận ra đây là câu hỏi Yes/No.",
       "exampleVi": "Bạn có thích mùa thu không? Em đồng ý.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -160,7 +160,7 @@
         "to plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "why": "Chọn “plant”. Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +169,11 @@
       "spokenScene": "",
       "scene": "The class has a garden. Two pupils both want the same watering can.\nWe ___ flowers in the spring.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We plant flowers in the spring.",
+        "vi": "Chúng tôi trồng hoa vào mùa xuân."
+      }
     },
     {
       "id": "discover-1-grammar-u8-1-2-context2",
@@ -193,7 +197,7 @@
         "make"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "why": "Chọn “make”. Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -202,7 +206,11 @@
       "spokenScene": "",
       "scene": "The class has a garden. Two pupils both want the same watering can.\nMy family and I ___ apple pies.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "My family and I make apple pies.",
+        "vi": "Gia đình tôi và tôi làm bánh táo."
+      }
     },
     {
       "id": "discover-1-grammar-u8-1-3-context2",
@@ -226,7 +234,7 @@
         "builds"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “build”. Don't là dạng nói gọn của do not.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -235,7 +243,11 @@
       "spokenScene": "",
       "scene": "The class has a garden. Two pupils both want the same watering can.\nWe don't ___ a snowman in the summer.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We don't build a snowman in the summer.",
+        "vi": "Chúng tôi không xây dựng người tuyết vào mùa hè."
+      }
     },
     {
       "id": "discover-1-grammar-u8-1-4-context2",
@@ -259,7 +271,7 @@
         "watching"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
+      "why": "Chọn “watch”. Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -268,7 +280,11 @@
       "spokenScene": "",
       "scene": "The class has a garden. Two pupils both want the same watering can.\nDo you ___ honeybees?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Do you watch honeybees?",
+        "vi": "Bạn có xem ong mật không?"
+      }
     },
     {
       "id": "discover-1-grammar-u8-2-1-context2",
@@ -292,7 +308,7 @@
         "plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "why": "Chọn “plant”. Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -303,7 +319,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We plant flowers in the spring.",
+        "vi": "Chúng tôi trồng hoa vào mùa xuân."
+      }
     },
     {
       "id": "discover-1-grammar-u8-2-2-context2",
@@ -327,7 +347,7 @@
         "makes"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "why": "Chọn “make”. Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -338,7 +358,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "My family and I make apple pies.",
+        "vi": "Gia đình tôi và tôi làm bánh táo."
+      }
     },
     {
       "id": "discover-1-grammar-u8-2-3-context2",
@@ -362,7 +386,7 @@
         "building"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “build”. Don't là dạng nói gọn của do not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -373,7 +397,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We don't build a snowman in the summer.",
+        "vi": "Chúng tôi không xây dựng người tuyết vào mùa hè."
+      }
     },
     {
       "id": "discover-1-grammar-u8-2-4-context2",
@@ -397,7 +425,7 @@
         "watched"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
+      "why": "Chọn “watch”. Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -408,7 +436,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Do you watch honeybees?",
+        "vi": "Bạn có xem ong mật không?"
+      }
     },
     {
       "id": "discover-1-grammar-u8-3-1-context2",
@@ -432,7 +464,7 @@
         "plants"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "why": "Chọn “plant”. Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -444,7 +476,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We plant flowers in the spring.",
+        "vi": "Chúng tôi trồng hoa vào mùa xuân."
+      }
     },
     {
       "id": "discover-1-grammar-u8-3-2-context2",
@@ -468,7 +504,7 @@
         "making"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "why": "Chọn “make”. Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -480,7 +516,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "My family and I make apple pies.",
+        "vi": "Gia đình tôi và tôi làm bánh táo."
+      }
     },
     {
       "id": "discover-1-grammar-u8-3-3-context2",
@@ -504,7 +544,7 @@
         "built"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “build”. Don't là dạng nói gọn của do not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -516,7 +556,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We don't build a snowman in the summer.",
+        "vi": "Chúng tôi không xây dựng người tuyết vào mùa hè."
+      }
     },
     {
       "id": "discover-1-grammar-u8-3-4-context2",
@@ -540,7 +584,7 @@
         "watch"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
+      "why": "Chọn “watch”. Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -552,7 +596,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Do you watch honeybees?",
+        "vi": "Bạn có xem ong mật không?"
+      }
     },
     {
       "id": "discover-1-grammar-u8-4-1-context2",
@@ -576,7 +624,7 @@
         "the spring. → flowers in → We plant"
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "why": "Chọn “We plant → flowers in → the spring.”. Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -590,7 +638,11 @@
         "flowers in",
         "the spring.",
         "We plant"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We plant flowers in the spring.",
+        "vi": "Chúng tôi trồng hoa vào mùa xuân."
+      }
     },
     {
       "id": "discover-1-grammar-u8-4-2-context2",
@@ -614,7 +666,7 @@
         "apple pies. → I make → My family and"
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "why": "Chọn “My family and → I make → apple pies.”. Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -628,7 +680,11 @@
         "I make",
         "apple pies.",
         "My family and"
-      ]
+      ],
+      "explanationExample": {
+        "en": "My family and I make apple pies.",
+        "vi": "Gia đình tôi và tôi làm bánh táo."
+      }
     },
     {
       "id": "discover-1-grammar-u8-4-3-context2",
@@ -652,7 +708,7 @@
         "the summer. → a snowman in → We don't build"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “We don't build → a snowman in → the summer.”. Don't là dạng nói gọn của do not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -666,7 +722,11 @@
         "a snowman in",
         "the summer.",
         "We don't build"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We don't build a snowman in the summer.",
+        "vi": "Chúng tôi không xây dựng người tuyết vào mùa hè."
+      }
     },
     {
       "id": "discover-1-grammar-u8-4-4-context2",
@@ -690,7 +750,7 @@
         "honeybees? → watch → Do you"
       ],
       "hint": "Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu. Trật tự này phải được giữ nguyên: Do + chủ ngữ + động từ. Không thêm -s vào động từ trong câu hỏi.",
-      "why": "Do you watch honeybees?\nCâu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
+      "why": "Chọn “Do you → watch → honeybees?”. Câu hỏi bắt đầu bằng Do, sau đó là chủ ngữ I, you, we hoặc they và động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -704,7 +764,11 @@
         "watch",
         "honeybees?",
         "Do you"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Do you watch honeybees?",
+        "vi": "Bạn có xem ong mật không?"
+      }
     },
     {
       "id": "discover-1-grammar-u8-5-1-context2",
@@ -728,7 +792,7 @@
         "We to plant flowers in the spring."
       ],
       "hint": "Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung. Các cụm in the spring, in the summer, in the fall và in the winter cho biết hoạt động thường diễn ra vào mùa nào.",
-      "why": "We plant flowers in the spring.\nThì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
+      "why": "Chọn “We plant flowers in the spring.”. Thì Hiện tại đơn diễn tả thói quen, hoạt động lặp lại hoặc điều đúng nói chung.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -739,7 +803,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We plant flowers in the spring.",
+        "vi": "Chúng tôi trồng hoa vào mùa xuân."
+      }
     },
     {
       "id": "discover-1-grammar-u8-5-2-context2",
@@ -763,7 +831,7 @@
         "My family and I make apple pies."
       ],
       "hint": "Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow. Không dùng makes, builds hoặc watches với những chủ ngữ này.",
-      "why": "My family and I make apple pies.\nSau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
+      "why": "Chọn “My family and I make apple pies.”. Sau I, you, we và they, con giữ động từ ở dạng nguyên mẫu: I make, you build, we watch, they grow.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -774,7 +842,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "My family and I make apple pies.",
+        "vi": "Gia đình tôi và tôi làm bánh táo."
+      }
     },
     {
       "id": "discover-1-grammar-u8-5-3-context2",
@@ -798,7 +870,7 @@
         "We don't builds a snowman in the summer."
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, động từ luôn ở dạng nguyên mẫu. Con nói We don't build a snowman in summer, không thêm -s vào động từ và không dùng doesn't với I, you, we hoặc they.",
-      "why": "We don't build a snowman in the summer.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “We don't build a snowman in the summer.”. Don't là dạng nói gọn của do not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -809,7 +881,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We don't build a snowman in the summer.",
+        "vi": "Chúng tôi không xây dựng người tuyết vào mùa hè."
+      }
     },
     {
       "id": "discover-1-grammar-u8-5-4-context2-life",

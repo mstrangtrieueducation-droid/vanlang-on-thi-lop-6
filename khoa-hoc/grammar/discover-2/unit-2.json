@@ -27,7 +27,7 @@
       ],
       "usage": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "exampleVi": "Lily luôn trốn thoát.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Vị trí · Động từ thường",
@@ -44,7 +44,7 @@
       ],
       "usage": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "exampleVi": "Leo đôi khi đi săn chim.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Vị trí · Động từ be",
@@ -61,7 +61,7 @@
       ],
       "usage": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "exampleVi": "Lily thường lo lắng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Câu hỏi · ever",
@@ -81,7 +81,7 @@
       ],
       "usage": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "exampleVi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -107,7 +107,7 @@
         "to escape"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "why": "Chọn “escapes”. Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -116,7 +116,11 @@
       "spokenScene": "",
       "scene": "The class sees a cat near its kittens. Several pupils want to chase it.\nLily always ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Lily always escapes.",
+        "vi": "Lily luôn trốn thoát."
+      }
     },
     {
       "id": "discover-2-grammar-u2-1-2-context2",
@@ -140,7 +144,7 @@
         "hunts"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "why": "Chọn “hunts”. Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -149,7 +153,11 @@
       "spokenScene": "",
       "scene": "The class sees a cat near its kittens. Several pupils want to chase it.\nLeo sometimes ___ for birds.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Leo sometimes hunts for birds.",
+        "vi": "Leo đôi khi đi săn chim."
+      }
     },
     {
       "id": "discover-2-grammar-u2-1-3-context2",
@@ -173,7 +181,7 @@
         "are"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "why": "Chọn “is”. Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -182,7 +190,11 @@
       "spokenScene": "",
       "scene": "The class sees a cat near its kittens. Several pupils want to chase it.\nLily ___ usually nervous.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Lily is usually nervous.",
+        "vi": "Lily thường lo lắng."
+      }
     },
     {
       "id": "discover-2-grammar-u2-1-4-context2",
@@ -206,7 +218,7 @@
         "catching"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
+      "why": "Chọn “catch”. Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -215,7 +227,11 @@
       "spokenScene": "",
       "scene": "The class sees a cat near its kittens. Several pupils want to chase it.\nDoes Leo ever ___ Lily? No, he never does.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Does Leo ever catch Lily? No, he never does.",
+        "vi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế."
+      }
     },
     {
       "id": "discover-2-grammar-u2-2-1-context2",
@@ -239,7 +255,7 @@
         "escapes"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "why": "Chọn “escapes”. Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -250,7 +266,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Lily always escapes.",
+        "vi": "Lily luôn trốn thoát."
+      }
     },
     {
       "id": "discover-2-grammar-u2-2-2-context2",
@@ -274,7 +294,7 @@
         "hunt"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "why": "Chọn “hunts”. Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -285,7 +305,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Leo sometimes hunts for birds.",
+        "vi": "Leo đôi khi đi săn chim."
+      }
     },
     {
       "id": "discover-2-grammar-u2-2-3-context2",
@@ -309,7 +333,7 @@
         "am"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "why": "Chọn “is”. Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -320,7 +344,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Lily is usually nervous.",
+        "vi": "Lily thường lo lắng."
+      }
     },
     {
       "id": "discover-2-grammar-u2-2-4-context2",
@@ -344,7 +372,7 @@
         "caught"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
+      "why": "Chọn “catch”. Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -355,7 +383,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Does Leo ever catch Lily? No, he never does.",
+        "vi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế."
+      }
     },
     {
       "id": "discover-2-grammar-u2-3-1-context2",
@@ -379,7 +411,7 @@
         "escape"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "why": "Chọn “escapes”. Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -391,7 +423,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Lily always escapes.",
+        "vi": "Lily luôn trốn thoát."
+      }
     },
     {
       "id": "discover-2-grammar-u2-3-2-context2",
@@ -415,7 +451,7 @@
         "hunting"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "why": "Chọn “hunts”. Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -427,7 +463,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Leo sometimes hunts for birds.",
+        "vi": "Leo đôi khi đi săn chim."
+      }
     },
     {
       "id": "discover-2-grammar-u2-3-3-context2",
@@ -451,7 +491,7 @@
         "be"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "why": "Chọn “is”. Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -463,7 +503,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Lily is usually nervous.",
+        "vi": "Lily thường lo lắng."
+      }
     },
     {
       "id": "discover-2-grammar-u2-3-4-context2",
@@ -487,7 +531,7 @@
         "catch"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
+      "why": "Chọn “catch”. Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -499,7 +543,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Does Leo ever catch Lily? No, he never does.",
+        "vi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế."
+      }
     },
     {
       "id": "discover-2-grammar-u2-4-1-context2",
@@ -523,7 +571,7 @@
         "escapes. → always → Lily"
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "why": "Chọn “Lily → always → escapes.”. Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -537,7 +585,11 @@
         "always",
         "escapes.",
         "Lily"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Lily always escapes.",
+        "vi": "Lily luôn trốn thoát."
+      }
     },
     {
       "id": "discover-2-grammar-u2-4-2-context2",
@@ -561,7 +613,7 @@
         "birds. → hunts for → Leo sometimes"
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "why": "Chọn “Leo sometimes → hunts for → birds.”. Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -575,7 +627,11 @@
         "hunts for",
         "birds.",
         "Leo sometimes"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Leo sometimes hunts for birds.",
+        "vi": "Leo đôi khi đi săn chim."
+      }
     },
     {
       "id": "discover-2-grammar-u2-4-3-context2",
@@ -599,7 +655,7 @@
         "nervous. → usually → Lily is"
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "why": "Chọn “Lily is → usually → nervous.”. Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -613,7 +669,11 @@
         "usually",
         "nervous.",
         "Lily is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Lily is usually nervous.",
+        "vi": "Lily thường lo lắng."
+      }
     },
     {
       "id": "discover-2-grammar-u2-4-4-context2",
@@ -637,7 +697,7 @@
         "he never does. → catch Lily? No, → Does Leo ever"
       ],
       "hint": "Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính. Câu trả lời có thể dùng một trạng từ tần suất để nêu mức độ.",
-      "why": "Does Leo ever catch Lily? No, he never does.\nTrong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
+      "why": "Chọn “Does Leo ever → catch Lily? No, → he never does.”. Trong câu hỏi hiện tại đơn, đặt ever sau chủ ngữ và trước động từ chính.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -651,7 +711,11 @@
         "catch Lily? No,",
         "he never does.",
         "Does Leo ever"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Does Leo ever catch Lily? No, he never does.",
+        "vi": "Leo có bao giờ bắt được Lily không? Không, anh ấy không bao giờ làm thế."
+      }
     },
     {
       "id": "discover-2-grammar-u2-5-1-context2",
@@ -675,7 +739,7 @@
         "Lily always to escape."
       ],
       "hint": "Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ. Hai đầu thang là always và never.",
-      "why": "Lily always escapes.\nAlways là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
+      "why": "Chọn “Lily always escapes.”. Always là luôn luôn, usually là thường xuyên, sometimes là thỉnh thoảng, hardly ever là hầu như không và never là không bao giờ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -686,7 +750,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Lily always escapes.",
+        "vi": "Lily luôn trốn thoát."
+      }
     },
     {
       "id": "discover-2-grammar-u2-5-2-context2",
@@ -710,7 +778,7 @@
         "Leo sometimes hunts for birds."
       ],
       "hint": "Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ. Động từ vẫn thêm -s khi chủ ngữ là he, she hoặc it.",
-      "why": "Leo sometimes hunts for birds.\nVới các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
+      "why": "Chọn “Leo sometimes hunts for birds.”. Với các động từ như hunt, fight, peck hoặc escape, trạng từ tần suất đứng sau chủ ngữ và trước động từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +789,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Leo sometimes hunts for birds.",
+        "vi": "Leo đôi khi đi săn chim."
+      }
     },
     {
       "id": "discover-2-grammar-u2-5-3-context2",
@@ -745,7 +817,7 @@
         "Lily are usually nervous."
       ],
       "hint": "Khi câu dùng be, trạng từ đứng sau am, is hoặc are. Không đặt always trước is trong mẫu câu này.",
-      "why": "Lily is usually nervous.\nKhi câu dùng be, trạng từ đứng sau am, is hoặc are.",
+      "why": "Chọn “Lily is usually nervous.”. Khi câu dùng be, trạng từ đứng sau am, is hoặc are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -756,7 +828,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Lily is usually nervous.",
+        "vi": "Lily thường lo lắng."
+      }
     },
     {
       "id": "discover-2-grammar-u2-5-4-context2-life",

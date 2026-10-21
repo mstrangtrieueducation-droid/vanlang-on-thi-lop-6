@@ -21,7 +21,7 @@
       ],
       "usage": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "exampleVi": "Bà Flores bán sữa.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Have · Dạng bất quy tắc has",
@@ -36,7 +36,7 @@
       ],
       "usage": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "exampleVi": "Nông dân Flores có một con bò.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phủ định · doesn't + nguyên mẫu",
@@ -53,7 +53,7 @@
       ],
       "usage": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "exampleVi": "Anh ấy không có nhiều tiền.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Want · Mong muốn",
@@ -77,7 +77,7 @@
       ],
       "usage": "Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
       "exampleVi": "Anh ấy muốn một chiếc mũ lạ mắt.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Need · Điều cần thiết",
@@ -94,7 +94,7 @@
       ],
       "usage": "Need diễn tả thứ cần thiết để sống, học tập hoặc hoàn thành một việc.",
       "exampleVi": "Cô ấy cần con bò.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Like · Sở thích",
@@ -111,7 +111,7 @@
       ],
       "usage": "Like là động từ thường nên thêm -s với he và she.",
       "exampleVi": "Anh ấy thích truyện tranh.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Chủ ngữ · Tên riêng và danh từ số ít",
@@ -131,7 +131,7 @@
       ],
       "usage": "Tomas Flores có thể thay bằng he; Rosa hoặc Mrs.",
       "exampleVi": "Rosa làm việc chăm chỉ mỗi ngày.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phát âm · Đuôi động từ",
@@ -151,7 +151,7 @@
       ],
       "usage": "Đuôi -s có thể đọc là /s/, /z/ hoặc /ɪz/.",
       "exampleVi": "Cô ấy cần con bò.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -177,7 +177,7 @@
         "to sell"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba. Phần lớn động từ thêm -s; một số động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thêm -es.",
-      "why": "Mrs. Flores sells the milk.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
+      "why": "Chọn “sells”. Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -186,7 +186,11 @@
       "spokenScene": "",
       "scene": "At the market, a seller gives Sam too much change. Sam notices.\nMrs. Flores ___ the milk.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Mrs. Flores sells the milk.",
+        "vi": "Bà Flores bán sữa."
+      }
     },
     {
       "id": "discover-1-grammar-u11-1-2-context2",
@@ -210,7 +214,7 @@
         "has"
       ],
       "hint": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s. Dạng đúng là has. Con dùng has để nói một người sở hữu, mang theo hoặc có một vật hay ý tưởng.",
-      "why": "Farmer Flores has a cow.\nHave không tạo dạng ngôi thứ ba bằng cách thêm -s.",
+      "why": "Chọn “has”. Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -219,7 +223,11 @@
       "spokenScene": "",
       "scene": "At the market, a seller gives Sam too much change. Sam notices.\nFarmer Flores ___ a cow.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Farmer Flores has a cow.",
+        "vi": "Nông dân Flores có một con bò."
+      }
     },
     {
       "id": "discover-1-grammar-u11-1-3-context2",
@@ -243,7 +251,7 @@
         "has"
       ],
       "hint": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s. Con nói He doesn't want và She doesn't need. Với have, dạng đúng là doesn't have, không phải doesn't has.",
-      "why": "He doesn't have a lot of money.\nDoesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
+      "why": "Chọn “have”. Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -252,7 +260,11 @@
       "spokenScene": "",
       "scene": "At the market, a seller gives Sam too much change. Sam notices.\nHe doesn't ___ a lot of money.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He doesn't have a lot of money.",
+        "vi": "Anh ấy không có nhiều tiền."
+      }
     },
     {
       "id": "discover-1-grammar-u11-1-4-context2",
@@ -276,7 +288,7 @@
         "wanting"
       ],
       "hint": "Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết. Với he hoặc she, want đổi thành wants. Khi muốn nói mong muốn làm gì, dùng want to + động từ nguyên mẫu.",
-      "why": "He wants a fancy hat.\nWant diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
+      "why": "Chọn “wants”. Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -285,7 +297,11 @@
       "spokenScene": "",
       "scene": "At the market, a seller gives Sam too much change. Sam notices.\nHe ___ a fancy hat.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He wants a fancy hat.",
+        "vi": "Anh ấy muốn một chiếc mũ lạ mắt."
+      }
     },
     {
       "id": "discover-1-grammar-u11-2-1-context2",
@@ -309,7 +325,7 @@
         "sells"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba. Phần lớn động từ thêm -s; một số động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thêm -es.",
-      "why": "Mrs. Flores sells the milk.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
+      "why": "Chọn “sells”. Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -320,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Mrs. Flores sells the milk.",
+        "vi": "Bà Flores bán sữa."
+      }
     },
     {
       "id": "discover-1-grammar-u11-2-2-context2",
@@ -344,7 +364,7 @@
         "have"
       ],
       "hint": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s. Dạng đúng là has. Con dùng has để nói một người sở hữu, mang theo hoặc có một vật hay ý tưởng.",
-      "why": "Farmer Flores has a cow.\nHave không tạo dạng ngôi thứ ba bằng cách thêm -s.",
+      "why": "Chọn “has”. Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -355,7 +375,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Farmer Flores has a cow.",
+        "vi": "Nông dân Flores có một con bò."
+      }
     },
     {
       "id": "discover-1-grammar-u11-2-3-context2",
@@ -379,7 +403,7 @@
         "having"
       ],
       "hint": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s. Con nói He doesn't want và She doesn't need. Với have, dạng đúng là doesn't have, không phải doesn't has.",
-      "why": "He doesn't have a lot of money.\nDoesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
+      "why": "Chọn “have”. Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -390,7 +414,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He doesn't have a lot of money.",
+        "vi": "Anh ấy không có nhiều tiền."
+      }
     },
     {
       "id": "discover-1-grammar-u11-2-4-context2",
@@ -414,7 +442,7 @@
         "to want"
       ],
       "hint": "Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết. Với he hoặc she, want đổi thành wants. Khi muốn nói mong muốn làm gì, dùng want to + động từ nguyên mẫu.",
-      "why": "He wants a fancy hat.\nWant diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
+      "why": "Chọn “wants”. Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -425,7 +453,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He wants a fancy hat.",
+        "vi": "Anh ấy muốn một chiếc mũ lạ mắt."
+      }
     },
     {
       "id": "discover-1-grammar-u11-3-1-context2",
@@ -449,7 +481,7 @@
         "sell"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba. Phần lớn động từ thêm -s; một số động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thêm -es.",
-      "why": "Mrs. Flores sells the milk.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
+      "why": "Chọn “sells”. Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -461,7 +493,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Mrs. Flores sells the milk.",
+        "vi": "Bà Flores bán sữa."
+      }
     },
     {
       "id": "discover-1-grammar-u11-3-2-context2",
@@ -485,7 +521,7 @@
         "having"
       ],
       "hint": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s. Dạng đúng là has. Con dùng has để nói một người sở hữu, mang theo hoặc có một vật hay ý tưởng.",
-      "why": "Farmer Flores has a cow.\nHave không tạo dạng ngôi thứ ba bằng cách thêm -s.",
+      "why": "Chọn “has”. Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -497,7 +533,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Farmer Flores has a cow.",
+        "vi": "Nông dân Flores có một con bò."
+      }
     },
     {
       "id": "discover-1-grammar-u11-3-3-context2",
@@ -521,7 +561,7 @@
         "had"
       ],
       "hint": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s. Con nói He doesn't want và She doesn't need. Với have, dạng đúng là doesn't have, không phải doesn't has.",
-      "why": "He doesn't have a lot of money.\nDoesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
+      "why": "Chọn “have”. Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -533,7 +573,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He doesn't have a lot of money.",
+        "vi": "Anh ấy không có nhiều tiền."
+      }
     },
     {
       "id": "discover-1-grammar-u11-3-4-context2",
@@ -557,7 +601,7 @@
         "wants"
       ],
       "hint": "Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết. Với he hoặc she, want đổi thành wants. Khi muốn nói mong muốn làm gì, dùng want to + động từ nguyên mẫu.",
-      "why": "He wants a fancy hat.\nWant diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
+      "why": "Chọn “wants”. Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -569,7 +613,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He wants a fancy hat.",
+        "vi": "Anh ấy muốn một chiếc mũ lạ mắt."
+      }
     },
     {
       "id": "discover-1-grammar-u11-4-1-context2",
@@ -593,7 +641,7 @@
         "milk. → sells the → Mrs. Flores"
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba. Phần lớn động từ thêm -s; một số động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thêm -es.",
-      "why": "Mrs. Flores sells the milk.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
+      "why": "Chọn “Mrs. Flores → sells the → milk.”. Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +655,11 @@
         "sells the",
         "milk.",
         "Mrs. Flores"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Mrs. Flores sells the milk.",
+        "vi": "Bà Flores bán sữa."
+      }
     },
     {
       "id": "discover-1-grammar-u11-4-2-context2",
@@ -631,7 +683,7 @@
         "cow. → has a → Farmer Flores"
       ],
       "hint": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s. Dạng đúng là has. Con dùng has để nói một người sở hữu, mang theo hoặc có một vật hay ý tưởng.",
-      "why": "Farmer Flores has a cow.\nHave không tạo dạng ngôi thứ ba bằng cách thêm -s.",
+      "why": "Chọn “Farmer Flores → has a → cow.”. Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -645,7 +697,11 @@
         "has a",
         "cow.",
         "Farmer Flores"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Farmer Flores has a cow.",
+        "vi": "Nông dân Flores có một con bò."
+      }
     },
     {
       "id": "discover-1-grammar-u11-4-3-context2",
@@ -669,7 +725,7 @@
         "of money. → a lot → He doesn't have"
       ],
       "hint": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s. Con nói He doesn't want và She doesn't need. Với have, dạng đúng là doesn't have, không phải doesn't has.",
-      "why": "He doesn't have a lot of money.\nDoesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
+      "why": "Chọn “He doesn't have → a lot → of money.”. Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -683,7 +739,11 @@
         "a lot",
         "of money.",
         "He doesn't have"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He doesn't have a lot of money.",
+        "vi": "Anh ấy không có nhiều tiền."
+      }
     },
     {
       "id": "discover-1-grammar-u11-4-4-context2",
@@ -707,7 +767,7 @@
         "hat. → a fancy → He wants"
       ],
       "hint": "Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết. Với he hoặc she, want đổi thành wants. Khi muốn nói mong muốn làm gì, dùng want to + động từ nguyên mẫu.",
-      "why": "He wants a fancy hat.\nWant diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
+      "why": "Chọn “He wants → a fancy → hat.”. Want diễn tả mong muốn, nhưng điều đó không nhất thiết cần thiết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +781,11 @@
         "a fancy",
         "hat.",
         "He wants"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He wants a fancy hat.",
+        "vi": "Anh ấy muốn một chiếc mũ lạ mắt."
+      }
     },
     {
       "id": "discover-1-grammar-u11-5-1-context2",
@@ -745,7 +809,7 @@
         "Mrs. Flores to sell the milk."
       ],
       "hint": "Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba. Phần lớn động từ thêm -s; một số động từ tận cùng bằng -s, -sh, -ch, -x hoặc -o thêm -es.",
-      "why": "Mrs. Flores sells the milk.\nKhi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
+      "why": "Chọn “Mrs. Flores sells the milk.”. Khi chủ ngữ là he, she, it hoặc một danh từ số ít, động từ trong thì Hiện tại đơn cần dấu hiệu ngôi thứ ba.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -756,7 +820,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Mrs. Flores sells the milk.",
+        "vi": "Bà Flores bán sữa."
+      }
     },
     {
       "id": "discover-1-grammar-u11-5-2-context2",
@@ -780,7 +848,7 @@
         "Farmer Flores has a cow."
       ],
       "hint": "Have không tạo dạng ngôi thứ ba bằng cách thêm -s. Dạng đúng là has. Con dùng has để nói một người sở hữu, mang theo hoặc có một vật hay ý tưởng.",
-      "why": "Farmer Flores has a cow.\nHave không tạo dạng ngôi thứ ba bằng cách thêm -s.",
+      "why": "Chọn “Farmer Flores has a cow.”. Have không tạo dạng ngôi thứ ba bằng cách thêm -s.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -791,7 +859,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Farmer Flores has a cow.",
+        "vi": "Nông dân Flores có một con bò."
+      }
     },
     {
       "id": "discover-1-grammar-u11-5-3-context2",
@@ -815,7 +887,7 @@
         "He doesn't has a lot of money."
       ],
       "hint": "Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s. Con nói He doesn't want và She doesn't need. Với have, dạng đúng là doesn't have, không phải doesn't has.",
-      "why": "He doesn't have a lot of money.\nDoesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
+      "why": "Chọn “He doesn't have a lot of money.”. Doesn't đã mang dấu hiệu ngôi thứ ba nên động từ chính không thêm -s.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -826,7 +898,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "He doesn't have a lot of money.",
+        "vi": "Anh ấy không có nhiều tiền."
+      }
     },
     {
       "id": "discover-1-grammar-u11-5-4-context2-life",

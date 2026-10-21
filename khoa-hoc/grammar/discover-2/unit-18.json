@@ -32,10 +32,10 @@
       ],
       "usage": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "exampleVi": "Có bút chì màu không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "How many ...?",
+      "tag": "Hỏi số lượng danh từ đếm được",
       "note": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
       "example": "How many markers are there?",
       "formula": [
@@ -50,10 +50,10 @@
       ],
       "usage": "Sau how many phải là danh từ số nhiều.",
       "exampleVi": "Có bao nhiêu điểm đánh dấu?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "How much ...?",
+      "tag": "Hỏi lượng của danh từ không đếm được",
       "note": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
       "example": "How much glue is there?",
       "formula": [
@@ -68,7 +68,7 @@
       ],
       "usage": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "exampleVi": "Có bao nhiêu keo?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Quá khứ trong câu hỏi",
@@ -78,7 +78,7 @@
         [
           "How many",
           "+",
-          "plural noun",
+          "danh từ số nhiều",
           "+",
           "were there",
           "?"
@@ -86,17 +86,17 @@
         [
           "Did",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
           "have any",
           "+",
-          "plural noun",
+          "danh từ số nhiều",
           "?"
         ]
       ],
       "usage": "Hỏi số lượng đã có dùng How many ...",
       "exampleVi": "Maki có bút chì không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -122,7 +122,7 @@
         "Be"
       ],
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
-      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Chọn “Are”. Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -131,7 +131,11 @@
       "spokenScene": "",
       "scene": "A pupil needs markers from another group's table.\n___ there any colored pencils?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Are there any colored pencils?",
+        "vi": "Có bút chì màu không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-1-2-context2",
@@ -145,8 +149,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How many ...?",
-      "title": "How many ...?",
+      "focus": "Hỏi số lượng danh từ đếm được",
+      "title": "Hỏi số lượng danh từ đếm được",
       "answer": "many",
       "options": [
         "much",
@@ -155,7 +159,7 @@
         "many"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
+      "why": "Chọn “many”. Sau how many phải là danh từ số nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -164,7 +168,11 @@
       "spokenScene": "",
       "scene": "A pupil needs markers from another group's table.\nHow ___ markers are there?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "How many markers are there?",
+        "vi": "Có bao nhiêu điểm đánh dấu?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-1-3-context2",
@@ -178,8 +186,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How much ...?",
-      "title": "How much ...?",
+      "focus": "Hỏi lượng của danh từ không đếm được",
+      "title": "Hỏi lượng của danh từ không đếm được",
       "answer": "much",
       "options": [
         "a",
@@ -188,7 +196,7 @@
         "many"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "why": "Chọn “much”. Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -197,7 +205,11 @@
       "spokenScene": "",
       "scene": "A pupil needs markers from another group's table.\nHow ___ glue is there?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "How much glue is there?",
+        "vi": "Có bao nhiêu keo?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-1-4-context2",
@@ -221,7 +233,7 @@
         "having"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
+      "why": "Chọn “have”. Hỏi số lượng đã có dùng How many ...",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -230,7 +242,11 @@
       "spokenScene": "",
       "scene": "A pupil needs markers from another group's table.\nDid Maki ___ any pencils?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Did Maki have any pencils?",
+        "vi": "Maki có bút chì không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-2-1-context2",
@@ -254,7 +270,7 @@
         "Are"
       ],
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
-      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Chọn “Are”. Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -265,7 +281,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Are there any colored pencils?",
+        "vi": "Có bút chì màu không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-2-2-context2",
@@ -279,8 +299,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How many ...?",
-      "title": "How many ...?",
+      "focus": "Hỏi số lượng danh từ đếm được",
+      "title": "Hỏi số lượng danh từ đếm được",
       "answer": "many",
       "options": [
         "a",
@@ -289,7 +309,7 @@
         "much"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
+      "why": "Chọn “many”. Sau how many phải là danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -300,7 +320,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "How many markers are there?",
+        "vi": "Có bao nhiêu điểm đánh dấu?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-2-3-context2",
@@ -314,8 +338,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How much ...?",
-      "title": "How much ...?",
+      "focus": "Hỏi lượng của danh từ không đếm được",
+      "title": "Hỏi lượng của danh từ không đếm được",
       "answer": "much",
       "options": [
         "an",
@@ -324,7 +348,7 @@
         "a"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "why": "Chọn “much”. Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -335,7 +359,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "How much glue is there?",
+        "vi": "Có bao nhiêu keo?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-2-4-context2",
@@ -359,7 +387,7 @@
         "had"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
+      "why": "Chọn “have”. Hỏi số lượng đã có dùng How many ...",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -370,7 +398,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Did Maki have any pencils?",
+        "vi": "Maki có bút chì không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-3-1-context2",
@@ -394,7 +426,7 @@
         "Is"
       ],
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
-      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Chọn “Are”. Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -406,7 +438,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Are there any colored pencils?",
+        "vi": "Có bút chì màu không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-3-2-context2",
@@ -420,8 +456,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How many ...?",
-      "title": "How many ...?",
+      "focus": "Hỏi số lượng danh từ đếm được",
+      "title": "Hỏi số lượng danh từ đếm được",
       "answer": "many",
       "options": [
         "an",
@@ -430,7 +466,7 @@
         "a"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
+      "why": "Chọn “many”. Sau how many phải là danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -442,7 +478,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "How many markers are there?",
+        "vi": "Có bao nhiêu điểm đánh dấu?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-3-3-context2",
@@ -456,8 +496,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How much ...?",
-      "title": "How much ...?",
+      "focus": "Hỏi lượng của danh từ không đếm được",
+      "title": "Hỏi lượng của danh từ không đếm được",
       "answer": "much",
       "options": [
         "much",
@@ -466,7 +506,7 @@
         "an"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "why": "Chọn “much”. Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -478,7 +518,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "How much glue is there?",
+        "vi": "Có bao nhiêu keo?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-3-4-context2",
@@ -502,7 +546,7 @@
         "have"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
+      "why": "Chọn “have”. Hỏi số lượng đã có dùng How many ...",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -514,7 +558,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Did Maki have any pencils?",
+        "vi": "Maki có bút chì không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-4-1-context2",
@@ -538,7 +586,7 @@
         "pencils? → any colored → Are there"
       ],
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
-      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Chọn “Are there → any colored → pencils?”. Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -552,7 +600,11 @@
         "any colored",
         "pencils?",
         "Are there"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Are there any colored pencils?",
+        "vi": "Có bút chì màu không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-4-2-context2",
@@ -566,8 +618,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How many ...?",
-      "title": "How many ...?",
+      "focus": "Hỏi số lượng danh từ đếm được",
+      "title": "Hỏi số lượng danh từ đếm được",
       "answer": "How many → markers are → there?",
       "options": [
         "How many → markers are → there?",
@@ -576,7 +628,7 @@
         "there? → markers are → How many"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
+      "why": "Chọn “How many → markers are → there?”. Sau how many phải là danh từ số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -590,7 +642,11 @@
         "markers are",
         "there?",
         "How many"
-      ]
+      ],
+      "explanationExample": {
+        "en": "How many markers are there?",
+        "vi": "Có bao nhiêu điểm đánh dấu?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-4-3-context2",
@@ -604,8 +660,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How much ...?",
-      "title": "How much ...?",
+      "focus": "Hỏi lượng của danh từ không đếm được",
+      "title": "Hỏi lượng của danh từ không đếm được",
       "answer": "How much → glue is → there?",
       "options": [
         "How much → glue is → there?",
@@ -614,7 +670,7 @@
         "there? → glue is → How much"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "why": "Chọn “How much → glue is → there?”. Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -628,7 +684,11 @@
         "glue is",
         "there?",
         "How much"
-      ]
+      ],
+      "explanationExample": {
+        "en": "How much glue is there?",
+        "vi": "Có bao nhiêu keo?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-4-4-context2",
@@ -652,7 +712,7 @@
         "pencils? → have any → Did Maki"
       ],
       "hint": "Hỏi số lượng đã có dùng How many ... were there? Hỏi ai có vật gì dùng Did ... have any...?",
-      "why": "Did Maki have any pencils?\nHỏi số lượng đã có dùng How many ...",
+      "why": "Chọn “Did Maki → have any → pencils?”. Hỏi số lượng đã có dùng How many ...",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -666,7 +726,11 @@
         "have any",
         "pencils?",
         "Did Maki"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Did Maki have any pencils?",
+        "vi": "Maki có bút chì không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-5-1-context2",
@@ -690,7 +754,7 @@
         "Be there any colored pencils?"
       ],
       "hint": "Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
-      "why": "Are there any colored pencils?\nAny đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
+      "why": "Chọn “Are there any colored pencils?”. Any đi trước danh từ số nhiều hoặc danh từ không đếm được trong nhiều câu hỏi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -701,7 +765,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Are there any colored pencils?",
+        "vi": "Có bút chì màu không?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-5-2-context2",
@@ -715,8 +783,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How many ...?",
-      "title": "How many ...?",
+      "focus": "Hỏi số lượng danh từ đếm được",
+      "title": "Hỏi số lượng danh từ đếm được",
       "answer": "How many markers are there?",
       "options": [
         "How much markers are there?",
@@ -725,7 +793,7 @@
         "How many markers are there?"
       ],
       "hint": "Sau how many phải là danh từ số nhiều. Câu trả lời dùng một con số cụ thể.",
-      "why": "How many markers are there?\nSau how many phải là danh từ số nhiều.",
+      "why": "Chọn “How many markers are there?”. Sau how many phải là danh từ số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -736,7 +804,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "How many markers are there?",
+        "vi": "Có bao nhiêu điểm đánh dấu?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-5-3-context2",
@@ -750,8 +822,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "How much ...?",
-      "title": "How much ...?",
+      "focus": "Hỏi lượng của danh từ không đếm được",
+      "title": "Hỏi lượng của danh từ không đếm được",
       "answer": "How much glue is there?",
       "options": [
         "How a glue is there?",
@@ -760,7 +832,7 @@
         "How many glue is there?"
       ],
       "hint": "Sau how much dùng danh từ không đếm được như glue, paper hoặc paint. Dùng is/was trong mẫu there is/was.",
-      "why": "How much glue is there?\nSau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
+      "why": "Chọn “How much glue is there?”. Sau how much dùng danh từ không đếm được như glue, paper hoặc paint.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -771,7 +843,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "How much glue is there?",
+        "vi": "Có bao nhiêu keo?"
+      }
     },
     {
       "id": "discover-2-grammar-u18-5-4-context2-life",

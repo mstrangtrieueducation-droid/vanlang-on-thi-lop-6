@@ -13,11 +13,11 @@
   if(q.skill==='reading'||String(q.scene||'').length>160||/according to|main idea|author|infer|mean here|in this sentence/.test(p))return 'reading';
   return 'vocabulary';
  }
- function hint(q){
+ function hint(q){const translated=globalThis.GrammarVietnamese?.hint(q);if(q.skill==='grammar'&&translated)return translated;
   if(q.hint&&!/^Read (the clue again|carefully)\./i.test(q.hint))return q.hint;
   return {listening:'Listen again. Say the word quietly, then choose.',phonics:'Say the word slowly. Look at the letter or sound the question asks for.',grammar:'Read the whole sentence. Look at the subject and any time words.',dialogue:'What information does the speaker ask for: a person, a place, an age or a feeling?',reading:'Find the words in the text that support your answer.',vocabulary:'Think about the meaning of the clue. Compare the words before choosing.'}[skill(q)];
  }
- function explanation(q){
+ function explanation(q){const translated=globalThis.GrammarVietnamese?.explanation(q);if(translated)return translated;
   const why=String(q.why||'').trim(),answer=String(q.answer||''),scene=String(q.scene||'');
   if(why&&!/^The answer is /i.test(why))return why;
   if(skill(q)==='listening')return 'You heard: '+(q.spokenScene||answer)+'.';
@@ -29,8 +29,8 @@
   }
   return scene?'“'+answer+'” matches this clue: '+scene:'Correct answer: '+answer;
  }
- function instruction(q){if(q.exam)return q.inputMode==='typing'?'Read the original exercise and type your answer.':'Read the original exercise and choose your answer.';if(q.interaction==='reading')return 'Read the text and find evidence for your answer.';if(q.orderWords)return q.skill==='grammar'?'Build the sentence from the three parts.':'Listen and put the cards in order.';if(q.matchPictures)return 'Match each word to its picture.';if(q.interaction==='picture')return 'Listen and choose the correct picture.';if(q.storyId)return 'Listen to the story and choose the missing word.';if(q.interaction==='sentence')return 'Build the complete sentence from the word tiles.';if(q.interaction==='dictation')return 'Listen, then write the word you hear.';if(q.interaction==='recall')return 'Use the meaning cue to complete the whole sentence.';return skill(q)==='listening'?'Listen to Titi and choose the correct answer.':skill(q)==='grammar'?'Read the whole sentence and complete the gap.':skill(q)==='reading'?'Read the text and find evidence for your answer.':'Read the clue and choose the correct answer.';}
- function reflect(q){return {listening:'Say the word aloud once. Can you hear its ending?',phonics:'Say the sound, then say the whole word.',grammar:'Read the completed sentence aloud.',dialogue:'Say both parts of the conversation aloud.',reading:'Point to the words that helped you decide.',vocabulary:'Cover the answer. Can you remember it from the clue?'}[skill(q)];}
+ function instruction(q){if(q.skill==='grammar')return 'Đọc cả câu, xác định chủ ngữ và dấu hiệu thời gian, rồi vận dụng cấu trúc đã học.';if(q.exam)return q.inputMode==='typing'?'Read the original exercise and type your answer.':'Read the original exercise and choose your answer.';if(q.interaction==='reading')return 'Read the text and find evidence for your answer.';if(q.orderWords)return q.skill==='grammar'?'Build the sentence from the three parts.':'Listen and put the cards in order.';if(q.matchPictures)return 'Match each word to its picture.';if(q.interaction==='picture')return 'Listen and choose the correct picture.';if(q.storyId)return 'Listen to the story and choose the missing word.';if(q.interaction==='sentence')return 'Build the complete sentence from the word tiles.';if(q.interaction==='dictation')return 'Listen, then write the word you hear.';if(q.interaction==='recall')return 'Use the meaning cue to complete the whole sentence.';return skill(q)==='listening'?'Listen to Titi and choose the correct answer.':skill(q)==='grammar'?'Read the whole sentence and complete the gap.':skill(q)==='reading'?'Read the text and find evidence for your answer.':'Read the clue and choose the correct answer.';}
+ function reflect(q){return {listening:'Say the word aloud once. Can you hear its ending?',phonics:'Say the sound, then say the whole word.',grammar:'Đọc lại câu hoàn chỉnh và xác định cấu trúc vừa dùng.',dialogue:'Say both parts of the conversation aloud.',reading:'Point to the words that helped you decide.',vocabulary:'Cover the answer. Can you remember it from the clue?'}[skill(q)];}
  // One stable Part per task; source objects and question IDs are not changed.
  function plan(items,options={}){const parts=typeof module==='object'?require('./task-parts.js'):globalThis.TaskParts;const difficulty=typeof module==='object'?require('./difficulty.js'):globalThis.PracticeDifficulty;return parts?(difficulty?difficulty.plan(items,parts):parts.group(items)):[...items];}
  function restore(items,attempt){

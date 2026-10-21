@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..'),T=require('../game-kit/adventures/task-p
 test('Văn Lang never narrates option fallback text; a reading question is separate from its passage',()=>{
  assert.deepEqual(T.speech({scene:'',spokenScene:'red, blue, green, white.',options:['red','blue','green','white'],prompt:''},{course:'van-lang'}),[]);
  const q={scene:'Why did the boys enter the cave?',spokenScene:'wrong cached option fallback',storyText:Array(100).fill('passage').join(' '),partType:'readChoose',options:['To swim','To play','To sleep','To eat']};
- assert.deepEqual(T.speech(q,{course:'van-lang'}),[q.scene]);assert.equal(T.automatic(q,'van-lang'),true);
+ assert.deepEqual(T.speech(q,{course:'van-lang'}),[q.scene]);assert.equal(T.automatic(q,'van-lang'),false);assert.equal(T.instructionOnly(q,'van-lang'),true);
  for(const item of [{scene:'Blank (24)',partType:'readGap'},{scene:'She ___ at home.'},{scene:q.storyText}])assert.equal(T.automatic(item,'van-lang'),false);
 });
 test('Every cloze and comprehension question keeps the entire canonical source passage and answer',()=>{
@@ -14,7 +14,7 @@ test('Every cloze and comprehension question keeps the entire canonical source p
 });
 test('Every weekly structure heading is Vietnamese while formulae and examples stay intact',()=>{
  const {rules}=require('./grammar-authoring.cjs'),{vietnameseTag}=require('./grammar-headings.cjs');
- for(let week=1;week<=12;week++){const pack=require('./weekly/week-'+week+'.json');for(const [i,r]of pack.summary.entries()){const [old,formula,usage,example,exampleVi]=rules[week-1][i];assert.equal(r.tag,vietnameseTag(old));assert.deepEqual([r.formula,r.usage,r.example,r.exampleVi],[formula,usage,example,exampleVi]);}}
+ for(let week=1;week<=12;week++){const pack=require('./weekly/week-'+week+'.json');for(const [i,r]of pack.summary.entries()){const [old,formula,usage,example,exampleVi]=rules[week-1][i];assert.equal(r.tag,vietnameseTag(old));assert.deepEqual([r.formula,r.usage,r.example,r.exampleVi],[require('../khoa-hoc/program/grammar-language.cjs').replaceTerms(formula),usage,example,exampleVi]);}}
  assert.equal(vietnameseTag('Suggestions'),'Cấu trúc Lời mời / Lời đề nghị');assert.equal(vietnameseTag('Passive Voice'),'Câu Bị động');assert.equal(vietnameseTag('Reported Speech'),'Câu Tường thuật / Gián tiếp');assert.equal(vietnameseTag('Comparisons'),'Cấu trúc So sánh');
 });
 test('Phonics Treasure map navigation goes directly to the same course and retains the guarded context',async()=>{

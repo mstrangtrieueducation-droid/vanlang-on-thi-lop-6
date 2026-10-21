@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Verb be · Công dụng",
+      "tag": "Công dụng của động từ “to be”",
       "note": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "example": "I am a student.",
       "formula": [
@@ -23,10 +23,10 @@
       ],
       "usage": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "exampleVi": "Tôi là một sinh viên.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "I + am",
+      "tag": "Cách dùng am với chủ ngữ “tôi”",
       "note": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
       "example": "I'm eight years old.",
       "formula": [
@@ -43,10 +43,10 @@
       ],
       "usage": "Dạng đầy đủ là I am và I am not.",
       "exampleVi": "Tôi tám tuổi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "He · She · It + is",
+      "tag": "Cách dùng is với chủ ngữ số ít",
       "note": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
       "example": "My mother is a teacher.",
       "formula": [
@@ -68,10 +68,10 @@
       ],
       "usage": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "exampleVi": "Mẹ tôi là một giáo viên.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "You · We · They + are",
+      "tag": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
       "note": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
       "example": "My parents are kind.",
       "formula": [
@@ -93,7 +93,7 @@
       ],
       "usage": "Dùng are với you, we, they và danh từ số nhiều.",
       "exampleVi": "Bố mẹ tôi tốt bụng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Câu phủ định",
@@ -112,7 +112,7 @@
       ],
       "usage": "Muốn nói “không phải” hoặc “không ở trạng thái đó”, con thêm not ngay sau am, is hoặc are.",
       "exampleVi": "Anh ấy không phải là anh trai tôi.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Điểm cần nhớ",
@@ -132,7 +132,7 @@
       ],
       "usage": "Trong giọng Mỹ của bộ sách, family được xem là một nhóm số ít nên dùng is: “My family is big.” Khi nói trực tiếp nhiều thành viên, con dùng are: “My parents are kind.” Hãy nhìn đúng danh từ làm chủ ngữ, không đếm số người trong bức ảnh.",
       "exampleVi": "Gia đình tôi đông con.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -148,8 +148,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb be · Công dụng",
-      "title": "Verb be · Công dụng",
+      "focus": "Công dụng của động từ “to be”",
+      "title": "Công dụng của động từ “to be”",
       "answer": "am",
       "options": [
         "am",
@@ -158,7 +158,7 @@
         "be"
       ],
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
-      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "Chọn “am”. Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -167,7 +167,11 @@
       "spokenScene": "",
       "scene": "A new pupil joins the class. She does not know anyone yet.\nI ___ a student.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I am a student.",
+        "vi": "Tôi là một sinh viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-1-2-context2",
@@ -181,8 +185,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I + am",
-      "title": "I + am",
+      "focus": "Cách dùng am với chủ ngữ “tôi”",
+      "title": "Cách dùng am với chủ ngữ “tôi”",
       "answer": "I'm",
       "options": [
         "I is",
@@ -191,7 +195,7 @@
         "I'm"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
+      "why": "Chọn “I'm”. Dạng đầy đủ là I am và I am not.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -200,7 +204,11 @@
       "spokenScene": "",
       "scene": "A new pupil joins the class. She does not know anyone yet.\n___ eight years old.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I'm eight years old.",
+        "vi": "Tôi tám tuổi."
+      }
     },
     {
       "id": "discover-1-grammar-u1-1-3-context2",
@@ -214,8 +222,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "He · She · It + is",
-      "title": "He · She · It + is",
+      "focus": "Cách dùng is với chủ ngữ số ít",
+      "title": "Cách dùng is với chủ ngữ số ít",
       "answer": "is",
       "options": [
         "am",
@@ -224,7 +232,7 @@
         "are"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "why": "Chọn “is”. Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -233,7 +241,11 @@
       "spokenScene": "",
       "scene": "A new pupil joins the class. She does not know anyone yet.\nMy mother ___ a teacher.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "My mother is a teacher.",
+        "vi": "Mẹ tôi là một giáo viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-1-4-context2",
@@ -247,8 +259,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "You · We · They + are",
-      "title": "You · We · They + are",
+      "focus": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
+      "title": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
       "answer": "are",
       "options": [
         "be",
@@ -257,7 +269,7 @@
         "am"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
+      "why": "Chọn “are”. Dùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -266,7 +278,11 @@
       "spokenScene": "",
       "scene": "A new pupil joins the class. She does not know anyone yet.\nMy parents ___ kind.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "My parents are kind.",
+        "vi": "Bố mẹ tôi tốt bụng."
+      }
     },
     {
       "id": "discover-1-grammar-u1-2-1-context2",
@@ -280,8 +296,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb be · Công dụng",
-      "title": "Verb be · Công dụng",
+      "focus": "Công dụng của động từ “to be”",
+      "title": "Công dụng của động từ “to be”",
       "answer": "am",
       "options": [
         "is",
@@ -290,7 +306,7 @@
         "am"
       ],
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
-      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "Chọn “am”. Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -301,7 +317,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I am a student.",
+        "vi": "Tôi là một sinh viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-2-2-context2",
@@ -315,8 +335,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I + am",
-      "title": "I + am",
+      "focus": "Cách dùng am với chủ ngữ “tôi”",
+      "title": "Cách dùng am với chủ ngữ “tôi”",
       "answer": "I'm",
       "options": [
         "I are",
@@ -325,7 +345,7 @@
         "I is"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
+      "why": "Chọn “I'm”. Dạng đầy đủ là I am và I am not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -336,7 +356,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I'm eight years old.",
+        "vi": "Tôi tám tuổi."
+      }
     },
     {
       "id": "discover-1-grammar-u1-2-3-context2",
@@ -350,8 +374,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "He · She · It + is",
-      "title": "He · She · It + is",
+      "focus": "Cách dùng is với chủ ngữ số ít",
+      "title": "Cách dùng is với chủ ngữ số ít",
       "answer": "is",
       "options": [
         "be",
@@ -360,7 +384,7 @@
         "am"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "why": "Chọn “is”. Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -371,7 +395,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "My mother is a teacher.",
+        "vi": "Mẹ tôi là một giáo viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-2-4-context2",
@@ -385,8 +413,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "You · We · They + are",
-      "title": "You · We · They + are",
+      "focus": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
+      "title": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
       "answer": "are",
       "options": [
         "are",
@@ -395,7 +423,7 @@
         "be"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
+      "why": "Chọn “are”. Dùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -406,7 +434,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "My parents are kind.",
+        "vi": "Bố mẹ tôi tốt bụng."
+      }
     },
     {
       "id": "discover-1-grammar-u1-3-1-context2",
@@ -420,8 +452,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb be · Công dụng",
-      "title": "Verb be · Công dụng",
+      "focus": "Công dụng của động từ “to be”",
+      "title": "Công dụng của động từ “to be”",
       "answer": "am",
       "options": [
         "are",
@@ -430,7 +462,7 @@
         "is"
       ],
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
-      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "Chọn “am”. Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -442,7 +474,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I am a student.",
+        "vi": "Tôi là một sinh viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-3-2-context2",
@@ -456,8 +492,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I + am",
-      "title": "I + am",
+      "focus": "Cách dùng am với chủ ngữ “tôi”",
+      "title": "Cách dùng am với chủ ngữ “tôi”",
       "answer": "I'm",
       "options": [
         "I be",
@@ -466,7 +502,7 @@
         "I are"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
+      "why": "Chọn “I'm”. Dạng đầy đủ là I am và I am not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -478,7 +514,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I'm eight years old.",
+        "vi": "Tôi tám tuổi."
+      }
     },
     {
       "id": "discover-1-grammar-u1-3-3-context2",
@@ -492,8 +532,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "He · She · It + is",
-      "title": "He · She · It + is",
+      "focus": "Cách dùng is với chủ ngữ số ít",
+      "title": "Cách dùng is với chủ ngữ số ít",
       "answer": "is",
       "options": [
         "is",
@@ -502,7 +542,7 @@
         "be"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "why": "Chọn “is”. Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -514,7 +554,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "My mother is a teacher.",
+        "vi": "Mẹ tôi là một giáo viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-3-4-context2",
@@ -528,8 +572,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "You · We · They + are",
-      "title": "You · We · They + are",
+      "focus": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
+      "title": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
       "answer": "are",
       "options": [
         "is",
@@ -538,7 +582,7 @@
         "are"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
+      "why": "Chọn “are”. Dùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -550,7 +594,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "My parents are kind.",
+        "vi": "Bố mẹ tôi tốt bụng."
+      }
     },
     {
       "id": "discover-1-grammar-u1-4-1-context2",
@@ -564,8 +612,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb be · Công dụng",
-      "title": "Verb be · Công dụng",
+      "focus": "Công dụng của động từ “to be”",
+      "title": "Công dụng của động từ “to be”",
       "answer": "I am → a → student.",
       "options": [
         "I am → a → student.",
@@ -574,7 +622,7 @@
         "student. → a → I am"
       ],
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
-      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "Chọn “I am → a → student.”. Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -588,7 +636,11 @@
         "a",
         "student.",
         "I am"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I am a student.",
+        "vi": "Tôi là một sinh viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-4-2-context2",
@@ -602,8 +654,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I + am",
-      "title": "I + am",
+      "focus": "Cách dùng am với chủ ngữ “tôi”",
+      "title": "Cách dùng am với chủ ngữ “tôi”",
       "answer": "I'm eight → years → old.",
       "options": [
         "I'm eight → years → old.",
@@ -612,7 +664,7 @@
         "old. → years → I'm eight"
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
+      "why": "Chọn “I'm eight → years → old.”. Dạng đầy đủ là I am và I am not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -626,7 +678,11 @@
         "years",
         "old.",
         "I'm eight"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I'm eight years old.",
+        "vi": "Tôi tám tuổi."
+      }
     },
     {
       "id": "discover-1-grammar-u1-4-3-context2",
@@ -640,8 +696,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "He · She · It + is",
-      "title": "He · She · It + is",
+      "focus": "Cách dùng is với chủ ngữ số ít",
+      "title": "Cách dùng is với chủ ngữ số ít",
       "answer": "My mother → is a → teacher.",
       "options": [
         "My mother → is a → teacher.",
@@ -650,7 +706,7 @@
         "teacher. → is a → My mother"
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "why": "Chọn “My mother → is a → teacher.”. Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -664,7 +720,11 @@
         "is a",
         "teacher.",
         "My mother"
-      ]
+      ],
+      "explanationExample": {
+        "en": "My mother is a teacher.",
+        "vi": "Mẹ tôi là một giáo viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-4-4-context2",
@@ -678,8 +738,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "You · We · They + are",
-      "title": "You · We · They + are",
+      "focus": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
+      "title": "Cách dùng are với “bạn”, “chúng tôi”, “họ”",
       "answer": "My parents → are → kind.",
       "options": [
         "My parents → are → kind.",
@@ -688,7 +748,7 @@
         "kind. → are → My parents"
       ],
       "hint": "Dùng are với you, we, they và danh từ số nhiều. Dạng nói gọn là you’re, we’re, they’re. Với câu phủ định, “are not” có thể thành aren’t hoặc ’re not; trong bài nói, con có thể dùng cách nào miễn câu đúng và rõ.",
-      "why": "My parents are kind.\nDùng are với you, we, they và danh từ số nhiều.",
+      "why": "Chọn “My parents → are → kind.”. Dùng are với you, we, they và danh từ số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -702,7 +762,11 @@
         "are",
         "kind.",
         "My parents"
-      ]
+      ],
+      "explanationExample": {
+        "en": "My parents are kind.",
+        "vi": "Bố mẹ tôi tốt bụng."
+      }
     },
     {
       "id": "discover-1-grammar-u1-5-1-context2",
@@ -716,8 +780,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Verb be · Công dụng",
-      "title": "Verb be · Công dụng",
+      "focus": "Công dụng của động từ “to be”",
+      "title": "Công dụng của động từ “to be”",
       "answer": "I am a student.",
       "options": [
         "I am a student.",
@@ -726,7 +790,7 @@
         "I be a student."
       ],
       "hint": "Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
-      "why": "I am a student.\nĐộng từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
+      "why": "Chọn “I am a student.”. Động từ be đứng sau chủ ngữ và giúp nói người hoặc vật là ai, bao nhiêu tuổi, có đặc điểm hoặc trạng thái thế nào.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -737,7 +801,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "I am a student.",
+        "vi": "Tôi là một sinh viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-5-2-context2",
@@ -751,8 +819,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I + am",
-      "title": "I + am",
+      "focus": "Cách dùng am với chủ ngữ “tôi”",
+      "title": "Cách dùng am với chủ ngữ “tôi”",
       "answer": "I'm eight years old.",
       "options": [
         "I is eight years old.",
@@ -761,7 +829,7 @@
         "I'm eight years old."
       ],
       "hint": "Dạng đầy đủ là I am và I am not. Khi nói tự nhiên, I am thường rút gọn thành I’m; dạng phủ định là I’m not. Tiếng Anh không dùng “I amn’t”. Khi nói tuổi, con dùng be: I’m eight years old.",
-      "why": "I'm eight years old.\nDạng đầy đủ là I am và I am not.",
+      "why": "Chọn “I'm eight years old.”. Dạng đầy đủ là I am và I am not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -772,7 +840,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "I'm eight years old.",
+        "vi": "Tôi tám tuổi."
+      }
     },
     {
       "id": "discover-1-grammar-u1-5-3-context2",
@@ -786,8 +858,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "He · She · It + is",
-      "title": "He · She · It + is",
+      "focus": "Cách dùng is với chủ ngữ số ít",
+      "title": "Cách dùng is với chủ ngữ số ít",
       "answer": "My mother is a teacher.",
       "options": [
         "My mother am a teacher.",
@@ -796,7 +868,7 @@
         "My mother are a teacher."
       ],
       "hint": "Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít. Dạng khẳng định có thể rút gọn thành he’s, she’s, it’s. Dạng phủ định “is not” có hai cách nói gọn: isn’t hoặc ’s not.",
-      "why": "My mother is a teacher.\nDùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
+      "why": "Chọn “My mother is a teacher.”. Dùng is với he, she, it, một tên riêng hoặc một danh từ số ít.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -807,7 +879,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "My mother is a teacher.",
+        "vi": "Mẹ tôi là một giáo viên."
+      }
     },
     {
       "id": "discover-1-grammar-u1-5-4-context2-life",

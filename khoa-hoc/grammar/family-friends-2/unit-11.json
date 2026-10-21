@@ -16,22 +16,22 @@
           "am / is / are + wearing"
         ],
         [
-          "half past = hơn 30 phút; quarter past = hơn 15 phút"
+          "half quá khứ = hơn 30 phút; quarter quá khứ = hơn 15 phút"
         ]
       ],
       "note": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
       "example": "What are you wearing?",
       "usage": "Nói quần áo đang mặc dùng be + wearing.",
       "exampleVi": "Bạn đang mặc gì?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Remember",
-      "note": "To describe clothes worn now, use am/is/are + wearing. “Half past” is 30 minutes after; “quarter past” is 15 after.",
+      "tag": "Điểm cần nhớ",
+      "note": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
       "example": "It's 2:30. It's half past two.",
-      "usage": "To describe clothes worn now, use am/is/are + wearing.",
+      "usage": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
       "exampleVi": "Bây giờ là 2 giờ 30. Bây giờ là hai giờ rưỡi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "wore"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "What are you wearing?\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “wearing”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "A child finds a scarf after class. Another pupil is looking for it.\nWhat are you ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What are you wearing?",
+        "vi": "Bạn đang mặc gì?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-1-2-context2",
@@ -92,7 +96,7 @@
         "is"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "He is wearing jeans.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “is”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "A child finds a scarf after class. Another pupil is looking for it.\nHe ___ wearing jeans.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He is wearing jeans.",
+        "vi": "Bạn ấy đang mặc quần bò."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-1-3-context2",
@@ -126,7 +134,7 @@
         "is"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "I am wearing a scarf.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “am”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "A child finds a scarf after class. Another pupil is looking for it.\nI ___ wearing a scarf.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I am wearing a scarf.",
+        "vi": "Tôi đang quàng khăn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-1-4-context2",
@@ -160,7 +172,7 @@
         "o'clock"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 2:30. It's half past two.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “half”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "A child finds a scarf after class. Another pupil is looking for it.\nIt's 2:30. It's ___ past two.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It's 2:30. It's half past two.",
+        "vi": "Bây giờ là 2 giờ 30. Bây giờ là hai giờ rưỡi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-1-5-context2",
@@ -194,7 +210,7 @@
         "on"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 9:45. It's quarter to ten.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “to”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "A child finds a scarf after class. Another pupil is looking for it.\nIt's 9:45. It's quarter ___ ten.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It's 9:45. It's quarter to ten.",
+        "vi": "Bây giờ là 9 giờ 45 phút, tức mười giờ kém mười lăm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-2-1-context2",
@@ -228,7 +248,7 @@
         "wearing"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "What are you wearing?\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “wearing”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "What are you wearing?",
+        "vi": "Bạn đang mặc gì?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-2-2-context2",
@@ -264,7 +288,7 @@
         "are"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "He is wearing jeans.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “is”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He is wearing jeans.",
+        "vi": "Bạn ấy đang mặc quần bò."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-2-3-context2",
@@ -300,7 +328,7 @@
         "are"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "I am wearing a scarf.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “am”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I am wearing a scarf.",
+        "vi": "Tôi đang quàng khăn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-2-4-context2",
@@ -336,7 +368,7 @@
         "to"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 2:30. It's half past two.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “half”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It's 2:30. It's half past two.",
+        "vi": "Bây giờ là 2 giờ 30. Bây giờ là hai giờ rưỡi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-2-5-context2",
@@ -372,7 +408,7 @@
         "to"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 9:45. It's quarter to ten.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “to”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It's 9:45. It's quarter to ten.",
+        "vi": "Bây giờ là 9 giờ 45 phút, tức mười giờ kém mười lăm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-3-1-context2",
@@ -408,7 +448,7 @@
         "wear"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "What are you wearing?\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “wearing”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "What are you wearing?",
+        "vi": "Bạn đang mặc gì?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-3-2-context2",
@@ -445,7 +489,7 @@
         "am"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "He is wearing jeans.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “is”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He is wearing jeans.",
+        "vi": "Bạn ấy đang mặc quần bò."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-3-3-context2",
@@ -482,7 +530,7 @@
         "be"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "I am wearing a scarf.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “am”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I am wearing a scarf.",
+        "vi": "Tôi đang quàng khăn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-3-4-context2",
@@ -519,7 +571,7 @@
         "half"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 2:30. It's half past two.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “half”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It's 2:30. It's half past two.",
+        "vi": "Bây giờ là 2 giờ 30. Bây giờ là hai giờ rưỡi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-3-5-context2",
@@ -556,7 +612,7 @@
         "past"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 9:45. It's quarter to ten.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “to”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It's 9:45. It's quarter to ten.",
+        "vi": "Bây giờ là 9 giờ 45 phút, tức mười giờ kém mười lăm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-4-1-context2",
@@ -593,7 +653,7 @@
         "wearing? → you → What are"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "What are you wearing?\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “What are → you → wearing?”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "you",
         "wearing?",
         "What are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "What are you wearing?",
+        "vi": "Bạn đang mặc gì?"
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-4-2-context2",
@@ -632,7 +696,7 @@
         "jeans. → wearing → He is"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "He is wearing jeans.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “He is → wearing → jeans.”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "wearing",
         "jeans.",
         "He is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He is wearing jeans.",
+        "vi": "Bạn ấy đang mặc quần bò."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-4-3-context2",
@@ -671,7 +739,7 @@
         "scarf. → wearing a → I am"
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "I am wearing a scarf.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “I am → wearing a → scarf.”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "wearing a",
         "scarf.",
         "I am"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I am wearing a scarf.",
+        "vi": "Tôi đang quàng khăn."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-4-4-context2",
@@ -710,7 +782,7 @@
         "past two. → It's half → It's 2:30."
       ],
       "hint": "Nói quần áo đang mặc dùng be + wearing. Chọn be theo chủ ngữ, đọc kỹ giờ trong ngữ cảnh.",
-      "why": "It's 2:30. It's half past two.\nNói quần áo đang mặc dùng be + wearing.",
+      "why": "Chọn “It's 2:30. → It's half → past two.”. Nói quần áo đang mặc dùng be + wearing.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "It's half",
         "past two.",
         "It's 2:30."
-      ]
+      ],
+      "explanationExample": {
+        "en": "It's 2:30. It's half past two.",
+        "vi": "Bây giờ là 2 giờ 30. Bây giờ là hai giờ rưỡi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u11-4-5-context2-life",

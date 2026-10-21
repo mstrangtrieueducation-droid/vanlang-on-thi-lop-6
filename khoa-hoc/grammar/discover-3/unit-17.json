@@ -9,24 +9,24 @@
   },
   "summary": [
     {
-      "tag": "Direction",
+      "tag": "Hướng di chuyển",
       "note": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
       "example": "The ship sailed toward the island.",
       "formula": [
         [
-          "verb of movement",
+          "động từ chỉ sự di chuyển",
           "+",
-          "preposition",
+          "giới từ",
           "+",
-          "place"
+          "nơi chốn"
         ]
       ],
       "usage": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "exampleVi": "Con tàu đi về hướng đảo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Across and through",
+      "tag": "Phân biệt đi ngang qua và xuyên qua",
       "note": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
       "example": "The ship moved through the fog.",
       "formula": [
@@ -43,10 +43,10 @@
       ],
       "usage": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "exampleVi": "Con tàu di chuyển qua sương mù.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Up, down, around, past",
+      "tag": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "note": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
       "example": "The explorers sailed around the coast.",
       "formula": [
@@ -54,34 +54,34 @@
           "move up / down"
         ],
         [
-          "go around / past",
+          "go around / quá khứ",
           "+",
-          "place"
+          "nơi chốn"
         ]
       ],
       "usage": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "exampleVi": "Các nhà thám hiểm đi thuyền quanh bờ biển.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Movement or position?",
+      "tag": "Phân biệt sự di chuyển và vị trí",
       "note": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
       "example": "The storm moved toward the coast.",
       "formula": [
         [
-          "position",
+          "vị trí",
           "→",
           "in / on / at"
         ],
         [
-          "movement",
+          "sự di chuyển",
           "→",
           "into / onto / toward"
         ]
       ],
       "usage": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "exampleVi": "Cơn bão di chuyển về phía bờ biển.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -97,8 +97,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Direction",
-      "title": "Direction",
+      "focus": "Hướng di chuyển",
+      "title": "Hướng di chuyển",
       "answer": "sailed",
       "options": [
         "sailed",
@@ -107,7 +107,7 @@
         "to sailed"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "why": "Chọn “sailed”. Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -116,7 +116,11 @@
       "spokenScene": "",
       "scene": "A young explorer's journal describes both rough seas and successful arrivals.\nThe ship ___ toward the island.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The ship sailed toward the island.",
+        "vi": "Con tàu đi về hướng đảo."
+      }
     },
     {
       "id": "discover-3-grammar-u17-1-2-context2",
@@ -130,8 +134,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Across and through",
-      "title": "Across and through",
+      "focus": "Phân biệt đi ngang qua và xuyên qua",
+      "title": "Phân biệt đi ngang qua và xuyên qua",
       "answer": "moved",
       "options": [
         "moveds",
@@ -140,7 +144,7 @@
         "moved"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "why": "Chọn “moved”. Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -149,7 +153,11 @@
       "spokenScene": "",
       "scene": "A young explorer's journal describes both rough seas and successful arrivals.\nThe ship ___ through the fog.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The ship moved through the fog.",
+        "vi": "Con tàu di chuyển qua sương mù."
+      }
     },
     {
       "id": "discover-3-grammar-u17-1-3-context2",
@@ -163,8 +171,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Up, down, around, past",
-      "title": "Up, down, around, past",
+      "focus": "Di chuyển lên, xuống, vòng quanh và đi qua",
+      "title": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "answer": "sailed",
       "options": [
         "sailing",
@@ -173,7 +181,7 @@
         "saileds"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "why": "Chọn “sailed”. Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -182,7 +190,11 @@
       "spokenScene": "",
       "scene": "A young explorer's journal describes both rough seas and successful arrivals.\nThe explorers ___ around the coast.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The explorers sailed around the coast.",
+        "vi": "Các nhà thám hiểm đi thuyền quanh bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-1-4-context2",
@@ -196,8 +208,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Movement or position?",
-      "title": "Movement or position?",
+      "focus": "Phân biệt sự di chuyển và vị trí",
+      "title": "Phân biệt sự di chuyển và vị trí",
       "answer": "moved",
       "options": [
         "to moved",
@@ -206,7 +218,7 @@
         "moving"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
+      "why": "Chọn “moved”. In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -215,7 +227,11 @@
       "spokenScene": "",
       "scene": "A young explorer's journal describes both rough seas and successful arrivals.\nThe storm ___ toward the coast.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The storm moved toward the coast.",
+        "vi": "Cơn bão di chuyển về phía bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-2-1-context2",
@@ -229,8 +245,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Direction",
-      "title": "Direction",
+      "focus": "Hướng di chuyển",
+      "title": "Hướng di chuyển",
       "answer": "sailed",
       "options": [
         "saileds",
@@ -239,7 +255,7 @@
         "sailed"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "why": "Chọn “sailed”. Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -250,7 +266,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The ship sailed toward the island.",
+        "vi": "Con tàu đi về hướng đảo."
+      }
     },
     {
       "id": "discover-3-grammar-u17-2-2-context2",
@@ -264,8 +284,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Across and through",
-      "title": "Across and through",
+      "focus": "Phân biệt đi ngang qua và xuyên qua",
+      "title": "Phân biệt đi ngang qua và xuyên qua",
       "answer": "moved",
       "options": [
         "moving",
@@ -274,7 +294,7 @@
         "moveds"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "why": "Chọn “moved”. Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -285,7 +305,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The ship moved through the fog.",
+        "vi": "Con tàu di chuyển qua sương mù."
+      }
     },
     {
       "id": "discover-3-grammar-u17-2-3-context2",
@@ -299,8 +323,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Up, down, around, past",
-      "title": "Up, down, around, past",
+      "focus": "Di chuyển lên, xuống, vòng quanh và đi qua",
+      "title": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "answer": "sailed",
       "options": [
         "to sailed",
@@ -309,7 +333,7 @@
         "sailing"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "why": "Chọn “sailed”. Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -320,7 +344,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The explorers sailed around the coast.",
+        "vi": "Các nhà thám hiểm đi thuyền quanh bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-2-4-context2",
@@ -334,8 +362,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Movement or position?",
-      "title": "Movement or position?",
+      "focus": "Phân biệt sự di chuyển và vị trí",
+      "title": "Phân biệt sự di chuyển và vị trí",
       "answer": "moved",
       "options": [
         "moved",
@@ -344,7 +372,7 @@
         "to moved"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
+      "why": "Chọn “moved”. In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -355,7 +383,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The storm moved toward the coast.",
+        "vi": "Cơn bão di chuyển về phía bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-3-1-context2",
@@ -369,8 +401,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Direction",
-      "title": "Direction",
+      "focus": "Hướng di chuyển",
+      "title": "Hướng di chuyển",
       "answer": "sailed",
       "options": [
         "sailing",
@@ -379,7 +411,7 @@
         "saileds"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "why": "Chọn “sailed”. Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -391,7 +423,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The ship sailed toward the island.",
+        "vi": "Con tàu đi về hướng đảo."
+      }
     },
     {
       "id": "discover-3-grammar-u17-3-2-context2",
@@ -405,8 +441,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Across and through",
-      "title": "Across and through",
+      "focus": "Phân biệt đi ngang qua và xuyên qua",
+      "title": "Phân biệt đi ngang qua và xuyên qua",
       "answer": "moved",
       "options": [
         "to moved",
@@ -415,7 +451,7 @@
         "moving"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "why": "Chọn “moved”. Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -427,7 +463,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The ship moved through the fog.",
+        "vi": "Con tàu di chuyển qua sương mù."
+      }
     },
     {
       "id": "discover-3-grammar-u17-3-3-context2",
@@ -441,8 +481,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Up, down, around, past",
-      "title": "Up, down, around, past",
+      "focus": "Di chuyển lên, xuống, vòng quanh và đi qua",
+      "title": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "answer": "sailed",
       "options": [
         "sailed",
@@ -451,7 +491,7 @@
         "to sailed"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "why": "Chọn “sailed”. Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -463,7 +503,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The explorers sailed around the coast.",
+        "vi": "Các nhà thám hiểm đi thuyền quanh bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-3-4-context2",
@@ -477,8 +521,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Movement or position?",
-      "title": "Movement or position?",
+      "focus": "Phân biệt sự di chuyển và vị trí",
+      "title": "Phân biệt sự di chuyển và vị trí",
       "answer": "moved",
       "options": [
         "moveds",
@@ -487,7 +531,7 @@
         "moved"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
+      "why": "Chọn “moved”. In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -499,7 +543,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The storm moved toward the coast.",
+        "vi": "Cơn bão di chuyển về phía bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-4-1-context2",
@@ -513,8 +561,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Direction",
-      "title": "Direction",
+      "focus": "Hướng di chuyển",
+      "title": "Hướng di chuyển",
       "answer": "The ship → sailed toward → the island.",
       "options": [
         "The ship → sailed toward → the island.",
@@ -523,7 +571,7 @@
         "the island. → sailed toward → The ship"
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "why": "Chọn “The ship → sailed toward → the island.”. Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -537,7 +585,11 @@
         "sailed toward",
         "the island.",
         "The ship"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The ship sailed toward the island.",
+        "vi": "Con tàu đi về hướng đảo."
+      }
     },
     {
       "id": "discover-3-grammar-u17-4-2-context2",
@@ -551,8 +603,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Across and through",
-      "title": "Across and through",
+      "focus": "Phân biệt đi ngang qua và xuyên qua",
+      "title": "Phân biệt đi ngang qua và xuyên qua",
       "answer": "The ship → moved through → the fog.",
       "options": [
         "The ship → moved through → the fog.",
@@ -561,7 +613,7 @@
         "the fog. → moved through → The ship"
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "why": "Chọn “The ship → moved through → the fog.”. Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -575,7 +627,11 @@
         "moved through",
         "the fog.",
         "The ship"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The ship moved through the fog.",
+        "vi": "Con tàu di chuyển qua sương mù."
+      }
     },
     {
       "id": "discover-3-grammar-u17-4-3-context2",
@@ -589,8 +645,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Up, down, around, past",
-      "title": "Up, down, around, past",
+      "focus": "Di chuyển lên, xuống, vòng quanh và đi qua",
+      "title": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "answer": "The explorers → sailed around → the coast.",
       "options": [
         "The explorers → sailed around → the coast.",
@@ -599,7 +655,7 @@
         "the coast. → sailed around → The explorers"
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "why": "Chọn “The explorers → sailed around → the coast.”. Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -613,7 +669,11 @@
         "sailed around",
         "the coast.",
         "The explorers"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The explorers sailed around the coast.",
+        "vi": "Các nhà thám hiểm đi thuyền quanh bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-4-4-context2",
@@ -627,8 +687,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Movement or position?",
-      "title": "Movement or position?",
+      "focus": "Phân biệt sự di chuyển và vị trí",
+      "title": "Phân biệt sự di chuyển và vị trí",
       "answer": "The storm → moved toward → the coast.",
       "options": [
         "The storm → moved toward → the coast.",
@@ -637,7 +697,7 @@
         "the coast. → moved toward → The storm"
       ],
       "hint": "In the river nói vị trí; into the river nói chuyển động từ ngoài vào. On the coast nói vị trí; toward the coast nói hướng di chuyển.",
-      "why": "The storm moved toward the coast.\nIn the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
+      "why": "Chọn “The storm → moved toward → the coast.”. In the river nói vị trí; into the river nói chuyển động từ ngoài vào.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -651,7 +711,11 @@
         "moved toward",
         "the coast.",
         "The storm"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The storm moved toward the coast.",
+        "vi": "Cơn bão di chuyển về phía bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-5-1-context2",
@@ -665,8 +729,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Direction",
-      "title": "Direction",
+      "focus": "Hướng di chuyển",
+      "title": "Hướng di chuyển",
       "answer": "The ship sailed toward the island.",
       "options": [
         "The ship sailed toward the island.",
@@ -675,7 +739,7 @@
         "The ship to sailed toward the island."
       ],
       "hint": "Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa. Chúng miêu tả chuyển động, khác với in hoặc at chỉ vị trí.",
-      "why": "The ship sailed toward the island.\nInto là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
+      "why": "Chọn “The ship sailed toward the island.”. Into là đi vào; out of là đi ra; toward là hướng về; away from là rời xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -686,7 +750,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The ship sailed toward the island.",
+        "vi": "Con tàu đi về hướng đảo."
+      }
     },
     {
       "id": "discover-3-grammar-u17-5-2-context2",
@@ -700,8 +768,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Across and through",
-      "title": "Across and through",
+      "focus": "Phân biệt đi ngang qua và xuyên qua",
+      "title": "Phân biệt đi ngang qua và xuyên qua",
       "answer": "The ship moved through the fog.",
       "options": [
         "The ship moveds through the fog.",
@@ -710,7 +778,7 @@
         "The ship moved through the fog."
       ],
       "hint": "Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest. Hãy hình dung đường chuyển động.",
-      "why": "The ship moved through the fog.\nTa đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
+      "why": "Chọn “The ship moved through the fog.”. Ta đi across a river, road hoặc field; đi through fog, a tunnel hoặc a forest.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +789,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The ship moved through the fog.",
+        "vi": "Con tàu di chuyển qua sương mù."
+      }
     },
     {
       "id": "discover-3-grammar-u17-5-3-context2",
@@ -735,8 +807,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Up, down, around, past",
-      "title": "Up, down, around, past",
+      "focus": "Di chuyển lên, xuống, vòng quanh và đi qua",
+      "title": "Di chuyển lên, xuống, vòng quanh và đi qua",
       "answer": "The explorers sailed around the coast.",
       "options": [
         "The explorers sailing around the coast.",
@@ -745,7 +817,7 @@
         "The explorers saileds around the coast."
       ],
       "hint": "Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục. Sau giới từ cần có đối tượng làm mốc.",
-      "why": "The explorers sailed around the coast.\nUp/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
+      "why": "Chọn “The explorers sailed around the coast.”. Up/down chỉ hướng cao thấp; around là vòng quanh; past là đi ngang qua rồi tiếp tục.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -756,7 +828,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The explorers sailed around the coast.",
+        "vi": "Các nhà thám hiểm đi thuyền quanh bờ biển."
+      }
     },
     {
       "id": "discover-3-grammar-u17-5-4-context2-life",

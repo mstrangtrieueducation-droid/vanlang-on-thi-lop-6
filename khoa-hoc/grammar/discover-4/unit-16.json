@@ -9,58 +9,58 @@
   },
   "summary": [
     {
-      "tag": "Already",
+      "tag": "Diễn tả việc đã xảy ra",
       "note": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
       "example": "We have already packed the first-aid kit.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "have / has already",
           "+",
-          "past participle"
+          "phân từ quá khứ"
         ]
       ],
       "usage": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "exampleVi": "Chúng tôi đã đóng gói bộ sơ cứu.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Just",
+      "tag": "Diễn tả việc vừa mới xảy ra",
       "note": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
       "example": "Dad has just bought bottled water.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "have / has just",
           "+",
-          "past participle"
+          "phân từ quá khứ"
         ]
       ],
       "usage": "Just đứng sau have/has và trước past participle.",
       "exampleVi": "Bố vừa mua nước đóng chai.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Yet",
+      "tag": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "note": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
       "example": "Have you checked the batteries yet?",
       "formula": [
         [
-          "Have / Has + subject + past participle + yet",
+          "Have / Has + chủ ngữ + phân từ quá khứ + yet",
           "?"
         ],
         [
-          "subject + haven't / hasn't + past participle + yet"
+          "chủ ngữ + haven't / hasn't + phân từ quá khứ + yet"
         ]
       ],
       "usage": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "exampleVi": "Bạn đã kiểm tra pin chưa?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Choosing the adverb",
+      "tag": "Chọn trạng từ phù hợp",
       "note": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
       "example": "We haven't opened the canned food yet.",
       "formula": [
@@ -82,7 +82,7 @@
       ],
       "usage": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "exampleVi": "Chúng tôi vẫn chưa mở đồ hộp.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -98,8 +98,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Already",
-      "title": "Already",
+      "focus": "Diễn tả việc đã xảy ra",
+      "title": "Diễn tả việc đã xảy ra",
       "answer": "packed",
       "options": [
         "packed",
@@ -108,7 +108,7 @@
         "packing"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "why": "Chọn “packed”. Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -117,7 +117,11 @@
       "spokenScene": "",
       "scene": "A storm warning says a tornado may reach the area. A pupil cannot yet see it from the window.\nWe have already ___ the first-aid kit.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We have already packed the first-aid kit.",
+        "vi": "Chúng tôi đã đóng gói bộ sơ cứu."
+      }
     },
     {
       "id": "discover-4-grammar-u16-1-2-context2",
@@ -131,8 +135,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Just",
-      "title": "Just",
+      "focus": "Diễn tả việc vừa mới xảy ra",
+      "title": "Diễn tả việc vừa mới xảy ra",
       "answer": "bought",
       "options": [
         "buy",
@@ -141,7 +145,7 @@
         "bought"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
+      "why": "Chọn “bought”. Just đứng sau have/has và trước past participle.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -150,7 +154,11 @@
       "spokenScene": "",
       "scene": "A storm warning says a tornado may reach the area. A pupil cannot yet see it from the window.\nDad has just ___ bottled water.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Dad has just bought bottled water.",
+        "vi": "Bố vừa mua nước đóng chai."
+      }
     },
     {
       "id": "discover-4-grammar-u16-1-3-context2",
@@ -164,8 +172,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Yet",
-      "title": "Yet",
+      "focus": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
+      "title": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "answer": "checked",
       "options": [
         "checks",
@@ -174,7 +182,7 @@
         "check"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "why": "Chọn “checked”. Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -183,7 +191,11 @@
       "spokenScene": "",
       "scene": "A storm warning says a tornado may reach the area. A pupil cannot yet see it from the window.\nHave you ___ the batteries yet?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Have you checked the batteries yet?",
+        "vi": "Bạn đã kiểm tra pin chưa?"
+      }
     },
     {
       "id": "discover-4-grammar-u16-1-4-context2",
@@ -197,8 +209,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the adverb",
-      "title": "Choosing the adverb",
+      "focus": "Chọn trạng từ phù hợp",
+      "title": "Chọn trạng từ phù hợp",
       "answer": "opened",
       "options": [
         "opening",
@@ -207,7 +219,7 @@
         "opens"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
+      "why": "Chọn “opened”. Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -216,7 +228,11 @@
       "spokenScene": "",
       "scene": "A storm warning says a tornado may reach the area. A pupil cannot yet see it from the window.\nWe haven't ___ the canned food yet.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We haven't opened the canned food yet.",
+        "vi": "Chúng tôi vẫn chưa mở đồ hộp."
+      }
     },
     {
       "id": "discover-4-grammar-u16-2-1-context2",
@@ -230,8 +246,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Already",
-      "title": "Already",
+      "focus": "Diễn tả việc đã xảy ra",
+      "title": "Diễn tả việc đã xảy ra",
       "answer": "packed",
       "options": [
         "pack",
@@ -240,7 +256,7 @@
         "packed"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "why": "Chọn “packed”. Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -251,7 +267,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We have already packed the first-aid kit.",
+        "vi": "Chúng tôi đã đóng gói bộ sơ cứu."
+      }
     },
     {
       "id": "discover-4-grammar-u16-2-2-context2",
@@ -265,8 +285,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Just",
-      "title": "Just",
+      "focus": "Diễn tả việc vừa mới xảy ra",
+      "title": "Diễn tả việc vừa mới xảy ra",
       "answer": "bought",
       "options": [
         "buys",
@@ -275,7 +295,7 @@
         "buy"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
+      "why": "Chọn “bought”. Just đứng sau have/has và trước past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -286,7 +306,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Dad has just bought bottled water.",
+        "vi": "Bố vừa mua nước đóng chai."
+      }
     },
     {
       "id": "discover-4-grammar-u16-2-3-context2",
@@ -300,8 +324,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Yet",
-      "title": "Yet",
+      "focus": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
+      "title": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "answer": "checked",
       "options": [
         "checking",
@@ -310,7 +334,7 @@
         "checks"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "why": "Chọn “checked”. Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -321,7 +345,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Have you checked the batteries yet?",
+        "vi": "Bạn đã kiểm tra pin chưa?"
+      }
     },
     {
       "id": "discover-4-grammar-u16-2-4-context2",
@@ -335,8 +363,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the adverb",
-      "title": "Choosing the adverb",
+      "focus": "Chọn trạng từ phù hợp",
+      "title": "Chọn trạng từ phù hợp",
       "answer": "opened",
       "options": [
         "opened",
@@ -345,7 +373,7 @@
         "opening"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
+      "why": "Chọn “opened”. Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -356,7 +384,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We haven't opened the canned food yet.",
+        "vi": "Chúng tôi vẫn chưa mở đồ hộp."
+      }
     },
     {
       "id": "discover-4-grammar-u16-3-1-context2",
@@ -370,8 +402,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Already",
-      "title": "Already",
+      "focus": "Diễn tả việc đã xảy ra",
+      "title": "Diễn tả việc đã xảy ra",
       "answer": "packed",
       "options": [
         "packs",
@@ -380,7 +412,7 @@
         "pack"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "why": "Chọn “packed”. Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -392,7 +424,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We have already packed the first-aid kit.",
+        "vi": "Chúng tôi đã đóng gói bộ sơ cứu."
+      }
     },
     {
       "id": "discover-4-grammar-u16-3-2-context2",
@@ -406,8 +442,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Just",
-      "title": "Just",
+      "focus": "Diễn tả việc vừa mới xảy ra",
+      "title": "Diễn tả việc vừa mới xảy ra",
       "answer": "bought",
       "options": [
         "buying",
@@ -416,7 +452,7 @@
         "buys"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
+      "why": "Chọn “bought”. Just đứng sau have/has và trước past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -428,7 +464,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Dad has just bought bottled water.",
+        "vi": "Bố vừa mua nước đóng chai."
+      }
     },
     {
       "id": "discover-4-grammar-u16-3-3-context2",
@@ -442,8 +482,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Yet",
-      "title": "Yet",
+      "focus": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
+      "title": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "answer": "checked",
       "options": [
         "checked",
@@ -452,7 +492,7 @@
         "checking"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "why": "Chọn “checked”. Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -464,7 +504,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Have you checked the batteries yet?",
+        "vi": "Bạn đã kiểm tra pin chưa?"
+      }
     },
     {
       "id": "discover-4-grammar-u16-3-4-context2",
@@ -478,8 +522,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the adverb",
-      "title": "Choosing the adverb",
+      "focus": "Chọn trạng từ phù hợp",
+      "title": "Chọn trạng từ phù hợp",
       "answer": "opened",
       "options": [
         "open",
@@ -488,7 +532,7 @@
         "opened"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
+      "why": "Chọn “opened”. Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -500,7 +544,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We haven't opened the canned food yet.",
+        "vi": "Chúng tôi vẫn chưa mở đồ hộp."
+      }
     },
     {
       "id": "discover-4-grammar-u16-4-1-context2",
@@ -514,8 +562,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Already",
-      "title": "Already",
+      "focus": "Diễn tả việc đã xảy ra",
+      "title": "Diễn tả việc đã xảy ra",
       "answer": "We have already → packed the → first-aid kit.",
       "options": [
         "We have already → packed the → first-aid kit.",
@@ -524,7 +572,7 @@
         "first-aid kit. → packed the → We have already"
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "why": "Chọn “We have already → packed the → first-aid kit.”. Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -538,7 +586,11 @@
         "packed the",
         "first-aid kit.",
         "We have already"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We have already packed the first-aid kit.",
+        "vi": "Chúng tôi đã đóng gói bộ sơ cứu."
+      }
     },
     {
       "id": "discover-4-grammar-u16-4-2-context2",
@@ -552,8 +604,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Just",
-      "title": "Just",
+      "focus": "Diễn tả việc vừa mới xảy ra",
+      "title": "Diễn tả việc vừa mới xảy ra",
       "answer": "Dad has → just bought → bottled water.",
       "options": [
         "Dad has → just bought → bottled water.",
@@ -562,7 +614,7 @@
         "bottled water. → just bought → Dad has"
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
+      "why": "Chọn “Dad has → just bought → bottled water.”. Just đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -576,7 +628,11 @@
         "just bought",
         "bottled water.",
         "Dad has"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Dad has just bought bottled water.",
+        "vi": "Bố vừa mua nước đóng chai."
+      }
     },
     {
       "id": "discover-4-grammar-u16-4-3-context2",
@@ -590,8 +646,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Yet",
-      "title": "Yet",
+      "focus": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
+      "title": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "answer": "Have you → checked the → batteries yet?",
       "options": [
         "Have you → checked the → batteries yet?",
@@ -600,7 +656,7 @@
         "batteries yet? → checked the → Have you"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "why": "Chọn “Have you → checked the → batteries yet?”. Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -614,7 +670,11 @@
         "checked the",
         "batteries yet?",
         "Have you"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Have you checked the batteries yet?",
+        "vi": "Bạn đã kiểm tra pin chưa?"
+      }
     },
     {
       "id": "discover-4-grammar-u16-4-4-context2",
@@ -628,8 +688,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the adverb",
-      "title": "Choosing the adverb",
+      "focus": "Chọn trạng từ phù hợp",
+      "title": "Chọn trạng từ phù hợp",
       "answer": "We haven't opened → the canned → food yet.",
       "options": [
         "We haven't opened → the canned → food yet.",
@@ -638,7 +698,7 @@
         "food yet. → the canned → We haven't opened"
       ],
       "hint": "Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong. Vị trí của từ trong câu giúp câu tự nhiên và rõ nghĩa.",
-      "why": "We haven't opened the canned food yet.\nAlready nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
+      "why": "Chọn “We haven't opened → the canned → food yet.”. Already nhấn mạnh đã xong; just nhấn mạnh vừa xong; yet hỏi hoặc nói chưa xong.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -652,7 +712,11 @@
         "the canned",
         "food yet.",
         "We haven't opened"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We haven't opened the canned food yet.",
+        "vi": "Chúng tôi vẫn chưa mở đồ hộp."
+      }
     },
     {
       "id": "discover-4-grammar-u16-5-1-context2",
@@ -666,8 +730,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Already",
-      "title": "Already",
+      "focus": "Diễn tả việc đã xảy ra",
+      "title": "Diễn tả việc đã xảy ra",
       "answer": "We have already packed the first-aid kit.",
       "options": [
         "We have already packed the first-aid kit.",
@@ -676,7 +740,7 @@
         "We have already packing the first-aid kit."
       ],
       "hint": "Trong câu khẳng định, already thường đứng sau have/has và trước past participle. Đôi khi nó đứng cuối câu để nhấn mạnh.",
-      "why": "We have already packed the first-aid kit.\nTrong câu khẳng định, already thường đứng sau have/has và trước past participle.",
+      "why": "Chọn “We have already packed the first-aid kit.”. Trong câu khẳng định, already thường đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -687,7 +751,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We have already packed the first-aid kit.",
+        "vi": "Chúng tôi đã đóng gói bộ sơ cứu."
+      }
     },
     {
       "id": "discover-4-grammar-u16-5-2-context2",
@@ -701,8 +769,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Just",
-      "title": "Just",
+      "focus": "Diễn tả việc vừa mới xảy ra",
+      "title": "Diễn tả việc vừa mới xảy ra",
       "answer": "Dad has just bought bottled water.",
       "options": [
         "Dad has just buy bottled water.",
@@ -711,7 +779,7 @@
         "Dad has just bought bottled water."
       ],
       "hint": "Just đứng sau have/has và trước past participle. Nó nối một hành động rất gần trong quá khứ với tình huống hiện tại.",
-      "why": "Dad has just bought bottled water.\nJust đứng sau have/has và trước past participle.",
+      "why": "Chọn “Dad has just bought bottled water.”. Just đứng sau have/has và trước past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -722,7 +790,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Dad has just bought bottled water.",
+        "vi": "Bố vừa mua nước đóng chai."
+      }
     },
     {
       "id": "discover-4-grammar-u16-5-3-context2",
@@ -736,8 +808,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Yet",
-      "title": "Yet",
+      "focus": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
+      "title": "Diễn tả việc chưa xảy ra hoặc hỏi đã xảy ra chưa",
       "answer": "Have you checked the batteries yet?",
       "options": [
         "Have you checks the batteries yet?",
@@ -746,7 +818,7 @@
         "Have you check the batteries yet?"
       ],
       "hint": "Trong câu hỏi, yet hỏi việc đã xảy ra chưa. Trong câu phủ định, not...yet có nghĩa là chưa xảy ra tính đến lúc này nhưng vẫn có thể xảy ra sau.",
-      "why": "Have you checked the batteries yet?\nTrong câu hỏi, yet hỏi việc đã xảy ra chưa.",
+      "why": "Chọn “Have you checked the batteries yet?”. Trong câu hỏi, yet hỏi việc đã xảy ra chưa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -757,7 +829,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Have you checked the batteries yet?",
+        "vi": "Bạn đã kiểm tra pin chưa?"
+      }
     },
     {
       "id": "discover-4-grammar-u16-5-4-context2-life",

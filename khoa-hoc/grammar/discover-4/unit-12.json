@@ -9,79 +9,79 @@
   },
   "summary": [
     {
-      "tag": "Past habit or state",
+      "tag": "Thói quen hoặc trạng thái trong quá khứ",
       "note": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "example": "People used to understand very little about the heart.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "used to",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "exampleVi": "Người ta thường hiểu rất ít về trái tim.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "One time or repeated?",
+      "tag": "Sự việc một lần hay thói quen lặp lại?",
       "note": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
       "example": "I used to check my pulse every morning.",
       "formula": [
         [
-          "past habit",
+          "thói quen quá khứ",
           "->",
           "used to"
         ],
         [
-          "one finished event",
+          "một sự việc đã hoàn thành",
           "->",
-          "simple past"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "exampleVi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative",
+      "tag": "Câu phủ định",
       "note": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
       "example": "Doctors didn't use to see capillaries clearly.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "didn't use to",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "exampleVi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
       "example": "Did people use to know how the diaphragm worked?",
       "formula": [
         [
           "Did",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
-          "use to + verb",
+          "use to + động từ",
           "?"
         ],
         [
-          "Yes, subject did. / No, subject didn't."
+          "Yes, chủ ngữ did. / No, chủ ngữ didn't."
         ]
       ],
       "usage": "Câu trả lời ngắn dùng did hoặc didn't.",
       "exampleVi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -97,8 +97,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past habit or state",
-      "title": "Past habit or state",
+      "focus": "Thói quen hoặc trạng thái trong quá khứ",
+      "title": "Thói quen hoặc trạng thái trong quá khứ",
       "answer": "used to",
       "options": [
         "used to",
@@ -107,7 +107,7 @@
         "used"
       ],
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
-      "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "why": "Chọn “used to”. Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -116,7 +116,11 @@
       "spokenScene": "",
       "scene": "A baby and an adult have different numbers of bones. A pupil says the difference means bones simply disappear.\nPeople ___ understand very little about the heart.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "People used to understand very little about the heart.",
+        "vi": "Người ta thường hiểu rất ít về trái tim."
+      }
     },
     {
       "id": "discover-4-grammar-u12-1-2-context2",
@@ -130,8 +134,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "One time or repeated?",
-      "title": "One time or repeated?",
+      "focus": "Sự việc một lần hay thói quen lặp lại?",
+      "title": "Sự việc một lần hay thói quen lặp lại?",
       "answer": "used to",
       "options": [
         "use to",
@@ -140,7 +144,7 @@
         "used to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "why": "Chọn “used to”. Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -149,7 +153,11 @@
       "spokenScene": "",
       "scene": "A baby and an adult have different numbers of bones. A pupil says the difference means bones simply disappear.\nI ___ check my pulse every morning.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I used to check my pulse every morning.",
+        "vi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng."
+      }
     },
     {
       "id": "discover-4-grammar-u12-1-3-context2",
@@ -163,8 +171,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "use to",
       "options": [
         "using to",
@@ -173,7 +181,7 @@
         "used to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "why": "Chọn “use to”. Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -182,7 +190,11 @@
       "spokenScene": "",
       "scene": "A baby and an adult have different numbers of bones. A pupil says the difference means bones simply disappear.\nDoctors didn't ___ see capillaries clearly.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Doctors didn't use to see capillaries clearly.",
+        "vi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch."
+      }
     },
     {
       "id": "discover-4-grammar-u12-1-4-context2",
@@ -196,8 +208,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "use to",
       "options": [
         "uses to",
@@ -206,7 +218,7 @@
         "using to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
+      "why": "Chọn “use to”. Câu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -215,7 +227,11 @@
       "spokenScene": "",
       "scene": "A baby and an adult have different numbers of bones. A pupil says the difference means bones simply disappear.\nDid people ___ know how the diaphragm worked?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Did people use to know how the diaphragm worked?",
+        "vi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?"
+      }
     },
     {
       "id": "discover-4-grammar-u12-2-1-context2",
@@ -229,8 +245,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past habit or state",
-      "title": "Past habit or state",
+      "focus": "Thói quen hoặc trạng thái trong quá khứ",
+      "title": "Thói quen hoặc trạng thái trong quá khứ",
       "answer": "used to",
       "options": [
         "use to",
@@ -239,7 +255,7 @@
         "used to"
       ],
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
-      "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "why": "Chọn “used to”. Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -250,7 +266,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "People used to understand very little about the heart.",
+        "vi": "Người ta thường hiểu rất ít về trái tim."
+      }
     },
     {
       "id": "discover-4-grammar-u12-2-2-context2",
@@ -264,8 +284,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "One time or repeated?",
-      "title": "One time or repeated?",
+      "focus": "Sự việc một lần hay thói quen lặp lại?",
+      "title": "Sự việc một lần hay thói quen lặp lại?",
       "answer": "used to",
       "options": [
         "using to",
@@ -274,7 +294,7 @@
         "use to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "why": "Chọn “used to”. Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -285,7 +305,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I used to check my pulse every morning.",
+        "vi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng."
+      }
     },
     {
       "id": "discover-4-grammar-u12-2-3-context2",
@@ -299,8 +323,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "use to",
       "options": [
         "uses to",
@@ -309,7 +333,7 @@
         "using to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "why": "Chọn “use to”. Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -320,7 +344,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Doctors didn't use to see capillaries clearly.",
+        "vi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch."
+      }
     },
     {
       "id": "discover-4-grammar-u12-2-4-context2",
@@ -334,8 +362,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "use to",
       "options": [
         "use to",
@@ -344,7 +372,7 @@
         "uses to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
+      "why": "Chọn “use to”. Câu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -355,7 +383,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Did people use to know how the diaphragm worked?",
+        "vi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?"
+      }
     },
     {
       "id": "discover-4-grammar-u12-3-1-context2",
@@ -369,8 +401,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past habit or state",
-      "title": "Past habit or state",
+      "focus": "Thói quen hoặc trạng thái trong quá khứ",
+      "title": "Thói quen hoặc trạng thái trong quá khứ",
       "answer": "used to",
       "options": [
         "using to",
@@ -379,7 +411,7 @@
         "use to"
       ],
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
-      "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "why": "Chọn “used to”. Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -391,7 +423,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "People used to understand very little about the heart.",
+        "vi": "Người ta thường hiểu rất ít về trái tim."
+      }
     },
     {
       "id": "discover-4-grammar-u12-3-2-context2",
@@ -405,8 +441,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "One time or repeated?",
-      "title": "One time or repeated?",
+      "focus": "Sự việc một lần hay thói quen lặp lại?",
+      "title": "Sự việc một lần hay thói quen lặp lại?",
       "answer": "used to",
       "options": [
         "used",
@@ -415,7 +451,7 @@
         "using to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "why": "Chọn “used to”. Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -427,7 +463,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I used to check my pulse every morning.",
+        "vi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng."
+      }
     },
     {
       "id": "discover-4-grammar-u12-3-3-context2",
@@ -441,8 +481,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "use to",
       "options": [
         "use to",
@@ -451,7 +491,7 @@
         "uses to"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "why": "Chọn “use to”. Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -463,7 +503,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Doctors didn't use to see capillaries clearly.",
+        "vi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch."
+      }
     },
     {
       "id": "discover-4-grammar-u12-3-4-context2",
@@ -477,8 +521,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "use to",
       "options": [
         "used to",
@@ -487,7 +531,7 @@
         "use to"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
+      "why": "Chọn “use to”. Câu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -499,7 +543,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Did people use to know how the diaphragm worked?",
+        "vi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?"
+      }
     },
     {
       "id": "discover-4-grammar-u12-4-1-context2",
@@ -513,8 +561,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past habit or state",
-      "title": "Past habit or state",
+      "focus": "Thói quen hoặc trạng thái trong quá khứ",
+      "title": "Thói quen hoặc trạng thái trong quá khứ",
       "answer": "People used to → understand very little → about the heart.",
       "options": [
         "People used to → understand very little → about the heart.",
@@ -523,7 +571,7 @@
         "about the heart. → understand very little → People used to"
       ],
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
-      "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "why": "Chọn “People used to → understand very little → about the heart.”. Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -537,7 +585,11 @@
         "understand very little",
         "about the heart.",
         "People used to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "People used to understand very little about the heart.",
+        "vi": "Người ta thường hiểu rất ít về trái tim."
+      }
     },
     {
       "id": "discover-4-grammar-u12-4-2-context2",
@@ -551,8 +603,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "One time or repeated?",
-      "title": "One time or repeated?",
+      "focus": "Sự việc một lần hay thói quen lặp lại?",
+      "title": "Sự việc một lần hay thói quen lặp lại?",
       "answer": "I used to → check my pulse → every morning.",
       "options": [
         "I used to → check my pulse → every morning.",
@@ -561,7 +613,7 @@
         "every morning. → check my pulse → I used to"
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "why": "Chọn “I used to → check my pulse → every morning.”. Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -575,7 +627,11 @@
         "check my pulse",
         "every morning.",
         "I used to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I used to check my pulse every morning.",
+        "vi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng."
+      }
     },
     {
       "id": "discover-4-grammar-u12-4-3-context2",
@@ -589,8 +645,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "Doctors didn't use → to see → capillaries clearly.",
       "options": [
         "Doctors didn't use → to see → capillaries clearly.",
@@ -599,7 +655,7 @@
         "capillaries clearly. → to see → Doctors didn't use"
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "why": "Chọn “Doctors didn't use → to see → capillaries clearly.”. Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -613,7 +669,11 @@
         "to see",
         "capillaries clearly.",
         "Doctors didn't use"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Doctors didn't use to see capillaries clearly.",
+        "vi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch."
+      }
     },
     {
       "id": "discover-4-grammar-u12-4-4-context2",
@@ -627,8 +687,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Did people use → to know how → the diaphragm worked?",
       "options": [
         "Did people use → to know how → the diaphragm worked?",
@@ -637,7 +697,7 @@
         "the diaphragm worked? → to know how → Did people use"
       ],
       "hint": "Câu trả lời ngắn dùng did hoặc didn't. Không trả lời bằng used to một mình.",
-      "why": "Did people use to know how the diaphragm worked?\nCâu trả lời ngắn dùng did hoặc didn't.",
+      "why": "Chọn “Did people use → to know how → the diaphragm worked?”. Câu trả lời ngắn dùng did hoặc didn't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -651,7 +711,11 @@
         "to know how",
         "the diaphragm worked?",
         "Did people use"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Did people use to know how the diaphragm worked?",
+        "vi": "Mọi người có từng biết cơ hoành hoạt động như thế nào không?"
+      }
     },
     {
       "id": "discover-4-grammar-u12-5-1-context2",
@@ -665,8 +729,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Past habit or state",
-      "title": "Past habit or state",
+      "focus": "Thói quen hoặc trạng thái trong quá khứ",
+      "title": "Thói quen hoặc trạng thái trong quá khứ",
       "answer": "People used to understand very little about the heart.",
       "options": [
         "People used to understand very little about the heart.",
@@ -675,7 +739,7 @@
         "People used understand very little about the heart."
       ],
       "hint": "Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
-      "why": "People used to understand very little about the heart.\nUsed to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
+      "why": "Chọn “People used to understand very little about the heart.”. Used to + động từ nguyên mẫu hướng người nghe tới sự đối lập giữa quá khứ và hiện tại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -686,7 +750,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "People used to understand very little about the heart.",
+        "vi": "Người ta thường hiểu rất ít về trái tim."
+      }
     },
     {
       "id": "discover-4-grammar-u12-5-2-context2",
@@ -700,8 +768,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "One time or repeated?",
-      "title": "One time or repeated?",
+      "focus": "Sự việc một lần hay thói quen lặp lại?",
+      "title": "Sự việc một lần hay thói quen lặp lại?",
       "answer": "I used to check my pulse every morning.",
       "options": [
         "I use to check my pulse every morning.",
@@ -710,7 +778,7 @@
         "I used to check my pulse every morning."
       ],
       "hint": "Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất. Often, every day hoặc when I was young có thể gợi ý thói quen trước đây.",
-      "why": "I used to check my pulse every morning.\nYesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
+      "why": "Chọn “I used to check my pulse every morning.”. Yesterday, last week và in 2020 thường chỉ một thời điểm hoàn tất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +789,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "I used to check my pulse every morning.",
+        "vi": "Tôi thường kiểm tra mạch của mình vào mỗi buổi sáng."
+      }
     },
     {
       "id": "discover-4-grammar-u12-5-3-context2",
@@ -735,8 +807,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "Doctors didn't use to see capillaries clearly.",
       "options": [
         "Doctors didn't using to see capillaries clearly.",
@@ -745,7 +817,7 @@
         "Doctors didn't used to see capillaries clearly."
       ],
       "hint": "Did đã mang dấu hiệu quá khứ nên use không thêm -d. Dạng used not to có tồn tại nhưng ít dùng hơn trong tiếng Anh hiện đại.",
-      "why": "Doctors didn't use to see capillaries clearly.\nDid đã mang dấu hiệu quá khứ nên use không thêm -d.",
+      "why": "Chọn “Doctors didn't use to see capillaries clearly.”. Did đã mang dấu hiệu quá khứ nên use không thêm -d.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -756,7 +828,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Doctors didn't use to see capillaries clearly.",
+        "vi": "Các bác sĩ đã không sử dụng để nhìn rõ các mao mạch."
+      }
     },
     {
       "id": "discover-4-grammar-u12-5-4-context2-life",

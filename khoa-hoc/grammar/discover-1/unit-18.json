@@ -23,7 +23,7 @@
       ],
       "usage": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "exampleVi": "Bạn nên chạy đi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Lời khuyên · Shouldn't",
@@ -40,7 +40,7 @@
       ],
       "usage": "Shouldn't là dạng nói gọn của should not.",
       "exampleVi": "Anh ta không nên nói chuyện với con cáo.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Động từ · Dạng nguyên thể",
@@ -64,7 +64,7 @@
       ],
       "usage": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "exampleVi": "Cô nên đóng cửa lại.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Câu hỏi · Should",
@@ -82,7 +82,7 @@
       ],
       "usage": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
       "exampleVi": "Có nên qua sông không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Trả lời ngắn · Yes",
@@ -102,7 +102,7 @@
       ],
       "usage": "Sau Yes, dùng đại từ phù hợp rồi dùng should.",
       "exampleVi": "Có, bạn nên làm vậy.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Trả lời ngắn · No",
@@ -122,7 +122,7 @@
       ],
       "usage": "Sau No, dùng đại từ phù hợp rồi dùng shouldn't.",
       "exampleVi": "Không, bạn không nên.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Ý nghĩa · Lời khuyên",
@@ -142,7 +142,7 @@
       ],
       "usage": "Con cần hiểu tình huống trước khi chọn.",
       "exampleVi": "Bạn không nên ăn đồ ăn vặt.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Phát âm · Should",
@@ -161,7 +161,7 @@
       ],
       "usage": "Trong câu nói tự nhiên, should thường được đọc nhẹ /ʃəd/.",
       "exampleVi": "Bạn không nên ở lại.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -187,7 +187,7 @@
         "ran"
       ],
       "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
-      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
+      "why": "Chọn “run”. Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -196,7 +196,11 @@
       "spokenScene": "",
       "scene": "Ben sees a snake beside the park path. His teacher has said to leave wild animals alone.\nYou should ___ away.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "You should run away.",
+        "vi": "Bạn nên chạy đi."
+      }
     },
     {
       "id": "discover-1-grammar-u18-1-2-context2",
@@ -220,7 +224,7 @@
         "talk"
       ],
       "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
-      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not.",
+      "why": "Chọn “talk”. Shouldn't là dạng nói gọn của should not.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -229,7 +233,11 @@
       "spokenScene": "",
       "scene": "Ben sees a snake beside the park path. His teacher has said to leave wild animals alone.\nHe shouldn't ___ to the fox.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He shouldn't talk to the fox.",
+        "vi": "Anh ta không nên nói chuyện với con cáo."
+      }
     },
     {
       "id": "discover-1-grammar-u18-1-3-context2",
@@ -253,7 +261,7 @@
         "closes"
       ],
       "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
-      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
+      "why": "Chọn “close”. Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -262,7 +270,11 @@
       "spokenScene": "",
       "scene": "Ben sees a snake beside the park path. His teacher has said to leave wild animals alone.\nShe should ___ the door.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She should close the door.",
+        "vi": "Cô nên đóng cửa lại."
+      }
     },
     {
       "id": "discover-1-grammar-u18-1-4-context2",
@@ -286,7 +298,7 @@
         "crossing"
       ],
       "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
-      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
+      "why": "Chọn “cross”. Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -295,7 +307,11 @@
       "spokenScene": "",
       "scene": "Ben sees a snake beside the park path. His teacher has said to leave wild animals alone.\nShould I ___ the river?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Should I cross the river?",
+        "vi": "Có nên qua sông không?"
+      }
     },
     {
       "id": "discover-1-grammar-u18-2-1-context2",
@@ -319,7 +335,7 @@
         "run"
       ],
       "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
-      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
+      "why": "Chọn “run”. Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -330,7 +346,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "You should run away.",
+        "vi": "Bạn nên chạy đi."
+      }
     },
     {
       "id": "discover-1-grammar-u18-2-2-context2",
@@ -354,7 +374,7 @@
         "talks"
       ],
       "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
-      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not.",
+      "why": "Chọn “talk”. Shouldn't là dạng nói gọn của should not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -365,7 +385,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He shouldn't talk to the fox.",
+        "vi": "Anh ta không nên nói chuyện với con cáo."
+      }
     },
     {
       "id": "discover-1-grammar-u18-2-3-context2",
@@ -389,7 +413,7 @@
         "closing"
       ],
       "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
-      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
+      "why": "Chọn “close”. Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -400,7 +424,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She should close the door.",
+        "vi": "Cô nên đóng cửa lại."
+      }
     },
     {
       "id": "discover-1-grammar-u18-2-4-context2",
@@ -424,7 +452,7 @@
         "crossed"
       ],
       "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
-      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
+      "why": "Chọn “cross”. Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -435,7 +463,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Should I cross the river?",
+        "vi": "Có nên qua sông không?"
+      }
     },
     {
       "id": "discover-1-grammar-u18-3-1-context2",
@@ -459,7 +491,7 @@
         "runs"
       ],
       "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
-      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
+      "why": "Chọn “run”. Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -471,7 +503,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "You should run away.",
+        "vi": "Bạn nên chạy đi."
+      }
     },
     {
       "id": "discover-1-grammar-u18-3-2-context2",
@@ -495,7 +531,7 @@
         "talking"
       ],
       "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
-      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not.",
+      "why": "Chọn “talk”. Shouldn't là dạng nói gọn của should not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -507,7 +543,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He shouldn't talk to the fox.",
+        "vi": "Anh ta không nên nói chuyện với con cáo."
+      }
     },
     {
       "id": "discover-1-grammar-u18-3-3-context2",
@@ -531,7 +571,7 @@
         "closed"
       ],
       "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
-      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
+      "why": "Chọn “close”. Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -543,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She should close the door.",
+        "vi": "Cô nên đóng cửa lại."
+      }
     },
     {
       "id": "discover-1-grammar-u18-3-4-context2",
@@ -567,7 +611,7 @@
         "cross"
       ],
       "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
-      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
+      "why": "Chọn “cross”. Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -579,7 +623,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Should I cross the river?",
+        "vi": "Có nên qua sông không?"
+      }
     },
     {
       "id": "discover-1-grammar-u18-4-1-context2",
@@ -603,7 +651,7 @@
         "away. → run → You should"
       ],
       "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
-      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
+      "why": "Chọn “You should → run → away.”. Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -617,7 +665,11 @@
         "run",
         "away.",
         "You should"
-      ]
+      ],
+      "explanationExample": {
+        "en": "You should run away.",
+        "vi": "Bạn nên chạy đi."
+      }
     },
     {
       "id": "discover-1-grammar-u18-4-2-context2",
@@ -641,7 +693,7 @@
         "the fox. → talk to → He shouldn't"
       ],
       "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
-      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not.",
+      "why": "Chọn “He shouldn't → talk to → the fox.”. Shouldn't là dạng nói gọn của should not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -655,7 +707,11 @@
         "talk to",
         "the fox.",
         "He shouldn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He shouldn't talk to the fox.",
+        "vi": "Anh ta không nên nói chuyện với con cáo."
+      }
     },
     {
       "id": "discover-1-grammar-u18-4-3-context2",
@@ -679,7 +735,7 @@
         "door. → close the → She should"
       ],
       "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
-      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
+      "why": "Chọn “She should → close the → door.”. Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -693,7 +749,11 @@
         "close the",
         "door.",
         "She should"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She should close the door.",
+        "vi": "Cô nên đóng cửa lại."
+      }
     },
     {
       "id": "discover-1-grammar-u18-4-4-context2",
@@ -717,7 +777,7 @@
         "river? → cross the → Should I"
       ],
       "hint": "Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể. Không dùng Do hoặc Does trước should.",
-      "why": "Should I cross the river?\nCâu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
+      "why": "Chọn “Should I → cross the → river?”. Câu hỏi bắt đầu bằng Should, tiếp theo là chủ ngữ và động từ nguyên thể.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -731,7 +791,11 @@
         "cross the",
         "river?",
         "Should I"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Should I cross the river?",
+        "vi": "Có nên qua sông không?"
+      }
     },
     {
       "id": "discover-1-grammar-u18-5-1-context2",
@@ -755,7 +819,7 @@
         "You should ran away."
       ],
       "hint": "Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn. Nó đứng sau chủ ngữ và trước động từ chính.",
-      "why": "You should run away.\nShould đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
+      "why": "Chọn “You should run away.”. Should đưa ra lời khuyên về hành động tốt, phù hợp hoặc an toàn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -766,7 +830,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "You should run away.",
+        "vi": "Bạn nên chạy đi."
+      }
     },
     {
       "id": "discover-1-grammar-u18-5-2-context2",
@@ -790,7 +858,7 @@
         "He shouldn't talk to the fox."
       ],
       "hint": "Shouldn't là dạng nói gọn của should not. Sau shouldn't vẫn dùng động từ nguyên thể; không thêm don't hoặc doesn't.",
-      "why": "He shouldn't talk to the fox.\nShouldn't là dạng nói gọn của should not.",
+      "why": "Chọn “He shouldn't talk to the fox.”. Shouldn't là dạng nói gọn của should not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -801,7 +869,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "He shouldn't talk to the fox.",
+        "vi": "Anh ta không nên nói chuyện với con cáo."
+      }
     },
     {
       "id": "discover-1-grammar-u18-5-3-context2",
@@ -825,7 +897,7 @@
         "She should closes the door."
       ],
       "hint": "Should và động từ chính giữ nguyên với I, you, he, she, it, we và they. Nói She should close the door, không nói She should closes hoặc She should to close.",
-      "why": "She should close the door.\nShould và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
+      "why": "Chọn “She should close the door.”. Should và động từ chính giữ nguyên với I, you, he, she, it, we và they.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -836,7 +908,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "She should close the door.",
+        "vi": "Cô nên đóng cửa lại."
+      }
     },
     {
       "id": "discover-1-grammar-u18-5-4-context2-life",

@@ -24,7 +24,7 @@
       ],
       "usage": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "exampleVi": "Tôi có thể sử dụng máy tính được không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "May I ...? · Lịch sự hơn",
@@ -40,9 +40,9 @@
           "?"
         ]
       ],
-      "usage": "May I...?",
+      "usage": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "exampleVi": "Tôi có thể chụp ảnh được không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Câu trả lời",
@@ -58,7 +58,7 @@
       ],
       "usage": "Có thể trả lời Yes, you can/may.",
       "exampleVi": "Tôi có thể vào được không? Không, bạn có thể không.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Động từ nguyên mẫu",
@@ -73,7 +73,7 @@
       ],
       "usage": "Modal verbs can và may đi với động từ nguyên mẫu.",
       "exampleVi": "Chúng ta có thể chia sẻ máy tính bảng được không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -99,7 +99,7 @@
         "used"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "why": "Chọn “use”. Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -108,7 +108,11 @@
       "spokenScene": "",
       "scene": "Leo wants to take a close-up photo of a classmate for a project.\nCan I ___ the computer?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Can I use the computer?",
+        "vi": "Tôi có thể sử dụng máy tính được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-1-2-context2",
@@ -132,7 +136,7 @@
         "take"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...?",
+      "why": "Chọn “take”. May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -141,7 +145,11 @@
       "spokenScene": "",
       "scene": "Leo wants to take a close-up photo of a classmate for a project.\nMay I ___ a photo?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "May I take a photo?",
+        "vi": "Tôi có thể chụp ảnh được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-1-3-context2",
@@ -165,7 +173,7 @@
         "comes"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
+      "why": "Chọn “come”. Có thể trả lời Yes, you can/may.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -174,7 +182,11 @@
       "spokenScene": "",
       "scene": "Leo wants to take a close-up photo of a classmate for a project.\nMay I ___ in? No, you may not.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "May I come in? No, you may not.",
+        "vi": "Tôi có thể vào được không? Không, bạn có thể không."
+      }
     },
     {
       "id": "discover-2-grammar-u10-1-4-context2",
@@ -198,7 +210,7 @@
         "sharing"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
+      "why": "Chọn “share”. Modal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -207,7 +219,11 @@
       "spokenScene": "",
       "scene": "Leo wants to take a close-up photo of a classmate for a project.\nCan we ___ the tablet?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Can we share the tablet?",
+        "vi": "Chúng ta có thể chia sẻ máy tính bảng được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-2-1-context2",
@@ -231,7 +247,7 @@
         "use"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "why": "Chọn “use”. Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -242,7 +258,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Can I use the computer?",
+        "vi": "Tôi có thể sử dụng máy tính được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-2-2-context2",
@@ -266,7 +286,7 @@
         "takes"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...?",
+      "why": "Chọn “take”. May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -277,7 +297,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "May I take a photo?",
+        "vi": "Tôi có thể chụp ảnh được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-2-3-context2",
@@ -301,7 +325,7 @@
         "coming"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
+      "why": "Chọn “come”. Có thể trả lời Yes, you can/may.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -312,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "May I come in? No, you may not.",
+        "vi": "Tôi có thể vào được không? Không, bạn có thể không."
+      }
     },
     {
       "id": "discover-2-grammar-u10-2-4-context2",
@@ -336,7 +364,7 @@
         "shared"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
+      "why": "Chọn “share”. Modal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +375,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Can we share the tablet?",
+        "vi": "Chúng ta có thể chia sẻ máy tính bảng được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-3-1-context2",
@@ -371,7 +403,7 @@
         "uses"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "why": "Chọn “use”. Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +415,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Can I use the computer?",
+        "vi": "Tôi có thể sử dụng máy tính được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-3-2-context2",
@@ -407,7 +443,7 @@
         "taking"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...?",
+      "why": "Chọn “take”. May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -419,7 +455,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "May I take a photo?",
+        "vi": "Tôi có thể chụp ảnh được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-3-3-context2",
@@ -443,7 +483,7 @@
         "came"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
+      "why": "Chọn “come”. Có thể trả lời Yes, you can/may.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -455,7 +495,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "May I come in? No, you may not.",
+        "vi": "Tôi có thể vào được không? Không, bạn có thể không."
+      }
     },
     {
       "id": "discover-2-grammar-u10-3-4-context2",
@@ -479,7 +523,7 @@
         "share"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
+      "why": "Chọn “share”. Modal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -491,7 +535,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Can we share the tablet?",
+        "vi": "Chúng ta có thể chia sẻ máy tính bảng được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-4-1-context2",
@@ -515,7 +563,7 @@
         "computer? → use the → Can I"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "why": "Chọn “Can I → use the → computer?”. Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -529,7 +577,11 @@
         "use the",
         "computer?",
         "Can I"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Can I use the computer?",
+        "vi": "Tôi có thể sử dụng máy tính được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-4-2-context2",
@@ -553,7 +605,7 @@
         "photo? → take a → May I"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...?",
+      "why": "Chọn “May I → take a → photo?”. May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -567,7 +619,11 @@
         "take a",
         "photo?",
         "May I"
-      ]
+      ],
+      "explanationExample": {
+        "en": "May I take a photo?",
+        "vi": "Tôi có thể chụp ảnh được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-4-3-context2",
@@ -591,7 +647,7 @@
         "may not. → in? No, you → May I come"
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
+      "why": "Chọn “May I come → in? No, you → may not.”. Có thể trả lời Yes, you can/may.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -605,7 +661,11 @@
         "in? No, you",
         "may not.",
         "May I come"
-      ]
+      ],
+      "explanationExample": {
+        "en": "May I come in? No, you may not.",
+        "vi": "Tôi có thể vào được không? Không, bạn có thể không."
+      }
     },
     {
       "id": "discover-2-grammar-u10-4-4-context2",
@@ -629,7 +689,7 @@
         "tablet? → share the → Can we"
       ],
       "hint": "Modal verbs can và may đi với động từ nguyên mẫu. Nói can share, may use; không nói can to share hoặc may uses.",
-      "why": "Can we share the tablet?\nModal verbs can và may đi với động từ nguyên mẫu.",
+      "why": "Chọn “Can we → share the → tablet?”. Modal verbs can và may đi với động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -643,7 +703,11 @@
         "share the",
         "tablet?",
         "Can we"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Can we share the tablet?",
+        "vi": "Chúng ta có thể chia sẻ máy tính bảng được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-5-1-context2",
@@ -667,7 +731,7 @@
         "Can I used the computer?"
       ],
       "hint": "Sau can là chủ ngữ rồi động từ nguyên mẫu không có to. Can I...? phù hợp khi nói với bạn bè hoặc người thân.",
-      "why": "Can I use the computer?\nSau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
+      "why": "Chọn “Can I use the computer?”. Sau can là chủ ngữ rồi động từ nguyên mẫu không có to.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -678,7 +742,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Can I use the computer?",
+        "vi": "Tôi có thể sử dụng máy tính được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-5-2-context2",
@@ -702,7 +770,7 @@
         "May I take a photo?"
       ],
       "hint": "May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
-      "why": "May I take a photo?\nMay I...?",
+      "why": "Chọn “May I take a photo?”. May I...? có nghĩa gần với Can I...? nhưng lịch sự hơn. Sau may vẫn là động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -713,7 +781,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "May I take a photo?",
+        "vi": "Tôi có thể chụp ảnh được không?"
+      }
     },
     {
       "id": "discover-2-grammar-u10-5-3-context2",
@@ -737,7 +809,7 @@
         "May I comes in? No, you may not."
       ],
       "hint": "Có thể trả lời Yes, you can/may. Với lời từ chối, dùng No, you can't hoặc No, you may not. Mayn't ít dùng trong tiếng Anh Mỹ.",
-      "why": "May I come in? No, you may not.\nCó thể trả lời Yes, you can/may.",
+      "why": "Chọn “May I come in? No, you may not.”. Có thể trả lời Yes, you can/may.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -748,7 +820,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "May I come in? No, you may not.",
+        "vi": "Tôi có thể vào được không? Không, bạn có thể không."
+      }
     },
     {
       "id": "discover-2-grammar-u10-5-4-context2-life",

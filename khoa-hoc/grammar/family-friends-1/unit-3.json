@@ -23,15 +23,15 @@
       "example": "These are my arms.",
       "usage": "This is dùng với một; these are dùng với nhiều.",
       "exampleVi": "Đây là hai cánh tay của tôi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "Use “This is” with one thing and “These are” with more than one. Check the plural ending.",
+      "tag": "Điểm cần nhớ",
+      "note": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "example": "These are my eyes.",
-      "usage": "Use “This is” with one thing and “These are” with more than one.",
+      "usage": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "exampleVi": "Đây là đôi mắt của tôi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "do"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my arms.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "Mia has paint on her hands. Lunch is ready.\nThese ___ my arms.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-1-2-context2",
@@ -92,7 +96,7 @@
         "is"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my nose.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "Mia has paint on her hands. Lunch is ready.\nThis ___ my nose.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-1-3-context2",
@@ -126,7 +134,7 @@
         "ear"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "I have two ears.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "Mia has paint on her hands. Lunch is ready.\nI have two ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I have two ears.",
+        "vi": "Tôi có hai tai."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-1-4-context2",
@@ -160,7 +172,7 @@
         "nose"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my eyes.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "Mia has paint on her hands. Lunch is ready.\nThese are my ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "These are my eyes.",
+        "vi": "Đây là đôi mắt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-1-5-context2",
@@ -194,7 +210,7 @@
         "ears"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my face.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "Mia has paint on her hands. Lunch is ready.\nThis is my ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This is my face.",
+        "vi": "Đây là khuôn mặt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-2-1-context2",
@@ -228,7 +248,7 @@
         "are"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my arms.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-2-2-context2",
@@ -264,7 +288,7 @@
         "are"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my nose.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-2-3-context2",
@@ -300,7 +328,7 @@
         "nose"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "I have two ears.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I have two ears.",
+        "vi": "Tôi có hai tai."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-2-4-context2",
@@ -336,7 +368,7 @@
         "face"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my eyes.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "These are my eyes.",
+        "vi": "Đây là đôi mắt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-2-5-context2",
@@ -372,7 +408,7 @@
         "face"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my face.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "This is my face.",
+        "vi": "Đây là khuôn mặt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-3-1-context2",
@@ -408,7 +448,7 @@
         "is"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my arms.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-3-2-context2",
@@ -445,7 +489,7 @@
         "am"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my nose.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-3-3-context2",
@@ -482,7 +530,7 @@
         "face"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "I have two ears.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I have two ears.",
+        "vi": "Tôi có hai tai."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-3-4-context2",
@@ -519,7 +571,7 @@
         "eyes"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my eyes.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "These are my eyes.",
+        "vi": "Đây là đôi mắt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-3-5-context2",
@@ -556,7 +612,7 @@
         "arms"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my face.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "This is my face.",
+        "vi": "Đây là khuôn mặt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-4-1-context2",
@@ -593,7 +653,7 @@
         "arms. → my → These are"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my arms.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “These are → my → arms.”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "my",
         "arms.",
         "These are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-4-2-context2",
@@ -632,7 +696,7 @@
         "nose. → my → This is"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "This is my nose.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “This is → my → nose.”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "my",
         "nose.",
         "This is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-4-3-context2",
@@ -671,7 +739,7 @@
         "ears. → two → I have"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "I have two ears.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “I have → two → ears.”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "two",
         "ears.",
         "I have"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I have two ears.",
+        "vi": "Tôi có hai tai."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-4-4-context2",
@@ -710,7 +782,7 @@
         "eyes. → my → These are"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "These are my eyes.\nThis is dùng với một; these are dùng với nhiều.",
+      "why": "Chọn “These are → my → eyes.”. This is dùng với một; these are dùng với nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "my",
         "eyes.",
         "These are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "These are my eyes.",
+        "vi": "Đây là đôi mắt của tôi."
+      }
     },
     {
       "id": "family-friends-1-grammar-u3-4-5-context2-life",

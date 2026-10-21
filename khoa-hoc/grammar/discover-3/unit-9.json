@@ -9,41 +9,41 @@
   },
   "summary": [
     {
-      "tag": "Possibility",
+      "tag": "Diễn tả khả năng xảy ra",
       "note": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
       "example": "A wind turbine might produce electricity today.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "may / might",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "exampleVi": "Tua bin gió có thể sản xuất điện ngày nay.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative",
+      "tag": "Câu phủ định",
       "note": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
       "example": "The wind farm may not produce much electricity today.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "may not / might not",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Đặt not ngay sau may/might.",
       "exampleVi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Degree of certainty",
+      "tag": "Mức độ chắc chắn",
       "note": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
       "example": "The power plant might use natural gas.",
       "formula": [
@@ -60,25 +60,25 @@
       ],
       "usage": "Trong nhiều tình huống, hai từ có thể thay nhau.",
       "exampleVi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Questions about possibility",
+      "tag": "Hỏi về khả năng xảy ra",
       "note": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
       "example": "Do you think pollution might increase?",
       "formula": [
         [
           "Do you think",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
-          "may / might + verb",
+          "may / might + động từ",
           "?"
         ]
       ],
       "usage": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "exampleVi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -94,8 +94,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possibility",
-      "title": "Possibility",
+      "focus": "Diễn tả khả năng xảy ra",
+      "title": "Diễn tả khả năng xảy ra",
       "answer": "produce",
       "options": [
         "produce",
@@ -104,7 +104,7 @@
         "produced"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "why": "Chọn “produce”. May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -113,7 +113,11 @@
       "spokenScene": "",
       "scene": "Two power stations supply the same amount of electricity. One uses more fuel. No information about prices is available.\nA wind turbine might ___ electricity today.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A wind turbine might produce electricity today.",
+        "vi": "Tua bin gió có thể sản xuất điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-1-2-context2",
@@ -127,8 +131,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "produce",
       "options": [
         "produces",
@@ -137,7 +141,7 @@
         "produce"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
+      "why": "Chọn “produce”. Đặt not ngay sau may/might.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -146,7 +150,11 @@
       "spokenScene": "",
       "scene": "Two power stations supply the same amount of electricity. One uses more fuel. No information about prices is available.\nThe wind farm may not ___ much electricity today.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The wind farm may not produce much electricity today.",
+        "vi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-1-3-context2",
@@ -160,8 +168,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Degree of certainty",
-      "title": "Degree of certainty",
+      "focus": "Mức độ chắc chắn",
+      "title": "Mức độ chắc chắn",
       "answer": "use",
       "options": [
         "using",
@@ -170,7 +178,7 @@
         "uses"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
+      "why": "Chọn “use”. Trong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -179,7 +187,11 @@
       "spokenScene": "",
       "scene": "Two power stations supply the same amount of electricity. One uses more fuel. No information about prices is available.\nThe power plant might ___ natural gas.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The power plant might use natural gas.",
+        "vi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên."
+      }
     },
     {
       "id": "discover-3-grammar-u9-1-4-context2",
@@ -193,8 +205,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions about possibility",
-      "title": "Questions about possibility",
+      "focus": "Hỏi về khả năng xảy ra",
+      "title": "Hỏi về khả năng xảy ra",
       "answer": "increase",
       "options": [
         "increased",
@@ -203,7 +215,7 @@
         "increasing"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
+      "why": "Chọn “increase”. May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -212,7 +224,11 @@
       "spokenScene": "",
       "scene": "Two power stations supply the same amount of electricity. One uses more fuel. No information about prices is available.\nDo you think pollution might ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Do you think pollution might increase?",
+        "vi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?"
+      }
     },
     {
       "id": "discover-3-grammar-u9-2-1-context2",
@@ -226,8 +242,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possibility",
-      "title": "Possibility",
+      "focus": "Diễn tả khả năng xảy ra",
+      "title": "Diễn tả khả năng xảy ra",
       "answer": "produce",
       "options": [
         "produces",
@@ -236,7 +252,7 @@
         "produce"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "why": "Chọn “produce”. May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -247,7 +263,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A wind turbine might produce electricity today.",
+        "vi": "Tua bin gió có thể sản xuất điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-2-2-context2",
@@ -261,8 +281,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "produce",
       "options": [
         "producing",
@@ -271,7 +291,7 @@
         "produces"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
+      "why": "Chọn “produce”. Đặt not ngay sau may/might.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -282,7 +302,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The wind farm may not produce much electricity today.",
+        "vi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-2-3-context2",
@@ -296,8 +320,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Degree of certainty",
-      "title": "Degree of certainty",
+      "focus": "Mức độ chắc chắn",
+      "title": "Mức độ chắc chắn",
       "answer": "use",
       "options": [
         "used",
@@ -306,7 +330,7 @@
         "using"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
+      "why": "Chọn “use”. Trong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -317,7 +341,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The power plant might use natural gas.",
+        "vi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên."
+      }
     },
     {
       "id": "discover-3-grammar-u9-2-4-context2",
@@ -331,8 +359,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions about possibility",
-      "title": "Questions about possibility",
+      "focus": "Hỏi về khả năng xảy ra",
+      "title": "Hỏi về khả năng xảy ra",
       "answer": "increase",
       "options": [
         "increase",
@@ -341,7 +369,7 @@
         "increased"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
+      "why": "Chọn “increase”. May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -352,7 +380,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Do you think pollution might increase?",
+        "vi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?"
+      }
     },
     {
       "id": "discover-3-grammar-u9-3-1-context2",
@@ -366,8 +398,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possibility",
-      "title": "Possibility",
+      "focus": "Diễn tả khả năng xảy ra",
+      "title": "Diễn tả khả năng xảy ra",
       "answer": "produce",
       "options": [
         "producing",
@@ -376,7 +408,7 @@
         "produces"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "why": "Chọn “produce”. May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -388,7 +420,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A wind turbine might produce electricity today.",
+        "vi": "Tua bin gió có thể sản xuất điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-3-2-context2",
@@ -402,8 +438,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "produce",
       "options": [
         "produced",
@@ -412,7 +448,7 @@
         "producing"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
+      "why": "Chọn “produce”. Đặt not ngay sau may/might.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -424,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The wind farm may not produce much electricity today.",
+        "vi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-3-3-context2",
@@ -438,8 +478,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Degree of certainty",
-      "title": "Degree of certainty",
+      "focus": "Mức độ chắc chắn",
+      "title": "Mức độ chắc chắn",
       "answer": "use",
       "options": [
         "use",
@@ -448,7 +488,7 @@
         "used"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
+      "why": "Chọn “use”. Trong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -460,7 +500,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The power plant might use natural gas.",
+        "vi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên."
+      }
     },
     {
       "id": "discover-3-grammar-u9-3-4-context2",
@@ -474,8 +518,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions about possibility",
-      "title": "Questions about possibility",
+      "focus": "Hỏi về khả năng xảy ra",
+      "title": "Hỏi về khả năng xảy ra",
       "answer": "increase",
       "options": [
         "increases",
@@ -484,7 +528,7 @@
         "increase"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
+      "why": "Chọn “increase”. May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -496,7 +540,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Do you think pollution might increase?",
+        "vi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?"
+      }
     },
     {
       "id": "discover-3-grammar-u9-4-1-context2",
@@ -510,8 +558,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possibility",
-      "title": "Possibility",
+      "focus": "Diễn tả khả năng xảy ra",
+      "title": "Diễn tả khả năng xảy ra",
       "answer": "A wind turbine → might produce → electricity today.",
       "options": [
         "A wind turbine → might produce → electricity today.",
@@ -520,7 +568,7 @@
         "electricity today. → might produce → A wind turbine"
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "why": "Chọn “A wind turbine → might produce → electricity today.”. May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -534,7 +582,11 @@
         "might produce",
         "electricity today.",
         "A wind turbine"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A wind turbine might produce electricity today.",
+        "vi": "Tua bin gió có thể sản xuất điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-4-2-context2",
@@ -548,8 +600,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The wind farm → may not produce → much electricity today.",
       "options": [
         "The wind farm → may not produce → much electricity today.",
@@ -558,7 +610,7 @@
         "much electricity today. → may not produce → The wind farm"
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
+      "why": "Chọn “The wind farm → may not produce → much electricity today.”. Đặt not ngay sau may/might.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -572,7 +624,11 @@
         "may not produce",
         "much electricity today.",
         "The wind farm"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The wind farm may not produce much electricity today.",
+        "vi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-4-3-context2",
@@ -586,8 +642,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Degree of certainty",
-      "title": "Degree of certainty",
+      "focus": "Mức độ chắc chắn",
+      "title": "Mức độ chắc chắn",
       "answer": "The power plant → might use → natural gas.",
       "options": [
         "The power plant → might use → natural gas.",
@@ -596,7 +652,7 @@
         "natural gas. → might use → The power plant"
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
+      "why": "Chọn “The power plant → might use → natural gas.”. Trong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -610,7 +666,11 @@
         "might use",
         "natural gas.",
         "The power plant"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The power plant might use natural gas.",
+        "vi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên."
+      }
     },
     {
       "id": "discover-3-grammar-u9-4-4-context2",
@@ -624,8 +684,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions about possibility",
-      "title": "Questions about possibility",
+      "focus": "Hỏi về khả năng xảy ra",
+      "title": "Hỏi về khả năng xảy ra",
       "answer": "Do you → think pollution → might increase?",
       "options": [
         "Do you → think pollution → might increase?",
@@ -634,7 +694,7 @@
         "might increase? → think pollution → Do you"
       ],
       "hint": "May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại. Với câu hỏi tự nhiên, có thể dùng Do you think... may/might...?",
-      "why": "Do you think pollution might increase?\nMay ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
+      "why": "Chọn “Do you → think pollution → might increase?”. May ít dùng trong câu hỏi Yes/No về khả năng trong tiếng Anh hiện đại.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -648,7 +708,11 @@
         "think pollution",
         "might increase?",
         "Do you"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Do you think pollution might increase?",
+        "vi": "Bạn có nghĩ rằng ô nhiễm có thể tăng lên?"
+      }
     },
     {
       "id": "discover-3-grammar-u9-5-1-context2",
@@ -662,8 +726,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possibility",
-      "title": "Possibility",
+      "focus": "Diễn tả khả năng xảy ra",
+      "title": "Diễn tả khả năng xảy ra",
       "answer": "A wind turbine might produce electricity today.",
       "options": [
         "A wind turbine might produce electricity today.",
@@ -672,7 +736,7 @@
         "A wind turbine might produced electricity today."
       ],
       "hint": "May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn. Cả hai đi với mọi chủ ngữ và động từ nguyên mẫu.",
-      "why": "A wind turbine might produce electricity today.\nMay và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
+      "why": "Chọn “A wind turbine might produce electricity today.”. May và might cho biết điều gì có thể xảy ra nhưng chưa chắc chắn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -683,7 +747,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A wind turbine might produce electricity today.",
+        "vi": "Tua bin gió có thể sản xuất điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-5-2-context2",
@@ -697,8 +765,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The wind farm may not produce much electricity today.",
       "options": [
         "The wind farm may not produces much electricity today.",
@@ -707,7 +775,7 @@
         "The wind farm may not produce much electricity today."
       ],
       "hint": "Đặt not ngay sau may/might. Không dùng don't hoặc doesn't. Mayn't rất hiếm, vì vậy nên dùng may not đầy đủ.",
-      "why": "The wind farm may not produce much electricity today.\nĐặt not ngay sau may/might.",
+      "why": "Chọn “The wind farm may not produce much electricity today.”. Đặt not ngay sau may/might.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -718,7 +786,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The wind farm may not produce much electricity today.",
+        "vi": "Trang trại gió có thể không sản xuất được nhiều điện ngày nay."
+      }
     },
     {
       "id": "discover-3-grammar-u9-5-3-context2",
@@ -732,8 +804,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Degree of certainty",
-      "title": "Degree of certainty",
+      "focus": "Mức độ chắc chắn",
+      "title": "Mức độ chắc chắn",
       "answer": "The power plant might use natural gas.",
       "options": [
         "The power plant might using natural gas.",
@@ -742,7 +814,7 @@
         "The power plant might uses natural gas."
       ],
       "hint": "Trong nhiều tình huống, hai từ có thể thay nhau. Might đôi khi gợi khả năng thấp hơn, nhưng không nên coi đây là một tỉ lệ cố định.",
-      "why": "The power plant might use natural gas.\nTrong nhiều tình huống, hai từ có thể thay nhau.",
+      "why": "Chọn “The power plant might use natural gas.”. Trong nhiều tình huống, hai từ có thể thay nhau.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -753,7 +825,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The power plant might use natural gas.",
+        "vi": "Nhà máy điện có thể sử dụng khí đốt tự nhiên."
+      }
     },
     {
       "id": "discover-3-grammar-u9-5-4-context2-life",

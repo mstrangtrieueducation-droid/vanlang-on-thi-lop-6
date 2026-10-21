@@ -9,26 +9,26 @@
   },
   "summary": [
     {
-      "tag": "Measure words",
+      "tag": "Từ chỉ đơn vị đo lường",
       "note": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
       "example": "The plant needs a cup of water.",
       "formula": [
         [
           "number",
           "+",
-          "measure word",
+          "từ chỉ đơn vị",
           "+",
           "of",
           "+",
-          "noncount noun"
+          "danh từ không đếm được"
         ]
       ],
       "usage": "Một số danh từ không thể đếm trực tiếp.",
       "exampleVi": "Cây cần một cốc nước.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Plural measure words",
+      "tag": "Đơn vị đo lường ở dạng số nhiều",
       "note": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "example": "We used two bags of soil.",
       "formula": [
@@ -41,10 +41,10 @@
       ],
       "usage": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "exampleVi": "Chúng tôi sử dụng hai túi đất.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Common combinations",
+      "tag": "Các cách kết hợp thường gặp",
       "note": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
       "example": "A bee collects a drop of nectar.",
       "formula": [
@@ -63,10 +63,10 @@
       ],
       "usage": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "exampleVi": "Một con ong thu thập một giọt mật hoa.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
       "example": "How many bags of soil do the gardeners need?",
       "formula": [
@@ -81,7 +81,7 @@
       ],
       "usage": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "exampleVi": "Người làm vườn cần bao nhiêu bao đất?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -97,8 +97,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Measure words",
-      "title": "Measure words",
+      "focus": "Từ chỉ đơn vị đo lường",
+      "title": "Từ chỉ đơn vị đo lường",
       "answer": "a cup of",
       "options": [
         "a cup of",
@@ -107,7 +107,7 @@
         "cup of a"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
+      "why": "Chọn “a cup of”. Một số danh từ không thể đếm trực tiếp.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -116,7 +116,11 @@
       "spokenScene": "",
       "scene": "A garden has fewer bees after several changes were made together. A pupil blames one new flower.\nThe plant needs ___ water.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The plant needs a cup of water.",
+        "vi": "Cây cần một cốc nước."
+      }
     },
     {
       "id": "discover-3-grammar-u15-1-2-context2",
@@ -130,8 +134,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Plural measure words",
-      "title": "Plural measure words",
+      "focus": "Đơn vị đo lường ở dạng số nhiều",
+      "title": "Đơn vị đo lường ở dạng số nhiều",
       "answer": "two bags of",
       "options": [
         "two bag of",
@@ -140,7 +144,7 @@
         "two bags of"
       ],
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
-      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "Chọn “two bags of”. Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -149,7 +153,11 @@
       "spokenScene": "",
       "scene": "A garden has fewer bees after several changes were made together. A pupil blames one new flower.\nWe used ___ soil.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We used two bags of soil.",
+        "vi": "Chúng tôi sử dụng hai túi đất."
+      }
     },
     {
       "id": "discover-3-grammar-u15-1-3-context2",
@@ -163,8 +171,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Common combinations",
-      "title": "Common combinations",
+      "focus": "Các cách kết hợp thường gặp",
+      "title": "Các cách kết hợp thường gặp",
       "answer": "a drop of",
       "options": [
         "a drop",
@@ -173,7 +181,7 @@
         "a drops of"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "why": "Chọn “a drop of”. Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -182,7 +190,11 @@
       "spokenScene": "",
       "scene": "A garden has fewer bees after several changes were made together. A pupil blames one new flower.\nA bee collects ___ nectar.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A bee collects a drop of nectar.",
+        "vi": "Một con ong thu thập một giọt mật hoa."
+      }
     },
     {
       "id": "discover-3-grammar-u15-1-4-context2",
@@ -196,8 +208,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "an",
@@ -206,7 +218,7 @@
         "a"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
+      "why": "Chọn “many”. Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -215,7 +227,11 @@
       "spokenScene": "",
       "scene": "A garden has fewer bees after several changes were made together. A pupil blames one new flower.\nHow ___ bags of soil do the gardeners need?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "How many bags of soil do the gardeners need?",
+        "vi": "Người làm vườn cần bao nhiêu bao đất?"
+      }
     },
     {
       "id": "discover-3-grammar-u15-2-1-context2",
@@ -229,8 +245,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Measure words",
-      "title": "Measure words",
+      "focus": "Từ chỉ đơn vị đo lường",
+      "title": "Từ chỉ đơn vị đo lường",
       "answer": "a cup of",
       "options": [
         "a cup",
@@ -239,7 +255,7 @@
         "a cup of"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
+      "why": "Chọn “a cup of”. Một số danh từ không thể đếm trực tiếp.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -250,7 +266,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The plant needs a cup of water.",
+        "vi": "Cây cần một cốc nước."
+      }
     },
     {
       "id": "discover-3-grammar-u15-2-2-context2",
@@ -264,8 +284,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Plural measure words",
-      "title": "Plural measure words",
+      "focus": "Đơn vị đo lường ở dạng số nhiều",
+      "title": "Đơn vị đo lường ở dạng số nhiều",
       "answer": "two bags of",
       "options": [
         "two bags",
@@ -274,7 +294,7 @@
         "two bag of"
       ],
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
-      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "Chọn “two bags of”. Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -285,7 +305,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We used two bags of soil.",
+        "vi": "Chúng tôi sử dụng hai túi đất."
+      }
     },
     {
       "id": "discover-3-grammar-u15-2-3-context2",
@@ -299,8 +323,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Common combinations",
-      "title": "Common combinations",
+      "focus": "Các cách kết hợp thường gặp",
+      "title": "Các cách kết hợp thường gặp",
       "answer": "a drop of",
       "options": [
         "drop a",
@@ -309,7 +333,7 @@
         "a drop"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "why": "Chọn “a drop of”. Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -320,7 +344,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A bee collects a drop of nectar.",
+        "vi": "Một con ong thu thập một giọt mật hoa."
+      }
     },
     {
       "id": "discover-3-grammar-u15-2-4-context2",
@@ -334,8 +362,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "many",
@@ -344,7 +372,7 @@
         "an"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
+      "why": "Chọn “many”. Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -355,7 +383,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "How many bags of soil do the gardeners need?",
+        "vi": "Người làm vườn cần bao nhiêu bao đất?"
+      }
     },
     {
       "id": "discover-3-grammar-u15-3-1-context2",
@@ -369,8 +401,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Measure words",
-      "title": "Measure words",
+      "focus": "Từ chỉ đơn vị đo lường",
+      "title": "Từ chỉ đơn vị đo lường",
       "answer": "a cup of",
       "options": [
         "a cups of",
@@ -379,7 +411,7 @@
         "a cup"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
+      "why": "Chọn “a cup of”. Một số danh từ không thể đếm trực tiếp.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -391,7 +423,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The plant needs a cup of water.",
+        "vi": "Cây cần một cốc nước."
+      }
     },
     {
       "id": "discover-3-grammar-u15-3-2-context2",
@@ -405,8 +441,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Plural measure words",
-      "title": "Plural measure words",
+      "focus": "Đơn vị đo lường ở dạng số nhiều",
+      "title": "Đơn vị đo lường ở dạng số nhiều",
       "answer": "two bags of",
       "options": [
         "two bag",
@@ -415,7 +451,7 @@
         "two bags"
       ],
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
-      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "Chọn “two bags of”. Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -427,7 +463,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We used two bags of soil.",
+        "vi": "Chúng tôi sử dụng hai túi đất."
+      }
     },
     {
       "id": "discover-3-grammar-u15-3-3-context2",
@@ -441,8 +481,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Common combinations",
-      "title": "Common combinations",
+      "focus": "Các cách kết hợp thường gặp",
+      "title": "Các cách kết hợp thường gặp",
       "answer": "a drop of",
       "options": [
         "a drop of",
@@ -451,7 +491,7 @@
         "drop a"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "why": "Chọn “a drop of”. Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -463,7 +503,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A bee collects a drop of nectar.",
+        "vi": "Một con ong thu thập một giọt mật hoa."
+      }
     },
     {
       "id": "discover-3-grammar-u15-3-4-context2",
@@ -477,8 +521,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "many",
       "options": [
         "much",
@@ -487,7 +531,7 @@
         "many"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
+      "why": "Chọn “many”. Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -499,7 +543,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "How many bags of soil do the gardeners need?",
+        "vi": "Người làm vườn cần bao nhiêu bao đất?"
+      }
     },
     {
       "id": "discover-3-grammar-u15-4-1-context2",
@@ -513,8 +561,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Measure words",
-      "title": "Measure words",
+      "focus": "Từ chỉ đơn vị đo lường",
+      "title": "Từ chỉ đơn vị đo lường",
       "answer": "The plant needs → a cup → of water.",
       "options": [
         "The plant needs → a cup → of water.",
@@ -523,7 +571,7 @@
         "of water. → a cup → The plant needs"
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
+      "why": "Chọn “The plant needs → a cup → of water.”. Một số danh từ không thể đếm trực tiếp.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -537,7 +585,11 @@
         "a cup",
         "of water.",
         "The plant needs"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The plant needs a cup of water.",
+        "vi": "Cây cần một cốc nước."
+      }
     },
     {
       "id": "discover-3-grammar-u15-4-2-context2",
@@ -551,8 +603,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Plural measure words",
-      "title": "Plural measure words",
+      "focus": "Đơn vị đo lường ở dạng số nhiều",
+      "title": "Đơn vị đo lường ở dạng số nhiều",
       "answer": "We used → two bags → of soil.",
       "options": [
         "We used → two bags → of soil.",
@@ -561,7 +613,7 @@
         "of soil. → two bags → We used"
       ],
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
-      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "Chọn “We used → two bags → of soil.”. Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -575,7 +627,11 @@
         "two bags",
         "of soil.",
         "We used"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We used two bags of soil.",
+        "vi": "Chúng tôi sử dụng hai túi đất."
+      }
     },
     {
       "id": "discover-3-grammar-u15-4-3-context2",
@@ -589,8 +645,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Common combinations",
-      "title": "Common combinations",
+      "focus": "Các cách kết hợp thường gặp",
+      "title": "Các cách kết hợp thường gặp",
       "answer": "A bee collects → a drop → of nectar.",
       "options": [
         "A bee collects → a drop → of nectar.",
@@ -599,7 +655,7 @@
         "of nectar. → a drop → A bee collects"
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "why": "Chọn “A bee collects → a drop → of nectar.”. Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -613,7 +669,11 @@
         "a drop",
         "of nectar.",
         "A bee collects"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A bee collects a drop of nectar.",
+        "vi": "Một con ong thu thập một giọt mật hoa."
+      }
     },
     {
       "id": "discover-3-grammar-u15-4-4-context2",
@@ -627,8 +687,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "How many bags → of soil do → the gardeners need?",
       "options": [
         "How many bags → of soil do → the gardeners need?",
@@ -637,7 +697,7 @@
         "the gardeners need? → of soil do → How many bags"
       ],
       "hint": "Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều. Nếu hỏi trực tiếp lượng chất, dùng how much + danh từ không đếm được.",
-      "why": "How many bags of soil do the gardeners need?\nNếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
+      "why": "Chọn “How many bags → of soil do → the gardeners need?”. Nếu hỏi số đơn vị, dùng how many + đơn vị số nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -651,7 +711,11 @@
         "of soil do",
         "the gardeners need?",
         "How many bags"
-      ]
+      ],
+      "explanationExample": {
+        "en": "How many bags of soil do the gardeners need?",
+        "vi": "Người làm vườn cần bao nhiêu bao đất?"
+      }
     },
     {
       "id": "discover-3-grammar-u15-5-1-context2",
@@ -665,8 +729,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Measure words",
-      "title": "Measure words",
+      "focus": "Từ chỉ đơn vị đo lường",
+      "title": "Từ chỉ đơn vị đo lường",
       "answer": "The plant needs a cup of water.",
       "options": [
         "The plant needs a cup of water.",
@@ -675,7 +739,7 @@
         "The plant needs cup of a water."
       ],
       "hint": "Một số danh từ không thể đếm trực tiếp. Ta đếm chiếc cốc, chai, miếng hoặc lượng chứa chúng rồi dùng of trước danh từ.",
-      "why": "The plant needs a cup of water.\nMột số danh từ không thể đếm trực tiếp.",
+      "why": "Chọn “The plant needs a cup of water.”. Một số danh từ không thể đếm trực tiếp.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -686,7 +750,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The plant needs a cup of water.",
+        "vi": "Cây cần một cốc nước."
+      }
     },
     {
       "id": "discover-3-grammar-u15-5-2-context2",
@@ -700,8 +768,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Plural measure words",
-      "title": "Plural measure words",
+      "focus": "Đơn vị đo lường ở dạng số nhiều",
+      "title": "Đơn vị đo lường ở dạng số nhiều",
       "answer": "We used two bags of soil.",
       "options": [
         "We used two bag of soil.",
@@ -710,7 +778,7 @@
         "We used two bags of soil."
       ],
       "hint": "Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
-      "why": "We used two bags of soil.\nVới số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
+      "why": "Chọn “We used two bags of soil.”. Với số lớn hơn một, thêm -s/-es vào từ chỉ đơn vị, còn danh từ không đếm được sau of thường không đổi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -721,7 +789,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We used two bags of soil.",
+        "vi": "Chúng tôi sử dụng hai túi đất."
+      }
     },
     {
       "id": "discover-3-grammar-u15-5-3-context2",
@@ -735,8 +807,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Common combinations",
-      "title": "Common combinations",
+      "focus": "Các cách kết hợp thường gặp",
+      "title": "Các cách kết hợp thường gặp",
       "answer": "A bee collects a drop of nectar.",
       "options": [
         "A bee collects a drop nectar.",
@@ -745,7 +817,7 @@
         "A bee collects a drops of nectar."
       ],
       "hint": "Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar. Ngữ cảnh quyết định đơn vị tự nhiên nhất.",
-      "why": "A bee collects a drop of nectar.\nCác cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
+      "why": "Chọn “A bee collects a drop of nectar.”. Các cụm phổ biến gồm a glass of water, a piece of fruit, a bag of soil, a spoonful of nectar.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -756,7 +828,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A bee collects a drop of nectar.",
+        "vi": "Một con ong thu thập một giọt mật hoa."
+      }
     },
     {
       "id": "discover-3-grammar-u15-5-4-context2-life",

@@ -9,77 +9,77 @@
   },
   "summary": [
     {
-      "tag": "Ever",
+      "tag": "Hỏi về trải nghiệm đã từng có",
       "note": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
       "example": "Have you ever experienced an earthquake?",
       "formula": [
         [
           "Have / Has",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
           "ever",
           "+",
-          "past participle",
+          "phân từ quá khứ",
           "?"
         ]
       ],
       "usage": "Ever thường đứng giữa chủ ngữ và past participle.",
       "exampleVi": "Bạn đã bao giờ trải qua một trận động đất?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Never",
+      "tag": "Diễn tả điều chưa từng xảy ra",
       "note": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
       "example": "The rescue worker has never seen a tsunami.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "have / has never",
           "+",
-          "past participle"
+          "phân từ quá khứ"
         ]
       ],
       "usage": "Đặt never sau have/has.",
       "exampleVi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Short answers",
+      "tag": "Câu trả lời ngắn",
       "note": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
       "example": "Have you ever seen a tornado? Yes, I have.",
       "formula": [
         [
-          "Yes, subject have / has."
+          "Yes, chủ ngữ have / has."
         ],
         [
-          "No, subject haven't / hasn't."
+          "No, chủ ngữ haven't / hasn't."
         ]
       ],
       "usage": "Yes, I have và No, I haven't là câu trả lời ngắn.",
       "exampleVi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Experience and detail",
+      "tag": "Trải nghiệm và thông tin chi tiết",
       "note": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "example": "I've seen a blizzard. I saw it last winter.",
       "formula": [
         [
-          "experience",
+          "trải nghiệm",
           "->",
-          "present perfect"
+          "thì hiện tại hoàn thành"
         ],
         [
-          "time and details",
+          "thời gian và chi tiết",
           "->",
-          "simple past"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "exampleVi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -95,8 +95,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Ever",
-      "title": "Ever",
+      "focus": "Hỏi về trải nghiệm đã từng có",
+      "title": "Hỏi về trải nghiệm đã từng có",
       "answer": "experienced",
       "options": [
         "experienced",
@@ -105,7 +105,7 @@
         "experiencing"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
+      "why": "Chọn “experienced”. Ever thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -114,7 +114,11 @@
       "spokenScene": "",
       "scene": "Two families prepare for earthquakes. One buys supplies; the other also agrees on a safe place and a communication plan.\nHave you ever ___ an earthquake?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Have you ever experienced an earthquake?",
+        "vi": "Bạn đã bao giờ trải qua một trận động đất?"
+      }
     },
     {
       "id": "discover-4-grammar-u15-1-2-context2",
@@ -128,8 +132,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Never",
-      "title": "Never",
+      "focus": "Diễn tả điều chưa từng xảy ra",
+      "title": "Diễn tả điều chưa từng xảy ra",
       "answer": "seen",
       "options": [
         "saw",
@@ -138,7 +142,7 @@
         "seen"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
+      "why": "Chọn “seen”. Đặt never sau have/has.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -147,7 +151,11 @@
       "spokenScene": "",
       "scene": "Two families prepare for earthquakes. One buys supplies; the other also agrees on a safe place and a communication plan.\nThe rescue worker has never ___ a tsunami.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The rescue worker has never seen a tsunami.",
+        "vi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần."
+      }
     },
     {
       "id": "discover-4-grammar-u15-1-3-context2",
@@ -161,8 +169,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "seen",
       "options": [
         "see",
@@ -171,7 +179,7 @@
         "saw"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
+      "why": "Chọn “seen”. Yes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -180,7 +188,11 @@
       "spokenScene": "",
       "scene": "Two families prepare for earthquakes. One buys supplies; the other also agrees on a safe place and a communication plan.\nHave you ever ___ a tornado? Yes, I have.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Have you ever seen a tornado? Yes, I have.",
+        "vi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có."
+      }
     },
     {
       "id": "discover-4-grammar-u15-1-4-context2",
@@ -194,8 +206,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Experience and detail",
-      "title": "Experience and detail",
+      "focus": "Trải nghiệm và thông tin chi tiết",
+      "title": "Trải nghiệm và thông tin chi tiết",
       "answer": "saw",
       "options": [
         "sees",
@@ -204,7 +216,7 @@
         "seeing"
       ],
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
-      "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
+      "why": "Chọn “saw”. Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -213,7 +225,11 @@
       "spokenScene": "",
       "scene": "Two families prepare for earthquakes. One buys supplies; the other also agrees on a safe place and a communication plan.\nI've seen a blizzard. I ___ it last winter.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I've seen a blizzard. I saw it last winter.",
+        "vi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái."
+      }
     },
     {
       "id": "discover-4-grammar-u15-2-1-context2",
@@ -227,8 +243,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Ever",
-      "title": "Ever",
+      "focus": "Hỏi về trải nghiệm đã từng có",
+      "title": "Hỏi về trải nghiệm đã từng có",
       "answer": "experienced",
       "options": [
         "experience",
@@ -237,7 +253,7 @@
         "experienced"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
+      "why": "Chọn “experienced”. Ever thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -248,7 +264,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Have you ever experienced an earthquake?",
+        "vi": "Bạn đã bao giờ trải qua một trận động đất?"
+      }
     },
     {
       "id": "discover-4-grammar-u15-2-2-context2",
@@ -262,8 +282,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Never",
-      "title": "Never",
+      "focus": "Diễn tả điều chưa từng xảy ra",
+      "title": "Diễn tả điều chưa từng xảy ra",
       "answer": "seen",
       "options": [
         "see",
@@ -272,7 +292,7 @@
         "saw"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
+      "why": "Chọn “seen”. Đặt never sau have/has.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -283,7 +303,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The rescue worker has never seen a tsunami.",
+        "vi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần."
+      }
     },
     {
       "id": "discover-4-grammar-u15-2-3-context2",
@@ -297,8 +321,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "seen",
       "options": [
         "sees",
@@ -307,7 +331,7 @@
         "see"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
+      "why": "Chọn “seen”. Yes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -318,7 +342,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Have you ever seen a tornado? Yes, I have.",
+        "vi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có."
+      }
     },
     {
       "id": "discover-4-grammar-u15-2-4-context2",
@@ -332,8 +360,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Experience and detail",
-      "title": "Experience and detail",
+      "focus": "Trải nghiệm và thông tin chi tiết",
+      "title": "Trải nghiệm và thông tin chi tiết",
       "answer": "saw",
       "options": [
         "saw",
@@ -342,7 +370,7 @@
         "sees"
       ],
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
-      "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
+      "why": "Chọn “saw”. Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -353,7 +381,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I've seen a blizzard. I saw it last winter.",
+        "vi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái."
+      }
     },
     {
       "id": "discover-4-grammar-u15-3-1-context2",
@@ -367,8 +399,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Ever",
-      "title": "Ever",
+      "focus": "Hỏi về trải nghiệm đã từng có",
+      "title": "Hỏi về trải nghiệm đã từng có",
       "answer": "experienced",
       "options": [
         "experiences",
@@ -377,7 +409,7 @@
         "experience"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
+      "why": "Chọn “experienced”. Ever thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -389,7 +421,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Have you ever experienced an earthquake?",
+        "vi": "Bạn đã bao giờ trải qua một trận động đất?"
+      }
     },
     {
       "id": "discover-4-grammar-u15-3-2-context2",
@@ -403,8 +439,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Never",
-      "title": "Never",
+      "focus": "Diễn tả điều chưa từng xảy ra",
+      "title": "Diễn tả điều chưa từng xảy ra",
       "answer": "seen",
       "options": [
         "sees",
@@ -413,7 +449,7 @@
         "see"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
+      "why": "Chọn “seen”. Đặt never sau have/has.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -425,7 +461,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The rescue worker has never seen a tsunami.",
+        "vi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần."
+      }
     },
     {
       "id": "discover-4-grammar-u15-3-3-context2",
@@ -439,8 +479,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "seen",
       "options": [
         "seen",
@@ -449,7 +489,7 @@
         "sees"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
+      "why": "Chọn “seen”. Yes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -461,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Have you ever seen a tornado? Yes, I have.",
+        "vi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có."
+      }
     },
     {
       "id": "discover-4-grammar-u15-3-4-context2",
@@ -475,8 +519,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Experience and detail",
-      "title": "Experience and detail",
+      "focus": "Trải nghiệm và thông tin chi tiết",
+      "title": "Trải nghiệm và thông tin chi tiết",
       "answer": "saw",
       "options": [
         "seen",
@@ -485,7 +529,7 @@
         "saw"
       ],
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
-      "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
+      "why": "Chọn “saw”. Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -497,7 +541,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I've seen a blizzard. I saw it last winter.",
+        "vi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái."
+      }
     },
     {
       "id": "discover-4-grammar-u15-4-1-context2",
@@ -511,8 +559,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Ever",
-      "title": "Ever",
+      "focus": "Hỏi về trải nghiệm đã từng có",
+      "title": "Hỏi về trải nghiệm đã từng có",
       "answer": "Have you → ever experienced → an earthquake?",
       "options": [
         "Have you → ever experienced → an earthquake?",
@@ -521,7 +569,7 @@
         "an earthquake? → ever experienced → Have you"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
+      "why": "Chọn “Have you → ever experienced → an earthquake?”. Ever thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -535,7 +583,11 @@
         "ever experienced",
         "an earthquake?",
         "Have you"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Have you ever experienced an earthquake?",
+        "vi": "Bạn đã bao giờ trải qua một trận động đất?"
+      }
     },
     {
       "id": "discover-4-grammar-u15-4-2-context2",
@@ -549,8 +601,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Never",
-      "title": "Never",
+      "focus": "Diễn tả điều chưa từng xảy ra",
+      "title": "Diễn tả điều chưa từng xảy ra",
       "answer": "The rescue worker → has never seen → a tsunami.",
       "options": [
         "The rescue worker → has never seen → a tsunami.",
@@ -559,7 +611,7 @@
         "a tsunami. → has never seen → The rescue worker"
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
+      "why": "Chọn “The rescue worker → has never seen → a tsunami.”. Đặt never sau have/has.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -573,7 +625,11 @@
         "has never seen",
         "a tsunami.",
         "The rescue worker"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The rescue worker has never seen a tsunami.",
+        "vi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần."
+      }
     },
     {
       "id": "discover-4-grammar-u15-4-3-context2",
@@ -587,8 +643,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "Have you ever → seen a tornado? → Yes, I have.",
       "options": [
         "Have you ever → seen a tornado? → Yes, I have.",
@@ -597,7 +653,7 @@
         "Yes, I have. → seen a tornado? → Have you ever"
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
+      "why": "Chọn “Have you ever → seen a tornado? → Yes, I have.”. Yes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -611,7 +667,11 @@
         "seen a tornado?",
         "Yes, I have.",
         "Have you ever"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Have you ever seen a tornado? Yes, I have.",
+        "vi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có."
+      }
     },
     {
       "id": "discover-4-grammar-u15-4-4-context2",
@@ -625,8 +685,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Experience and detail",
-      "title": "Experience and detail",
+      "focus": "Trải nghiệm và thông tin chi tiết",
+      "title": "Trải nghiệm và thông tin chi tiết",
       "answer": "I've seen a → blizzard. I saw → it last winter.",
       "options": [
         "I've seen a → blizzard. I saw → it last winter.",
@@ -635,7 +695,7 @@
         "it last winter. → blizzard. I saw → I've seen a"
       ],
       "hint": "Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
-      "why": "I've seen a blizzard. I saw it last winter.\nSau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
+      "why": "Chọn “I've seen a → blizzard. I saw → it last winter.”. Sau câu Have you ever...?, câu trả lời có thể chuyển sang quá khứ đơn với when, where hoặc một thời gian đã kết thúc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -649,7 +709,11 @@
         "blizzard. I saw",
         "it last winter.",
         "I've seen a"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I've seen a blizzard. I saw it last winter.",
+        "vi": "Tôi đã nhìn thấy một trận bão tuyết. Tôi đã nhìn thấy nó vào mùa đông năm ngoái."
+      }
     },
     {
       "id": "discover-4-grammar-u15-5-1-context2",
@@ -663,8 +727,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Ever",
-      "title": "Ever",
+      "focus": "Hỏi về trải nghiệm đã từng có",
+      "title": "Hỏi về trải nghiệm đã từng có",
       "answer": "Have you ever experienced an earthquake?",
       "options": [
         "Have you ever experienced an earthquake?",
@@ -673,7 +737,7 @@
         "Have you ever experiencing an earthquake?"
       ],
       "hint": "Ever thường đứng giữa chủ ngữ và past participle. Câu hỏi không yêu cầu một thời điểm cụ thể; nó hỏi trong bất kỳ lúc nào của cuộc đời cho đến nay.",
-      "why": "Have you ever experienced an earthquake?\nEver thường đứng giữa chủ ngữ và past participle.",
+      "why": "Chọn “Have you ever experienced an earthquake?”. Ever thường đứng giữa chủ ngữ và past participle.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -684,7 +748,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Have you ever experienced an earthquake?",
+        "vi": "Bạn đã bao giờ trải qua một trận động đất?"
+      }
     },
     {
       "id": "discover-4-grammar-u15-5-2-context2",
@@ -698,8 +766,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Never",
-      "title": "Never",
+      "focus": "Diễn tả điều chưa từng xảy ra",
+      "title": "Diễn tả điều chưa từng xảy ra",
       "answer": "The rescue worker has never seen a tsunami.",
       "options": [
         "The rescue worker has never saw a tsunami.",
@@ -708,7 +776,7 @@
         "The rescue worker has never seen a tsunami."
       ],
       "hint": "Đặt never sau have/has. Không dùng haven't never vì đó là phủ định kép.",
-      "why": "The rescue worker has never seen a tsunami.\nĐặt never sau have/has.",
+      "why": "Chọn “The rescue worker has never seen a tsunami.”. Đặt never sau have/has.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -719,7 +787,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The rescue worker has never seen a tsunami.",
+        "vi": "Nhân viên cứu hộ chưa bao giờ nhìn thấy sóng thần."
+      }
     },
     {
       "id": "discover-4-grammar-u15-5-3-context2",
@@ -733,8 +805,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "Have you ever seen a tornado? Yes, I have.",
       "options": [
         "Have you ever see a tornado? Yes, I have.",
@@ -743,7 +815,7 @@
         "Have you ever saw a tornado? Yes, I have."
       ],
       "hint": "Yes, I have và No, I haven't là câu trả lời ngắn. Nếu kể thời điểm cụ thể sau đó, dùng quá khứ đơn cho câu chi tiết.",
-      "why": "Have you ever seen a tornado? Yes, I have.\nYes, I have và No, I haven't là câu trả lời ngắn.",
+      "why": "Chọn “Have you ever seen a tornado? Yes, I have.”. Yes, I have và No, I haven't là câu trả lời ngắn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -754,7 +826,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Have you ever seen a tornado? Yes, I have.",
+        "vi": "Bạn đã bao giờ nhìn thấy một cơn lốc xoáy chưa? Vâng, tôi có."
+      }
     },
     {
       "id": "discover-4-grammar-u15-5-4-context2-life",

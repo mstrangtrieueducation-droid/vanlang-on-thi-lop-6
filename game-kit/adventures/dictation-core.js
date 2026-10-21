@@ -10,7 +10,7 @@
   const items=[],paragraphs=source.paragraphs.map((p,paragraph)=>{if(!p.text?.trim())throw Error('Empty transcript paragraph');
    const words=p.text.match(/\p{L}+(?:['’\-]\p{L}+)*|[^\p{L}]+/gu)||[];
    return {speaker:p.speaker||'',tokens:words.map((text,position)=>{
-    const n=letters(text),word=text.toLowerCase().replace(/’/g,"'"),blank=n>0&&!fixedNames.has(word)&&(keywords.has(word)||n>=3&&!anchors.has(word));
+    const n=letters(text),word=text.toLowerCase().replace(/’/g,"'"),numberLabel=position===0&&/^(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)$/.test(word)&&/^\.\s/.test(words[1]||''),blank=!numberLabel&&n>0&&!fixedNames.has(word)&&(keywords.has(word)||n>=3&&!anchors.has(word));
     if(!blank)return {text};
     const id=`${source.course}-dictation-u${source.unit}-${paragraph+1}-${position+1}`,index=items.length;
     items.push({id,type:'choice',inputMode:'typing',answer:text,options:[text],unit:source.unit,skill:'listening',dictation:true,dictationIndex:index,letters:n,partId:source.course+'-u'+source.unit+'-dictation',partType:'listenWrite',partTitle:'Listening Dictation',partInstruction:'Listen and complete the passage.',prompt:'Listen and write.',scene:'',spokenPrompt:'',spokenScene:'',storyId:source.course+'-u'+source.unit+'-dictation',storyTitle:source.title,sourceAudio:source.audio,source:source.source,hint:`Listen for ${n} letters.`,why:`Từ trong bản ghi: ${text}. Nghe lại để kiểm tra âm đầu, âm cuối và cách viết.`,difficulty:index<8?'easy':index<20?'medium':'advanced'});

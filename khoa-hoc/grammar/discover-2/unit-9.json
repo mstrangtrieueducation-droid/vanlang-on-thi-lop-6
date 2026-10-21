@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Possessive adjectives",
+      "tag": "Tính từ sở hữu",
       "note": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "example": "That is her classroom.",
       "formula": [
@@ -21,10 +21,10 @@
       ],
       "usage": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "exampleVi": "Đó là lớp học của cô.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Possessive pronouns",
+      "tag": "Đại từ sở hữu",
       "note": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
       "example": "Those things are yours.",
       "formula": [
@@ -41,10 +41,10 @@
       ],
       "usage": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "exampleVi": "Những thứ đó là của bạn.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Whose ...?",
+      "tag": "Câu hỏi về sự sở hữu",
       "note": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
       "example": "Whose book is this? It's hers.",
       "formula": [
@@ -61,7 +61,7 @@
       ],
       "usage": "Whose đứng trước danh từ trong câu hỏi.",
       "exampleVi": "Cuốn sách này là của ai? Đó là của cô ấy.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "his và its",
@@ -77,7 +77,7 @@
       ],
       "usage": "His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "exampleVi": "Hiệu trưởng có cuốn sách của mình.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -93,8 +93,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive adjectives",
-      "title": "Possessive adjectives",
+      "focus": "Tính từ sở hữu",
+      "title": "Tính từ sở hữu",
       "answer": "her",
       "options": [
         "her",
@@ -103,7 +103,7 @@
         "herself"
       ],
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
-      "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "why": "Chọn “her”. My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -112,7 +112,11 @@
       "spokenScene": "",
       "scene": "A tablet on a classroom desk has another pupil's name on it.\nThat is ___ classroom.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "That is her classroom.",
+        "vi": "Đó là lớp học của cô."
+      }
     },
     {
       "id": "discover-2-grammar-u9-1-2-context2",
@@ -126,8 +130,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive pronouns",
-      "title": "Possessive pronouns",
+      "focus": "Đại từ sở hữu",
+      "title": "Đại từ sở hữu",
       "answer": "yours",
       "options": [
         "your",
@@ -136,7 +140,7 @@
         "yours"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "why": "Chọn “yours”. Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -145,7 +149,11 @@
       "spokenScene": "",
       "scene": "A tablet on a classroom desk has another pupil's name on it.\nThose things are ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Those things are yours.",
+        "vi": "Những thứ đó là của bạn."
+      }
     },
     {
       "id": "discover-2-grammar-u9-1-3-context2",
@@ -159,8 +167,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Whose ...?",
-      "title": "Whose ...?",
+      "focus": "Câu hỏi về sự sở hữu",
+      "title": "Câu hỏi về sự sở hữu",
       "answer": "hers",
       "options": [
         "she",
@@ -169,7 +177,7 @@
         "her"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
+      "why": "Chọn “hers”. Whose đứng trước danh từ trong câu hỏi.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -178,7 +186,11 @@
       "spokenScene": "",
       "scene": "A tablet on a classroom desk has another pupil's name on it.\nWhose book is this? It's ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Whose book is this? It's hers.",
+        "vi": "Cuốn sách này là của ai? Đó là của cô ấy."
+      }
     },
     {
       "id": "discover-2-grammar-u9-1-4-context2",
@@ -202,7 +214,7 @@
         "him"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
+      "why": "Chọn “his”. His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -211,7 +223,11 @@
       "spokenScene": "",
       "scene": "A tablet on a classroom desk has another pupil's name on it.\nThe principal has ___ book.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The principal has his book.",
+        "vi": "Hiệu trưởng có cuốn sách của mình."
+      }
     },
     {
       "id": "discover-2-grammar-u9-2-1-context2",
@@ -225,8 +241,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive adjectives",
-      "title": "Possessive adjectives",
+      "focus": "Tính từ sở hữu",
+      "title": "Tính từ sở hữu",
       "answer": "her",
       "options": [
         "she",
@@ -235,7 +251,7 @@
         "her"
       ],
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
-      "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "why": "Chọn “her”. My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -246,7 +262,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "That is her classroom.",
+        "vi": "Đó là lớp học của cô."
+      }
     },
     {
       "id": "discover-2-grammar-u9-2-2-context2",
@@ -260,8 +280,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive pronouns",
-      "title": "Possessive pronouns",
+      "focus": "Đại từ sở hữu",
+      "title": "Đại từ sở hữu",
       "answer": "yours",
       "options": [
         "you",
@@ -270,7 +290,7 @@
         "your"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "why": "Chọn “yours”. Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -281,7 +301,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Those things are yours.",
+        "vi": "Những thứ đó là của bạn."
+      }
     },
     {
       "id": "discover-2-grammar-u9-2-3-context2",
@@ -295,8 +319,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Whose ...?",
-      "title": "Whose ...?",
+      "focus": "Câu hỏi về sự sở hữu",
+      "title": "Câu hỏi về sự sở hữu",
       "answer": "hers",
       "options": [
         "herself",
@@ -305,7 +329,7 @@
         "she"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
+      "why": "Chọn “hers”. Whose đứng trước danh từ trong câu hỏi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -316,7 +340,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Whose book is this? It's hers.",
+        "vi": "Cuốn sách này là của ai? Đó là của cô ấy."
+      }
     },
     {
       "id": "discover-2-grammar-u9-2-4-context2",
@@ -340,7 +368,7 @@
         "himself"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
+      "why": "Chọn “his”. His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -351,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The principal has his book.",
+        "vi": "Hiệu trưởng có cuốn sách của mình."
+      }
     },
     {
       "id": "discover-2-grammar-u9-3-1-context2",
@@ -365,8 +397,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive adjectives",
-      "title": "Possessive adjectives",
+      "focus": "Tính từ sở hữu",
+      "title": "Tính từ sở hữu",
       "answer": "her",
       "options": [
         "hers",
@@ -375,7 +407,7 @@
         "she"
       ],
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
-      "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "why": "Chọn “her”. My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -387,7 +419,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "That is her classroom.",
+        "vi": "Đó là lớp học của cô."
+      }
     },
     {
       "id": "discover-2-grammar-u9-3-2-context2",
@@ -401,8 +437,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive pronouns",
-      "title": "Possessive pronouns",
+      "focus": "Đại từ sở hữu",
+      "title": "Đại từ sở hữu",
       "answer": "yours",
       "options": [
         "yourself",
@@ -411,7 +447,7 @@
         "you"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "why": "Chọn “yours”. Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -423,7 +459,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Those things are yours.",
+        "vi": "Những thứ đó là của bạn."
+      }
     },
     {
       "id": "discover-2-grammar-u9-3-3-context2",
@@ -437,8 +477,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Whose ...?",
-      "title": "Whose ...?",
+      "focus": "Câu hỏi về sự sở hữu",
+      "title": "Câu hỏi về sự sở hữu",
       "answer": "hers",
       "options": [
         "hers",
@@ -447,7 +487,7 @@
         "herself"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
+      "why": "Chọn “hers”. Whose đứng trước danh từ trong câu hỏi.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -459,7 +499,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Whose book is this? It's hers.",
+        "vi": "Cuốn sách này là của ai? Đó là của cô ấy."
+      }
     },
     {
       "id": "discover-2-grammar-u9-3-4-context2",
@@ -483,7 +527,7 @@
         "his"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
+      "why": "Chọn “his”. His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -495,7 +539,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The principal has his book.",
+        "vi": "Hiệu trưởng có cuốn sách của mình."
+      }
     },
     {
       "id": "discover-2-grammar-u9-4-1-context2",
@@ -509,8 +557,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive adjectives",
-      "title": "Possessive adjectives",
+      "focus": "Tính từ sở hữu",
+      "title": "Tính từ sở hữu",
       "answer": "That is → her → classroom.",
       "options": [
         "That is → her → classroom.",
@@ -519,7 +567,7 @@
         "classroom. → her → That is"
       ],
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
-      "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "why": "Chọn “That is → her → classroom.”. My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -533,7 +581,11 @@
         "her",
         "classroom.",
         "That is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "That is her classroom.",
+        "vi": "Đó là lớp học của cô."
+      }
     },
     {
       "id": "discover-2-grammar-u9-4-2-context2",
@@ -547,8 +599,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive pronouns",
-      "title": "Possessive pronouns",
+      "focus": "Đại từ sở hữu",
+      "title": "Đại từ sở hữu",
       "answer": "Those things → are → yours.",
       "options": [
         "Those things → are → yours.",
@@ -557,7 +609,7 @@
         "yours. → are → Those things"
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "why": "Chọn “Those things → are → yours.”. Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -571,7 +623,11 @@
         "are",
         "yours.",
         "Those things"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Those things are yours.",
+        "vi": "Những thứ đó là của bạn."
+      }
     },
     {
       "id": "discover-2-grammar-u9-4-3-context2",
@@ -585,8 +641,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Whose ...?",
-      "title": "Whose ...?",
+      "focus": "Câu hỏi về sự sở hữu",
+      "title": "Câu hỏi về sự sở hữu",
       "answer": "Whose book → is this? → It's hers.",
       "options": [
         "Whose book → is this? → It's hers.",
@@ -595,7 +651,7 @@
         "It's hers. → is this? → Whose book"
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
+      "why": "Chọn “Whose book → is this? → It's hers.”. Whose đứng trước danh từ trong câu hỏi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -609,7 +665,11 @@
         "is this?",
         "It's hers.",
         "Whose book"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Whose book is this? It's hers.",
+        "vi": "Cuốn sách này là của ai? Đó là của cô ấy."
+      }
     },
     {
       "id": "discover-2-grammar-u9-4-4-context2",
@@ -633,7 +693,7 @@
         "book. → has his → The principal"
       ],
       "hint": "His có thể là tính từ sở hữu hoặc đại từ sở hữu. Its chỉ là tính từ sở hữu; không viết it's khi muốn nói sự sở hữu.",
-      "why": "The principal has his book.\nHis có thể là tính từ sở hữu hoặc đại từ sở hữu.",
+      "why": "Chọn “The principal → has his → book.”. His có thể là tính từ sở hữu hoặc đại từ sở hữu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -647,7 +707,11 @@
         "has his",
         "book.",
         "The principal"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The principal has his book.",
+        "vi": "Hiệu trưởng có cuốn sách của mình."
+      }
     },
     {
       "id": "discover-2-grammar-u9-5-1-context2",
@@ -661,8 +725,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive adjectives",
-      "title": "Possessive adjectives",
+      "focus": "Tính từ sở hữu",
+      "title": "Tính từ sở hữu",
       "answer": "That is her classroom.",
       "options": [
         "That is her classroom.",
@@ -671,7 +735,7 @@
         "That is herself classroom."
       ],
       "hint": "My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
-      "why": "That is her classroom.\nMy, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
+      "why": "Chọn “That is her classroom.”. My, your, his, her, its, our và their luôn đi cùng một danh từ phía sau.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -682,7 +746,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "That is her classroom.",
+        "vi": "Đó là lớp học của cô."
+      }
     },
     {
       "id": "discover-2-grammar-u9-5-2-context2",
@@ -696,8 +764,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Possessive pronouns",
-      "title": "Possessive pronouns",
+      "focus": "Đại từ sở hữu",
+      "title": "Đại từ sở hữu",
       "answer": "Those things are yours.",
       "options": [
         "Those things are your.",
@@ -706,7 +774,7 @@
         "Those things are yours."
       ],
       "hint": "Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ. Không đặt thêm danh từ ngay sau chúng.",
-      "why": "Those things are yours.\nMine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
+      "why": "Chọn “Those things are yours.”. Mine, yours, his, hers, ours và theirs thay cho cả tính từ sở hữu + danh từ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -717,7 +785,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Those things are yours.",
+        "vi": "Những thứ đó là của bạn."
+      }
     },
     {
       "id": "discover-2-grammar-u9-5-3-context2",
@@ -731,8 +803,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Whose ...?",
-      "title": "Whose ...?",
+      "focus": "Câu hỏi về sự sở hữu",
+      "title": "Câu hỏi về sự sở hữu",
       "answer": "Whose book is this? It's hers.",
       "options": [
         "Whose book is this? It's she.",
@@ -741,7 +813,7 @@
         "Whose book is this? It's her."
       ],
       "hint": "Whose đứng trước danh từ trong câu hỏi. Câu trả lời có thể dùng tính từ sở hữu + danh từ hoặc một đại từ sở hữu.",
-      "why": "Whose book is this? It's hers.\nWhose đứng trước danh từ trong câu hỏi.",
+      "why": "Chọn “Whose book is this? It's hers.”. Whose đứng trước danh từ trong câu hỏi.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -752,7 +824,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Whose book is this? It's hers.",
+        "vi": "Cuốn sách này là của ai? Đó là của cô ấy."
+      }
     },
     {
       "id": "discover-2-grammar-u9-5-4-context2-life",

@@ -53,10 +53,24 @@
       "pitch": "+0Hz"
     },
     "Tim and Rosy": {
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
+      "role": "ensemble",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz",
+      "ensemble": [
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        },
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        }
+      ]
     },
     "Max": {
       "role": "boy",
@@ -72,26 +86,26 @@
     },
     "Family": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "First speaker": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Second speaker": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Third speaker": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Teacher": {
@@ -107,10 +121,24 @@
       "pitch": "+5Hz"
     },
     "Alice and Adam": {
-      "role": "girl",
+      "role": "ensemble",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
-      "pitch": "+5Hz"
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     "Sally": {
       "role": "girl",
@@ -125,10 +153,24 @@
       "pitch": "+5Hz"
     },
     "Rosy and Grandma": {
-      "role": "grandmother",
-      "voice": "en-US-AriaNeural",
-      "rate": "-6%",
-      "pitch": "-12Hz"
+      "role": "ensemble",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "grandmother",
+          "voice": "en-US-AriaNeural",
+          "rate": "-6%",
+          "pitch": "-12Hz"
+        }
+      ]
     },
     "Children": {
       "role": "girl",
@@ -144,20 +186,20 @@
     },
     "Customer": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Café owner": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Narrator": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "PE teacher": {
@@ -222,20 +264,20 @@
     },
     "Seb's family": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Mandy's family": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Kim's family": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Friends": {
@@ -293,22 +335,50 @@
       "pitch": "+0Hz"
     },
     "Woman and her friend": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "ensemble",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
-      "pitch": "+0Hz"
+      "pitch": "+0Hz",
+      "ensemble": [
+        {
+          "role": "woman",
+          "voice": "en-US-JennyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        },
+        {
+          "role": "woman",
+          "voice": "en-US-JennyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        }
+      ]
     },
     "Woman's friend": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Man and his son": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "ensemble",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
-      "pitch": "+0Hz"
+      "pitch": "+0Hz",
+      "ensemble": [
+        {
+          "role": "man",
+          "voice": "en-US-GuyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     "Son": {
       "role": "boy",
@@ -318,14 +388,14 @@
     },
     "Townspeople": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Flores": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Farmer Flores": {
@@ -365,10 +435,24 @@
       "pitch": "-12Hz"
     },
     "Old woman and old man": {
-      "role": "grandmother",
+      "role": "ensemble",
       "voice": "en-US-AriaNeural",
       "rate": "-6%",
-      "pitch": "-12Hz"
+      "pitch": "-12Hz",
+      "ensemble": [
+        {
+          "role": "grandmother",
+          "voice": "en-US-AriaNeural",
+          "rate": "-6%",
+          "pitch": "-12Hz"
+        },
+        {
+          "role": "grandfather",
+          "voice": "en-US-RogerNeural",
+          "rate": "-7%",
+          "pitch": "-16Hz"
+        }
+      ]
     },
     "Gingerbread Man": {
       "role": "character",
@@ -413,8 +497,8 @@
       "pitch": "+5Hz"
     },
     "Jenkins": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -432,37 +516,37 @@
     },
     "Baker": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Gardener": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Cook": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Candy maker": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Recycled carton (diary)": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Perez": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -486,8 +570,8 @@
     },
     "Maki": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Cranes": {
@@ -533,20 +617,20 @@
       "pitch": "+5Hz"
     },
     "Michael Rosen (poem)": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Aileen Fisher (poem)": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Robert Louis Stevenson (poem)": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -569,8 +653,8 @@
       "pitch": "+18Hz"
     },
     "Big": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -582,8 +666,8 @@
     },
     "People": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Mr. Big": {
@@ -611,15 +695,29 @@
       "pitch": "+5Hz"
     },
     "Lisa and Marco": {
-      "role": "girl",
+      "role": "ensemble",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
-      "pitch": "+5Hz"
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     "Conductor": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Antonio Rossi": {
@@ -635,8 +733,8 @@
       "pitch": "+5Hz"
     },
     "Lombardi": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -653,14 +751,14 @@
       "pitch": "+0Hz"
     },
     "Anderson": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Washington": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -671,15 +769,15 @@
       "pitch": "+5Hz"
     },
     "Rodriguez": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Neighbors": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Mrs. Anderson": {
@@ -701,16 +799,30 @@
       "pitch": "+0Hz"
     },
     "Juan (journal)": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Fernando and Pepe": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
+      "role": "ensemble",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz",
+      "ensemble": [
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     "Javier": {
       "role": "boy",
@@ -732,14 +844,14 @@
     },
     "Paleontologist": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Reporter": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Child narrator": {
@@ -767,15 +879,15 @@
       "pitch": "+0Hz"
     },
     "Patrick": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     "Farmers": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Farmer François": {
@@ -827,8 +939,8 @@
       "pitch": "+5Hz"
     },
     "Clark": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -840,14 +952,14 @@
     },
     "City council head": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Council members": {
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     "Mr. Clark": {
@@ -863,8 +975,8 @@
       "pitch": "+0Hz"
     },
     "Kendall": {
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -1475,12 +1587,26 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "32c6c51c282280f222a7",
+      "id": "83730a466989dbbbda00",
       "text": "Ah, thank you!",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
+      "role": "ensemble",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz",
+      "ensemble": [
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        },
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        }
+      ]
     },
     {
       "id": "4b31c035cc05784b93cd",
@@ -1835,11 +1961,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "fe2b424ab2505566aa3d",
+      "id": "e430ecff6e37c15bf503",
       "text": "Surprise!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -1907,59 +2033,59 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "3bf7c9deb7ab6b2b8323",
+      "id": "baab0b66f008127b1e89",
       "text": "In my lunch box I've got a cheese sandwich and a banana. I've got an orange. I haven't got a biscuit. I haven't got a drink today.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "2632f9f732504f42bf39",
+      "id": "44b04d12a2a67401061e",
       "text": "In my lunch box I've got a cheese and tomato sandwich. I haven't got a banana but I've got an apple. I've got a drink today.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b9274444f0d7e04613a7",
+      "id": "f19c87a8e850a8b9e55b",
       "text": "I've got a pear and a biscuit in my lunch box. I've got two sandwiches. They're egg. My drink is water. I haven't got an apple today.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "a310b89f0abd2d21599d",
+      "id": "ab5681fb6c42115c9796",
       "text": "I haven't got a banana but I've got an",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "7189e98b6359fd48cfbf",
+      "id": "25fa978b1ae0fbabd12f",
       "text": "I haven't got a banana but I've got an apple.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "9993b6583504ffb9269d",
+      "id": "7b5ed101a3623ccc1c67",
       "text": "I haven't got a",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "259537cbecf132699003",
+      "id": "77056bc7fcf3d8ec456c",
       "text": "I haven't got a biscuit.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -2131,12 +2257,26 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "b5ff432983896efa6456",
+      "id": "ab29526c717b11d11663",
       "text": "We're brother and sister.",
-      "role": "girl",
+      "role": "ensemble",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
-      "pitch": "+5Hz"
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     {
       "id": "4fdbed59e0e390e6f296",
@@ -2603,12 +2743,26 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "890d221280ac5abe1f28",
+      "id": "c2b26710a198da964b59",
       "text": "Oh, Billy!",
-      "role": "grandmother",
-      "voice": "en-US-AriaNeural",
-      "rate": "-6%",
-      "pitch": "-12Hz"
+      "role": "ensemble",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "grandmother",
+          "voice": "en-US-AriaNeural",
+          "rate": "-6%",
+          "pitch": "-12Hz"
+        }
+      ]
     },
     {
       "id": "a4e420035d5ba86519c2",
@@ -3299,163 +3453,163 @@
       "pitch": "-16Hz"
     },
     {
-      "id": "ecc613e00236443271c3",
+      "id": "0149b1bae8368486d663",
       "text": "One pizza and one banana milkshake, please.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "a1fb2398f10318c60a98",
+      "id": "40a2d9bc8638eaa446fe",
       "text": "We haven't got much food now. Sorry, it's late.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b9ac0c2f6508c957c73b",
+      "id": "c17636fcb94bf9a69d77",
       "text": "Have you got tomatoes?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "478859f497e34b78ee15",
+      "id": "ea36c5fb8eb90ceee63b",
       "text": "No, sorry. We haven't got tomatoes now.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f4baa44b615dda73291b",
+      "id": "4f775ecbabca4e7a19e0",
       "text": "Have you got chicken? Or what about olives?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "033bb31327efe0390172",
+      "id": "5e0fc465ab514a0f27cc",
       "text": "No, we haven't got chicken. And we haven't got olives. You're too late.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ed37bd252ef556d4be5b",
+      "id": "26dd97213ccb3193b657",
       "text": "Oh no! And my milkshake? Have you got bananas?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "459b0bb92ad0600ffc54",
+      "id": "2b50452e9b693c83ae00",
       "text": "Yes, we've got lots of bananas.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ef65b71286dc03d2d7a3",
+      "id": "f8edeba4ae7d6e64f920",
       "text": "Oh good! One banana milkshake and one banana pizza, please!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "8d23c8e138a2a3686742",
+      "id": "690c86b66b818a60f481",
       "text": "A banana pizza?! Are you sure?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ac4c221d05a07594b64f",
+      "id": "6e6ecda9f0a11ceb3deb",
       "text": "Yes, please. Look! I've got a banana pizza! It's my new favourite!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f96e3accecd271b929d7",
+      "id": "ba89b7602f2342d3fa4c",
       "text": "One",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "9084b6d65645f4aa08a1",
+      "id": "2c2262fdd826fa213fa0",
       "text": "and one banana milkshake, please.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f775e4e20c8e27b6eeaa",
+      "id": "0b23e467385e16d5dbd7",
       "text": "One pizza and one banana",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ee02a51a42d948ac4ba0",
+      "id": "e69fc94f8e5a4cac0762",
       "text": ", please.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "a12ea9080d2a6f9a405e",
+      "id": "fda07d151aa727ec0793",
       "text": "Have you got",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "cfe29210cd30ccd29cc5",
+      "id": "96cf2850ac4f64d738df",
       "text": "Have you got chicken?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "8e354d2fda609755455b",
+      "id": "f93a050120ff58f02698",
       "text": "Have you got bananas?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "494f155e271afc1898ed",
+      "id": "9759b51aa62b7f53a8ae",
       "text": "One pizza and one",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "3a6fbbc24bf37eab0716",
+      "id": "619be6abd389a6bea014",
       "text": "milkshake, please.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -3611,27 +3765,27 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "cd6afe468669a55ee2f3",
+      "id": "6d4b1abd905632ede619",
       "text": "One banana milkshake and one",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "047f81c8f42310b2237f",
+      "id": "57453ac95d8b33116575",
       "text": ", please!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "662310249f169bc12be2",
+      "id": "b3a5dab6740b1bcb3cde",
       "text": "One banana milkshake and one banana pizza, please!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -3667,11 +3821,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "1c58c5bf198761953bb5",
+      "id": "55415129140042975140",
       "text": "On Thursday.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5195,59 +5349,59 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "9c8525c79a1c178a1b6c",
+      "id": "b55478090614e085871f",
       "text": "We live in families. People in families help each other. They love each other, too. Not all families are the same. There are many kinds of families. Meet Seb. He's seven years old. Seb's family is big. He lives with his mother, father, three brothers, and two sisters.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "5962b8b207f6ef6cbdc6",
+      "id": "34f40a25670e5f34c557",
       "text": "We work together.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "06229516016a9d097280",
+      "id": "fcca90fd7747fb7b01c6",
       "text": "This is Mandy. She's eight years old. She has one brother. They live with their grandmother and grandfather.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4de25ab7320112607aa5",
+      "id": "18f4cd9b5f408c8da4aa",
       "text": "We go places together.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "32f48aaff15125def983",
+      "id": "f9080bf3b4c9b14e8321",
       "text": "This is Kim. She's six years old. Her family is small. She lives with her mother.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "efc18ddc39e01eb3b806",
+      "id": "7baf4efc7741055b0cb1",
       "text": "We spend time together.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ebe620dfe05e9f7fd7b0",
+      "id": "56b29245f162f1327ca2",
       "text": "Which family is like your family? Friends are also important. Friends have fun together, and they help each other, too. Seb, Mandy, and Kim are good friends. They go to school together. They play together every day.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5259,19 +5413,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "17266afa59a9a06e93df",
+      "id": "d0610bcb18b827d43538",
       "text": "Who are your good friends?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4e0f59a29d78a3d9dcb7",
+      "id": "6c3f5c7fa214e101bc86",
       "text": "Elliot is a sad and lonely little elephant. He can't find his family. He walks and walks. He sees some tortoises.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5299,11 +5453,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "ab75e46eeb8f34f5bf19",
+      "id": "d209eb88a24d17a02c25",
       "text": "They walk and walk. They see some zebras.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5323,11 +5477,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "c9d77e4b93551ee3d419",
+      "id": "bec08dde82f406e950d5",
       "text": "The zebras see Elliot and Tuti. The zebras are scared and they run away. Tuti is Elliot's new friend. They eat together and they play together. Then they walk and walk again. They see some lions.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5339,11 +5493,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "096cf215146ae1f4f4bc",
+      "id": "a57fe370358725132603",
       "text": "The lions see Elliot and Tuti. Elliot and Tuti are scared and they run away. It's nighttime. They sleep side by side. The next day, they walk and walk again. They see some elephants.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5355,11 +5509,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "9c6098a05282df8d02bb",
+      "id": "bbbbcef9ef49df303a73",
       "text": "Now Elliot has a family and a friend.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5379,11 +5533,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "9becb6eff3b9608eaa83",
+      "id": "c69380c8d702e4803dc0",
       "text": "Hans and his wife, Ann, and their daughter, Olga, walk to a town. They see a woman.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5403,11 +5557,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "9338a70b304871ad3980",
+      "id": "37fceeda2da3f9513d93",
       "text": "They see a man.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5427,20 +5581,34 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "5bae635012cb6baadf12",
+      "id": "9ad09790b2f8ccf63b27",
       "text": "The family has a big pot. Hans puts water in it. Ann and Olga look for stones. They each find four stones and put them into the pot.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "0d98d6de52e3c413f48a",
+      "id": "3f8c1bf0e446285f80b9",
       "text": "What's that? ask the woman and her friend.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "ensemble",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
-      "pitch": "+0Hz"
+      "pitch": "+0Hz",
+      "ensemble": [
+        {
+          "role": "woman",
+          "voice": "en-US-JennyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        },
+        {
+          "role": "woman",
+          "voice": "en-US-JennyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        }
+      ]
     },
     {
       "id": "535638c257f7f71e8ec5",
@@ -5459,28 +5627,42 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "2b49d204cd12cdb5bb57",
+      "id": "174a829a485bf4a2d2c9",
       "text": "I have seven, says her friend.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4205d7d83e77db4c10a9",
+      "id": "c25866d4a7a0c0f0c0a1",
       "text": "They put the potatoes into the pot.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4d1afc9eba9a82e3a961",
+      "id": "1247abc09ed004b882a8",
       "text": "What's that? ask the man and his son.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "ensemble",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
-      "pitch": "+0Hz"
+      "pitch": "+0Hz",
+      "ensemble": [
+        {
+          "role": "man",
+          "voice": "en-US-GuyNeural",
+          "rate": "+0%",
+          "pitch": "+0Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     {
       "id": "af1ddb86f0654e6c8918",
@@ -5507,51 +5689,51 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "c4c0e8a3e962ef1c6ab8",
+      "id": "98a267a6e6982581ace2",
       "text": "They put the sausages into the pot. Later, the people from the town smell the soup and come out to look.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b0a4d15d6768e81100c4",
+      "id": "36fa4bac44dd13e6f097",
       "text": "We have onions. We have carrots, they say, and put them into the pot.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "6105bcd8fd5ea45e9c1b",
+      "id": "cd4356d2c06e5a3f617e",
       "text": "Everyone eats some soup.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "94a063d93890deb06ffd",
+      "id": "429289dc609034619448",
       "text": "We didn't have enough food, say the people. But we added our food together and now we all have tasty soup!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "d78b6e9c56478bf57adf",
+      "id": "651ffc8aa6e85f0df994",
       "text": "Tomas Flores is a farmer. He doesn't have a lot of money. He grows carrots, potatoes, and onions. He and his wife, Rosa, work hard every day. Farmer Flores has a cow. It gives lots of milk every day. Mrs. Flores sells the milk at the market in town. One day, Mrs. Flores comes home from town. She's very excited.\n\nMrs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "de0f67b6acbf88757e37",
+      "id": "1a07a32fd285921d8e7e",
       "text": "There's a dance in town on Saturday. Can we go?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5563,11 +5745,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "a90074e53c9f19ab1fcc",
+      "id": "65602baf9ce6847f702d",
       "text": "His wife is very sad. The next day, Farmer Flores has an idea. He takes the cow to town and sells it at the market. He buys a very fancy hat for himself and a beautiful dress for his wife. He runs home. He puts on the fancy hat. He gives his wife the beautiful dress.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5579,19 +5761,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "397fbd31c840ddc60cfd",
+      "id": "794377f4b2160bdb12b4",
       "text": "His wife is angry!\n\nMrs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "37280d8c300077186775",
+      "id": "ac7ac45d249c60f943e8",
       "text": "Our cow gives us milk every day! she says. We sell the milk. We get money to buy food!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5603,11 +5785,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "da8d88a7af98309ae71c",
+      "id": "f7d3285cf1cbce2a82d9",
       "text": "Can we eat the fancy hat and the beautiful dress? Mrs. Flores asks.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5619,11 +5801,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "788d247e66cecdb47330",
+      "id": "38d38bffdd8bc5bdcbd7",
       "text": "Farmer Flores takes the dress and the hat back to the market. He buys his cow back.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5635,11 +5817,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "bec1cfc7bc2a7f41b06f",
+      "id": "644fc1b63355b1dceca1",
       "text": "Tomas Flores is a farmer. He doesn't have a lot of money. He grows carrots, potatoes, and onions. He and his wife, Rosa, work hard every day. Farmer Flores has a cow. It gives lots of milk every day. Mrs. Flores sells the milk at the market in town. One day, Mrs. Flores comes home from town. She's very excited.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5651,11 +5833,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8ea1177971a3b4ea281f",
+      "id": "1bf4ff9fe25109cf0f84",
       "text": "His wife is angry!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5683,11 +5865,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "9e6740a1fea3a9048a9c",
+      "id": "2e1ebf9f837949b12ff5",
       "text": "City Mouse lives in the city.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5699,11 +5881,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "341942eaf706a3b3f4ef",
+      "id": "64e17bd859b77a69f2e9",
       "text": "City Mouse flies to the country. Country Mouse runs to him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5723,11 +5905,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "e7672a7142f4263812bf",
+      "id": "8e5cfe125541bea85419",
       "text": "They go to the cornfield and eat some corn. Then they go to the orchard and eat some apples.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5739,11 +5921,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "b0667b79b4ed39cb0b58",
+      "id": "f1c3ede1b5d1d52f6b47",
       "text": "It's bedtime and they're tired. They sleep in an old barn. The next morning, they walk to the pond.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5763,11 +5945,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "a94ba6ac6219e20f5698",
+      "id": "7f31303f6c5063fb9115",
       "text": "City Mouse and Country Mouse take a train to the city. They go to a movie theater, a department store, and a restaurant. They eat cheese and cookies.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5779,11 +5961,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "cd66f082b9ced82aaa0c",
+      "id": "64fd44c110b8b7b47c5e",
       "text": "It's bedtime and they're tired. They sleep in a new hotel. The next morning, they hear a loud noise.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5795,11 +5977,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "0fd98411d2524dbc51a6",
+      "id": "ed2afd40e6a3d7050ffd",
       "text": "City Mouse and Country Mouse run and run until they are safe.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5819,11 +6001,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6b7cec3be277fa815e94",
+      "id": "e34b049f7dcbf2e7fee3",
       "text": "The two mice say goodbye and go home happy.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5835,11 +6017,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "55be99e71a5f441e8e0e",
+      "id": "538130dc2ca13884429d",
       "text": "One day, an old woman makes a gingerbread man cookie. She bakes it in the oven.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5851,27 +6033,41 @@
       "pitch": "-12Hz"
     },
     {
-      "id": "90b657dc5da9cb19ac9f",
+      "id": "f5cf901ea18a89ec5680",
       "text": "The old woman opens the oven door. The gingerbread man jumps up and runs out the door!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "058f543a467a0ec2bfda",
+      "id": "700139b0d92cc309c1a9",
       "text": "Stop! Don't run away! We want to eat you!",
-      "role": "grandmother",
+      "role": "ensemble",
       "voice": "en-US-AriaNeural",
       "rate": "-6%",
-      "pitch": "-12Hz"
+      "pitch": "-12Hz",
+      "ensemble": [
+        {
+          "role": "grandmother",
+          "voice": "en-US-AriaNeural",
+          "rate": "-6%",
+          "pitch": "-12Hz"
+        },
+        {
+          "role": "grandfather",
+          "voice": "en-US-RogerNeural",
+          "rate": "-7%",
+          "pitch": "-16Hz"
+        }
+      ]
     },
     {
-      "id": "b7ae429629359ee8ce1a",
+      "id": "77c0a2d86f18e2e2d944",
       "text": "The old woman and old man chase the gingerbread man. He should run fast!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5883,11 +6079,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "6cc7ab13f77eb9fd24de",
+      "id": "552fa6a5c0f10be4d085",
       "text": "The gingerbread man sees a chicken in the yard.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5899,51 +6095,51 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "9f77bc7881c141e60a12",
+      "id": "b6a63e530cf9d9488e41",
       "text": "The old woman, old man, and the chicken all chase the gingerbread man. But he's too fast.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "83ed341510465581edd3",
+      "id": "1805a6f8b41fec73ae23",
       "text": "He sees a cow in a grassy field.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "94581b57f6e7200ef3b4",
+      "id": "ab847dfe2690ef1075de",
       "text": "The old woman, old man, chicken, and the cow all chase the gingerbread man. But he's too fast.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "7cc55b7a1a16f2032be8",
+      "id": "708670fc0c06246060a8",
       "text": "He sees a horse next to a tree.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fa7e6246b698729f90f6",
+      "id": "22d8f7ccb268b7012a5f",
       "text": "The old woman, old man, chicken, cow, and the horse all chase the gingerbread man. But he's too fast.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "bc4d70396bc9f9237e56",
+      "id": "123f08e854bf4a1d5307",
       "text": "The gingerbread man comes to a river. He should swim across it!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5955,11 +6151,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "29679a394443e257c3ad",
+      "id": "01eaabb65625b72eae62",
       "text": "The gingerbread man sees a fox. He shouldn't talk to the fox!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5979,11 +6175,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "7ffae706a6e8fb6ed7db",
+      "id": "12e3ab659dcab782a56a",
       "text": "The gingerbread man jumps on the fox's nose. The fox throws the gingerbread man up in the air and",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -5995,11 +6191,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "3f9755622aebf117da82",
+      "id": "51033adbe2836d7581d9",
       "text": "And that's the end of the gingerbread man!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6027,166 +6223,6 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "b5b9ba9c7f0eaa9ef7fa",
-      "text": "What's wrong? Why is everyone so sad?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4d7f7e8e2520c1af0a4a",
-      "text": "It was our job to bring the ice cream for the party, but it melted. Now we can't have ice cream.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "00d2ec9d876c19cf339e",
-      "text": "Sure you can. You can make ice cream. I can teach you.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "057d00218834ef64c91e",
-      "text": "Yippee.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "7f57468691f13cdedc49",
-      "text": "Okay kids, get big and small plastic bags, cream, sugar, vanilla, and salt. Then come to my classroom.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "876dc7c64283e0a44c10",
-      "text": "Ready, Mr. Jenkins?\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "39740e8bda6c5c657e37",
-      "text": "My freezer was closed all night, so I have ice. Now let's make ice cream.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "29450f40ed63fa541c2e",
-      "text": "Yes, let's make ice cream.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "0f2e2fd7481117f7e659",
-      "text": "Mix the sugar and vanilla and cream.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "c0a160e06b92996a7273",
-      "text": "Mix the sugar and vanilla and cream, done.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "a769d56f424c120eaf59",
-      "text": "Pour the cream, sugar, and vanilla mixture into the small bag.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "88b1150ab1a1ca0d7fc1",
-      "text": "Pour the cream, sugar, and vanilla mixture into the small bag, done.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "ccbca3fb40895642cd03",
-      "text": "Put the salt and the ice cubes into the big bag.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4dae88869289a173f095",
-      "text": "Put the salt and the ice cubes into the big bag, done.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "29e02e9d9f2c28c96da9",
-      "text": "Now put the small bag in the big bag.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "5a5e15926d9dc1f57b26",
-      "text": "Put the small bag in the big bag, done.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "ffcdc31df59789e594da",
-      "text": "Now shake, shake, shake. What do you have?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "45e4b0c3a4090ab2c242",
-      "text": "Hey, look, we have ice cream and we didn't use a freezer. How is the ice cream, Mr. Jenkins?\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "bff4d80ba92eda77d557",
-      "text": "It's great, can I have some more?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "9a21c5430e9558fe3be8",
-      "text": "Yes, it was. It was open all night. Now there's no ice cream for the party.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
       "id": "32c2f342a12006312885",
       "text": "What's wrong? Why is everyone so sad?",
       "role": "man",
@@ -6195,8 +6231,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b4aa7d205e3567a9b8c0",
-      "text": "It was our job to bring the ice cream for the party, but it melted. Now we can't have ice cream.",
+      "id": "4d7f7e8e2520c1af0a4a",
+      "text": "It was our job to bring the ice cream for the party, but it melted. Now we can't have ice cream.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6211,8 +6247,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b785acc2c4d783c60069",
-      "text": "Yippee.",
+      "id": "057d00218834ef64c91e",
+      "text": "Yippee.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6227,8 +6263,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "467318ab2b05eb51cc17",
-      "text": "Ready, Mr. Jenkins?",
+      "id": "876dc7c64283e0a44c10",
+      "text": "Ready, Mr. Jenkins?\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6243,8 +6279,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "0b6ad647104a0d250454",
-      "text": "Yes, let's make ice cream.",
+      "id": "29450f40ed63fa541c2e",
+      "text": "Yes, let's make ice cream.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6259,8 +6295,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "471c0e3455c8a9f0cf6b",
-      "text": "Mix the sugar and vanilla and cream, done.",
+      "id": "c0a160e06b92996a7273",
+      "text": "Mix the sugar and vanilla and cream, done.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6275,8 +6311,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "4b291d8e85381c7bf621",
-      "text": "Pour the cream, sugar, and vanilla mixture into the small bag, done.",
+      "id": "88b1150ab1a1ca0d7fc1",
+      "text": "Pour the cream, sugar, and vanilla mixture into the small bag, done.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6291,8 +6327,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "29927174461573840456",
-      "text": "Put the salt and the ice cubes into the big bag, done.",
+      "id": "4dae88869289a173f095",
+      "text": "Put the salt and the ice cubes into the big bag, done.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6307,8 +6343,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "23fb83e607878133d175",
-      "text": "Put the small bag in the big bag, done.",
+      "id": "5a5e15926d9dc1f57b26",
+      "text": "Put the small bag in the big bag, done.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6323,8 +6359,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "1ff8e1fddba8712945b0",
-      "text": "Hey, look, we have ice cream and we didn't use a freezer. How is the ice cream, Mr. Jenkins?",
+      "id": "45e4b0c3a4090ab2c242",
+      "text": "Hey, look, we have ice cream and we didn't use a freezer. How is the ice cream, Mr. Jenkins?\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6337,6 +6373,86 @@
       "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
+    },
+    {
+      "id": "9a21c5430e9558fe3be8",
+      "text": "Yes, it was. It was open all night. Now there's no ice cream for the party.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "b4aa7d205e3567a9b8c0",
+      "text": "It was our job to bring the ice cream for the party, but it melted. Now we can't have ice cream.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "b785acc2c4d783c60069",
+      "text": "Yippee.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "467318ab2b05eb51cc17",
+      "text": "Ready, Mr. Jenkins?",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "0b6ad647104a0d250454",
+      "text": "Yes, let's make ice cream.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "471c0e3455c8a9f0cf6b",
+      "text": "Mix the sugar and vanilla and cream, done.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "4b291d8e85381c7bf621",
+      "text": "Pour the cream, sugar, and vanilla mixture into the small bag, done.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "29927174461573840456",
+      "text": "Put the salt and the ice cubes into the big bag, done.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "23fb83e607878133d175",
+      "text": "Put the small bag in the big bag, done.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "1ff8e1fddba8712945b0",
+      "text": "Hey, look, we have ice cream and we didn't use a freezer. How is the ice cream, Mr. Jenkins?",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
     },
     {
       "id": "e739c1d1077ed32267cf",
@@ -6467,227 +6583,91 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "a0843b5c5f75decbd840",
+      "id": "3a10c8dfae8125d07fed",
       "text": "A monkey called Bandar lived in the woods near a small town. One day Bandar was bored and decided to go into the town. Bandar went to a bakery and saw thirty beautiful cookies. He stole a cookie and ate it. It was good. He ate more and more cookies. The baker saw Bandar and chased him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4c0411446c1c465dd053",
+      "id": "2a29dca0c65d5b122cb3",
       "text": "You greedy little monkey! he cried. Now there are only fifteen cookies!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "61fd83be43ab8d2aad81",
+      "id": "66a50b033fd03da56ed5",
       "text": "Bandar ran up a tree and hid in the leaves. When he looked down, he saw sixty small carrots in a garden. When the gardener wasn't looking, Bandar ran down the tree, dug up a carrot and ate it. It was good. He ate more and more carrots. The gardener saw Bandar and chased him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "bae451b618361391a7dc",
+      "id": "8cf63e2ee26c13155ef2",
       "text": "You greedy little monkey! Now there are only forty-four carrots!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "e430db2e890508d022e3",
+      "id": "8cbedaeb1fe16bb36f1c",
       "text": "Bandar went to a restaurant and saw forty-two sausages. He stole a sausage and ate it. It was good. He ate more and more sausages. The cook saw Bandar and chased him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "8c69edc654bec117255e",
+      "id": "5bf377e38a977797240d",
       "text": "You greedy little monkey! Now there are only thirty sausages!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "e2c2d61ddcaf03a5b2d9",
+      "id": "65ddd60d3495fc43a1f6",
       "text": "Bandar stole food all over town. Everyone was angry. They tried to catch Bandar, but he was too fast. Then the candy maker had an idea. The next day, Bandar went to the candy store. He saw two big jars of candy in every color, and it all looked good. Bandar put his hands in the jars and grabbed twenty pieces of candy. But he couldn't get the candy out of the jars. The candy maker ran in.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ce971c3cc712b7196abb",
+      "id": "1ec60d58712a2120250f",
       "text": "You greedy little monkey! Let go of the candy and you can run away!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f7690532a65f6256d879",
+      "id": "476919a1ca5ca5754144",
       "text": "So did Bandar let go of the candy? No, he didn't, and the candy maker caught him. He took him back to the woods and told him never to come to town again.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "93169eededacb83975bd",
+      "id": "41aecefb81785ba36365",
       "text": "January 15th. Dear Diary, I'm sitting on a shelf in a big store. I can see many wonderful things. The little carton in front of me has a picture of an orange on it. I think I know what I am. I'm an orange juice carton. I'm made of hard paper. January 16th. Dear Diary, this morning something great happened. A little girl looked at my shelf for a long time, and then she chose me. She's taking me to a picnic by the lake. So I hope she's very thirsty. January 17th. Dear Diary, I'm in a lake. The little girl drank the juice, but she left me in front of the lake. The wind blew me into the water. I don't like it here. There was a trash can behind the tree. Why didn't the little girl put me in it? January 18th. Dear Diary, I saw a man taking litter out of the lake with a net. He saw my bright orange carton and he rescued me. He caught me and a plastic bottle in his net. Now we're in the boat, and we aren't trash anymore. We're happy. January 19th. Dear Diary, I'm at the recycling plant. It's a little scary here because there are large machines that make loud noises. Where's my plastic bottle friend? He's across from me. He's in a bin with other plastic bottles. January 20th. Dear Diary, I'm sitting on a shelf in a stationery store. Everything here is made of paper. Yes, they recycled me into a notebook. I'm very happy and excited, and I really want to see the recycling plant again. Maybe next time, I'll be a comic book.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "d9d3896d20e19c4edf44",
+      "id": "6a863c79d52bdc62543d",
       "text": "When Olga plays her flute, she feels many things. High and slow notes make her feel happy, and the low, long notes can make her feel sleepy. When Olga plays a fast tune, she feels like she is flying. Olga’s school is having a big concert tonight. Olga plays second flute, so if the first flute player gets sick, Olga can play his or her part. Today, Olga goes to school early for extra practice. Her music teacher is waiting for her.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "03a7196a6797773c98a2",
-      "text": "Alonzo has the flu. You must play his part tonight.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "e9a398527e8e18fcb308",
-      "text": "Olga is very worried.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "a8ae1e269f7b2c287595",
-      "text": "Alonzo is the best flute player in the school. I'm not good enough.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "c40d36915c965bccf198",
-      "text": "Mr. Perez smiles.\n\nMr.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "5479c21099726c2fe24a",
-      "text": "You practice every day, Olga. Alonzo plays well, but so do you. Please try, Olga.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "35e0c9ad16505eca1f83",
-      "text": "She closes her eyes and begins to play, but this morning she feels nervous. The high notes are hard to reach, and the fast notes are difficult to play. The quiet part seems too loud. When Olga finishes, her eyes fill with tears.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "3b75d17ba440445688f8",
-      "text": "I wish I could play like Alonzo.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "0c471517fad98a05e98e",
-      "text": "Mr. Perez pushes a button on his computer, and Olga hears music. She thinks it is Alonzo’s flute solo. She imagines butterflies on the high notes. The fast notes sound like hummingbirds or rain. The low, quiet notes are like snow falling.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "6b5d9de8ac17ca2c3aee",
-      "text": "That's beautiful. I wish I played like that.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "d0e4f378286b5bd5c168",
-      "text": "Olga, I recorded you just now. That's you playing.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "00952256293103ee775c",
-      "text": "Olga is amazed.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "bc745e2501d64c205c49",
-      "text": "Do I really sound like that?",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "823fd5ba8a06ab47b3ef",
-      "text": "Mr. Perez laughs.\n\nMr.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "b473c66b33399e434e0c",
-      "text": "You should listen when you play.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "e2f294789cda123d571f",
-      "text": "I do listen, but I'm often too nervous.\n\nMr.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "27a874e9710fddef09fc",
-      "text": "Don't worry tonight. You work hard and you play well, but never forget to have fun and enjoy the music. You're a great musician.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4bc6cb11a0eb3fae6008",
-      "text": "When Olga plays her flute, she feels many things. High and slow notes make her feel happy, and the low, long notes can make her feel sleepy. When Olga plays a fast tune, she feels like she is flying. Olga’s school is having a big concert tonight. Olga plays second flute, so if the first flute player gets sick, Olga can play his or her part. Today, Olga goes to school early for extra practice. Her music teacher is waiting for her.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6699,11 +6679,27 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b6c642f487f9b42a72a3",
-      "text": "Mr. Perez smiles.",
+      "id": "c4bf5f1e3b65027bead9",
+      "text": "Olga is very worried.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "a8ae1e269f7b2c287595",
+      "text": "Alonzo is the best flute player in the school. I'm not good enough.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "38592e88e555a839ec4e",
+      "text": "Mr. Perez smiles.\n\nMr.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6715,8 +6711,32 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "7a74e21bec3748591698",
-      "text": "That's beautiful. I wish I played like that.",
+      "id": "835b5679bb917b9dbce8",
+      "text": "She closes her eyes and begins to play, but this morning she feels nervous. The high notes are hard to reach, and the fast notes are difficult to play. The quiet part seems too loud. When Olga finishes, her eyes fill with tears.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "3b75d17ba440445688f8",
+      "text": "I wish I could play like Alonzo.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "ca3e98f49804de8862dd",
+      "text": "Mr. Perez pushes a button on his computer, and Olga hears music. She thinks it is Alonzo’s flute solo. She imagines butterflies on the high notes. The fast notes sound like hummingbirds or rain. The low, quiet notes are like snow falling.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "6b5d9de8ac17ca2c3aee",
+      "text": "That's beautiful. I wish I played like that.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6731,11 +6751,27 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "fb540a7482dce046eab6",
-      "text": "Mr. Perez laughs.",
+      "id": "57550ff065be080b9b75",
+      "text": "Olga is amazed.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "bc745e2501d64c205c49",
+      "text": "Do I really sound like that?",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "5fe76ed21bfeed1178e2",
+      "text": "Mr. Perez laughs.\n\nMr.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6747,8 +6783,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "cf9535b52a3c33825b1a",
-      "text": "I do listen, but I'm often too nervous.",
+      "id": "e2f294789cda123d571f",
+      "text": "I do listen, but I'm often too nervous.\n\nMr.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -6763,11 +6799,51 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "67fbc4828b05f18386dd",
+      "id": "6c14f6349a26c09660aa",
+      "text": "When Olga plays her flute, she feels many things. High and slow notes make her feel happy, and the low, long notes can make her feel sleepy. When Olga plays a fast tune, she feels like she is flying. Olga’s school is having a big concert tonight. Olga plays second flute, so if the first flute player gets sick, Olga can play his or her part. Today, Olga goes to school early for extra practice. Her music teacher is waiting for her.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "dddce9652ce3fb386742",
+      "text": "Mr. Perez smiles.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "7a74e21bec3748591698",
+      "text": "That's beautiful. I wish I played like that.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "25b2fc675266abe2de9b",
+      "text": "Mr. Perez laughs.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "cf9535b52a3c33825b1a",
+      "text": "I do listen, but I'm often too nervous.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "7d97fd72be09c0a336f9",
       "text": "A long time ago, a family of goats lived on East Mountain. Two of the brothers, black goat and brown goat, always fought about who was the best in the family. They were very stubborn. They never said sorry or I'm wrong. One day they were on a small patch of the greenest grass on East Mountain. It was only enough for one goat.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6787,11 +6863,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "1a07bcaecd9ef0c21268",
+      "id": "85988c03d0ff26d9a395",
       "text": "They pushed each other with their horns. They pushed with the same force, so they didn't move forward or backward. They pushed for a long time, and then they both got tired and fell down. Black goat was angry, so he moved to West Mountain. There was a very narrow bridge between East Mountain and West Mountain. Every day, brown goat crossed it to drink from the coldest water in the pond on West Mountain. Every day, black goat crossed it to eat the juiciest grass on East Mountain. Brown goat always crossed early, and black goat always crossed late. One day, brown goat got up late, so both goats were on the bridge at the same time.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6811,43 +6887,43 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "ab6b62ddd5a88106a5c8",
+      "id": "9fd9162850d768e37cb7",
       "text": "They pushed each other with their horns. They pushed with the same force, so they didn't move forward or backward. They pushed for a long time, and then they both got tired and fell into the river below the bridge. The goats swam to the riverbank. Then they slowly walked home to their mountains. They were angry, tired, wet, cold, and hungry. And that's what happens to stubborn little goats.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "1c8bcfc355d238b96f96",
+      "id": "8f687e4ae89a845321a0",
       "text": "Maki woke up early. Her room was quiet. Everyone was sleeping, even her little sister, Akiko, in the bed next to hers. What could she do?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "03f6e285ec2e52da0e1e",
+      "id": "dc7e0b20cffff6cd41a5",
       "text": "I know, she thought, I can do origami.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fffad40b87b0ce0e191b",
+      "id": "85ce9d15169fd91864e0",
       "text": "On the table was some colored paper. Maki got out of bed quietly. The paper was shiny, and there were a lot of colors. Maki folded a red square, bending the paper in the middle and at the edges. She worked until it was done. Suddenly, it was a crane. The crane looked lonely, so she made another, this time a blue one. Soon, she had a whole row of origami cranes.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "f55694d88d95a75eecde",
+      "id": "4ae14916fc22c3ebee13",
       "text": "Would you like some friends? Maki asked the cranes.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6859,11 +6935,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "13bd6c0cdba98a482a9a",
+      "id": "aad8e6665bb6e8da9d58",
       "text": "You can speak? Maki laughed.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6875,11 +6951,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "a446bd6ff5b9c183954f",
+      "id": "d77173ec0a2384e8d76e",
       "text": "So Maki picked up more paper. She made an orange seal. Seals like to play, Maki knew. So she made him a purple ball.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6891,11 +6967,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "d0f70eb05f0ef62371ed",
+      "id": "563ee6379c3e3b535be4",
       "text": "They played and played until Maki had another idea. With blue paper, Maki made water, crumpling it to make waves. Maki dived into the water and swam happily with the cranes and seal. A green fish jumped through the air, but something was missing. Maki remembered her sister, Akiko. She missed her and wanted to see her. Maki saw a sailboat. The boat came near and Maki heard a voice.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6907,35 +6983,35 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "8cad191dd0131171b136",
+      "id": "c1252b547543b7df5fab",
       "text": "Maki looked up, it was her sister's voice. Akiko was awake and looking for her in the origami world. She climbed into the sailboat.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fce2d8a5590b5620478b",
+      "id": "1f05b4973e453df3c34b",
       "text": "Hello, Akiko, she said.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "eef885679712513eae21",
+      "id": "b2fb882a2f5f59da78d8",
       "text": "Her new friends looked at her from the water, smiling. In Maki's hands was one last piece of paper, it was golden. Maki folded it, threw it high into the air, and made a big round sun.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "3a133ec2a893b5d5942a",
+      "id": "ad2a460c947717a40fa3",
       "text": "High up on Antuco Mountain, Carlos kicks his red rubber ball so hard that it flies high in the sky like a shooting star. Far across the world, Ashanti is playing Da Ga with her friends. It's Ashanti's turn to be Da Ga, the boa constrictor, so she goes into the center of the circle. Her friends dance and skip around her while she acts like a snake and tries to tag the next Da Ga. It's fun to catch them! Ashanti is tagging a friend when something red drops out of the sky into the circle.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6947,11 +7023,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "4b1285aa6c6c2a9fad3c",
+      "id": "024562f3c38cd564620f",
       "text": "Ashanti laughs. She bounces the ball as hard as she can. It flies high and fast across the sky until she can't see it anymore. It flies over a forest, white cliffs, and a big blue ocean. Far away, Hyo and his brother are playing Omok. Hyo plays with little dark pebbles, and his brother plays with little white ones. Hyo tries to line up five of his stones to win. Winning isn't easy! Hyo is finding the perfect place to put his stone when something red rolls into the middle of the game.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6963,11 +7039,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "87c9fcf1c75b7ac2425f",
+      "id": "449d030e57402b161cd4",
       "text": "Hyo smiles. Then he throws the ball as hard as he can. It flies far into the sky, over plains and seas. The Fernandez family is playing La Thunkuna. Papa draws boxes in the sand. Mama writes names in the boxes, one for each day of the week. Matias tosses a stone and Maria jumps over it. She lands in the next box without stepping on the line. Maria likes landing on one foot, and she puts her arms out to keep her balance. Something round bounces on her foot.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6979,11 +7055,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "9c36aba4ac0cef40a1ea",
+      "id": "34cfb06b9249a78733bf",
       "text": "Everyone laughs. Maria tosses the ball in the air and Matias kicks it up into the sky. The whole family watches as the ball goes up and up until they can't see it anymore. High in the sky, the ball flies over lakes, canyons, and streams. Carlos holds out his arms and catches his red rubber ball.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -6995,75 +7071,75 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "1629c0258de1d3d051be",
+      "id": "6b8dee64d0f47792b089",
       "text": "People write poems to share what they see. They want us to feel the joy or sadness that they feel. The following three poets come from two countries: the United States and the United Kingdom. However, the language they use is the same: English. Michael Rosen is a British children's book writer and poet. He enjoys writing poetry and reading it aloud with his children. Michael Rosen and his daughter are eating at a table. One day, a raisin escapes! It seems to run away from its jar.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "8f952f38adfc6f7fb769",
+      "id": "628d7980ac81869e3fe1",
       "text": "A Dangerous Raisin (but my daughter Elsie is helpful). A raisin has escaped from the raisin jar. It's whooshing across the table like a shooting star. Now it's leaping in the air like a kangaroo. Look out, Dad! It's coming for you!",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "d1c2264c43cba4ed9cc0",
+      "id": "1514d5884e1e7450b91d",
       "text": "Michael Rosen writes very creative poems. His poem Color encourages children to be creative, too.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "14272945b7030a4bcdc4",
+      "id": "48ed446e338561735aee",
       "text": "Color. Take a brush. The sky is green. The grass is blue. You are purple. The house is silver. The sun is black. The river is gold. The world has changed. Did you do that?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "951ad1e203724a1c1d23",
+      "id": "3f942544caaec8db88b3",
       "text": "Aileen Fisher was an award-winning American children's poet, book writer, and playwright. She loved nature and liked to go hiking and mountain climbing. Do you like grasshoppers and beetles? Aileen Fisher loved to write about insects.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "281916630f6554e01c7d",
+      "id": "3ad51334c7c26bbade0e",
       "text": "But I Wonder. The crickets in the thickets and the katydids in trees, and ants on plants and butterflies and ladybugs and bees don't smell with little noses, but with feelers, if you please. They get along quite nicely, but I wonder how they sneeze.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "woman",
+      "voice": "en-US-JennyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "67c085a439c074033b33",
+      "id": "fe15133c7a49876cbab3",
       "text": "Robert Louis Stevenson was a famous Scottish poet and book writer who lived in the 1800s. He wrote many books, including the famous Treasure Island. Do you notice how winter days are short and summer days are long? Robert Louis Stevenson noticed it, too, and wrote about it in his poem Bed in Summer.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "8e682ee4de2225aad3ab",
+      "id": "5bc72a7e2c0165938285",
       "text": "Bed in Summer. In winter I get up at night and dress by yellow candlelight. In summer, quite the other way, I have to go to bed by day. I have to go to bed and see the birds still hopping on the tree, or hear the grown-up people's feet still going past me in the street. And does it not seem hard to you, when all the sky is clear and blue, and I should like so much to play, to have to go to bed by day?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ef5fa17324f48a036ed9",
+      "id": "79d5ff59d3ba023a5812",
       "text": "Molly's mother was worried. As she packed for her business trip to Japan, Molly stood beside her with a notebook and a pencil.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7115,11 +7191,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "2a587ec4df9c9487d58b",
+      "id": "327634b697a85762c121",
       "text": "Soon, Molly's mother left for the airport. The next morning, Molly's father came to the breakfast table. He didn't look well.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7171,11 +7247,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "4201cbe88bbb1f6acd5d",
+      "id": "befcba8077a1a05498d9",
       "text": "Molly looked at the kitchen clock. It was 9 a.m. Should she call her mom? What time was it in Japan? She remembered what her mother told her the day before. Tokyo is 16 hours ahead of Los Angeles. Molly added some numbers in her notebook. It was one o'clock in the morning in Tokyo. Her mom was asleep. Molly sent a text message to her mother.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7187,11 +7263,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "53f0885be68af61d02ce",
+      "id": "8e9e9f887e2fa66e3bd0",
       "text": "Molly's messages continued through the day.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7203,11 +7279,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "19995ec74fac188e68a5",
+      "id": "cd8a265c10f3c115d3ba",
       "text": "At five in the afternoon, the phone rang. Molly picked it up.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7259,11 +7335,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8dda67109c65f42f7a3c",
+      "id": "9a8b631a91cd1c4c2541",
       "text": "Hector Morales was not your normal nine-year-old boy.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7291,18 +7367,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "c86d84cabf06f4760eb5",
+      "id": "7f20b5b80d983985efa3",
       "text": "The phone rang. It was Mr. Big from the Big Company.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "effc1419de2c2107764e",
+      "id": "f8fbe6ebab7a88c7fe25",
       "text": "Hector, our company needs to find ways to save energy. Can you help us?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7315,11 +7391,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "9dd8cec43fdbbb2a5779",
+      "id": "7e091f83007710919bbd",
       "text": "After breakfast, Hector quickly put on his mask and cape, made from old curtains from Uncle Jack's bedroom. He ran outside to his bicycle, Lightning. Lightning was not an ordinary bicycle. It had bells, recycled whistles, and fancy buttons. It had pedals made out of old potato mashers and a seat made from an ironing pad.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7331,11 +7407,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "7f498c858bef55e726eb",
+      "id": "d231dcc1b8bcdc56feb0",
       "text": "The boy and bicycle sped off into the city. On the way, Hector noticed that something was wrong. A long line of cars, trucks, and taxis stood still on the road. It was a traffic jam. Hector saw an ambulance stuck among the cars. He rode Lightning along the bicycle path and up to the ambulance.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7355,11 +7431,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "43eb601442d7c20ff58c",
+      "id": "2e1a53a9994a9d4e8461",
       "text": "Hector pressed a button on Lightning. Bang, wham, Lightning was now a helicopter. He connected a cable from Lightning to the ambulance. Hector jumped on the bike and began to pedal. The blades that once held an umbrella together were spinning up in the air. The helicopter went high into the sky, carrying the ambulance with it. As they went over the cars, Hector shouted to the people below.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7371,107 +7447,19 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "4fb40d3cab690bf64f8f",
+      "id": "38ed2a9f0780c6c601f6",
       "text": "Thank you, Hector.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "5788688dacf4cca529e2",
+      "id": "66df8fb758dd17b6ca40",
       "text": "After he dropped off the ambulance at the hospital, Hector rode Lightning to the big company. Elevators and escalators were everywhere, carrying people up and down.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "8ed15a4afca74335b404",
-      "text": "Thank you for coming, Hector. My company needs lights and elevators, but they use a lot of energy.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "84520a45ea63759484a8",
-      "text": "Let's go to the roof, Mr. Big.\n\nMr.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
-    },
-    {
-      "id": "fb7490350a1122615054",
-      "text": "But there's nothing on the roof.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "37fc074b36929d8646ef",
-      "text": "Exactly.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
-    },
-    {
-      "id": "a6de329f7033daeeeb0b",
-      "text": "The roof was hot and sunny.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "5a5819b3c5411ba9623e",
-      "text": "The sun gives us lots of heat and energy. You can put solar panels on your roof. They'll make electricity to help run your lights and elevators. Solar water heaters can give your company hot water for washing and cleaning. You can be an energy saver too.\n\nMr.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
-    },
-    {
-      "id": "152947f435eaba4cc481",
-      "text": "Excellent ideas, Hector. You're a hero.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "76ed3384c42c319329a9",
-      "text": "I'm just happy to help our planet. And now I must go to help others save energy. Goodbye, Mr. Big.",
-      "role": "boy",
-      "voice": "en-US-EricNeural",
-      "rate": "+4%",
-      "pitch": "+18Hz"
-    },
-    {
-      "id": "006e001ca0ed4d03e72c",
-      "text": "The phone rang. It was Mr. Big from the Big Company.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "f8fbe6ebab7a88c7fe25",
-      "text": "Hector, our company needs to find ways to save energy. Can you help us?",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "01c22d632df63006b049",
-      "text": "After he dropped off the ambulance at the hospital, Hector rode Lightning to the big company. Elevators and escalators were everywhere, carrying people up and down.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7483,8 +7471,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ecf16978208cd0fe0bd6",
-      "text": "Let's go to the roof, Mr. Big.",
+      "id": "84520a45ea63759484a8",
+      "text": "Let's go to the roof, Mr. Big.\n\nMr.",
       "role": "boy",
       "voice": "en-US-EricNeural",
       "rate": "+4%",
@@ -7499,8 +7487,24 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "91c67960e4386eb87957",
-      "text": "The sun gives us lots of heat and energy. You can put solar panels on your roof. They'll make electricity to help run your lights and elevators. Solar water heaters can give your company hot water for washing and cleaning. You can be an energy saver too.",
+      "id": "37fc074b36929d8646ef",
+      "text": "Exactly.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "f27f7597767f23aee6a2",
+      "text": "The roof was hot and sunny.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "5a5819b3c5411ba9623e",
+      "text": "The sun gives us lots of heat and energy. You can put solar panels on your roof. They'll make electricity to help run your lights and elevators. Solar water heaters can give your company hot water for washing and cleaning. You can be an energy saver too.\n\nMr.",
       "role": "boy",
       "voice": "en-US-EricNeural",
       "rate": "+4%",
@@ -7513,6 +7517,46 @@
       "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
+    },
+    {
+      "id": "76ed3384c42c319329a9",
+      "text": "I'm just happy to help our planet. And now I must go to help others save energy. Goodbye, Mr. Big.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "f5d75f195653dfbb974e",
+      "text": "The phone rang. It was Mr. Big from the Big Company.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "3572c1c62de1ec292fe7",
+      "text": "After he dropped off the ambulance at the hospital, Hector rode Lightning to the big company. Elevators and escalators were everywhere, carrying people up and down.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "ecf16978208cd0fe0bd6",
+      "text": "Let's go to the roof, Mr. Big.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
+    },
+    {
+      "id": "91c67960e4386eb87957",
+      "text": "The sun gives us lots of heat and energy. You can put solar panels on your roof. They'll make electricity to help run your lights and elevators. Solar water heaters can give your company hot water for washing and cleaning. You can be an energy saver too.",
+      "role": "boy",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz"
     },
     {
       "id": "87e21977a9cf540349b8",
@@ -7651,12 +7695,26 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "bc6c9bf58547188fadc6",
+      "id": "73c84daf1c25076777ac",
       "text": "They're musical instruments! Marco and I say at the same time.",
-      "role": "girl",
+      "role": "ensemble",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
-      "pitch": "+5Hz"
+      "pitch": "+5Hz",
+      "ensemble": [
+        {
+          "role": "girl",
+          "voice": "en-GB-MaisieNeural",
+          "rate": "+2%",
+          "pitch": "+5Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     {
       "id": "a4d1b94eaf4a20810095",
@@ -7667,19 +7725,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "5f2e0db5af4192276047",
+      "id": "13d7de0d645bfaa90821",
       "text": "He turns around and says,Welcome to the orchestra!",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ba976c974b73d9832a87",
+      "id": "0912f504a0af96fa09e5",
       "text": "Antonio's daughter Clara liked her father's workshop. She loved to look at all of the beautiful and colorful items he created. One day, she walked into the workshop and her father was there, standing beside two delicate glass vases. Many people in Venice knew who Antonio Rossi was. Like his father, Antonio was a very talented glassblower. He made many beautiful glass items, such as vases and water pitchers. With his new furnace, Antonio now made his popular glassware faster than before.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7707,19 +7765,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "22fc44603d0fc73678eb",
+      "id": "ed93f0355bfa14a46c57",
       "text": "Then he left the workshop. Clara looked at the vases. Beside them was a note.\n\nMr. Lombardi (note): Mr. Rossi, please make two beautiful vases for my wife, S. Lombardi.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "44e61c11cced1f8745cd",
+      "id": "282f8542f3a3aba29a93",
       "text": "Clara read the note and smiled. As she turned, she bumped the vases.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7731,11 +7789,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "d9205ec05b35d8526a70",
+      "id": "f557cc531f2bf6609577",
       "text": "She tried to catch them, but it was too late. They fell to the ground and broke into many pieces. Only the round bases at the bottom were not broken. Clara reached down and picked up one of the round bases.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7747,11 +7805,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "21d9767a624474ed2809",
+      "id": "e024544058886a43d888",
       "text": "She held the piece in front of her as big wet tears fell down her cheeks. It was then that she saw Mr. Lombardi's note as she looked through the glass. The letters were big. Clara looked at the base. It was flat on one side and curved on the other. She picked up the other base and looked through it. It worked too. The words looked bigger. Clara thought quickly. She found a length of wire and pounded it flat, then carefully wrapped it around the two glass pieces. As Clara finished, she heard footsteps. Mr. Lombardi and her father walked in.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7771,11 +7829,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "76cee2825232234daed1",
+      "id": "b761a0e8b59a689c7182",
       "text": "Clara's father stopped and stared at the broken vases on the floor.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7787,18 +7845,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "16e911d97c64cff15c99",
+      "id": "e644de2f816d0adfdae0",
       "text": "Mr. Lombardi looked at the two pieces of glass in a wire frame in Clara's hand.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "4dbaafb22f8c02f62d00",
+      "id": "4afa7f2781aae863a9bd",
       "text": "What do you have there? he asked.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -7811,99 +7869,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "912fb373cc297fa0de70",
+      "id": "e0632294049ff4f48f74",
       "text": "She held up the note for him to see. Mr. Lombardi's eyes opened wide.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "102a63750a02d30a6187",
-      "text": "The words, they're big.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "3ad8e68cb301b770d393",
-      "text": "He looked at Clara's father.\n\nMr.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "c3b3026135ec54d74041",
-      "text": "My wife can't read my books because of her eyes. This will be my gift to her. It will be the greatest gift ever.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "d8a03012b275fd6187d5",
-      "text": "Clara's father smiled.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "fa4c401159717a01e78a",
-      "text": "I don't know how you did it, Clara, he said,but you made something very useful.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "52cb1d19cceb86508e3a",
-      "text": "Clara had made something very useful indeed. She had invented eyeglasses.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "55b689fdccc52d2811d9",
-      "text": "Then he left the workshop. Clara looked at the vases. Beside them was a note.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "e815b37b508294a0238b",
-      "text": "Mr. Rossi, please make two beautiful vases for my wife, S. Lombardi.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "5105419b8f231ce23048",
-      "text": "Mr. Lombardi looked at the two pieces of glass in a wire frame in Clara's hand.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4afa7f2781aae863a9bd",
-      "text": "What do you have there? he asked.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "55434d13e41b8b1c03be",
-      "text": "She held up the note for him to see. Mr. Lombardi's eyes opened wide.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7915,11 +7885,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "e2b18a796b5d769f2b75",
-      "text": "He looked at Clara's father.",
+      "id": "b95e6d1a0a0d5fbbc35e",
+      "text": "He looked at Clara's father.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -7931,107 +7901,75 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "f444240e845d247b5646",
+      "id": "1710fad64bd19b39dcb8",
+      "text": "Clara's father smiled.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "fa4c401159717a01e78a",
+      "text": "I don't know how you did it, Clara, he said,but you made something very useful.",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "3324c66826b8221ba0a1",
+      "text": "Clara had made something very useful indeed. She had invented eyeglasses.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "f59bf20616af6fc49929",
+      "text": "Then he left the workshop. Clara looked at the vases. Beside them was a note.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "e815b37b508294a0238b",
+      "text": "Mr. Rossi, please make two beautiful vases for my wife, S. Lombardi.",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
+      "rate": "+0%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "21174209b5a576b7c79f",
+      "text": "Mr. Lombardi looked at the two pieces of glass in a wire frame in Clara's hand.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "623c974bcc202411006e",
+      "text": "She held up the note for him to see. Mr. Lombardi's eyes opened wide.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "9b71451685e14f301f1e",
+      "text": "He looked at Clara's father.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "50d97b0aadc7793e8f8c",
       "text": "A young girl named Marisol plants a single seed in the Garden of Happiness, a small community garden in her city. She waters it daily, and it grows and grows. Marisol is curious about her plant. What kind of plant is it? Meanwhile, a group of teenagers wants to paint a mural nearby. They aren't sure what to paint. One morning, Marisol saw an amazing sight from halfway down the block. She ran the rest of the way. Standing higher than all the plants and vines in the garden was a flower as big as a plate. Her bud had turned into petals of yellow and gold.\n\nMrs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "1ee559d99d9412e78223",
-      "text": "A sunflower! Mrs. Anderson exclaimed as she pushed her shopping cart by. Reminds me of when I was a girl.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "5ce7b7310d5455609536",
-      "text": "The flower was a glowing circle, brighter than a yellow taxi. A flower of sunshine, Marisol thought, the happiest plant in the Garden of Happiness. All summer long, it made the people on the street stop and smile. Soon the air became cool and crisp with autumn. Mr. Castro picked the last of his tomatoes. Mr. Singh carried away a basketful of beans. Mrs. Willie Mae Washington dug up orange potatoes.\n\nMrs.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4bd05491f89be024415d",
-      "text": "I can almost smell my sweet potato pie, she winked at Marisol. I'm going to save an extra big slice for a good little gardener, I know.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "2d88796332da9b6443ac",
-      "text": "But something terrible was happening to Marisol's flower. Its leaves were turning brown and dry.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "1fc03cd14e1e5af67c53",
-      "text": "My flower of sunshine is sick, Marisol cried. What should I do?\n\nMrs.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "29b05c51c2ac250db9a0",
-      "text": "Oh, child, Mrs. Willie Mae Washington said. Its season is over. There's a time to bloom and a time to die.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "4fda5b3798b97e3249b9",
-      "text": "No, I don't want my flower to die.\n\nMrs.",
-      "role": "girl",
-      "voice": "en-GB-MaisieNeural",
-      "rate": "+2%",
-      "pitch": "+5Hz"
-    },
-    {
-      "id": "e963ff5b2647c104104e",
-      "text": "Micarino, don't cry, Mrs. Rodriguez said. That's the way of a garden. You must save the seeds and plant again next spring.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "fe18fb6f23f3e32a02fd",
-      "text": "Marisol was too sad to go to the empty lot anymore. For a whole week she couldn't even look down the block where her beautiful flower used to be. Then one day she heard people calling her name.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "badaa4f604ce3666a686",
-      "text": "Marisol, come quick! Marisol, apurate, hurry!",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "3e03c8983242762e6403",
-      "text": "A golden haze shone on the street. There was a big crowd, like on a holiday. Music from the bodega was loud and bright, and what she saw made Marisol laugh and dance and clap her hands.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "40d2b58ba4aa6b650721",
-      "text": "A young girl named Marisol plants a single seed in the Garden of Happiness, a small community garden in her city. She waters it daily, and it grows and grows. Marisol is curious about her plant. What kind of plant is it? Meanwhile, a group of teenagers wants to paint a mural nearby. They aren't sure what to paint. One morning, Marisol saw an amazing sight from halfway down the block. She ran the rest of the way. Standing higher than all the plants and vines in the garden was a flower as big as a plate. Her bud had turned into petals of yellow and gold.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8043,11 +7981,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "7385fe77fc112efc97d2",
-      "text": "The flower was a glowing circle, brighter than a yellow taxi. A flower of sunshine, Marisol thought, the happiest plant in the Garden of Happiness. All summer long, it made the people on the street stop and smile. Soon the air became cool and crisp with autumn. Mr. Castro picked the last of his tomatoes. Mr. Singh carried away a basketful of beans. Mrs. Willie Mae Washington dug up orange potatoes.",
+      "id": "27632d4a55ad7b95bc09",
+      "text": "The flower was a glowing circle, brighter than a yellow taxi. A flower of sunshine, Marisol thought, the happiest plant in the Garden of Happiness. All summer long, it made the people on the street stop and smile. Soon the air became cool and crisp with autumn. Mr. Castro picked the last of his tomatoes. Mr. Singh carried away a basketful of beans. Mrs. Willie Mae Washington dug up orange potatoes.\n\nMrs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8059,8 +7997,16 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "6175dc9d1c1f4a04f777",
-      "text": "My flower of sunshine is sick, Marisol cried. What should I do?",
+      "id": "1465a68db364fd1d3449",
+      "text": "But something terrible was happening to Marisol's flower. Its leaves were turning brown and dry.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "1fc03cd14e1e5af67c53",
+      "text": "My flower of sunshine is sick, Marisol cried. What should I do?\n\nMrs.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -8075,8 +8021,8 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "469263f413e15446f9b1",
-      "text": "No, I don't want my flower to die.",
+      "id": "4fda5b3798b97e3249b9",
+      "text": "No, I don't want my flower to die.\n\nMrs.",
       "role": "girl",
       "voice": "en-GB-MaisieNeural",
       "rate": "+2%",
@@ -8091,107 +8037,177 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "7cfa98d6f11fb44be65e",
+      "id": "5eca777eec3f30952a59",
+      "text": "Marisol was too sad to go to the empty lot anymore. For a whole week she couldn't even look down the block where her beautiful flower used to be. Then one day she heard people calling her name.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "f63978cf24b125f67e55",
+      "text": "Marisol, come quick! Marisol, apurate, hurry!",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "67b621689eef5594380f",
+      "text": "A golden haze shone on the street. There was a big crowd, like on a holiday. Music from the bodega was loud and bright, and what she saw made Marisol laugh and dance and clap her hands.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "eddaafa01ff3df50ebe1",
+      "text": "A young girl named Marisol plants a single seed in the Garden of Happiness, a small community garden in her city. She waters it daily, and it grows and grows. Marisol is curious about her plant. What kind of plant is it? Meanwhile, a group of teenagers wants to paint a mural nearby. They aren't sure what to paint. One morning, Marisol saw an amazing sight from halfway down the block. She ran the rest of the way. Standing higher than all the plants and vines in the garden was a flower as big as a plate. Her bud had turned into petals of yellow and gold.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "9b4b6a77d693249ef34c",
+      "text": "The flower was a glowing circle, brighter than a yellow taxi. A flower of sunshine, Marisol thought, the happiest plant in the Garden of Happiness. All summer long, it made the people on the street stop and smile. Soon the air became cool and crisp with autumn. Mr. Castro picked the last of his tomatoes. Mr. Singh carried away a basketful of beans. Mrs. Willie Mae Washington dug up orange potatoes.",
+      "role": "narrator",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "pitch": "+0Hz"
+    },
+    {
+      "id": "6175dc9d1c1f4a04f777",
+      "text": "My flower of sunshine is sick, Marisol cried. What should I do?",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "469263f413e15446f9b1",
+      "text": "No, I don't want my flower to die.",
+      "role": "girl",
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+2%",
+      "pitch": "+5Hz"
+    },
+    {
+      "id": "defa566289b4b05f2667",
       "text": "Juan is a ten-year-old boy traveling on Ferdinand Magellan's ship, the Trinidad. Magellan is an explorer from Portugal who wants to sail west to find a new route to Indonesia. Europeans go to Indonesia to trade for spices. Juan writes about his trip in his journal.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b78a93c344927a43c3ec",
+      "id": "9a3f693911efef384a5f",
       "text": "September 20, 1519. We sail from Spain today with 250 men and five ships. The sky is blue and the clouds are white. I'm not afraid. Captain Magellan is a brave man. I brought him his dinner of salted beef and beans. He gave me a coin.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "9e317435b1f9f25d64f2",
+      "id": "ace978d29886c78fcbc7",
       "text": "The five ships sail towards South America. The journey is long. There are many storms with thunder and lightning. In November, the ships can't move because there is no wind to fill the sails.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "bf8c0b21f9a1b3a43f63",
+      "id": "f7a66fd5123e1433da3d",
       "text": "November 10, 1519. The ocean is different today. It looks like glass. Every day, Captain Magellan says,Juan, go up to the deck and check the sails. I always go up and look around and bring back the same news. There is no wind.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "408f2b7422b8359ada1c",
+      "id": "4ab69d58eac5854a5d3f",
       "text": "The ships reach the coast of South America in December 1519. They stay there for one year. Then they sail through a narrow area of water called a strait and reach the Pacific Ocean. They lose one ship in a storm. Another ship sails back to Spain.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "29893fa0ca9752fe0da1",
+      "id": "80dc41e5ddacfc0fb6a1",
       "text": "November 27, 1520. We are in a new ocean. Captain Magellan calls it the Pacific Ocean. I am sad to leave this land. Winter was cold and windy with fog and hail, but I saw many rivers and beautiful waterfalls. Now it is spring. It is time to sail west again.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "c21b504f90949d59c723",
+      "id": "3139d444a9b5134fc882",
       "text": "The trip is long. There is very little food and water. The men are not healthy and some men die. The three ships reach the island of Guam on March 6, 1521. Then they sail west to other islands.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "cd26b62c083977b59f47",
+      "id": "746c1890f7ad7d41949c",
       "text": "April 27, 1521. Captain Magellan died today in a battle on the island of Mactan. We have lost a great man, but I must be strong. We must get back to Spain.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "853352351ffc49eee0bf",
+      "id": "fc57897608a481e25419",
       "text": "Two ships remain. The men get to Indonesia on November 6, 1521. They fill the ships with spices. The Trinidad is damaged and can't sail. Only one ship sails back to Spain. Over 250 men started the journey, but only 18 men come home.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "2cb412f967a2a4635a2f",
+      "id": "a3baba37841cb7f948b7",
       "text": "September 6, 1522. We are home today, after three long years. I am now 13 years old. I will never forget Captain Magellan. I really looked up to him. I have sailed around the world. I have seen many new places and learned so much. I am excited to tell everyone about my travels.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "845459c512120985c4fc",
+      "id": "6b3fe0693d7c49bb7867",
       "text": "Javier was a nine-year-old boy who lived with his parents in the hillside town of Ademuz in the province of Valencia in Spain. Javier was a curious and energetic boy. His favorite pastime was to explore the hills and open fields around his town. The neighboring village of Riodeva, just 26 kilometers away from Ademuz, was famous because of a great discovery there. In 2003, paleontologists found the bones of the largest dinosaur in Europe, in a wheat field near the little village. When it was alive, this animal was over 38 meters long and had the weight of seven elephants. Javier liked dinosaurs more than anything else in the world. He also believed that there was an amazing dinosaur bone buried somewhere near his own town of Ademuz. His dream was to be the first person to find it. One summer morning, Javier was exploring in a field near a ravine just outside of the town. He looked up to see his two friends, Fernando and Pepe, running toward him with a colorful kite.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "7a00e1bb97475b355b29",
+      "id": "407d14973ab207d029d9",
       "text": "Let's fly it, Javier! they shouted.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
+      "role": "ensemble",
+      "voice": "en-US-EricNeural",
+      "rate": "+4%",
+      "pitch": "+18Hz",
+      "ensemble": [
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        },
+        {
+          "role": "boy",
+          "voice": "en-US-EricNeural",
+          "rate": "+4%",
+          "pitch": "+18Hz"
+        }
+      ]
     },
     {
-      "id": "db3eeae1d0ecbf4d56e2",
+      "id": "979b276ec5f0f3fe3a8f",
       "text": "Javier enjoyed playing with his friends. He quickly forgot about his exploring and grabbed the string of the kite. As he ran, the kite lifted into the sky. The boys cheered. Suddenly the kite spun around and dove into the ravine.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8203,11 +8219,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "a92464fd66dcd810f429",
+      "id": "c8c32a72ed8a4c37f722",
       "text": "He ran down into the ravine. As he reached for the kite, his foot caught on something. He fell to the rocky ground with a crash. His two friends ran up as he rubbed his head.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8227,11 +8243,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "15d8d2acd996c6140eed",
+      "id": "e563e7c7df26684f0ea2",
       "text": "He looked down at a rough gray object sticking out of the ground.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8251,11 +8267,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "302ce2c29c06dd435b57",
+      "id": "55aaeed98d29f975d915",
       "text": "Javier looked carefully at the object.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8283,19 +8299,19 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "4e73a84463dc2dc2c3af",
+      "id": "7f3dba27687dfd6e1d25",
       "text": "Javier and the boys ran home to tell Javier's parents. Javier's father spoke to the mayor of the town who contacted the paleontology foundation. The next day, a paleontologist from the foundation came to the town. He followed Javier to the ravine and examined the boys' discovery.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fc0787f0c769700f4418",
+      "id": "47a2037ed017c4280cbc",
       "text": "It could be a dinosaur bone, he said. If it is, we'll need to determine how old it is.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8307,43 +8323,43 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "3ff7318f1d2356d9139f",
+      "id": "c54a4249c94061884f7a",
       "text": "This bone was buried in sedimentary rock which lies in layers under the ground. We'll look for volcanic ash below and above this rock layer. Through a special process, we can find out the ages of those layers of ash. Then we'll know that the dinosaur died sometime between those two ages.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "0f04e0c01037ae564180",
+      "id": "a823d29c0a6c13ff2581",
       "text": "Soon many paleontologists began excavating the area around the bone. They found more bones, as well as a skull. It was a unique dinosaur they didn't know about. Television reporters came to the town and spoke to Javier about the bone he discovered.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "b223f8d6848b303c61f1",
+      "id": "dac16530f958f57d4c5f",
       "text": "This dinosaur will need a name, said one reporter. What do you think it should be called?",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "e10e4e68123c5f0dfcce",
+      "id": "1acd9d9296709702a6a2",
       "text": "That's easy, said the man from the Paleontology Foundation. We'll call it the Javiersaurus",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "95cf3e6e5784f50b133a",
+      "id": "0d27772606fb42a7a47b",
       "text": "I'm making a special breakfast today: Granny's famous cinnamon buns.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8355,11 +8371,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "53633a378397501b7baa",
+      "id": "650b38c97a9917034281",
       "text": "I tell my sister Sam. So we hop on my bike and ride across town to Farmer Ray's.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8371,11 +8387,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "a1e4446cd57a8bcdce83",
+      "id": "24c3ea016a21253bc3d3",
       "text": "The farmer says, pulling on his bushy beard. At the chicken coop, I gather two smooth brown eggs and a nervous chicken.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8387,11 +8403,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "94218162524859a3d626",
+      "id": "0f1440f76dab2164174a",
       "text": "Farmer Ray smiles slyly. We all hop on his tractor, catch a plane, and watch as we zoom over the Atlantic Ocean. In Denmark, we head to rolling green fields, where we find an enormous sleepy cow. I introduce myself, my sister Sam, Farmer Ray, and the chicken to the cow's owner, explaining that my grandmother's cinnamon buns are not to be missed.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8403,27 +8419,27 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "5bd25a798add29fb97a9",
+      "id": "5bf1c5f46773a8d682f2",
       "text": "Farmer Lena says, spilling some milk from a pail. We all ride the cow to the train to France, where we find an amber field of warm, dry grain and meet a French farmer who listens very closely to our plan.\n\nFarmer François: Well, you've come to the right place. My wheat makes the very best flour in the entire world.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "60bce56713f3a019dbb5",
+      "id": "171672b365c33024dbc6",
       "text": "Farmer François says, twirling his mustache. I grab two armfuls.\n\nFarmer François: Cinnamon buns, you say? If it's vanilla you need, the finest vanilla in all the world comes from Madagascar. Come with me.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "3019428c93d6328f99c0",
+      "id": "719029d946b8350ac920",
       "text": "We all hop in his hot-air balloon and set off over Africa, looking down on a magnificent leopard roaming the plains. In Madagascar, we march through the lush hills. There we meet Sabine, a vanilla grower, and I tell her the plan.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8435,11 +8451,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b5f26b5ffdd80418b882",
+      "id": "5e6bcc6334f56f56e99b",
       "text": "Farmer Sabine says, her eyes sparkling. I scoop up a handful of the heavy brown vanilla beans.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8451,18 +8467,18 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "09cebf4e06cd3647e0ba",
+      "id": "07e33f31db694bf7110c",
       "text": "Patrick listens to the plan.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "e1472d59ca34c6c22890",
+      "id": "fcae76b2c81bdd00a145",
       "text": "True, I have the sweetest sugar cane and the very best cinnamon in the world. Sugar cane I can give you, but I'm afraid I can't help you with cinnamon. I'm all out. We harvested it yesterday.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8475,11 +8491,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "5e7b508345a4f3a19467",
+      "id": "2d40e5c0cd28b1b3a324",
       "text": "Something high atop a tree catches my eye: a small area of bark. I climb the tree and peel some off.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8491,11 +8507,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "56229d41fe8e21d60ca9",
+      "id": "30b156f91aff34e290be",
       "text": "I say, grinning at the relieved crowd. We coax the cow and the chicken onto a steamship and head home before the ingredients spoil, mixing up a batch of Granny's famous cinnamon buns along the way.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8507,19 +8523,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "430c6d0bc26d4fd09422",
+      "id": "49f21674f1e04140fd4f",
       "text": "I ask as everyone chews and smiles.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "51bf1302ff2cf64cf492",
+      "id": "36351a50dda53618d890",
       "text": "You were right! These are truly the very best cinnamon buns in all the world.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8531,11 +8547,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "10b3a582ac342ffc1739",
+      "id": "da58a5412d8d3bc240ff",
       "text": "Farmer Lena says, spilling some milk from a pail. We all ride the cow to the train to France, where we find an amber field of warm, dry grain and meet a French farmer who listens very closely to our plan.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8547,11 +8563,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "aba7ecad574ab0dc3ccd",
+      "id": "210693a061ea5486b87d",
       "text": "Farmer François says, twirling his mustache. I grab two armfuls.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8563,11 +8579,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "9009760caea9c848fcf2",
+      "id": "095eb3ae0e4e11fa0901",
       "text": "Can anyone make art? Can artists make art from anything? Let's look at art through the eyes of some very inspiring modern artists to answer these questions. The Painting Prodigy When he was five, Kieron Williamson drew sketches of boats he saw on a family trip to Cornwall, England. This was the start of Kieron's love of drawing. The more he drew, the more complex his drawings became. Kieron wanted to learn more about art, so he spent time with local artists in his home town of Norfolk, England. They helped him build his skills in drawing and painting. He now creates pictures using oil paints, pastels, and watercolors. Today, nine-year-old Kieron is considered to be a child prodigy. Around the world, people admire his beautiful artwork, including many famous people.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8579,11 +8595,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "4bf1b0868b98099448b0",
+      "id": "f824241455bbb84c74bc",
       "text": "Art under your feet The next time you walk outside, you may discover that you are part of Edgar Mueller's art. Edgar is an expert street painter from Germany.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8595,19 +8611,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "3b07255ed0a1bd468719",
+      "id": "029d9f2fd5dfb08d157e",
       "text": "You can find his paintings all around the world at festivals and on public walkways. His three-dimensional paintings include waterfalls, canyons, and more. Mueller uses washable paint or chalk, a variety of paint brushes, and string. His work helps people to look at a place differently. Stick sculptures Patrick Dougherty is a unique sculptor. He combines his love of nature with his skills as a carpenter. His goal is to build a great sculpture that excites people's imaginations. You can see his large-scale sculptures in many places around the world. Dougherty's sculptures are made of young trees or saplings. The saplings are flexible, so he can bend them into rounded shapes. He keeps them together by weaving the saplings around each other. Building the sculpture is a big job, so the local community helps Dougherty with his project. Many volunteers help to collect the saplings, mark out the space, and build the sculpture. The sculptures are temporary. They will decompose or break down over time. Painting the Universe When you look at the artwork of Korean artist Sung Hee Cho up close, you see small pieces of brightly colored paper on a large canvas. It may seem disorderly with colors scattered around. However, as you step back, you can imagine the stars, galaxies, and the beauty of the Universe. Cho combines Hanji, traditional Korean paper, with paint. First, she paints the canvas. Then, she cuts out pieces of Hanji into small shapes such as flower petals. Next, she dyes and paints the small pieces of paper in a different color. Then, she glues thousands of them onto the canvas in layers to capture the glimmer of light. She repeats this process over and over again. She wants to create artwork that is as magical as stars. Inspiring artists come from every part of the world. Each one inspires us in a different way. By creating and sharing their art, they help us appreciate and understand the world around us.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "18677e438bf2aa3d72cc",
+      "id": "ac830d788a112017a3d0",
       "text": "Each day after school, when other boys play soccer, practice for the school play, or ride bikes, Theo goes to the art museum. Everyone he knows thinks this is strange, even his own family.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8619,19 +8635,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "f4f2ae8f435b8bb29fb5",
+      "id": "184d361b720a30fd6dd2",
       "text": "His mother offers. Theo does not tell his mother that he has no friends at school. His friends are all here, in the museum. They are on every wall, in brilliant colors and oil paints and pastels. The paintings are Theo's friends. Today, Theo rushes to get to the museum after school, because he will be meeting some new friends. An exhibition is opening, The Mountain Landscapes of Zayan Kahn. Inside the brightly lit gallery, there are ten new paintings, each in a wooden frame. Each painting features a different mountain. Some of the mountains are covered in snow, while others are green or rocky. Theo sits on a bench and looks at one painting for a very long time. He likes the contrast of the heavy black lines of the mountain and the pale blue sky. Theo takes out his notebook and his pencil and begins to make a sketch. People come and go from the small gallery, but Theo sits for a long time, making sketch after sketch. After a while, there is only one other person left in the gallery. He is sitting on a bench on the other side of the little room. Theo decides to ignore the man.\n\nTheo (thinking): I don't want to talk to him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "44376c80943f521eb3ac",
+      "id": "2344f63da5a187bb87c1",
       "text": "The man stands and walks toward the exit, but he stops next to Theo. Theo's sketch is of a mountain from very far away. The mountain is small and surrounded by space.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8643,11 +8659,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "d3d0816bf77c2e5a80d5",
+      "id": "91379dbde17010d88bbf",
       "text": "The man comments. Theo is shocked. He never shows his artwork to anyone because he worries that it isn't any good.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8659,11 +8675,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "97e694cff09f8ed3639f",
+      "id": "976a44b6b349f76c273b",
       "text": "He asks. The man smiles and nods. Theo hands the man his notebook and sits quietly as the man turns the pages.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8675,11 +8691,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "6f2b94afb0acae359d93",
+      "id": "1f234d68e01b15b8f5d7",
       "text": "The man remarks. Theo notices the man's hands and fingers are stained with paint. In his jacket pocket, there are several colored pencils and a paintbrush. He is holding an old tattered sketchbook with his name written on the front.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8691,11 +8707,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "751f28066d2e963d1532",
+      "id": "1564ec4c60d7c2036022",
       "text": "Theo exclaims, astounded that he is talking to the famous artist. Zayan Kahn looks so much younger than Theo imagined, and he is so kind and friendly.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8715,11 +8731,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "9af50c75c51f9cfeedb9",
+      "id": "2da0e4c05f4f6174e402",
       "text": "Theo tells him. Zayan Kahn shakes his head.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8731,11 +8747,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "a4198850b55e5a510ada",
+      "id": "1711bf2f134341dc83c9",
       "text": "He says. Theo looks down.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8747,11 +8763,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "19b1e626f1e09bc67a9c",
+      "id": "90f25744e8efa01a0f48",
       "text": "He says. Zayan Kahn points to Theo's notebook.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8763,19 +8779,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "79ba6bb147d146ff2da6",
+      "id": "ebb52d0dec3c620dbca6",
       "text": "He says. Theo is speechless with happiness. He does not say anything else, and neither does Zayan Kahn. They just sit quietly in the room, sketching, two artists, surrounded by friends.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "31e2d8df142b7fb052f3",
+      "id": "0956b8d877b7bf3373d1",
       "text": "His mother offers. Theo does not tell his mother that he has no friends at school. His friends are all here, in the museum. They are on every wall, in brilliant colors and oil paints and pastels. The paintings are Theo's friends. Today, Theo rushes to get to the museum after school, because he will be meeting some new friends. An exhibition is opening, The Mountain Landscapes of Zayan Kahn. Inside the brightly lit gallery, there are ten new paintings, each in a wooden frame. Each painting features a different mountain. Some of the mountains are covered in snow, while others are green or rocky. Theo sits on a bench and looks at one painting for a very long time. He likes the contrast of the heavy black lines of the mountain and the pale blue sky. Theo takes out his notebook and his pencil and begins to make a sketch. People come and go from the small gallery, but Theo sits for a long time, making sketch after sketch. After a while, there is only one other person left in the gallery. He is sitting on a bench on the other side of the little room. Theo decides to ignore the man.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8787,11 +8803,11 @@
       "pitch": "+18Hz"
     },
     {
-      "id": "e71f79f6a998b100c784",
+      "id": "f6940412033073b69e45",
       "text": "Marcy was nervous. She was the winner of the Mayor for a Day contest at her school. For one day, she would be the mayor of her city. Marcy's mother drove her to the Glenview City Hall.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8803,11 +8819,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "eeeb38d1f2c6d9a6a386",
+      "id": "46060326fdabf9c71d0b",
       "text": "Outside City Hall, Marcy met Mayor Wilson. To her surprise, he was holding a beach ball.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8819,11 +8835,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "5a7837bc1f1620f3c70a",
+      "id": "2992089bcc3f0e5c9888",
       "text": "Marcy nodded nervously.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8843,11 +8859,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "caf6b1299b58f037e36a",
+      "id": "19efa363eb440083d5e3",
       "text": "It was a busy morning. Mr. Clark took Marcy to the new city library, which was about to open for the first time. Marcy cut a celebration ribbon and made a short speech.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8859,18 +8875,18 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "953ffa29a02ea2fbd342",
+      "id": "9c61e993dd513847e482",
       "text": "As the crowd clapped, Mr. Clark tapped on his watch.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "2ce516ebbbd2cdf1a4b9",
+      "id": "ecd5cfc45c1f51785fa7",
       "text": "You have a meeting in ten minutes with the president of the Terrific Toy Company. We want them to build a factory here in Glenview. Many people could get jobs there.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -8883,11 +8899,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "2d25749aa24a8a3ecee6",
+      "id": "fee1eba007a18c3a504a",
       "text": "In the mayor's office, Marcy spent one hour talking to Hilda Hanson, the president of Terrific Toys.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8907,27 +8923,27 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "01eaa9a866fda37d873e",
+      "id": "ca07a2a72bb899f75118",
       "text": "As Hilda drove away, Mr. Clark ran up to Marcy.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "46ba5c58f3b88d0c3da8",
+      "id": "cdc3144c18760a268e7d",
       "text": "The garbage collectors are unhappy, he exclaimed. There is too much garbage to pick up. They want more workers. What will we do?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "409e3e89e95e1b810d8e",
+      "id": "8f93d24984280a6c577c",
       "text": "Marcy realized that she wasn't nervous anymore. She thought for a moment and then snapped her fingers.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8939,43 +8955,43 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "44b4890ffffa1dfcc317",
+      "id": "1cf81a32c5e0c10ad4fa",
       "text": "Great idea, said Mr. Clark.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "60e55ea9f02997b3a7ef",
+      "id": "1c8df8bf3c9174b389bb",
       "text": "After lunch, Mr. Clark ran into Marcy's office.\n\nMr.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "1743ecf9eccbbf9bc516",
+      "id": "cdebecfc641319cf2257",
       "text": "You have a city council meeting in five minutes, he shouted.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
     {
-      "id": "5ee82affdedcb20f13ec",
+      "id": "a3b261733c4f19f17c8a",
       "text": "At the meeting, the head of the city council looked worried.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "679174114e67978bf604",
+      "id": "c32caeeaf2c5ed1aab42",
       "text": "The playground equipment at the city park needs fresh paint, she said. The park needs new flowers, but we have no money for extra workers.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -8987,11 +9003,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "44a27fcaffd88d81c302",
+      "id": "6d39a187e25b4fcacc7f",
       "text": "The city council members looked confused.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9003,19 +9019,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "a7824fe5e0bca7fcad68",
+      "id": "7e9416c39a3985de5ead",
       "text": "Wonderful idea, Mayor Marcy, the members cheered.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "fa45422b82ef37a688b4",
+      "id": "bb3d93e0fa359becc233",
       "text": "At 5.30, Mr. Clark thanked Marcy for her hard work. They walked to the front of City Hall, where Marcy's mother was waiting. Marcy got in the car and stretched her legs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9051,35 +9067,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "f3078e6f3c897ebdd1f0",
+      "id": "2090b621db7ba0601f2d",
       "text": "As the crowd clapped, Mr. Clark tapped on his watch.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "ecd5cfc45c1f51785fa7",
-      "text": "You have a meeting in ten minutes with the president of the Terrific Toy Company. We want them to build a factory here in Glenview. Many people could get jobs there.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "f94d1c29c4d37dcfc64a",
+      "id": "b83f9e0af6c06fb0f683",
       "text": "As Hilda drove away, Mr. Clark ran up to Marcy.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "cdc3144c18760a268e7d",
-      "text": "The garbage collectors are unhappy, he exclaimed. There is too much garbage to pick up. They want more workers. What will we do?",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9091,35 +9091,19 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "1cf81a32c5e0c10ad4fa",
-      "text": "Great idea, said Mr. Clark.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "dd05f60ab9bde2eaf1b5",
+      "id": "d12c9ee5a49d283a7bb4",
       "text": "After lunch, Mr. Clark ran into Marcy's office.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "cdebecfc641319cf2257",
-      "text": "You have a city council meeting in five minutes, he shouted.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "604ae4d50dbc880fc3fc",
+      "id": "b4c6db29bc294a57d1ab",
       "text": "Thanks to the mass media, news travels fast. Journalist Meghan Michaels interviews Dr. Philip Kendall, a mass media expert.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9131,10 +9115,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "0bdee48c133188c2e65d",
+      "id": "309cd1d4e91523ac2dec",
       "text": "You're welcome. People like to share news, don't they?",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9147,10 +9131,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ba21b539dc55e2a0fa45",
+      "id": "6df8f38b87a781865aaa",
       "text": "Long ago, when early humans discovered how to make fire, they told their friends. Then those friends told others. Ideas spread from person to person, and in fact, they still do. However, mass media is different. It brings news and knowledge to many people very quickly.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9163,10 +9147,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ae2855b4f53ce0773ba0",
+      "id": "ceea88c3c0e971db2f4d",
       "text": "It began around 1440, when Johannes Gutenberg changed the way news travelled. You see, he invented the printing press. Before the printing press, people had to make copies of books by hand. Suddenly, this invention could make copies of books much more easily. Then, about 150 years later, people printed the first newspapers in Europe. Today, people around the world read newspapers every day.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9179,10 +9163,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "90177e97d902943dc2b4",
+      "id": "85403d537c978c7f10ae",
       "text": "Newspapers, along with magazines, are very popular. There are over 6,000 daily newspapers in the world today. Publishers print almost 400 million copies each day. Magazines are popular because they focus on one subject, such as news, movies, fashion, or sports. Advertising helps to pay for the cost of publishing newspapers and magazines.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9195,10 +9179,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "62e13b0d9e6fdb903e7c",
+      "id": "8dc71c5b24700f4d6689",
       "text": "Movies were the next form of mass media. People started going to movie theatres about 100 years ago. These new moving pictures amazed people. Often, movie theatres showed newsreels, too. These were short films with news from around the world. People watched the news for the first time this way.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9211,10 +9195,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ffa2214eee2fdb25f353",
+      "id": "85bb663ab0e5e0b293c0",
       "text": "Actually, the radio came next. It appeared about the same time as movies, but the first radio station didn't get started until about 1920. Today, there are over 44,000 radio stations around the world.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9227,10 +9211,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "354697f26179062df399",
+      "id": "537c86155114f916fdca",
       "text": "Yes, they do. Many radio stations report the news every hour. Some stations broadcast the news all the time. People can listen to the news while they drive or work.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9243,10 +9227,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "7a282b5a309d1c7afc73",
+      "id": "0ec437bdf9d0dc677b89",
       "text": "Television broadcasting started in the 1930s. Now, television is everywhere, bringing news and entertainment to people around the world. Some stations now offer 24-hour news. Events are broadcast live while they are happening.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9259,10 +9243,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ed2365621820516b823f",
+      "id": "b49067f375fb6a6bd154",
       "text": "They do. But you mustn't forget the latest choice, the web. Today, almost one third of the people in the world use the web, and this number will continue to grow. The web, or internet, lets us read news, watch videos, and share information through social networks and blogs. Many people think that the web is now the most important form of mass media. Also, smartphones give us web service, so you don't have to carry a computer to check the news. We live in very interesting times.",
-      "role": "narrator",
-      "voice": "en-US-AriaNeural",
+      "role": "man",
+      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9283,26 +9267,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "309cd1d4e91523ac2dec",
-      "text": "You're welcome. People like to share news, don't they?",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
       "id": "17ddc1f38afc26828670",
       "text": "Absolutely.",
       "role": "woman",
       "voice": "en-US-JennyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "6df8f38b87a781865aaa",
-      "text": "Long ago, when early humans discovered how to make fire, they told their friends. Then those friends told others. Ideas spread from person to person, and in fact, they still do. However, mass media is different. It brings news and knowledge to many people very quickly.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9315,26 +9283,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "ceea88c3c0e971db2f4d",
-      "text": "It began around 1440, when Johannes Gutenberg changed the way news travelled. You see, he invented the printing press. Before the printing press, people had to make copies of books by hand. Suddenly, this invention could make copies of books much more easily. Then, about 150 years later, people printed the first newspapers in Europe. Today, people around the world read newspapers every day.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
       "id": "ef57d245f76156377ecd",
       "text": "How many newspapers are there?",
       "role": "woman",
       "voice": "en-US-JennyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "85403d537c978c7f10ae",
-      "text": "Newspapers, along with magazines, are very popular. There are over 6,000 daily newspapers in the world today. Publishers print almost 400 million copies each day. Magazines are popular because they focus on one subject, such as news, movies, fashion, or sports. Advertising helps to pay for the cost of publishing newspapers and magazines.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9347,26 +9299,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8dc71c5b24700f4d6689",
-      "text": "Movies were the next form of mass media. People started going to movie theatres about 100 years ago. These new moving pictures amazed people. Often, movie theatres showed newsreels, too. These were short films with news from around the world. People watched the news for the first time this way.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
       "id": "59f96eb0e2e6f5620a24",
       "text": "And then the television came next, right?",
       "role": "woman",
       "voice": "en-US-JennyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "85bb663ab0e5e0b293c0",
-      "text": "Actually, the radio came next. It appeared about the same time as movies, but the first radio station didn't get started until about 1920. Today, there are over 44,000 radio stations around the world.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9379,26 +9315,10 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "537c86155114f916fdca",
-      "text": "Yes, they do. Many radio stations report the news every hour. Some stations broadcast the news all the time. People can listen to the news while they drive or work.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
       "id": "5a766f1a84bcc2275c07",
       "text": "When did the television appear?",
       "role": "woman",
       "voice": "en-US-JennyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
-      "id": "0ec437bdf9d0dc677b89",
-      "text": "Television broadcasting started in the 1930s. Now, television is everywhere, bringing news and entertainment to people around the world. Some stations now offer 24-hour news. Events are broadcast live while they are happening.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
       "rate": "+0%",
       "pitch": "+0Hz"
     },
@@ -9411,14 +9331,6 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "b49067f375fb6a6bd154",
-      "text": "They do. But you mustn't forget the latest choice, the web. Today, almost one third of the people in the world use the web, and this number will continue to grow. The web, or internet, lets us read news, watch videos, and share information through social networks and blogs. Many people think that the web is now the most important form of mass media. Also, smartphones give us web service, so you don't have to carry a computer to check the news. We live in very interesting times.",
-      "role": "man",
-      "voice": "en-US-GuyNeural",
-      "rate": "+0%",
-      "pitch": "+0Hz"
-    },
-    {
       "id": "e04394983f5276d933c5",
       "text": "July 5th, I have decided to keep a blog so the world can read about all the things I investigate. Today, I heard that they are going to tear down the old stone house across the street. The newspaper says the city government owns the house, and just one person lives there. Why does the city government own an old house? Who lives there? I have decided to find out because I want to save the house. July 6th, I use the internet to search for articles about old houses on my street. I found an entire website called the Lost History of Stone House. It said the stone building was once the gatehouse of a huge mansion. A family called the Martins lived there, until one night, a terrible fire burned the mansion down. The young daughter of a maid smelled the smoke and woke up every single person in the house. Everyone got out safely that night. The website showed the front page of an old newspaper with a story about the fire. The headline said,Young girl, 9, saves seven people in mysterious fire. She was the same age as me. July 7th, I am going to visit the house to see if I can talk to the person who lives there. I have never done an interview before, and I am very nervous. What if I make a mistake? July 7th, part two, I did it. A woman who looks like my grandmother answered the door. She said her name was Miss Lu, and that she would be happy to answer my questions. She knew all about the mansion and the fire. I learned that the Martin family donated a lot of money to the city to help build the library and the hospital. After the fire, they decided to move away and let the city have their land. I asked Miss Lu if she knew the Martins. She smiled and said no one had ever asked her that before. When she told me the answer, I couldn't believe it. My mom says I have to go to sleep now, so read my blog tomorrow for the rest of the story. July 8th, I'm back. Miss Lu knew the Martins because she lived in the mansion too. Yes, readers. Miss Lu was the little girl who saved the family that night. I am writing a letter to the editor of our newspaper, asking the mayor not to destroy the house. Miss Lu is a hero, and it isn't fair to take away her home. July 10th, today a television reporter came to interview me. You can watch it on channel seven tonight. July 11th, I have more wonderful news. My story will be on a radio show that will be broadcast to the entire city tonight. July 15th, today I got an email from the mayor. He said there will be a special meeting to discuss the house. I'm amazed that he took the time to write to me. August 1st, awesome news. The mayor decided not to tear down the old house. He agrees that Miss Lu is a hero, and she'll be able to live there as long as she likes. This is the first news story I have ever investigated. I love being a reporter, and I can't wait to find more stories.",
       "role": "girl",
@@ -9427,11 +9339,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "036cc8033e91c32478a8",
+      "id": "fe864a559248b3543b71",
       "text": "The state of Quintana Roo, in Mexico's Yucatan Peninsula, has experienced many hurricanes. Luis Sandoval lived in the capital city of Chetumal when Hurricane Dean hit the coast. He was nine years old. On August 17, 2007, Luis Sandoval was eating a sandwich after school when the phone rang. It was his father, who worked for the city government in Chetumal.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9459,11 +9371,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "59c382ec4103801153f1",
+      "id": "24dbe3e03d581441abbf",
       "text": "Luis's heart started to beat quickly.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9499,11 +9411,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "142ce855104305ca95bd",
+      "id": "d105deba95cbae315c72",
       "text": "His father hung up. Luis remembered Hurricane Wilma very well. A rise in the ocean, called a storm surge, flooded large areas along the coast. Almost 600 millimeters of rain fell in many places. Waves as high as eight meters smashed violently into the third floors of hotels. Winds up to 240 kilometers per hour destroyed homes. Now the state of Quintana Roo was prepared for Hurricane Dean. The government was ready to help people leave the area. For those who couldn't leave, there were 530 local storm shelters, with food, blankets and medicine. However, families also had to protect themselves. Luis checked the emergency list in the storage room and gathered the following items. 20 liters of bottled water. One large box of dry and canned food. One small radio with batteries. One first aid kit. Two flashlights. Three boxes of tissue paper. Four sleeping bags. Emergency cash. Luis took out two small backpacks for his little brothers. They contained some clothes and were easy to carry. He took out two large backpacks for his mother and himself. He put some of the food, water and supplies in each one. The rest of the supplies would go in the trunk of the car. Suddenly, Luis's mother appeared in the doorway. His little brothers Pablo and Alex were holding her hands tightly.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9531,19 +9443,19 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "f4d72de224b82fb96f88",
+      "id": "6403cc06508525a7fca2",
       "text": "The next morning, Luis, his mother, his aunt and his brothers left the city. They drove many kilometers inland and stayed at a storm shelter. They would be safe from the hurricane there. Luis's father remained in Chetumal, helping those who could not leave the city. Hurricane Dean made landfall near the town of Majahual on Tuesday, August 21, 2007. It was a Category 5 storm, with winds as high as 320 kilometers per hour. The high winds and water destroyed Majahual. Parts of Chetumal, 65 kilometers south, had floods. However, thanks to the excellent preparations by the government and the people of Quintana Ro, not one life was lost on the Yucatan Peninsula.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "eefb52b565d6268e275c",
+      "id": "2870cf89508978ebe3bf",
       "text": "Camila lived in Belize City on the coast of Belize in Central America. Her father worked for the government's fisheries department, and he helped to manage the seven marine parks off the coast of the country. One day, Camila's father invited her to visit one of the parks with him.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9563,11 +9475,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "d681f7b02844bbe992a5",
+      "id": "64a3a7d243dbc7588aec",
       "text": "During their flight to the coastal town of Dangriga, Camila's father explained that Glover's Reef was on the edge of the Belize Barrier Reef, one of the largest coral reef systems in the world. Hundreds of fish and coral species lived in these reefs. He said that many coral reefs around the world were dying from pollution and overfishing. From Dangriga, Camila and her father took a two-hour boat ride to Glover's Reef. Camila's excitement grew as they neared a small island with its beautiful coastline and turquoise water.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9579,11 +9491,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "257e1464c49e1610661e",
+      "id": "a85003d903cc0963d983",
       "text": "The next morning, Camila and her father put on their goggles and entered the blue waters of the park. The beauty and variety of the underwater world astonished Camila. Hundreds of butterfly fish, parrot fish, and seahorses darted around her. She watched sea turtles and manta rays glide among the rainbow-colored coral. Camila saw how the plants and animals of the reef live together perfectly. She took many pictures with her father's underwater camera. It was the most exciting experience of her life. As they left the water, Camila and her father heard a loud noise. They turned and saw a large speedboat filled with tourists racing toward the reef area.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9603,11 +9515,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "8cc0098f63f067074f0e",
+      "id": "8d915ccf8de2f8ffa799",
       "text": "Camila watched the boat continue along the border and then speed away. She was angry and upset. At lunch, Camila was very quiet. When she finished eating, she turned to her father.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9619,27 +9531,27 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "8cbedc6c696788d51fb3",
+      "id": "bc5a1e704632f6207347",
       "text": "Back in Belize City, Camila spoke to her class about coral reefs.\n\nCamila (class talk): In Glover's Reef, I learned that coral reefs are an important part of our ocean biome because they are homes for hundreds of kinds of animals and plants. They are wonderful places to see the beauty of our oceans close up. My father taught me that coral reefs keep our shores safe from powerful waves and that scientists can find new medicines from plants and animals that live there.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "01339ddf59ad3bba8e7c",
+      "id": "66cecd3e99f14d4982ae",
       "text": "When she got home, Camila created a petition on the internet.\n\nCamila (petition): It Read Governments of the world, please help the ocean's coral reefs. Keep our coral reefs safe and healthy for everyone.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
-      "id": "95c99ad76cc99770c1ec",
+      "id": "be203b01ea954fc7f001",
       "text": "In three weeks, 20,000 people in 38 countries signed Camila's petition. Within one year, three countries passed laws to protect their coral reefs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9651,11 +9563,11 @@
       "pitch": "+0Hz"
     },
     {
-      "id": "15b555991fe1400a37b6",
+      "id": "395be5553a5a21e61fba",
       "text": "Back in Belize City, Camila spoke to her class about coral reefs.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {
@@ -9667,11 +9579,11 @@
       "pitch": "+5Hz"
     },
     {
-      "id": "c4d063fdd5f938ab529f",
+      "id": "612afb8609fb94f26170",
       "text": "When she got home, Camila created a petition on the internet.",
       "role": "narrator",
-      "voice": "en-US-AriaNeural",
-      "rate": "+0%",
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
       "pitch": "+0Hz"
     },
     {

@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Background action",
+      "tag": "Hành động làm nền cho sự việc khác",
       "note": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "example": "I was writing a sentence when the bell rang.",
       "formula": [
@@ -18,32 +18,32 @@
           "+",
           "when",
           "+",
-          "past simple"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "exampleVi": "Tôi đang viết một câu thì chuông reo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "when",
+      "tag": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "note": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "example": "She was describing a robin when it flew away.",
       "formula": [
         [
-          "ongoing action",
+          "hành động đang diễn ra",
           "+",
           "when",
           "+",
-          "short action"
+          "hành động ngắn xen vào"
         ]
       ],
       "usage": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "exampleVi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "while",
+      "tag": "Hai hành động đang diễn ra đồng thời",
       "note": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
       "example": "While we were reading, snowflakes were falling.",
       "formula": [
@@ -55,27 +55,27 @@
       ],
       "usage": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "exampleVi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Choosing the tense",
+      "tag": "Chọn thì phù hợp",
       "note": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
       "example": "He was counting syllables when he made a mistake.",
       "formula": [
         [
-          "long action",
+          "hành động kéo dài",
           "→",
-          "past continuous"
+          "thì quá khứ tiếp diễn"
         ],
         [
-          "completed event",
+          "sự việc đã hoàn thành",
           "→",
-          "simple past"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Không chọn thì chỉ vì thấy when hoặc while.",
       "exampleVi": "Anh ấy đang đếm âm tiết thì mắc lỗi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -91,8 +91,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Background action",
-      "title": "Background action",
+      "focus": "Hành động làm nền cho sự việc khác",
+      "title": "Hành động làm nền cho sự việc khác",
       "answer": "writing",
       "options": [
         "writing",
@@ -101,7 +101,7 @@
         "wrote"
       ],
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
-      "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "why": "Chọn “writing”. Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -110,7 +110,11 @@
       "spokenScene": "",
       "scene": "Two pupils write about friendship. One poem names shared interests; the other mentions different interests and a shared experience.\nI was ___ a sentence when the bell rang.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I was writing a sentence when the bell rang.",
+        "vi": "Tôi đang viết một câu thì chuông reo."
+      }
     },
     {
       "id": "discover-3-grammar-u6-1-2-context2",
@@ -124,8 +128,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "when",
-      "title": "when",
+      "focus": "Một hành động xảy ra khi hành động khác đang diễn ra",
+      "title": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "answer": "describing",
       "options": [
         "describe",
@@ -134,7 +138,7 @@
         "describing"
       ],
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
-      "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "why": "Chọn “describing”. Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -143,7 +147,11 @@
       "spokenScene": "",
       "scene": "Two pupils write about friendship. One poem names shared interests; the other mentions different interests and a shared experience.\nShe was ___ a robin when it flew away.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She was describing a robin when it flew away.",
+        "vi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-1-3-context2",
@@ -157,8 +165,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "while",
-      "title": "while",
+      "focus": "Hai hành động đang diễn ra đồng thời",
+      "title": "Hai hành động đang diễn ra đồng thời",
       "answer": "reading",
       "options": [
         "reads",
@@ -167,7 +175,7 @@
         "readed"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "why": "Chọn “reading”. Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -176,7 +184,11 @@
       "spokenScene": "",
       "scene": "Two pupils write about friendship. One poem names shared interests; the other mentions different interests and a shared experience.\nWhile we were ___, snowflakes were falling.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "While we were reading, snowflakes were falling.",
+        "vi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-1-4-context2",
@@ -190,8 +202,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the tense",
-      "title": "Choosing the tense",
+      "focus": "Chọn thì phù hợp",
+      "title": "Chọn thì phù hợp",
       "answer": "counting",
       "options": [
         "counted",
@@ -200,7 +212,7 @@
         "counts"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
+      "why": "Chọn “counting”. Không chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -209,7 +221,11 @@
       "spokenScene": "",
       "scene": "Two pupils write about friendship. One poem names shared interests; the other mentions different interests and a shared experience.\nHe was ___ syllables when he made a mistake.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He was counting syllables when he made a mistake.",
+        "vi": "Anh ấy đang đếm âm tiết thì mắc lỗi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-2-1-context2",
@@ -223,8 +239,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Background action",
-      "title": "Background action",
+      "focus": "Hành động làm nền cho sự việc khác",
+      "title": "Hành động làm nền cho sự việc khác",
       "answer": "writing",
       "options": [
         "write",
@@ -233,7 +249,7 @@
         "writing"
       ],
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
-      "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "why": "Chọn “writing”. Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -244,7 +260,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I was writing a sentence when the bell rang.",
+        "vi": "Tôi đang viết một câu thì chuông reo."
+      }
     },
     {
       "id": "discover-3-grammar-u6-2-2-context2",
@@ -258,8 +278,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "when",
-      "title": "when",
+      "focus": "Một hành động xảy ra khi hành động khác đang diễn ra",
+      "title": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "answer": "describing",
       "options": [
         "describes",
@@ -268,7 +288,7 @@
         "describe"
       ],
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
-      "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "why": "Chọn “describing”. Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -279,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She was describing a robin when it flew away.",
+        "vi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-2-3-context2",
@@ -293,8 +317,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "while",
-      "title": "while",
+      "focus": "Hai hành động đang diễn ra đồng thời",
+      "title": "Hai hành động đang diễn ra đồng thời",
       "answer": "reading",
       "options": [
         "to read",
@@ -303,7 +327,7 @@
         "reads"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "why": "Chọn “reading”. Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -314,7 +338,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "While we were reading, snowflakes were falling.",
+        "vi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-2-4-context2",
@@ -328,8 +356,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the tense",
-      "title": "Choosing the tense",
+      "focus": "Chọn thì phù hợp",
+      "title": "Chọn thì phù hợp",
       "answer": "counting",
       "options": [
         "counting",
@@ -338,7 +366,7 @@
         "counted"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
+      "why": "Chọn “counting”. Không chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -349,7 +377,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He was counting syllables when he made a mistake.",
+        "vi": "Anh ấy đang đếm âm tiết thì mắc lỗi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-3-1-context2",
@@ -363,8 +395,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Background action",
-      "title": "Background action",
+      "focus": "Hành động làm nền cho sự việc khác",
+      "title": "Hành động làm nền cho sự việc khác",
       "answer": "writing",
       "options": [
         "writes",
@@ -373,7 +405,7 @@
         "write"
       ],
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
-      "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "why": "Chọn “writing”. Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -385,7 +417,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I was writing a sentence when the bell rang.",
+        "vi": "Tôi đang viết một câu thì chuông reo."
+      }
     },
     {
       "id": "discover-3-grammar-u6-3-2-context2",
@@ -399,8 +435,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "when",
-      "title": "when",
+      "focus": "Một hành động xảy ra khi hành động khác đang diễn ra",
+      "title": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "answer": "describing",
       "options": [
         "described",
@@ -409,7 +445,7 @@
         "describes"
       ],
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
-      "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "why": "Chọn “describing”. Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -421,7 +457,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She was describing a robin when it flew away.",
+        "vi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-3-3-context2",
@@ -435,8 +475,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "while",
-      "title": "while",
+      "focus": "Hai hành động đang diễn ra đồng thời",
+      "title": "Hai hành động đang diễn ra đồng thời",
       "answer": "reading",
       "options": [
         "reading",
@@ -445,7 +485,7 @@
         "to read"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "why": "Chọn “reading”. Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +497,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "While we were reading, snowflakes were falling.",
+        "vi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-3-4-context2",
@@ -471,8 +515,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the tense",
-      "title": "Choosing the tense",
+      "focus": "Chọn thì phù hợp",
+      "title": "Chọn thì phù hợp",
       "answer": "counting",
       "options": [
         "count",
@@ -481,7 +525,7 @@
         "counting"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
+      "why": "Chọn “counting”. Không chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -493,7 +537,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He was counting syllables when he made a mistake.",
+        "vi": "Anh ấy đang đếm âm tiết thì mắc lỗi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-4-1-context2",
@@ -507,8 +555,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Background action",
-      "title": "Background action",
+      "focus": "Hành động làm nền cho sự việc khác",
+      "title": "Hành động làm nền cho sự việc khác",
       "answer": "I was writing → a sentence when → the bell rang.",
       "options": [
         "I was writing → a sentence when → the bell rang.",
@@ -517,7 +565,7 @@
         "the bell rang. → a sentence when → I was writing"
       ],
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
-      "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "why": "Chọn “I was writing → a sentence when → the bell rang.”. Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -531,7 +579,11 @@
         "a sentence when",
         "the bell rang.",
         "I was writing"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I was writing a sentence when the bell rang.",
+        "vi": "Tôi đang viết một câu thì chuông reo."
+      }
     },
     {
       "id": "discover-3-grammar-u6-4-2-context2",
@@ -545,8 +597,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "when",
-      "title": "when",
+      "focus": "Một hành động xảy ra khi hành động khác đang diễn ra",
+      "title": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "answer": "She was describing → a robin when → it flew away.",
       "options": [
         "She was describing → a robin when → it flew away.",
@@ -555,7 +607,7 @@
         "it flew away. → a robin when → She was describing"
       ],
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
-      "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "why": "Chọn “She was describing → a robin when → it flew away.”. Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -569,7 +621,11 @@
         "a robin when",
         "it flew away.",
         "She was describing"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She was describing a robin when it flew away.",
+        "vi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-4-3-context2",
@@ -583,8 +639,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "while",
-      "title": "while",
+      "focus": "Hai hành động đang diễn ra đồng thời",
+      "title": "Hai hành động đang diễn ra đồng thời",
       "answer": "While we were → reading, snowflakes → were falling.",
       "options": [
         "While we were → reading, snowflakes → were falling.",
@@ -593,7 +649,7 @@
         "were falling. → reading, snowflakes → While we were"
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "why": "Chọn “While we were → reading, snowflakes → were falling.”. Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +663,11 @@
         "reading, snowflakes",
         "were falling.",
         "While we were"
-      ]
+      ],
+      "explanationExample": {
+        "en": "While we were reading, snowflakes were falling.",
+        "vi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-4-4-context2",
@@ -621,8 +681,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the tense",
-      "title": "Choosing the tense",
+      "focus": "Chọn thì phù hợp",
+      "title": "Chọn thì phù hợp",
       "answer": "He was counting → syllables when he → made a mistake.",
       "options": [
         "He was counting → syllables when he → made a mistake.",
@@ -631,7 +691,7 @@
         "made a mistake. → syllables when he → He was counting"
       ],
       "hint": "Không chọn thì chỉ vì thấy when hoặc while. Hãy nhìn ý nghĩa: quá trình đang diễn ra dùng quá khứ tiếp diễn; sự việc hoàn tất dùng quá khứ đơn.",
-      "why": "He was counting syllables when he made a mistake.\nKhông chọn thì chỉ vì thấy when hoặc while.",
+      "why": "Chọn “He was counting → syllables when he → made a mistake.”. Không chọn thì chỉ vì thấy when hoặc while.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -645,7 +705,11 @@
         "syllables when he",
         "made a mistake.",
         "He was counting"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He was counting syllables when he made a mistake.",
+        "vi": "Anh ấy đang đếm âm tiết thì mắc lỗi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-5-1-context2",
@@ -659,8 +723,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Background action",
-      "title": "Background action",
+      "focus": "Hành động làm nền cho sự việc khác",
+      "title": "Hành động làm nền cho sự việc khác",
       "answer": "I was writing a sentence when the bell rang.",
       "options": [
         "I was writing a sentence when the bell rang.",
@@ -669,7 +733,7 @@
         "I was wrote a sentence when the bell rang."
       ],
       "hint": "Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
-      "why": "I was writing a sentence when the bell rang.\nDùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
+      "why": "Chọn “I was writing a sentence when the bell rang.”. Dùng was/were + V-ing cho hành động đang kéo dài; dùng quá khứ đơn cho sự việc ngắn xen vào hoặc hoàn tất.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -680,7 +744,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "I was writing a sentence when the bell rang.",
+        "vi": "Tôi đang viết một câu thì chuông reo."
+      }
     },
     {
       "id": "discover-3-grammar-u6-5-2-context2",
@@ -694,8 +762,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "when",
-      "title": "when",
+      "focus": "Một hành động xảy ra khi hành động khác đang diễn ra",
+      "title": "Một hành động xảy ra khi hành động khác đang diễn ra",
       "answer": "She was describing a robin when it flew away.",
       "options": [
         "She was describe a robin when it flew away.",
@@ -704,7 +772,7 @@
         "She was describing a robin when it flew away."
       ],
       "hint": "Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
-      "why": "She was describing a robin when it flew away.\nMệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
+      "why": "Chọn “She was describing a robin when it flew away.”. Mệnh đề có when thường dùng quá khứ đơn nếu nó chỉ một sự việc xảy ra và làm gián đoạn hành động đang diễn ra.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -715,7 +783,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "She was describing a robin when it flew away.",
+        "vi": "Cô ấy đang mô tả một con chim cổ đỏ khi nó bay đi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-5-3-context2",
@@ -729,8 +801,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "while",
-      "title": "while",
+      "focus": "Hai hành động đang diễn ra đồng thời",
+      "title": "Hai hành động đang diễn ra đồng thời",
       "answer": "While we were reading, snowflakes were falling.",
       "options": [
         "While we were reads, snowflakes were falling.",
@@ -739,7 +811,7 @@
         "While we were readed, snowflakes were falling."
       ],
       "hint": "Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song. Có thể đặt mệnh đề while ở đầu hoặc cuối câu.",
-      "why": "While we were reading, snowflakes were falling.\nSau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
+      "why": "Chọn “While we were reading, snowflakes were falling.”. Sau while, dùng quá khứ tiếp diễn khi hai hoạt động kéo dài song song.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -750,7 +822,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "While we were reading, snowflakes were falling.",
+        "vi": "Trong khi chúng tôi đang đọc, những bông tuyết đang rơi."
+      }
     },
     {
       "id": "discover-3-grammar-u6-5-4-context2-life",

@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "today / this morning",
+      "tag": "Thời gian: hôm nay và sáng nay",
       "note": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
       "example": "This morning, Olga goes to school early.",
       "formula": [
@@ -21,25 +21,25 @@
       ],
       "usage": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "exampleVi": "Sáng nay, Olga đi học sớm.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "yesterday / last ...",
+      "tag": "Thời gian: hôm qua và khoảng thời gian trước",
       "note": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "example": "Mark went to music class yesterday morning.",
       "formula": [
         [
           "yesterday / last night / last week",
           "→",
-          "past simple"
+          "thì quá khứ đơn"
         ]
       ],
       "usage": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "exampleVi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "... ago",
+      "tag": "Diễn tả cách đây bao lâu",
       "note": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
       "example": "The musician recorded a solo two days ago.",
       "formula": [
@@ -51,7 +51,7 @@
       ],
       "usage": "Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "exampleVi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Vị trí trong câu",
@@ -71,7 +71,7 @@
       ],
       "usage": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "exampleVi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -87,8 +87,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "today / this morning",
-      "title": "today / this morning",
+      "focus": "Thời gian: hôm nay và sáng nay",
+      "title": "Thời gian: hôm nay và sáng nay",
       "answer": "goes",
       "options": [
         "goes",
@@ -97,7 +97,7 @@
         "to go"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "why": "Chọn “goes”. Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -106,7 +106,11 @@
       "spokenScene": "",
       "scene": "Olga made mistakes in a music performance yesterday. Her teacher gave helpful advice.\nThis morning, Olga ___ to school early.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This morning, Olga goes to school early.",
+        "vi": "Sáng nay, Olga đi học sớm."
+      }
     },
     {
       "id": "discover-2-grammar-u14-1-2-context2",
@@ -120,8 +124,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "yesterday / last ...",
-      "title": "yesterday / last ...",
+      "focus": "Thời gian: hôm qua và khoảng thời gian trước",
+      "title": "Thời gian: hôm qua và khoảng thời gian trước",
       "answer": "went",
       "options": [
         "go",
@@ -130,7 +134,7 @@
         "went"
       ],
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
-      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Chọn “went”. Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -139,7 +143,11 @@
       "spokenScene": "",
       "scene": "Olga made mistakes in a music performance yesterday. Her teacher gave helpful advice.\nMark ___ to music class yesterday morning.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Mark went to music class yesterday morning.",
+        "vi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua."
+      }
     },
     {
       "id": "discover-2-grammar-u14-1-3-context2",
@@ -153,8 +161,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "... ago",
-      "title": "... ago",
+      "focus": "Diễn tả cách đây bao lâu",
+      "title": "Diễn tả cách đây bao lâu",
       "answer": "ago",
       "options": [
         "yesterday",
@@ -163,7 +171,7 @@
         "last"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "why": "Chọn “ago”. Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -172,7 +180,11 @@
       "spokenScene": "",
       "scene": "Olga made mistakes in a music performance yesterday. Her teacher gave helpful advice.\nThe musician recorded a solo two days ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The musician recorded a solo two days ago.",
+        "vi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước."
+      }
     },
     {
       "id": "discover-2-grammar-u14-1-4-context2",
@@ -196,7 +208,7 @@
         "gives"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
+      "why": "Chọn “gave”. Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -205,7 +217,11 @@
       "spokenScene": "",
       "scene": "Olga made mistakes in a music performance yesterday. Her teacher gave helpful advice.\nLast week, Olga ___ a concert.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Last week, Olga gave a concert.",
+        "vi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc."
+      }
     },
     {
       "id": "discover-2-grammar-u14-2-1-context2",
@@ -219,8 +235,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "today / this morning",
-      "title": "today / this morning",
+      "focus": "Thời gian: hôm nay và sáng nay",
+      "title": "Thời gian: hôm nay và sáng nay",
       "answer": "goes",
       "options": [
         "go",
@@ -229,7 +245,7 @@
         "goes"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "why": "Chọn “goes”. Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -240,7 +256,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "This morning, Olga goes to school early.",
+        "vi": "Sáng nay, Olga đi học sớm."
+      }
     },
     {
       "id": "discover-2-grammar-u14-2-2-context2",
@@ -254,8 +274,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "yesterday / last ...",
-      "title": "yesterday / last ...",
+      "focus": "Thời gian: hôm qua và khoảng thời gian trước",
+      "title": "Thời gian: hôm qua và khoảng thời gian trước",
       "answer": "went",
       "options": [
         "goes",
@@ -264,7 +284,7 @@
         "go"
       ],
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
-      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Chọn “went”. Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +295,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Mark went to music class yesterday morning.",
+        "vi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua."
+      }
     },
     {
       "id": "discover-2-grammar-u14-2-3-context2",
@@ -289,8 +313,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "... ago",
-      "title": "... ago",
+      "focus": "Diễn tả cách đây bao lâu",
+      "title": "Diễn tả cách đây bao lâu",
       "answer": "ago",
       "options": [
         "since",
@@ -299,7 +323,7 @@
         "yesterday"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "why": "Chọn “ago”. Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -310,7 +334,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The musician recorded a solo two days ago.",
+        "vi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước."
+      }
     },
     {
       "id": "discover-2-grammar-u14-2-4-context2",
@@ -334,7 +362,7 @@
         "giving"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
+      "why": "Chọn “gave”. Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -345,7 +373,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Last week, Olga gave a concert.",
+        "vi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc."
+      }
     },
     {
       "id": "discover-2-grammar-u14-3-1-context2",
@@ -359,8 +391,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "today / this morning",
-      "title": "today / this morning",
+      "focus": "Thời gian: hôm nay và sáng nay",
+      "title": "Thời gian: hôm nay và sáng nay",
       "answer": "goes",
       "options": [
         "going",
@@ -369,7 +401,7 @@
         "go"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "why": "Chọn “goes”. Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -381,7 +413,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "This morning, Olga goes to school early.",
+        "vi": "Sáng nay, Olga đi học sớm."
+      }
     },
     {
       "id": "discover-2-grammar-u14-3-2-context2",
@@ -395,8 +431,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "yesterday / last ...",
-      "title": "yesterday / last ...",
+      "focus": "Thời gian: hôm qua và khoảng thời gian trước",
+      "title": "Thời gian: hôm qua và khoảng thời gian trước",
       "answer": "went",
       "options": [
         "going",
@@ -405,7 +441,7 @@
         "goes"
       ],
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
-      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Chọn “went”. Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -417,7 +453,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Mark went to music class yesterday morning.",
+        "vi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua."
+      }
     },
     {
       "id": "discover-2-grammar-u14-3-3-context2",
@@ -431,8 +471,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "... ago",
-      "title": "... ago",
+      "focus": "Diễn tả cách đây bao lâu",
+      "title": "Diễn tả cách đây bao lâu",
       "answer": "ago",
       "options": [
         "ago",
@@ -441,7 +481,7 @@
         "since"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "why": "Chọn “ago”. Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -453,7 +493,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The musician recorded a solo two days ago.",
+        "vi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước."
+      }
     },
     {
       "id": "discover-2-grammar-u14-3-4-context2",
@@ -477,7 +521,7 @@
         "gave"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
+      "why": "Chọn “gave”. Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -489,7 +533,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Last week, Olga gave a concert.",
+        "vi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc."
+      }
     },
     {
       "id": "discover-2-grammar-u14-4-1-context2",
@@ -503,8 +551,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "today / this morning",
-      "title": "today / this morning",
+      "focus": "Thời gian: hôm nay và sáng nay",
+      "title": "Thời gian: hôm nay và sáng nay",
       "answer": "This morning, Olga → goes to → school early.",
       "options": [
         "This morning, Olga → goes to → school early.",
@@ -513,7 +561,7 @@
         "school early. → goes to → This morning, Olga"
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "why": "Chọn “This morning, Olga → goes to → school early.”. Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -527,7 +575,11 @@
         "goes to",
         "school early.",
         "This morning, Olga"
-      ]
+      ],
+      "explanationExample": {
+        "en": "This morning, Olga goes to school early.",
+        "vi": "Sáng nay, Olga đi học sớm."
+      }
     },
     {
       "id": "discover-2-grammar-u14-4-2-context2",
@@ -541,8 +593,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "yesterday / last ...",
-      "title": "yesterday / last ...",
+      "focus": "Thời gian: hôm qua và khoảng thời gian trước",
+      "title": "Thời gian: hôm qua và khoảng thời gian trước",
       "answer": "Mark went to → music class → yesterday morning.",
       "options": [
         "Mark went to → music class → yesterday morning.",
@@ -551,7 +603,7 @@
         "yesterday morning. → music class → Mark went to"
       ],
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
-      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Chọn “Mark went to → music class → yesterday morning.”. Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -565,7 +617,11 @@
         "music class",
         "yesterday morning.",
         "Mark went to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Mark went to music class yesterday morning.",
+        "vi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua."
+      }
     },
     {
       "id": "discover-2-grammar-u14-4-3-context2",
@@ -579,8 +635,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "... ago",
-      "title": "... ago",
+      "focus": "Diễn tả cách đây bao lâu",
+      "title": "Diễn tả cách đây bao lâu",
       "answer": "The musician recorded → a solo two → days ago.",
       "options": [
         "The musician recorded → a solo two → days ago.",
@@ -589,7 +645,7 @@
         "days ago. → a solo two → The musician recorded"
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "why": "Chọn “The musician recorded → a solo two → days ago.”. Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -603,7 +659,11 @@
         "a solo two",
         "days ago.",
         "The musician recorded"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The musician recorded a solo two days ago.",
+        "vi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước."
+      }
     },
     {
       "id": "discover-2-grammar-u14-4-4-context2",
@@ -627,7 +687,7 @@
         "a concert. → Olga gave → Last week,"
       ],
       "hint": "Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết. Khi nói, con ngắt nhịp nhẹ sau cụm này.",
-      "why": "Last week, Olga gave a concert.\nKhi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
+      "why": "Chọn “Last week, → Olga gave → a concert.”. Khi đứng đầu câu, cụm thời gian thường được ngăn bằng dấu phẩy trong văn viết.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -641,7 +701,11 @@
         "Olga gave",
         "a concert.",
         "Last week,"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Last week, Olga gave a concert.",
+        "vi": "Tuần trước, Olga đã tổ chức một buổi hòa nhạc."
+      }
     },
     {
       "id": "discover-2-grammar-u14-5-1-context2",
@@ -655,8 +719,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "today / this morning",
-      "title": "today / this morning",
+      "focus": "Thời gian: hôm nay và sáng nay",
+      "title": "Thời gian: hôm nay và sáng nay",
       "answer": "This morning, Olga goes to school early.",
       "options": [
         "This morning, Olga goes to school early.",
@@ -665,7 +729,7 @@
         "This morning, Olga to go to school early."
       ],
       "hint": "Today có thể đi với hiện tại hoặc quá khứ tùy hành động. This morning chỉ buổi sáng của ngày hôm nay; thì của câu cho biết hành động đang diễn ra hay đã kết thúc.",
-      "why": "This morning, Olga goes to school early.\nToday có thể đi với hiện tại hoặc quá khứ tùy hành động.",
+      "why": "Chọn “This morning, Olga goes to school early.”. Today có thể đi với hiện tại hoặc quá khứ tùy hành động.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -676,7 +740,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "This morning, Olga goes to school early.",
+        "vi": "Sáng nay, Olga đi học sớm."
+      }
     },
     {
       "id": "discover-2-grammar-u14-5-2-context2",
@@ -690,8 +758,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "yesterday / last ...",
-      "title": "yesterday / last ...",
+      "focus": "Thời gian: hôm qua và khoảng thời gian trước",
+      "title": "Thời gian: hôm qua và khoảng thời gian trước",
       "answer": "Mark went to music class yesterday morning.",
       "options": [
         "Mark go to music class yesterday morning.",
@@ -700,7 +768,7 @@
         "Mark went to music class yesterday morning."
       ],
       "hint": "Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
-      "why": "Mark went to music class yesterday morning.\nYesterday, last night, last week và last year thường đi với quá khứ đơn.",
+      "why": "Chọn “Mark went to music class yesterday morning.”. Yesterday, last night, last week và last year thường đi với quá khứ đơn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -711,7 +779,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Mark went to music class yesterday morning.",
+        "vi": "Mark đã đến lớp học âm nhạc vào sáng hôm qua."
+      }
     },
     {
       "id": "discover-2-grammar-u14-5-3-context2",
@@ -725,8 +797,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "... ago",
-      "title": "... ago",
+      "focus": "Diễn tả cách đây bao lâu",
+      "title": "Diễn tả cách đây bao lâu",
       "answer": "The musician recorded a solo two days ago.",
       "options": [
         "The musician recorded a solo two days yesterday.",
@@ -735,7 +807,7 @@
         "The musician recorded a solo two days last."
       ],
       "hint": "Ago cho biết hành động xảy ra cách hiện tại bao lâu. Nói two days ago, không nói ago two days.",
-      "why": "The musician recorded a solo two days ago.\nAgo cho biết hành động xảy ra cách hiện tại bao lâu.",
+      "why": "Chọn “The musician recorded a solo two days ago.”. Ago cho biết hành động xảy ra cách hiện tại bao lâu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -746,7 +818,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The musician recorded a solo two days ago.",
+        "vi": "Nhạc sĩ đã thu âm một bản solo hai ngày trước."
+      }
     },
     {
       "id": "discover-2-grammar-u14-5-4-context2-life",

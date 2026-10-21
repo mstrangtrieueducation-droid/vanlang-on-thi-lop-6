@@ -9,71 +9,71 @@
   },
   "summary": [
     {
-      "tag": "Affirmative",
+      "tag": "Câu khẳng định",
       "note": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
       "example": "A butterfly was flying over the thicket.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "was / were",
           "+",
-          "verb-ing"
+          "động từ thêm -ing"
         ]
       ],
       "usage": "Dùng was với I, he, she, it; dùng were với you, we, they.",
       "exampleVi": "Một con bướm đang bay qua bụi cây.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Negative",
+      "tag": "Câu phủ định",
       "note": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
       "example": "The crickets weren't jumping.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "wasn't / weren't",
           "+",
-          "verb-ing"
+          "động từ thêm -ing"
         ]
       ],
       "usage": "Đặt not sau was/were.",
       "exampleVi": "Dế không nhảy.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Questions",
+      "tag": "Câu hỏi",
       "note": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
       "example": "Was the bee flying? Yes, it was.",
       "formula": [
         [
           "Was / Were",
           "+",
-          "subject",
+          "chủ ngữ",
           "+",
-          "verb-ing",
+          "động từ thêm -ing",
           "?"
         ]
       ],
       "usage": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "exampleVi": "Con ong có bay không? Vâng, đúng vậy.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Time in progress",
+      "tag": "Hành động đang diễn ra tại một thời điểm",
       "note": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
       "example": "At noon, the kangaroo was resting.",
       "formula": [
         [
-          "At + past time",
+          "Vào một thời điểm quá khứ",
           ",",
-          "subject + was/were + V-ing"
+          "chủ ngữ + was/were + V-ing"
         ]
       ],
       "usage": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
       "exampleVi": "Vào buổi trưa, kangaroo đang nghỉ ngơi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -89,8 +89,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "was",
       "options": [
         "was",
@@ -99,7 +99,7 @@
         "be"
       ],
       "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
-      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they.",
+      "why": "Chọn “was”. Dùng was với I, he, she, it; dùng were với you, we, they.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -108,7 +108,11 @@
       "spokenScene": "",
       "scene": "A poem says that words can make toenails twinkle. A reader cannot find any literal scientific evidence.\nUse the past continuous (yesterday).\nA butterfly ___ flying over the thicket.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A butterfly was flying over the thicket.",
+        "vi": "Một con bướm đang bay qua bụi cây."
+      }
     },
     {
       "id": "discover-3-grammar-u5-1-2-context2",
@@ -122,8 +126,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "weren't",
       "options": [
         "wasn't",
@@ -132,7 +136,7 @@
         "weren't"
       ],
       "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
-      "why": "The crickets weren't jumping.\nĐặt not sau was/were.",
+      "why": "Chọn “weren't”. Đặt not sau was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -141,7 +145,11 @@
       "spokenScene": "",
       "scene": "A poem says that words can make toenails twinkle. A reader cannot find any literal scientific evidence.\nUse the past continuous (yesterday).\nThe crickets ___ jumping.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The crickets weren't jumping.",
+        "vi": "Dế không nhảy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-1-3-context2",
@@ -155,8 +163,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Was",
       "options": [
         "Am",
@@ -165,7 +173,7 @@
         "Were"
       ],
       "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
-      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
+      "why": "Chọn “Was”. Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -174,7 +182,11 @@
       "spokenScene": "",
       "scene": "A poem says that words can make toenails twinkle. A reader cannot find any literal scientific evidence.\nUse the past continuous (yesterday).\n___ the bee flying? Yes, it was.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Was the bee flying? Yes, it was.",
+        "vi": "Con ong có bay không? Vâng, đúng vậy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-1-4-context2",
@@ -188,8 +200,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Time in progress",
-      "title": "Time in progress",
+      "focus": "Hành động đang diễn ra tại một thời điểm",
+      "title": "Hành động đang diễn ra tại một thời điểm",
       "answer": "was",
       "options": [
         "be",
@@ -198,7 +210,7 @@
         "am"
       ],
       "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
-      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
+      "why": "Chọn “was”. At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -207,7 +219,11 @@
       "spokenScene": "",
       "scene": "A poem says that words can make toenails twinkle. A reader cannot find any literal scientific evidence.\nUse the past continuous (yesterday).\nAt noon, the kangaroo ___ resting.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "At noon, the kangaroo was resting.",
+        "vi": "Vào buổi trưa, kangaroo đang nghỉ ngơi."
+      }
     },
     {
       "id": "discover-3-grammar-u5-2-1-context2",
@@ -221,8 +237,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "was",
       "options": [
         "were",
@@ -231,7 +247,7 @@
         "was"
       ],
       "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
-      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they.",
+      "why": "Chọn “was”. Dùng was với I, he, she, it; dùng were với you, we, they.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -242,7 +258,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A butterfly was flying over the thicket.",
+        "vi": "Một con bướm đang bay qua bụi cây."
+      }
     },
     {
       "id": "discover-3-grammar-u5-2-2-context2",
@@ -256,8 +276,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "weren't",
       "options": [
         "am not",
@@ -266,7 +286,7 @@
         "wasn't"
       ],
       "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
-      "why": "The crickets weren't jumping.\nĐặt not sau was/were.",
+      "why": "Chọn “weren't”. Đặt not sau was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -277,7 +297,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The crickets weren't jumping.",
+        "vi": "Dế không nhảy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-2-3-context2",
@@ -291,8 +315,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Was",
       "options": [
         "Be",
@@ -301,7 +325,7 @@
         "Am"
       ],
       "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
-      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
+      "why": "Chọn “Was”. Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -312,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Was the bee flying? Yes, it was.",
+        "vi": "Con ong có bay không? Vâng, đúng vậy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-2-4-context2",
@@ -326,8 +354,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Time in progress",
-      "title": "Time in progress",
+      "focus": "Hành động đang diễn ra tại một thời điểm",
+      "title": "Hành động đang diễn ra tại một thời điểm",
       "answer": "was",
       "options": [
         "was",
@@ -336,7 +364,7 @@
         "be"
       ],
       "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
-      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
+      "why": "Chọn “was”. At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +375,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "At noon, the kangaroo was resting.",
+        "vi": "Vào buổi trưa, kangaroo đang nghỉ ngơi."
+      }
     },
     {
       "id": "discover-3-grammar-u5-3-1-context2",
@@ -361,8 +393,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "was",
       "options": [
         "am",
@@ -371,7 +403,7 @@
         "were"
       ],
       "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
-      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they.",
+      "why": "Chọn “was”. Dùng was với I, he, she, it; dùng were với you, we, they.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +415,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A butterfly was flying over the thicket.",
+        "vi": "Một con bướm đang bay qua bụi cây."
+      }
     },
     {
       "id": "discover-3-grammar-u5-3-2-context2",
@@ -397,8 +433,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "weren't",
       "options": [
         "not were",
@@ -407,7 +443,7 @@
         "am not"
       ],
       "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
-      "why": "The crickets weren't jumping.\nĐặt not sau was/were.",
+      "why": "Chọn “weren't”. Đặt not sau was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -419,7 +455,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The crickets weren't jumping.",
+        "vi": "Dế không nhảy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-3-3-context2",
@@ -433,8 +473,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Was",
       "options": [
         "Was",
@@ -443,7 +483,7 @@
         "Be"
       ],
       "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
-      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
+      "why": "Chọn “Was”. Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -455,7 +495,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Was the bee flying? Yes, it was.",
+        "vi": "Con ong có bay không? Vâng, đúng vậy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-3-4-context2",
@@ -469,8 +513,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Time in progress",
-      "title": "Time in progress",
+      "focus": "Hành động đang diễn ra tại một thời điểm",
+      "title": "Hành động đang diễn ra tại một thời điểm",
       "answer": "was",
       "options": [
         "were",
@@ -479,7 +523,7 @@
         "was"
       ],
       "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
-      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
+      "why": "Chọn “was”. At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -491,7 +535,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "At noon, the kangaroo was resting.",
+        "vi": "Vào buổi trưa, kangaroo đang nghỉ ngơi."
+      }
     },
     {
       "id": "discover-3-grammar-u5-4-1-context2",
@@ -505,8 +553,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "A butterfly was → flying over → the thicket.",
       "options": [
         "A butterfly was → flying over → the thicket.",
@@ -515,7 +563,7 @@
         "the thicket. → flying over → A butterfly was"
       ],
       "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
-      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they.",
+      "why": "Chọn “A butterfly was → flying over → the thicket.”. Dùng was với I, he, she, it; dùng were với you, we, they.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -529,7 +577,11 @@
         "flying over",
         "the thicket.",
         "A butterfly was"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A butterfly was flying over the thicket.",
+        "vi": "Một con bướm đang bay qua bụi cây."
+      }
     },
     {
       "id": "discover-3-grammar-u5-4-2-context2",
@@ -543,8 +595,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The crickets → weren't → jumping.",
       "options": [
         "The crickets → weren't → jumping.",
@@ -553,7 +605,7 @@
         "jumping. → weren't → The crickets"
       ],
       "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
-      "why": "The crickets weren't jumping.\nĐặt not sau was/were.",
+      "why": "Chọn “The crickets → weren't → jumping.”. Đặt not sau was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -567,7 +619,11 @@
         "weren't",
         "jumping.",
         "The crickets"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The crickets weren't jumping.",
+        "vi": "Dế không nhảy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-4-3-context2",
@@ -581,8 +637,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Was the bee → flying? Yes, → it was.",
       "options": [
         "Was the bee → flying? Yes, → it was.",
@@ -591,7 +647,7 @@
         "it was. → flying? Yes, → Was the bee"
       ],
       "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
-      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
+      "why": "Chọn “Was the bee → flying? Yes, → it was.”. Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -605,7 +661,11 @@
         "flying? Yes,",
         "it was.",
         "Was the bee"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Was the bee flying? Yes, it was.",
+        "vi": "Con ong có bay không? Vâng, đúng vậy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-4-4-context2",
@@ -619,8 +679,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Time in progress",
-      "title": "Time in progress",
+      "focus": "Hành động đang diễn ra tại một thời điểm",
+      "title": "Hành động đang diễn ra tại một thời điểm",
       "answer": "At noon, → the kangaroo → was resting.",
       "options": [
         "At noon, → the kangaroo → was resting.",
@@ -629,7 +689,7 @@
         "was resting. → the kangaroo → At noon,"
       ],
       "hint": "At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy. Trọng tâm là quá trình, không phải lúc bắt đầu hay kết thúc.",
-      "why": "At noon, the kangaroo was resting.\nAt + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
+      "why": "Chọn “At noon, → the kangaroo → was resting.”. At + giờ hoặc at that moment cho biết hành động đang diễn ra tại thời điểm ấy.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -643,7 +703,11 @@
         "the kangaroo",
         "was resting.",
         "At noon,"
-      ]
+      ],
+      "explanationExample": {
+        "en": "At noon, the kangaroo was resting.",
+        "vi": "Vào buổi trưa, kangaroo đang nghỉ ngơi."
+      }
     },
     {
       "id": "discover-3-grammar-u5-5-1-context2",
@@ -657,8 +721,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Affirmative",
-      "title": "Affirmative",
+      "focus": "Câu khẳng định",
+      "title": "Câu khẳng định",
       "answer": "A butterfly was flying over the thicket.",
       "options": [
         "A butterfly was flying over the thicket.",
@@ -667,7 +731,7 @@
         "A butterfly be flying over the thicket."
       ],
       "hint": "Dùng was với I, he, she, it; dùng were với you, we, they. Động từ chính thêm -ing.",
-      "why": "A butterfly was flying over the thicket.\nDùng was với I, he, she, it; dùng were với you, we, they.",
+      "why": "Chọn “A butterfly was flying over the thicket.”. Dùng was với I, he, she, it; dùng were với you, we, they.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -678,7 +742,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A butterfly was flying over the thicket.",
+        "vi": "Một con bướm đang bay qua bụi cây."
+      }
     },
     {
       "id": "discover-3-grammar-u5-5-2-context2",
@@ -692,8 +760,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Negative",
-      "title": "Negative",
+      "focus": "Câu phủ định",
+      "title": "Câu phủ định",
       "answer": "The crickets weren't jumping.",
       "options": [
         "The crickets wasn't jumping.",
@@ -702,7 +770,7 @@
         "The crickets weren't jumping."
       ],
       "hint": "Đặt not sau was/were. Dạng nói gọn là wasn't và weren't; động từ chính vẫn giữ dạng V-ing.",
-      "why": "The crickets weren't jumping.\nĐặt not sau was/were.",
+      "why": "Chọn “The crickets weren't jumping.”. Đặt not sau was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -713,7 +781,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The crickets weren't jumping.",
+        "vi": "Dế không nhảy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-5-3-context2",
@@ -727,8 +799,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Questions",
-      "title": "Questions",
+      "focus": "Câu hỏi",
+      "title": "Câu hỏi",
       "answer": "Was the bee flying? Yes, it was.",
       "options": [
         "Am the bee flying? Yes, it was.",
@@ -737,7 +809,7 @@
         "Were the bee flying? Yes, it was."
       ],
       "hint": "Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't. Không dùng did trong câu hỏi quá khứ tiếp diễn.",
-      "why": "Was the bee flying? Yes, it was.\nCâu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
+      "why": "Chọn “Was the bee flying? Yes, it was.”. Câu trả lời ngắn dùng đúng was/wasn't hoặc were/weren't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -748,7 +820,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Was the bee flying? Yes, it was.",
+        "vi": "Con ong có bay không? Vâng, đúng vậy."
+      }
     },
     {
       "id": "discover-3-grammar-u5-5-4-context2-life",

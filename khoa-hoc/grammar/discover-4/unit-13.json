@@ -9,58 +9,58 @@
   },
   "summary": [
     {
-      "tag": "Necessity",
+      "tag": "Diễn tả sự cần thiết",
       "note": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
       "example": "A publisher must check every newspaper article.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "must / have to",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "exampleVi": "Một nhà xuất bản phải kiểm tra từng bài báo.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Prohibition",
+      "tag": "Diễn tả điều bị cấm",
       "note": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
       "example": "Reporters mustn't publish false advertising.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "mustn't",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "exampleVi": "Phóng viên không được đăng quảng cáo sai sự thật.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "No necessity",
+      "tag": "Diễn tả điều không bắt buộc",
       "note": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
       "example": "You don't have to buy a magazine to read the news.",
       "formula": [
         [
-          "subject",
+          "chủ ngữ",
           "+",
           "don't / doesn't have to",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "Người nghe vẫn có thể làm nếu muốn.",
       "exampleVi": "Bạn không cần phải mua tạp chí để đọc tin tức.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
-      "tag": "Forms across tenses",
+      "tag": "Cách dùng ở các thì khác nhau",
       "note": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
       "example": "The publisher had to update the blog yesterday.",
       "formula": [
@@ -70,19 +70,19 @@
           "has to"
         ],
         [
-          "past",
+          "quá khứ",
           "->",
           "had to"
         ],
         [
-          "future",
+          "tương lai",
           "->",
           "will have to"
         ]
       ],
       "usage": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "exampleVi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -98,8 +98,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Necessity",
-      "title": "Necessity",
+      "focus": "Diễn tả sự cần thiết",
+      "title": "Diễn tả sự cần thiết",
       "answer": "check",
       "options": [
         "check",
@@ -108,7 +108,7 @@
         "checked"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "why": "Chọn “check”. Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -117,7 +117,11 @@
       "spokenScene": "",
       "scene": "A young blogger wants readers to trust her nature posts while keeping her identity private.\nA publisher must ___ every newspaper article.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "A publisher must check every newspaper article.",
+        "vi": "Một nhà xuất bản phải kiểm tra từng bài báo."
+      }
     },
     {
       "id": "discover-4-grammar-u13-1-2-context2",
@@ -131,8 +135,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prohibition",
-      "title": "Prohibition",
+      "focus": "Diễn tả điều bị cấm",
+      "title": "Diễn tả điều bị cấm",
       "answer": "publish",
       "options": [
         "publishes",
@@ -141,7 +145,7 @@
         "publish"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "why": "Chọn “publish”. Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -150,7 +154,11 @@
       "spokenScene": "",
       "scene": "A young blogger wants readers to trust her nature posts while keeping her identity private.\nReporters mustn't ___ false advertising.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Reporters mustn't publish false advertising.",
+        "vi": "Phóng viên không được đăng quảng cáo sai sự thật."
+      }
     },
     {
       "id": "discover-4-grammar-u13-1-3-context2",
@@ -164,8 +172,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No necessity",
-      "title": "No necessity",
+      "focus": "Diễn tả điều không bắt buộc",
+      "title": "Diễn tả điều không bắt buộc",
       "answer": "buy",
       "options": [
         "buying",
@@ -174,7 +182,7 @@
         "buys"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
+      "why": "Chọn “buy”. Người nghe vẫn có thể làm nếu muốn.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -183,7 +191,11 @@
       "spokenScene": "",
       "scene": "A young blogger wants readers to trust her nature posts while keeping her identity private.\nYou don't have to ___ a magazine to read the news.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "You don't have to buy a magazine to read the news.",
+        "vi": "Bạn không cần phải mua tạp chí để đọc tin tức."
+      }
     },
     {
       "id": "discover-4-grammar-u13-1-4-context2",
@@ -197,8 +209,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Forms across tenses",
-      "title": "Forms across tenses",
+      "focus": "Cách dùng ở các thì khác nhau",
+      "title": "Cách dùng ở các thì khác nhau",
       "answer": "to update",
       "options": [
         "updated",
@@ -207,7 +219,7 @@
         "updates"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
+      "why": "Chọn “to update”. Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -216,7 +228,11 @@
       "spokenScene": "",
       "scene": "A young blogger wants readers to trust her nature posts while keeping her identity private.\nThe publisher had ___ the blog yesterday.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The publisher had to update the blog yesterday.",
+        "vi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua."
+      }
     },
     {
       "id": "discover-4-grammar-u13-2-1-context2",
@@ -230,8 +246,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Necessity",
-      "title": "Necessity",
+      "focus": "Diễn tả sự cần thiết",
+      "title": "Diễn tả sự cần thiết",
       "answer": "check",
       "options": [
         "checks",
@@ -240,7 +256,7 @@
         "check"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "why": "Chọn “check”. Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -251,7 +267,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "A publisher must check every newspaper article.",
+        "vi": "Một nhà xuất bản phải kiểm tra từng bài báo."
+      }
     },
     {
       "id": "discover-4-grammar-u13-2-2-context2",
@@ -265,8 +285,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prohibition",
-      "title": "Prohibition",
+      "focus": "Diễn tả điều bị cấm",
+      "title": "Diễn tả điều bị cấm",
       "answer": "publish",
       "options": [
         "publishing",
@@ -275,7 +295,7 @@
         "publishes"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "why": "Chọn “publish”. Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -286,7 +306,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Reporters mustn't publish false advertising.",
+        "vi": "Phóng viên không được đăng quảng cáo sai sự thật."
+      }
     },
     {
       "id": "discover-4-grammar-u13-2-3-context2",
@@ -300,8 +324,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No necessity",
-      "title": "No necessity",
+      "focus": "Diễn tả điều không bắt buộc",
+      "title": "Diễn tả điều không bắt buộc",
       "answer": "buy",
       "options": [
         "bought",
@@ -310,7 +334,7 @@
         "buying"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
+      "why": "Chọn “buy”. Người nghe vẫn có thể làm nếu muốn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -321,7 +345,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "You don't have to buy a magazine to read the news.",
+        "vi": "Bạn không cần phải mua tạp chí để đọc tin tức."
+      }
     },
     {
       "id": "discover-4-grammar-u13-2-4-context2",
@@ -335,8 +363,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Forms across tenses",
-      "title": "Forms across tenses",
+      "focus": "Cách dùng ở các thì khác nhau",
+      "title": "Cách dùng ở các thì khác nhau",
       "answer": "to update",
       "options": [
         "to update",
@@ -345,7 +373,7 @@
         "updated"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
+      "why": "Chọn “to update”. Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -356,7 +384,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The publisher had to update the blog yesterday.",
+        "vi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua."
+      }
     },
     {
       "id": "discover-4-grammar-u13-3-1-context2",
@@ -370,8 +402,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Necessity",
-      "title": "Necessity",
+      "focus": "Diễn tả sự cần thiết",
+      "title": "Diễn tả sự cần thiết",
       "answer": "check",
       "options": [
         "checking",
@@ -380,7 +412,7 @@
         "checks"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "why": "Chọn “check”. Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -392,7 +424,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "A publisher must check every newspaper article.",
+        "vi": "Một nhà xuất bản phải kiểm tra từng bài báo."
+      }
     },
     {
       "id": "discover-4-grammar-u13-3-2-context2",
@@ -406,8 +442,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prohibition",
-      "title": "Prohibition",
+      "focus": "Diễn tả điều bị cấm",
+      "title": "Diễn tả điều bị cấm",
       "answer": "publish",
       "options": [
         "published",
@@ -416,7 +452,7 @@
         "publishing"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "why": "Chọn “publish”. Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -428,7 +464,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Reporters mustn't publish false advertising.",
+        "vi": "Phóng viên không được đăng quảng cáo sai sự thật."
+      }
     },
     {
       "id": "discover-4-grammar-u13-3-3-context2",
@@ -442,8 +482,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No necessity",
-      "title": "No necessity",
+      "focus": "Diễn tả điều không bắt buộc",
+      "title": "Diễn tả điều không bắt buộc",
       "answer": "buy",
       "options": [
         "buy",
@@ -452,7 +492,7 @@
         "bought"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
+      "why": "Chọn “buy”. Người nghe vẫn có thể làm nếu muốn.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -464,7 +504,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "You don't have to buy a magazine to read the news.",
+        "vi": "Bạn không cần phải mua tạp chí để đọc tin tức."
+      }
     },
     {
       "id": "discover-4-grammar-u13-3-4-context2",
@@ -478,8 +522,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Forms across tenses",
-      "title": "Forms across tenses",
+      "focus": "Cách dùng ở các thì khác nhau",
+      "title": "Cách dùng ở các thì khác nhau",
       "answer": "to update",
       "options": [
         "updating",
@@ -488,7 +532,7 @@
         "to update"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
+      "why": "Chọn “to update”. Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -500,7 +544,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The publisher had to update the blog yesterday.",
+        "vi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua."
+      }
     },
     {
       "id": "discover-4-grammar-u13-4-1-context2",
@@ -514,8 +562,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Necessity",
-      "title": "Necessity",
+      "focus": "Diễn tả sự cần thiết",
+      "title": "Diễn tả sự cần thiết",
       "answer": "A publisher must → check every → newspaper article.",
       "options": [
         "A publisher must → check every → newspaper article.",
@@ -524,7 +572,7 @@
         "newspaper article. → check every → A publisher must"
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "why": "Chọn “A publisher must → check every → newspaper article.”. Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -538,7 +586,11 @@
         "check every",
         "newspaper article.",
         "A publisher must"
-      ]
+      ],
+      "explanationExample": {
+        "en": "A publisher must check every newspaper article.",
+        "vi": "Một nhà xuất bản phải kiểm tra từng bài báo."
+      }
     },
     {
       "id": "discover-4-grammar-u13-4-2-context2",
@@ -552,8 +604,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prohibition",
-      "title": "Prohibition",
+      "focus": "Diễn tả điều bị cấm",
+      "title": "Diễn tả điều bị cấm",
       "answer": "Reporters mustn't → publish false → advertising.",
       "options": [
         "Reporters mustn't → publish false → advertising.",
@@ -562,7 +614,7 @@
         "advertising. → publish false → Reporters mustn't"
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "why": "Chọn “Reporters mustn't → publish false → advertising.”. Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -576,7 +628,11 @@
         "publish false",
         "advertising.",
         "Reporters mustn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Reporters mustn't publish false advertising.",
+        "vi": "Phóng viên không được đăng quảng cáo sai sự thật."
+      }
     },
     {
       "id": "discover-4-grammar-u13-4-3-context2",
@@ -590,8 +646,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No necessity",
-      "title": "No necessity",
+      "focus": "Diễn tả điều không bắt buộc",
+      "title": "Diễn tả điều không bắt buộc",
       "answer": "You don't have to → buy a magazine to → read the news.",
       "options": [
         "You don't have to → buy a magazine to → read the news.",
@@ -600,7 +656,7 @@
         "read the news. → buy a magazine to → You don't have to"
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
+      "why": "Chọn “You don't have to → buy a magazine to → read the news.”. Người nghe vẫn có thể làm nếu muốn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -614,7 +670,11 @@
         "buy a magazine to",
         "read the news.",
         "You don't have to"
-      ]
+      ],
+      "explanationExample": {
+        "en": "You don't have to buy a magazine to read the news.",
+        "vi": "Bạn không cần phải mua tạp chí để đọc tin tức."
+      }
     },
     {
       "id": "discover-4-grammar-u13-4-4-context2",
@@ -628,8 +688,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Forms across tenses",
-      "title": "Forms across tenses",
+      "focus": "Cách dùng ở các thì khác nhau",
+      "title": "Cách dùng ở các thì khác nhau",
       "answer": "The publisher had → to update the → blog yesterday.",
       "options": [
         "The publisher had → to update the → blog yesterday.",
@@ -638,7 +698,7 @@
         "blog yesterday. → to update the → The publisher had"
       ],
       "hint": "Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai. Câu hỏi dùng do/does/did với have to.",
-      "why": "The publisher had to update the blog yesterday.\nDùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
+      "why": "Chọn “The publisher had → to update the → blog yesterday.”. Dùng has to với he, she, it; had to cho quá khứ; will have to cho tương lai.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -652,7 +712,11 @@
         "to update the",
         "blog yesterday.",
         "The publisher had"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The publisher had to update the blog yesterday.",
+        "vi": "Nhà xuất bản đã phải cập nhật blog ngày hôm qua."
+      }
     },
     {
       "id": "discover-4-grammar-u13-5-1-context2",
@@ -666,8 +730,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Necessity",
-      "title": "Necessity",
+      "focus": "Diễn tả sự cần thiết",
+      "title": "Diễn tả sự cần thiết",
       "answer": "A publisher must check every newspaper article.",
       "options": [
         "A publisher must check every newspaper article.",
@@ -676,7 +740,7 @@
         "A publisher must checked every newspaper article."
       ],
       "hint": "Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói. Have to thường nhấn mạnh quy định hoặc hoàn cảnh bên ngoài. Sau cả hai đều dùng động từ nguyên mẫu.",
-      "why": "A publisher must check every newspaper article.\nMust thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
+      "why": "Chọn “A publisher must check every newspaper article.”. Must thường thể hiện yêu cầu mạnh hoặc quan điểm của người nói.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -687,7 +751,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "A publisher must check every newspaper article.",
+        "vi": "Một nhà xuất bản phải kiểm tra từng bài báo."
+      }
     },
     {
       "id": "discover-4-grammar-u13-5-2-context2",
@@ -701,8 +769,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Prohibition",
-      "title": "Prohibition",
+      "focus": "Diễn tả điều bị cấm",
+      "title": "Diễn tả điều bị cấm",
       "answer": "Reporters mustn't publish false advertising.",
       "options": [
         "Reporters mustn't publishes false advertising.",
@@ -711,7 +779,7 @@
         "Reporters mustn't publish false advertising."
       ],
       "hint": "Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm. Nó không có nghĩa là không cần làm.",
-      "why": "Reporters mustn't publish false advertising.\nMustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
+      "why": "Chọn “Reporters mustn't publish false advertising.”. Mustn't diễn tả lệnh cấm hoặc điều rất không nên làm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -722,7 +790,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Reporters mustn't publish false advertising.",
+        "vi": "Phóng viên không được đăng quảng cáo sai sự thật."
+      }
     },
     {
       "id": "discover-4-grammar-u13-5-3-context2",
@@ -736,8 +808,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "No necessity",
-      "title": "No necessity",
+      "focus": "Diễn tả điều không bắt buộc",
+      "title": "Diễn tả điều không bắt buộc",
       "answer": "You don't have to buy a magazine to read the news.",
       "options": [
         "You don't have to buying a magazine to read the news.",
@@ -746,7 +818,7 @@
         "You don't have to buys a magazine to read the news."
       ],
       "hint": "Người nghe vẫn có thể làm nếu muốn. Đây là điểm khác quan trọng với mustn't, vốn có nghĩa là bị cấm.",
-      "why": "You don't have to buy a magazine to read the news.\nNgười nghe vẫn có thể làm nếu muốn.",
+      "why": "Chọn “You don't have to buy a magazine to read the news.”. Người nghe vẫn có thể làm nếu muốn.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -757,7 +829,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "You don't have to buy a magazine to read the news.",
+        "vi": "Bạn không cần phải mua tạp chí để đọc tin tức."
+      }
     },
     {
       "id": "discover-4-grammar-u13-5-4-context2-life",

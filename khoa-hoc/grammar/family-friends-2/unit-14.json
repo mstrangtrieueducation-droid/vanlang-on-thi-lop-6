@@ -23,15 +23,15 @@
       "example": "Yesterday I was tired.",
       "usage": "Nói về quá khứ dùng was/were.",
       "exampleVi": "Hôm qua tôi mệt.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "Use “was/wasn’t” for I/he/she/it in the past and “were/weren’t” for you/we/they.",
+      "tag": "Điểm cần nhớ",
+      "note": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
       "example": "We weren't naughty yesterday.",
-      "usage": "Use “was/wasn’t” for I/he/she/it in the past and “were/weren’t” for you/we/they.",
+      "usage": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
       "exampleVi": "Hôm qua chúng tôi không nghịch ngợm.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "are"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday I was tired.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "Yesterday, Mia knocked over a friend's model by mistake.\nYesterday I ___ tired.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Yesterday I was tired.",
+        "vi": "Hôm qua tôi mệt."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-1-2-context2",
@@ -92,7 +96,7 @@
         "were"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday they were outside.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “were”. Nói về quá khứ dùng was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "Yesterday, Mia knocked over a friend's model by mistake.\nYesterday they ___ outside.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Yesterday they were outside.",
+        "vi": "Hôm qua họ ở bên ngoài."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-1-3-context2",
@@ -126,7 +134,7 @@
         "weren't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "She wasn't wet yesterday. She was dry.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “wasn't”. Nói về quá khứ dùng was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "Yesterday, Mia knocked over a friend's model by mistake.\nShe ___ wet yesterday. She was dry.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She wasn't wet yesterday. She was dry.",
+        "vi": "Hôm qua bạn ấy không bị ướt. Người bạn ấy khô ráo."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-1-4-context2",
@@ -160,7 +172,7 @@
         "isn't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "We weren't naughty yesterday.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “weren't”. Nói về quá khứ dùng was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "Yesterday, Mia knocked over a friend's model by mistake.\nWe ___ naughty yesterday.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We weren't naughty yesterday.",
+        "vi": "Hôm qua chúng tôi không nghịch ngợm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-1-5-context2",
@@ -194,7 +210,7 @@
         "are"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday he was happy.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "Yesterday, Mia knocked over a friend's model by mistake.\nYesterday he ___ happy.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Yesterday he was happy.",
+        "vi": "Hôm qua bạn ấy vui vẻ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-2-1-context2",
@@ -228,7 +248,7 @@
         "was"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday I was tired.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Yesterday I was tired.",
+        "vi": "Hôm qua tôi mệt."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-2-2-context2",
@@ -264,7 +288,7 @@
         "was"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday they were outside.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “were”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Yesterday they were outside.",
+        "vi": "Hôm qua họ ở bên ngoài."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-2-3-context2",
@@ -300,7 +328,7 @@
         "isn't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "She wasn't wet yesterday. She was dry.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “wasn't”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She wasn't wet yesterday. She was dry.",
+        "vi": "Hôm qua bạn ấy không bị ướt. Người bạn ấy khô ráo."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-2-4-context2",
@@ -336,7 +368,7 @@
         "doesn't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "We weren't naughty yesterday.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “weren't”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We weren't naughty yesterday.",
+        "vi": "Hôm qua chúng tôi không nghịch ngợm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-2-5-context2",
@@ -372,7 +408,7 @@
         "was"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday he was happy.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Yesterday he was happy.",
+        "vi": "Hôm qua bạn ấy vui vẻ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-3-1-context2",
@@ -408,7 +448,7 @@
         "were"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday I was tired.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Yesterday I was tired.",
+        "vi": "Hôm qua tôi mệt."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-3-2-context2",
@@ -445,7 +489,7 @@
         "is"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday they were outside.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “were”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Yesterday they were outside.",
+        "vi": "Hôm qua họ ở bên ngoài."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-3-3-context2",
@@ -482,7 +530,7 @@
         "aren't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "She wasn't wet yesterday. She was dry.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “wasn't”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She wasn't wet yesterday. She was dry.",
+        "vi": "Hôm qua bạn ấy không bị ướt. Người bạn ấy khô ráo."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-3-4-context2",
@@ -519,7 +571,7 @@
         "weren't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "We weren't naughty yesterday.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “weren't”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We weren't naughty yesterday.",
+        "vi": "Hôm qua chúng tôi không nghịch ngợm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-3-5-context2",
@@ -556,7 +612,7 @@
         "were"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday he was happy.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “was”. Nói về quá khứ dùng was/were.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Yesterday he was happy.",
+        "vi": "Hôm qua bạn ấy vui vẻ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-4-1-context2",
@@ -593,7 +653,7 @@
         "tired. → was → Yesterday I"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday I was tired.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “Yesterday I → was → tired.”. Nói về quá khứ dùng was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "was",
         "tired.",
         "Yesterday I"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Yesterday I was tired.",
+        "vi": "Hôm qua tôi mệt."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-4-2-context2",
@@ -632,7 +696,7 @@
         "outside. → were → Yesterday they"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "Yesterday they were outside.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “Yesterday they → were → outside.”. Nói về quá khứ dùng was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "were",
         "outside.",
         "Yesterday they"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Yesterday they were outside.",
+        "vi": "Hôm qua họ ở bên ngoài."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-4-3-context2",
@@ -671,7 +739,7 @@
         "was dry. → yesterday. She → She wasn't wet"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "She wasn't wet yesterday. She was dry.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “She wasn't wet → yesterday. She → was dry.”. Nói về quá khứ dùng was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "yesterday. She",
         "was dry.",
         "She wasn't wet"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She wasn't wet yesterday. She was dry.",
+        "vi": "Hôm qua bạn ấy không bị ướt. Người bạn ấy khô ráo."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-4-4-context2",
@@ -710,7 +782,7 @@
         "yesterday. → naughty → We weren't"
       ],
       "hint": "Nói về quá khứ dùng was/were. Phủ định: wasn’t/weren’t. Đừng dùng am/is/are khi nói yesterday.",
-      "why": "We weren't naughty yesterday.\nNói về quá khứ dùng was/were.",
+      "why": "Chọn “We weren't → naughty → yesterday.”. Nói về quá khứ dùng was/were.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "naughty",
         "yesterday.",
         "We weren't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We weren't naughty yesterday.",
+        "vi": "Hôm qua chúng tôi không nghịch ngợm."
+      }
     },
     {
       "id": "family-friends-2-grammar-u14-4-5-context2-life",

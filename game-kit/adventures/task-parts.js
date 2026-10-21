@@ -62,20 +62,27 @@
  const phonics=id=>/^phonics-[1-4]$/.test(id||'');
  const listening=q=>q.skill==='listening'||!!q.sourceAudio||q.interaction==='dictation';
  const stream=(q,id)=>!q.dictation&&(phonics(id)||/^(family-friends-[12]|discover-[1-4])$/.test(id||'')&&listening(q));
+ const instructionOnly=(q,id)=>id==='van-lang'&&(!!q.storyText||!!q.storyId||q.passageKind==='cloze'||['build','sequence','order'].includes(q.type)||!!q.orderWords||/Gap|Write|build|sequence|order/.test(describe(q).type)||/_{2,}|\.{2,}|…/.test(q.scene||'')||/^blank\s*\(/i.test(q.scene||'')||/điền|sắp xếp|reading|cloze|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' ')));
  function automatic(q,id){
   if(q.dictation)return !!q.questionAudio;
   if(id==='van-lang'){
    const d=describe(q),gap=q.passageKind==='cloze'||/^blank\s*\(/i.test(q.scene||'')||/_{2,}|\.{2,}|…/.test(q.scene||'')||/Gap|Write/.test(d.type)||/fill|cloze|điền/i.test(q.sourceSection||q.section||'');
    // The passage is a reading reference, never an automatic narration source.
    const question=String(q.scene||'').trim();
-   return !gap&&!!question&&question.split(/\s+/).length<55;
+   return !instructionOnly(q,id)&&!gap&&!!question&&question.split(/\s+/).length<55;
   }
+  if(/^(family-friends-[12]|discover-[1-4])$/.test(id||''))return true;
   return stream(q,id);
  }
  const hiddenStory=(q,id)=>phonics(id)&&!!q.storyId;
  function speech(q,options={}){
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.
   if(hiddenStory(q,options.course))return [q.storySentence||q.spokenScene].filter(Boolean);
+  if(/^(family-friends-[12]|discover-[1-4])$/.test(options.course||'')){
+   const reference=!!q.storyText&&String(q.scene||'').trim()===String(q.storyText).trim(),direction=describe(q).instruction;
+   const out=[reference?'':q.spokenScene||q.scene,q.spokenPrompt||q.prompt].map(s=>String(s||'').trim()).filter(s=>s&&s!==q.storyText&&s!==direction&&!Object.values(tasks).some(t=>s===t[1]));
+   return [...new Set(out.map(s=>s.split('\n').filter(line=>!/^Word bank:|^Grammar focus:/.test(line)&&!/[\u0300-\u036f]|đ/i.test(line.normalize('NFD'))).join('\n')).filter(Boolean))].filter(s=>!/^Choose the (?:missing words|correction)[.!]?$/i.test(s));
+  }
   // Some older banks used the four options as spokenScene when the prompt was
   // empty. Văn Lang must always use the actual question, including cached banks.
   const scene=String((options.course==='van-lang'?q.scene:q.spokenScene??q.scene)??'').trim(),prompt=String((options.course==='van-lang'?q.prompt:q.spokenPrompt??q.prompt)??'').trim();
@@ -90,5 +97,5 @@
   return out;
  }
  const markup=s=>String(s||'').replace(/<[^>]*>/g,t=>/^<\/?(?:u|b|strong|em|i|br|p)\s*\/?>$/i.test(t)?t:'');
- return {tasks,describe,group,sections,at,generic,questionPrompt,speech,stream,automatic,hiddenStory,markup};
+ return {tasks,describe,group,sections,at,generic,questionPrompt,speech,stream,automatic,instructionOnly,hiddenStory,markup};
 });

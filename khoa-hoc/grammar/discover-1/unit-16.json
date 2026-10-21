@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Câu hỏi Yes/No · Đảo be",
+      "tag": "Câu hỏi có hoặc không · Đảo be",
       "note": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
       "example": "Are they singing?",
       "formula": [
@@ -24,7 +24,7 @@
       ],
       "usage": "Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "exampleVi": "Họ đang hát à?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Am I · Chủ ngữ I",
@@ -42,10 +42,10 @@
       ],
       "usage": "Với I, câu hỏi bắt đầu bằng Am I.",
       "exampleVi": "Tôi đang làm máy lắc à?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Is · he, she, it",
+      "tag": "Câu hỏi với chủ ngữ số ít",
       "note": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
       "example": "Is she dancing?",
       "formula": [
@@ -60,10 +60,10 @@
       ],
       "usage": "Is đứng trước chủ ngữ số ít.",
       "exampleVi": "Cô ấy đang nhảy à?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Are · you, we, they",
+      "tag": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
       "note": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
       "example": "Are we having fun?",
       "formula": [
@@ -78,7 +78,7 @@
       ],
       "usage": "Are dùng cho you, we, they và nhiều người.",
       "exampleVi": "Chúng ta đang vui vẻ phải không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Trả lời ngắn · Yes",
@@ -103,7 +103,7 @@
       ],
       "usage": "Câu trả lời ngắn khẳng định dùng Yes + đại từ + am/is/are.",
       "exampleVi": "Vâng, đúng vậy.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Trả lời ngắn · No",
@@ -128,7 +128,7 @@
       ],
       "usage": "Sau No, dùng đúng đại từ rồi đến be phủ định: I'm not, he isn't, she isn't, we aren't, they aren't.",
       "exampleVi": "Không, cô ấy không.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Câu hỏi mở · What",
@@ -148,7 +148,7 @@
       ],
       "usage": "What đứng đầu câu, sau đó vẫn giữ trật tự câu hỏi: What + am/is/are + chủ ngữ + doing?",
       "exampleVi": "Họ đang làm gì vậy?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Ngữ điệu · Câu hỏi",
@@ -166,7 +166,7 @@
       ],
       "usage": "Câu hỏi Yes/No thường lên giọng ở cuối: Are they singing?",
       "exampleVi": "Họ đang làm gì vậy?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -182,8 +182,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Câu hỏi Yes/No · Đảo be",
-      "title": "Câu hỏi Yes/No · Đảo be",
+      "focus": "Câu hỏi có hoặc không · Đảo be",
+      "title": "Câu hỏi có hoặc không · Đảo be",
       "answer": "Are",
       "options": [
         "Are",
@@ -192,7 +192,7 @@
         "Be"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
+      "why": "Chọn “Are”. Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -201,7 +201,11 @@
       "spokenScene": "",
       "scene": "A pupil wants to speak while a friend is performing a song.\n___ they singing?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Are they singing?",
+        "vi": "Họ đang hát à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-1-2-context2",
@@ -225,7 +229,7 @@
         "Am"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
+      "why": "Chọn “Am”. Với I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -234,7 +238,11 @@
       "spokenScene": "",
       "scene": "A pupil wants to speak while a friend is performing a song.\n___ I making a shaker?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Am I making a shaker?",
+        "vi": "Tôi đang làm máy lắc à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-1-3-context2",
@@ -248,8 +256,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Is · he, she, it",
-      "title": "Is · he, she, it",
+      "focus": "Câu hỏi với chủ ngữ số ít",
+      "title": "Câu hỏi với chủ ngữ số ít",
       "answer": "Is",
       "options": [
         "Are",
@@ -258,7 +266,7 @@
         "Am"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
+      "why": "Chọn “Is”. Is đứng trước chủ ngữ số ít.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -267,7 +275,11 @@
       "spokenScene": "",
       "scene": "A pupil wants to speak while a friend is performing a song.\n___ she dancing?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Is she dancing?",
+        "vi": "Cô ấy đang nhảy à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-1-4-context2",
@@ -281,8 +293,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Are · you, we, they",
-      "title": "Are · you, we, they",
+      "focus": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
+      "title": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
       "answer": "Are",
       "options": [
         "Be",
@@ -291,7 +303,7 @@
         "Am"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
+      "why": "Chọn “Are”. Are dùng cho you, we, they và nhiều người.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -300,7 +312,11 @@
       "spokenScene": "",
       "scene": "A pupil wants to speak while a friend is performing a song.\n___ we having fun?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Are we having fun?",
+        "vi": "Chúng ta đang vui vẻ phải không?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-2-1-context2",
@@ -314,8 +330,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Câu hỏi Yes/No · Đảo be",
-      "title": "Câu hỏi Yes/No · Đảo be",
+      "focus": "Câu hỏi có hoặc không · Đảo be",
+      "title": "Câu hỏi có hoặc không · Đảo be",
       "answer": "Are",
       "options": [
         "Is",
@@ -324,7 +340,7 @@
         "Are"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
+      "why": "Chọn “Are”. Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -335,7 +351,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Are they singing?",
+        "vi": "Họ đang hát à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-2-2-context2",
@@ -359,7 +379,7 @@
         "Is"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
+      "why": "Chọn “Am”. Với I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -370,7 +390,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Am I making a shaker?",
+        "vi": "Tôi đang làm máy lắc à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-2-3-context2",
@@ -384,8 +408,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Is · he, she, it",
-      "title": "Is · he, she, it",
+      "focus": "Câu hỏi với chủ ngữ số ít",
+      "title": "Câu hỏi với chủ ngữ số ít",
       "answer": "Is",
       "options": [
         "Be",
@@ -394,7 +418,7 @@
         "Are"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
+      "why": "Chọn “Is”. Is đứng trước chủ ngữ số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -405,7 +429,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Is she dancing?",
+        "vi": "Cô ấy đang nhảy à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-2-4-context2",
@@ -419,8 +447,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Are · you, we, they",
-      "title": "Are · you, we, they",
+      "focus": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
+      "title": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
       "answer": "Are",
       "options": [
         "Are",
@@ -429,7 +457,7 @@
         "Be"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
+      "why": "Chọn “Are”. Are dùng cho you, we, they và nhiều người.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -440,7 +468,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Are we having fun?",
+        "vi": "Chúng ta đang vui vẻ phải không?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-3-1-context2",
@@ -454,8 +486,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Câu hỏi Yes/No · Đảo be",
-      "title": "Câu hỏi Yes/No · Đảo be",
+      "focus": "Câu hỏi có hoặc không · Đảo be",
+      "title": "Câu hỏi có hoặc không · Đảo be",
       "answer": "Are",
       "options": [
         "Am",
@@ -464,7 +496,7 @@
         "Is"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
+      "why": "Chọn “Are”. Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -476,7 +508,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Are they singing?",
+        "vi": "Họ đang hát à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-3-2-context2",
@@ -500,7 +536,7 @@
         "Are"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
+      "why": "Chọn “Am”. Với I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -512,7 +548,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Am I making a shaker?",
+        "vi": "Tôi đang làm máy lắc à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-3-3-context2",
@@ -526,8 +566,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Is · he, she, it",
-      "title": "Is · he, she, it",
+      "focus": "Câu hỏi với chủ ngữ số ít",
+      "title": "Câu hỏi với chủ ngữ số ít",
       "answer": "Is",
       "options": [
         "Is",
@@ -536,7 +576,7 @@
         "Be"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
+      "why": "Chọn “Is”. Is đứng trước chủ ngữ số ít.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -548,7 +588,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Is she dancing?",
+        "vi": "Cô ấy đang nhảy à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-3-4-context2",
@@ -562,8 +606,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Are · you, we, they",
-      "title": "Are · you, we, they",
+      "focus": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
+      "title": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
       "answer": "Are",
       "options": [
         "Is",
@@ -572,7 +616,7 @@
         "Are"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
+      "why": "Chọn “Are”. Are dùng cho you, we, they và nhiều người.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -584,7 +628,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Are we having fun?",
+        "vi": "Chúng ta đang vui vẻ phải không?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-4-1-context2",
@@ -598,8 +646,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Câu hỏi Yes/No · Đảo be",
-      "title": "Câu hỏi Yes/No · Đảo be",
+      "focus": "Câu hỏi có hoặc không · Đảo be",
+      "title": "Câu hỏi có hoặc không · Đảo be",
       "answer": "Are → they → singing?",
       "options": [
         "Are → they → singing?",
@@ -608,7 +656,7 @@
         "singing? → they → Are"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
+      "why": "Chọn “Are → they → singing?”. Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -622,7 +670,11 @@
         "they",
         "singing?",
         "Are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Are they singing?",
+        "vi": "Họ đang hát à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-4-2-context2",
@@ -646,7 +698,7 @@
         "shaker? → making a → Am I"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
+      "why": "Chọn “Am I → making a → shaker?”. Với I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -660,7 +712,11 @@
         "making a",
         "shaker?",
         "Am I"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Am I making a shaker?",
+        "vi": "Tôi đang làm máy lắc à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-4-3-context2",
@@ -674,8 +730,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Is · he, she, it",
-      "title": "Is · he, she, it",
+      "focus": "Câu hỏi với chủ ngữ số ít",
+      "title": "Câu hỏi với chủ ngữ số ít",
       "answer": "Is → she → dancing?",
       "options": [
         "Is → she → dancing?",
@@ -684,7 +740,7 @@
         "dancing? → she → Is"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
+      "why": "Chọn “Is → she → dancing?”. Is đứng trước chủ ngữ số ít.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -698,7 +754,11 @@
         "she",
         "dancing?",
         "Is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Is she dancing?",
+        "vi": "Cô ấy đang nhảy à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-4-4-context2",
@@ -712,8 +772,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Are · you, we, they",
-      "title": "Are · you, we, they",
+      "focus": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
+      "title": "Câu hỏi với chủ ngữ bạn, chúng tôi, họ",
       "answer": "Are we → having → fun?",
       "options": [
         "Are we → having → fun?",
@@ -722,7 +782,7 @@
         "fun? → having → Are we"
       ],
       "hint": "Are dùng cho you, we, they và nhiều người. Chủ ngữ có thể là danh từ số nhiều: Are the students practicing?",
-      "why": "Are we having fun?\nAre dùng cho you, we, they và nhiều người.",
+      "why": "Chọn “Are we → having → fun?”. Are dùng cho you, we, they và nhiều người.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -736,7 +796,11 @@
         "having",
         "fun?",
         "Are we"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Are we having fun?",
+        "vi": "Chúng ta đang vui vẻ phải không?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-5-1-context2",
@@ -750,8 +814,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Câu hỏi Yes/No · Đảo be",
-      "title": "Câu hỏi Yes/No · Đảo be",
+      "focus": "Câu hỏi có hoặc không · Đảo be",
+      "title": "Câu hỏi có hoặc không · Đảo be",
       "answer": "Are they singing?",
       "options": [
         "Are they singing?",
@@ -760,7 +824,7 @@
         "Be they singing?"
       ],
       "hint": "Câu kể They are singing đổi thành câu hỏi Are they singing? Con chỉ chuyển be lên đầu; động từ singing không thay đổi.",
-      "why": "Are they singing?\nCâu kể They are singing đổi thành câu hỏi Are they singing?",
+      "why": "Chọn “Are they singing?”. Câu kể They are singing đổi thành câu hỏi Are they singing?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -771,7 +835,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Are they singing?",
+        "vi": "Họ đang hát à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-5-2-context2",
@@ -795,7 +863,7 @@
         "Am I making a shaker?"
       ],
       "hint": "Với I, câu hỏi bắt đầu bằng Am I. Trong câu trả lời khẳng định dùng Yes, you are nếu người nghe trả lời cho người hỏi; trong bài luyện cá nhân, câu hỏi Are you...? được trả lời bằng Yes, I am.",
-      "why": "Am I making a shaker?\nVới I, câu hỏi bắt đầu bằng Am I.",
+      "why": "Chọn “Am I making a shaker?”. Với I, câu hỏi bắt đầu bằng Am I.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -806,7 +874,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Am I making a shaker?",
+        "vi": "Tôi đang làm máy lắc à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-5-3-context2",
@@ -820,8 +892,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Is · he, she, it",
-      "title": "Is · he, she, it",
+      "focus": "Câu hỏi với chủ ngữ số ít",
+      "title": "Câu hỏi với chủ ngữ số ít",
       "answer": "Is she dancing?",
       "options": [
         "Are she dancing?",
@@ -830,7 +902,7 @@
         "Am she dancing?"
       ],
       "hint": "Is đứng trước chủ ngữ số ít. Khi hỏi về một bạn nữ, dùng Is she...?; khi hỏi về một bạn nam, dùng Is he...?.",
-      "why": "Is she dancing?\nIs đứng trước chủ ngữ số ít.",
+      "why": "Chọn “Is she dancing?”. Is đứng trước chủ ngữ số ít.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -841,7 +913,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Is she dancing?",
+        "vi": "Cô ấy đang nhảy à?"
+      }
     },
     {
       "id": "discover-1-grammar-u16-5-4-context2-life",

@@ -24,10 +24,10 @@
       ],
       "usage": "Did mang dấu hiệu quá khứ.",
       "exampleVi": "Ông nội đã đến nhà chưa?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Short answers",
+      "tag": "Câu trả lời ngắn",
       "note": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
       "example": "Did they arrive early? Yes, they did.",
       "formula": [
@@ -48,10 +48,10 @@
       ],
       "usage": "Câu trả lời ngắn không lặp lại động từ chính.",
       "exampleVi": "Họ có đến sớm không? Vâng, họ đã làm vậy.",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Wh- questions",
+      "tag": "Câu hỏi có từ để hỏi",
       "note": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
       "example": "Where did they visit?",
       "formula": [
@@ -68,7 +68,7 @@
       ],
       "usage": "Where, when, why và how đứng trước did.",
       "exampleVi": "Họ đã đến thăm đâu?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
       "tag": "Không dùng -ed sau did",
@@ -83,7 +83,7 @@
       ],
       "usage": "Trong câu hỏi có did, nói Did they arrive...?",
       "exampleVi": "Nhân viên bán hàng kiểm tra danh sách khi nào?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     }
   ],
   "items": [
@@ -109,7 +109,7 @@
         "arriving"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
+      "why": "Chọn “arrive”. Did mang dấu hiệu quá khứ.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -118,7 +118,11 @@
       "spokenScene": "",
       "scene": "A pupil cannot find her group in a museum. A staff member is nearby.\nDid Grandpa ___ at the house?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Did Grandpa arrive at the house?",
+        "vi": "Ông nội đã đến nhà chưa?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-1-2-context2",
@@ -132,8 +136,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "arrive",
       "options": [
         "arrived",
@@ -142,7 +146,7 @@
         "arrive"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "Chọn “arrive”. Câu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -151,7 +155,11 @@
       "spokenScene": "",
       "scene": "A pupil cannot find her group in a museum. A staff member is nearby.\nDid they ___ early? Yes, they did.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Did they arrive early? Yes, they did.",
+        "vi": "Họ có đến sớm không? Vâng, họ đã làm vậy."
+      }
     },
     {
       "id": "discover-2-grammar-u6-1-3-context2",
@@ -165,8 +173,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Wh- questions",
-      "title": "Wh- questions",
+      "focus": "Câu hỏi có từ để hỏi",
+      "title": "Câu hỏi có từ để hỏi",
       "answer": "visit",
       "options": [
         "visits",
@@ -175,7 +183,7 @@
         "visited"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
+      "why": "Chọn “visit”. Where, when, why và how đứng trước did.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -184,7 +192,11 @@
       "spokenScene": "",
       "scene": "A pupil cannot find her group in a museum. A staff member is nearby.\nWhere did they ___?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Where did they visit?",
+        "vi": "Họ đã đến thăm đâu?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-1-4-context2",
@@ -208,7 +220,7 @@
         "checks"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
+      "why": "Chọn “check”. Trong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -217,7 +229,11 @@
       "spokenScene": "",
       "scene": "A pupil cannot find her group in a museum. A staff member is nearby.\nWhen did the clerk ___ the list?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "When did the clerk check the list?",
+        "vi": "Nhân viên bán hàng kiểm tra danh sách khi nào?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-2-1-context2",
@@ -241,7 +257,7 @@
         "arrive"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
+      "why": "Chọn “arrive”. Did mang dấu hiệu quá khứ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -252,7 +268,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Did Grandpa arrive at the house?",
+        "vi": "Ông nội đã đến nhà chưa?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-2-2-context2",
@@ -266,8 +286,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "arrive",
       "options": [
         "arrives",
@@ -276,7 +296,7 @@
         "arrived"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "Chọn “arrive”. Câu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -287,7 +307,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Did they arrive early? Yes, they did.",
+        "vi": "Họ có đến sớm không? Vâng, họ đã làm vậy."
+      }
     },
     {
       "id": "discover-2-grammar-u6-2-3-context2",
@@ -301,8 +325,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Wh- questions",
-      "title": "Wh- questions",
+      "focus": "Câu hỏi có từ để hỏi",
+      "title": "Câu hỏi có từ để hỏi",
       "answer": "visit",
       "options": [
         "visiting",
@@ -311,7 +335,7 @@
         "visits"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
+      "why": "Chọn “visit”. Where, when, why và how đứng trước did.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -322,7 +346,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Where did they visit?",
+        "vi": "Họ đã đến thăm đâu?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-2-4-context2",
@@ -346,7 +374,7 @@
         "checking"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
+      "why": "Chọn “check”. Trong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -357,7 +385,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "When did the clerk check the list?",
+        "vi": "Nhân viên bán hàng kiểm tra danh sách khi nào?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-3-1-context2",
@@ -381,7 +413,7 @@
         "arrived"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
+      "why": "Chọn “arrive”. Did mang dấu hiệu quá khứ.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -393,7 +425,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Did Grandpa arrive at the house?",
+        "vi": "Ông nội đã đến nhà chưa?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-3-2-context2",
@@ -407,8 +443,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "arrive",
       "options": [
         "arriving",
@@ -417,7 +453,7 @@
         "arrives"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "Chọn “arrive”. Câu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -429,7 +465,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Did they arrive early? Yes, they did.",
+        "vi": "Họ có đến sớm không? Vâng, họ đã làm vậy."
+      }
     },
     {
       "id": "discover-2-grammar-u6-3-3-context2",
@@ -443,8 +483,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Wh- questions",
-      "title": "Wh- questions",
+      "focus": "Câu hỏi có từ để hỏi",
+      "title": "Câu hỏi có từ để hỏi",
       "answer": "visit",
       "options": [
         "visit",
@@ -453,7 +493,7 @@
         "visiting"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
+      "why": "Chọn “visit”. Where, when, why và how đứng trước did.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -465,7 +505,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Where did they visit?",
+        "vi": "Họ đã đến thăm đâu?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-3-4-context2",
@@ -489,7 +533,7 @@
         "check"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
+      "why": "Chọn “check”. Trong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -501,7 +545,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "When did the clerk check the list?",
+        "vi": "Nhân viên bán hàng kiểm tra danh sách khi nào?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-4-1-context2",
@@ -525,7 +573,7 @@
         "the house? → arrive at → Did Grandpa"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
+      "why": "Chọn “Did Grandpa → arrive at → the house?”. Did mang dấu hiệu quá khứ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -539,7 +587,11 @@
         "arrive at",
         "the house?",
         "Did Grandpa"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Did Grandpa arrive at the house?",
+        "vi": "Ông nội đã đến nhà chưa?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-4-2-context2",
@@ -553,8 +605,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "Did they arrive → early? Yes, → they did.",
       "options": [
         "Did they arrive → early? Yes, → they did.",
@@ -563,7 +615,7 @@
         "they did. → early? Yes, → Did they arrive"
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "Chọn “Did they arrive → early? Yes, → they did.”. Câu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -577,7 +629,11 @@
         "early? Yes,",
         "they did.",
         "Did they arrive"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Did they arrive early? Yes, they did.",
+        "vi": "Họ có đến sớm không? Vâng, họ đã làm vậy."
+      }
     },
     {
       "id": "discover-2-grammar-u6-4-3-context2",
@@ -591,8 +647,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Wh- questions",
-      "title": "Wh- questions",
+      "focus": "Câu hỏi có từ để hỏi",
+      "title": "Câu hỏi có từ để hỏi",
       "answer": "Where did → they → visit?",
       "options": [
         "Where did → they → visit?",
@@ -601,7 +657,7 @@
         "visit? → they → Where did"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
+      "why": "Chọn “Where did → they → visit?”. Where, when, why và how đứng trước did.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -615,7 +671,11 @@
         "they",
         "visit?",
         "Where did"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Where did they visit?",
+        "vi": "Họ đã đến thăm đâu?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-4-4-context2",
@@ -639,7 +699,7 @@
         "the list? → clerk check → When did the"
       ],
       "hint": "Trong câu hỏi có did, nói Did they arrive...? Không dùng Did they arrived... vì did đã đánh dấu quá khứ.",
-      "why": "When did the clerk check the list?\nTrong câu hỏi có did, nói Did they arrive...?",
+      "why": "Chọn “When did the → clerk check → the list?”. Trong câu hỏi có did, nói Did they arrive...?",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -653,7 +713,11 @@
         "clerk check",
         "the list?",
         "When did the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "When did the clerk check the list?",
+        "vi": "Nhân viên bán hàng kiểm tra danh sách khi nào?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-5-1-context2",
@@ -677,7 +741,7 @@
         "Did Grandpa arriving at the house?"
       ],
       "hint": "Did mang dấu hiệu quá khứ. Động từ sau chủ ngữ trở về nguyên mẫu, kể cả khi câu kể dùng -ed.",
-      "why": "Did Grandpa arrive at the house?\nDid mang dấu hiệu quá khứ.",
+      "why": "Chọn “Did Grandpa arrive at the house?”. Did mang dấu hiệu quá khứ.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -688,7 +752,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Did Grandpa arrive at the house?",
+        "vi": "Ông nội đã đến nhà chưa?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-5-2-context2",
@@ -702,8 +770,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Short answers",
-      "title": "Short answers",
+      "focus": "Câu trả lời ngắn",
+      "title": "Câu trả lời ngắn",
       "answer": "Did they arrive early? Yes, they did.",
       "options": [
         "Did they arrived early? Yes, they did.",
@@ -712,7 +780,7 @@
         "Did they arrive early? Yes, they did."
       ],
       "hint": "Câu trả lời ngắn không lặp lại động từ chính. Dùng Yes, ... did hoặc No, ... didn't.",
-      "why": "Did they arrive early? Yes, they did.\nCâu trả lời ngắn không lặp lại động từ chính.",
+      "why": "Chọn “Did they arrive early? Yes, they did.”. Câu trả lời ngắn không lặp lại động từ chính.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -723,7 +791,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Did they arrive early? Yes, they did.",
+        "vi": "Họ có đến sớm không? Vâng, họ đã làm vậy."
+      }
     },
     {
       "id": "discover-2-grammar-u6-5-3-context2",
@@ -737,8 +809,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Wh- questions",
-      "title": "Wh- questions",
+      "focus": "Câu hỏi có từ để hỏi",
+      "title": "Câu hỏi có từ để hỏi",
       "answer": "Where did they visit?",
       "options": [
         "Where did they visits?",
@@ -747,7 +819,7 @@
         "Where did they visited?"
       ],
       "hint": "Where, when, why và how đứng trước did. Động từ chính vẫn ở nguyên mẫu.",
-      "why": "Where did they visit?\nWhere, when, why và how đứng trước did.",
+      "why": "Chọn “Where did they visit?”. Where, when, why và how đứng trước did.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -758,7 +830,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Where did they visit?",
+        "vi": "Họ đã đến thăm đâu?"
+      }
     },
     {
       "id": "discover-2-grammar-u6-5-4-context2-life",

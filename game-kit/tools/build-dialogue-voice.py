@@ -1,5 +1,5 @@
 """Resumable, local recordings. No runtime TTS service or paid API credentials."""
-import asyncio, json, pathlib, edge_tts
+import asyncio, json, pathlib, edge_tts, subprocess, shutil
 ROOT = pathlib.Path(__file__).resolve().parents[1] / 'adventures' / 'dialogue-audio'
 SOURCE = json.loads((ROOT / 'source.json').read_text(encoding='utf-8'))
 async def main():
@@ -13,7 +13,19 @@ async def main():
             for attempt in range(5):
                 try:
                     temporary = dest.with_suffix('.part')
-                    await asyncio.wait_for(edge_tts.Communicate(c['text'], c['voice'], rate=c['rate'], pitch=c['pitch']).save(str(temporary)), 70)
+                    if c.get('ensemble'):
+                        import imageio_ffmpeg
+                        inputs=[]
+                        for i, profile in enumerate(c['ensemble']):
+                            track=ROOT/(c['id']+'-voice-'+str(i)+'.tmp.mp3')
+                            if not track.exists():
+                                await asyncio.wait_for(edge_tts.Communicate(c['text'],profile['voice'],rate=profile['rate'],pitch=profile['pitch']).save(str(track)),70)
+                            inputs.extend(['-i',str(track)])
+                        process=await asyncio.create_subprocess_exec(imageio_ffmpeg.get_ffmpeg_exe(),'-y','-loglevel','error',*inputs,'-filter_complex','amix=inputs='+str(len(c['ensemble']))+':duration=longest:normalize=1','-f','mp3',str(temporary),stdout=asyncio.subprocess.DEVNULL,stderr=asyncio.subprocess.PIPE)
+                        _,err=await process.communicate()
+                        if process.returncode: raise RuntimeError(err.decode())
+                    else:
+                        await asyncio.wait_for(edge_tts.Communicate(c['text'], c['voice'], rate=c['rate'], pitch=c['pitch']).save(str(temporary)), 70)
                     if temporary.stat().st_size < 800: raise ValueError('Empty voice recording')
                     temporary.replace(dest)
                     completed += 1

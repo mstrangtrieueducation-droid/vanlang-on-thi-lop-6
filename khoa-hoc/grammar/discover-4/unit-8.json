@@ -9,71 +9,71 @@
   },
   "summary": [
     {
-      "tag": "Shall I...?",
+      "tag": "Đề nghị để mình giúp ai",
       "note": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
       "example": "Shall I put this landscape in a frame?",
       "formula": [
         [
           "Shall I",
           "+",
-          "base verb",
+          "động từ nguyên mẫu",
           "?"
         ]
       ],
       "usage": "Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "exampleVi": "Tôi có nên đặt phong cảnh này vào khung không?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "Shall we...?",
+      "tag": "Rủ cùng làm một hoạt động",
       "note": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
       "example": "Shall we visit the art exhibition?",
       "formula": [
         [
           "Shall we",
           "+",
-          "base verb",
+          "động từ nguyên mẫu",
           "?"
         ]
       ],
       "usage": "Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "exampleVi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?",
-      "sentenceType": "Interrogative (Câu hỏi)"
+      "sentenceType": "Câu hỏi"
     },
     {
-      "tag": "I'll...",
+      "tag": "Đưa ra lời đề nghị hoặc lời hứa",
       "note": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
       "example": "I'll explain the perspective in this painting.",
       "formula": [
         [
           "I will / I'll",
           "+",
-          "base verb"
+          "động từ nguyên mẫu"
         ]
       ],
       "usage": "I'll là dạng nói gọn của I will.",
       "exampleVi": "Tôi sẽ giải thích phối cảnh trong bức tranh này.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Choosing the form",
+      "tag": "Chọn cấu trúc phù hợp",
       "note": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "example": "The picture looks pale. I'll add some brilliant color.",
       "formula": [
         [
           "Shall I...?",
           "->",
-          "ask"
+          "hỏi"
         ],
         [
           "I'll...",
           "->",
-          "offer or promise"
+          "đề nghị hoặc lời hứa"
         ]
       ],
-      "usage": "Shall I frame it?",
+      "usage": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "exampleVi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -89,8 +89,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall I...?",
-      "title": "Shall I...?",
+      "focus": "Đề nghị để mình giúp ai",
+      "title": "Đề nghị để mình giúp ai",
       "answer": "put",
       "options": [
         "put",
@@ -99,7 +99,7 @@
         "to put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "why": "Chọn “put”. Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -108,7 +108,11 @@
       "spokenScene": "",
       "scene": "Two viewers describe a painting differently: one stands close, and one stands several metres away.\nShall I ___ this landscape in a frame?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Shall I put this landscape in a frame?",
+        "vi": "Tôi có nên đặt phong cảnh này vào khung không?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-1-2-context2",
@@ -122,8 +126,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall we...?",
-      "title": "Shall we...?",
+      "focus": "Rủ cùng làm một hoạt động",
+      "title": "Rủ cùng làm một hoạt động",
       "answer": "visit",
       "options": [
         "visits",
@@ -132,7 +136,7 @@
         "visit"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "why": "Chọn “visit”. Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -141,7 +145,11 @@
       "spokenScene": "",
       "scene": "Two viewers describe a painting differently: one stands close, and one stands several metres away.\nShall we ___ the art exhibition?",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "Shall we visit the art exhibition?",
+        "vi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-1-3-context2",
@@ -155,8 +163,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I'll...",
-      "title": "I'll...",
+      "focus": "Đưa ra lời đề nghị hoặc lời hứa",
+      "title": "Đưa ra lời đề nghị hoặc lời hứa",
       "answer": "explain",
       "options": [
         "explaining",
@@ -165,7 +173,7 @@
         "explains"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
+      "why": "Chọn “explain”. I'll là dạng nói gọn của I will.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -174,7 +182,11 @@
       "spokenScene": "",
       "scene": "Two viewers describe a painting differently: one stands close, and one stands several metres away.\nI'll ___ the perspective in this painting.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I'll explain the perspective in this painting.",
+        "vi": "Tôi sẽ giải thích phối cảnh trong bức tranh này."
+      }
     },
     {
       "id": "discover-4-grammar-u8-1-4-context2",
@@ -188,8 +200,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the form",
-      "title": "Choosing the form",
+      "focus": "Chọn cấu trúc phù hợp",
+      "title": "Chọn cấu trúc phù hợp",
       "answer": "add",
       "options": [
         "added",
@@ -198,7 +210,7 @@
         "adding"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
+      "why": "Chọn “add”. Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -207,7 +219,11 @@
       "spokenScene": "",
       "scene": "Two viewers describe a painting differently: one stands close, and one stands several metres away.\nThe picture looks pale. I'll ___ some brilliant color.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The picture looks pale. I'll add some brilliant color.",
+        "vi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ."
+      }
     },
     {
       "id": "discover-4-grammar-u8-2-1-context2",
@@ -221,8 +237,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall I...?",
-      "title": "Shall I...?",
+      "focus": "Đề nghị để mình giúp ai",
+      "title": "Đề nghị để mình giúp ai",
       "answer": "put",
       "options": [
         "puts",
@@ -231,7 +247,7 @@
         "put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "why": "Chọn “put”. Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -242,7 +258,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Shall I put this landscape in a frame?",
+        "vi": "Tôi có nên đặt phong cảnh này vào khung không?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-2-2-context2",
@@ -256,8 +276,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall we...?",
-      "title": "Shall we...?",
+      "focus": "Rủ cùng làm một hoạt động",
+      "title": "Rủ cùng làm một hoạt động",
       "answer": "visit",
       "options": [
         "visiting",
@@ -266,7 +286,7 @@
         "visits"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "why": "Chọn “visit”. Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -277,7 +297,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "Shall we visit the art exhibition?",
+        "vi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-2-3-context2",
@@ -291,8 +315,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I'll...",
-      "title": "I'll...",
+      "focus": "Đưa ra lời đề nghị hoặc lời hứa",
+      "title": "Đưa ra lời đề nghị hoặc lời hứa",
       "answer": "explain",
       "options": [
         "explained",
@@ -301,7 +325,7 @@
         "explaining"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
+      "why": "Chọn “explain”. I'll là dạng nói gọn của I will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -312,7 +336,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "I'll explain the perspective in this painting.",
+        "vi": "Tôi sẽ giải thích phối cảnh trong bức tranh này."
+      }
     },
     {
       "id": "discover-4-grammar-u8-2-4-context2",
@@ -326,8 +354,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the form",
-      "title": "Choosing the form",
+      "focus": "Chọn cấu trúc phù hợp",
+      "title": "Chọn cấu trúc phù hợp",
       "answer": "add",
       "options": [
         "add",
@@ -336,7 +364,7 @@
         "added"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
+      "why": "Chọn “add”. Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +375,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The picture looks pale. I'll add some brilliant color.",
+        "vi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ."
+      }
     },
     {
       "id": "discover-4-grammar-u8-3-1-context2",
@@ -361,8 +393,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall I...?",
-      "title": "Shall I...?",
+      "focus": "Đề nghị để mình giúp ai",
+      "title": "Đề nghị để mình giúp ai",
       "answer": "put",
       "options": [
         "putting",
@@ -371,7 +403,7 @@
         "puts"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "why": "Chọn “put”. Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +415,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Shall I put this landscape in a frame?",
+        "vi": "Tôi có nên đặt phong cảnh này vào khung không?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-3-2-context2",
@@ -397,8 +433,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall we...?",
-      "title": "Shall we...?",
+      "focus": "Rủ cùng làm một hoạt động",
+      "title": "Rủ cùng làm một hoạt động",
       "answer": "visit",
       "options": [
         "visited",
@@ -407,7 +443,7 @@
         "visiting"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "why": "Chọn “visit”. Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -419,7 +455,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "Shall we visit the art exhibition?",
+        "vi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-3-3-context2",
@@ -433,8 +473,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I'll...",
-      "title": "I'll...",
+      "focus": "Đưa ra lời đề nghị hoặc lời hứa",
+      "title": "Đưa ra lời đề nghị hoặc lời hứa",
       "answer": "explain",
       "options": [
         "explain",
@@ -443,7 +483,7 @@
         "explained"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
+      "why": "Chọn “explain”. I'll là dạng nói gọn của I will.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -455,7 +495,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "I'll explain the perspective in this painting.",
+        "vi": "Tôi sẽ giải thích phối cảnh trong bức tranh này."
+      }
     },
     {
       "id": "discover-4-grammar-u8-3-4-context2",
@@ -469,8 +513,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the form",
-      "title": "Choosing the form",
+      "focus": "Chọn cấu trúc phù hợp",
+      "title": "Chọn cấu trúc phù hợp",
       "answer": "add",
       "options": [
         "adds",
@@ -479,7 +523,7 @@
         "add"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
+      "why": "Chọn “add”. Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -491,7 +535,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The picture looks pale. I'll add some brilliant color.",
+        "vi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ."
+      }
     },
     {
       "id": "discover-4-grammar-u8-4-1-context2",
@@ -505,8 +553,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall I...?",
-      "title": "Shall I...?",
+      "focus": "Đề nghị để mình giúp ai",
+      "title": "Đề nghị để mình giúp ai",
       "answer": "Shall I put → this landscape in → a frame?",
       "options": [
         "Shall I put → this landscape in → a frame?",
@@ -515,7 +563,7 @@
         "a frame? → this landscape in → Shall I put"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "why": "Chọn “Shall I put → this landscape in → a frame?”. Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -529,7 +577,11 @@
         "this landscape in",
         "a frame?",
         "Shall I put"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Shall I put this landscape in a frame?",
+        "vi": "Tôi có nên đặt phong cảnh này vào khung không?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-4-2-context2",
@@ -543,8 +595,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall we...?",
-      "title": "Shall we...?",
+      "focus": "Rủ cùng làm một hoạt động",
+      "title": "Rủ cùng làm một hoạt động",
       "answer": "Shall we → visit the → art exhibition?",
       "options": [
         "Shall we → visit the → art exhibition?",
@@ -553,7 +605,7 @@
         "art exhibition? → visit the → Shall we"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "why": "Chọn “Shall we → visit the → art exhibition?”. Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -567,7 +619,11 @@
         "visit the",
         "art exhibition?",
         "Shall we"
-      ]
+      ],
+      "explanationExample": {
+        "en": "Shall we visit the art exhibition?",
+        "vi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-4-3-context2",
@@ -581,8 +637,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I'll...",
-      "title": "I'll...",
+      "focus": "Đưa ra lời đề nghị hoặc lời hứa",
+      "title": "Đưa ra lời đề nghị hoặc lời hứa",
       "answer": "I'll explain the → perspective in → this painting.",
       "options": [
         "I'll explain the → perspective in → this painting.",
@@ -591,7 +647,7 @@
         "this painting. → perspective in → I'll explain the"
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
+      "why": "Chọn “I'll explain the → perspective in → this painting.”. I'll là dạng nói gọn của I will.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -605,7 +661,11 @@
         "perspective in",
         "this painting.",
         "I'll explain the"
-      ]
+      ],
+      "explanationExample": {
+        "en": "I'll explain the perspective in this painting.",
+        "vi": "Tôi sẽ giải thích phối cảnh trong bức tranh này."
+      }
     },
     {
       "id": "discover-4-grammar-u8-4-4-context2",
@@ -619,8 +679,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Choosing the form",
-      "title": "Choosing the form",
+      "focus": "Chọn cấu trúc phù hợp",
+      "title": "Chọn cấu trúc phù hợp",
       "answer": "The picture looks → pale. I'll add → some brilliant color.",
       "options": [
         "The picture looks → pale. I'll add → some brilliant color.",
@@ -629,7 +689,7 @@
         "some brilliant color. → pale. I'll add → The picture looks"
       ],
       "hint": "Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
-      "why": "The picture looks pale. I'll add some brilliant color.\nShall I frame it?",
+      "why": "Chọn “The picture looks → pale. I'll add → some brilliant color.”. Shall I frame it? chờ người nghe đồng ý. I'll frame it nói rằng người nói đã nhận làm. Cả hai đều dùng động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -643,7 +703,11 @@
         "pale. I'll add",
         "some brilliant color.",
         "The picture looks"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The picture looks pale. I'll add some brilliant color.",
+        "vi": "Bức ảnh có vẻ nhợt nhạt. Tôi sẽ thêm một số màu sắc rực rỡ."
+      }
     },
     {
       "id": "discover-4-grammar-u8-5-1-context2",
@@ -657,8 +721,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall I...?",
-      "title": "Shall I...?",
+      "focus": "Đề nghị để mình giúp ai",
+      "title": "Đề nghị để mình giúp ai",
       "answer": "Shall I put this landscape in a frame?",
       "options": [
         "Shall I put this landscape in a frame?",
@@ -667,7 +731,7 @@
         "Shall I to put this landscape in a frame?"
       ],
       "hint": "Sau shall là chủ ngữ I và động từ nguyên mẫu. Cấu trúc này thường dùng khi người nói muốn giúp hoặc xin ý kiến trước khi hành động.",
-      "why": "Shall I put this landscape in a frame?\nSau shall là chủ ngữ I và động từ nguyên mẫu.",
+      "why": "Chọn “Shall I put this landscape in a frame?”. Sau shall là chủ ngữ I và động từ nguyên mẫu.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -678,7 +742,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Shall I put this landscape in a frame?",
+        "vi": "Tôi có nên đặt phong cảnh này vào khung không?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-5-2-context2",
@@ -692,8 +760,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Shall we...?",
-      "title": "Shall we...?",
+      "focus": "Rủ cùng làm một hoạt động",
+      "title": "Rủ cùng làm một hoạt động",
       "answer": "Shall we visit the art exhibition?",
       "options": [
         "Shall we visits the art exhibition?",
@@ -702,7 +770,7 @@
         "Shall we visit the art exhibition?"
       ],
       "hint": "Shall we thường mang nghĩa gợi ý hơn là lời hứa. Câu trả lời tự nhiên gồm Yes, let's hoặc That's a good idea.",
-      "why": "Shall we visit the art exhibition?\nShall we thường mang nghĩa gợi ý hơn là lời hứa.",
+      "why": "Chọn “Shall we visit the art exhibition?”. Shall we thường mang nghĩa gợi ý hơn là lời hứa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -713,7 +781,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "Shall we visit the art exhibition?",
+        "vi": "Chúng ta đi tham quan triển lãm nghệ thuật nhé?"
+      }
     },
     {
       "id": "discover-4-grammar-u8-5-3-context2",
@@ -727,8 +799,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "I'll...",
-      "title": "I'll...",
+      "focus": "Đưa ra lời đề nghị hoặc lời hứa",
+      "title": "Đưa ra lời đề nghị hoặc lời hứa",
       "answer": "I'll explain the perspective in this painting.",
       "options": [
         "I'll explaining the perspective in this painting.",
@@ -737,7 +809,7 @@
         "I'll explains the perspective in this painting."
       ],
       "hint": "I'll là dạng nói gọn của I will. Người nói thường quyết định ngay tại thời điểm nói sau khi nhận ra nhu cầu của người khác.",
-      "why": "I'll explain the perspective in this painting.\nI'll là dạng nói gọn của I will.",
+      "why": "Chọn “I'll explain the perspective in this painting.”. I'll là dạng nói gọn của I will.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -748,7 +820,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "I'll explain the perspective in this painting.",
+        "vi": "Tôi sẽ giải thích phối cảnh trong bức tranh này."
+      }
     },
     {
       "id": "discover-4-grammar-u8-5-4-context2-life",

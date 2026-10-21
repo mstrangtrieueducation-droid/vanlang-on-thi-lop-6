@@ -26,15 +26,15 @@
       "example": "There were some children at the park.",
       "usage": "Chọn was/were theo số lượng.",
       "exampleVi": "Lúc đó có một vài trẻ em ở công viên.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "Use “There was” for one and “There were” for more than one in the past. Use “some” in positive statements and “any” in negatives or questions.",
+      "tag": "Điểm cần nhớ",
+      "note": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
       "example": "There was one woman.",
-      "usage": "Use “There was” for one and “There were” for more than one in the past.",
+      "usage": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
       "exampleVi": "Lúc đó có một người phụ nữ.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -61,7 +61,7 @@
         "a child"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some children at the park.\nChọn was/were theo số lượng.",
+      "why": "Chọn “children”. Chọn was/were theo số lượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -70,7 +70,11 @@
       "spokenScene": "",
       "scene": "There were bottles on the park path after the picnic.\nThere were some ___ at the park.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There were some children at the park.",
+        "vi": "Lúc đó có một vài trẻ em ở công viên."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-1-2-context2",
@@ -95,7 +99,7 @@
         "any"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There weren't any men.\nChọn was/were theo số lượng.",
+      "why": "Chọn “any”. Chọn was/were theo số lượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -104,7 +108,11 @@
       "spokenScene": "",
       "scene": "There were bottles on the park path after the picnic.\nThere weren't ___ men.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There weren't any men.",
+        "vi": "Không có người đàn ông nào ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-1-3-context2",
@@ -129,7 +137,7 @@
         "any"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some ducks.\nChọn was/were theo số lượng.",
+      "why": "Chọn “some”. Chọn was/were theo số lượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -138,7 +146,11 @@
       "spokenScene": "",
       "scene": "There were bottles on the park path after the picnic.\nThere were ___ ducks.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There were some ducks.",
+        "vi": "Có một vài con vịt ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-1-4-context2",
@@ -163,7 +175,7 @@
         "are"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There was one woman.\nChọn was/were theo số lượng.",
+      "why": "Chọn “was”. Chọn was/were theo số lượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -172,7 +184,11 @@
       "spokenScene": "",
       "scene": "There were bottles on the park path after the picnic.\nThere ___ one woman.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There was one woman.",
+        "vi": "Lúc đó có một người phụ nữ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-1-5-context2",
@@ -197,7 +213,7 @@
         "a woman"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were four women.\nChọn was/were theo số lượng.",
+      "why": "Chọn “women”. Chọn was/were theo số lượng.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -206,7 +222,11 @@
       "spokenScene": "",
       "scene": "There were bottles on the park path after the picnic.\nThere were four ___.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "There were four women.",
+        "vi": "Có bốn người phụ nữ ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-2-1-context2",
@@ -231,7 +251,7 @@
         "children"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some children at the park.\nChọn was/were theo số lượng.",
+      "why": "Chọn “children”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -242,7 +262,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There were some children at the park.",
+        "vi": "Lúc đó có một vài trẻ em ở công viên."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-2-2-context2",
@@ -267,7 +291,7 @@
         "some"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There weren't any men.\nChọn was/were theo số lượng.",
+      "why": "Chọn “any”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -278,7 +302,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There weren't any men.",
+        "vi": "Không có người đàn ông nào ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-2-3-context2",
@@ -303,7 +331,7 @@
         "a"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some ducks.\nChọn was/were theo số lượng.",
+      "why": "Chọn “some”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -314,7 +342,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There were some ducks.",
+        "vi": "Có một vài con vịt ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-2-4-context2",
@@ -339,7 +371,7 @@
         "am"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There was one woman.\nChọn was/were theo số lượng.",
+      "why": "Chọn “was”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -350,7 +382,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There was one woman.",
+        "vi": "Lúc đó có một người phụ nữ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-2-5-context2",
@@ -375,7 +411,7 @@
         "women"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were four women.\nChọn was/were theo số lượng.",
+      "why": "Chọn “women”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -386,7 +422,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "There were four women.",
+        "vi": "Có bốn người phụ nữ ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-3-1-context2",
@@ -411,7 +451,7 @@
         "child"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some children at the park.\nChọn was/were theo số lượng.",
+      "why": "Chọn “children”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -423,7 +463,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There were some children at the park.",
+        "vi": "Lúc đó có một vài trẻ em ở công viên."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-3-2-context2",
@@ -448,7 +492,7 @@
         "a"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There weren't any men.\nChọn was/were theo số lượng.",
+      "why": "Chọn “any”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -460,7 +504,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There weren't any men.",
+        "vi": "Không có người đàn ông nào ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-3-3-context2",
@@ -485,7 +533,7 @@
         "an"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some ducks.\nChọn was/were theo số lượng.",
+      "why": "Chọn “some”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -497,7 +545,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There were some ducks.",
+        "vi": "Có một vài con vịt ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-3-4-context2",
@@ -522,7 +574,7 @@
         "was"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There was one woman.\nChọn was/were theo số lượng.",
+      "why": "Chọn “was”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -534,7 +586,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There was one woman.",
+        "vi": "Lúc đó có một người phụ nữ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-3-5-context2",
@@ -559,7 +615,7 @@
         "woman"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were four women.\nChọn was/were theo số lượng.",
+      "why": "Chọn “women”. Chọn was/were theo số lượng.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -571,7 +627,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "There were four women.",
+        "vi": "Có bốn người phụ nữ ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-4-1-context2",
@@ -596,7 +656,7 @@
         "the park. → children at → There were some"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some children at the park.\nChọn was/were theo số lượng.",
+      "why": "Chọn “There were some → children at → the park.”. Chọn was/were theo số lượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -610,7 +670,11 @@
         "children at",
         "the park.",
         "There were some"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There were some children at the park.",
+        "vi": "Lúc đó có một vài trẻ em ở công viên."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-4-2-context2",
@@ -635,7 +699,7 @@
         "men. → any → There weren't"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There weren't any men.\nChọn was/were theo số lượng.",
+      "why": "Chọn “There weren't → any → men.”. Chọn was/were theo số lượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -649,7 +713,11 @@
         "any",
         "men.",
         "There weren't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There weren't any men.",
+        "vi": "Không có người đàn ông nào ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-4-3-context2",
@@ -674,7 +742,7 @@
         "ducks. → some → There were"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There were some ducks.\nChọn was/were theo số lượng.",
+      "why": "Chọn “There were → some → ducks.”. Chọn was/were theo số lượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -688,7 +756,11 @@
         "some",
         "ducks.",
         "There were"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There were some ducks.",
+        "vi": "Có một vài con vịt ở đó."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-4-4-context2",
@@ -713,7 +785,7 @@
         "woman. → one → There was"
       ],
       "hint": "Chọn was/were theo số lượng. Nhớ số nhiều đặc biệt: child → children; woman → women.",
-      "why": "There was one woman.\nChọn was/were theo số lượng.",
+      "why": "Chọn “There was → one → woman.”. Chọn was/were theo số lượng.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -727,7 +799,11 @@
         "one",
         "woman.",
         "There was"
-      ]
+      ],
+      "explanationExample": {
+        "en": "There was one woman.",
+        "vi": "Lúc đó có một người phụ nữ."
+      }
     },
     {
       "id": "family-friends-2-grammar-u15-4-5-context2-life",

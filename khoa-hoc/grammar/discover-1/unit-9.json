@@ -9,7 +9,7 @@
   },
   "summary": [
     {
-      "tag": "Have · I / you / we / they",
+      "tag": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "note": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
       "example": "We have five notebooks.",
       "formula": [
@@ -23,10 +23,10 @@
       ],
       "usage": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "exampleVi": "Chúng tôi có năm cuốn sổ.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Has · He / she / it",
+      "tag": "Sự sở hữu với chủ ngữ số ít",
       "note": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
       "example": "He has a backpack.",
       "formula": [
@@ -40,7 +40,7 @@
       ],
       "usage": "Have là động từ bất quy tắc.",
       "exampleVi": "Anh ấy có một chiếc ba lô.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phủ định · don't have",
@@ -57,7 +57,7 @@
       ],
       "usage": "Don't là dạng nói gọn của do not.",
       "exampleVi": "Họ không có mười người cai trị.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Phủ định · doesn't have",
@@ -74,7 +74,7 @@
       ],
       "usage": "Doesn't là dạng nói gọn của does not.",
       "exampleVi": "Cô ấy không có câu trả lời.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "Chủ ngữ · Nhận diện số ít và số nhiều",
@@ -94,7 +94,7 @@
       ],
       "usage": "Một tên người hoặc một danh từ số ít dùng has.",
       "exampleVi": "Em gái tôi và tôi có bút chì.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Danh từ · a / an và số nhiều",
@@ -114,7 +114,7 @@
       ],
       "usage": "Với một danh từ đếm được số ít, con cần a hoặc an: a pen, an eraser.",
       "exampleVi": "Cô ấy có một cục tẩy.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "Phát âm · has / have / doesn't",
@@ -134,7 +134,7 @@
       ],
       "usage": "Has kết thúc bằng âm /z/; have kết thúc bằng /v/.",
       "exampleVi": "Anh ta không có người cai trị.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -150,8 +150,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Have · I / you / we / they",
-      "title": "Have · I / you / we / they",
+      "focus": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
+      "title": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "answer": "have",
       "options": [
         "have",
@@ -160,7 +160,7 @@
         "to have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "why": "Chọn “have”. Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +169,11 @@
       "spokenScene": "",
       "scene": "Four pupils have one shared box of coloured pencils.\nWe ___ five notebooks.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "We have five notebooks.",
+        "vi": "Chúng tôi có năm cuốn sổ."
+      }
     },
     {
       "id": "discover-1-grammar-u9-1-2-context2",
@@ -183,8 +187,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Has · He / she / it",
-      "title": "Has · He / she / it",
+      "focus": "Sự sở hữu với chủ ngữ số ít",
+      "title": "Sự sở hữu với chủ ngữ số ít",
       "answer": "has",
       "options": [
         "have",
@@ -193,7 +197,7 @@
         "has"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
+      "why": "Chọn “has”. Have là động từ bất quy tắc.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -202,7 +206,11 @@
       "spokenScene": "",
       "scene": "Four pupils have one shared box of coloured pencils.\nHe ___ a backpack.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "He has a backpack.",
+        "vi": "Anh ấy có một chiếc ba lô."
+      }
     },
     {
       "id": "discover-1-grammar-u9-1-3-context2",
@@ -226,7 +234,7 @@
         "has"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “have”. Don't là dạng nói gọn của do not.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -235,7 +243,11 @@
       "spokenScene": "",
       "scene": "Four pupils have one shared box of coloured pencils.\nThey don't ___ ten rulers.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "They don't have ten rulers.",
+        "vi": "Họ không có mười người cai trị."
+      }
     },
     {
       "id": "discover-1-grammar-u9-1-4-context2",
@@ -259,7 +271,7 @@
         "having"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
+      "why": "Chọn “have”. Doesn't là dạng nói gọn của does not.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -268,7 +280,11 @@
       "spokenScene": "",
       "scene": "Four pupils have one shared box of coloured pencils.\nShe doesn't ___ the answer.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "She doesn't have the answer.",
+        "vi": "Cô ấy không có câu trả lời."
+      }
     },
     {
       "id": "discover-1-grammar-u9-2-1-context2",
@@ -282,8 +298,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Have · I / you / we / they",
-      "title": "Have · I / you / we / they",
+      "focus": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
+      "title": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "answer": "have",
       "options": [
         "has",
@@ -292,7 +308,7 @@
         "have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "why": "Chọn “have”. Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -303,7 +319,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "We have five notebooks.",
+        "vi": "Chúng tôi có năm cuốn sổ."
+      }
     },
     {
       "id": "discover-1-grammar-u9-2-2-context2",
@@ -317,8 +337,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Has · He / she / it",
-      "title": "Has · He / she / it",
+      "focus": "Sự sở hữu với chủ ngữ số ít",
+      "title": "Sự sở hữu với chủ ngữ số ít",
       "answer": "has",
       "options": [
         "having",
@@ -327,7 +347,7 @@
         "have"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
+      "why": "Chọn “has”. Have là động từ bất quy tắc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -338,7 +358,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "He has a backpack.",
+        "vi": "Anh ấy có một chiếc ba lô."
+      }
     },
     {
       "id": "discover-1-grammar-u9-2-3-context2",
@@ -362,7 +386,7 @@
         "having"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “have”. Don't là dạng nói gọn của do not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -373,7 +397,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "They don't have ten rulers.",
+        "vi": "Họ không có mười người cai trị."
+      }
     },
     {
       "id": "discover-1-grammar-u9-2-4-context2",
@@ -397,7 +425,7 @@
         "had"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
+      "why": "Chọn “have”. Doesn't là dạng nói gọn của does not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -408,7 +436,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "She doesn't have the answer.",
+        "vi": "Cô ấy không có câu trả lời."
+      }
     },
     {
       "id": "discover-1-grammar-u9-3-1-context2",
@@ -422,8 +454,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Have · I / you / we / they",
-      "title": "Have · I / you / we / they",
+      "focus": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
+      "title": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "answer": "have",
       "options": [
         "having",
@@ -432,7 +464,7 @@
         "has"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "why": "Chọn “have”. Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -444,7 +476,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "We have five notebooks.",
+        "vi": "Chúng tôi có năm cuốn sổ."
+      }
     },
     {
       "id": "discover-1-grammar-u9-3-2-context2",
@@ -458,8 +494,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Has · He / she / it",
-      "title": "Has · He / she / it",
+      "focus": "Sự sở hữu với chủ ngữ số ít",
+      "title": "Sự sở hữu với chủ ngữ số ít",
       "answer": "has",
       "options": [
         "to have",
@@ -468,7 +504,7 @@
         "having"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
+      "why": "Chọn “has”. Have là động từ bất quy tắc.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -480,7 +516,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "He has a backpack.",
+        "vi": "Anh ấy có một chiếc ba lô."
+      }
     },
     {
       "id": "discover-1-grammar-u9-3-3-context2",
@@ -504,7 +544,7 @@
         "had"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “have”. Don't là dạng nói gọn của do not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -516,7 +556,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "They don't have ten rulers.",
+        "vi": "Họ không có mười người cai trị."
+      }
     },
     {
       "id": "discover-1-grammar-u9-3-4-context2",
@@ -540,7 +584,7 @@
         "have"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
+      "why": "Chọn “have”. Doesn't là dạng nói gọn của does not.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -552,7 +596,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "She doesn't have the answer.",
+        "vi": "Cô ấy không có câu trả lời."
+      }
     },
     {
       "id": "discover-1-grammar-u9-4-1-context2",
@@ -566,8 +614,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Have · I / you / we / they",
-      "title": "Have · I / you / we / they",
+      "focus": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
+      "title": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "answer": "We have → five → notebooks.",
       "options": [
         "We have → five → notebooks.",
@@ -576,7 +624,7 @@
         "notebooks. → five → We have"
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "why": "Chọn “We have → five → notebooks.”. Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -590,7 +638,11 @@
         "five",
         "notebooks.",
         "We have"
-      ]
+      ],
+      "explanationExample": {
+        "en": "We have five notebooks.",
+        "vi": "Chúng tôi có năm cuốn sổ."
+      }
     },
     {
       "id": "discover-1-grammar-u9-4-2-context2",
@@ -604,8 +656,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Has · He / she / it",
-      "title": "Has · He / she / it",
+      "focus": "Sự sở hữu với chủ ngữ số ít",
+      "title": "Sự sở hữu với chủ ngữ số ít",
       "answer": "He has → a → backpack.",
       "options": [
         "He has → a → backpack.",
@@ -614,7 +666,7 @@
         "backpack. → a → He has"
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
+      "why": "Chọn “He has → a → backpack.”. Have là động từ bất quy tắc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -628,7 +680,11 @@
         "a",
         "backpack.",
         "He has"
-      ]
+      ],
+      "explanationExample": {
+        "en": "He has a backpack.",
+        "vi": "Anh ấy có một chiếc ba lô."
+      }
     },
     {
       "id": "discover-1-grammar-u9-4-3-context2",
@@ -652,7 +708,7 @@
         "rulers. → have ten → They don't"
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “They don't → have ten → rulers.”. Don't là dạng nói gọn của do not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -666,7 +722,11 @@
         "have ten",
         "rulers.",
         "They don't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "They don't have ten rulers.",
+        "vi": "Họ không có mười người cai trị."
+      }
     },
     {
       "id": "discover-1-grammar-u9-4-4-context2",
@@ -690,7 +750,7 @@
         "answer. → have the → She doesn't"
       ],
       "hint": "Doesn't là dạng nói gọn của does not. Khi đã có doesn't, dấu hiệu ngôi thứ ba nằm ở does nên động từ chính trở về have. Con nói He doesn't have, không nói He doesn't has.",
-      "why": "She doesn't have the answer.\nDoesn't là dạng nói gọn của does not.",
+      "why": "Chọn “She doesn't → have the → answer.”. Doesn't là dạng nói gọn của does not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -704,7 +764,11 @@
         "have the",
         "answer.",
         "She doesn't"
-      ]
+      ],
+      "explanationExample": {
+        "en": "She doesn't have the answer.",
+        "vi": "Cô ấy không có câu trả lời."
+      }
     },
     {
       "id": "discover-1-grammar-u9-5-1-context2",
@@ -718,8 +782,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Have · I / you / we / they",
-      "title": "Have · I / you / we / they",
+      "focus": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
+      "title": "Sự sở hữu với chủ ngữ tôi, bạn, chúng tôi, họ",
       "answer": "We have five notebooks.",
       "options": [
         "We have five notebooks.",
@@ -728,7 +792,7 @@
         "We to have five notebooks."
       ],
       "hint": "Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó. Với I, you, we và they, động từ giữ nguyên dạng have.",
-      "why": "We have five notebooks.\nHave diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
+      "why": "Chọn “We have five notebooks.”. Have diễn tả sự sở hữu hoặc cho biết chủ ngữ có một vật, người hay đặc điểm nào đó.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -739,7 +803,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "We have five notebooks.",
+        "vi": "Chúng tôi có năm cuốn sổ."
+      }
     },
     {
       "id": "discover-1-grammar-u9-5-2-context2",
@@ -753,8 +821,8 @@
         "kind": "class-grammar-model",
         "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Has · He / she / it",
-      "title": "Has · He / she / it",
+      "focus": "Sự sở hữu với chủ ngữ số ít",
+      "title": "Sự sở hữu với chủ ngữ số ít",
       "answer": "He has a backpack.",
       "options": [
         "He have a backpack.",
@@ -763,7 +831,7 @@
         "He has a backpack."
       ],
       "hint": "Have là động từ bất quy tắc. Với he, she, it hoặc một danh từ số ít, dạng khẳng định là has, không phải haves. My brother, Lily và the student đều theo mẫu này.",
-      "why": "He has a backpack.\nHave là động từ bất quy tắc.",
+      "why": "Chọn “He has a backpack.”. Have là động từ bất quy tắc.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -774,7 +842,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "He has a backpack.",
+        "vi": "Anh ấy có một chiếc ba lô."
+      }
     },
     {
       "id": "discover-1-grammar-u9-5-3-context2",
@@ -798,7 +870,7 @@
         "They don't has ten rulers."
       ],
       "hint": "Don't là dạng nói gọn của do not. Sau don't, con dùng have ở dạng nguyên mẫu. Cấu trúc này phủ định việc sở hữu hoặc có một vật nào đó.",
-      "why": "They don't have ten rulers.\nDon't là dạng nói gọn của do not.",
+      "why": "Chọn “They don't have ten rulers.”. Don't là dạng nói gọn của do not.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -809,7 +881,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "They don't have ten rulers.",
+        "vi": "Họ không có mười người cai trị."
+      }
     },
     {
       "id": "discover-1-grammar-u9-5-4-context2-life",

@@ -23,15 +23,15 @@
       "example": "This is my table.",
       "usage": "This/these chỉ gần; that/those chỉ xa.",
       "exampleVi": "Đây là bàn của tôi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
-      "tag": "Remember",
-      "note": "Use “this/that is” for one thing and “these/those are” for more than one. “This/these” are near; “that/those” are farther away.",
+      "tag": "Điểm cần nhớ",
+      "note": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "example": "The tables are far from me. Those are my tables.",
-      "usage": "Use “this/that is” for one thing and “these/those are” for more than one.",
+      "usage": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "exampleVi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     }
   ],
   "items": [
@@ -58,7 +58,7 @@
         "do"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "This is my table.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -67,7 +67,11 @@
       "spokenScene": "",
       "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThis ___ my table.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-1-2-context2",
@@ -92,7 +96,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "These are my books.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -101,7 +105,11 @@
       "spokenScene": "",
       "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThese ___ my books.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-1-3-context2",
@@ -126,7 +134,7 @@
         "Those"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The pencil is near me. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -135,7 +143,11 @@
       "spokenScene": "",
       "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe pencil is near me. ___ is my pencil.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-1-4-context2",
@@ -160,7 +172,7 @@
         "That"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The tables are far from me. Those are my tables.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -169,7 +181,11 @@
       "spokenScene": "",
       "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe tables are far from me. ___ are my tables.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-1-5-context2",
@@ -194,7 +210,7 @@
         "do"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "That is our new board.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -203,7 +219,11 @@
       "spokenScene": "",
       "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThat ___ our new board.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-2-1-context2",
@@ -228,7 +248,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "This is my table.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -239,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-2-2-context2",
@@ -264,7 +288,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "These are my books.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -275,7 +299,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-2-3-context2",
@@ -300,7 +328,7 @@
         "These"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The pencil is near me. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -311,7 +339,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-2-4-context2",
@@ -336,7 +368,7 @@
         "It"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The tables are far from me. Those are my tables.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -347,7 +379,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-2-5-context2",
@@ -372,7 +408,7 @@
         "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "That is our new board.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -383,7 +419,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-3-1-context2",
@@ -408,7 +448,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "This is my table.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +460,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-3-2-context2",
@@ -445,7 +489,7 @@
         "am"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "These are my books.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -457,7 +501,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-3-3-context2",
@@ -482,7 +530,7 @@
         "They"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The pencil is near me. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -494,7 +542,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-3-4-context2",
@@ -519,7 +571,7 @@
         "Those"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The tables are far from me. Those are my tables.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -531,7 +583,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-3-5-context2",
@@ -556,7 +612,7 @@
         "are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "That is our new board.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -568,7 +624,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-4-1-context2",
@@ -593,7 +653,7 @@
         "table. → my → This is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "This is my table.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “This is → my → table.”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -607,7 +667,11 @@
         "my",
         "table.",
         "This is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-4-2-context2",
@@ -632,7 +696,7 @@
         "books. → my → These are"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "These are my books.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “These are → my → books.”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -646,7 +710,11 @@
         "my",
         "books.",
         "These are"
-      ]
+      ],
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-4-3-context2",
@@ -671,7 +739,7 @@
         "is my pencil. → near me. This → The pencil is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The pencil is near me. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “The pencil is → near me. This → is my pencil.”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -685,7 +753,11 @@
         "near me. This",
         "is my pencil.",
         "The pencil is"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-4-4-context2",
@@ -710,7 +782,7 @@
         "are my tables. → from me. Those → The tables are far"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "The tables are far from me. Those are my tables.\nThis/these chỉ gần; that/those chỉ xa.",
+      "why": "Chọn “The tables are far → from me. Those → are my tables.”. This/these chỉ gần; that/those chỉ xa.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -724,7 +796,11 @@
         "from me. Those",
         "are my tables.",
         "The tables are far"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      }
     },
     {
       "id": "family-friends-2-grammar-u1-4-5-context2-life",

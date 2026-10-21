@@ -23,7 +23,7 @@
       ],
       "usage": "Was là dạng quá khứ của am và is.",
       "exampleVi": "Đó là một chất lỏng.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "were · Số nhiều",
@@ -40,7 +40,7 @@
       ],
       "usage": "Were là dạng quá khứ của are.",
       "exampleVi": "Những tảng băng rất chắc chắn.",
-      "sentenceType": "Affirmative (Câu khẳng định)"
+      "sentenceType": "Câu khẳng định"
     },
     {
       "tag": "wasn't · Phủ định số ít",
@@ -57,7 +57,7 @@
       ],
       "usage": "Was not thường được nói gọn thành wasn't.",
       "exampleVi": "Nước không rắn.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     },
     {
       "tag": "weren't · Phủ định số nhiều",
@@ -74,7 +74,7 @@
       ],
       "usage": "Were not thường được nói gọn thành weren't.",
       "exampleVi": "Những quả bóng bay không đầy.",
-      "sentenceType": "Negative (Câu phủ định)"
+      "sentenceType": "Câu phủ định"
     }
   ],
   "items": [
@@ -100,7 +100,7 @@
         "being"
       ],
       "hint": "Was là dạng quá khứ của am và is. Câu nói về trạng thái đã có trong quá khứ, thường đi với yesterday, last night hoặc một thời điểm đã kết thúc.",
-      "why": "It was a liquid.\nWas là dạng quá khứ của am và is.",
+      "why": "Chọn “was”. Was là dạng quá khứ của am và is.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -109,7 +109,11 @@
       "spokenScene": "",
       "scene": "A clear liquid in an unlabelled bottle is on the classroom table.\nIt ___ a liquid.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "It was a liquid.",
+        "vi": "Đó là một chất lỏng."
+      }
     },
     {
       "id": "discover-2-grammar-u3-1-2-context2",
@@ -133,7 +137,7 @@
         "were"
       ],
       "hint": "Were là dạng quá khứ của are. You luôn đi với were, dù chỉ một người hay nhiều người.",
-      "why": "The ice pops were solid.\nWere là dạng quá khứ của are.",
+      "why": "Chọn “were”. Were là dạng quá khứ của are.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -142,7 +146,11 @@
       "spokenScene": "",
       "scene": "A clear liquid in an unlabelled bottle is on the classroom table.\nThe ice pops ___ solid.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The ice pops were solid.",
+        "vi": "Những tảng băng rất chắc chắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-1-3-context2",
@@ -166,7 +174,7 @@
         "weren't"
       ],
       "hint": "Was not thường được nói gọn thành wasn't. Sau wasn't không dùng động từ nguyên mẫu vì was chính là động từ của câu.",
-      "why": "The water wasn't solid.\nWas not thường được nói gọn thành wasn't.",
+      "why": "Chọn “wasn't”. Was not thường được nói gọn thành wasn't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -175,7 +183,11 @@
       "spokenScene": "",
       "scene": "A clear liquid in an unlabelled bottle is on the classroom table.\nThe water ___ solid.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The water wasn't solid.",
+        "vi": "Nước không rắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-1-4-context2",
@@ -199,7 +211,7 @@
         "not were"
       ],
       "hint": "Were not thường được nói gọn thành weren't. Con cần nhìn chủ ngữ trước khi chọn wasn't hay weren't.",
-      "why": "The balloons weren't full.\nWere not thường được nói gọn thành weren't.",
+      "why": "Chọn “weren't”. Were not thường được nói gọn thành weren't.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
@@ -208,7 +220,11 @@
       "spokenScene": "",
       "scene": "A clear liquid in an unlabelled bottle is on the classroom table.\nThe balloons ___ full.",
       "prompt": "Choose the missing words.",
-      "partType": "readGap"
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The balloons weren't full.",
+        "vi": "Những quả bóng bay không đầy."
+      }
     },
     {
       "id": "discover-2-grammar-u3-2-1-context2",
@@ -232,7 +248,7 @@
         "was"
       ],
       "hint": "Was là dạng quá khứ của am và is. Câu nói về trạng thái đã có trong quá khứ, thường đi với yesterday, last night hoặc một thời điểm đã kết thúc.",
-      "why": "It was a liquid.\nWas là dạng quá khứ của am và is.",
+      "why": "Chọn “was”. Was là dạng quá khứ của am và is.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -243,7 +259,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "It was a liquid.",
+        "vi": "Đó là một chất lỏng."
+      }
     },
     {
       "id": "discover-2-grammar-u3-2-2-context2",
@@ -267,7 +287,7 @@
         "was"
       ],
       "hint": "Were là dạng quá khứ của are. You luôn đi với were, dù chỉ một người hay nhiều người.",
-      "why": "The ice pops were solid.\nWere là dạng quá khứ của are.",
+      "why": "Chọn “were”. Were là dạng quá khứ của are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -278,7 +298,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The ice pops were solid.",
+        "vi": "Những tảng băng rất chắc chắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-2-3-context2",
@@ -302,7 +326,7 @@
         "not was"
       ],
       "hint": "Was not thường được nói gọn thành wasn't. Sau wasn't không dùng động từ nguyên mẫu vì was chính là động từ của câu.",
-      "why": "The water wasn't solid.\nWas not thường được nói gọn thành wasn't.",
+      "why": "Chọn “wasn't”. Was not thường được nói gọn thành wasn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -313,7 +337,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The water wasn't solid.",
+        "vi": "Nước không rắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-2-4-context2",
@@ -337,7 +365,7 @@
         "not was"
       ],
       "hint": "Were not thường được nói gọn thành weren't. Con cần nhìn chủ ngữ trước khi chọn wasn't hay weren't.",
-      "why": "The balloons weren't full.\nWere not thường được nói gọn thành weren't.",
+      "why": "Chọn “weren't”. Were not thường được nói gọn thành weren't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -348,7 +376,11 @@
       "prompt": "Replace the words in brackets.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction."
+      "partInstruction": "Choose the correction.",
+      "explanationExample": {
+        "en": "The balloons weren't full.",
+        "vi": "Những quả bóng bay không đầy."
+      }
     },
     {
       "id": "discover-2-grammar-u3-3-1-context2",
@@ -372,7 +404,7 @@
         "were"
       ],
       "hint": "Was là dạng quá khứ của am và is. Câu nói về trạng thái đã có trong quá khứ, thường đi với yesterday, last night hoặc một thời điểm đã kết thúc.",
-      "why": "It was a liquid.\nWas là dạng quá khứ của am và is.",
+      "why": "Chọn “was”. Was là dạng quá khứ của am và is.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -384,7 +416,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "It was a liquid.",
+        "vi": "Đó là một chất lỏng."
+      }
     },
     {
       "id": "discover-2-grammar-u3-3-2-context2",
@@ -408,7 +444,7 @@
         "be"
       ],
       "hint": "Were là dạng quá khứ của are. You luôn đi với were, dù chỉ một người hay nhiều người.",
-      "why": "The ice pops were solid.\nWere là dạng quá khứ của are.",
+      "why": "Chọn “were”. Were là dạng quá khứ của are.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -420,7 +456,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The ice pops were solid.",
+        "vi": "Những tảng băng rất chắc chắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-3-3-context2",
@@ -444,7 +484,7 @@
         "not were"
       ],
       "hint": "Was not thường được nói gọn thành wasn't. Sau wasn't không dùng động từ nguyên mẫu vì was chính là động từ của câu.",
-      "why": "The water wasn't solid.\nWas not thường được nói gọn thành wasn't.",
+      "why": "Chọn “wasn't”. Was not thường được nói gọn thành wasn't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -456,7 +496,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The water wasn't solid.",
+        "vi": "Nước không rắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-3-4-context2",
@@ -480,7 +524,7 @@
         "weren't"
       ],
       "hint": "Were not thường được nói gọn thành weren't. Con cần nhìn chủ ngữ trước khi chọn wasn't hay weren't.",
-      "why": "The balloons weren't full.\nWere not thường được nói gọn thành weren't.",
+      "why": "Chọn “weren't”. Were not thường được nói gọn thành weren't.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
@@ -492,7 +536,11 @@
       "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words."
+      "partInstruction": "Use the word bank. Write the missing words.",
+      "explanationExample": {
+        "en": "The balloons weren't full.",
+        "vi": "Những quả bóng bay không đầy."
+      }
     },
     {
       "id": "discover-2-grammar-u3-4-1-context2",
@@ -516,7 +564,7 @@
         "liquid. → a → It was"
       ],
       "hint": "Was là dạng quá khứ của am và is. Câu nói về trạng thái đã có trong quá khứ, thường đi với yesterday, last night hoặc một thời điểm đã kết thúc.",
-      "why": "It was a liquid.\nWas là dạng quá khứ của am và is.",
+      "why": "Chọn “It was → a → liquid.”. Was là dạng quá khứ của am và is.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -530,7 +578,11 @@
         "a",
         "liquid.",
         "It was"
-      ]
+      ],
+      "explanationExample": {
+        "en": "It was a liquid.",
+        "vi": "Đó là một chất lỏng."
+      }
     },
     {
       "id": "discover-2-grammar-u3-4-2-context2",
@@ -554,7 +606,7 @@
         "solid. → pops were → The ice"
       ],
       "hint": "Were là dạng quá khứ của are. You luôn đi với were, dù chỉ một người hay nhiều người.",
-      "why": "The ice pops were solid.\nWere là dạng quá khứ của are.",
+      "why": "Chọn “The ice → pops were → solid.”. Were là dạng quá khứ của are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -568,7 +620,11 @@
         "pops were",
         "solid.",
         "The ice"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The ice pops were solid.",
+        "vi": "Những tảng băng rất chắc chắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-4-3-context2",
@@ -592,7 +648,7 @@
         "solid. → wasn't → The water"
       ],
       "hint": "Was not thường được nói gọn thành wasn't. Sau wasn't không dùng động từ nguyên mẫu vì was chính là động từ của câu.",
-      "why": "The water wasn't solid.\nWas not thường được nói gọn thành wasn't.",
+      "why": "Chọn “The water → wasn't → solid.”. Was not thường được nói gọn thành wasn't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -606,7 +662,11 @@
         "wasn't",
         "solid.",
         "The water"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The water wasn't solid.",
+        "vi": "Nước không rắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-4-4-context2",
@@ -630,7 +690,7 @@
         "full. → weren't → The balloons"
       ],
       "hint": "Were not thường được nói gọn thành weren't. Con cần nhìn chủ ngữ trước khi chọn wasn't hay weren't.",
-      "why": "The balloons weren't full.\nWere not thường được nói gọn thành weren't.",
+      "why": "Chọn “The balloons → weren't → full.”. Were not thường được nói gọn thành weren't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -644,7 +704,11 @@
         "weren't",
         "full.",
         "The balloons"
-      ]
+      ],
+      "explanationExample": {
+        "en": "The balloons weren't full.",
+        "vi": "Những quả bóng bay không đầy."
+      }
     },
     {
       "id": "discover-2-grammar-u3-5-1-context2",
@@ -668,7 +732,7 @@
         "It being a liquid."
       ],
       "hint": "Was là dạng quá khứ của am và is. Câu nói về trạng thái đã có trong quá khứ, thường đi với yesterday, last night hoặc một thời điểm đã kết thúc.",
-      "why": "It was a liquid.\nWas là dạng quá khứ của am và is.",
+      "why": "Chọn “It was a liquid.”. Was là dạng quá khứ của am và is.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -679,7 +743,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "It was a liquid.",
+        "vi": "Đó là một chất lỏng."
+      }
     },
     {
       "id": "discover-2-grammar-u3-5-2-context2",
@@ -703,7 +771,7 @@
         "The ice pops were solid."
       ],
       "hint": "Were là dạng quá khứ của are. You luôn đi với were, dù chỉ một người hay nhiều người.",
-      "why": "The ice pops were solid.\nWere là dạng quá khứ của are.",
+      "why": "Chọn “The ice pops were solid.”. Were là dạng quá khứ của are.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -714,7 +782,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The ice pops were solid.",
+        "vi": "Những tảng băng rất chắc chắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-5-3-context2",
@@ -738,7 +810,7 @@
         "The water weren't solid."
       ],
       "hint": "Was not thường được nói gọn thành wasn't. Sau wasn't không dùng động từ nguyên mẫu vì was chính là động từ của câu.",
-      "why": "The water wasn't solid.\nWas not thường được nói gọn thành wasn't.",
+      "why": "Chọn “The water wasn't solid.”. Was not thường được nói gọn thành wasn't.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
@@ -749,7 +821,11 @@
       "prompt": "Which sentence follows the rule?",
       "partType": "readChoose",
       "partTitle": "Apply the Rule",
-      "partInstruction": "Choose the sentence that follows the rule."
+      "partInstruction": "Choose the sentence that follows the rule.",
+      "explanationExample": {
+        "en": "The water wasn't solid.",
+        "vi": "Nước không rắn."
+      }
     },
     {
       "id": "discover-2-grammar-u3-5-4-context2-life",
