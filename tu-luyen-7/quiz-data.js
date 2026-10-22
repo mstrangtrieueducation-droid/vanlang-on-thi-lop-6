@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "IMPORTANT NOTICE\nThe swimming pool is closed for cleaning from 8:00 a.m. to 11:00 a.m. on Monday.\n\nWhat is the problem?",
-      "sceneHtml": "<strong>IMPORTANT NOTICE</strong><br>The swimming pool is closed for cleaning from 8:00 a.m. to 11:00 a.m. on Monday.<br><br>What is the problem?",
-      "spokenScene": "IMPORTANT NOTICE\nThe swimming pool is closed for cleaning from 8:00 a.m. to 11:00 a.m. on Monday.\n\nWhat is the problem?",
+      "scene": "What is the problem?",
+      "sceneHtml": "What is the problem?",
+      "spokenScene": "What is the problem?",
       "prompt": "",
       "options": [
         "You cannot use the pool on Monday morning.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v70eac98cdf19492/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-7/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "DO NOT TOUCH THE EXHIBITS\n\nWhat does the sign mean?",
-      "sceneHtml": "<strong>DO NOT TOUCH THE EXHIBITS</strong><br><br>What does the sign mean?",
-      "spokenScene": "DO NOT TOUCH THE EXHIBITS\n\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "You can feed the animals here.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v70eac98cdf19492/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-7/original-q18.png"
       }
     },
     {

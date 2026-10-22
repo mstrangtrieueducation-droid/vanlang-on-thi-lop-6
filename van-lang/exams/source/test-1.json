@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>Nội dung thông báo:</strong> “School Cafeteria will be closed on Friday, June 14 for cleaning.”<br><br>What is the problem?",
+      "promptHtml": "What is the problem?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: Theo lời giải nguồn, thông báo ghi “School Cafeteria will be closed on Friday, June 14 for cleaning.” Từ “closed” cho biết căng-tin không mở cửa vào thứ Sáu. Thông báo không nói căng-tin chuyển địa điểm, học sinh ăn sớm hơn hay chỉ giáo viên được sử dụng.\nDịch nghĩa: “Căng-tin trường sẽ đóng cửa vào thứ Sáu, ngày 14 tháng Sáu để vệ sinh.” Vấn đề là căng-tin sẽ không mở cửa vào thứ Sáu.\nTừ vựng quan trọng: school cafeteria (căng-tin trường), be closed (đóng cửa), cleaning (việc vệ sinh), open (mở cửa)."
+      "explanation": "Đáp án B.\nGiải thích: Theo lời giải nguồn, thông báo ghi “School Cafeteria will be closed on Friday, June 14 for cleaning.” Từ “closed” cho biết căng-tin không mở cửa vào thứ Sáu. Thông báo không nói căng-tin chuyển địa điểm, học sinh ăn sớm hơn hay chỉ giáo viên được sử dụng.\nDịch nghĩa: “Căng-tin trường sẽ đóng cửa vào thứ Sáu, ngày 14 tháng Sáu để vệ sinh.” Vấn đề là căng-tin sẽ không mở cửa vào thứ Sáu.\nTừ vựng quan trọng: school cafeteria (căng-tin trường), be closed (đóng cửa), cleaning (việc vệ sinh), open (mở cửa).",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Đọc biển báo",
       "instruction": "Read the sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>Nội dung biển:</strong> “WET FLOOR”<br><br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: Theo lời giải nguồn, biển ghi “WET FLOOR”. Sàn ướt có thể trơn, vì vậy mọi người cần đi cẩn thận. Biển này là lời cảnh báo nguy hiểm, không khuyến khích chạy và không cho biết khu vực dành cho trò chơi dưới nước.\nDịch nghĩa: “WET FLOOR” nghĩa là “SÀN ƯỚT”. Mọi người cần cẩn thận vì sàn trơn.\nTừ vựng quan trọng: wet floor (sàn ướt), slippery (trơn trượt), be careful (cẩn thận), warning sign (biển cảnh báo)."
+      "explanation": "Đáp án C.\nGiải thích: Theo lời giải nguồn, biển ghi “WET FLOOR”. Sàn ướt có thể trơn, vì vậy mọi người cần đi cẩn thận. Biển này là lời cảnh báo nguy hiểm, không khuyến khích chạy và không cho biết khu vực dành cho trò chơi dưới nước.\nDịch nghĩa: “WET FLOOR” nghĩa là “SÀN ƯỚT”. Mọi người cần cẩn thận vì sàn trơn.\nTừ vựng quan trọng: wet floor (sàn ướt), slippery (trơn trượt), be careful (cẩn thận), warning sign (biển cảnh báo).",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Last summer, Robert and Harry stayed at their grandparents' house by the sea. One hot and sunny morning, Grandmother made a picnic and took the boys to the beach. After lunch, Grandmother lay down and opened her book. The boys played football on the beach and then made a little castle with some sand.<br><br>Then Harry saw a strange cave which was near some big, grey rocks at the other end of the beach. The boys quickly ran to it and looked in, but they couldn't see anything because it was very dark. Harry said, \"It looks big inside. Come on! I'll go first.\"<br><br>Harry and Robert were playing inside the cave when suddenly Robert said, \"Oh no! I can hear the sea! It's coming into the cave.\" They were very afraid, but then Harry felt something wet on his hand. It was a dog's nose! The dog was very clever. It showed the boys another way out of the cave and back to the beach.<br><br>When they told their grandmother about the dog, she gave him three biscuits and said, \"Well done!\"<br><br>\"We're hungry too!\" the boys said. \"Well,\" Grandmother answered, \"you must wait until dinner. It was naughty to go into a dangerous place like that.\" \"We're very, very sorry, Grandma!\" they said. \"We won't do it again.\""
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 446,
+      "height": 338,
+      "sourceUrl": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 463,
+      "height": 348,
+      "sourceUrl": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v0b763436d30b4ec/",
   "sourceUrl": "https://docs.google.com/document/d/1TiljccsLJjeOFDb2JrhIz38liNVyJ8pWyGD4psKqva0/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

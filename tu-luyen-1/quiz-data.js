@@ -607,9 +607,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung thông báo: “School Cafeteria will be closed on Friday, June 14 for cleaning.”\n\nWhat is the problem?",
-      "sceneHtml": "<strong>Nội dung thông báo:</strong> “School Cafeteria will be closed on Friday, June 14 for cleaning.”<br><br>What is the problem?",
-      "spokenScene": "Nội dung thông báo: “School Cafeteria will be closed on Friday, June 14 for cleaning.”\n\nWhat is the problem?",
+      "scene": "What is the problem?",
+      "sceneHtml": "What is the problem?",
+      "spokenScene": "What is the problem?",
       "prompt": "",
       "options": [
         "The cafeteria is moving to a new building.",
@@ -633,6 +633,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v0b763436d30b4ec/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-1/original-q17.png"
       }
     },
     {
@@ -644,9 +647,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung biển: “WET FLOOR”\n\nWhat does the sign mean?",
-      "sceneHtml": "<strong>Nội dung biển:</strong> “WET FLOOR”<br><br>What does the sign mean?",
-      "spokenScene": "Nội dung biển: “WET FLOOR”\n\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "Students should run in this area.",
@@ -670,6 +673,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v0b763436d30b4ec/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-1/original-q18.png"
       }
     },
     {

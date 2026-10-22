@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>SCHOOL TOY EXCHANGE</strong><br>Friday: 3:30–4:30 p.m.<br>Bring ONE clean toy.<br>No broken or battery-powered toys.<br><br>Which item is suitable for the School Toy Exchange?",
+      "promptHtml": "Which item is suitable for the School Toy Exchange?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "D",
-      "explanation": "Đáp án D.\nGiải thích: Thông báo yêu cầu mang một đồ chơi sạch và không nhận đồ hỏng hoặc chạy bằng pin. Gấu bông sạch đáp ứng đủ điều kiện; ba phương án còn lại vi phạm quy định.\nDịch nghĩa: ĐỔI ĐỒ CHƠI Ở TRƯỜNG: Mang MỘT món đồ chơi sạch. Không mang đồ hỏng hoặc đồ chơi chạy bằng pin.\nTừ vựng quan trọng: toy exchange (đổi đồ chơi), clean toy (đồ chơi sạch), broken (bị hỏng), battery-powered (chạy bằng pin), suitable (phù hợp)."
+      "explanation": "Đáp án D.\nGiải thích: Thông báo yêu cầu mang một đồ chơi sạch và không nhận đồ hỏng hoặc chạy bằng pin. Gấu bông sạch đáp ứng đủ điều kiện; ba phương án còn lại vi phạm quy định.\nDịch nghĩa: ĐỔI ĐỒ CHƠI Ở TRƯỜNG: Mang MỘT món đồ chơi sạch. Không mang đồ hỏng hoặc đồ chơi chạy bằng pin.\nTừ vựng quan trọng: toy exchange (đổi đồ chơi), clean toy (đồ chơi sạch), broken (bị hỏng), battery-powered (chạy bằng pin), suitable (phù hợp).",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>MOUNTAIN PATH</strong><br>CLOSES AT 5:00 p.m.<br>RETURN TO THE CAMPSITE BEFORE 5:00 p.m.<br><br>What does the notice mean?",
+      "promptHtml": "What does the notice mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "A",
-      "explanation": "Đáp án A.\nGiải thích: Biển cho biết đường núi đóng lúc 5 giờ chiều và yêu cầu trở về khu cắm trại trước giờ đó. Vì vậy khách phải rời đường núi trước 5 giờ.\nDịch nghĩa: ĐƯỜNG NÚI: đóng lúc 5 giờ chiều. Hãy trở về khu cắm trại trước 5 giờ chiều.\nTừ vựng quan trọng: mountain path (đường mòn trên núi), close (đóng), return (trở về), campsite (khu cắm trại), before (trước)."
+      "explanation": "Đáp án A.\nGiải thích: Biển cho biết đường núi đóng lúc 5 giờ chiều và yêu cầu trở về khu cắm trại trước giờ đó. Vì vậy khách phải rời đường núi trước 5 giờ.\nDịch nghĩa: ĐƯỜNG NÚI: đóng lúc 5 giờ chiều. Hãy trở về khu cắm trại trước 5 giờ chiều.\nTừ vựng quan trọng: mountain path (đường mòn trên núi), close (đóng), return (trở về), campsite (khu cắm trại), before (trước).",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Every Wednesday afternoon, Class 5C in the city talks online with Class 5M in a mountain village. They call this activity “Two Windows” because the computer screen looks like a real window into a different place.<br><br>Today, the city students show a busy street near their school. Buses and cars move slowly, and people walk next to tall buildings. Then, the mountain students point their camera at a green hill. A baby cow is eating grass, and two children are flying a kite. The mountain village is much quieter than the city, but the Internet there is sometimes weaker.<br><br>This project is not a game to see which place is better. Each class just shares one good idea. The city students explain how traffic lights keep people safe on the road. The mountain students show how families clean the paths and take care of small trees. At the end of the meeting, the students write one question to ask their new friends.<br><br>Next month, the two classes will make a picture book together. Each page will show the two places at the exact same time of day. The teachers hope this book will help the students see the differences between the city and the village, and learn that both places are equally beautiful and important."
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v76ca46c0c4cd4a6/",
   "sourceUrl": "https://docs.google.com/document/d/1W1iPvN9PhOfhSQEpbABz6NyjXeUoWjOfYppqAMYhtRw/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

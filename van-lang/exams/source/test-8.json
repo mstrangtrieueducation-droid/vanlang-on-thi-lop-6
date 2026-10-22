@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>SCHOOL GARDEN DAY</strong><br>Saturday: 8:00 – 10:30 a.m.<br><strong>WEATHER FORECAST: RAINY</strong><br>Please bring a raincoat.<br>Outdoor games move indoors.<br><br>What should pupils bring to School Garden Day?",
+      "promptHtml": "What should pupils bring to School Garden Day?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: Thông báo nói rõ “Please bring a raincoat”, vì dự báo trời mưa. Do đó học sinh cần mang áo mưa.\nDịch nghĩa: NGÀY HỘI VƯỜN TRƯỜNG: dự báo có mưa; vui lòng mang áo mưa; các trò chơi ngoài trời chuyển vào trong nhà.\nTừ vựng quan trọng: raincoat (áo mưa), rainy (có mưa), bring (mang theo), move indoors (chuyển vào trong nhà)."
+      "explanation": "Đáp án B.\nGiải thích: Thông báo nói rõ “Please bring a raincoat”, vì dự báo trời mưa. Do đó học sinh cần mang áo mưa.\nDịch nghĩa: NGÀY HỘI VƯỜN TRƯỜNG: dự báo có mưa; vui lòng mang áo mưa; các trò chơi ngoài trời chuyển vào trong nhà.\nTừ vựng quan trọng: raincoat (áo mưa), rainy (có mưa), bring (mang theo), move indoors (chuyển vào trong nhà).",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>AQUARIUM NOTICE</strong><br>NO ENTRY TO THE UPSTAIRS AREA TODAY<br>ALL SEA-LIFE SHOWS: FIRST FLOOR<br><br>What does the notice mean?",
+      "promptHtml": "What does the notice mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "D",
-      "explanation": "Đáp án D.\nGiải thích: Thông báo cấm vào khu vực tầng trên trong hôm nay nhưng cho biết mọi buổi biểu diễn sinh vật biển diễn ra ở tầng một. Vì vậy khách vẫn có thể xem ở tầng một.\nDịch nghĩa: THÔNG BÁO THỦY CUNG: Hôm nay không vào khu vực tầng trên. Tất cả buổi biểu diễn sinh vật biển ở tầng một.\nTừ vựng quan trọng: aquarium (thủy cung), no entry (không được vào), upstairs area (khu vực tầng trên), first floor (tầng một), sea-life show (buổi biểu diễn sinh vật biển)."
+      "explanation": "Đáp án D.\nGiải thích: Thông báo cấm vào khu vực tầng trên trong hôm nay nhưng cho biết mọi buổi biểu diễn sinh vật biển diễn ra ở tầng một. Vì vậy khách vẫn có thể xem ở tầng một.\nDịch nghĩa: THÔNG BÁO THỦY CUNG: Hôm nay không vào khu vực tầng trên. Tất cả buổi biểu diễn sinh vật biển ở tầng một.\nTừ vựng quan trọng: aquarium (thủy cung), no entry (không được vào), upstairs area (khu vực tầng trên), first floor (tầng một), sea-life show (buổi biểu diễn sinh vật biển).",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Near the door of Class 5A, there is a small wooden shelf. Its name is the Sharing Shelf. Pupils place clean books, pencils, rulers and toys on it when they do not need them anymore. Any classmate can choose one useful item, but everyone has to write the item’s name in a notebook. This simple rule helps the class keep the shelf tidy and know which things are in use.<br><br>Lan checks the shelf every Friday. She puts storybooks on the top shelf, school things in the middle and toys at the bottom. She also asks pupils not to bring dirty things or objects that do not work. The aim is not to collect expensive items. It is to reduce waste by using good things again and to help classmates who need more school things.<br><br>Next month, Class 5A is going to invite Class 5B to join the project. The pupils will also prepare a box for old paper because the art club can turn it into cards. Through the project, the children learn that sharing is not simply giving everything away. It means using things carefully and thinking about other people."
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vf0f6c927207845f/",
   "sourceUrl": "https://docs.google.com/document/d/1VSS4qoLDrTHKUUYr_zC-pLtkH8q-hp86-xPS0J9EJ_s/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

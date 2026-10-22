@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "SCHOOL LIBRARY\nSUMMER HOURS\nMonday – Friday: 9:00 a.m. – 4:00 p.m.\nSaturday: 10:00 a.m. – 1:00 p.m.\nClosed on Sundays\nHappy Reading!\nWhich of the following is TRUE about the library?",
-      "sceneHtml": "<div class=\"notice\"><strong>SCHOOL LIBRARY</strong><br><strong>SUMMER HOURS</strong><br>Monday – Friday: 9:00 a.m. – 4:00 p.m.<br>Saturday: 10:00 a.m. – 1:00 p.m.<br>Closed on Sundays<br><em>Happy Reading!</em></div><br>Which of the following is TRUE about the library?",
-      "spokenScene": "SCHOOL LIBRARY\nSUMMER HOURS\nMonday – Friday: 9:00 a.m. – 4:00 p.m.\nSaturday: 10:00 a.m. – 1:00 p.m.\nClosed on Sundays\nHappy Reading!\nWhich of the following is TRUE about the library?",
+      "scene": "Which of the following is TRUE about the library?",
+      "sceneHtml": "Which of the following is TRUE about the library?",
+      "spokenScene": "Which of the following is TRUE about the library?",
       "prompt": "",
       "options": [
         "It stays open longer on Saturday than on weekdays.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v00386aec429f44f/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-6/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "SAFETY FIRST\nDON'T RIDE YOUR BIKE TOO FAST!\nWhat does the sign mean?",
-      "sceneHtml": "<div class=\"notice\"><strong>SAFETY FIRST</strong><br><strong>DON'T RIDE YOUR BIKE TOO FAST!</strong></div><br>What does the sign mean?",
-      "spokenScene": "SAFETY FIRST\nDON'T RIDE YOUR BIKE TOO FAST!\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "You should ride your bike very fast.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v00386aec429f44f/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-6/original-q18.png"
       }
     },
     {

@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<strong>Nội dung biển:</strong> “NO PHONES IN CLASSROOM”<br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: Biển “NO PHONES IN CLASSROOM” cấm sử dụng điện thoại trong lớp học. Biển không cho phép nghe điện thoại, không giới hạn riêng giờ ra chơi và không nói về việc sửa điện thoại.\nDịch nghĩa: “Không dùng điện thoại trong lớp học.” Học sinh không được phép sử dụng điện thoại ở trong lớp.\nTừ vựng quan trọng: no phones (không dùng điện thoại), phone (điện thoại), classroom (phòng học), must not (không được phép).\nChủ điểm ngữ pháp: Cách diễn đạt điều bị cấm."
+      "explanation": "Đáp án C.\nGiải thích: Biển “NO PHONES IN CLASSROOM” cấm sử dụng điện thoại trong lớp học. Biển không cho phép nghe điện thoại, không giới hạn riêng giờ ra chơi và không nói về việc sửa điện thoại.\nDịch nghĩa: “Không dùng điện thoại trong lớp học.” Học sinh không được phép sử dụng điện thoại ở trong lớp.\nTừ vựng quan trọng: no phones (không dùng điện thoại), phone (điện thoại), classroom (phòng học), must not (không được phép).\nChủ điểm ngữ pháp: Cách diễn đạt điều bị cấm.",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<strong>Nội dung thông báo:</strong> “School Bus 3 will leave at 3:00 p.m. today instead of 3:30 p.m.”<br>What should students know?",
+      "promptHtml": "What should students know?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: Xe buýt số 3 hôm nay rời bến lúc 3:00 thay vì 3:30, tức sớm hơn 30 phút. Xe không bị hủy và thông báo không giới hạn người đi xe.\nDịch nghĩa: “Hôm nay xe buýt trường số 3 sẽ khởi hành lúc 3 giờ chiều thay vì 3 giờ 30.” Học sinh cần biết xe sẽ đi sớm hơn.\nTừ vựng quan trọng: school bus (xe buýt trường), leave (khởi hành), earlier (sớm hơn), instead of (thay vì), as usual (như thường lệ)"
+      "explanation": "Đáp án B.\nGiải thích: Xe buýt số 3 hôm nay rời bến lúc 3:00 thay vì 3:30, tức sớm hơn 30 phút. Xe không bị hủy và thông báo không giới hạn người đi xe.\nDịch nghĩa: “Hôm nay xe buýt trường số 3 sẽ khởi hành lúc 3 giờ chiều thay vì 3 giờ 30.” Học sinh cần biết xe sẽ đi sớm hơn.\nTừ vựng quan trọng: school bus (xe buýt trường), leave (khởi hành), earlier (sớm hơn), instead of (thay vì), as usual (như thường lệ)",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "This year, our school has a new timetable, and I am very happy about it. On Mondays and Wednesdays, we have Maths and Science in the morning, and PE in the afternoon. I don't really like PE, but my best friend, Hoa, loves it. She is very keen on playing badminton.<br><br>On Tuesdays, we have Music class in the school's music room. This is my favorite day of the week because I am fond of playing the guitar, and our teacher lets us practice together in small groups. After Music class, we usually have free time in the library, where students can read books or do homework quietly.<br><br>Every Friday afternoon, our teacher organizes a \"Hobby Hour.\" Students can choose an activity they enjoy, such as making models, collecting stamps, or taking photos around the school garden. Hoa always chooses badminton practice, while I usually choose photography. Our teacher says that Hobby Hour helps us relax after a long week of studying and try new things we might not do at home."
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 182,
+      "height": 191,
+      "sourceUrl": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 387,
+      "height": 321,
+      "sourceUrl": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vb031e07cd89747c/",
   "sourceUrl": "https://docs.google.com/document/d/103N1AXcvBK7wkAaZPVGGS4wYZhoIV5dx6NVWTC-Fjcs/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

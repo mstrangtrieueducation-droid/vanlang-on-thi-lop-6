@@ -12,6 +12,7 @@
   const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v4',fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
   let state;try{state=JSON.parse(storage.getItem(key));}catch{}
   if(!state||state.version!==4||!Number.isInteger(state.index)||state.index<0||state.index>20)state=fresh();
+  const entry=await StartNewJourney.choose({title:'Picture Explorer · Unit '+pack.unit,hasProgress:state.index>0||state.collected?.length>0,back:back.href});if(entry==='new'){state=fresh();storage.removeItem(key);}
   state.answers=Array.isArray(state.answers)?state.answers.slice(0,20):[];
   state.collected=Array.isArray(state.collected)?[...new Set(state.collected)].filter(id=>pack.objects.some(o=>o.id===id)):[];
   state.elapsedMs=Math.max(0,Number(state.elapsedMs)||0);
@@ -22,7 +23,7 @@
   function stopVoice(){voiceTicket++;player.pause();if(cancelClip){const f=cancelClip;cancelClip=null;f(false);}host.querySelector('#hunt-listen')?.classList.remove('speaking');window.EpicBGM?.duck(false);}
   async function say(text){
    stopVoice();if(!state.sound)return true;window.EpicBGM?.duck(true);
-   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?.prompt||text,content=question?.sound?[voices[prompt],{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=question?[...window.QuestionNumbers?.clips(state.index+1)||[],...content]:content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
+   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?.prompt||text,content=question?.sound?[voices[prompt],{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
    host.querySelector('#hunt-listen')?.classList.add('speaking');
    for(const clip of clips){if(ticket!==voiceTicket)return false;const ok=await new Promise(resolve=>{
     let finished=false;const timer=setTimeout(()=>done(false),20000);

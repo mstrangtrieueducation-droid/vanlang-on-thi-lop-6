@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<strong>Nội dung thông báo:</strong> “Don't forget to bring your library books back by June 20.”<br>What do students need to remember?",
+      "promptHtml": "What do students need to remember?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "A",
-      "explanation": "Đáp án A.\nGiải thích: Thông báo nhắc học sinh mang sách thư viện trả lại chậm nhất vào ngày 20 tháng 6. Không có ý cho giữ sách mãi, mượn sách mới hay thư viện đóng cửa.\nDịch nghĩa: “Đừng quên mang sách thư viện của em trả lại trước hoặc vào ngày 20 tháng 6.” Học sinh cần nhớ trả sách đúng hạn.\nTừ vựng quan trọng: bring back/return (trả lại), library book (sách thư viện), by June 20 (chậm nhất ngày 20/6), forever (mãi mãi)"
+      "explanation": "Đáp án A.\nGiải thích: Thông báo nhắc học sinh mang sách thư viện trả lại chậm nhất vào ngày 20 tháng 6. Không có ý cho giữ sách mãi, mượn sách mới hay thư viện đóng cửa.\nDịch nghĩa: “Đừng quên mang sách thư viện của em trả lại trước hoặc vào ngày 20 tháng 6.” Học sinh cần nhớ trả sách đúng hạn.\nTừ vựng quan trọng: bring back/return (trả lại), library book (sách thư viện), by June 20 (chậm nhất ngày 20/6), forever (mãi mãi)",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<strong>Nội dung biển:</strong> “PLEASE USE THE TRASH CANS – Help keep our park clean!”<br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: Biển yêu cầu mọi người sử dụng thùng rác để giữ công viên sạch. Đây là một lời nhắc hành động, không chỉ thông báo có thùng rác; biển cũng không bảo vứt rác xuống đất hay giới hạn thùng cho nhân viên vệ sinh.\nDịch nghĩa: “Vui lòng sử dụng các thùng rác – Hãy giúp giữ công viên của chúng ta sạch sẽ!”\nTừ vựng quan trọng: trash can (thùng rác), keep the park clean (giữ công viên sạch), throw trash (vứt rác), ground (mặt đất)"
+      "explanation": "Đáp án C.\nGiải thích: Biển yêu cầu mọi người sử dụng thùng rác để giữ công viên sạch. Đây là một lời nhắc hành động, không chỉ thông báo có thùng rác; biển cũng không bảo vứt rác xuống đất hay giới hạn thùng cho nhân viên vệ sinh.\nDịch nghĩa: “Vui lòng sử dụng các thùng rác – Hãy giúp giữ công viên của chúng ta sạch sẽ!”\nTừ vựng quan trọng: trash can (thùng rác), keep the park clean (giữ công viên sạch), throw trash (vứt rác), ground (mặt đất)",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "David doesn't like school lessons very much. He loves sport and art but he thinks maths and English are very difficult. His father always told him, \"You must study hard at school. Subjects like maths and English are important.\" But David didn't believe him.<br><br>One day, David was reading his town's newspaper when he saw something very interesting. He went to find his father. \"Dad, look at this! Some famous English footballers are going to come here to play. It's very exciting! Can we watch the game?\" His father was very excited too and phoned the sports centre to buy some tickets, but there weren't any. Everyone wanted to be there, and lots of people already had their tickets. David was very sad.<br><br>The next day, David was at school when his teacher said, \"One of the English footballers is going to visit you all tomorrow! You can ask him questions. Perhaps he'll play football with you too!\" The footballer was called Robert. He brought red and white T-shirts for all the children which was very kind. But David couldn't ask him any questions because he didn't know the English words. But it was great to meet him and David was very happy when Robert kicked a ball to him! David studies harder in his English lessons now!"
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 331,
+      "height": 181,
+      "sourceUrl": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 318,
+      "height": 187,
+      "sourceUrl": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v63a4c6c4355b4f5/",
   "sourceUrl": "https://docs.google.com/document/d/1bNTuIQerRPL_8ZatlUUCTT9g5NA26JbQyO0fXpcQfUc/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

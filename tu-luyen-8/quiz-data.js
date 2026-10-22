@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "SCHOOL GARDEN DAY\nSaturday: 8:00 – 10:30 a.m.\nWEATHER FORECAST: RAINY\nPlease bring a raincoat.\nOutdoor games move indoors.\n\nWhat should pupils bring to School Garden Day?",
-      "sceneHtml": "<strong>SCHOOL GARDEN DAY</strong><br>Saturday: 8:00 – 10:30 a.m.<br><strong>WEATHER FORECAST: RAINY</strong><br>Please bring a raincoat.<br>Outdoor games move indoors.<br><br>What should pupils bring to School Garden Day?",
-      "spokenScene": "SCHOOL GARDEN DAY\nSaturday: 8:00 – 10:30 a.m.\nWEATHER FORECAST: RAINY\nPlease bring a raincoat.\nOutdoor games move indoors.\n\nWhat should pupils bring to School Garden Day?",
+      "scene": "What should pupils bring to School Garden Day?",
+      "sceneHtml": "What should pupils bring to School Garden Day?",
+      "spokenScene": "What should pupils bring to School Garden Day?",
       "prompt": "",
       "options": [
         "A swimsuit",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vf0f6c927207845f/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-8/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "AQUARIUM NOTICE\nNO ENTRY TO THE UPSTAIRS AREA TODAY\nALL SEA-LIFE SHOWS: FIRST FLOOR\n\nWhat does the notice mean?",
-      "sceneHtml": "<strong>AQUARIUM NOTICE</strong><br>NO ENTRY TO THE UPSTAIRS AREA TODAY<br>ALL SEA-LIFE SHOWS: FIRST FLOOR<br><br>What does the notice mean?",
-      "spokenScene": "AQUARIUM NOTICE\nNO ENTRY TO THE UPSTAIRS AREA TODAY\nALL SEA-LIFE SHOWS: FIRST FLOOR\n\nWhat does the notice mean?",
+      "scene": "What does the notice mean?",
+      "sceneHtml": "What does the notice mean?",
+      "spokenScene": "What does the notice mean?",
       "prompt": "",
       "options": [
         "The aquarium does not open today.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vf0f6c927207845f/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-8/original-q18.png"
       }
     },
     {

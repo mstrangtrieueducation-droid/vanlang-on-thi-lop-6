@@ -1,5 +1,17 @@
 /* Reset only the current local exercise. Submitted results remain history. */
 (()=>{'use strict';
+ // No attempt, timer or narration starts before an explicit choice.
+ function choose({title='Hành trình của con',hasProgress=false,back}={}){
+  window.FlowBoot?.cancel();window.TitiGreeting?.stop();
+  return new Promise(resolve=>{
+   const dialog=document.createElement('dialog');dialog.className='journey-entry';dialog.setAttribute('aria-label','Chọn cách bắt đầu');
+   dialog.innerHTML='<small>MS TRANG TRIEU EDUCATION</small><h1></h1><p>Con muốn tiếp tục hay thử sức từ đầu?</p><button data-entry-resume>▶ Tiếp tục hành trình</button><button data-entry-new>✦ Bắt đầu hành trình mới</button><p class="entry-note"></p>';
+   dialog.querySelector('h1').textContent=title;dialog.querySelector('.entry-note').textContent=hasProgress?'Tiếp tục từ câu chưa hoàn thành đầu tiên. Làm mới chỉ xóa lượt làm của bài này.':'Chưa có bài đang làm. Cả hai lựa chọn đều bắt đầu từ câu đầu tiên.';
+   if(back){const a=document.createElement('a');a.href=back;a.textContent='← Về bản đồ';dialog.append(a);}
+   const done=value=>{dialog.close();dialog.remove();resolve(value);};dialog.querySelector('[data-entry-resume]').onclick=()=>done('resume');dialog.querySelector('[data-entry-new]').onclick=()=>done('new');
+   dialog.addEventListener('cancel',e=>e.preventDefault());document.body.append(dialog);dialog.showModal();dialog.querySelector('[data-entry-resume]').focus();
+  });
+ }
  function mount(root,restart,hooks={}){
   const bar=root?.querySelector('.play-top,.start-buttons,.hunt-top,.exam-tools,.exam-header,.unit-review-menu>nav,.topbar');
   if(!bar||bar.querySelector('[data-new-journey]'))return;
@@ -8,5 +20,6 @@
  }
  function clearLevel(storage,base){const keys=[base,...[':grammar-context-v2',':dictation-v1',':hunt-worlds-v4',':vl-grammar-v1',':source-tests-2027'].map(s=>base+s)];for(let i=0;i<(storage.length||0);i++){const k=storage.key(i);if(k===base||k?.startsWith(base+':'))keys.push(k);}for(const k of keys)storage.removeItem(k);return [...new Set(keys)];}
  const style=document.createElement('style');style.textContent='[data-new-journey]{font:700 12px/1.3 system-ui!important;min-height:38px;padding:7px 10px!important;border-radius:12px!important;max-width:170px;color:#263958!important;background:#fff4cd!important;border:2px solid #d9b54c!important;cursor:pointer}.journey-reset-dialog{max-width:440px;width:calc(100% - 36px);box-sizing:border-box;border:2px solid #9278d0;border-radius:22px;padding:24px;background:#fff;color:#263958;font:16px/1.6 system-ui}.journey-reset-dialog::backdrop{background:#07162fb3}.journey-reset-dialog div{display:flex;gap:12px;flex-wrap:wrap}.journey-reset-dialog button{padding:12px;border:1px solid #b0bfcd;border-radius:12px;cursor:pointer}.journey-reset-dialog [data-reset-confirm]{background:#ffe37c;font-weight:800}@media(max-width:600px){[data-new-journey]{max-width:128px;font-size:10px!important;min-height:36px}}';style.textContent+='@media(max-width:650px){.hunt-top [data-new-journey],.play-top [data-new-journey]{font-size:0!important;min-width:34px;max-width:34px;padding:4px!important;min-height:34px!important}.hunt-top [data-new-journey]:after,.play-top [data-new-journey]:after{content:"↺";font-size:23px}.play-top:has([data-new-journey]){grid-template-columns:auto auto minmax(60px,1fr) 80px 34px!important}}';document.head.append(style);
- window.StartNewJourney={mount,clearLevel};
+ style.textContent+='.journey-entry{box-sizing:border-box;width:min(520px,calc(100% - 32px));max-height:90dvh;overflow:auto;padding:clamp(24px,6vw,42px);border:2px solid #9cead9;border-radius:28px;background:linear-gradient(145deg,#142b47,#28345b);color:#fff;font:16px/1.6 system-ui;box-shadow:0 20px 80px #07162f80}.journey-entry::backdrop{background:#07162fe8}.journey-entry h1{font-size:clamp(23px,5vw,32px);line-height:1.35;color:#fff}.journey-entry small{color:#b6f9e7;font-size:11px;letter-spacing:1px}.journey-entry button{display:block;width:100%;margin:14px 0;padding:17px 12px;border:2px solid #a9dfec;border-radius:16px;color:#fff;background:#284d6b;font:700 17px/1.5 system-ui;cursor:pointer}.journey-entry [data-entry-new]{background:#ffe28a;border-color:#ffe28a;color:#24334e}.journey-entry button:focus-visible{outline:3px solid #fff;outline-offset:4px}.journey-entry .entry-note{font-size:13px;color:#d8e7f7}.journey-entry a{color:#c7fff3}';
+ window.StartNewJourney={mount,clearLevel,choose};
 })();

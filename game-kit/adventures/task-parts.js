@@ -2,6 +2,14 @@
 (function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else root.TaskParts=api;})(typeof globalThis==='object'?globalThis:this,()=>{
  'use strict';
  const tasks={
+  trace:['Trace Letters','Trace the capital and small letters.'],
+  soundPath:['Sound Maze','Follow the sound path.'],
+  soundGroups:['Sound Groups','Choose the group that follows the sound rule.'],
+  circleMatch:['Circle Matching','Write the letter. Connect the matching pictures.'],
+  letterChain:['Letter Chain','Connect capital, picture and small letter.'],
+  mindMap:['Reading Mind Map','Complete the reading mind map.'],
+  contextSequence:['Context Sequence','Put these details in the order of the reading.'],
+  readingError:['Find & Correct','Find the error. Choose the correction.'],
   listenPicture:['Listen & Choose','Listen and choose a picture.'],
   lookChoose:['Look & Choose','Look and choose.'],
   listenChoose:['Listen & Choose','Listen and choose.'],

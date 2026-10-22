@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>SCHOOL PHOTO</strong><br>Meet in the school hall at 8:15 a.m.<br>Wear your school uniform.</div><br>What should students do?",
+      "promptHtml": "What should students do?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: Thông báo yêu cầu học sinh tập trung tại hội trường lúc 8:15 sáng và mặc đồng phục. A sai địa điểm; D sai trang phục; C không khớp thông tin ngày trong thông báo nguồn.\nDịch nghĩa: Học sinh cần gặp nhau ở hội trường trường lúc 8 giờ 15 sáng và mặc đồng phục.\nTừ vựng quan trọng: school hall: hội trường; school uniform: đồng phục; meet: tập trung/gặp; school photo: ảnh trường."
+      "explanation": "Đáp án B.\nGiải thích: Thông báo yêu cầu học sinh tập trung tại hội trường lúc 8:15 sáng và mặc đồng phục. A sai địa điểm; D sai trang phục; C không khớp thông tin ngày trong thông báo nguồn.\nDịch nghĩa: Học sinh cần gặp nhau ở hội trường trường lúc 8 giờ 15 sáng và mặc đồng phục.\nTừ vựng quan trọng: school hall: hội trường; school uniform: đồng phục; meet: tập trung/gặp; school photo: ảnh trường.",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>NO RUNNING ON THE STAIRS</strong></div><br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: “No running” là cấu trúc cấm chạy; vì vậy học sinh không được chạy trên cầu thang. Biển không nói về chơi game hoặc thời gian sử dụng cầu thang.\nDịch nghĩa: Biển có nghĩa: Không chạy trên cầu thang.\nTừ vựng quan trọng: no running: cấm chạy; stairs: cầu thang; must not: không được phép."
+      "explanation": "Đáp án C.\nGiải thích: “No running” là cấu trúc cấm chạy; vì vậy học sinh không được chạy trên cầu thang. Biển không nói về chơi game hoặc thời gian sử dụng cầu thang.\nDịch nghĩa: Biển có nghĩa: Không chạy trên cầu thang.\nTừ vựng quan trọng: no running: cấm chạy; stairs: cầu thang; must not: không được phép.",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Last summer, Emma went for a walk in the forest with her dog, Ben. It was a lovely day. She was throwing a ball and Ben was running after it when, suddenly, he saw a rabbit. The rabbit ran behind some trees and Ben followed it. Emma was afraid because there was a waterfall near the trees. She could hear it. ‘Don’t be naughty, Ben!’ she shouted. ‘Come back!’<br><br>But Ben didn’t, and Emma couldn’t find him anywhere. She ran to the waterfall. It was very noisy and there were lots of dangerous rocks in the river there. ‘Oh no!’ she thought. ‘Ben has fallen in.’ She looked into the water but she couldn’t see him. Then someone whistled. ‘Who’s there?’ Emma shouted.<br><br>‘Emma! It’s me!’ a boy answered. ‘Who?’ shouted Emma. ‘It’s Robert! Your best friend!’ he laughed. ‘I’m making lunch in a cave that I’ve found. Come and see!’ Emma walked over the big rocks behind the waterfall very slowly and carefully and saw a big dark cave there. She went inside and saw Robert and Ben there. Robert was cooking on a fire and Ben was eating lots of sausages when she walked in.<br><br>‘Now I understand!’ laughed Emma. ‘Mmm. Those look good. Have you got enough for me too?’ ‘Of course!’ said Robert."
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v2509dbdc9a2f436/",
   "sourceUrl": "https://docs.google.com/document/d/1xtRZzig-yeZsGadZIEFSidXVE3OzoNEOLVFnqNGZN_s/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

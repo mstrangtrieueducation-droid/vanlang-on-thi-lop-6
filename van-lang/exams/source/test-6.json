@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>SCHOOL LIBRARY</strong><br><strong>SUMMER HOURS</strong><br>Monday – Friday: 9:00 a.m. – 4:00 p.m.<br>Saturday: 10:00 a.m. – 1:00 p.m.<br>Closed on Sundays<br><em>Happy Reading!</em></div><br>Which of the following is TRUE about the library?",
+      "promptHtml": "Which of the following is TRUE about the library?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: Ngày thường thư viện mở 9:00–16:00; thứ Bảy mở 10:00–13:00, nên thứ Bảy đóng cửa sớm hơn. Chủ Nhật đóng cửa và giờ mở cửa không giống mọi ngày.\nDịch nghĩa: Giờ hè: thứ Hai đến thứ Sáu 9 giờ–16 giờ; thứ Bảy 10 giờ–13 giờ; Chủ Nhật đóng cửa. Câu đúng: Thứ Bảy thư viện đóng cửa sớm hơn ngày thường.\nTừ vựng quan trọng: summer hours: giờ hè; weekday: ngày trong tuần; close earlier: đóng cửa sớm hơn; closed: đóng cửa."
+      "explanation": "Đáp án C.\nGiải thích: Ngày thường thư viện mở 9:00–16:00; thứ Bảy mở 10:00–13:00, nên thứ Bảy đóng cửa sớm hơn. Chủ Nhật đóng cửa và giờ mở cửa không giống mọi ngày.\nDịch nghĩa: Giờ hè: thứ Hai đến thứ Sáu 9 giờ–16 giờ; thứ Bảy 10 giờ–13 giờ; Chủ Nhật đóng cửa. Câu đúng: Thứ Bảy thư viện đóng cửa sớm hơn ngày thường.\nTừ vựng quan trọng: summer hours: giờ hè; weekday: ngày trong tuần; close earlier: đóng cửa sớm hơn; closed: đóng cửa.",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>SAFETY FIRST</strong><br><strong>DON'T RIDE YOUR BIKE TOO FAST!</strong></div><br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: Biển nói “Don’t ... too fast”, tức không nên đi xe quá nhanh; không cấm đi xe hoàn toàn.\nDịch nghĩa: An toàn là trên hết: Đừng đi xe đạp quá nhanh!\nTừ vựng quan trọng: safety first: an toàn là trên hết; ride a bike: đi xe đạp; too fast: quá nhanh."
+      "explanation": "Đáp án B.\nGiải thích: Biển nói “Don’t ... too fast”, tức không nên đi xe quá nhanh; không cấm đi xe hoàn toàn.\nDịch nghĩa: An toàn là trên hết: Đừng đi xe đạp quá nhanh!\nTừ vựng quan trọng: safety first: an toàn là trên hết; ride a bike: đi xe đạp; too fast: quá nhanh.",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Today, Jim is playing volleyball at school with his friends when he falls over. \"I think my leg is broken!\" he says. Mrs North, his teacher, calls the hospital. They wait for the ambulance, but after ten minutes, it is still not there and Jim starts crying. \"I'll take you in my car, Jim,\" says his teacher.<br><br>She carries Jim carefully to the car and when they arrive at the hospital, the doctor says, \"Yes! I'm sorry! Your leg is broken, Jim. I'd like you to stay in the hospital until the weekend.\"<br><br>Jim doesn't mind because his friends come to visit him every evening. They bring him some chocolate and some DVDs and comics because the food tastes horrible and because Jim is very bored. On Friday afternoon, the doctor says, \"Well, you can go home now, but you mustn't do any sports.\" Jim is sad about that. He loves sports but he understands. \"I know that's important,\" he says.<br><br>Jim's parents want him to be happy so, this evening at home, Jim's mother smiles and says, \"Look Jim! I've made your favourite food – a pizza – and Dad has got a video of your favourite football team. You can watch it after dinner.\" Jim laughs. \"Wow! Thanks Mum. Having a broken leg isn't too bad!\" he says. \"Mmmm... I'm hungry!\""
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 449,
+      "height": 323,
+      "sourceUrl": "https://docs.google.com/document/d/1aHj9Ng5v8NW1zhU9qFLfPWsLGaRFpitVEL7PJAupE0U/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1aHj9Ng5v8NW1zhU9qFLfPWsLGaRFpitVEL7PJAupE0U/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v00386aec429f44f/",
   "sourceUrl": "https://docs.google.com/document/d/1aHj9Ng5v8NW1zhU9qFLfPWsLGaRFpitVEL7PJAupE0U/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Đọc thông báo",
       "instruction": "Read the notice and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>IMPORTANT NOTICE</strong><br>The swimming pool is closed for cleaning from 8:00 a.m. to 11:00 a.m. on Monday.<br><br>What is the problem?",
+      "promptHtml": "What is the problem?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "A",
-      "explanation": "Đáp án A.\nGiải thích: Thông báo ghi hồ bơi đóng cửa để vệ sinh từ 8:00 đến 11:00 sáng thứ Hai. Vì vậy người dùng không thể sử dụng hồ bơi vào khoảng thời gian đó.\nDịch nghĩa: THÔNG BÁO QUAN TRỌNG: Hồ bơi đóng cửa để vệ sinh từ 8 giờ đến 11 giờ sáng thứ Hai.\nTừ vựng quan trọng: swimming pool (hồ bơi), be closed (đóng cửa), cleaning (việc vệ sinh), Monday morning (sáng thứ Hai)."
+      "explanation": "Đáp án A.\nGiải thích: Thông báo ghi hồ bơi đóng cửa để vệ sinh từ 8:00 đến 11:00 sáng thứ Hai. Vì vậy người dùng không thể sử dụng hồ bơi vào khoảng thời gian đó.\nDịch nghĩa: THÔNG BÁO QUAN TRỌNG: Hồ bơi đóng cửa để vệ sinh từ 8 giờ đến 11 giờ sáng thứ Hai.\nTừ vựng quan trọng: swimming pool (hồ bơi), be closed (đóng cửa), cleaning (việc vệ sinh), Monday morning (sáng thứ Hai).",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Đọc biển báo",
       "instruction": "Read the sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer.",
-      "promptHtml": "<strong>DO NOT TOUCH THE EXHIBITS</strong><br><br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "C",
-      "explanation": "Đáp án C.\nGiải thích: Biển “DO NOT TOUCH THE EXHIBITS” là mệnh lệnh cấm chạm vào hiện vật. “Must not touch” diễn đạt đúng quy định này.\nDịch nghĩa: KHÔNG CHẠM VÀO CÁC HIỆN VẬT. Khách tham quan không được chạm vào đồ vật trưng bày.\nTừ vựng quan trọng: do not touch/must not touch (không được chạm), exhibit (hiện vật trưng bày), object (đồ vật)."
+      "explanation": "Đáp án C.\nGiải thích: Biển “DO NOT TOUCH THE EXHIBITS” là mệnh lệnh cấm chạm vào hiện vật. “Must not touch” diễn đạt đúng quy định này.\nDịch nghĩa: KHÔNG CHẠM VÀO CÁC HIỆN VẬT. Khách tham quan không được chạm vào đồ vật trưng bày.\nTừ vựng quan trọng: do not touch/must not touch (không được chạm), exhibit (hiện vật trưng bày), object (đồ vật).",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "Harry’s family all work with animals. His parents are farmers and his uncle works in a zoo. After school from Monday to Friday, Harry helps his mum and dad with the cows and sheep. It is hard work. On Saturday and Sunday mornings, he helps his uncle at the zoo. He always gives the elephants their food because they are his favourite animals.<br><br>One Saturday, a small baby elephant had a very bad cough. Harry’s uncle tries to give the baby elephant some medicine. But because the mother elephant is afraid, she pushes his hand away. Harry’s uncle says, “We must take the baby elephant to the zoo hospital.” At the hospital, Harry’s uncle gives him some warm milk and medicine.<br><br>That week, Harry has a holiday from school so he helps his uncle with the baby elephant every day. After six days, the baby elephant is much better, so Harry’s uncle will take him home to his mother. Harry will be sad when he says goodbye. Harry’s uncle understands the problem. “When he is ill in the hospital, the baby elephant likes you because you help him. He won’t need you now because he’ll be with his mother. But he’ll be happy, won’t he?”<br><br>“You’re right,” says Harry, “so I’ll be happy, too.”"
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 606,
+      "height": 362,
+      "sourceUrl": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 608,
+      "height": 364,
+      "sourceUrl": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v70eac98cdf19492/",
   "sourceUrl": "https://docs.google.com/document/d/1tvMyfSpRp6aEKbwDSIYHw5lzPYal2VnShDlhT__jRUM/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

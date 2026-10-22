@@ -18,6 +18,6 @@ test('Phonics distractors stay inside the current textbook Unit',()=>{
  const courses=require('./content.cjs'),units=require('./phonics-units.cjs');
  for(const n of [1,2,3,4])for(const l of courses['phonics-'+n].lessons){
   const words=new Set(units[n][l.unit-1].levels.flatMap(x=>x.words).map(w=>w.toLowerCase()));
-  for(const q of l.items)for(const option of q.options)for(const w of option.split(' → '))assert.ok(words.has(w.toLowerCase()),q.id+' introduces '+w);
+  for(const q of l.items.filter(q=>!q.resourceTask))for(const option of q.options)for(const w of option.split(' → '))assert.ok(words.has(w.toLowerCase()),q.id+' introduces '+w);
  }
 });

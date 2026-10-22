@@ -9,7 +9,7 @@
   const introduction=text.slice(0,labels[0].index).trim();
   return [...(introduction?[{speaker:'Narrator',text:introduction}]:[]),...labels.map((m,i)=>({speaker:m[1],text:text.slice(m.index+m[0].length,labels[i+1]?.index??text.length).trim()}))];
  }
- function turns(q){if(q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction].filter(Boolean).join(' ')))return [];return Array.isArray(q.dialogue)?q.dialogue:parse(q.scene);}
+ function turns(q){if(Array.isArray(q.dialogue))return q.dialogue;if(q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction].filter(Boolean).join(' ')))return [];return Array.isArray(q.dialogue)?q.dialogue:parse(q.scene);}
  function render(q,{review=false}={}){
   const lines=turns(q);if(!lines.length)return '';
   const cast=[...new Set(lines.map(t=>t.speaker))];

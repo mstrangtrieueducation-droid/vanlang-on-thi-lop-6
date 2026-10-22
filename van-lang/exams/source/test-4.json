@@ -427,7 +427,7 @@
       "id": 17,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>ART CLUB</strong><br>This Thursday's meeting will be in Room 8, not Room 5.<br>The meeting will still begin at 4:00 p.m.</div><br>What should Art Club members do?",
+      "promptHtml": "What should Art Club members do?",
       "options": [
         {
           "key": "A",
@@ -447,13 +447,14 @@
         }
       ],
       "answer": "D",
-      "explanation": "Đáp án D.\nGiải thích: Thông báo đổi địa điểm sang Room 8 nhưng nói cuộc họp vẫn bắt đầu lúc 4:00 p.m.; vì vậy thành viên đến Phòng 8 vào giờ thường lệ. A sai phòng, B sai giờ, C sai ngày.\nDịch nghĩa: Câu hỏi: Các thành viên Câu lạc bộ Nghệ thuật nên làm gì? Thông báo: Cuộc họp thứ Năm này sẽ ở Phòng 8, không phải Phòng 5; giờ bắt đầu vẫn là 4 giờ chiều.\nTừ vựng quan trọng: Art Club: câu lạc bộ nghệ thuật; meeting: cuộc họp; still: vẫn; usual time: giờ thường lệ."
+      "explanation": "Đáp án D.\nGiải thích: Thông báo đổi địa điểm sang Room 8 nhưng nói cuộc họp vẫn bắt đầu lúc 4:00 p.m.; vì vậy thành viên đến Phòng 8 vào giờ thường lệ. A sai phòng, B sai giờ, C sai ngày.\nDịch nghĩa: Câu hỏi: Các thành viên Câu lạc bộ Nghệ thuật nên làm gì? Thông báo: Cuộc họp thứ Năm này sẽ ở Phòng 8, không phải Phòng 5; giờ bắt đầu vẫn là 4 giờ chiều.\nTừ vựng quan trọng: Art Club: câu lạc bộ nghệ thuật; meeting: cuộc họp; still: vẫn; usual time: giờ thường lệ.",
+      "imageId": "original-17"
     },
     {
       "id": 18,
       "section": "Thông báo và biển báo",
       "instruction": "Read the following notice or sign and mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
-      "promptHtml": "<div class=\"notice\"><strong>PLEASE DO NOT TOUCH THE EXHIBITS</strong></div><br>What does the sign mean?",
+      "promptHtml": "What does the sign mean?",
       "options": [
         {
           "key": "A",
@@ -473,7 +474,8 @@
         }
       ],
       "answer": "B",
-      "explanation": "Đáp án B.\nGiải thích: “Do not touch” là lời cấm chạm vào hiện vật, nên khách tham quan không được đặt tay lên chúng. Các phương án A, C và D đều trái hoặc ngoài nội dung biển.\nDịch nghĩa: Biển có nghĩa: Vui lòng không chạm vào các hiện vật trưng bày.\nTừ vựng quan trọng: touch: chạm; exhibit: hiện vật trưng bày; visitor: khách tham quan; must not: không được phép."
+      "explanation": "Đáp án B.\nGiải thích: “Do not touch” là lời cấm chạm vào hiện vật, nên khách tham quan không được đặt tay lên chúng. Các phương án A, C và D đều trái hoặc ngoài nội dung biển.\nDịch nghĩa: Biển có nghĩa: Vui lòng không chạm vào các hiện vật trưng bày.\nTừ vựng quan trọng: touch: chạm; exhibit: hiện vật trưng bày; visitor: khách tham quan; must not: không được phép.",
+      "imageId": "original-18"
     },
     {
       "id": 19,
@@ -1068,7 +1070,22 @@
       "textHtml": "My name's Katy. My Uncle Tom is an actor. He's not famous but last year he made a film with some very famous actors. It was very exciting. It was the best job he has ever had. In the film he was a bad man! He had to steal lots of money from a bank.<br><br>One day, Uncle Tom was in a park with some other actors and the camera men. He had to run across the grass there with his big bag of money. The film cameras were behind him. A policeman was in the street. He didn't see the cameras but he saw my uncle and shouted \"Stop!\" He ran after my uncle and took him to the police station in his police car.<br><br>The policeman asked Uncle Tom lots of difficult questions about the bag of money. He didn't believe my uncle's answers. But then one of the famous actors from the film, called Fred Star, arrived to help. When Fred Star explained everything, the policeman believed Uncle Tom.<br><br>The policeman said sorry, and Uncle Tom went back to work with his bag of money! Outside the police station, a journalist took a photo of Uncle Tom with Fred Star and it was in the city newspaper the next day! It was very funny!"
     }
   },
-  "images": {},
+  "images": {
+    "original-17": {
+      "src": "original-q17.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
+      "origin": "unchanged-embedded-source-image"
+    },
+    "original-18": {
+      "src": "original-q18.png",
+      "width": 1448,
+      "height": 1086,
+      "sourceUrl": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
+      "origin": "unchanged-embedded-source-image"
+    }
+  },
   "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v208f75c3057e492/",
   "sourceUrl": "https://docs.google.com/document/d/1K6vcQjF9HFyQi96kYOnbNwirMJusgdvqluBiEbiGRzM/edit",
   "resourceFolder": "https://drive.google.com/drive/folders/18OHmnf0P8KJ0tyArmbrDtfK73fYeAfl0"

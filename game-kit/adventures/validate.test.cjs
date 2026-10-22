@@ -20,6 +20,7 @@ test('Sequential unlock and three-star awards preserve earlier progress',()=>{
 test('All spoken prompts and cards have real local recordings',()=>{
  const w={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'audio-map.js'),'utf8'),w);
  vm.runInNewContext(fs.readFileSync(path.join(__dirname,"native-voice.js"),"utf8"),w);vm.runInNewContext(fs.readFileSync(path.join(__dirname,"flow-audio.js"),"utf8"),w);
+ vm.runInNewContext(fs.readFileSync(path.join(__dirname,'classroom-audio.js'),'utf8'),w);
  const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'audio-manifest.json'),'utf8'));
  for(const a of manifest){const p=w.window.ADVENTURE_AUDIO[a.key];assert.ok(p,'Missing recording '+a.key);for(const clip of Array.isArray(p)?p:[p])assert.ok(fs.statSync(path.resolve(root,'tu-luyen-2',clip)).size>1000);}
  for(const g of games){const x={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,`tu-luyen-${g.n}/quiz-data.js`),'utf8'),x);for(const q of x.window.ADVENTURE.items)for(const text of [q.scene,q.prompt].filter(t=>/[A-Za-z0-9]/.test(t||"")))assert.ok(w.window.TitiVoice.lookup(text),q.id+': '+text);}

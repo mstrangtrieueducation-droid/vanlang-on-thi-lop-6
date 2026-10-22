@@ -7,12 +7,12 @@ for(const n of [1,2,3,4])test('Phonics '+n+': textbook units, 15/45 questions, f
   const block=c.lessons.slice(u*4,u*4+4),review=block[3];assert.deepEqual(review.requiredLevels,block.slice(0,3).map(l=>l.id));
   for(const [i,l]of block.entries()){
    assert.equal(l.unit,u+1);assert.equal(l.items.length,i===3?45:15);assert.deepEqual(coach.plan(l.items).map(x=>x.id).sort(),l.items.map(x=>x.id).sort());
-   const kinds=new Set(l.items.map(q=>q.interaction));for(const kind of ['picture','phonics-look','phonics-category','phonics-order','phonics-match'])assert.ok(kinds.has(kind),l.id+' missing '+kind);
+   const kinds=new Set(l.items.map(q=>q.interaction));for(const kind of ['picture','phonics-look','phonics-category','phonics-order','phonics-match'])assert.ok(kinds.has(kind)||(kind==='phonics-category'&&l.items.some(q=>['soundPath','soundGroups','circleMatch'].includes(q.resourceTask?.kind))),l.id+' missing '+kind);
    for(const d of ['easy','medium','advanced'])assert.equal(l.items.filter(q=>q.difficulty===d).length,i===3?15:5);
    if(i<3){assert.ok(l.items.every(q=>!q.storyId));const covered=l.items.flatMap(q=>q.answer.split(' → '));for(const w of plan[n][u].levels[i].words)assert.ok(covered.includes(w),l.id+' missing '+w);}
    else assert.equal(l.items.filter(q=>q.storyId).length,6);
    for(const q of l.items){
-    assert.ok(!ids.has(q.id));ids.add(q.id);assert.ok(/-v[34]-/.test(q.id));assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.equal(q.options.filter(x=>x===q.answer).length,1);assert.ok(rules.check(q,q.answer));assert.ok(!rules.check(q,q.options.find(x=>x!==q.answer)));
+    assert.ok(!ids.has(q.id));ids.add(q.id);assert.ok(/-v[34]-/.test(q.id));assert.equal(q.options.length,q.resourceTask?.kind==='soundGroups'?3:4);assert.equal(new Set(q.options).size,q.options.length);assert.equal(q.options.filter(x=>x===q.answer).length,1);assert.ok(rules.check(q,q.answer));assert.ok(!rules.check(q,q.options.find(x=>x!==q.answer)));
     if(q.storyId){assert.equal(i,3);assert.equal(q.storySource.page,plan[n][u].page);assert.equal(q.storySource.url,plan[n][u].bookURL);assert.ok(q.storyText.includes(q.spokenScene));if(q.interaction==='phonics-story'&&q.scene.includes('___'))assert.equal((q.scene.match(/___/g)||[]).length,1);}
     if(q.orderWords){assert.equal(q.orderWords.length,3);assert.deepEqual([...q.orderWords].sort(),q.answer.split(' → ').sort());if(q.storyId)for(const a of q.orderWords)for(const b of q.orderWords)if(a!==b)assert.ok(!new RegExp('\\b'+a+'\\b','i').test(b),'Overlapping story events: '+a+' / '+b);}
     if(q.matchPictures){assert.equal(q.matchPictures.length,3);assert.deepEqual([...q.matchWords].sort(),q.answer.split(' → ').sort());}

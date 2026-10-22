@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "SCHOOL PHOTO\nMeet in the school hall at 8:15 a.m.\nWear your school uniform.\nWhat should students do?",
-      "sceneHtml": "<div class=\"notice\"><strong>SCHOOL PHOTO</strong><br>Meet in the school hall at 8:15 a.m.<br>Wear your school uniform.</div><br>What should students do?",
-      "spokenScene": "SCHOOL PHOTO\nMeet in the school hall at 8:15 a.m.\nWear your school uniform.\nWhat should students do?",
+      "scene": "What should students do?",
+      "sceneHtml": "What should students do?",
+      "spokenScene": "What should students do?",
       "prompt": "",
       "options": [
         "Go to the playground at 8:15 a.m and wear their school uniform.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v2509dbdc9a2f436/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-5/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "NO RUNNING ON THE STAIRS\nWhat does the sign mean?",
-      "sceneHtml": "<div class=\"notice\"><strong>NO RUNNING ON THE STAIRS</strong></div><br>What does the sign mean?",
-      "spokenScene": "NO RUNNING ON THE STAIRS\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "Students should run quickly on the stairs.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v2509dbdc9a2f436/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-5/original-q18.png"
       }
     },
     {

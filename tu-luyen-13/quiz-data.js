@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung biển: “NO PHONES IN CLASSROOM”\nWhat does the sign mean?",
-      "sceneHtml": "<strong>Nội dung biển:</strong> “NO PHONES IN CLASSROOM”<br>What does the sign mean?",
-      "spokenScene": "Nội dung biển: “NO PHONES IN CLASSROOM”\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "Students can answer phone calls in class.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vb031e07cd89747c/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-2/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung thông báo: “School Bus 3 will leave at 3:00 p.m. today instead of 3:30 p.m.”\nWhat should students know?",
-      "sceneHtml": "<strong>Nội dung thông báo:</strong> “School Bus 3 will leave at 3:00 p.m. today instead of 3:30 p.m.”<br>What should students know?",
-      "spokenScene": "Nội dung thông báo: “School Bus 3 will leave at 3:00 p.m. today instead of 3:30 p.m.”\nWhat should students know?",
+      "scene": "What should students know?",
+      "sceneHtml": "What should students know?",
+      "spokenScene": "What should students know?",
       "prompt": "",
       "options": [
         "Bus 3 is cancelled today.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/vb031e07cd89747c/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-2/original-q18.png"
       }
     },
     {

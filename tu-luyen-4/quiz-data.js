@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "ART CLUB\nThis Thursday's meeting will be in Room 8, not Room 5.\nThe meeting will still begin at 4:00 p.m.\nWhat should Art Club members do?",
-      "sceneHtml": "<div class=\"notice\"><strong>ART CLUB</strong><br>This Thursday's meeting will be in Room 8, not Room 5.<br>The meeting will still begin at 4:00 p.m.</div><br>What should Art Club members do?",
-      "spokenScene": "ART CLUB\nThis Thursday's meeting will be in Room 8, not Room 5.\nThe meeting will still begin at 4:00 p.m.\nWhat should Art Club members do?",
+      "scene": "What should Art Club members do?",
+      "sceneHtml": "What should Art Club members do?",
+      "spokenScene": "What should Art Club members do?",
       "prompt": "",
       "options": [
         "Meet in Room 5 at 4:00 p.m.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v208f75c3057e492/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-4/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "PLEASE DO NOT TOUCH THE EXHIBITS\nWhat does the sign mean?",
-      "sceneHtml": "<div class=\"notice\"><strong>PLEASE DO NOT TOUCH THE EXHIBITS</strong></div><br>What does the sign mean?",
-      "spokenScene": "PLEASE DO NOT TOUCH THE EXHIBITS\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "Visitors may pick up the exhibits.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v208f75c3057e492/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-4/original-q18.png"
       }
     },
     {

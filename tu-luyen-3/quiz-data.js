@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung thông báo: “Don't forget to bring your library books back by June 20.”\nWhat do students need to remember?",
-      "sceneHtml": "<strong>Nội dung thông báo:</strong> “Don't forget to bring your library books back by June 20.”<br>What do students need to remember?",
-      "spokenScene": "Nội dung thông báo: “Don't forget to bring your library books back by June 20.”\nWhat do students need to remember?",
+      "scene": "What do students need to remember?",
+      "sceneHtml": "What do students need to remember?",
+      "spokenScene": "What do students need to remember?",
       "prompt": "",
       "options": [
         "Students must return their library books by June 20.",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v63a4c6c4355b4f5/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-3/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "Nội dung biển: “PLEASE USE THE TRASH CANS – Help keep our park clean!”\nWhat does the sign mean?",
-      "sceneHtml": "<strong>Nội dung biển:</strong> “PLEASE USE THE TRASH CANS – Help keep our park clean!”<br>What does the sign mean?",
-      "spokenScene": "Nội dung biển: “PLEASE USE THE TRASH CANS – Help keep our park clean!”\nWhat does the sign mean?",
+      "scene": "What does the sign mean?",
+      "sceneHtml": "What does the sign mean?",
+      "spokenScene": "What does the sign mean?",
       "prompt": "",
       "options": [
         "There are trash cans in the park.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v63a4c6c4355b4f5/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-3/original-q18.png"
       }
     },
     {

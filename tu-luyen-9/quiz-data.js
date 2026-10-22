@@ -610,9 +610,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "SCHOOL TOY EXCHANGE\nFriday: 3:30–4:30 p.m.\nBring ONE clean toy.\nNo broken or battery-powered toys.\n\nWhich item is suitable for the School Toy Exchange?",
-      "sceneHtml": "<strong>SCHOOL TOY EXCHANGE</strong><br>Friday: 3:30–4:30 p.m.<br>Bring ONE clean toy.<br>No broken or battery-powered toys.<br><br>Which item is suitable for the School Toy Exchange?",
-      "spokenScene": "SCHOOL TOY EXCHANGE\nFriday: 3:30–4:30 p.m.\nBring ONE clean toy.\nNo broken or battery-powered toys.\n\nWhich item is suitable for the School Toy Exchange?",
+      "scene": "Which item is suitable for the School Toy Exchange?",
+      "sceneHtml": "Which item is suitable for the School Toy Exchange?",
+      "spokenScene": "Which item is suitable for the School Toy Exchange?",
       "prompt": "",
       "options": [
         "A dirty doll",
@@ -636,6 +636,9 @@ window.ADVENTURE={
         "question": 17,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v76ca46c0c4cd4a6/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-9/original-q17.png"
       }
     },
     {
@@ -647,9 +650,9 @@ window.ADVENTURE={
       "partInstruction": "Choose the correct answer.",
       "keepOrder": true,
       "exam": true,
-      "scene": "MOUNTAIN PATH\nCLOSES AT 5:00 p.m.\nRETURN TO THE CAMPSITE BEFORE 5:00 p.m.\n\nWhat does the notice mean?",
-      "sceneHtml": "<strong>MOUNTAIN PATH</strong><br>CLOSES AT 5:00 p.m.<br>RETURN TO THE CAMPSITE BEFORE 5:00 p.m.<br><br>What does the notice mean?",
-      "spokenScene": "MOUNTAIN PATH\nCLOSES AT 5:00 p.m.\nRETURN TO THE CAMPSITE BEFORE 5:00 p.m.\n\nWhat does the notice mean?",
+      "scene": "What does the notice mean?",
+      "sceneHtml": "What does the notice mean?",
+      "spokenScene": "What does the notice mean?",
       "prompt": "",
       "options": [
         "Visitors must leave the mountain path before 5:00 p.m.",
@@ -673,6 +676,9 @@ window.ADVENTURE={
         "question": 18,
         "kind": "centre-original-2027-test",
         "publishedSource": "https://mstrangtrieueducation-droid.github.io/ta-redo/v76ca46c0c4cd4a6/"
+      },
+      "picturePrompt": {
+        "src": "../van-lang/exams/source/test-9/original-q18.png"
       }
     },
     {
