@@ -1,0 +1,28 @@
+{
+  "revision": 2,
+  "mode": "Built-in image generation",
+  "format": "WebP quality 93; source 1536×1024",
+  "sourcePolicy": "New centre-authored scene plates. Interactive vocabulary objects are separate, source-bounded elements; these plates are not publisher illustrations.",
+  "assets": [
+    {
+      "file": "cozy-house.webp",
+      "promptBrief": "Rich warm 3D storybook living room and kitchen. Empty bookcase, open drawer, low table, woven basket, open chest, and empty wooden tray along bottom. Coherent slightly elevated perspective and sunlight. No people, animals, target vocabulary objects, text or interface."
+    },
+    {
+      "file": "cleanup-garden.webp",
+      "prompt": "Production background plate for a children's English tidy-up game, richly detailed warm 3D storybook diorama, one coherent sunny garden patio viewed slightly from above, landscape 3:2. Large leafy apple tree at upper left with EMPTY visible branches, no fruit, shallow pond at lower left, open grassy lawn on right, low wooden fence across back right. A small wooden storage shelf against the garden wall in the upper right, an open drawer under it, low wooden table in the middle, empty woven collecting basket near lower left foreground, open wooden storage chest near lower right. Storage interiors clearly visible and completely EMPTY. Bottom 18 percent is an empty wide wooden tool tray for runtime draggable items. Soft cinematic sunlight, natural textures, sharp rounded shapes, polished cozy game art. There are NO people, NO animals, NO toys, NO stationery, NO letters, NO numbers, NO UI, NO text. Do not depict target objects such as apples, pens, hats or books. Foliage, flowers, stone paths, warm farmhouse wall, carefully coherent scale and perspective. Clear placement surfaces, natural breathing room for interactive items, crisp high resolution, no blur."
+    },
+    {
+      "file": "detective-treehouse.webp",
+      "promptBrief": "Detailed multi-level 3D storybook treehouse village with interconnected rooms, stairs, bridges, alcoves, terraces, plants and stream. Warm cinematic light, crisp layered detail and many natural hiding places. No people, animals, target objects, text or UI."
+    },
+    {
+      "file": "detective-harbour.webp",
+      "promptBrief": "Rich colourful 3D storybook coastal harbour town, multiple terraces, market alcoves, alleys, bridges, balconies, beach, water and boardwalk. Coherent layered space for a detective game. No people, animals, interactive target objects, text or UI."
+    },
+    {
+      "file": "detective-observatory.webp",
+      "promptBrief": "Detailed whimsical orbital observatory diorama, interconnected decks, alcoves, stairs, plants and glass domes against stars. Warm brass and cyan violet lighting, crisp coherent multi-level architecture and spaces for runtime clues. No people, animals, text or UI."
+    }
+  ]
+}

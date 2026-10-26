@@ -17,11 +17,13 @@
       "color": "red",
       "x": 67,
       "y": 46,
-      "w": 8.5,
-      "h": 15.11111111111111,
+      "w": 6.5,
+      "h": 11.555555555555555,
       "cell": 0,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.39,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "first-1",
@@ -29,11 +31,13 @@
       "color": "red",
       "x": 9,
       "y": 88,
-      "w": 9.5,
-      "h": 16.88888888888889,
+      "w": 7.15,
+      "h": 12.711111111111112,
       "cell": 0,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.435,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "first-2",
@@ -41,11 +45,13 @@
       "color": "red",
       "x": 81,
       "y": 25,
-      "w": 10.5,
-      "h": 18.666666666666668,
+      "w": 7.8,
+      "h": 13.866666666666667,
       "cell": 0,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.48,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "first-3",
@@ -53,11 +59,13 @@
       "color": "blue",
       "x": 36,
       "y": 70,
-      "w": 8.5,
-      "h": 15.11111111111111,
+      "w": 8.45,
+      "h": 15.02222222222222,
       "cell": 1,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.39,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "first-4",
@@ -65,11 +73,13 @@
       "color": "green",
       "x": 69,
       "y": 89,
-      "w": 9.5,
-      "h": 16.88888888888889,
+      "w": 6.5,
+      "h": 11.555555555555555,
       "cell": 2,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.435,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "second-0",
@@ -77,11 +87,13 @@
       "color": null,
       "x": 47,
       "y": 40,
-      "w": 10.5,
-      "h": 18.666666666666668,
+      "w": 7.15,
+      "h": 12.711111111111112,
       "cell": 3,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.48,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "second-1",
@@ -89,11 +101,13 @@
       "color": null,
       "x": 92,
       "y": 67,
-      "w": 8.5,
-      "h": 15.11111111111111,
+      "w": 7.8,
+      "h": 13.866666666666667,
       "cell": 3,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.39,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "second-2",
@@ -101,11 +115,13 @@
       "color": null,
       "x": 58,
       "y": 25,
-      "w": 9.5,
-      "h": 16.88888888888889,
+      "w": 8.45,
+      "h": 15.02222222222222,
       "cell": 3,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.435,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "main-0",
@@ -113,11 +129,13 @@
       "color": null,
       "x": 16,
       "y": 67,
-      "w": 10.5,
-      "h": 18.666666666666668,
+      "w": 6.5,
+      "h": 11.555555555555555,
       "cell": 4,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.48,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "main-1",
@@ -125,11 +143,13 @@
       "color": null,
       "x": 49,
       "y": 85,
-      "w": 8.5,
-      "h": 15.11111111111111,
+      "w": 7.15,
+      "h": 12.711111111111112,
       "cell": 5,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.39,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "main-2",
@@ -137,11 +157,13 @@
       "color": null,
       "x": 28,
       "y": 48,
-      "w": 9.5,
-      "h": 16.88888888888889,
+      "w": 7.8,
+      "h": 13.866666666666667,
       "cell": 6,
       "cover": "basket",
-      "occlusion": 0.35
+      "occlusion": 0.435,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "main-3",
@@ -149,11 +171,13 @@
       "color": null,
       "x": 77,
       "y": 69,
-      "w": 10.5,
-      "h": 18.666666666666668,
+      "w": 8.45,
+      "h": 15.02222222222222,
       "cell": 7,
       "cover": "shelf",
-      "occlusion": 0.35
+      "occlusion": 0.48,
+      "protectedSilhouette": false,
+      "concealment": "partial scenery overlap"
     },
     {
       "id": "upper-0",
@@ -161,13 +185,15 @@
       "color": null,
       "x": 20,
       "y": 27,
-      "w": 5.5,
-      "h": 12,
+      "w": 4.8,
+      "h": 9.7,
       "kind": "letter",
       "case": "upper",
       "cell": 8,
       "cover": "basket",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     },
     {
       "id": "lower-0",
@@ -175,13 +201,15 @@
       "color": null,
       "x": 88,
       "y": 42,
-      "w": 6.5,
-      "h": 10,
+      "w": 5.3999999999999995,
+      "h": 8.7,
       "kind": "letter",
       "case": "lower",
       "cell": 11,
       "cover": "shelf",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     },
     {
       "id": "upper-1",
@@ -189,13 +217,15 @@
       "color": null,
       "x": 29,
       "y": 87,
-      "w": 5.5,
-      "h": 12,
+      "w": 4.8,
+      "h": 9.7,
       "kind": "letter",
       "case": "upper",
       "cell": 9,
       "cover": "basket",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     },
     {
       "id": "lower-1",
@@ -203,13 +233,15 @@
       "color": null,
       "x": 10,
       "y": 43,
-      "w": 6.5,
-      "h": 10,
+      "w": 5.3999999999999995,
+      "h": 8.7,
       "kind": "letter",
       "case": "lower",
       "cell": 12,
       "cover": "shelf",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     },
     {
       "id": "upper-2",
@@ -217,13 +249,15 @@
       "color": null,
       "x": 56,
       "y": 64,
-      "w": 5.5,
-      "h": 12,
+      "w": 4.8,
+      "h": 9.7,
       "kind": "letter",
       "case": "upper",
       "cell": 10,
       "cover": "basket",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     },
     {
       "id": "lower-2",
@@ -231,13 +265,15 @@
       "color": null,
       "x": 88,
       "y": 86,
-      "w": 6.5,
-      "h": 10,
+      "w": 5.3999999999999995,
+      "h": 8.7,
       "kind": "letter",
       "case": "lower",
       "cell": 13,
       "cover": "shelf",
-      "occlusion": 0
+      "occlusion": 0,
+      "protectedSilhouette": true,
+      "concealment": "scenery-framed glyph"
     }
   ],
   "questions": [
@@ -261,11 +297,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -273,11 +311,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -285,11 +325,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -297,11 +339,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -309,11 +353,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -321,11 +367,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -333,11 +381,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -345,11 +395,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -357,11 +409,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -369,11 +423,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -381,11 +437,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -393,11 +451,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -405,13 +465,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -419,13 +481,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -433,13 +497,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -447,13 +513,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -461,13 +529,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -475,13 +545,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -505,11 +577,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -517,11 +591,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -529,11 +605,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -541,11 +619,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -553,11 +633,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -565,11 +647,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -577,11 +661,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -589,11 +675,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -601,11 +689,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -613,11 +703,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -625,11 +717,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -637,11 +731,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -649,13 +745,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -663,13 +761,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -677,13 +777,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -691,13 +793,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -705,13 +809,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -719,13 +825,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -749,11 +857,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -761,11 +871,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -773,11 +885,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -785,11 +899,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -797,11 +913,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -809,11 +927,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -821,11 +941,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -833,11 +955,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -845,11 +969,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -857,11 +983,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -869,11 +997,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -881,11 +1011,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -893,13 +1025,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -907,13 +1041,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -921,13 +1057,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -935,13 +1073,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -949,13 +1089,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -963,13 +1105,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -993,11 +1137,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -1005,11 +1151,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -1017,11 +1165,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -1029,11 +1179,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -1041,11 +1193,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -1053,11 +1207,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -1065,11 +1221,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -1077,11 +1235,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -1089,11 +1249,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -1101,11 +1263,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -1113,11 +1277,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -1125,11 +1291,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -1137,13 +1305,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -1151,13 +1321,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -1165,13 +1337,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -1179,13 +1353,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -1193,13 +1369,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -1207,13 +1385,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -1238,11 +1418,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -1250,11 +1432,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -1262,11 +1446,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -1274,11 +1460,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -1286,11 +1474,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -1298,11 +1488,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -1310,11 +1502,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -1322,11 +1516,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -1334,11 +1530,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -1346,11 +1544,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -1358,11 +1558,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -1370,11 +1572,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -1382,13 +1586,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -1396,13 +1602,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -1410,13 +1618,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -1424,13 +1634,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -1438,13 +1650,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -1452,13 +1666,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ],
       "sound": {
@@ -1494,11 +1710,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -1506,11 +1724,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -1518,11 +1738,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -1530,11 +1752,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -1542,11 +1766,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -1554,11 +1780,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -1566,11 +1794,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -1578,11 +1808,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -1590,11 +1822,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -1602,11 +1836,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -1614,11 +1850,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -1626,11 +1864,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -1638,13 +1878,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -1652,13 +1894,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -1666,13 +1910,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -1680,13 +1926,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -1694,13 +1942,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -1708,13 +1958,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -1742,11 +1994,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -1754,11 +2008,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -1766,11 +2022,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -1778,11 +2036,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -1790,11 +2050,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -1802,11 +2064,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -1814,11 +2078,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -1826,11 +2092,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -1838,11 +2106,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -1850,11 +2120,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -1862,11 +2134,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -1874,11 +2148,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -1886,13 +2162,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -1900,13 +2178,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -1914,13 +2194,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -1928,13 +2210,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -1942,13 +2226,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -1956,13 +2242,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -1988,11 +2276,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -2000,11 +2290,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -2012,11 +2304,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -2024,11 +2318,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -2036,11 +2332,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -2048,11 +2346,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -2060,11 +2360,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -2072,11 +2374,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -2084,11 +2388,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -2096,11 +2402,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -2108,11 +2416,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -2120,11 +2430,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -2132,13 +2444,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -2146,13 +2460,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -2160,13 +2476,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -2174,13 +2492,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -2188,13 +2508,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -2202,13 +2524,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -2232,11 +2556,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -2244,11 +2570,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -2256,11 +2584,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -2268,11 +2598,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -2280,11 +2612,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -2292,11 +2626,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -2304,11 +2640,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -2316,11 +2654,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -2328,11 +2668,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -2340,11 +2682,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -2352,11 +2696,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -2364,11 +2710,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -2376,13 +2724,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -2390,13 +2740,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -2404,13 +2756,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -2418,13 +2772,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -2432,13 +2788,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -2446,13 +2804,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -2476,11 +2836,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -2488,11 +2850,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -2500,11 +2864,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -2512,11 +2878,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -2524,11 +2892,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -2536,11 +2906,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -2548,11 +2920,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -2560,11 +2934,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -2572,11 +2948,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -2584,11 +2962,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -2596,11 +2976,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -2608,11 +2990,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -2620,13 +3004,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -2634,13 +3020,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -2648,13 +3036,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -2662,13 +3052,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -2676,13 +3068,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -2690,13 +3084,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -2720,11 +3116,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -2732,11 +3130,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -2744,11 +3144,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -2756,11 +3158,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -2768,11 +3172,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -2780,11 +3186,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -2792,11 +3200,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -2804,11 +3214,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -2816,11 +3228,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -2828,11 +3242,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -2840,11 +3256,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -2852,11 +3270,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -2864,13 +3284,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -2878,13 +3300,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -2892,13 +3316,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -2906,13 +3332,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -2920,13 +3348,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -2934,13 +3364,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -2964,11 +3396,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -2976,11 +3410,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -2988,11 +3424,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -3000,11 +3438,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -3012,11 +3452,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -3024,11 +3466,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -3036,11 +3480,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -3048,11 +3494,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -3060,11 +3508,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -3072,11 +3522,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -3084,11 +3536,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -3096,11 +3550,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -3108,13 +3564,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -3122,13 +3580,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -3136,13 +3596,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -3150,13 +3612,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -3164,13 +3628,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -3178,13 +3644,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -3216,11 +3684,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -3228,11 +3698,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -3240,11 +3712,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -3252,11 +3726,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -3264,11 +3740,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -3276,11 +3754,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -3288,11 +3768,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -3300,11 +3782,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -3312,11 +3796,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -3324,11 +3810,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -3336,11 +3824,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -3348,11 +3838,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -3360,13 +3852,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -3374,13 +3868,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -3388,13 +3884,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -3402,13 +3900,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -3416,13 +3916,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -3430,13 +3932,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ],
       "sound": {
@@ -3473,11 +3977,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -3485,11 +3991,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -3497,11 +4005,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -3509,11 +4019,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -3521,11 +4033,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -3533,11 +4047,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -3545,11 +4061,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -3557,11 +4075,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -3569,11 +4089,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -3581,11 +4103,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -3593,11 +4117,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -3605,11 +4131,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -3617,13 +4145,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -3631,13 +4161,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -3645,13 +4177,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -3659,13 +4193,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -3673,13 +4209,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -3687,13 +4225,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -3719,11 +4259,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -3731,11 +4273,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -3743,11 +4287,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -3755,11 +4301,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -3767,11 +4315,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -3779,11 +4329,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -3791,11 +4343,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -3803,11 +4357,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -3815,11 +4371,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -3827,11 +4385,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -3839,11 +4399,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -3851,11 +4413,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -3863,13 +4427,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -3877,13 +4443,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -3891,13 +4459,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -3905,13 +4475,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -3919,13 +4491,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -3933,13 +4507,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -3965,11 +4541,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -3977,11 +4555,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -3989,11 +4569,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -4001,11 +4583,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -4013,11 +4597,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -4025,11 +4611,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -4037,11 +4625,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -4049,11 +4639,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -4061,11 +4653,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -4073,11 +4667,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -4085,11 +4681,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -4097,11 +4695,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -4109,13 +4709,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -4123,13 +4725,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -4137,13 +4741,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -4151,13 +4757,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -4165,13 +4773,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -4179,13 +4789,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -4213,11 +4825,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -4225,11 +4839,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -4237,11 +4853,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -4249,11 +4867,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -4261,11 +4881,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -4273,11 +4895,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -4285,11 +4909,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -4297,11 +4923,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -4309,11 +4937,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -4321,11 +4951,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -4333,11 +4965,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -4345,11 +4979,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -4357,13 +4993,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -4371,13 +5009,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -4385,13 +5025,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -4399,13 +5041,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -4413,13 +5057,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -4427,13 +5073,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -4459,11 +5107,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -4471,11 +5121,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -4483,11 +5135,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -4495,11 +5149,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -4507,11 +5163,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -4519,11 +5177,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -4531,11 +5191,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -4543,11 +5205,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -4555,11 +5219,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -4567,11 +5233,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -4579,11 +5247,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -4591,11 +5261,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -4603,13 +5275,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -4617,13 +5291,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -4631,13 +5307,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -4645,13 +5323,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -4659,13 +5339,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -4673,13 +5355,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -4705,11 +5389,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -4717,11 +5403,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -4729,11 +5417,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -4741,11 +5431,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -4753,11 +5445,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -4765,11 +5459,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -4777,11 +5473,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -4789,11 +5487,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -4801,11 +5501,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -4813,11 +5515,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -4825,11 +5529,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -4837,11 +5543,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -4849,13 +5557,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -4863,13 +5573,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -4877,13 +5589,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -4891,13 +5605,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -4905,13 +5621,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -4919,13 +5637,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     },
@@ -4957,11 +5677,13 @@
           "color": "red",
           "x": 67,
           "y": 46,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-1",
@@ -4969,11 +5691,13 @@
           "color": "red",
           "x": 9,
           "y": 88,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 0,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-2",
@@ -4981,11 +5705,13 @@
           "color": "red",
           "x": 81,
           "y": 25,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 0,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-3",
@@ -4993,11 +5719,13 @@
           "color": "blue",
           "x": 36,
           "y": 70,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 1,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "first-4",
@@ -5005,11 +5733,13 @@
           "color": "green",
           "x": 69,
           "y": 89,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 2,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-0",
@@ -5017,11 +5747,13 @@
           "color": null,
           "x": 47,
           "y": 40,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-1",
@@ -5029,11 +5761,13 @@
           "color": null,
           "x": 92,
           "y": 67,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 3,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "second-2",
@@ -5041,11 +5775,13 @@
           "color": null,
           "x": 58,
           "y": 25,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 3,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-0",
@@ -5053,11 +5789,13 @@
           "color": null,
           "x": 16,
           "y": 67,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 6.5,
+          "h": 11.555555555555555,
           "cell": 4,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-1",
@@ -5065,11 +5803,13 @@
           "color": null,
           "x": 49,
           "y": 85,
-          "w": 8.5,
-          "h": 15.11111111111111,
+          "w": 7.15,
+          "h": 12.711111111111112,
           "cell": 5,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.39,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-2",
@@ -5077,11 +5817,13 @@
           "color": null,
           "x": 28,
           "y": 48,
-          "w": 9.5,
-          "h": 16.88888888888889,
+          "w": 7.8,
+          "h": 13.866666666666667,
           "cell": 6,
           "cover": "basket",
-          "occlusion": 0.35
+          "occlusion": 0.435,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "main-3",
@@ -5089,11 +5831,13 @@
           "color": null,
           "x": 77,
           "y": 69,
-          "w": 10.5,
-          "h": 18.666666666666668,
+          "w": 8.45,
+          "h": 15.02222222222222,
           "cell": 7,
           "cover": "shelf",
-          "occlusion": 0.35
+          "occlusion": 0.48,
+          "protectedSilhouette": false,
+          "concealment": "partial scenery overlap"
         },
         {
           "id": "upper-0",
@@ -5101,13 +5845,15 @@
           "color": null,
           "x": 20,
           "y": 27,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 8,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-0",
@@ -5115,13 +5861,15 @@
           "color": null,
           "x": 88,
           "y": 42,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 11,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-1",
@@ -5129,13 +5877,15 @@
           "color": null,
           "x": 29,
           "y": 87,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 9,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-1",
@@ -5143,13 +5893,15 @@
           "color": null,
           "x": 10,
           "y": 43,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 12,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "upper-2",
@@ -5157,13 +5909,15 @@
           "color": null,
           "x": 56,
           "y": 64,
-          "w": 5.5,
-          "h": 12,
+          "w": 4.8,
+          "h": 9.7,
           "kind": "letter",
           "case": "upper",
           "cell": 10,
           "cover": "basket",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         },
         {
           "id": "lower-2",
@@ -5171,13 +5925,15 @@
           "color": null,
           "x": 88,
           "y": 86,
-          "w": 6.5,
-          "h": 10,
+          "w": 5.3999999999999995,
+          "h": 8.7,
           "kind": "letter",
           "case": "lower",
           "cell": 13,
           "cover": "shelf",
-          "occlusion": 0
+          "occlusion": 0,
+          "protectedSilhouette": true,
+          "concealment": "scenery-framed glyph"
         }
       ]
     }
@@ -5187,5 +5943,6 @@
     "id": "restaurant",
     "title": "Nhà hàng",
     "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-3-unit-4.svg"
-  }
+  },
+  "artRevision": 2
 }

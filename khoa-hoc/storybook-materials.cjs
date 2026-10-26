@@ -1,7 +1,7 @@
 /* Colour the main material only. Preserve the original artwork underneath:
  * fruit foliage/stalks, faces, eyes, noses, mouths, hands and small fittings. */
 const protectedDetails={
- apple:'<path d="M163 99Q165 28 273 24Q276 87 163 99Z M130 44L155 34Q177 56 171 121L150 119Q154 77 130 58Z"/>',peach:'<path d="M144 76Q165 12 232 28Q290 39 309 124L286 117Q224 83 144 76Z M128 94Q134 51 154 30L176 36Q155 57 150 83Z"/><path d="M160 102C183 157 176 225 161 282" fill="none" stroke="black" stroke-width="18"/>',
+ apple:'<path d="M163 99Q165 28 273 24Q276 87 163 99Z M130 44L155 34Q177 56 171 121L150 119Q154 77 130 58Z"/>',peach:'<path d="M145 77Q176 21 204 28Q265 28 301 114Q265 96 229 91Q182 61 145 77Z M131 88L138 63Q143 31 158 35Q174 38 162 48L145 82Z"/>',
  dog:'<ellipse cx="204" cy="106" rx="61" ry="58"/>',
  cat:'<ellipse cx="174" cy="113" rx="64" ry="52"/>',
  gorilla:'<ellipse cx="173" cy="92" rx="65" ry="57"/>',
@@ -20,6 +20,6 @@ const protectedDetails={
  jet:'<path d="M80 60H245V140H80Z"/>',boat:'<path d="M0 0H320V160H0Z"/>',
  jug:'<ellipse cx="158" cy="72" rx="74" ry="21"/>',
 };
-function materialMask(symbol,noun){return `<mask id="material-${symbol}" maskUnits="userSpaceOnUse" x="0" y="0" width="320" height="320"><rect width="320" height="320" fill="white"/><g fill="black">${protectedDetails[noun]||''}</g></mask>`;}
+function materialMask(symbol,noun){return `<filter id="material-soft-edge-${symbol}"><feGaussianBlur stdDeviation="1.4"/></filter><mask id="material-${symbol}" maskUnits="userSpaceOnUse" x="0" y="0" width="320" height="320"><rect width="320" height="320" fill="white"/><g fill="black" filter="url(#material-soft-edge-${symbol})">${protectedDetails[noun]||''}</g></mask>`;}
 function paintedUse(symbol,color){return `<use href="#${symbol}"/><use href="#${symbol}" filter="url(#paint-${color})" mask="url(#material-${symbol})"/>`;}
 module.exports={materialMask,paintedUse,protectedDetails};
