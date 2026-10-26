@@ -3,7 +3,7 @@
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const packs=new Map();
  async function json(url){let error;for(const cache of ['default','reload']){try{const r=await fetch(url,{cache,signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(r.status+' '+url);return await r.json();}catch(e){error=e;}}throw error;}
- function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=natural-material-1`),json('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
+ function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=practice30-1`),json('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
  async function open(){
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
@@ -23,7 +23,7 @@
   function stopVoice(){voiceTicket++;player.pause();if(cancelClip){const f=cancelClip;cancelClip=null;f(false);}host.querySelector('#hunt-listen')?.classList.remove('speaking');window.EpicBGM?.duck(false);}
   async function say(text){
    stopVoice();if(!state.sound)return true;window.EpicBGM?.duck(true);
-   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?.prompt||text,content=question?.sound?[voices[prompt],{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
+   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?String(question.prompt).replace(/^(?:Find|Where is|Where are|Can you see)\s+(?:the\s+)?/i,'').replace(/[!?]+$/,''):text,content=question?.sound?[{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
    host.querySelector('#hunt-listen')?.classList.add('speaking');
    for(const clip of clips){if(ticket!==voiceTicket)return false;const ok=await new Promise(resolve=>{
     let finished=false;const timer=setTimeout(()=>done(false),20000);

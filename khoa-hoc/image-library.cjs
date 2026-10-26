@@ -25,3 +25,5 @@ module.exports=function(courses){
  }
 };
 module.exports.resolve=resolve;
+
+module.exports.resolve=resolve;

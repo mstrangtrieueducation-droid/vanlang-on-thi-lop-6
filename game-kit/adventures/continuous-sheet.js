@@ -3,7 +3,7 @@
  'use strict';
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const course=id=>/^(family-friends-[12]|discover-[1-4])$/.test(id||'');
- function enabled(id,items,part,exam=false){const rows=part.indices.map(i=>items[i]);return course(id)&&!rows.some(q=>globalThis.TaskParts?.stream(q,id))&&rows.every(q=>(q.type==='choice'||q.inputMode==='typing')&&!q.orderWords&&!q.matchPictures&&!q.resourceTask);}
+ function enabled(id,items,part,exam=false){const rows=part.indices.map(i=>items[i]);return course(id)&&(id.startsWith('family-friends-')||!rows.some(q=>globalThis.TaskParts?.stream(q,id)))&&rows.every(q=>(q.type==='choice'||q.inputMode==='typing')&&!q.orderWords&&!q.matchPictures&&!q.resourceTask);}
  const blanks=q=>q.inputMode==='typing'?String(q.answer).split(' / ').length:0;
  function value(q,run,flow){return run.sheetDrafts?.[q.id]??flow.answer(run,q.id).last??'';}
  function ready(q,v){return q.inputMode==='typing'?String(v??'').split(' / ').length===blanks(q)&&String(v??'').split(' / ').every(s=>s.trim()):q.options?.includes(v);}

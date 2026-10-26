@@ -2,6 +2,8 @@
 (function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else root.TaskParts=api;})(typeof globalThis==='object'?globalThis:this,()=>{
  'use strict';
  const tasks={
+  listenMap:['Listening Map','Listen and connect the matching picture.'],
+  listenPictureWrite:['Listen, Choose & Write','Listen. Choose a picture, then write the word.'],
   trace:['Trace Letters','Trace the capital and small letters.'],
   soundPath:['Sound Maze','Follow the sound path.'],
   soundGroups:['Sound Groups','Choose the group that follows the sound rule.'],
@@ -49,7 +51,7 @@
   // Keep source sections and passage-linked tasks together. Explicit section
   // identifiers take precedence for original tests with similar task wording.
   const link=q.partId||q.sourceSection||q.storyId||(q.exam&&q.source?.exercise?'source-'+q.source.url+'-'+q.source.page+'-'+q.source.exercise:'')||(String(q.scene||'').length>160?q.scene:'');
-  const instruction=q.partInstruction||(taskQuestion(q.prompt)?q.prompt:tasks[type][1]);
+  const instruction=q.interaction==='phonics-category'?tasks.lookChoose[1]:q.partInstruction||(taskQuestion(q.prompt)?q.prompt:tasks[type][1]);
   return {key:type+':'+instruction,block:link,type,title:q.partTitle||tasks[type][0],instruction};
  }
  function group(items){
@@ -72,7 +74,9 @@
  const stream=(q,id)=>!q.dictation&&(phonics(id)||/^(family-friends-[12]|discover-[1-4])$/.test(id||'')&&listening(q));
  // Ordering remains a visual reasoning task. A gap alone is not a passage:
  // short Read & Complete questions are narrated, long references never are.
- const instructionOnly=(q,id)=>id==='van-lang'&&(['build','sequence','order'].includes(q.type)||!!q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' '))||((!String(q.scene||'').trim()||q.scene===q.storyText||String(q.scene||'').trim().split(/\s+/).length>=55)&&(!q.prompt||generic(q.prompt))));
+ const hasSlash=q=>['prompt','scene','spokenPrompt','spokenScene','sentence'].some(k=>String(q[k]||'').includes('/'));
+ const visualPhonics=(q,id)=>phonics(id)&&(q.visualOnly||['trace','soundPath','soundGroups','circleMatch','letterChain','phonics-match'].includes(q.resourceTask?.kind||q.interaction)||!!q.matchPictures||q.type==='build'||q.type==='sequence');
+ const instructionOnly=(q,id)=>hasSlash(q)||visualPhonics(q,id)||id==='van-lang'&&(['build','sequence','order'].includes(q.type)||!!q.orderWords||/sắp xếp|arrang|reorder|put .+order/i.test([q.sourceSection,q.partInstruction,q.prompt].filter(Boolean).join(' '))||((!String(q.scene||'').trim()||q.scene===q.storyText||String(q.scene||'').trim().split(/\s+/).length>=55)&&(!q.prompt||generic(q.prompt))));
  function automatic(q,id){
   if(q.dictation)return !!q.questionAudio;
   if(id==='van-lang'){
@@ -81,8 +85,10 @@
   if(/^(family-friends-[12]|discover-[1-4])$/.test(id||''))return true;
   return stream(q,id);
  }
+ const audioInstruction=q=>{const d=describe(q);return d.instruction.includes('/')?tasks[d.type][1]:d.instruction;};
  const hiddenStory=(q,id)=>phonics(id)&&!!q.storyId;
  function speech(q,options={}){
+  if(instructionOnly(q,options.course))return [];
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.
   if(hiddenStory(q,options.course))return [q.storySentence||q.spokenScene].filter(Boolean);
   if(/^(family-friends-[12]|discover-[1-4])$/.test(options.course||'')){
@@ -112,5 +118,5 @@
   return out;
  }
  const markup=s=>String(s||'').replace(/<[^>]*>/g,t=>/^<\/?(?:u|b|strong|em|i|br|p)\s*\/?>$/i.test(t)?t:'');
- return {tasks,describe,group,sections,at,generic,questionPrompt,speech,stream,automatic,instructionOnly,hiddenStory,markup};
+ return {tasks,describe,group,sections,at,generic,questionPrompt,speech,stream,automatic,instructionOnly,hiddenStory,markup,hasSlash,audioInstruction};
 });

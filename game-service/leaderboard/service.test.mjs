@@ -41,3 +41,10 @@ test('Typed Program answers share approved normalization with the browser and re
  const result=await f.service.handle('/finish',{run:r.id,answers:{q1:{first:' NO IT IS NOT! ',last:'NO IT IS NOT!'},q2:{first:'do/do',last:'do / do'}}},s.token);assert.equal(result.points,20);assert.equal(result.stars,3);assert.deepEqual(result.done,['q1','q2']);
  const retry=await begin(f,s);f.advance(12000);const wrong=await f.service.handle('/finish',{run:retry.id,answers:{q1:{first:'Yes it is',last:"No, it isn't."},q2:{first:'do/do',last:'do/do'}}},s.token);assert.equal(wrong.points,10);assert.equal(wrong.stars,1);
 });
+
+test('An expanded lesson preserves already-started old denominators, while new and expanded clients must finish the new bank',async()=>{
+ const data=structuredClone(curriculum),prior=structuredClone(data.lessons['discover-1']['game-1']),f=fixture(data),s=await login(f),old=await f.service.handle('/start',{clientId:crypto.randomUUID(),course:'discover-1',lesson:'game-1'},s.token);
+ data.legacy={cutoverAt:old.started,expiresAt:old.started+7200000,lessons:{'discover-1':{'game-1':prior}}};data.lessons['discover-1']['game-1'].items.push({id:'q3',answer:'three',options:['one','two','three','four']});f.advance(5000);
+ const oldResult=await f.service.handle('/finish',{run:old.id,answers:{q1:{first:'one',last:'one'},q2:{first:'two',last:'two'}}},s.token);assert.equal(oldResult.total,2);assert.equal(oldResult.stars,3);
+ const fresh=await f.service.handle('/start',{clientId:crypto.randomUUID(),course:'discover-1',lesson:'game-1'},s.token);const partial=await f.service.handle('/finish',{run:fresh.id,answers:{q1:{first:'one',last:'one'},q2:{first:'two',last:'two'}}},s.token);assert.equal(partial.total,3);assert.equal(partial.stars,0);
+});

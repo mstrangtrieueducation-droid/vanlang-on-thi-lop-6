@@ -1,8 +1,8 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs');
 const Units=require('../../khoa-hoc/phonics-units.cjs'),E=require('./reading-evidence.js');
-test('New Phonics tasks retain exact 15/45 counts, taught vocabulary, valid paths and at most one tracing item',()=>{
+test('New Phonics tasks retain exact 30/45 counts, taught vocabulary, valid paths and at most one tracing item',()=>{
  const counts={};for(let n=1;n<=4;n++)for(const l of require('../../khoa-hoc/data/phonics-'+n+'.json').lessons){
-  assert.equal(l.items.length,l.kind==='unit-review'?45:15);assert(l.items.filter(q=>q.resourceTask?.kind==='trace').length<=1);
+  assert.equal(l.items.length,l.kind==='unit-review'?45:30);assert(l.items.filter(q=>q.resourceTask?.kind==='trace').length<=1);
   const u=Units[n][l.unit-1],allowed=new Set(u.levels.slice(0,l.kind==='unit-review'?3:l.stage).flatMap(x=>x.words));
   for(const q of l.items){const t=q.resourceTask;if(!t)continue;counts[t.kind]=(counts[t.kind]||0)+1;assert(q.options.includes(q.answer));assert(q.source.url&&q.source.page);assert(!/\bsay\b/i.test(q.prompt));
    const objects=[...(t.cells||[]).filter(c=>c.picture),...(t.cards||[]),...(t.pairs||[]),...(t.groups||[]).flat()];for(const p of objects){assert(allowed.has(p.word),q.id+' introduces '+p.word);assert(p.picture?.src);}

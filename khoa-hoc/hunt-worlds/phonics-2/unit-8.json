@@ -17,10 +17,10 @@
       "x": 90.9,
       "y": 67,
       "w": 8.5,
-      "h": 14,
+      "h": 15.11111111111111,
       "cell": 0,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "first-1",
@@ -28,10 +28,10 @@
       "x": 56.9,
       "y": 25,
       "w": 9.5,
-      "h": 15.5,
+      "h": 16.88888888888889,
       "cell": 0,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "first-2",
@@ -39,10 +39,10 @@
       "x": 14.9,
       "y": 67,
       "w": 10.5,
-      "h": 17,
+      "h": 18.666666666666668,
       "cell": 0,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "first-3",
@@ -50,10 +50,10 @@
       "x": 47.9,
       "y": 85,
       "w": 8.5,
-      "h": 14,
+      "h": 15.11111111111111,
       "cell": 1,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "first-4",
@@ -61,10 +61,10 @@
       "x": 26.9,
       "y": 48,
       "w": 9.5,
-      "h": 15.5,
+      "h": 16.88888888888889,
       "cell": 2,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "second-0",
@@ -73,10 +73,10 @@
       "x": 75.9,
       "y": 69,
       "w": 10.5,
-      "h": 17,
+      "h": 18.666666666666668,
       "cell": 3,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "second-1",
@@ -85,10 +85,10 @@
       "x": 18.9,
       "y": 27,
       "w": 8.5,
-      "h": 14,
+      "h": 15.11111111111111,
       "cell": 3,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "second-2",
@@ -97,10 +97,10 @@
       "x": 86.9,
       "y": 42,
       "w": 9.5,
-      "h": 15.5,
+      "h": 16.88888888888889,
       "cell": 3,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "main-0",
@@ -109,10 +109,10 @@
       "x": 27.9,
       "y": 87,
       "w": 10.5,
-      "h": 17,
+      "h": 18.666666666666668,
       "cell": 4,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "main-1",
@@ -121,10 +121,10 @@
       "x": 8.9,
       "y": 43,
       "w": 8.5,
-      "h": 14,
+      "h": 15.11111111111111,
       "cell": 5,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "main-2",
@@ -133,10 +133,10 @@
       "x": 54.9,
       "y": 64,
       "w": 9.5,
-      "h": 15.5,
+      "h": 16.88888888888889,
       "cell": 6,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0.35
     },
     {
       "id": "upper-0",
@@ -150,7 +150,7 @@
       "case": "upper",
       "cell": 8,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     },
     {
       "id": "lower-0",
@@ -164,7 +164,7 @@
       "case": "lower",
       "cell": 11,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     },
     {
       "id": "upper-1",
@@ -178,7 +178,7 @@
       "case": "upper",
       "cell": 9,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     },
     {
       "id": "lower-1",
@@ -192,7 +192,7 @@
       "case": "lower",
       "cell": 12,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     },
     {
       "id": "upper-2",
@@ -206,7 +206,7 @@
       "case": "upper",
       "cell": 10,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     },
     {
       "id": "lower-2",
@@ -220,7 +220,7 @@
       "case": "lower",
       "cell": 13,
       "cover": "rock",
-      "occlusion": 0.45
+      "occlusion": 0
     }
   ],
   "questions": [
@@ -244,10 +244,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -255,10 +255,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -266,10 +266,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -277,10 +277,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -288,10 +288,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -300,10 +300,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -312,10 +312,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -324,10 +324,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -336,10 +336,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -348,10 +348,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -360,10 +360,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -377,7 +377,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -391,7 +391,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -405,7 +405,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -419,7 +419,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -433,7 +433,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -447,7 +447,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -471,10 +471,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -482,10 +482,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -493,10 +493,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -504,10 +504,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -515,10 +515,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -527,10 +527,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -539,10 +539,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -551,10 +551,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -563,10 +563,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -575,10 +575,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -587,10 +587,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -604,7 +604,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -618,7 +618,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -632,7 +632,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -646,7 +646,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -660,7 +660,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -674,7 +674,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -698,10 +698,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -709,10 +709,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -720,10 +720,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -731,10 +731,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -742,10 +742,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -754,10 +754,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -766,10 +766,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -778,10 +778,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -790,10 +790,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -802,10 +802,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -814,10 +814,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -831,7 +831,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -845,7 +845,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -859,7 +859,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -873,7 +873,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -887,7 +887,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -901,7 +901,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -925,10 +925,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -936,10 +936,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -947,10 +947,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -958,10 +958,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -969,10 +969,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -981,10 +981,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -993,10 +993,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -1005,10 +1005,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -1017,10 +1017,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -1029,10 +1029,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -1041,10 +1041,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -1058,7 +1058,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -1072,7 +1072,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -1086,7 +1086,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -1100,7 +1100,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -1114,7 +1114,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -1128,7 +1128,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -1153,10 +1153,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -1164,10 +1164,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -1175,10 +1175,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -1186,10 +1186,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -1197,10 +1197,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -1209,10 +1209,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -1221,10 +1221,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -1233,10 +1233,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -1245,10 +1245,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -1257,10 +1257,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -1269,10 +1269,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -1286,7 +1286,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -1300,7 +1300,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -1314,7 +1314,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -1328,7 +1328,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -1342,7 +1342,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -1356,7 +1356,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ],
       "sound": {
@@ -1392,10 +1392,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -1403,10 +1403,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -1414,10 +1414,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -1425,10 +1425,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -1436,10 +1436,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -1448,10 +1448,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -1460,10 +1460,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -1472,10 +1472,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -1484,10 +1484,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -1496,10 +1496,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -1508,10 +1508,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -1525,7 +1525,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -1539,7 +1539,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -1553,7 +1553,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -1567,7 +1567,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -1581,7 +1581,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -1595,7 +1595,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -1623,10 +1623,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -1634,10 +1634,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -1645,10 +1645,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -1656,10 +1656,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -1667,10 +1667,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -1679,10 +1679,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -1691,10 +1691,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -1703,10 +1703,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -1715,10 +1715,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -1727,10 +1727,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -1739,10 +1739,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -1756,7 +1756,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -1770,7 +1770,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -1784,7 +1784,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -1798,7 +1798,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -1812,7 +1812,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -1826,7 +1826,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -1852,10 +1852,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -1863,10 +1863,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -1874,10 +1874,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -1885,10 +1885,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -1896,10 +1896,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -1908,10 +1908,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -1920,10 +1920,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -1932,10 +1932,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -1944,10 +1944,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -1956,10 +1956,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -1968,10 +1968,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -1985,7 +1985,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -1999,7 +1999,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -2013,7 +2013,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -2027,7 +2027,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -2041,7 +2041,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -2055,7 +2055,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -2079,10 +2079,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -2090,10 +2090,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -2101,10 +2101,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -2112,10 +2112,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -2123,10 +2123,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -2135,10 +2135,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -2147,10 +2147,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -2159,10 +2159,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -2171,10 +2171,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -2183,10 +2183,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -2195,10 +2195,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -2212,7 +2212,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -2226,7 +2226,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -2240,7 +2240,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -2254,7 +2254,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -2268,7 +2268,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -2282,7 +2282,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -2306,10 +2306,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -2317,10 +2317,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -2328,10 +2328,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -2339,10 +2339,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -2350,10 +2350,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -2362,10 +2362,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -2374,10 +2374,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -2386,10 +2386,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -2398,10 +2398,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -2410,10 +2410,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -2422,10 +2422,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -2439,7 +2439,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -2453,7 +2453,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -2467,7 +2467,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -2481,7 +2481,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -2495,7 +2495,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -2509,7 +2509,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -2533,10 +2533,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -2544,10 +2544,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -2555,10 +2555,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -2566,10 +2566,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -2577,10 +2577,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -2589,10 +2589,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -2601,10 +2601,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -2613,10 +2613,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -2625,10 +2625,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -2637,10 +2637,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -2649,10 +2649,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -2666,7 +2666,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -2680,7 +2680,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -2694,7 +2694,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -2708,7 +2708,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -2722,7 +2722,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -2736,7 +2736,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -2760,10 +2760,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -2771,10 +2771,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -2782,10 +2782,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -2793,10 +2793,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -2804,10 +2804,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -2816,10 +2816,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -2828,10 +2828,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -2840,10 +2840,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -2852,10 +2852,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -2864,10 +2864,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -2876,10 +2876,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -2893,7 +2893,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -2907,7 +2907,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -2921,7 +2921,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -2935,7 +2935,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -2949,7 +2949,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -2963,7 +2963,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -2988,10 +2988,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -2999,10 +2999,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -3010,10 +3010,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -3021,10 +3021,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -3032,10 +3032,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -3044,10 +3044,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -3056,10 +3056,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -3068,10 +3068,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -3080,10 +3080,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -3092,10 +3092,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -3104,10 +3104,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -3121,7 +3121,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -3135,7 +3135,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -3149,7 +3149,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -3163,7 +3163,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -3177,7 +3177,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -3191,7 +3191,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ],
       "sound": {
@@ -3227,10 +3227,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -3238,10 +3238,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -3249,10 +3249,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -3260,10 +3260,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -3271,10 +3271,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -3283,10 +3283,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -3295,10 +3295,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -3307,10 +3307,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -3319,10 +3319,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -3331,10 +3331,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -3343,10 +3343,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -3360,7 +3360,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -3374,7 +3374,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -3388,7 +3388,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -3402,7 +3402,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -3416,7 +3416,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -3430,7 +3430,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -3456,10 +3456,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -3467,10 +3467,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -3478,10 +3478,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -3489,10 +3489,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -3500,10 +3500,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -3512,10 +3512,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -3524,10 +3524,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -3536,10 +3536,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -3548,10 +3548,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -3560,10 +3560,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -3572,10 +3572,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -3589,7 +3589,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -3603,7 +3603,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -3617,7 +3617,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -3631,7 +3631,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -3645,7 +3645,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -3659,7 +3659,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -3685,10 +3685,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -3696,10 +3696,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -3707,10 +3707,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -3718,10 +3718,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -3729,10 +3729,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -3741,10 +3741,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -3753,10 +3753,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -3765,10 +3765,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -3777,10 +3777,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -3789,10 +3789,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -3801,10 +3801,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -3818,7 +3818,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -3832,7 +3832,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -3846,7 +3846,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -3860,7 +3860,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -3874,7 +3874,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -3888,7 +3888,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -3916,10 +3916,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -3927,10 +3927,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -3938,10 +3938,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -3949,10 +3949,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -3960,10 +3960,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -3972,10 +3972,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -3984,10 +3984,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -3996,10 +3996,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -4008,10 +4008,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -4020,10 +4020,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -4032,10 +4032,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -4049,7 +4049,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -4063,7 +4063,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -4077,7 +4077,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -4091,7 +4091,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -4105,7 +4105,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -4119,7 +4119,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -4145,10 +4145,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -4156,10 +4156,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -4167,10 +4167,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -4178,10 +4178,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -4189,10 +4189,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -4201,10 +4201,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -4213,10 +4213,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -4225,10 +4225,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -4237,10 +4237,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -4249,10 +4249,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -4261,10 +4261,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -4278,7 +4278,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -4292,7 +4292,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -4306,7 +4306,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -4320,7 +4320,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -4334,7 +4334,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -4348,7 +4348,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -4374,10 +4374,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -4385,10 +4385,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -4396,10 +4396,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -4407,10 +4407,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -4418,10 +4418,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -4430,10 +4430,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -4442,10 +4442,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -4454,10 +4454,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -4466,10 +4466,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -4478,10 +4478,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -4490,10 +4490,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -4507,7 +4507,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -4521,7 +4521,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -4535,7 +4535,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -4549,7 +4549,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -4563,7 +4563,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -4577,7 +4577,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     },
@@ -4609,10 +4609,10 @@
           "x": 90.9,
           "y": 67,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-1",
@@ -4620,10 +4620,10 @@
           "x": 56.9,
           "y": 25,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-2",
@@ -4631,10 +4631,10 @@
           "x": 14.9,
           "y": 67,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 0,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-3",
@@ -4642,10 +4642,10 @@
           "x": 47.9,
           "y": 85,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 1,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "first-4",
@@ -4653,10 +4653,10 @@
           "x": 26.9,
           "y": 48,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 2,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-0",
@@ -4665,10 +4665,10 @@
           "x": 75.9,
           "y": 69,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-1",
@@ -4677,10 +4677,10 @@
           "x": 18.9,
           "y": 27,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "second-2",
@@ -4689,10 +4689,10 @@
           "x": 86.9,
           "y": 42,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 3,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-0",
@@ -4701,10 +4701,10 @@
           "x": 27.9,
           "y": 87,
           "w": 10.5,
-          "h": 17,
+          "h": 18.666666666666668,
           "cell": 4,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-1",
@@ -4713,10 +4713,10 @@
           "x": 8.9,
           "y": 43,
           "w": 8.5,
-          "h": 14,
+          "h": 15.11111111111111,
           "cell": 5,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "main-2",
@@ -4725,10 +4725,10 @@
           "x": 54.9,
           "y": 64,
           "w": 9.5,
-          "h": 15.5,
+          "h": 16.88888888888889,
           "cell": 6,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0.35
         },
         {
           "id": "upper-0",
@@ -4742,7 +4742,7 @@
           "case": "upper",
           "cell": 8,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-0",
@@ -4756,7 +4756,7 @@
           "case": "lower",
           "cell": 11,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-1",
@@ -4770,7 +4770,7 @@
           "case": "upper",
           "cell": 9,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-1",
@@ -4784,7 +4784,7 @@
           "case": "lower",
           "cell": 12,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "upper-2",
@@ -4798,7 +4798,7 @@
           "case": "upper",
           "cell": 10,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         },
         {
           "id": "lower-2",
@@ -4812,7 +4812,7 @@
           "case": "lower",
           "cell": 13,
           "cover": "rock",
-          "occlusion": 0.45
+          "occlusion": 0
         }
       ]
     }

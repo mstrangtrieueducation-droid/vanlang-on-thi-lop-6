@@ -1,7 +1,7 @@
 /* Colour the main material only. Preserve the original artwork underneath:
  * fruit foliage/stalks, faces, eyes, noses, mouths, hands and small fittings. */
 const protectedDetails={
- apple:'<path d="M163 99Q165 28 273 24Q276 87 163 99Z M130 44L155 34Q177 56 171 121L150 119Q154 77 130 58Z"/>',peach:'<path d="M144 76Q165 12 232 28Q290 39 309 124L286 117Q224 83 144 76Z M128 94Q134 51 154 30L176 36Q155 57 150 83Z"/>',
+ apple:'<path d="M163 99Q165 28 273 24Q276 87 163 99Z M130 44L155 34Q177 56 171 121L150 119Q154 77 130 58Z"/>',peach:'<path d="M144 76Q165 12 232 28Q290 39 309 124L286 117Q224 83 144 76Z M128 94Q134 51 154 30L176 36Q155 57 150 83Z"/><path d="M160 102C183 157 176 225 161 282" fill="none" stroke="black" stroke-width="18"/>',
  dog:'<ellipse cx="204" cy="106" rx="61" ry="58"/>',
  cat:'<ellipse cx="174" cy="113" rx="64" ry="52"/>',
  gorilla:'<ellipse cx="173" cy="92" rx="65" ry="57"/>',

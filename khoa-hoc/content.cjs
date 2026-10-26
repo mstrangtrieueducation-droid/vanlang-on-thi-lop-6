@@ -111,4 +111,5 @@ require('./dialogues.cjs')(courses);
 require('./image-library.cjs')(courses);
 require('./discover-release.cjs')(courses);
 require('./program/resource-activities.cjs')(courses);
+require('./program/practice-depth.cjs')(courses);
 module.exports=courses;

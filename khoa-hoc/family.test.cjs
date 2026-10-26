@@ -1,12 +1,12 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const courses=require('./content.cjs'),rules=require('../game-kit/adventures/rules.js'),coach=require('../game-kit/adventures/learning.js'),P=require('../game-kit/classroom-progress.js'),catalog=require('../vu-tru/catalog.json'),mapping=require('../vu-tru/teaching-map.json'),program=require('./program/parse.cjs').family();
-for(const n of [1,2])test(`FF${n}: all Program units, 15/45 counts, test sources and classroom gates`,()=>{
+for(const n of [1,2])test(`FF${n}: all Program units, 30/45 counts, test sources and classroom gates`,()=>{
  const c=courses[`family-friends-${n}`],reg=catalog.find(x=>x.id===c.id);assert.equal(c.lessons.length,66);
  assert.equal(c.lessons.filter(l=>l.kind==='practice').length,46);assert.equal(c.lessons.filter(l=>l.kind==='unit-review').length,15);assert.equal(c.lessons.filter(l=>l.kind==='progress-test').length,5);
  for(let u=1;u<=15;u++){
   const stages=c.lessons.filter(l=>l.unit===u&&l.stage),review=c.lessons.find(l=>l.unit===u&&l.kind==='unit-review');assert.equal(stages.length,3);assert.equal(review.items.length,45);assert.deepEqual(review.requiredLevels,stages.map(l=>l.id));
   assert.deepEqual(stages.map(l=>l.sourceLessons[0]),program.units[u-1].stages.map(s=>'lesson-'+s.session));
-  for(const l of stages){assert.equal(l.items.length,15);assert.equal(l.title,`Unit ${u} - Lesson ${program.units[u-1].stages[l.stage-1].bookLessons.join(' & ')}`);}
+  for(const l of stages){assert.equal(l.items.length,30);assert.equal(l.title,`Unit ${u} - Lesson ${program.units[u-1].stages[l.stage-1].bookLessons.join(' & ')}`);}
   assert.equal(review.items.filter(q=>q.storySource?.lesson===1).length,5);
   assert.ok(review.items.some(q=>q.storySource&&q.storySource.lesson!==1));
   assert.equal(review.items.filter(q=>q.interaction==='grammar').length,6);

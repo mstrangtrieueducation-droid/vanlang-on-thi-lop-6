@@ -39,11 +39,10 @@ export class LeaderboardService{
  async submit(s,b){
   const r=await this.one('SELECT * FROM runs WHERE id=? AND student=?',b.run,s.student);if(!r)fail('Không tìm thấy lượt chơi này.',404);if(r.result)return JSON.parse(r.result);if(this.now()>r.expires)fail('Lượt chơi đã quá thời gian đồng bộ.',410);
   let l=this.lesson(s,r.course,r.lesson);if(!b.answers||Array.isArray(b.answers)||typeof b.answers!=='object')fail('Câu trả lời không khớp bài.');
-  if(Object.keys(b.answers).some(id=>!l.items.some(q=>q.id===id))){
-   const archive=this.data.legacy,prior=archive?.lessons[r.course]?.[r.lesson];
-   if(prior&&r.started<=archive.cutoverAt&&this.now()<=archive.expiresAt&&Object.keys(b.answers).every(id=>prior.items.some(q=>q.id===id)))l=prior;
-   else fail('Câu trả lời không khớp bài.');
-  }
+  const archive=this.data.legacy,previous=archive?.lessons[r.course]?.[r.lesson],ids=Object.keys(b.answers),oldRun=previous&&r.started<=archive.cutoverAt&&this.now()<=archive.expiresAt&&ids.every(id=>previous.items.some(q=>q.id===id));
+  // An already-started 15-question client keeps its original denominator during the bounded cutover.
+  if(oldRun&&(l.items.length>previous.items.length||ids.some(id=>!l.items.some(q=>q.id===id))))l=previous;
+  else if(ids.some(id=>!l.items.some(q=>q.id===id)))fail('Câu trả lời không khớp bài.');
   const entries=Object.entries(b.answers);let correct=0,assisted=false;const done=[];
   for(const [id,a] of entries){if(!a||typeof a.first!=='string'||a.first.length>2000||typeof a.last!=='string'||a.last.length>2000)fail('Đáp án chưa hợp lệ.');const q=l.items.find(x=>x.id===id);if(check(q,a.first))correct++;if(check(q,a.last))done.push(id);assisted||=a.assisted===true;}
   const complete=entries.length===l.items.length&&(l.exam||entries.every(([,a])=>a.last.trim().length>0)),accuracy=correct/l.items.length,stars=complete?(accuracy>=.9?3:accuracy>=.65?2:1):0;

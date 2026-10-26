@@ -1,7 +1,7 @@
 /* Source-week routing is independent of roadmap ordinal and old challenge titles. */
 (()=>{'use strict';
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const formulaHtml=text=>String(text||'').split(/;\s+|\n+/).filter(Boolean).map(line=>'<p class="vl-formula"><strong>'+esc(line)+'</strong></p>').join('');
+ const formulaHtml=text=>GrammarLayout.lines(text).filter(Boolean).map(line=>'<p class="vl-formula"><strong>'+esc(line)+'</strong></p>').join('');
  const usageHtml=text=>{const parts=String(text||'').match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[];return parts.map((line,i)=>'<p class="vl-rule-line">'+(i===0?'<strong>'+esc(line.trim())+'</strong>':esc(line.trim()))+'</p>').join('');};
  const weekOf=(g,c)=>c?.courseId==='van-lang'&&/^tu-luyen-\d+$/.test(c.lessonId||c.id||'')?Number((c.lessonId||c.id).split('-').at(-1)):null;
  const hasGrammar=week=>Number.isInteger(week)&&week>=1&&week<=12;
