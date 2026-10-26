@@ -40,7 +40,7 @@ function cachedPlate(task){
  return img;
 }
 function mountPlate(board,task){const img=cachedPlate(task),host=board.querySelector('[data-context-art]');host.append(img);if(img.complete&&img.naturalWidth)host.classList.add('context-art-ready');}
-function warm(task){if(task&&['sceneActions','detectiveScene'].includes(task.kind))cachedPlate(task);}
+function warm(task){if(task?.sceneVersion===3){window.LivingScenes?.warm(task);return;}if(task&&['sceneActions','detectiveScene'].includes(task.kind))cachedPlate(task);}
 
 const style=p=>`left:${p.x}%;top:${p.y}%;--fit-width:${p.w}%;--fit-height:${p.h}%;--fit-angle:${p.angle||0}deg`;
 function targetView(task,t){
@@ -48,7 +48,7 @@ function targetView(task,t){
  return `<button type="button" class="context-target ${personTarget?'context-target-grandpa':''} ${ice?'context-target-ice':''}" data-context-target="${esc(t.id)}" aria-label="Đặt ${esc(t.label)}" style="left:${s.x}%;top:${s.y}%;width:${s.w}%;height:${s.h}%">${personTarget?`<svg viewBox="0 0 160 160" aria-hidden="true">${person({x:80,y:55,old:true,color:'#7b83bd',scale:1.08})}</svg>`:ice?'<svg viewBox="0 0 160 100" aria-hidden="true"><path d="M8 60L35 23L99 9L152 48L132 84L53 96Z" fill="#c3eaf2" stroke="#80bdcd" stroke-width="3"/><path d="M35 23L56 66L152 48M56 66L53 96" fill="none" stroke="#effdff" stroke-width="4"/></svg>':''}<span>${esc(t.label)}</span></button>`;
 }
 function stepMarks(task,maps){return task.steps?task.steps.map(s=>`<i class="${maps.includes(s.object+'>'+s.target)?'placed':''}" aria-label="${maps.includes(s.object+'>'+s.target)?'Đã đặt':'Chưa đặt'}">${maps.includes(s.object+'>'+s.target)?'✓':'◇'}</i>`).join(''):'Lắng nghe · Quan sát · Khám phá';}
-function render(q,values){
+function render(q,values){if(window.LivingScenes?.supported(q))return LivingScenes.render(q,values);
  if(!supported(q))return null;
  const t=q.resourceTask,maps=values.filter(x=>x.includes('>')),selected=values.find(x=>x.startsWith('selected:'))?.slice(9),detective=t.kind==='detectiveScene';
  return `<section class="context-game" data-context-kind="${t.kind}"><div class="context-tools"><p>${detective?'Lắng nghe manh mối. Chạm vào chi tiết con tìm được.':'Kéo vật vào chỗ cất, hoặc chạm vật rồi chạm vị trí. Làm theo đúng thứ tự nghe được.'}</p><span class="context-treasure" data-context-treasure role="img" aria-label="Rương thành quả">✦</span><button type="button" data-context-hint>💡 Gợi ý</button><button type="button" data-context-zoom aria-label="Phóng to tranh">⊕ Phóng to</button></div><div class="context-clue">${esc(q.spokenScene)}</div><div class="context-pan"><div class="context-board" data-scene="${t.scene}" data-art="${layout.art(t)}">${background(t)}${(t.targets||[]).map(x=>targetView(t,x)).join('')}${t.objects.map((o,i)=>{
@@ -56,7 +56,7 @@ function render(q,values){
  return `<button type="button" data-context-object="${o.id}" class="context-object ${selected===o.id?'context-selected':''} ${dest?'context-placed':''} ${collected?'context-collected':''}" style="${style(p)};--marker:${o.color.hex}" aria-label="${detective?'Chi tiết '+(i+1):esc(o.word)}" aria-pressed="${selected===o.id}"><span class="context-object-art">${image(o)}</span>${detective?`<span class="context-marker" aria-hidden="true">${o.marker}</span>`:`<span class="context-object-name">${esc(o.word)}</span>`}</button>`;
  }).join('')}${detective?t.objects.map((o,i)=>`<div class="context-cover" aria-hidden="true" style="background-image:url('${plateURL(t)}');clip-path:polygon(${layout.cover(t,o,i)})"></div>`).join(''):layout.lips(t).map(poly=>`<div class="context-storage-lip" aria-hidden="true" style="background-image:url('${plateURL(t)}');clip-path:polygon(${poly})"></div>`).join('')}</div></div><div class="context-actions"><span class="context-step-marks" data-context-count>${stepMarks(t,maps)}</span>${detective?'':'<button type="button" data-context-undo>↩ Đặt lại vật đang chọn</button><button type="button" data-resource-check disabled>✓ Kiểm tra thao tác</button>'}</div><p class="context-local-note">Bài luyện riêng · Tự lưu trên thiết bị này.</p></section>`;
 }
-function bind(root,q,api){
+function bind(root,q,api){if(window.LivingScenes?.supported(q)){LivingScenes.bind(root,q,api);return;}
  if(!supported(q))return;
  flight?.cancel();flight=null;document.querySelectorAll('.context-found-flight').forEach(e=>e.remove());
  const t=q.resourceTask,board=root.querySelector('.context-board'),objects=[...board.querySelectorAll('[data-context-object]')],targets=[...board.querySelectorAll('[data-context-target]')],check=root.querySelector('[data-resource-check]');let drag=null,ignore=false;

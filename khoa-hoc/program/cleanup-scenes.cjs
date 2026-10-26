@@ -1,0 +1,9 @@
+/* Target surfaces measured on the finished plates. Each placed object has a permanent slot. */
+const make=(image,positions,lips)=>({image,targets:Object.entries(positions).map(([id,[x,y,w,h]])=>({id,x,y,w,h,label:{shelf:'shelf',drawer:'drawer',table:'table','under-table':'table',basket:'basket',box:'box'}[id],relation:id==='under-table'?'under':['drawer','basket','box'].includes(id)?'in':'on'})),lips});
+module.exports={
+ living:make('../scene-art-v2/cozy-house.webp',{shelf:[80,27,18,18],drawer:[85,46,18,13],table:[49,46,26,13],'under-table':[49,61,25,17],basket:[15,58,20,18],box:[89,64,20,19]},['6% 60%,14% 62%,24% 60%,24% 76%,6% 76%','78.5% 44%,87.5% 47.5%,90% 46.5%,90% 53%,78.5% 53%','80% 64%,89% 66%,100% 64%,100% 78%,80% 78%']),
+ bedroom:make('bedroom.webp',{shelf:[84,17,19,17],drawer:[82,31,20,10],table:[49,36,27,13],'under-table':[49,49,27,14],basket:[13,52,21,18],box:[89,55,21,21]},['3% 54%,13% 56%,22% 53%,22% 70%,3% 70%','73% 31%,83% 34%,90% 31%,90% 39%,73% 39%','79% 56%,89% 59%,100% 56%,100% 71%,79% 71%']),
+ kitchen:make('kitchen.webp',{shelf:[81,23,19,15],drawer:[91,39,17,15],table:[46,35,34,14],'under-table':[46,58,30,12],basket:[8,56,18,18],box:[91,59,18,20]},['0% 58%,8% 60%,17% 56%,17% 72%,0% 72%','84% 38%,94% 42%,100% 39%,100% 47%,84% 47%','82% 61%,92% 65%,100% 62%,100% 76%,82% 76%']),
+ forest:make('forest.webp',{shelf:[81,18,20,17],drawer:[80,32,20,9],table:[44,37,35,14],'under-table':[44,52,30,15],basket:[11,58,22,19],box:[87,56,23,21]},['0% 59%,11% 62%,21% 58%,21% 73%,0% 73%','72% 31%,81% 35%,88% 32%,88% 40%,72% 40%','75% 57%,88% 62%,100% 58%,100% 73%,75% 73%']),
+ beach:make('beach-cleanup.webp',{shelf:[81,18,20,17],drawer:[80,32,20,9],table:[49,42,34,14],'under-table':[49,57,30,14],basket:[10,48,21,20],box:[88,58,24,23]},['0% 49%,10% 52%,20% 48%,20% 65%,0% 65%','72% 32%,80% 36%,88% 32%,88% 40%,72% 40%','77% 59%,89% 64%,100% 59%,100% 77%,77% 77%'])
+};

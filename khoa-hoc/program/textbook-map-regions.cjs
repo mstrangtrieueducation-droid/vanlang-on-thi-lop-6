@@ -1,0 +1,19 @@
+/* Percent coordinates measured on the original full Student Book game pages. */
+module.exports={
+ '1-0':{page:24,nodes:{bear:[86,82],bird:[85,45],bed:[48,30],cat:[67,18],cup:[84,19],car:[18,69],apple:[18,45],ax:[50,69],ant:[81,31],egg:[86,69],elbow:[68,45],envelope:[64,30],fish:[65,69],fan:[51,17],farm:[86,58],dog:[36,17],desk:[35,69],doll:[18,56]}},
+ '1-1':{page:44,nodes:{horse:[66,72],hat:[83,84],house:[16,37],insect:[33,86],ink:[83,20],igloo:[84,47],gorilla:[84,60],goat:[32,72],gift:[64,31],kangaroo:[66,19],key:[85,72],king:[46,32],lion:[68,47],lamp:[33,19],leaf:[50,86],jet:[28,31],jam:[49,18],juice:[80,31]}},
+ '1-2':{page:64,nodes:{nut:[88,58],net:[57,70],nest:[23,17],octopus:[78,18],ox:[16,71],olive:[11,23],monkey:[34,20],milk:[62,30],money:[25,49],queen:[65,17],quiz:[93,46],quilt:[27,40],rabbit:[28,61],rose:[7,43],rice:[74,65],peach:[74,40],pen:[86,71],panda:[90,35]}},
+ '1-3':{page:88,nodes:{turtle:[15,52],tent:[54,87],tiger:[27,77],umbrella:[14,64],up:[28,29],uncle:[16,31],seal:[85,18],sun:[28,86],soap:[44,18],van:[72,43],fox:[44,85],box:[56,18],six:[15,85],'yo-yo':[87,43],yak:[72,54],yogurt:[15,42],zero:[73,63],wolf:[70,29],web:[32,18],water:[72,78]}},
+ '2-0':{page:24,nodes:{ram:[60,34],jam:[83,71],yam:[20,50],fan:[80,57],man:[51,20],pan:[50,70],cat:[85,43],cap:[50,55],map:[51,83],nap:[15,34],bat:[64,20],rat:[19,67],hat:[67,83],dad:[66,70]}},
+ '2-1':{page:44,nodes:{jet:[79,52],pen:[50,34],ten:[38,68],hip:[78,40],zip:[37,53],lip:[20,67],web:[72,68]}},
+ '2-2':{page:64,nodes:{wig:[87,70],big:[14,22],pin:[14,60],fin:[52,20],pot:[85,22],hot:[50,82],cot:[37,19],mop:[83,82],hop:[15,36],fox:[17,48]}},
+ '2-3':{page:84,nodes:{up:[12,53],pup:[58,36],cup:[20,25],jug:[66,31],hug:[26,50],bug:[84,62],bun:[14,64],run:[32,29],fun:[75,49],nut:[59,67],hut:[40,76],cut:[39,38]}},
+ '3-0':{page:24,nodes:{tape:[69,43]}},
+ '3-1':{page:44,nodes:{bone:[31,19],cone:[64,82],bay:[40,65],day:[20,22],say:[51,37],rain:[37,35],nail:[52,81],tail:[86,48]}},
+ '3-2':{page:64,nodes:{leaf:[9,43],bee:[91,24],feet:[87,39],seed:[83,62],pie:[12,62],tie:[63,27],lie:[44,43],light:[85,17]}},
+ '3-3':{page:84,nodes:{bow:[85,33],yellow:[14,24],boat:[36,44],coat:[64,15],moon:[24,33],zoo:[45,33],blue:[54,44],clue:[55,25]}},
+ '4-0':{page:24,nodes:{black:[15,48],green:[66,19]}},
+ '4-1':{page:44,nodes:{stop:[34,49],test:[35,32],stamp:[16,24],smile:[15,52],chick:[43,48],lunch:[65,48],watch:[60,69],shell:[87,53],fish:[59,36],ship:[25,70]}},
+ '4-2':{page:64,nodes:{this:[65,84],king:[21,59]}},
+ '4-3':{page:84,nodes:{skunk:[63,62],giraffe:[41,60]}}
+};
