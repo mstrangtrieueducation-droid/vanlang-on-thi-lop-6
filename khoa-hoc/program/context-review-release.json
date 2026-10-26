@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "scope": "Supplemental Unit Review only; existing 45-question banks, teaching maps, access gates, scores and dashboard receipts are unchanged",
+  "familyUnits": 30,
+  "discoverUnits": 72,
+  "tasksPerBranch": 20,
+  "totalTasks": 2040,
+  "narration": {
+    "voice": "en-US-AnaNeural",
+    "clips": 1107,
+    "bytes": 24527952,
+    "loading": "Current question only. Reused complete sentence clips; no full-course preload."
+  },
+  "progress": {
+    "storage": "Existing identity/course/lesson key plus actions-v1 or detective-v1",
+    "grading": "Existing AdventureRules and GameFlow first-attempt ledger",
+    "mainUnitStars": "Never overwritten",
+    "cloudRanking": "Supplemental local practice, not a ranked main-Unit attempt"
+  },
+  "resources": {
+    "program": "khoa-hoc/program/source.json",
+    "familyVocabulary": "khoa-hoc/program/family-units.cjs",
+    "discover": "khoa-hoc/program/discover-resources.json",
+    "wordScope": "Current and earlier Units only",
+    "adaptation": "Centre-authored scene tasks; not original publisher test items"
+  },
+  "graphics": "Shared code-drawn scenes, SVG nature details and existing transparent WebP artwork; no new scan cards",
+  "verification": {
+    "automatedTestsPassed": 269,
+    "browser": "Touch placement, pointer drag, exact-order grading, saved draft resume, source image decoding, hint, correct/wrong feedback, contained zoom at 390px and desktop. Audio playback sequencing mocked in browser; static MP3 presence verified."
+  }
+}

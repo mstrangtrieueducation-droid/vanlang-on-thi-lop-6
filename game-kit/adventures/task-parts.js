@@ -2,6 +2,8 @@
 (function(root,factory){const api=factory();if(typeof module==='object')module.exports=api;else root.TaskParts=api;})(typeof globalThis==='object'?globalThis:this,()=>{
  'use strict';
  const tasks={
+  sceneActions:['Listen & Do','Listen. Move the objects to the correct places. Then check.'],
+  detectiveScene:['Detective Lab','Listen to the clues. Tap the matching detail in the scene.'],
   listenMap:['Listening Map','Listen and connect the matching picture.'],
   listenPictureWrite:['Listen, Choose & Write','Listen. Choose a picture, then write the word.'],
   trace:['Trace Letters','Trace the capital and small letters.'],

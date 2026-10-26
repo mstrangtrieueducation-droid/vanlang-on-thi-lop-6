@@ -1,6 +1,9 @@
 """Build time recordings only. Browsers load static MP3, never an external TTS API."""
-import asyncio,json,pathlib,edge_tts
-folder=pathlib.Path(__file__).resolve().parents[1]/'adventures'/'classroom-audio'
+import asyncio,json,pathlib,edge_tts,argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--folder',default='classroom-audio',choices=['classroom-audio','review-scene-audio'])
+args=parser.parse_args()
+folder=pathlib.Path(__file__).resolve().parents[1]/'adventures'/args.folder
 manifest=json.loads((folder/'manifest.json').read_text(encoding='utf8'))
 async def main():
     sem=asyncio.Semaphore(8)

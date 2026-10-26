@@ -20,3 +20,5 @@ require('./build-hunt-worlds.cjs');
 require('./build-dictation.cjs').write();
 
 require('./build-context-view.cjs');
+
+require("./build-context-reviews.cjs");
