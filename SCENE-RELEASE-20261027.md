@@ -26,10 +26,10 @@ Source provenance: `game-kit/adventures/textbook-maps/sources.json`. Rebuild wit
 
 ## Audio, progress and verification
 
-Scene narration and varied encouragement use local recordings in the same native US child voice, `en-US-AnaNeural`. Part instructions play once; narration waits for an answer. Correct feedback finishes before the next clue. Wrong-answer retries retain the native first-attempt result.
+Scene narration and varied encouragement use local recordings in the same native US child voice, `en-US-AnaNeural`. Part instructions play once; narration waits for an answer. Correct feedback finishes before the next clue. Wrong-answer retries retain the native first-attempt result. Result review translates scene IDs into readable actions/character descriptions without changing stored responses or answer keys.
 
 The new worlds use separate `actions-v3` / `detective-v3` practice namespaces. Previous namespaces remain untouched. Main 30-question lessons, 45-question reviews, original tests, student/class gates, dashboard links, cloud ranking rules and native receipt readers are unchanged. Scene placements are presentation state inside the existing saved run, not a second score classifier.
 
-Validation: 256 automated tests; Edge desktop, phone and landscape viewport checks; real touch-event drag; persistent image-node identity; partial two-step resume; wrong-answer resume/retry; original-map drawing, zoom/pan and first-attempt scoring; real MP3 playback/ended events and manual replay. These are browser/device-emulation checks, not a physical-phone or real-4G benchmark. Private QA artifacts are not published.
+Validation: 257 automated tests; Edge desktop, phone and landscape viewport checks; real touch-event drag; persistent image-node identity; partial two-step resume; wrong-answer resume/retry; original-map drawing, zoom/pan and first-attempt scoring; real MP3 playback/ended events and manual replay. These are browser/device-emulation checks, not a physical-phone or real-4G benchmark. Private QA artifacts are not published.
 
 Image-generation prompts: `game-kit/adventures/living-scenes-v3/creation-prompts.json`. Generated scene plates and crowd illustrations were inspected against their target regions. Source maps and dictionary illustrations were rendered/cropped directly from the provided books, not regenerated.
