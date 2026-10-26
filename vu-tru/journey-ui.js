@@ -15,5 +15,5 @@
  document.addEventListener('click',e=>{if(e.target.closest('[data-journey-profile],[data-journey-total]')){e.preventDefault();open();}});
  window.addEventListener('titi-journey-update',refresh);window.addEventListener('titi-cloud-progress',()=>{refresh();cloud();});window.addEventListener('pageshow',()=>{refresh();cloud();});window.addEventListener('storage',()=>refresh());
  new MutationObserver(()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;renderBadges();});}).observe(document.body,{childList:true,subtree:true});
- window.TitiJourney={open,refresh};fetch(new URL('catalog.json?v=release-20261018a',base)).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{catalog=data;refresh();cloud();}).catch(()=>{for(const b of document.querySelectorAll('[data-journey-total]'))b.textContent='Hồ sơ chưa tải được';});
+ window.TitiJourney={open,refresh};fetch(new URL('catalog.json?v=practice30-2',base)).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{catalog=data;refresh();cloud();}).catch(()=>{for(const b of document.querySelectorAll('[data-journey-total]'))b.textContent='Hồ sơ chưa tải được';});
 })();

@@ -2,7 +2,7 @@
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function loadScript(src){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=reject;document.body.append(s);});}
 if(!planet){window.FlowBoot?.cancel();app.innerHTML='<p>Con hãy chọn một hành tinh để bắt đầu.</p><a href="../vu-tru/">← Titi Learning Universe</a>';return;}
-try{const response=await fetch(`data/${id}.index.json?v=practice30-1`);if(!response.ok)throw Error('Course unavailable');const course=await response.json(),selected=course.lessons.find(l=>l.id===(course.legacyAliases?.[params.get('lesson')]||params.get('lesson'))||l.sourceLessons?.includes(params.get('lesson')));
+try{const response=await fetch(`data/${id}.index.json?v=practice30-2`);if(!response.ok)throw Error('Course unavailable');const course=await response.json(),selected=course.lessons.find(l=>l.id===(course.legacyAliases?.[params.get('lesson')]||params.get('lesson'))||l.sourceLessons?.includes(params.get('lesson')));
 if(id==='fighter'&&selected){window.FlowBoot?.cancel();const next=new URL('../fighter/',location.href);next.search=location.search;next.searchParams.set('course','fighter');next.searchParams.set('lesson',selected.id);location.replace(next.href);return;}
 if(selected?.testId&&selected.href){const next=new URL(selected.href,location.href);for(const [k,v]of params)if(k!=='test')next.searchParams.set(k,v);location.replace(next.href);return;}
 if(selected){const r=await fetch(`data/${id}/${selected.id}.json?v=practice30-1`);if(!r.ok)throw Error('Lesson unavailable');Object.assign(selected,await r.json());}
