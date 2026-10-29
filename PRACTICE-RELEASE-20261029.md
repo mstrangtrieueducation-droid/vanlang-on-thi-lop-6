@@ -8,6 +8,7 @@
 - All 26 uppercase/lowercase Latin stroke guides use consistent numbered, colored directional paths. Existing tracing questions consume the maintained guide set.
 - Repeated FF spelling stems within regular lessons/reviews become audio-only whole-word retrieval instead of another shuffled copy. Source passages use explicit evidence order where every question has a reliable anchor. Saved attempt order remains authoritative on resume.
 - Number-word tasks say “Write the number word”. Listening writing hides scripts; read/write advances only after an answer is committed. A short unfinished input remains a draft on blur.
+- Dictation Play uses the full original Resources track; changing the active blank preserves the same player rather than starting Titi sentence fallbacks.
 - Reading Play prioritizes the original Resources recording and cancels secondary question narration. A source Play click starts that source even when Titi was reading a question. Only the current source track loads.
 
 ## Original source coverage and limits
@@ -18,7 +19,7 @@
 
 ## Validation and boundary
 
-- 265 automated tests passed, including canonical keys, handwriting, source hashes, map geometry, resume/audio and historical quiz contracts.
+- 266 automated tests passed, including canonical keys, handwriting, source hashes, map geometry, resume/audio and historical quiz contracts.
 - Edge at 390×844: complete-word submission, automatic next, hidden listening transcript, scrambled/repeated letter tiles, drawn circles and original Discover Play passed through normal controls.
 - No dashboard receipt readers, Schedule releases, identity/entry protections, canonical homework projections, runtime bindings or dashboard deployment configuration were changed.
 - Private source downloads, ASR checks and screenshots remain under private/ and are excluded from publication.
