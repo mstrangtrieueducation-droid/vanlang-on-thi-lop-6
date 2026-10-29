@@ -162,99 +162,135 @@
     },
     {
       "id": "upper-0",
-      "word": "N",
+      "word": "ut",
       "color": null,
       "x": 86.9,
       "y": 86,
-      "w": 5.3999999999999995,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 8,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "ut",
+      "box": [
+        82.4,
+        81.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-0",
-      "word": "n",
+      "word": "ub",
       "color": null,
       "x": 65.9,
       "y": 46,
-      "w": 4.8,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 11,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "ub",
+      "box": [
+        61.400000000000006,
+        41.5,
+        9,
+        9
+      ]
     },
     {
       "id": "upper-1",
-      "word": "U",
+      "word": "um",
       "color": null,
       "x": 7.9,
       "y": 88,
-      "w": 5.3999999999999995,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 9,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "um",
+      "box": [
+        3.4000000000000004,
+        83.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-1",
-      "word": "u",
+      "word": "un",
       "color": null,
       "x": 79.9,
       "y": 25,
-      "w": 4.8,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 12,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "un",
+      "box": [
+        75.4,
+        20.5,
+        9,
+        9
+      ]
     },
     {
       "id": "upper-2",
-      "word": "T",
+      "word": "ut",
       "color": null,
       "x": 34.9,
       "y": 70,
-      "w": 5.3999999999999995,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 10,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "ut",
+      "box": [
+        30.4,
+        65.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-2",
-      "word": "t",
+      "word": "ub",
       "color": null,
       "x": 67.9,
       "y": 89,
-      "w": 4.8,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 13,
       "cover": "rock",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "ub",
+      "box": [
+        63.400000000000006,
+        84.5,
+        9,
+        9
+      ]
     }
   ],
   "questions": [
@@ -270,7 +306,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -423,99 +459,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -531,7 +603,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -684,99 +756,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -792,7 +900,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -945,99 +1053,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -1053,7 +1197,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1206,116 +1350,152 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-2-u8-hunt-v4-5",
-      "prompt": "What letter makes the sound /n/?",
+      "prompt": "Find the spelling in \"nut\".",
       "groups": [
         {
           "targets": [
             "upper-0",
-            "lower-0"
+            "upper-2"
           ],
           "need": 1
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1468,127 +1648,155 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ],
-      "sound": {
-        "letters": [
-          "N"
-        ],
-        "letter": "N",
-        "sourcePattern": "letter-N",
-        "ipa": "n",
-        "instruction": "What letter makes this sound?",
-        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/n-isolated.wav",
-        "repetitions": 2,
-        "pauseMs": 550
-      }
+      "audioText": "nut",
+      "repeatAudio": 2,
+      "sourcePattern": "ut"
     },
     {
       "id": "phonics-2-u8-hunt-v4-6",
-      "prompt": "Find the small n!",
+      "prompt": "Find the spelling in \"cub\".",
       "groups": [
         {
           "targets": [
-            "lower-0"
+            "lower-0",
+            "lower-2"
           ],
           "need": 1
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1741,101 +1949,140 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "cub",
+      "repeatAudio": 2,
+      "sourcePattern": "ub"
     },
     {
       "id": "phonics-2-u8-hunt-v4-7",
@@ -1853,7 +2100,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2006,99 +2253,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -2116,7 +2399,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2269,105 +2552,141 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-2-u8-hunt-v4-9",
-      "prompt": "Where is the big U?",
+      "prompt": "Find the spelling in \"gum\".",
       "groups": [
         {
           "targets": [
@@ -2377,7 +2696,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2530,105 +2849,144 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "gum",
+      "repeatAudio": 2,
+      "sourcePattern": "um"
     },
     {
       "id": "phonics-2-u8-hunt-v4-10",
-      "prompt": "Where is the small u?",
+      "prompt": "Find the spelling in \"bun\".",
       "groups": [
         {
           "targets": [
@@ -2638,7 +2996,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2791,101 +3149,140 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "bun",
+      "repeatAudio": 2,
+      "sourcePattern": "un"
     },
     {
       "id": "phonics-2-u8-hunt-v4-11",
@@ -2899,7 +3296,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3052,99 +3449,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -3160,7 +3593,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3313,116 +3746,152 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-2-u8-hunt-v4-13",
-      "prompt": "What letter makes the sound /ʌ/?",
+      "prompt": "Find the spelling in \"nut\".",
       "groups": [
         {
           "targets": [
-            "upper-1",
-            "lower-1"
+            "upper-0",
+            "upper-2"
           ],
           "need": 1
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3575,127 +4044,155 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ],
-      "sound": {
-        "letters": [
-          "U"
-        ],
-        "letter": "U",
-        "sourcePattern": "letter-U",
-        "ipa": "ʌ",
-        "instruction": "What letter makes this sound?",
-        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/mud-isolated.wav",
-        "repetitions": 2,
-        "pauseMs": 550
-      }
+      "audioText": "nut",
+      "repeatAudio": 2,
+      "sourcePattern": "ut"
     },
     {
       "id": "phonics-2-u8-hunt-v4-14",
-      "prompt": "Can you see the small t?",
+      "prompt": "Find the spelling in \"cub\".",
       "groups": [
         {
           "targets": [
+            "lower-0",
             "lower-2"
           ],
           "need": 1
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3848,101 +4345,140 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "cub",
+      "repeatAudio": 2,
+      "sourcePattern": "ub"
     },
     {
       "id": "phonics-2-u8-hunt-v4-15",
@@ -3958,7 +4494,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4111,99 +4647,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -4221,7 +4793,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4374,99 +4946,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -4486,7 +5094,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4639,99 +5247,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -4749,7 +5393,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4902,99 +5546,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -5012,7 +5692,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -5165,99 +5845,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -5281,7 +5997,7 @@
         }
       ],
       "world": "ocean",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -5434,99 +6150,135 @@
         },
         {
           "id": "upper-0",
-          "word": "N",
+          "word": "ut",
           "color": null,
           "x": 86.9,
           "y": 86,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            82.4,
+            81.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "n",
+          "word": "ub",
           "color": null,
           "x": 65.9,
           "y": 46,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            61.400000000000006,
+            41.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "U",
+          "word": "um",
           "color": null,
           "x": 7.9,
           "y": 88,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "um",
+          "box": [
+            3.4000000000000004,
+            83.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "u",
+          "word": "un",
           "color": null,
           "x": 79.9,
           "y": 25,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "un",
+          "box": [
+            75.4,
+            20.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "T",
+          "word": "ut",
           "color": null,
           "x": 34.9,
           "y": 70,
-          "w": 5.3999999999999995,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ut",
+          "box": [
+            30.4,
+            65.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "t",
+          "word": "ub",
           "color": null,
           "x": 67.9,
           "y": 89,
-          "w": 4.8,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "rock",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "ub",
+          "box": [
+            63.400000000000006,
+            84.5,
+            9,
+            9
+          ]
         }
       ]
     }
@@ -5535,7 +6287,10 @@
   "scene": {
     "id": "ocean",
     "title": "Đáy đại dương",
-    "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-2-unit-8.svg"
+    "background": "../game-kit/adventures/unit-scenes-v4/phonics-2-unit-8-spelling.webp"
   },
-  "artRevision": 2
+  "artRevision": 2,
+  "storageRevision": 6,
+  "spellingRevision": 1,
+  "renderSourceSha256": "e743caaacc49bb0da2a48c837fada28687e46f4d29a215d32a44d1fe7d4c6813"
 }

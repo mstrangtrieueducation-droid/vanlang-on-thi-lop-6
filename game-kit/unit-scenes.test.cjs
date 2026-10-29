@@ -1,0 +1,41 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),Scenes=require('./unit-scenes.js');
+const root=path.resolve(__dirname,'..');
+test('the approved catalogue contains the exact 114 requested settings, with no invented Discover 4 list',()=>{
+ assert.equal(Object.values(Scenes.titles).flat().length,114);assert.equal(Scenes.titles['phonics-4'].length,6);assert.equal(Scenes.setting('phonics-4',7),null);assert.equal(Scenes.setting('discover-4',1),null);assert.equal(Scenes.setting('phonics-2',4).title,'In the Restaurant');assert.equal(Scenes.setting('family-friends-2',9).title,'Neighborhood Map');assert.equal(Scenes.setting('discover-3',18).title,'Antarctic Fishing Village');
+ const production=require('./adventures/unit-scenes-v4/production.json');assert.equal(production.scenes.length,114);assert.equal(production.scenes.filter(s=>s.status==='illustrated-and-measured').length,4);for(const s of production.scenes){assert.deepEqual(s.title,Scenes.setting(s.course,s.unit).title);assert(s.sourceWords.length);if(s.status==='artwork-pending')assert.equal(s.image,null);}
+});
+test('Phonics 4 display scope ends at Unit 6 without deleting historical lessons or editing other courses',()=>{
+ const original=require('../khoa-hoc/data/phonics-4.index.json'),before=JSON.stringify(original),view=Scenes.scope(original);assert.equal(view.lessons.length,24);assert(view.lessons.every(l=>l.unit<=6));assert.equal(JSON.stringify(original),before);assert.equal(original.lessons.length,32);const other=require('../khoa-hoc/data/discover-4.index.json');assert.deepEqual(Scenes.scope(other),other);
+});
+test('new Phonics panorama covers every A/B/C noun and six readable, separately measured glyphs',()=>{
+ const p=require('../khoa-hoc/hunt-worlds/phonics-1/unit-1.json'),u=require('../khoa-hoc/phonics-units.cjs')[1][0];assert.equal(p.questions.length,20);assert.equal(p.storageRevision,6);assert.deepEqual(p.sourceWords,u.levels.flatMap(l=>l.words));assert.deepEqual(p.objects.filter(o=>o.kind==='object').map(o=>o.word).sort(),[...p.sourceWords].sort());assert.equal(p.objects.filter(o=>o.kind==='letter').length,6);
+ for(const o of p.objects){const [x,y,w,h]=o.box;assert(x>=0&&y>=0&&x+w<=100&&y+h<=100);}
+ for(const q of p.questions)for(const g of q.groups){assert(g.targets.every(id=>p.objects.some(o=>o.id===id)));assert(g.need>0&&g.need<=g.targets.length);}
+ assert.equal(new Set(p.questions.map(q=>q.background)).size,1);
+});
+test('all 22 advanced Phonics review scenes target taught spellings instead of unrelated alphabet letters',()=>{
+ const units=require('../khoa-hoc/phonics-units.cjs');let count=0;
+ for(const n of [2,3,4])for(const u of units[n].filter(u=>n!==4||u.unit<=6)){
+  const p=require('../khoa-hoc/hunt-worlds/phonics-'+n+'/unit-'+u.unit+'.json'),patterns=u.levels.flatMap(l=>l.patterns);assert.equal(p.spellingRevision,1);assert.equal(p.objects.filter(o=>o.kind==='letter').length,0);assert.equal(p.objects.filter(o=>o.kind==='grapheme').length,6);for(const o of p.objects.filter(o=>o.kind==='grapheme'))assert(patterns.includes(o.sourcePattern));for(const q of p.questions.filter(q=>q.sourcePattern)){assert(patterns.includes(q.sourcePattern));assert(u.levels.flatMap(l=>l.words).includes(q.audioText));assert.equal(q.repeatAudio,2);assert(q.groups[0].targets.every(id=>p.objects.some(o=>o.id===id&&o.kind==='grapheme')));}assert(fs.existsSync(path.resolve(root,'khoa-hoc',p.questions[0].background)));const rendered=require('./adventures/unit-scenes-v4/spelling-sources.json').find(a=>p.questions[0].background.endsWith(a.file));assert.equal(p.renderSourceSha256,rendered.svgSha256);count++;
+ }assert.equal(count,22);
+});
+test('every newly illustrated Phonics Unit covers its complete source word list with valid measured regions',()=>{
+ for(const p of require('../khoa-hoc/program/approved-phonics-scenes.cjs').packs()){
+  assert.equal(p.questions.length,20);assert.deepEqual(p.sourceWords,require('../khoa-hoc/phonics-units.cjs')[+p.course.at(-1)][p.unit-1].levels.flatMap(l=>l.words));assert.equal(p.objects.filter(o=>o.kind==='object').length,p.sourceWords.length);
+  const used=new Set(p.questions.flatMap(q=>q.groups.flatMap(g=>g.targets)));for(const o of p.objects){const [x,y,w,h]=o.box;assert(x>=0&&y>=0&&x+w<=100&&y+h<=100);assert(used.has(o.id));}assert(fs.statSync(path.resolve(root,'khoa-hoc',p.scene.background)).size<1024*1024);
+ }
+});
+test('new command and detective packs retain source vocabulary, 20 graded tasks and genuine local audio',()=>{
+ const Rules=require('./adventures/rules.js'),manifest=require('./adventures/unit-scenes-v4/audio-manifest.json');
+ for(const p of [require('../khoa-hoc/program/approved-scenes.cjs').artClass(),require('../khoa-hoc/program/approved-scenes.cjs').newYear()]){
+  assert.equal(p.items.length,20);assert.equal(new Set(p.items.map(q=>q.id)).size,20);const used=new Set(p.items.flatMap(q=>q.resourceEvidence));for(const word of p.sourceWords)assert(used.has(word),word);assert(fs.existsSync(path.join(__dirname,'adventures/unit-scenes-v4',p.world.image)));for(const q of p.items){assert(Rules.check(q,q.answer));assert.equal(q.resourceTask.worldId,p.world.id);for(const text of [q.partInstruction,q.spokenScene]){assert(manifest.mapping[text]);assert(fs.statSync(path.resolve(root,'khoa-hoc',manifest.mapping[text])).size>1000);}}
+  for(const o of p.world.objects)assert(o.x-o.w/2>=0&&o.x+o.w/2<=100&&o.y-o.h/2>=0&&o.y+o.h/2<=100);
+ }
+});
+function greeting(blocked=false){const events={},nodes=[],calls=[];const body={dataset:{},append:b=>nodes.push(b)},document={body,hidden:false,currentScript:{src:'https://example.org/game-kit/titi-greeting.js'},addEventListener:(n,f)=>events[n]=f,createElement:()=>({style:{},dataset:{},remove(){nodes.splice(nodes.indexOf(this),1);}})};class Audio{constructor(src){this.src=src;}play(){calls.push(this);return blocked?Promise.reject(Object.assign(Error('policy'),{name:'NotAllowedError'})):Promise.resolve();}pause(){this.paused=true;}}const c={document,window:{TitiSpaceAudio:{prefs:{sfx:true},duck(){}} ,addEventListener:(n,f)=>events[n]=f},URL,Audio};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'titi-greeting.js'),'utf8'),c);return {api:c.window.TitiGreeting,calls,nodes,events};}
+test('greeting has no lesson startup, runs once per homepage entry, and stops when entering a child',async()=>{
+ const g=greeting();assert.equal(g.calls.length,0);g.api.enterHome();await Promise.resolve();assert.equal(g.calls.length,1);g.api.enterHome();await g.api.play();assert.equal(g.calls.length,1);g.api.leaveHome();await g.api.play(true);assert.equal(g.calls.length,1);g.api.enterHome();await Promise.resolve();assert.equal(g.calls.length,2);g.api.leaveHome();assert(g.calls.at(-1).paused);
+});
+test('autoplay rejection exposes a welcome control only at home and never binds unrelated navigation gestures',async()=>{
+ const g=greeting(true);g.api.enterHome();await new Promise(r=>setImmediate(r));assert.equal(g.nodes.length,1);assert.equal(g.events.pointerdown,undefined);assert.equal(g.events.pointerup,undefined);g.api.leaveHome();assert.equal(g.nodes.length,0);await g.api.play(true);assert.equal(g.calls.length,1);
+});

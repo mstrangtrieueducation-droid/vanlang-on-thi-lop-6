@@ -181,99 +181,135 @@
     },
     {
       "id": "upper-0",
-      "word": "B",
+      "word": "bl",
       "color": null,
       "x": 47.9,
       "y": 85,
-      "w": 4.8,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 8,
       "cover": "basket",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "bl",
+      "box": [
+        43.4,
+        80.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-0",
-      "word": "b",
+      "word": "cl",
       "color": null,
       "x": 26.9,
       "y": 48,
-      "w": 5.3999999999999995,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 11,
       "cover": "shelf",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "cl",
+      "box": [
+        22.4,
+        43.5,
+        9,
+        9
+      ]
     },
     {
       "id": "upper-1",
-      "word": "L",
+      "word": "br",
       "color": null,
       "x": 75.9,
       "y": 69,
-      "w": 4.8,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 9,
       "cover": "basket",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "br",
+      "box": [
+        71.4,
+        64.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-1",
-      "word": "l",
+      "word": "cr",
       "color": null,
       "x": 18.9,
       "y": 27,
-      "w": 5.3999999999999995,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 12,
       "cover": "shelf",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "cr",
+      "box": [
+        14.399999999999999,
+        22.5,
+        9,
+        9
+      ]
     },
     {
       "id": "upper-2",
-      "word": "A",
+      "word": "fl",
       "color": null,
       "x": 86.9,
       "y": 42,
-      "w": 4.8,
-      "h": 9.7,
-      "kind": "letter",
-      "case": "upper",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 10,
       "cover": "basket",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "fl",
+      "box": [
+        82.4,
+        37.5,
+        9,
+        9
+      ]
     },
     {
       "id": "lower-2",
-      "word": "a",
+      "word": "gl",
       "color": null,
       "x": 27.9,
       "y": 87,
-      "w": 5.3999999999999995,
-      "h": 8.7,
-      "kind": "letter",
-      "case": "lower",
+      "w": 9,
+      "h": 9,
+      "kind": "grapheme",
       "cell": 13,
       "cover": "shelf",
       "occlusion": 0,
       "protectedSilhouette": true,
-      "concealment": "scenery-framed glyph"
+      "concealment": "scenery-framed glyph",
+      "sourcePattern": "gl",
+      "box": [
+        23.4,
+        82.5,
+        9,
+        9
+      ]
     }
   ],
   "questions": [
@@ -289,7 +325,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -461,99 +497,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -569,7 +641,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -741,99 +813,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -849,7 +957,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1021,99 +1129,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -1129,7 +1273,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1301,116 +1445,151 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-4-u1-hunt-v4-5",
-      "prompt": "What letter makes the sound /b/?",
+      "prompt": "Find the spelling in \"black\".",
       "groups": [
         {
           "targets": [
-            "upper-0",
-            "lower-0"
+            "upper-0"
           ],
           "need": 1
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1582,117 +1761,144 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ],
-      "sound": {
-        "letters": [
-          "B"
-        ],
-        "letter": "B",
-        "sourcePattern": "letter-B",
-        "ipa": "b",
-        "instruction": "What letter makes this sound?",
-        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/b-isolated.wav",
-        "repetitions": 2,
-        "pauseMs": 550
-      }
+      "audioText": "black",
+      "repeatAudio": 2,
+      "sourcePattern": "bl"
     },
     {
       "id": "phonics-4-u1-hunt-v4-6",
-      "prompt": "Find the small b!",
+      "prompt": "Find the spelling in \"clock\".",
       "groups": [
         {
           "targets": [
@@ -1702,7 +1908,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -1874,101 +2080,140 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "clock",
+      "repeatAudio": 2,
+      "sourcePattern": "cl"
     },
     {
       "id": "phonics-4-u1-hunt-v4-7",
@@ -1986,7 +2231,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2158,99 +2403,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -2268,7 +2549,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2440,105 +2721,141 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-4-u1-hunt-v4-9",
-      "prompt": "Where is the big L?",
+      "prompt": "Find the spelling in \"broom\".",
       "groups": [
         {
           "targets": [
@@ -2548,7 +2865,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -2720,105 +3037,144 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "broom",
+      "repeatAudio": 2,
+      "sourcePattern": "br"
     },
     {
       "id": "phonics-4-u1-hunt-v4-10",
-      "prompt": "Where is the small l?",
+      "prompt": "Find the spelling in \"crab\".",
       "groups": [
         {
           "targets": [
@@ -2828,7 +3184,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3000,101 +3356,140 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "crab",
+      "repeatAudio": 2,
+      "sourcePattern": "cr"
     },
     {
       "id": "phonics-4-u1-hunt-v4-11",
@@ -3108,7 +3503,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3280,99 +3675,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -3388,7 +3819,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3560,116 +3991,151 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
     {
       "id": "phonics-4-u1-hunt-v4-13",
-      "prompt": "What letter makes the sound /l/?",
+      "prompt": "Find the spelling in \"fly\".",
       "groups": [
         {
           "targets": [
-            "upper-1",
-            "lower-1"
+            "upper-2"
           ],
           "need": 1
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -3841,117 +4307,144 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ],
-      "sound": {
-        "letters": [
-          "L"
-        ],
-        "letter": "L",
-        "sourcePattern": "letter-L",
-        "ipa": "l",
-        "instruction": "What letter makes this sound?",
-        "clip": "/titi-game-media/assets/hunt-worlds/phonemes/l-isolated.wav",
-        "repetitions": 2,
-        "pauseMs": 550
-      }
+      "audioText": "fly",
+      "repeatAudio": 2,
+      "sourcePattern": "fl"
     },
     {
       "id": "phonics-4-u1-hunt-v4-14",
-      "prompt": "Can you see the small a?",
+      "prompt": "Find the spelling in \"globe\".",
       "groups": [
         {
           "targets": [
@@ -3961,7 +4454,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4133,101 +4626,140 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
-      ]
+      ],
+      "audioText": "globe",
+      "repeatAudio": 2,
+      "sourcePattern": "gl"
     },
     {
       "id": "phonics-4-u1-hunt-v4-15",
@@ -4243,7 +4775,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4415,99 +4947,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -4525,7 +5093,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4697,99 +5265,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -4809,7 +5413,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -4981,99 +5585,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -5091,7 +5731,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -5263,99 +5903,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -5373,7 +6049,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -5545,99 +6221,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     },
@@ -5661,7 +6373,7 @@
         }
       ],
       "world": "kitchen",
-      "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg",
+      "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp",
       "objects": [
         {
           "id": "first-0",
@@ -5833,99 +6545,135 @@
         },
         {
           "id": "upper-0",
-          "word": "B",
+          "word": "bl",
           "color": null,
           "x": 47.9,
           "y": 85,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 8,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "bl",
+          "box": [
+            43.4,
+            80.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-0",
-          "word": "b",
+          "word": "cl",
           "color": null,
           "x": 26.9,
           "y": 48,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 11,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cl",
+          "box": [
+            22.4,
+            43.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-1",
-          "word": "L",
+          "word": "br",
           "color": null,
           "x": 75.9,
           "y": 69,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 9,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "br",
+          "box": [
+            71.4,
+            64.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-1",
-          "word": "l",
+          "word": "cr",
           "color": null,
           "x": 18.9,
           "y": 27,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 12,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "cr",
+          "box": [
+            14.399999999999999,
+            22.5,
+            9,
+            9
+          ]
         },
         {
           "id": "upper-2",
-          "word": "A",
+          "word": "fl",
           "color": null,
           "x": 86.9,
           "y": 42,
-          "w": 4.8,
-          "h": 9.7,
-          "kind": "letter",
-          "case": "upper",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 10,
           "cover": "basket",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "fl",
+          "box": [
+            82.4,
+            37.5,
+            9,
+            9
+          ]
         },
         {
           "id": "lower-2",
-          "word": "a",
+          "word": "gl",
           "color": null,
           "x": 27.9,
           "y": 87,
-          "w": 5.3999999999999995,
-          "h": 8.7,
-          "kind": "letter",
-          "case": "lower",
+          "w": 9,
+          "h": 9,
+          "kind": "grapheme",
           "cell": 13,
           "cover": "shelf",
           "occlusion": 0,
           "protectedSilhouette": true,
-          "concealment": "scenery-framed glyph"
+          "concealment": "scenery-framed glyph",
+          "sourcePattern": "gl",
+          "box": [
+            23.4,
+            82.5,
+            9,
+            9
+          ]
         }
       ]
     }
@@ -5934,7 +6682,10 @@
   "scene": {
     "id": "kitchen",
     "title": "Nhà bếp",
-    "background": "/titi-game-media/assets/storybook-v1/scenes/phonics-4-unit-1.svg"
+    "background": "../game-kit/adventures/unit-scenes-v4/phonics-4-unit-1-spelling.webp"
   },
-  "artRevision": 2
+  "artRevision": 2,
+  "storageRevision": 6,
+  "spellingRevision": 1,
+  "renderSourceSha256": "25da8ca24a9de6c89ba6dd5c362568c2b5d8c63bb6e6be4dc1f0fc7160741ca4"
 }

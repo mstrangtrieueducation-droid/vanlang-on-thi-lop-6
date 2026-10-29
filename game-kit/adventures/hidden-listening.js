@@ -3,13 +3,13 @@
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const packs=new Map();
  async function json(url){let error;for(const cache of ['default','reload']){try{const r=await fetch(url,{cache,signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(r.status+' '+url);return await r.json();}catch(e){error=e;}}throw error;}
- function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=scene-art-2`),json('../game-kit/adventures/hunt-audio/worlds-v4.json?v=unit-sounds-5')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
+ function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=unit-scenes-20261030`),json('../game-kit/adventures/unit-scenes-v4/hunt-audio.json?v=unit-scenes-20261030')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
  async function open(){
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
   host.className='unit-review-menu hunt-loading';host.setAttribute('aria-busy','true');host.innerHTML='<header><h1>Cùng Titi mở bức tranh!</h1><p>Đang chuẩn bị khu vườn bí mật…</p></header><a href="'+esc(back.href)+'">← Unit Review</a>';const {pack,voices}=await preload(c.courseId,g.unit);host.removeAttribute('aria-busy');
   const sprites=null;let paintedBackground=null;
-  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v4',fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
+  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v'+(pack.storageRevision||4),fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
   let state;try{state=JSON.parse(storage.getItem(key));}catch{}
   if(!state||state.version!==4||!Number.isInteger(state.index)||state.index<0||state.index>20)state=fresh();
   const entry=await StartNewJourney.choose({title:'Picture Explorer · Unit '+pack.unit,hasProgress:state.index>0||state.collected?.length>0,back:back.href});if(entry==='new'){state=fresh();storage.removeItem(key);}
@@ -23,7 +23,7 @@
   function stopVoice(){voiceTicket++;player.pause();if(cancelClip){const f=cancelClip;cancelClip=null;f(false);}host.querySelector('#hunt-listen')?.classList.remove('speaking');window.EpicBGM?.duck(false);}
   async function say(text){
    stopVoice();if(!state.sound)return true;window.EpicBGM?.duck(true);
-   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?String(question.prompt).replace(/^(?:Find|Where is|Where are|Can you see)\s+(?:the\s+)?/i,'').replace(/[!?]+$/,''):text,content=question?.sound?[{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
+   const ticket=voiceTicket,question=typeof text==='object'?text:null,prompt=question?.sound?(question.sound.instruction||'What letter makes this sound?'):question?String(question.audioText||question.prompt).replace(/^(?:Find|Where is|Where are|Can you see)\s+(?:the\s+)?/i,'').replace(/[!?]+$/,''):text,content=question?.sound?[{src:question.sound.clip,pauseAfterMs:question.sound.pauseMs},{src:question.sound.clip}]:[voices[prompt]||window.TitiVoice?.lookup(prompt)].flat().filter(Boolean),clips=question?.repeatAudio===2?[...content.map((c,i)=>({src:typeof c==='string'?c:c.src,pauseAfterMs:i===content.length-1?550:0})),...content]:content;if(!clips.length){status('Chưa tải được tiếng. Chạm loa để thử lại.');return false;}
    host.querySelector('#hunt-listen')?.classList.add('speaking');
    for(const clip of clips){if(ticket!==voiceTicket)return false;const ok=await new Promise(resolve=>{
     let finished=false;const timer=setTimeout(()=>done(false),20000);
@@ -47,13 +47,13 @@
    host.querySelectorAll('[data-hotspot]').forEach(b=>{b.classList.toggle('found',state.collected.includes(b.dataset.hotspot));b.setAttribute('aria-pressed',String(state.collected.includes(b.dataset.hotspot)));});
    status('Nghe Titi và chạm vào tranh. Có thể phóng to để tìm kỹ hơn.');
    // Warm only the next few short local clips, rather than the entire audio bank.
-   for(const text of [current().prompt,pack.questions[state.index+1]?.prompt,'Great job!','Awesome!'])for(const clip of [voices[text]].flat().filter(Boolean))fetch(window.GameMedia?.url(clip)||clip,{cache:'force-cache'}).catch(()=>{});
+   for(const text of [...pack.questions.slice(state.index,state.index+4).map(q=>q.audioText||q.prompt),'Great job!','Awesome!'])for(const clip of [voices[text]].flat().filter(Boolean))fetch(window.GameMedia?.url(clip)||clip,{cache:'force-cache'}).catch(()=>{});
   }
-  async function paint(){const q=current(),i=state.index;locked=true;if(paintedBackground!==q.background){await HuntWorldRenderer.draw(host.querySelector('.panorama-image'),q,sprites);paintedBackground=q.background;}if(i!==state.index)return;host.querySelectorAll('[data-hotspot]').forEach(b=>{const o=q.objects.find(o=>o.id===b.dataset.hotspot);const intact=o.protectedSilhouette||o.kind==='letter'||o.word==='peach';b.style.cssText=`left:${o.x}%;top:${o.y-o.h*(intact?.03:.2)}%;width:${o.w}%;height:${o.h*(intact?.88:.58)}%`;});locked=false;window.TitiImages?.near(pack.questions,i);}
+  async function paint(){const q=current(),i=state.index;locked=true;if(paintedBackground!==q.background){await HuntWorldRenderer.draw(host.querySelector('.panorama-image'),q,sprites);paintedBackground=q.background;}if(i!==state.index)return;host.querySelectorAll('[data-hotspot]').forEach(b=>{const o=q.objects.find(o=>o.id===b.dataset.hotspot);if(o.box){const [x,y,w,h]=o.box;b.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%`;return;}const intact=o.protectedSilhouette||o.kind==='letter'||o.word==='peach';b.style.cssText=`left:${o.x}%;top:${o.y-o.h*(intact?.03:.2)}%;width:${o.w}%;height:${o.h*(intact?.88:.58)}%`;});locked=false;window.TitiImages?.near(pack.questions,i);}
   async function advance(){if(!active||!state.complete)return;state.index++;state.collected=[];state.missed=false;state.complete=false;locked=true;epoch++;save();if(state.index<20){status('Cùng tìm tiếp trong tranh nhé…');try{await paint();update();if(active)readQuestion();}catch(e){pause();status('Chưa tải được cảnh. Chạm Chơi tiếp để thử lại.');}}else result();}
   async function celebrate(){
    locked=true;const token=epoch;status('Great job! ✨');await new Promise(r=>setTimeout(r,450));
-   if(current().sound&&!await narration){if(token!==epoch||!active||document.hidden)return;if(!await readQuestion()){if(token===epoch&&active)pause();return;}}
+   if(!await narration){if(token!==epoch||!active||document.hidden)return;if(!await readQuestion()){if(token===epoch&&active)pause();return;}}
    if(current().sound)sound();
    if(token!==epoch||!active||document.hidden)return;
    sound();const ok=await say(['Great job!','Awesome!','Bingo!'][state.index%3]);
@@ -75,8 +75,8 @@
    if(fit)zoom=1;else if(!loaded&&innerWidth<700)zoom=Math.max(1,Math.max(900,camera.clientHeight*ratio)/base);
    const width=Math.min(2800,Math.max(280,base*zoom));canvas.style.width=width+'px';canvas.style.marginTop=Math.max(0,(camera.clientHeight-width/ratio)/2)+'px';
   }
-  function pause(){settle();active=false;epoch++;stopVoice();save();const layer=host.querySelector('.hunt-start-layer');if(layer){layer.hidden=false;layer.querySelector('button').textContent='▶ Chơi tiếp';}locked=false;}
-  async function begin(){if(!loaded||locked)return;lastTick=performance.now();active=true;host.querySelector('.hunt-start-layer').hidden=true;sound();if(instructionNeeded){instructionNeeded=false;const ok=await say('Listen and find. Tap the matching object or letter.');if(!ok||!active)return;}if(state.complete)advance();else readQuestion();}
+  function pause(){settle();active=false;instructionNeeded=true;host.dataset.huntReady='false';epoch++;stopVoice();save();const layer=host.querySelector('.hunt-start-layer');if(layer){layer.hidden=false;layer.querySelector('button').textContent='▶ Chơi tiếp';}locked=false;}
+  async function begin(){if(!loaded||locked)return;lastTick=performance.now();active=true;host.querySelector('.hunt-start-layer').hidden=true;sound();if(instructionNeeded){instructionNeeded=false;locked=true;host.dataset.huntReady='false';narration=say('Listen and find. Tap the matching object or letter.');const ok=await narration;locked=false;if(!ok){instructionNeeded=true;if(active)pause();return;}if(!active)return;}host.dataset.huntReady='true';if(state.complete)advance();else readQuestion();}
   function result(){settle();active=false;epoch++;stopVoice();save();const seconds=Math.round(state.elapsedMs/1000);
    host.className='hidden-hunt panorama-result';host.innerHTML=`<section class="hunt-result"><h1>Treasure found! 🏆</h1><p>${state.answers.filter(Boolean).length}/20 · ${Math.floor(seconds/60)} phút ${seconds%60} giây</p><p>Con đã tìm đồ vật, màu sắc, số lượng, chữ cái và âm trong tranh!</p><a href="${esc(back.href)}">← Unit Review</a><button id="hunt-again">↺ Bắt đầu hành trình mới</button></section>`;
    host.querySelector('#hunt-again').onclick=()=>{storage.removeItem(key);location.reload();};
@@ -88,7 +88,7 @@
   try{await paint();resize();loaded=true;const start=host.querySelector('.hunt-start-layer button');start.disabled=false;start.textContent=state.index||state.collected.length?'▶ Chơi tiếp':'▶ Bắt đầu khám phá';}catch(e){status('Chưa tải được tranh. Con tải lại trang nhé.');throw e;}
   host.querySelector('.hunt-start-layer button').onclick=begin;
   host.querySelector('.panorama-canvas').onclick=e=>{if(e.target.classList.contains('panorama-canvas')){if(active&&!locked)wrong();}};
-  host.querySelector('#hunt-listen').onclick=()=>{if(!active){begin();return;}if(state.complete){if(current().sound&&locked)return;stopVoice();epoch++;advance();}else readQuestion();};
+  host.querySelector('#hunt-listen').onclick=()=>{if(locked)return;if(!active){begin();return;}if(state.complete){if(locked)return;stopVoice();epoch++;advance();}else readQuestion();};
   host.querySelector('#hunt-sound').onclick=e=>{state.sound=!state.sound;e.currentTarget.textContent=state.sound?'🔊':'🔇';if(!state.sound)stopVoice();save();if(active){if(state.complete){epoch++;advance();}else if(state.sound)readQuestion();}};
   host.querySelector('#hunt-reveal').onclick=hint;window.StartNewJourney?.mount(host,()=>{active=false;epoch++;stopVoice();state=fresh();save();location.reload();});
   host.querySelector('#hunt-smaller').onclick=()=>{zoom=Math.max(.5,zoom/1.25);resize();};host.querySelector('#hunt-bigger').onclick=()=>{zoom=Math.min(8,zoom*1.25);resize();};host.querySelector('#hunt-fit').onclick=()=>resize(true);

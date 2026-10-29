@@ -9,12 +9,12 @@ test('all 102 source-bounded scene packs have valid visible landing zones and fi
   }
  }assert.equal(count,102);
 });
-test('the 640 Phonics prompts, answers, sound clips and source references survive the art migration unchanged',()=>{
- const content=profiles.map(p=>require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json').questions.map(({objects,world,background,...q})=>q));
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'),'42f2ec95ec4e0c0f5322eb13dcb2f89605ec735086f843fea4d0d3c6a50e098c');
+test('the eight untouched legacy scenes preserve their prompts, sound clips and source references',()=>{
+ const content=profiles.filter(p=>p.course==='phonics-1'&&![1,2].includes(p.unit)||p.course==='phonics-4'&&p.unit>6).map(p=>require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json').questions.map(({objects,world,background,...q})=>q));
+ assert.equal(crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'),'9e117ae7389a67d90c09ba4e4dbece6050e90ccea8c0ba5bd4ab1151451be1e8');
 });
 test('all 32 Phonics pictures keep clear glyph and peach silhouettes while other targets use varied camouflage',()=>{
- for(const p of profiles){const pack=require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json');assert.equal(pack.artRevision,2);for(const o of pack.objects){if(o.kind==='letter'||o.word==='peach'){assert(o.protectedSilhouette);assert.equal(o.occlusion,0);}else assert(o.occlusion>=.39&&o.occlusion<=.49);assert(o.w<=8.5);}
+ for(const p of profiles){const pack=require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json');if(pack.artRevision===3)continue;assert.equal(pack.artRevision,2);for(const o of pack.objects){if(['letter','grapheme'].includes(o.kind)||o.word==='peach'){assert(o.protectedSilhouette);assert.equal(o.occlusion,0);}else assert(o.occlusion>=.39&&o.occlusion<=.49);assert(o.w<=(o.kind==='grapheme'?15:8.5));}
   const svg=fs.readFileSync('game-kit/adventures/storybook-v1/scenes/'+p.course+'-unit-'+p.unit+'.svg','utf8');assert(svg.includes('<clipPath'));assert(!svg.includes('peach-skin'),'use the checked storybook peach, not the mismatched substitute');
  }
 });

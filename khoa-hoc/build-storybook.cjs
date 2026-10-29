@@ -32,3 +32,6 @@ for(const [index,p]of profiles.entries()){
  delete pack.atlas;fs.writeFileSync(file,JSON.stringify(pack,null,2)+'\n');manifest.push({course:p.course,unit:p.unit,theme:theme[0],title:theme[1],background,objects:objects.length,bytes:Buffer.byteLength(svg)});
 }
 fs.writeFileSync(path.join(__dirname,'storybook-scenes.json'),JSON.stringify(manifest,null,2)+'\n');console.log('32 fixed Unit illustrations · 640 questions · ten themed settings · partial occlusion');
+
+require('./build-spelling-scenes.cjs').write();
+require('./build-approved-scenes.cjs').write();

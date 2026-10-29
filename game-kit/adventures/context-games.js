@@ -40,7 +40,7 @@ function cachedPlate(task){
  return img;
 }
 function mountPlate(board,task){const img=cachedPlate(task),host=board.querySelector('[data-context-art]');host.append(img);if(img.complete&&img.naturalWidth)host.classList.add('context-art-ready');}
-function warm(task){if(task?.sceneVersion===3){window.LivingScenes?.warm(task);return;}if(task&&['sceneActions','detectiveScene'].includes(task.kind))cachedPlate(task);}
+function warm(task){if([3,4].includes(task?.sceneVersion)){window.LivingScenes?.warm(task);return;}if(task&&['sceneActions','detectiveScene'].includes(task.kind))cachedPlate(task);}
 
 const style=p=>`left:${p.x}%;top:${p.y}%;--fit-width:${p.w}%;--fit-height:${p.h}%;--fit-angle:${p.angle||0}deg`;
 function targetView(task,t){

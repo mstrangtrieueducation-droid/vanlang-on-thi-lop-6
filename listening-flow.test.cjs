@@ -17,7 +17,7 @@ test('Văn Lang source tests retain canonical answers, original emphasis and exp
  assert.equal(ids.size,800);assert.equal(T.markup('<u>ea</u><img src=x onerror=alert(1)>'),'<u>ea</u>');
 });
 test('Hidden scenes are independently deployable and failed loads are evicted',()=>{
- for(let n=1;n<=4;n++)for(let u=1;u<=8;u++){const pack=require(`./khoa-hoc/hunt-worlds/phonics-${n}/unit-${u}.json`);assert.equal(pack.version,5);const src=pack.questions[0].background.replace('/titi-game-media/assets/','game-kit/adventures/');assert(fs.existsSync(src));}
+ for(let n=1;n<=4;n++)for(let u=1;u<=8;u++){const pack=require(`./khoa-hoc/hunt-worlds/phonics-${n}/unit-${u}.json`);assert.equal(pack.version,5);const url=pack.questions[0].background,src=url.startsWith('/titi-game-media/')?url.replace('/titi-game-media/assets/','game-kit/adventures/'):path.resolve('khoa-hoc',url);assert(fs.existsSync(src));}
  assert(fs.readFileSync('game-kit/adventures/hunt-world-renderer.js','utf8').includes('cache.delete(url)'));
 });
 test('All 36 original Discover tests have a source-audio clip for every listening item',()=>{
