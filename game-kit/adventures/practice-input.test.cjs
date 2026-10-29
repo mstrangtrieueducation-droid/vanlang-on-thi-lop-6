@@ -6,6 +6,9 @@ test('Whole-word spelling uses original keys only after a complete correct input
  assert.equal(Input.response(q,'pencil'),'ni');assert.equal(Input.display(q,'ni'),'pencil');assert.equal(q.answer,'ni');
  assert.equal(Input.readyForAuto(q,'pen'),false);assert.equal(Input.readyForAuto(q,'pencil'),true);
 });
+test('Spelling result review displays the whole word without rewriting saved first and last responses',()=>{
+ const Flow=require('./flow-core.js'),q={id:'stable',answer:'n',letterGap:{word:'ant'},scene:'a_t'},run={answers:{},responses:{}};Flow.response(run,q.id,Input.response(q,'at'));Flow.response(run,q.id,Input.response(q,'ant'));const before=JSON.stringify(run),view=Flow.review(q,run,{skill:()=> 'phonics',explanation:()=> 'Write ant.',reflect:()=> ''});assert.equal(view.first,'at');assert.equal(view.last,'ant');assert.equal(view.correct,'ant');assert.equal(JSON.stringify(run),before);
+});
 test('Presentation preparation keeps source answer keys and makes blend letters interactive',()=>{
  const g={items:[{id:'b',prompt:'Blend the letters. Choose the word.',scene:'a · p · p · l · e',answer:'apple'},{id:'n',prompt:'Write the number in words.',answer:'three'}]};
  Input.prepare(g,'family-friends-1');assert.deepEqual(g.items[0].blendLetters,['a','p','p','l','e']);assert.equal(g.items[0].scene,'');assert.equal(g.items[0].answer,'apple');assert.equal(g.items[1].partTitle,'Write the number word');
