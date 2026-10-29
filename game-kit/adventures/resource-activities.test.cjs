@@ -33,5 +33,5 @@ test('No runtime plays question-number clips, and each exercise runtime waits fo
 
  test('Verified original recordings retain source track provenance and exact file hashes',()=>{
  const vm=require('node:vm'),crypto=require('node:crypto'),ctx={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/resources-audio/manifest.js','utf8'),ctx);
- for(const [id,record]of Object.entries(ctx.window.ResourcesRecordings)){assert(id.startsWith('family-friends-1-u1-'));assert(record.sourceUrl.includes('drive.google.com/file/d/'));const file=__dirname+'/../../'+record.src.slice(3);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),record.sha256);}
+ for(const [id,record]of Object.entries(ctx.window.ResourcesRecordings)){if(record.unavailable){assert(record.reason.includes('different Class Book edition'));assert(!record.src);continue;}assert(/^(?:family-friends-[12]|discover-[1-4])-u\d+-(?:source|reading|lesson1)$/.test(id));if(record.delivery){assert(record.originalSHA256);assert(record.delivery.includes('no generated speech'));}assert(record.sourceUrl.includes('drive.google.com/file/d/'));const file=__dirname+'/../../'+record.src.slice(3);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),record.sha256);}
  });
