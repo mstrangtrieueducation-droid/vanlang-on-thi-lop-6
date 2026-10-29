@@ -1,7 +1,7 @@
 /* Draw directly over the complete original book graphic. Native IDs/answer keys are retained. */
 (()=>{'use strict';
 const data=window.TextbookMapData?.questions||{},esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),base='../game-kit/adventures/textbook-maps/';
-const resolve=q=>data[q.id]||null;let observer=null;
+const resolve=q=>q.textbookD?null:data[q.id]||null;let observer=null;
 function trail(values){try{return JSON.parse(values.find(v=>String(v).startsWith('book-map:'))?.slice(9)||'[]');}catch{return [];}}
 function hits(points,m){const visited=[];for(const p of points){const nearest=Object.entries(m.nodes).filter(([,n])=>((p[0]-n.x)/n.rx)**2+((p[1]-n.y)/n.ry)**2<=1).sort((a,b)=>Math.hypot(p[0]-a[1].x,p[1]-a[1].y)-Math.hypot(p[0]-b[1].x,p[1]-b[1].y))[0];if(nearest&&visited.at(-1)!==nearest[0])visited.push(nearest[0]);}return visited;}
 function valid(points,m){if(points.length<4)return false;const ordered=hits(points,m),last=ordered.at(-1),end=points.at(-1),goal=m.nodes[m.required.at(-1)];if(((end[0]-goal.x)/goal.rx)**2+((end[1]-goal.y)/goal.ry)**2>1)return false;if(m.kind==='listenMap')return last===m.required[0]&&Math.hypot(points[0][0]-points.at(-1)[0],points[0][1]-points.at(-1)[1])>45;if(m.strictRule&&ordered.some(w=>!m.validWords.includes(w)))return false;const only=ordered.filter(w=>m.required.includes(w));if(only[0]!==m.required[0])return false;let step=0;for(const word of only)if(word===m.required[step])step++;return step===m.required.length&&last===m.required.at(-1);}

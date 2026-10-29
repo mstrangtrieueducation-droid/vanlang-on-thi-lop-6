@@ -14,6 +14,7 @@
  function sourcePosition(q){const text=flat(q.storyText),evidence=(Array.isArray(q.evidence)?q.evidence:[q.evidence]).filter(Boolean),completed=String(q.scene||'').replace(/_{2,}/,q.answer);for(const quote of [...evidence,completed]){const needle=flat(quote),at=text.indexOf(needle);if(needle.length>3&&at>=0)return at;}const answer=flat(q.answer),at=text.indexOf(answer);return answer.length>2&&at>=0&&text.indexOf(answer,at+answer.length)<0?at:null;}
  function readingOrder(items){const out=[...items];let start=0;while(start<out.length){const first=out[start];if(!first.storyId||first.resourceTask){start++;continue;}let end=start+1;while(end<out.length&&out[end].storyId===first.storyId&&out[end].partType===first.partType&&!out[end].resourceTask)end++;const rows=out.slice(start,end),positions=rows.map(sourcePosition);if(rows.length>1&&positions.every(p=>p!==null))out.splice(start,rows.length,...rows.map((q,i)=>({q,i,p:positions[i]})).sort((a,b)=>a.p-b.p||a.i-b.i).map(r=>r.q));start=end;}return out;}
  function prepare(g,course){
+  globalThis.TextbookDCore?.prepare(g,globalThis.TextbookDData);
   const seen=new Set();
   for(const q of g.items||[]){
    const signature=JSON.stringify([q.scene,q.prompt,q.answer,q.picturePrompt?.semantic,q.resourceTask,q.visual]);const duplicate=seen.has(signature);seen.add(signature);

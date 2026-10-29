@@ -38,6 +38,7 @@
  const taskQuestion=p=>/^(?:Which answer matches the clue\?|Which group does this belong to\?|Which word(?: or phrase)? (?:completes the sentence|fits)\?|Which word (?:matches the picture|belongs to this (?:letter|spelling) group|has the same (?:first|last) sound)\?|Which list contains exactly the requested items\?|Which preposition goes before this time expression\?|Which order matches the story\?|Which word (?:has stress on the second syllable|ends with (?:the sound )?\/s\/)\?|Which instruction has the opposite meaning\?)$/i.test(String(p||'').trim());
  const generic=p=>taskQuestion(p)||/^(?:listen\b|read\b|look\b|choose\b|select\b|tap\b|click\b|match\b|put\b|build\b|sort\b|write\b|fill\b|complete\b|follow\b|find\b|count\b|which (?:letter|letters|sound|word) (?:is missing|completes?))/i.test(String(p||'').trim());
  function describe(q){
+  if(q.textbookD)return {key:'textbookD:'+q.textbookD.instruction,block:q.textbookD.book+':'+q.textbookD.sound,type:'readChoose',title:'Textbook D',instruction:q.textbookD.instruction};
   let type='readChoose';
   if(q.partType&&tasks[q.partType])type=q.partType;
   else if(q.matchPictures)type='match';
