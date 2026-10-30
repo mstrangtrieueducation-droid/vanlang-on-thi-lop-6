@@ -6,6 +6,7 @@ function patch(old,fresh,preserveDock){
  if(old.nodeType===3){if(old.data!==fresh.data)old.data=fresh.data;return;}
  if(old.nodeType!==1)return;
  for(const a of ['src','href']){const deferred='data-preload-'+a;if(fresh.hasAttribute(deferred)&&old.getAttribute(a)===fresh.getAttribute(deferred)){fresh.setAttribute(a,old.getAttribute(a));fresh.removeAttribute(deferred);}}
+ if(fresh.hasAttribute('data-preload-background')&&old.style.backgroundImage===fresh.getAttribute('data-preload-background')){fresh.style.backgroundImage=old.style.backgroundImage;fresh.removeAttribute('data-preload-background');}
  if(old instanceof HTMLInputElement&&['id','name','data-sheet-input'].some(k=>old.getAttribute(k)!==fresh.getAttribute(k))){old.replaceWith(fresh);return;}
  // The dock owns its audio controls and artwork; mount() updates it only when its source changes.
  if(preserveDock&&old.matches('.scene-panel.listening-dock')&&fresh.matches('.scene-panel'))return;
