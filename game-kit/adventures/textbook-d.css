@@ -8,6 +8,7 @@ html[data-mode=night] .source-d{background:#122c3d;color:#e7f9ff;border-color:#5
 .d-picture-option{width:100px;flex:1;padding:4px!important}.d-picture-option svg{display:block;width:100%;height:75px}.d-picture-options{min-width:100%;gap:6px}.d-board>svg[data-d-ink] path{stroke-width:4px}
 
 .d-scope{display:inline-block;font-size:.7em;background:#d8e9ff;color:#234876;border-radius:8px;padding:3px 8px;margin-left:8px}
+.d-map-word{position:absolute;right:2%;bottom:3%;z-index:5;display:flex;align-items:center;gap:6px;padding:5px 7px;border:2px solid #2779a3;border-radius:11px;background:#fffef3ee;color:#17415a;font-size:clamp(11px,1.2vw,15px);font-weight:700;box-shadow:0 3px 12px #1238}.d-map-word input{width:clamp(48px,7vw,85px);height:33px;border:2px solid #72a3c0;border-radius:7px;background:#fff;color:#122e40;font-size:20px;text-align:center;min-width:0}
 #adventure .play:has(.source-d){z-index:100!important;isolation:auto!important}
 
 #adventure:has(.source-d) #feedback,#adventure:has(.source-d) #part-instruction{visibility:hidden}.d-options button.d-selected{border-radius:999px;box-shadow:0 0 0 3px #3bd7ff}

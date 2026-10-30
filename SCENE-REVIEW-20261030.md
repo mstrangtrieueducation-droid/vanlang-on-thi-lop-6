@@ -21,9 +21,9 @@ This is a partial content release, not certification that all 114 requested pain
 | FF1 / 1 | Art Class | All 10 Unit words, with declared primary art vocabulary | 20 commands, including give/place/point/color and compound commands |
 | Discover 1 / 1 | New Year Party | All 14 main and additional Unit words | 20 contextual relationship clues, including parents and family groups |
 
-The four new illustrations are original built-in imagegen outputs, reviewed before their regions were measured. Delivery files are WebP, approximately 254–552 KiB apiece. Native SVG spelling edits were rasterized separately and retain source hashes in `spelling-sources.json`.
+The expanded artwork pass now covers every Phonics 1 and Phonics 2 Unit, Phonics 3 Units 1–7, FF1 Unit 1 and Discover 1 Unit 1: **25 measured scenes** in total. The new illustrations are original built-in imagegen outputs, reviewed before their regions were measured. Delivery files are WebP. Native SVG spelling edits were rasterized separately and retain source hashes in `spelling-sources.json`.
 
-`game-kit/unit-scenes.js` records the exact 114 requested English settings. `game-kit/adventures/unit-scenes-v4/production.json` distinguishes the **4 illustrated-and-measured** settings from the **110 artwork-pending** settings. Existing activities remain available for those pending settings. Their older pictures must not be represented as having passed the new physical-placement, natural-color or complete Discover vocabulary audit. Discover 4 retains its existing configuration because no replacement title list was supplied.
+`game-kit/unit-scenes.js` records the exact 114 requested English settings. `game-kit/adventures/unit-scenes-v4/production.json` distinguishes the **25 illustrated-and-measured** settings from the **89 artwork-pending** settings. Existing activities remain available for those pending settings. Their older pictures must not be represented as having passed the new physical-placement, natural-color or complete Discover vocabulary audit. Discover 4 retains its existing configuration because no replacement title list was supplied.
 
 ## Maintained files and rebuilding
 
@@ -39,4 +39,4 @@ No native dashboard receipt reader, Schedule, status/count projection, identity/
 
 ## Verification
 
-282 automated checks passed. Edge browser checks covered homepage entry/return, child-page silence, the 24-level active Phonics 4 map, native touch drag and snap, saved object placement after reload, paper-sun coloring, multi-person clue completion, portrait and landscape layouts, and six rapid correct taps in Stream Treehouse. Those six taps neither skipped a question nor interrupted a word; the shared background was requested once. These are representative browser checks, not certification of the 110 pending scene illustrations.
+The release checks cover all 25 measured scenes and the original Phonics exercise-D interactions. Edge browser checks covered homepage entry/return, child-page silence, the 24-level active Phonics 4 map, native touch drag and snap, saved object placement after reload, paper-sun coloring, multi-person clue completion, portrait and landscape layouts, and six rapid correct taps in Stream Treehouse. Those six taps neither skipped a question nor interrupted a word; the shared background was requested once. These are representative browser checks, not certification of the 89 pending scene illustrations.

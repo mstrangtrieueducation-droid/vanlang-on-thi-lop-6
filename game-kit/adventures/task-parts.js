@@ -54,7 +54,7 @@
   // Keep source sections and passage-linked tasks together. Explicit section
   // identifiers take precedence for original tests with similar task wording.
   const link=q.partId||q.sourceSection||q.storyId||(q.exam&&q.source?.exercise?'source-'+q.source.url+'-'+q.source.page+'-'+q.source.exercise:'')||(String(q.scene||'').length>160?q.scene:'');
-  const instruction=q.interaction==='phonics-category'?tasks.lookChoose[1]:q.partInstruction||(taskQuestion(q.prompt)?q.prompt:tasks[type][1]);
+  const instruction=q.letterGap?q.partInstruction||tasks.lookWrite[1]:q.interaction==='phonics-category'?tasks.lookChoose[1]:q.partInstruction||(taskQuestion(q.prompt)?q.prompt:tasks[type][1]);
   return {key:type+':'+instruction,block:link,type,title:q.partTitle||tasks[type][0],instruction};
  }
  function group(items){
@@ -89,7 +89,7 @@
   return stream(q,id);
  }
  const audioInstruction=q=>{const d=describe(q);return d.instruction.includes('/')?tasks[d.type][1]:d.instruction;};
- const hiddenStory=(q,id)=>phonics(id)&&!!q.storyId;
+ const hiddenStory=(q,id)=>phonics(id)&&!!q.storyId||/^family-friends-[12]$/.test(id||'')&&!!q.storyId&&/listen\s+and\s+complete/i.test([q.prompt,q.partInstruction,q.partTitle].filter(Boolean).join(' '));
  function speech(q,options={}){
   if(instructionOnly(q,options.course))return [];
   if(q.sourceAudio)return []; // Original listening is controlled by its own player.

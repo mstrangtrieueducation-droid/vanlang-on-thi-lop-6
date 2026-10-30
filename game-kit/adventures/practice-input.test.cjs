@@ -18,6 +18,16 @@ test('Listening writing hides scripts but pictured spelling and dictation are di
 });
 test('Latin handwriting has 26 uppercase/lowercase guides and downward stems',()=>{
  const s=require('../../khoa-hoc/program/letter-strokes.cjs');for(const c of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'){const letters=s.letters(c);assert.equal(letters.length,2);assert(letters.every(l=>l.strokes.length&&l.strokes.every(p=>p.startsWith('M'))));}assert.equal(s.upper.B[0],'M45 35V185');assert.equal(s.lower.n[0],'M45 90V185');
+ assert.equal(s.lower.a[0].match(/\d+ \d+$/)[0],'145 105');assert.equal(s.lower.a[1],'M145 105V185');
+});
+test('Every Family picture task has visible art and Listen and Complete hides the source script',()=>{
+ const tasks=require('./task-parts.js');for(const n of [1,2]){const id='family-friends-'+n,course=require('../../khoa-hoc/data/'+id+'.json');let pictured=0,listening=0;for(const q of course.lessons.flatMap(l=>l.items)){
+  if(/look at the picture/i.test([q.prompt,q.partInstruction].join(' '))||/letters complete this word/i.test(q.prompt||'')){pictured++;assert(q.picturePrompt||q.pictureOptions||q.matchPictures,q.id+' missing picture');}
+  if(/listen and complete/i.test([q.prompt,q.partInstruction,q.partTitle].join(' '))){listening++;assert(tasks.hiddenStory(q,id),q.id+' reveals the listening script');}
+ }assert(pictured>300);assert(listening>150);}
+});
+test('All depth Blend Letters questions retain a matching picture',()=>{
+ for(const n of [1,2,3,4])for(const q of require('../../khoa-hoc/data/phonics-'+n+'.json').lessons.flatMap(l=>l.items))if(q.depth30&&/^Blend the letters\./.test(q.prompt||''))assert(q.picturePrompt,q.id);
 });
 test('Passage question order follows explicit source evidence without crossing Parts',()=>{
  const storyText='Emma has a green bag. Tom has a blue pen.',base={storyText,storyId:'story',partType:'readChoose'};

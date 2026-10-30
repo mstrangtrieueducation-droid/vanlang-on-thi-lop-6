@@ -13,7 +13,7 @@ function write(){
  fs.writeFileSync(path.join(out,'production.json'),JSON.stringify({schema:1,approvedAt:'2026-10-30',scenes:production},null,2)+'\n');
  const existing=JSON.parse(fs.readFileSync(path.join(root,'game-kit/adventures/hunt-audio/worlds-v4.json'),'utf8'));
  const spellings=Object.keys(Scenes.titles).filter(c=>c.startsWith('phonics-')).flatMap(c=>Scenes.titles[c].flatMap((_,i)=>JSON.parse(fs.readFileSync(path.join(__dirname,'hunt-worlds',c,'unit-'+(i+1)+'.json'),'utf8')).questions.map(q=>q.audioText).filter(Boolean)));
- const texts=[...packs.flatMap(p=>p.items.flatMap(q=>[q.partInstruction,q.spokenScene])),...hunts.flatMap(h=>h.questions.map(q=>q.audioText).filter(Boolean)),...spellings],mapping={...existing},clips={};
+ const texts=[...packs.flatMap(p=>p.items.flatMap(q=>[q.partInstruction,q.spokenScene])),...hunts.flatMap(h=>[h.instruction,...h.questions.map(q=>q.audioText)].filter(Boolean)),...spellings],mapping={...existing},clips={};
  for(const text of new Set(texts)){const key=crypto.createHash('sha256').update('en-US-AnaNeural|-10%|'+text).digest('hex').slice(0,20);clips[key]=text;mapping[text]='../game-kit/adventures/unit-scenes-v4/audio/'+key+'.mp3';}
  fs.writeFileSync(path.join(out,'audio-manifest.json'),JSON.stringify({voice:'en-US-AnaNeural',rate:'-10%',clips,mapping:Object.fromEntries(texts.map(t=>[t,mapping[t]]))},null,2)+'\n');
  fs.writeFileSync(path.join(out,'hunt-audio.json'),JSON.stringify(mapping));
