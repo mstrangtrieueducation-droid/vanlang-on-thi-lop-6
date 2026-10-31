@@ -1416,5 +1416,2377 @@
         "Find the group traveling on foot toward the water, rather than the child traveling on wheels."
       ]
     ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 9,
+    "title": "Math Class",
+    "objects": [
+      {
+        "id": "pen",
+        "word": "pen",
+        "x": 11,
+        "y": 80,
+        "w": 15,
+        "h": 9
+      },
+      {
+        "id": "pencil",
+        "word": "pencil",
+        "x": 24,
+        "y": 79,
+        "w": 15,
+        "h": 10
+      },
+      {
+        "id": "eraser",
+        "word": "eraser",
+        "x": 41,
+        "y": 79,
+        "w": 9,
+        "h": 10
+      },
+      {
+        "id": "ruler",
+        "word": "ruler",
+        "x": 57,
+        "y": 80,
+        "w": 16,
+        "h": 11
+      },
+      {
+        "id": "backpack",
+        "word": "backpack",
+        "x": 75,
+        "y": 71,
+        "w": 15,
+        "h": 25
+      },
+      {
+        "id": "notebook",
+        "word": "notebook",
+        "x": 91,
+        "y": 79,
+        "w": 14,
+        "h": 16
+      },
+      {
+        "id": "three",
+        "word": "three",
+        "x": 38,
+        "y": 15,
+        "w": 4,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-three.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "plus",
+        "word": "plus",
+        "x": 42,
+        "y": 15,
+        "w": 4,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-plus.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "four",
+        "word": "four",
+        "x": 46,
+        "y": 15,
+        "w": 4,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-four.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "equals",
+        "word": "equals",
+        "x": 50,
+        "y": 15,
+        "w": 4,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-equals.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "seven",
+        "word": "seven",
+        "x": 54,
+        "y": 15,
+        "w": 4,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-seven.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "problem",
+        "word": "problem",
+        "x": 68,
+        "y": 15,
+        "w": 19,
+        "h": 9,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-problem.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "odd",
+        "word": "odd",
+        "x": 45,
+        "y": 29,
+        "w": 20,
+        "h": 9,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-odd.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "even",
+        "word": "even",
+        "x": 68,
+        "y": 29,
+        "w": 20,
+        "h": 9,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/math-even.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      }
+    ],
+    "rows": [
+      [
+        "numbers",
+        "three",
+        "Find the first digit in the completed calculation on the left side of the board."
+      ],
+      [
+        "addition",
+        "plus",
+        "Which symbol tells us to combine the two numbers in the completed calculation?"
+      ],
+      [
+        "plus sign",
+        "plus",
+        "Find the cross-shaped mathematical sign between the first two digits on the board."
+      ],
+      [
+        "answer",
+        "seven",
+        "Which digit gives the result at the end of the completed calculation?"
+      ],
+      [
+        "equals sign",
+        "equals",
+        "Which sign uses two short horizontal lines to show that both sides have the same value?"
+      ],
+      [
+        "odd numbers",
+        "odd",
+        "Find the lower row of digits that cannot be divided into equal pairs without one left over."
+      ],
+      [
+        "problem",
+        "problem",
+        "Which calculation still has a question mark instead of its answer?"
+      ],
+      [
+        "even numbers",
+        "even",
+        "Find the lower row of digits that can each be divided into equal pairs."
+      ],
+      [
+        "pen",
+        "pen",
+        "Which writing tool on the far left uses ink rather than a graphite point?"
+      ],
+      [
+        "pencil",
+        "pencil",
+        "Find the sharpened wooden writing tool beside the ink pen."
+      ],
+      [
+        "eraser",
+        "eraser",
+        "Which small object can remove pencil marks from paper?"
+      ],
+      [
+        "ruler",
+        "ruler",
+        "Find the long straight tool with evenly spaced measurement marks."
+      ],
+      [
+        "backpack",
+        "backpack",
+        "Which object can carry school supplies on a pupil's back?"
+      ],
+      [
+        "notebook",
+        "notebook",
+        "Find the book of pages used for writing class notes at the far right."
+      ],
+      [
+        [
+          "addition",
+          "answer"
+        ],
+        "seven",
+        "Three objects and four more make how many? Select that result in the completed calculation."
+      ],
+      [
+        [
+          "odd numbers",
+          "even numbers"
+        ],
+        "even",
+        "Which lower row contains two, four and six rather than one, three and five?"
+      ],
+      [
+        [
+          "problem",
+          "answer"
+        ],
+        "problem",
+        "Which mathematical task still needs a student to work out the missing result?"
+      ],
+      [
+        [
+          "pencil",
+          "eraser"
+        ],
+        "eraser",
+        "A pupil wants to correct a graphite mark without crossing it out. Which tool would help?"
+      ],
+      [
+        [
+          "ruler",
+          "notebook"
+        ],
+        "ruler",
+        "To draw a straight measured line in a book, which tool should the pupil pick up?"
+      ],
+      [
+        [
+          "backpack",
+          "notebook"
+        ],
+        "backpack",
+        "Which item can hold the writing book and other supplies for the journey to school?"
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 10,
+    "title": "Cooking Together",
+    "objects": [
+      {
+        "id": "pot",
+        "word": "pot",
+        "x": 57,
+        "y": 53,
+        "w": 22,
+        "h": 18
+      },
+      {
+        "id": "carrots",
+        "word": "carrots",
+        "x": 24,
+        "y": 65,
+        "w": 17,
+        "h": 12
+      },
+      {
+        "id": "stone",
+        "word": "stone",
+        "x": 6,
+        "y": 90,
+        "w": 10,
+        "h": 10
+      },
+      {
+        "id": "onions",
+        "word": "onions",
+        "x": 32,
+        "y": 61,
+        "w": 12,
+        "h": 14
+      },
+      {
+        "id": "potatoes",
+        "word": "potatoes",
+        "x": 43,
+        "y": 65,
+        "w": 13,
+        "h": 14
+      },
+      {
+        "id": "sausages",
+        "word": "sausages",
+        "x": 36,
+        "y": 77,
+        "w": 14,
+        "h": 10
+      },
+      {
+        "id": "soup",
+        "word": "soup",
+        "x": 59,
+        "y": 74,
+        "w": 19,
+        "h": 16
+      },
+      {
+        "id": "cucumber",
+        "word": "cucumber",
+        "x": 24,
+        "y": 74,
+        "w": 17,
+        "h": 9
+      },
+      {
+        "id": "avocado",
+        "word": "avocado",
+        "x": 48,
+        "y": 85,
+        "w": 16,
+        "h": 13
+      },
+      {
+        "id": "peach",
+        "word": "peach",
+        "x": 70,
+        "y": 83,
+        "w": 11,
+        "h": 19
+      },
+      {
+        "id": "tomato",
+        "word": "tomato",
+        "x": 80,
+        "y": 88,
+        "w": 9,
+        "h": 14
+      },
+      {
+        "id": "orange",
+        "word": "orange",
+        "x": 82,
+        "y": 76,
+        "w": 10,
+        "h": 13
+      },
+      {
+        "id": "mango",
+        "word": "mango",
+        "x": 93,
+        "y": 80,
+        "w": 13,
+        "h": 20
+      }
+    ],
+    "rows": [
+      [
+        "pot",
+        "pot",
+        "Which large metal container on the stove is used to cook the meal?"
+      ],
+      [
+        "carrots",
+        "carrots",
+        "Find the long orange vegetables with leafy green tops."
+      ],
+      [
+        "stone",
+        "stone",
+        "Which gray object near the floor is hard and should not be eaten?"
+      ],
+      [
+        "onions",
+        "onions",
+        "Find the round layered vegetables beside the orange roots."
+      ],
+      [
+        "potatoes",
+        "potatoes",
+        "Which brown vegetables have small marks in their skins and can be mashed after cooking?"
+      ],
+      [
+        "sausages",
+        "sausages",
+        "Find the short pieces of prepared meat lined up on a plate."
+      ],
+      [
+        [
+          "soup",
+          "food"
+        ],
+        "soup",
+        "Which bowl contains a warm liquid meal with pieces of vegetables?"
+      ],
+      [
+        "cucumber",
+        "cucumber",
+        "Find the long green vegetable lying in front of the orange roots."
+      ],
+      [
+        "avocado",
+        "avocado",
+        "Which cut fruit has pale green flesh and one large brown seed?"
+      ],
+      [
+        "peach",
+        "peach",
+        "Find the pinkish fruit beside the bowl, with a groove along its skin."
+      ],
+      [
+        "tomato",
+        "tomato",
+        "Which red salad fruit has a little green leafy crown?"
+      ],
+      [
+        "orange",
+        "orange",
+        "Find the round citrus fruit whose peel is the same color as the long root vegetables."
+      ],
+      [
+        "mango",
+        "mango",
+        "Which yellow-orange tropical fruit is longer than the round citrus fruit beside it?"
+      ],
+      [
+        [
+          "food",
+          "stone"
+        ],
+        "stone",
+        "The children are sorting what they can eat. Which object at the lower left must stay out of the meal?"
+      ],
+      [
+        [
+          "pot",
+          "soup"
+        ],
+        "pot",
+        "The meal needs to stay hot before serving. Which container is still on the stove?"
+      ],
+      [
+        [
+          "avocado",
+          "peach"
+        ],
+        "avocado",
+        "Two fruits have large seeds, but only one is cut open to show its brown seed. Find that fruit."
+      ],
+      [
+        [
+          "cucumber",
+          "tomato"
+        ],
+        "cucumber",
+        "For a green salad, choose the long green ingredient rather than the round red one."
+      ],
+      [
+        [
+          "carrots",
+          "potatoes"
+        ],
+        "carrots",
+        "Find the root vegetables that are orange rather than brown."
+      ],
+      [
+        [
+          "sausages",
+          "onions"
+        ],
+        "sausages",
+        "Which ingredients on the small plate come from meat rather than plants?"
+      ],
+      [
+        [
+          "orange",
+          "mango"
+        ],
+        "orange",
+        "Choose the round citrus fruit, not the longer tropical fruit at the far right."
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 11,
+    "title": "Farm Produce Fair",
+    "objects": [
+      {
+        "id": "farmer",
+        "word": "farmer",
+        "x": 24,
+        "y": 22,
+        "w": 10,
+        "h": 27
+      },
+      {
+        "id": "cow",
+        "word": "cow",
+        "x": 9,
+        "y": 20,
+        "w": 18,
+        "h": 29
+      },
+      {
+        "id": "seller",
+        "word": "seller",
+        "x": 42,
+        "y": 25,
+        "w": 19,
+        "h": 39
+      },
+      {
+        "id": "buyer",
+        "word": "buyer",
+        "x": 66,
+        "y": 41,
+        "w": 19,
+        "h": 60
+      },
+      {
+        "id": "milk",
+        "word": "milk",
+        "x": 15,
+        "y": 47,
+        "w": 18,
+        "h": 16
+      },
+      {
+        "id": "plain",
+        "word": "plain",
+        "x": 33,
+        "y": 77,
+        "w": 19,
+        "h": 35
+      },
+      {
+        "id": "fancy",
+        "word": "fancy",
+        "x": 52,
+        "y": 77,
+        "w": 21,
+        "h": 35
+      },
+      {
+        "id": "comic book",
+        "word": "comic book",
+        "x": 89,
+        "y": 54,
+        "w": 19,
+        "h": 19
+      },
+      {
+        "id": "board game",
+        "word": "board game",
+        "x": 81,
+        "y": 71,
+        "w": 25,
+        "h": 17
+      },
+      {
+        "id": "doll",
+        "word": "doll",
+        "x": 86,
+        "y": 35,
+        "w": 10,
+        "h": 20
+      },
+      {
+        "id": "games",
+        "word": "games",
+        "x": 96,
+        "y": 69,
+        "w": 8,
+        "h": 10
+      },
+      {
+        "id": "stickers",
+        "word": "stickers",
+        "x": 86,
+        "y": 82,
+        "w": 20,
+        "h": 9
+      },
+      {
+        "id": "pins",
+        "word": "pins",
+        "x": 96,
+        "y": 25,
+        "w": 7,
+        "h": 31
+      }
+    ],
+    "rows": [
+      [
+        "farmer",
+        "farmer",
+        "Find the worker beside the large farm animal and the bottled produce."
+      ],
+      [
+        "cow",
+        "cow",
+        "Which large farm animal behind the stall provides the white drink?"
+      ],
+      [
+        "sell",
+        "seller",
+        "Who is behind the fruit stall offering produce to a customer?"
+      ],
+      [
+        "buy",
+        "buyer",
+        "Who is in front of the stall paying for something to take home?"
+      ],
+      [
+        "milk",
+        "milk",
+        "Find the bottles of white drink on the left stall."
+      ],
+      [
+        "plain",
+        "plain",
+        "Which shopping bag has no colorful pattern or decoration?"
+      ],
+      [
+        "fancy",
+        "fancy",
+        "Which shopping bag is decorated with a colorful pattern?"
+      ],
+      [
+        "market",
+        "seller",
+        "Find the person working at the fruit stall in this outdoor shopping place."
+      ],
+      [
+        "comic book",
+        "comic book",
+        "Which open book tells a story through panels of pictures?"
+      ],
+      [
+        "board game",
+        "board game",
+        "Find the flat playing board with colored spaces for moving pieces."
+      ],
+      [
+        "doll",
+        "doll",
+        "Which toy on the right looks like a small person?"
+      ],
+      [
+        "games",
+        "games",
+        "Find the little tray of dice used for playing, beside the larger board."
+      ],
+      [
+        "stickers",
+        "stickers",
+        "Which sheet of colorful stars could decorate a notebook when peeled off?"
+      ],
+      [
+        "pins",
+        "pins",
+        "Find the little round badges displayed on the upright board at the far right."
+      ],
+      [
+        [
+          "buy",
+          "sell"
+        ],
+        "buyer",
+        "In this exchange, who gives money to receive the fruit rather than earning money from it?"
+      ],
+      [
+        [
+          "farmer",
+          "milk"
+        ],
+        "farmer",
+        "Who works closest to the source of the white drink sold in bottles?"
+      ],
+      [
+        [
+          "plain",
+          "fancy"
+        ],
+        "fancy",
+        "A customer wants a decorated bag instead of a simple one. Which bag should she choose?"
+      ],
+      [
+        [
+          "comic book",
+          "board game"
+        ],
+        "comic book",
+        "Which item would you read quietly rather than play by moving pieces?"
+      ],
+      [
+        [
+          "stickers",
+          "pins"
+        ],
+        "pins",
+        "Which decorations can be fastened to clothes rather than peeled from a sheet?"
+      ],
+      [
+        [
+          "doll",
+          "games"
+        ],
+        "doll",
+        "Find the toy suitable for pretending to care for a little person, rather than rolling dice."
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 12,
+    "title": "Future Jobs",
+    "objects": [
+      {
+        "id": "doctor",
+        "word": "doctor",
+        "x": 16,
+        "y": 23,
+        "w": 13,
+        "h": 31
+      },
+      {
+        "id": "police officer",
+        "word": "police officer",
+        "x": 47,
+        "y": 35,
+        "w": 16,
+        "h": 49
+      },
+      {
+        "id": "teacher",
+        "word": "teacher",
+        "x": 83,
+        "y": 26,
+        "w": 13,
+        "h": 27
+      },
+      {
+        "id": "help",
+        "word": "help",
+        "x": 11,
+        "y": 67,
+        "w": 12,
+        "h": 41
+      },
+      {
+        "id": "money",
+        "word": "money",
+        "x": 63,
+        "y": 61,
+        "w": 15,
+        "h": 8
+      },
+      {
+        "id": "clothes",
+        "word": "clothes",
+        "x": 4,
+        "y": 53,
+        "w": 7,
+        "h": 40
+      },
+      {
+        "id": "water",
+        "word": "water",
+        "x": 42,
+        "y": 79,
+        "w": 5,
+        "h": 23
+      },
+      {
+        "id": "sandwich",
+        "word": "sandwich",
+        "x": 51,
+        "y": 83,
+        "w": 11,
+        "h": 10
+      },
+      {
+        "id": "grapes",
+        "word": "grapes",
+        "x": 62,
+        "y": 84,
+        "w": 11,
+        "h": 12
+      },
+      {
+        "id": "juice",
+        "word": "juice",
+        "x": 70,
+        "y": 81,
+        "w": 6,
+        "h": 17
+      },
+      {
+        "id": "cookie",
+        "word": "cookie",
+        "x": 75,
+        "y": 89,
+        "w": 7,
+        "h": 6
+      },
+      {
+        "id": "chips",
+        "word": "chips",
+        "x": 85,
+        "y": 86,
+        "w": 12,
+        "h": 12
+      },
+      {
+        "id": "soda",
+        "word": "soda",
+        "x": 94,
+        "y": 84,
+        "w": 7,
+        "h": 21
+      }
+    ],
+    "rows": [
+      [
+        "doctor",
+        "doctor",
+        "Who is wearing a white coat and uses medical tools to care for patients?"
+      ],
+      [
+        "police officer",
+        "police officer",
+        "Find the uniformed person in the middle who helps keep the neighborhood safe."
+      ],
+      [
+        "teacher",
+        "teacher",
+        "Who is standing beside the classroom board helping children learn?"
+      ],
+      [
+        "help",
+        "help",
+        "Find the child at the lower left receiving assistance with clothing."
+      ],
+      [
+        "money",
+        "money",
+        "Which little tray contains coins that can be used to pay for things?"
+      ],
+      [
+        "clothes",
+        "clothes",
+        "Find the hanging garments at the far left that children can wear for roleplay."
+      ],
+      [
+        "water",
+        "water",
+        "Which clear drink in the bottle contains no fruit color?"
+      ],
+      [
+        "sandwich",
+        "sandwich",
+        "Find the food with a filling placed between two pieces of bread."
+      ],
+      [
+        "grapes",
+        "grapes",
+        "Which small purple fruits grow together in a bunch?"
+      ],
+      [
+        "juice",
+        "juice",
+        "Find the small carton of fruit drink beside the purple fruit."
+      ],
+      [
+        "cookie",
+        "cookie",
+        "Which small round baked treat has dark pieces in its surface?"
+      ],
+      [
+        "chips",
+        "chips",
+        "Find the thin crispy potato slices in a bowl on the right."
+      ],
+      [
+        "soda",
+        "soda",
+        "Which fizzy drink is in the can at the far right?"
+      ],
+      [
+        "job",
+        "teacher",
+        "Which worker would explain a lesson to a class rather than treat an illness?"
+      ],
+      [
+        [
+          "doctor",
+          "help"
+        ],
+        "doctor",
+        "A child feels ill and needs a health check. Which adult has the right equipment?"
+      ],
+      [
+        [
+          "police officer",
+          "help"
+        ],
+        "police officer",
+        "Someone is lost in the neighborhood. Which uniformed worker could help them find a safe way home?"
+      ],
+      [
+        [
+          "water",
+          "soda"
+        ],
+        "water",
+        "After exercise, choose the plain drink rather than the fizzy canned one."
+      ],
+      [
+        [
+          "sandwich",
+          "cookie"
+        ],
+        "sandwich",
+        "Which food is made with bread and a savory filling rather than sweet dough?"
+      ],
+      [
+        [
+          "grapes",
+          "chips"
+        ],
+        "grapes",
+        "Choose the fresh fruit snack instead of the fried potato snack."
+      ],
+      [
+        [
+          "money",
+          "clothes"
+        ],
+        "money",
+        "Before buying a costume from the rack, what would you use to pay for it?"
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 13,
+    "title": "My Neighborhood",
+    "objects": [
+      {
+        "id": "country",
+        "word": "country",
+        "x": 24,
+        "y": 15,
+        "w": 23,
+        "h": 18
+      },
+      {
+        "id": "town",
+        "word": "town",
+        "x": 60,
+        "y": 20,
+        "w": 18,
+        "h": 19
+      },
+      {
+        "id": "city",
+        "word": "city",
+        "x": 83,
+        "y": 8,
+        "w": 22,
+        "h": 14
+      },
+      {
+        "id": "apartment",
+        "word": "apartment",
+        "x": 6,
+        "y": 28,
+        "w": 11,
+        "h": 53
+      },
+      {
+        "id": "building",
+        "word": "building",
+        "x": 22,
+        "y": 65,
+        "w": 26,
+        "h": 22
+      },
+      {
+        "id": "street",
+        "word": "street",
+        "x": 51,
+        "y": 53,
+        "w": 14,
+        "h": 15
+      },
+      {
+        "id": "world",
+        "word": "world",
+        "x": 54,
+        "y": 29,
+        "w": 10,
+        "h": 16
+      },
+      {
+        "id": "safe",
+        "word": "safe",
+        "x": 25,
+        "y": 39,
+        "w": 23,
+        "h": 22
+      },
+      {
+        "id": "dangerous",
+        "word": "dangerous",
+        "x": 85,
+        "y": 45,
+        "w": 26,
+        "h": 25
+      },
+      {
+        "id": "noisy",
+        "word": "noisy",
+        "x": 70,
+        "y": 60,
+        "w": 19,
+        "h": 19
+      },
+      {
+        "id": "quiet",
+        "word": "quiet",
+        "x": 27,
+        "y": 83,
+        "w": 30,
+        "h": 17
+      },
+      {
+        "id": "boring",
+        "word": "boring",
+        "x": 55,
+        "y": 86,
+        "w": 10,
+        "h": 26
+      },
+      {
+        "id": "interesting",
+        "word": "interesting",
+        "x": 91,
+        "y": 80,
+        "w": 17,
+        "h": 26
+      }
+    ],
+    "rows": [
+      [
+        "street",
+        "street",
+        "Find the paved route running through the middle where vehicles travel."
+      ],
+      [
+        "neighborhood",
+        "town",
+        "Find the nearby cluster of small homes around shared roads."
+      ],
+      [
+        "town",
+        "town",
+        "Which group of small buildings lies below the distant tall skyline?"
+      ],
+      [
+        "city",
+        "city",
+        "Find the faraway skyline with many very tall buildings."
+      ],
+      [
+        "the country",
+        "country",
+        "Which distant area has green fields rather than crowded buildings?"
+      ],
+      [
+        "apartment",
+        "apartment",
+        "Find the tall residential block on the left with many separate homes."
+      ],
+      [
+        "building",
+        "building",
+        "Find the public structure with a large entrance and books visible inside."
+      ],
+      [
+        "world",
+        "world",
+        "Which round model shows land and water across our planet?"
+      ],
+      [
+        "noisy",
+        "noisy",
+        "Which large vehicle near the work site is likely to make a loud engine sound?"
+      ],
+      [
+        "quiet",
+        "quiet",
+        "Which planted corner away from the road would be a peaceful place to sit?"
+      ],
+      [
+        "safe",
+        "safe",
+        "Find the fenced play area separated from the moving traffic."
+      ],
+      [
+        "dangerous",
+        "dangerous",
+        "Which blocked-off work area should children avoid entering?"
+      ],
+      [
+        "boring",
+        "boring",
+        "Find the seated child resting his chin on his hand instead of joining an activity."
+      ],
+      [
+        "interesting",
+        "interesting",
+        "Which little performance at the lower right could attract curious viewers?"
+      ],
+      [
+        [
+          "safe",
+          "dangerous"
+        ],
+        "safe",
+        "A parent wants a protected place for children to play. Which fenced area should they choose?"
+      ],
+      [
+        [
+          "quiet",
+          "noisy"
+        ],
+        "quiet",
+        "You want to read without the truck nearby. Which garden corner would be the better choice?"
+      ],
+      [
+        [
+          "town",
+          "city"
+        ],
+        "city",
+        "Which area has the tallest and most densely packed skyline?"
+      ],
+      [
+        [
+          "the country",
+          "building"
+        ],
+        "country",
+        "Where would you expect more open farmland than large public structures?"
+      ],
+      [
+        [
+          "world",
+          "neighborhood"
+        ],
+        "world",
+        "Which object represents a much larger area than just the nearby homes?"
+      ],
+      [
+        [
+          "interesting",
+          "boring"
+        ],
+        "interesting",
+        "Which activity could the waiting child watch to become more involved in the visit?"
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 14,
+    "title": "City and Countryside",
+    "objects": [
+      {
+        "id": "department store",
+        "word": "department store",
+        "x": 6,
+        "y": 42,
+        "w": 12,
+        "h": 29
+      },
+      {
+        "id": "restaurant",
+        "word": "restaurant",
+        "x": 15,
+        "y": 47,
+        "w": 10,
+        "h": 17
+      },
+      {
+        "id": "movie theater",
+        "word": "movie theater",
+        "x": 25,
+        "y": 37,
+        "w": 12,
+        "h": 28
+      },
+      {
+        "id": "hotel",
+        "word": "hotel",
+        "x": 36,
+        "y": 34,
+        "w": 13,
+        "h": 30
+      },
+      {
+        "id": "cornfield",
+        "word": "cornfield",
+        "x": 90,
+        "y": 16,
+        "w": 18,
+        "h": 12
+      },
+      {
+        "id": "orchard",
+        "word": "orchard",
+        "x": 94,
+        "y": 29,
+        "w": 12,
+        "h": 20
+      },
+      {
+        "id": "new",
+        "word": "new",
+        "x": 47,
+        "y": 18,
+        "w": 19,
+        "h": 34
+      },
+      {
+        "id": "old",
+        "word": "old",
+        "x": 59,
+        "y": 30,
+        "w": 12,
+        "h": 22
+      },
+      {
+        "id": "park",
+        "word": "park",
+        "x": 22,
+        "y": 84,
+        "w": 35,
+        "h": 27
+      },
+      {
+        "id": "library",
+        "word": "library",
+        "x": 43,
+        "y": 58,
+        "w": 15,
+        "h": 24
+      },
+      {
+        "id": "supermarket",
+        "word": "supermarket",
+        "x": 57,
+        "y": 66,
+        "w": 12,
+        "h": 20
+      },
+      {
+        "id": "drugstore",
+        "word": "drugstore",
+        "x": 67,
+        "y": 68,
+        "w": 9,
+        "h": 24
+      },
+      {
+        "id": "bakery",
+        "word": "bakery",
+        "x": 76,
+        "y": 72,
+        "w": 10,
+        "h": 28
+      },
+      {
+        "id": "museum",
+        "word": "museum",
+        "x": 92,
+        "y": 68,
+        "w": 15,
+        "h": 38
+      }
+    ],
+    "rows": [
+      [
+        "department store",
+        "department store",
+        "Which large shop on the far left displays several outfits behind tall windows?"
+      ],
+      [
+        "restaurant",
+        "restaurant",
+        "Where could visitors sit at outdoor tables beneath red umbrellas to eat a meal?"
+      ],
+      [
+        "movie theater",
+        "movie theater",
+        "Which entertainment building is marked by an enormous tub of popcorn?"
+      ],
+      [
+        "hotel",
+        "hotel",
+        "Where could travelers with suitcases stay overnight beneath the blue entrance canopy?"
+      ],
+      [
+        "cornfield",
+        "cornfield",
+        "Find the rows of tall crops growing on the hillside at the upper right."
+      ],
+      [
+        "orchard",
+        "orchard",
+        "Which fenced growing area contains trees with red fruit rather than tall stalks?"
+      ],
+      [
+        "new",
+        "new",
+        "Find the modern glass-fronted residential block with planted balconies."
+      ],
+      [
+        "old",
+        "old",
+        "Which little stone house looks much older than the glass building beside it?"
+      ],
+      [
+        "park",
+        "park",
+        "Where can visitors rest among flower beds, benches and a fountain?"
+      ],
+      [
+        "library",
+        "library",
+        "Which domed building displays shelves of books through its tall windows?"
+      ],
+      [
+        "supermarket",
+        "supermarket",
+        "Where could someone use a shopping cart to buy fresh groceries?"
+      ],
+      [
+        "drugstore",
+        "drugstore",
+        "Which shop marked by a green cross sells health supplies?"
+      ],
+      [
+        "bakery",
+        "bakery",
+        "Where would you buy the fresh loaves displayed beneath a large bread symbol?"
+      ],
+      [
+        "museum",
+        "museum",
+        "Which grand building contains a large dinosaur skeleton for visitors to study?"
+      ],
+      [
+        [
+          "library",
+          "museum"
+        ],
+        "library",
+        "You want to borrow a story rather than examine fossils. Which building should you enter?"
+      ],
+      [
+        [
+          "cornfield",
+          "orchard"
+        ],
+        "orchard",
+        "A visitor wants to pick fruit from a tree rather than harvest a tall crop. Where should they go?"
+      ],
+      [
+        [
+          "hotel",
+          "restaurant"
+        ],
+        "hotel",
+        "A family needs a room for the night, not just a table for dinner. Find the suitable entrance."
+      ],
+      [
+        [
+          "new",
+          "old"
+        ],
+        "old",
+        "Which house uses rough stone walls and a tiled roof instead of modern glass balconies?"
+      ],
+      [
+        [
+          "drugstore",
+          "bakery"
+        ],
+        "drugstore",
+        "Someone needs medicine rather than a loaf of bread. Which shop has the right symbol?"
+      ],
+      [
+        [
+          "park",
+          "movie theater"
+        ],
+        "park",
+        "Choose the outdoor place for a quiet walk among flowers rather than an indoor film."
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 15,
+    "title": "Music Class",
+    "objects": [
+      {
+        "id": "cymbals",
+        "word": "cymbals",
+        "x": 16,
+        "y": 43,
+        "w": 10,
+        "h": 21
+      },
+      {
+        "id": "tambourine",
+        "word": "tambourine",
+        "x": 28,
+        "y": 31,
+        "w": 8,
+        "h": 19
+      },
+      {
+        "id": "xylophone",
+        "word": "xylophone",
+        "x": 49,
+        "y": 47,
+        "w": 19,
+        "h": 9
+      },
+      {
+        "id": "drum",
+        "word": "drum",
+        "x": 71,
+        "y": 47,
+        "w": 10,
+        "h": 16
+      },
+      {
+        "id": "triangle",
+        "word": "triangle",
+        "x": 85,
+        "y": 49,
+        "w": 6,
+        "h": 12
+      },
+      {
+        "id": "shake",
+        "word": "shake",
+        "x": 33,
+        "y": 34,
+        "w": 12,
+        "h": 28
+      },
+      {
+        "id": "strike",
+        "word": "strike",
+        "x": 48,
+        "y": 34,
+        "w": 17,
+        "h": 23
+      },
+      {
+        "id": "fast",
+        "word": "fast",
+        "x": 30,
+        "y": 71,
+        "w": 36,
+        "h": 47
+      },
+      {
+        "id": "slow",
+        "word": "slow",
+        "x": 68,
+        "y": 77,
+        "w": 29,
+        "h": 44
+      },
+      {
+        "id": "loud",
+        "word": "loud",
+        "x": 11,
+        "y": 20,
+        "w": 19,
+        "h": 28
+      },
+      {
+        "id": "soft",
+        "word": "soft",
+        "x": 91,
+        "y": 17,
+        "w": 13,
+        "h": 29
+      },
+      {
+        "id": "awful",
+        "word": "awful",
+        "x": 21,
+        "y": 24,
+        "w": 9,
+        "h": 18
+      },
+      {
+        "id": "lovely",
+        "word": "lovely",
+        "x": 84,
+        "y": 22,
+        "w": 9,
+        "h": 18
+      }
+    ],
+    "rows": [
+      [
+        "cymbals",
+        "cymbals",
+        "Find the pair of shiny round metal plates held by the boy in green."
+      ],
+      [
+        "tambourine",
+        "tambourine",
+        "Which small round instrument has little metal discs around its edge?"
+      ],
+      [
+        "xylophone",
+        "xylophone",
+        "Find the instrument made of colored bars arranged on the table."
+      ],
+      [
+        "drum",
+        "drum",
+        "Which upright instrument is the boy in red playing with his hands near the center right?"
+      ],
+      [
+        "triangle",
+        "triangle",
+        "Find the three-sided metal instrument held by the girl in the foreground."
+      ],
+      [
+        "shake",
+        "shake",
+        "Who is moving a round jingling instrument from side to side rather than hitting keys?"
+      ],
+      [
+        "strike",
+        "strike",
+        "Find the boy in blue bringing little mallets down onto the colored bars."
+      ],
+      [
+        "fast",
+        "fast",
+        "Which dancer in red is shown making an energetic leap across the foreground?"
+      ],
+      [
+        "slow",
+        "slow",
+        "Which dancer in white is shown taking a gentle balanced step rather than a big leap?"
+      ],
+      [
+        "loud",
+        "loud",
+        "Find the large instrument at the back left being hit with a heavy beater."
+      ],
+      [
+        "soft",
+        "soft",
+        "Which girl at the back right is playing her little metal instrument gently?"
+      ],
+      [
+        "awful",
+        "awful",
+        "Who is covering his ears because the nearby noise seems unpleasant to him?"
+      ],
+      [
+        "lovely",
+        "lovely",
+        "Which seated child at the back right is smiling while listening to gentle music?"
+      ],
+      [
+        "instruments",
+        "xylophone",
+        "Which musical object has differently colored bars that can make different notes?"
+      ],
+      [
+        [
+          "cymbals",
+          "drum"
+        ],
+        "cymbals",
+        "Choose the instrument made of two metal plates rather than a stretched drumhead."
+      ],
+      [
+        [
+          "tambourine",
+          "triangle"
+        ],
+        "triangle",
+        "Which foreground instrument has three sides rather than a circular frame?"
+      ],
+      [
+        [
+          "shake",
+          "strike"
+        ],
+        "shake",
+        "Who can make the metal discs jingle without using a mallet?"
+      ],
+      [
+        [
+          "loud",
+          "soft"
+        ],
+        "soft",
+        "Find the performer at the back right whose listener seems comfortable with the gentle sound."
+      ],
+      [
+        [
+          "awful",
+          "lovely"
+        ],
+        "awful",
+        "Which listener is showing discomfort instead of enjoying what he hears?"
+      ],
+      [
+        [
+          "fast",
+          "slow"
+        ],
+        "slow",
+        "Find the dancer whose careful balanced movement contrasts with the leaping girl."
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 16,
+    "title": "Christmas Eve Music Performance",
+    "objects": [
+      {
+        "id": "dance",
+        "word": "dance",
+        "x": 73,
+        "y": 22,
+        "w": 8,
+        "h": 22
+      },
+      {
+        "id": "sing",
+        "word": "sing",
+        "x": 48,
+        "y": 17,
+        "w": 19,
+        "h": 14
+      },
+      {
+        "id": "idea",
+        "word": "idea",
+        "x": 9,
+        "y": 72,
+        "w": 12,
+        "h": 30
+      },
+      {
+        "id": "practice",
+        "word": "practice",
+        "x": 94,
+        "y": 26,
+        "w": 10,
+        "h": 14
+      },
+      {
+        "id": "tickets",
+        "word": "tickets",
+        "x": 94,
+        "y": 55,
+        "w": 10,
+        "h": 18
+      },
+      {
+        "id": "money",
+        "word": "money",
+        "x": 85,
+        "y": 55,
+        "w": 13,
+        "h": 20
+      },
+      {
+        "id": "clap",
+        "word": "clap",
+        "x": 43,
+        "y": 75,
+        "w": 14,
+        "h": 19
+      },
+      {
+        "id": "pictures",
+        "word": "pictures",
+        "x": 80,
+        "y": 80,
+        "w": 14,
+        "h": 36
+      },
+      {
+        "id": "parade",
+        "word": "parade",
+        "x": 6,
+        "y": 35,
+        "w": 12,
+        "h": 21
+      },
+      {
+        "id": "concert",
+        "word": "concert",
+        "x": 48,
+        "y": 35,
+        "w": 21,
+        "h": 16
+      },
+      {
+        "id": "play",
+        "word": "play",
+        "x": 26,
+        "y": 30,
+        "w": 20,
+        "h": 20
+      },
+      {
+        "id": "puppet show",
+        "word": "puppet show",
+        "x": 21,
+        "y": 53,
+        "w": 17,
+        "h": 12
+      },
+      {
+        "id": "circus",
+        "word": "circus",
+        "x": 64,
+        "y": 49,
+        "w": 13,
+        "h": 31
+      }
+    ],
+    "rows": [
+      [
+        "dance",
+        "dance",
+        "Find the performer balancing on one foot in a white tutu on the upper-right stage."
+      ],
+      [
+        "sing",
+        "sing",
+        "Which group is using their voices while holding open music books on the highest central stage?"
+      ],
+      [
+        "get an idea",
+        "idea",
+        "Find the boy at the lower left raising one finger with an excited expression."
+      ],
+      [
+        "practice an instrument",
+        "practice",
+        "Which musician is working on violin music alone in the small upper-right pavilion?"
+      ],
+      [
+        "buy tickets",
+        "tickets",
+        "Find the booth where a smiling worker hands out admission slips."
+      ],
+      [
+        "give money",
+        "money",
+        "Who is paying at the booth instead of performing on a stage?"
+      ],
+      [
+        "clap",
+        "clap",
+        "Find the audience member in the foreground bringing his hands together to applaud."
+      ],
+      [
+        "take pictures",
+        "pictures",
+        "Who is holding a camera up to record the performances from the lower right?"
+      ],
+      [
+        "parade",
+        "parade",
+        "Which group of uniformed musicians is marching along the left side?"
+      ],
+      [
+        "concert",
+        "concert",
+        "Find the seated orchestra playing together beneath the singers."
+      ],
+      [
+        "ballet",
+        "dance",
+        "Which performance uses graceful steps and a tutu rather than spoken acting?"
+      ],
+      [
+        "play",
+        "play",
+        "Find the actors dressed as a king and princess on the left stage."
+      ],
+      [
+        "puppet show",
+        "puppet show",
+        "Which little stage has small characters controlled by a performer behind them?"
+      ],
+      [
+        "circus",
+        "circus",
+        "Who is entertaining the crowd by juggling colorful clubs?"
+      ],
+      [
+        [
+          "sing",
+          "concert"
+        ],
+        "sing",
+        "Which performers hold music books rather than string instruments?"
+      ],
+      [
+        [
+          "buy tickets",
+          "give money"
+        ],
+        "tickets",
+        "Before taking a seat, where should a visitor obtain an admission slip?"
+      ],
+      [
+        [
+          "parade",
+          "concert"
+        ],
+        "parade",
+        "Which musical group is traveling along the street rather than sitting on the central stage?"
+      ],
+      [
+        [
+          "play",
+          "puppet show"
+        ],
+        "puppet show",
+        "Find the performance with small controlled figures instead of full-size actors."
+      ],
+      [
+        [
+          "take pictures",
+          "clap"
+        ],
+        "pictures",
+        "Who is preserving a visual memory rather than applauding with empty hands?"
+      ],
+      [
+        [
+          "practice an instrument",
+          "circus"
+        ],
+        "practice",
+        "Which person is using a bow on strings rather than tossing clubs into the air?"
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 17,
+    "title": "Backyard Birthday Party",
+    "objects": [
+      {
+        "id": "dog",
+        "word": "dog",
+        "x": 67,
+        "y": 77,
+        "w": 25,
+        "h": 37
+      },
+      {
+        "id": "bench",
+        "word": "bench",
+        "x": 8,
+        "y": 70,
+        "w": 16,
+        "h": 47
+      },
+      {
+        "id": "breathe",
+        "word": "breathe",
+        "x": 27,
+        "y": 50,
+        "w": 24,
+        "h": 23
+      },
+      {
+        "id": "change",
+        "word": "change",
+        "x": 19,
+        "y": 13,
+        "w": 12,
+        "h": 19
+      },
+      {
+        "id": "air",
+        "word": "air",
+        "x": 92,
+        "y": 12,
+        "w": 14,
+        "h": 23
+      },
+      {
+        "id": "people",
+        "word": "people",
+        "x": 60,
+        "y": 48,
+        "w": 40,
+        "h": 27
+      },
+      {
+        "id": "plant",
+        "word": "plant",
+        "x": 14,
+        "y": 54,
+        "w": 9,
+        "h": 28
+      },
+      {
+        "id": "bush",
+        "word": "bush",
+        "x": 74,
+        "y": 27,
+        "w": 13,
+        "h": 20
+      },
+      {
+        "id": "statue",
+        "word": "statue",
+        "x": 86,
+        "y": 35,
+        "w": 9,
+        "h": 28
+      },
+      {
+        "id": "grass",
+        "word": "grass",
+        "x": 42,
+        "y": 86,
+        "w": 26,
+        "h": 20
+      },
+      {
+        "id": "rose",
+        "word": "rose",
+        "x": 89,
+        "y": 73,
+        "w": 20,
+        "h": 39
+      },
+      {
+        "id": "fountain",
+        "word": "fountain",
+        "x": 55,
+        "y": 26,
+        "w": 15,
+        "h": 23
+      }
+    ],
+    "rows": [
+      [
+        "living",
+        "dog",
+        "Find the furry living animal running across the lawn."
+      ],
+      [
+        "nonliving",
+        "bench",
+        "Which wooden seat does not grow, eat or breathe?"
+      ],
+      [
+        "breathe",
+        "breathe",
+        "Who is using air from his lungs to fill a colorful balloon?"
+      ],
+      [
+        "move",
+        "dog",
+        "Which animal has its legs stretched out as it runs toward the party?"
+      ],
+      [
+        "change",
+        "change",
+        "Find the insect beside the case it has emerged from near the upper-left branch."
+      ],
+      [
+        "air",
+        "air",
+        "Which colorful wind toy at the upper right can turn when moving air pushes it?"
+      ],
+      [
+        "people",
+        "people",
+        "Find the family gathered around the birthday cake."
+      ],
+      [
+        "plant",
+        "plant",
+        "Which living thing is growing in a terracotta pot behind the boy?"
+      ],
+      [
+        "bench",
+        "bench",
+        "Find the wooden garden seat at the lower left."
+      ],
+      [
+        "bush",
+        "bush",
+        "Which rounded leafy shrub stands behind the party near the statue?"
+      ],
+      [
+        "statue",
+        "statue",
+        "Find the pale stone figure that looks like a person but cannot breathe."
+      ],
+      [
+        "grass",
+        "grass",
+        "What low green living ground cover grows beneath the running animal?"
+      ],
+      [
+        "rose",
+        "rose",
+        "Find the large pink flowers growing along the right foreground."
+      ],
+      [
+        "fountain",
+        "fountain",
+        "Which garden feature sends water down through several levels behind the family?"
+      ],
+      [
+        [
+          "living",
+          "nonliving"
+        ],
+        "statue",
+        "Which person-shaped object is nonliving even though real people nearby are alive?"
+      ],
+      [
+        [
+          "breathe",
+          "air"
+        ],
+        "breathe",
+        "Who demonstrates that air can fill a space by blowing into something elastic?"
+      ],
+      [
+        [
+          "change",
+          "living"
+        ],
+        "change",
+        "Which living creature shows a major change in body form beside its old casing?"
+      ],
+      [
+        [
+          "plant",
+          "rose"
+        ],
+        "rose",
+        "Choose the flowering plant in the right foreground rather than the pot behind the boy."
+      ],
+      [
+        [
+          "move",
+          "nonliving"
+        ],
+        "air",
+        "Which nonliving colorful toy could move because of wind, without being alive?"
+      ],
+      [
+        [
+          "bench",
+          "fountain"
+        ],
+        "bench",
+        "Someone needs to sit and rest, rather than watch flowing water. Which object would help?"
+      ]
+    ]
+  },
+  {
+    "course": "discover-1",
+    "unit": 18,
+    "title": "Gingerbread Boy Comic World",
+    "objects": [
+      {
+        "id": "run",
+        "word": "run",
+        "x": 43,
+        "y": 50,
+        "w": 9,
+        "h": 19
+      },
+      {
+        "id": "chase",
+        "word": "chase",
+        "x": 48,
+        "y": 38,
+        "w": 13,
+        "h": 24
+      },
+      {
+        "id": "catch",
+        "word": "catch",
+        "x": 84,
+        "y": 34,
+        "w": 17,
+        "h": 23
+      },
+      {
+        "id": "stop",
+        "word": "stop",
+        "x": 56,
+        "y": 75,
+        "w": 12,
+        "h": 34
+      },
+      {
+        "id": "cross",
+        "word": "cross",
+        "x": 70,
+        "y": 34,
+        "w": 19,
+        "h": 14
+      },
+      {
+        "id": "bake",
+        "word": "bake",
+        "x": 27,
+        "y": 41,
+        "w": 11,
+        "h": 24
+      },
+      {
+        "id": "smell",
+        "word": "smell",
+        "x": 9,
+        "y": 36,
+        "w": 12,
+        "h": 13
+      },
+      {
+        "id": "open",
+        "word": "open",
+        "x": 36,
+        "y": 39,
+        "w": 6,
+        "h": 34
+      },
+      {
+        "id": "bed",
+        "word": "bed",
+        "x": 9,
+        "y": 11,
+        "w": 10,
+        "h": 9
+      },
+      {
+        "id": "outside",
+        "word": "outside",
+        "x": 85,
+        "y": 81,
+        "w": 23,
+        "h": 24
+      },
+      {
+        "id": "healthy",
+        "word": "healthy",
+        "x": 10,
+        "y": 78,
+        "w": 19,
+        "h": 22
+      },
+      {
+        "id": "junk",
+        "word": "junk",
+        "x": 27,
+        "y": 85,
+        "w": 17,
+        "h": 18
+      },
+      {
+        "id": "early",
+        "word": "early",
+        "x": 20,
+        "y": 13,
+        "w": 7,
+        "h": 13,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-7-0.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      },
+      {
+        "id": "late",
+        "word": "late",
+        "x": 36,
+        "y": 17,
+        "w": 6,
+        "h": 12,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-9-0.webp",
+          "artwork": "Centre-authored educational illustration"
+        }
+      }
+    ],
+    "rows": [
+      [
+        "run away",
+        "run",
+        "Who is escaping along the path in front of the baker?"
+      ],
+      [
+        "chase",
+        "chase",
+        "Find the adult running behind the little baked character to follow him."
+      ],
+      [
+        "catch",
+        "catch",
+        "Which animal is reaching out as if trying to grab the escaping character?"
+      ],
+      [
+        "stop",
+        "stop",
+        "Who is waiting at a closed gate instead of continuing down the path?"
+      ],
+      [
+        "cross",
+        "cross",
+        "Which structure lets someone travel from one side of the stream to the other?"
+      ],
+      [
+        "bake",
+        "bake",
+        "Who is taking a tray of food from the hot oven inside the cottage?"
+      ],
+      [
+        "smell",
+        "smell",
+        "Which child is leaning out of the window toward the delicious steam?"
+      ],
+      [
+        "open",
+        "open",
+        "Find the wooden cottage door that has been swung away from its doorway."
+      ],
+      [
+        "go to bed",
+        "bed",
+        "Which child is resting under a blanket in the upstairs room?"
+      ],
+      [
+        "play outside",
+        "outside",
+        "Find the children enjoying a ball game in the garden."
+      ],
+      [
+        "healthy food",
+        "healthy",
+        "Which basket contains fresh fruit and vegetables rather than sweets?"
+      ],
+      [
+        "junk food",
+        "junk",
+        "Which basket contains doughnuts, candy and other sugary treats?"
+      ],
+      [
+        "early",
+        "early",
+        "Bedtime is eight o'clock. Which clock shows one hour before bedtime?"
+      ],
+      [
+        "late",
+        "late",
+        "Bedtime is eight o'clock. Which clock shows one hour after bedtime?"
+      ],
+      [
+        [
+          "run away",
+          "chase"
+        ],
+        "run",
+        "Choose the character escaping, rather than the adult following him."
+      ],
+      [
+        [
+          "cross",
+          "stop"
+        ],
+        "cross",
+        "Which route provides a dry way over the water without entering the stream?"
+      ],
+      [
+        [
+          "bake",
+          "smell"
+        ],
+        "smell",
+        "Who is noticing the cooking aroma rather than preparing food in the oven?"
+      ],
+      [
+        [
+          "healthy food",
+          "junk food"
+        ],
+        "healthy",
+        "Which basket is a better source of a variety of fresh plant foods?"
+      ],
+      [
+        [
+          "go to bed",
+          "play outside"
+        ],
+        "bed",
+        "Find the child who is resting indoors rather than playing with the ball."
+      ],
+      [
+        [
+          "open",
+          "stop"
+        ],
+        "open",
+        "Which entrance is already open, unlike the closed gate in the foreground?"
+      ]
+    ]
   }
 ]

@@ -87,3 +87,9 @@ The former five-generic-theme regression has been replaced by an assertion that 
 Six measured illustrations add 120 authored clues with full source Unit vocabulary coverage and real English recordings. All six passed normal-entry and first-correct-interaction checks at 844 x 390 with loaded images. The detective collection now updates immediately after a correct answer; Unit 3 also verified automatic transition to question 2. The 22 scene/source/audio regression tests passed. This is sampled interaction coverage, not certification of every hotspot.
 
 Inventory: 68/114 illustrated and measured. Remaining: 46 Discover scene replacements. Generated but not integrated artwork is not counted as complete.
+
+### Discover 1 illustrated settings complete (1 November)
+
+Units 9-18 add 200 authored clues and ten distinct measured illustrations. All 18 Discover 1 settings now have named scene artwork, 20 clues per Unit, source vocabulary coverage and English recordings. Math symbols and two clock faces are exact rendered overlays rather than generated numbers. Scene regression tests include all 18 settings and overlay-path resolution. Mobile samples exercised normal entry, image loading and first correct selection; local server loading failures were retried and remain recorded in private QA. No universal latency or every-hotspot certification is claimed.
+
+Inventory: 78/114 measured illustrations. Discover 2 and 3 still require 36 illustrated scene replacements. This is not completion of the entire historical request list.
