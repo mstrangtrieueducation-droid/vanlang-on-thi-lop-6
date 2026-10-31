@@ -40,3 +40,16 @@ No native dashboard receipt reader, Schedule, status/count projection, identity/
 ## Verification
 
 The release checks cover all 25 measured scenes and the original Phonics exercise-D interactions. Edge browser checks covered homepage entry/return, child-page silence, the 24-level active Phonics 4 map, native touch drag and snap, saved object placement after reload, paper-sun coloring, multi-person clue completion, portrait and landscape layouts, and six rapid correct taps in Stream Treehouse. Those six taps neither skipped a question nor interrupted a word; the shared background was requested once. These are representative browser checks, not certification of the 89 pending scene illustrations.
+
+
+## 31 October follow-up (scope remains partial)
+
+- Welcome is attempted once per tab session, including same-tab page reload. Browser autoplay policy remains enforced; blocked audio exposes an explicit home-only control.
+- Four actual sound-connect maps B/J/R/Z now use new 3D illustrations. Separate pointer strokes snap to straight segments and survive draft serialization; connectivity rejects incomplete/wrong-object routes. No writing inputs appear on these maps. Other exercise-D formats retain their original source format.
+- All 52 Latin letter guides were visually checked; lowercase a/d/g/q bowls now join their stems without the previous protruding endpoint.
+- Family and Friends has 2,077 rewritten contextual grammar tasks across practice, Unit review and the 30 grammar modules. Exact rendered question/answer sets are unique across this replacement set. This does not certify global uniqueness of every older question in every course.
+- All 30 active Phonics Unit panoramas are now illustrated, measured and source-vocabulary checked: Phonics 1–3 Units 1–8 and Phonics 4 Units 1–6. Seven additional WebP panoramas and 66 short voice clips were added in this follow-up.
+- Production inventory is now 32/114 measured scenes; 29 FF and 53 Discover illustrations remain pending. The previous generic playable packs are not represented as finished artwork.
+- Worker bank updated on helper1, version dba9090c-58a4-4f8d-96f7-599e56e8aff7. A bounded previous-bank archive accepts previously started attempts, without changing identity, score, or rank rules.
+- Browser checks: 3D map drawn in separate segments at 390×844, 844×390 and 1366×768; FF pictured exercise and pure listening on phone; Phonics picture-assisted blending; latest cloud-camp panorama in landscape. No page errors in these samples.
+- Dashboard native receipt/status/identity modules were not changed.

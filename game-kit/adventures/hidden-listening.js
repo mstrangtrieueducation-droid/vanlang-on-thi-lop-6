@@ -3,7 +3,7 @@
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const packs=new Map();
  async function json(url){let error;for(const cache of ['default','reload']){try{const r=await fetch(url,{cache,signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error(r.status+' '+url);return await r.json();}catch(e){error=e;}}throw error;}
- function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=unit-scenes-20261030`),json('../game-kit/adventures/unit-scenes-v4/hunt-audio.json?v=unit-scenes-20261030')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
+ function preload(course,unit){const key=course+':'+unit;if(!packs.has(key))packs.set(key,(async()=>{const [pack,voices]=await Promise.all([json(`../khoa-hoc/hunt-worlds/${course}/unit-${unit}.json?v=complete-20261031`),json('../game-kit/adventures/unit-scenes-v4/hunt-audio.json?v=complete-20261031')]);if(pack.version!==5||pack.course!==course||pack.unit!==unit||pack.questions.length!==20)throw Error('Invalid panorama pack');await HuntWorldRenderer.warm(pack.questions[0].background);return {pack,voices};})().catch(e=>{packs.delete(key);throw e;}));return packs.get(key);}
  async function open(){
   const c=GAME_CONFIG,g=ADVENTURE,host=document.querySelector('#adventure'),back=new URL(location.href);
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();

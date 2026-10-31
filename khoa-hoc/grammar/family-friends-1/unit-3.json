@@ -44,7 +44,7 @@
   ],
   "items": [
     {
-      "id": "family-friends-1-grammar-u3-1-1-context2",
+      "id": "family-friends-1-grammar-u3-1-1-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -54,35 +54,38 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "are",
+      "answer": "is",
       "options": [
-        "are",
         "is",
+        "are",
         "am",
         "do"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Adam points to one nose. This is my nose.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese ___ my arms.",
+      "spokenScene": "Adam points to one nose. This … my nose.",
+      "scene": "Adam points to one nose. This ___ my nose.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
         "en": "These are my arms.",
         "vi": "Đây là hai cánh tay của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u3-1-2-context2",
+      "id": "family-friends-1-grammar-u3-1-2-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -92,35 +95,38 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "is",
+      "answer": "hands",
       "options": [
-        "are",
-        "am",
-        "do",
-        "is"
+        "hand",
+        "nose",
+        "face",
+        "hands"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Eva washes both hands before lunch. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis ___ my nose.",
+      "spokenScene": "Eva washes both hands before lunch. These are my ….",
+      "scene": "Eva washes both hands before lunch. These are my ___.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
         "en": "This is my nose.",
         "vi": "Đây là mũi của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u3-1-3-context2",
+      "id": "family-friends-1-grammar-u3-1-3-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -130,231 +136,38 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "ears",
+      "answer": "ear",
       "options": [
-        "nose",
-        "face",
-        "ears",
-        "ear"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nI have two ___.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "I have two ears.",
-        "vi": "Tôi có hai tai."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-1-4-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "eyes",
-      "options": [
-        "face",
-        "eyes",
-        "eye",
-        "nose"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese are my ___.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "These are my eyes.",
-        "vi": "Đây là đôi mắt của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-1-5-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "face",
-      "options": [
-        "face",
-        "arms",
+        "hands",
         "legs",
+        "ear",
         "ears"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Adam touches one ear. This is my ear.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis is my ___.",
+      "spokenScene": "Adam touches one ear. This is my ….",
+      "scene": "Adam touches one ear. This is my ___.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "This is my face.",
-        "vi": "Đây là khuôn mặt của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-2-1-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "are",
-      "options": [
-        "is",
-        "am",
-        "do",
-        "are"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese [is] my arms.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "These are my arms.",
-        "vi": "Đây là hai cánh tay của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-2-2-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "is",
-      "options": [
-        "am",
-        "do",
-        "is",
-        "are"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis [are] my nose.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "This is my nose.",
-        "vi": "Đây là mũi của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-2-3-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "ears",
-      "options": [
-        "face",
-        "ears",
-        "ear",
-        "nose"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nI have two [ear].",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
         "en": "I have two ears.",
         "vi": "Tôi có hai tai."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u3-2-4-context2",
+      "id": "family-friends-1-grammar-u3-1-4-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -364,37 +177,38 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "eyes",
+      "answer": "Max points to two hands. These are my hands.",
       "options": [
-        "eyes",
-        "eye",
-        "nose",
-        "face"
+        "Max points to two hands. These do my hands.",
+        "Max points to two hands. These are my hands.",
+        "Max points to two hands. These is my hands.",
+        "Max points to two hands. These am my hands."
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
+      "why": "Câu đúng: Max points to two hands. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "easy",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese are my [eye].",
-      "prompt": "Replace the words in brackets.",
+      "spokenScene": "Max points to two hands. These … my hands.",
+      "scene": "Max points to two hands. These [is] my hands.",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
       "explanationExample": {
         "en": "These are my eyes.",
         "vi": "Đây là đôi mắt của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
     },
     {
-      "id": "family-friends-1-grammar-u3-2-5-context2",
+      "id": "family-friends-1-grammar-u3-1-5-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -404,37 +218,79 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "face",
+      "answer": "Ruby points to one nose. This is my nose.",
       "options": [
-        "arms",
-        "legs",
-        "ears",
-        "face"
+        "Ruby points to one nose. This is my nose.",
+        "Ruby points to one nose. This are my nose.",
+        "Ruby points to one nose. This am my nose.",
+        "Ruby points to one nose. This do my nose."
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Ruby points to one nose. This is my nose.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "Ruby points to one nose. This … my nose.",
+      "scene": "Ruby points to one nose. This [are] my nose.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "This is my face.",
+        "vi": "Đây là khuôn mặt của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-1-grammar-u3-2-1-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "Max washes both hands before lunch. These are my hands.",
+      "options": [
+        "Max washes both hands before lunch. These are my hand.",
+        "Max washes both hands before lunch. These are my nose.",
+        "Max washes both hands before lunch. These are my face.",
+        "Max washes both hands before lunch. These are my hands."
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Max washes both hands before lunch. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis is my [arms].",
-      "prompt": "Replace the words in brackets.",
+      "spokenScene": "Max washes both hands before lunch. These are my ….",
+      "scene": "Max washes both hands before lunch. These are my [hand].",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
       "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
+      "partInstruction": "Choose the corrected sentence.",
       "explanationExample": {
-        "en": "This is my face.",
-        "vi": "Đây là khuôn mặt của tôi."
-      }
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      },
+      "variation31": true
     },
     {
-      "id": "family-friends-1-grammar-u3-3-1-context2",
+      "id": "family-friends-1-grammar-u3-2-2-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -444,120 +300,80 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "Ruby touches one ear. This is my ear.",
+      "options": [
+        "Ruby touches one ear. This is my hands.",
+        "Ruby touches one ear. This is my legs.",
+        "Ruby touches one ear. This is my ear.",
+        "Ruby touches one ear. This is my ears."
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Ruby touches one ear. This is my ear.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Ruby touches one ear. This is my ….",
+      "scene": "Ruby touches one ear. This is my [ears].",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-1-grammar-u3-2-3-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
       "answer": "are",
       "options": [
-        "am",
         "do",
         "are",
-        "is"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “are”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese ___ my arms.\nWord bank: am · do · are · is",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "These are my arms.",
-        "vi": "Đây là hai cánh tay của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-3-2-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "is",
-      "options": [
-        "do",
         "is",
-        "are",
         "am"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “is”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Nina points to two hands. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis ___ my nose.\nWord bank: do · is · are · am",
+      "spokenScene": "Nina points to two hands. These … my hands.",
+      "scene": "Nina points to two hands. These ___ my hands.",
       "prompt": "Write the missing words.",
-      "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "This is my nose.",
-        "vi": "Đây là mũi của tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u3-3-3-context2",
-      "type": "choice",
-      "unit": 3,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 21,
-        "unit": 3,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Một hay nhiều?",
-      "title": "Một hay nhiều?",
-      "answer": "ears",
-      "options": [
-        "ears",
-        "ear",
-        "nose",
-        "face"
-      ],
-      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “ears”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nI have two ___.\nWord bank: ears · ear · nose · face",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "partInstruction": "Read and write.",
       "explanationExample": {
         "en": "I have two ears.",
         "vi": "Tôi có hai tai."
-      }
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u3-3-4-context2",
+      "id": "family-friends-1-grammar-u3-2-4-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -567,38 +383,39 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "eyes",
+      "answer": "is",
       "options": [
-        "eye",
-        "nose",
-        "face",
-        "eyes"
+        "is",
+        "are",
+        "am",
+        "do"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “eyes”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Luke points to one nose. This is my nose.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThese are my ___.\nWord bank: eye · nose · face · eyes",
+      "spokenScene": "Luke points to one nose. This … my nose.",
+      "scene": "Luke points to one nose. This ___ my nose.",
       "prompt": "Write the missing words.",
-      "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "partInstruction": "Read and write.",
       "explanationExample": {
         "en": "These are my eyes.",
         "vi": "Đây là đôi mắt của tôi."
-      }
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u3-3-5-context2",
+      "id": "family-friends-1-grammar-u3-2-5-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -608,38 +425,39 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "face",
+      "answer": "hands",
       "options": [
-        "legs",
-        "ears",
+        "hand",
+        "nose",
         "face",
-        "arms"
+        "hands"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “face”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Nina washes both hands before lunch. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\nThis is my ___.\nWord bank: legs · ears · face · arms",
+      "spokenScene": "Nina washes both hands before lunch. These are my ….",
+      "scene": "Nina washes both hands before lunch. These are my ___.",
       "prompt": "Write the missing words.",
-      "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "partInstruction": "Read and write.",
       "explanationExample": {
         "en": "This is my face.",
         "vi": "Đây là khuôn mặt của tôi."
-      }
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u3-4-1-context2",
+      "id": "family-friends-1-grammar-u3-3-1-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -649,40 +467,39 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "These are → my → arms.",
+      "answer": "ear",
       "options": [
-        "These are → my → arms.",
-        "my → arms. → These are",
-        "arms. → These are → my",
-        "arms. → my → These are"
+        "hands",
+        "legs",
+        "ear",
+        "ears"
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “These are → my → arms.”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "advanced",
+      "why": "Câu đúng: Luke touches one ear. This is my ear.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
       "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "my",
-        "arms.",
-        "These are"
-      ],
+      "spokenScene": "Luke touches one ear. This is my ….",
+      "scene": "Luke touches one ear. This is my ___.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
       "explanationExample": {
         "en": "These are my arms.",
         "vi": "Đây là hai cánh tay của tôi."
-      }
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u3-4-2-context2",
+      "id": "family-friends-1-grammar-u3-3-2-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -692,40 +509,39 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "This is → my → nose.",
+      "answer": "Alex points to two hands. These are my hands.",
       "options": [
-        "This is → my → nose.",
-        "my → nose. → This is",
-        "nose. → This is → my",
-        "nose. → my → This is"
+        "Alex points to two hands. These do my hands.",
+        "Alex points to two hands. These are my hands.",
+        "Alex points to two hands. These is my hands.",
+        "Alex points to two hands. These am my hands."
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “This is → my → nose.”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "advanced",
+      "why": "Câu đúng: Alex points to two hands. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
       "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "my",
-        "nose.",
-        "This is"
-      ],
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
       "explanationExample": {
         "en": "This is my nose.",
         "vi": "Đây là mũi của tôi."
-      }
+      },
+      "variation31": true,
+      "visualOnly": true
     },
     {
-      "id": "family-friends-1-grammar-u3-4-3-context2",
+      "id": "family-friends-1-grammar-u3-3-3-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -735,40 +551,39 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "I have → two → ears.",
+      "answer": "Ivy points to one nose. This is my nose.",
       "options": [
-        "I have → two → ears.",
-        "two → ears. → I have",
-        "ears. → I have → two",
-        "ears. → two → I have"
+        "Ivy points to one nose. This is my nose.",
+        "Ivy points to one nose. This are my nose.",
+        "Ivy points to one nose. This am my nose.",
+        "Ivy points to one nose. This do my nose."
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “I have → two → ears.”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "difficulty": "advanced",
+      "why": "Câu đúng: Ivy points to one nose. This is my nose.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
       "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "two",
-        "ears.",
-        "I have"
-      ],
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
       "explanationExample": {
         "en": "I have two ears.",
         "vi": "Tôi có hai tai."
-      }
+      },
+      "variation31": true,
+      "visualOnly": true
     },
     {
-      "id": "family-friends-1-grammar-u3-4-4-context2",
+      "id": "family-friends-1-grammar-u3-3-4-context2-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -778,40 +593,245 @@
         "page": 21,
         "unit": 3,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Một hay nhiều?",
-      "answer": "These are → my → eyes.",
+      "answer": "Alex washes both hands before lunch. These are my hands.",
       "options": [
-        "These are → my → eyes.",
-        "my → eyes. → These are",
-        "eyes. → These are → my",
-        "eyes. → my → These are"
+        "Alex washes both hands before lunch. These are my hand.",
+        "Alex washes both hands before lunch. These are my nose.",
+        "Alex washes both hands before lunch. These are my face.",
+        "Alex washes both hands before lunch. These are my hands."
       ],
       "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
-      "why": "Chọn “These are → my → eyes.”. This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Alex washes both hands before lunch. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "These are my eyes.",
+        "vi": "Đây là đôi mắt của tôi."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u3-3-5-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "Ivy touches one ear. This is my ear.",
+      "options": [
+        "Ivy touches one ear. This is my hands.",
+        "Ivy touches one ear. This is my legs.",
+        "Ivy touches one ear. This is my ear.",
+        "Ivy touches one ear. This is my ears."
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Ivy touches one ear. This is my ear.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "This is my face.",
+        "vi": "Đây là khuôn mặt của tôi."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u3-4-1-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "are",
+      "options": [
+        "do",
+        "are",
+        "is",
+        "am"
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Zoe points to two hands. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "my",
-        "eyes.",
-        "These are"
+      "spokenScene": "Zoe points to two hands. These … my hands.",
+      "scene": "Zoe points to two hands. These ___ my hands.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "These are my arms.",
+        "vi": "Đây là hai cánh tay của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u3-4-2-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "is",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "do"
       ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Ryan points to one nose. This is my nose.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Ryan points to one nose. This … my nose.",
+      "scene": "Ryan points to one nose. This ___ my nose.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This is my nose.",
+        "vi": "Đây là mũi của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u3-4-3-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "hands",
+      "options": [
+        "hand",
+        "nose",
+        "face",
+        "hands"
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Zoe washes both hands before lunch. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Zoe washes both hands before lunch. These are my ….",
+      "scene": "Zoe washes both hands before lunch. These are my ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "I have two ears.",
+        "vi": "Tôi có hai tai."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u3-4-4-context2-variation31",
+      "type": "choice",
+      "unit": 3,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 21,
+        "unit": 3,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Một hay nhiều?",
+      "title": "Một hay nhiều?",
+      "answer": "ear",
+      "options": [
+        "hands",
+        "legs",
+        "ear",
+        "ears"
+      ],
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Ryan touches one ear. This is my ear.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Ryan touches one ear. This is my ….",
+      "scene": "Ryan touches one ear. This is my ___.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "These are my eyes.",
         "vi": "Đây là đôi mắt của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u3-4-5-context2-life",
+      "id": "family-friends-1-grammar-u3-4-5-context2-life-variation31",
       "type": "choice",
       "unit": 3,
       "skill": "grammar",
@@ -821,31 +841,32 @@
         "page": 21,
         "unit": 3,
         "kind": "authored-life-application-aligned-to-unit",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Một hay nhiều?",
       "title": "Use English in Real Life",
-      "answer": "These are my dirty hands. I wash them first.",
+      "answer": "Adam points to two hands. These are my hands.",
       "options": [
-        "I put paint on the food.",
-        "These are my dirty hands. I wash them first.",
-        "I wipe my hands on a friend.",
-        "I eat with paint on my hands."
+        "Adam points to two hands. These do my hands.",
+        "Adam points to two hands. These are my hands.",
+        "Adam points to two hands. These is my hands.",
+        "Adam points to two hands. These am my hands."
       ],
-      "hint": "Read the situation. Think about its effect on other people.",
-      "why": "Nhìn tình huống để chọn hành động vệ sinh phù hợp.",
+      "hint": "This is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
+      "why": "Câu đúng: Adam points to two hands. These are my hands.\nThis is dùng với một; these are dùng với nhiều. Chú ý đuôi số nhiều: arm → arms.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-life-application",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Mia has paint on her hands. Lunch is ready.",
-      "prompt": "What is the best choice?",
+      "spokenScene": "Adam points to two hands. These … my hands.",
+      "scene": "Adam points to two hands. These [is] my hands.",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
-      "partTitle": "Think and Choose",
-      "partInstruction": "Read and choose the best response.",
-      "contextApplication": true
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "contextApplication": true,
+      "variation31": true
     }
   ]
 }

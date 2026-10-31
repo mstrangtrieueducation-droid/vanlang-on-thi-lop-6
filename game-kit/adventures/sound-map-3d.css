@@ -1,0 +1,12 @@
+.source-d.sound-map-3d .d-layout{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:6px;overflow:hidden}
+.source-d.sound-map-3d .d-reference{display:flex;min-height:0;align-items:center;justify-content:center;overflow:hidden;margin:0}
+.source-d.sound-map-3d .d-board{height:100%;width:auto;max-width:100%;max-height:100%;aspect-ratio:3/2;border-radius:20px;overflow:hidden;box-shadow:0 5px 16px #142c4520}
+.source-d.sound-map-3d .d-reference figcaption,.source-d.sound-map-3d .d-source-heading-mask{display:none}
+.source-d.sound-map-3d .d-responses{display:flex;align-items:center;justify-content:center;gap:10px;padding:2px;overflow:visible;min-height:42px}
+.source-d.sound-map-3d .d-answer-list:empty,.source-d.sound-map-3d .d-validation:empty,.source-d.sound-map-3d [data-d-feedback]:empty{display:none}
+.source-d.sound-map-3d .d-board>svg[data-d-ink] path{stroke:#fff300!important;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 2px #005aa5) drop-shadow(0 0 5px #fff)}
+.source-d.sound-map-3d h2{text-align:center;margin:3px 0;font-size:clamp(17px,2.4vw,28px)}
+.source-d.sound-map-3d .d-toolbar{min-height:32px}
+@media(max-width:620px){.source-d.sound-map-3d .d-board{height:auto;width:100%;max-height:100%}.source-d.sound-map-3d .d-layout{grid-template-rows:minmax(0,1fr) auto}.source-d.sound-map-3d .d-responses{max-height:none}}
+
+html:has(.source-d),body:has(.source-d){overflow:hidden!important;height:100dvh;max-height:100dvh}

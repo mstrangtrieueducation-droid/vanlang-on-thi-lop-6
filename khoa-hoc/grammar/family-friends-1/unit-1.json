@@ -38,7 +38,7 @@
   ],
   "items": [
     {
-      "id": "family-friends-1-grammar-u1-1-1-context2",
+      "id": "family-friends-1-grammar-u1-1-1-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -48,83 +48,7 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "is",
-      "options": [
-        "is",
-        "are",
-        "am",
-        "do"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat ___ this?",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "What is this?",
-        "vi": "Đây là cái gì?"
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-1-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "is",
-      "options": [
-        "are",
-        "am",
-        "do",
-        "is"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt ___ a pen.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "It is a pen.",
-        "vi": "Đó là một chiếc bút mực."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-1-3-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
@@ -136,23 +60,26 @@
         "an"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Eva opens the school bag. It is a ruler.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt's ___ rubber.",
+      "spokenScene": "Eva opens the school bag. It is … ruler.",
+      "scene": "Eva opens the school bag. It is ___ ruler.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "It's a rubber.",
-        "vi": "Đó là một cục tẩy."
-      }
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-1-4-context2",
+      "id": "family-friends-1-grammar-u1-1-2-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -162,35 +89,38 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "What",
       "options": [
-        "How",
+        "How old",
         "What",
         "Who",
         "Where"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Eva cannot name the object. What is this? It is a book.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n___ is this? It's a book.",
+      "spokenScene": "Eva cannot name the object. … is this? It is a book.",
+      "scene": "Eva cannot name the object. ___ is this? It is a book.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "What is this? It's a book.",
-        "vi": "Đây là cái gì? Đây là một quyển sách."
-      }
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-1-5-context2",
+      "id": "family-friends-1-grammar-u1-1-3-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -200,7 +130,7 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
@@ -212,23 +142,26 @@
         "You're"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Adam asks about one pen. It's a pen.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat is this? ___ a ruler.",
+      "spokenScene": "Adam asks about one pen. … a pen.",
+      "scene": "Adam asks about one pen. ___ a pen.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "What is this? It's a ruler.",
-        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
-      }
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-2-1-context2",
+      "id": "family-friends-1-grammar-u1-1-4-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -238,7 +171,171 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Max points to one ruler. What is this?",
+      "options": [
+        "Max points to one ruler. What are this?",
+        "Max points to one ruler. What am this?",
+        "Max points to one ruler. What do this?",
+        "Max points to one ruler. What is this?"
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Max points to one ruler. What is this?\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "Max points to one ruler. What … this?",
+      "scene": "Max points to one ruler. What [are] this?",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-1-grammar-u1-1-5-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Max opens the school bag. It is a book.",
+      "options": [
+        "Max opens the school bag. It is are book.",
+        "Max opens the school bag. It is am book.",
+        "Max opens the school bag. It is a book.",
+        "Max opens the school bag. It is an book."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Max opens the school bag. It is a book.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "Max opens the school bag. It is … book.",
+      "scene": "Max opens the school bag. It is [an] book.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-1-grammar-u1-2-1-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Max cannot name the object. What is this? It is a pen.",
+      "options": [
+        "Max cannot name the object. How old is this? It is a pen.",
+        "Max cannot name the object. What is this? It is a pen.",
+        "Max cannot name the object. Who is this? It is a pen.",
+        "Max cannot name the object. Where is this? It is a pen."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Max cannot name the object. What is this? It is a pen.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Max cannot name the object. … is this? It is a pen.",
+      "scene": "Max cannot name the object. [Who] is this? It is a pen.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-1-grammar-u1-2-2-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Ruby asks about one rubber. It's a rubber.",
+      "options": [
+        "Ruby asks about one rubber. It's a rubber.",
+        "Ruby asks about one rubber. They're a rubber.",
+        "Ruby asks about one rubber. I'm a rubber.",
+        "Ruby asks about one rubber. You're a rubber."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Ruby asks about one rubber. It's a rubber.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Ruby asks about one rubber. … a rubber.",
+      "scene": "Ruby asks about one rubber. [They're] a rubber.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-1-grammar-u1-2-3-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
@@ -250,65 +347,27 @@
         "is"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Nina points to one book. What is this?\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat [are] this?",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
+      "spokenScene": "Nina points to one book. What … this?",
+      "scene": "Nina points to one book. What ___ this?",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
       "explanationExample": {
-        "en": "What is this?",
-        "vi": "Đây là cái gì?"
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-2-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
       },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "is",
-      "options": [
-        "am",
-        "do",
-        "is",
-        "are"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt [are] a pen.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "It is a pen.",
-        "vi": "Đó là một chiếc bút mực."
-      }
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u1-2-3-context2",
+      "id": "family-friends-1-grammar-u1-2-4-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -318,37 +377,39 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "a",
       "options": [
+        "are",
         "am",
         "a",
-        "an",
-        "are"
+        "an"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Nina opens the school bag. It is a pen.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt's [an] rubber.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
+      "spokenScene": "Nina opens the school bag. It is … pen.",
+      "scene": "Nina opens the school bag. It is ___ pen.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
       "explanationExample": {
-        "en": "It's a rubber.",
-        "vi": "Đó là một cục tẩy."
-      }
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u1-2-4-context2",
+      "id": "family-friends-1-grammar-u1-2-5-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -358,37 +419,39 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "What",
       "options": [
+        "How old",
         "What",
         "Who",
-        "Where",
-        "How"
+        "Where"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Nina cannot name the object. What is this? It is a rubber.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n[Who] is this? It's a book.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
+      "spokenScene": "Nina cannot name the object. … is this? It is a rubber.",
+      "scene": "Nina cannot name the object. ___ is this? It is a rubber.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
       "explanationExample": {
-        "en": "What is this? It's a book.",
-        "vi": "Đây là cái gì? Đây là một quyển sách."
-      }
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u1-2-5-context2",
+      "id": "family-friends-1-grammar-u1-3-1-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -398,78 +461,39 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "It's",
       "options": [
+        "It's",
         "They're",
         "I'm",
-        "You're",
-        "It's"
+        "You're"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Luke asks about one pencil. It's a pencil.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat is this? [They're] a ruler.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "What is this? It's a ruler.",
-        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-3-1-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "is",
-      "options": [
-        "am",
-        "do",
-        "is",
-        "are"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat ___ this?\nWord bank: am · do · is · are",
+      "spokenScene": "Luke asks about one pencil. … a pencil.",
+      "scene": "Luke asks about one pencil. ___ a pencil.",
       "prompt": "Write the missing words.",
-      "inputMode": "typing",
       "partType": "readWrite",
       "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "partInstruction": "Read and write.",
       "explanationExample": {
         "en": "What is this?",
         "vi": "Đây là cái gì?"
-      }
+      },
+      "variation31": true,
+      "inputMode": "typing"
     },
     {
-      "id": "family-friends-1-grammar-u1-3-2-context2",
+      "id": "family-friends-1-grammar-u1-3-2-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -479,38 +503,39 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
-      "answer": "is",
+      "answer": "Alex points to one pen. What is this?",
       "options": [
-        "do",
-        "is",
-        "are",
-        "am"
+        "Alex points to one pen. What are this?",
+        "Alex points to one pen. What am this?",
+        "Alex points to one pen. What do this?",
+        "Alex points to one pen. What is this?"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “is”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Alex points to one pen. What is this?\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt ___ a pen.\nWord bank: do · is · are · am",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
       "explanationExample": {
         "en": "It is a pen.",
         "vi": "Đó là một chiếc bút mực."
-      }
+      },
+      "variation31": true,
+      "visualOnly": true
     },
     {
-      "id": "family-friends-1-grammar-u1-3-3-context2",
+      "id": "family-friends-1-grammar-u1-3-3-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -520,38 +545,205 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Alex opens the school bag. It is a rubber.",
+      "options": [
+        "Alex opens the school bag. It is are rubber.",
+        "Alex opens the school bag. It is am rubber.",
+        "Alex opens the school bag. It is a rubber.",
+        "Alex opens the school bag. It is an rubber."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Alex opens the school bag. It is a rubber.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u1-3-4-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Alex cannot name the object. What is this? It is a pencil.",
+      "options": [
+        "Alex cannot name the object. How old is this? It is a pencil.",
+        "Alex cannot name the object. What is this? It is a pencil.",
+        "Alex cannot name the object. Who is this? It is a pencil.",
+        "Alex cannot name the object. Where is this? It is a pencil."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Alex cannot name the object. What is this? It is a pencil.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "What is this? It's a book.",
+        "vi": "Đây là cái gì? Đây là một quyển sách."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u1-3-5-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "Ivy asks about one ruler. It's a ruler.",
+      "options": [
+        "Ivy asks about one ruler. It's a ruler.",
+        "Ivy asks about one ruler. They're a ruler.",
+        "Ivy asks about one ruler. I'm a ruler.",
+        "Ivy asks about one ruler. You're a ruler."
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Ivy asks about one ruler. It's a ruler.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "What is this? It's a ruler.",
+        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u1-4-1-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Hỏi tên đồ vật",
+      "title": "Hỏi tên đồ vật",
+      "answer": "is",
+      "options": [
+        "are",
+        "am",
+        "do",
+        "is"
+      ],
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Zoe points to one rubber. What is this?\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Zoe points to one rubber. What … this?",
+      "scene": "Zoe points to one rubber. What ___ this?",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "What is this?",
+        "vi": "Đây là cái gì?"
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u1-4-2-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "a",
       "options": [
-        "a",
-        "an",
         "are",
-        "am"
+        "am",
+        "a",
+        "an"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “a”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "medium",
+      "why": "Câu đúng: Zoe opens the school bag. It is a pencil.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "advanced",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nIt's ___ rubber.\nWord bank: a · an · are · am",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "spokenScene": "Zoe opens the school bag. It is … pencil.",
+      "scene": "Zoe opens the school bag. It is ___ pencil.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
-        "en": "It's a rubber.",
-        "vi": "Đó là một cục tẩy."
-      }
+        "en": "It is a pen.",
+        "vi": "Đó là một chiếc bút mực."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-3-4-context2",
+      "id": "family-friends-1-grammar-u1-4-3-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -561,38 +753,38 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "What",
       "options": [
+        "How old",
+        "What",
         "Who",
-        "Where",
-        "How",
-        "What"
+        "Where"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “What”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "medium",
+      "why": "Câu đúng: Zoe cannot name the object. What is this? It is a ruler.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "difficulty": "advanced",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n___ is this? It's a book.\nWord bank: Who · Where · How · What",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "spokenScene": "Zoe cannot name the object. … is this? It is a ruler.",
+      "scene": "Zoe cannot name the object. ___ is this? It is a ruler.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
-        "en": "What is this? It's a book.",
-        "vi": "Đây là cái gì? Đây là một quyển sách."
-      }
+        "en": "It's a rubber.",
+        "vi": "Đó là một cục tẩy."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-3-5-context2",
+      "id": "family-friends-1-grammar-u1-4-4-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -602,210 +794,38 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Hỏi tên đồ vật",
       "answer": "It's",
       "options": [
-        "I'm",
-        "You're",
         "It's",
-        "They're"
+        "They're",
+        "I'm",
+        "You're"
       ],
       "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “It's”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\nWhat is this? ___ a ruler.\nWord bank: I'm · You're · It's · They're",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "What is this? It's a ruler.",
-        "vi": "Đây là cái gì? Đây là một chiếc thước kẻ."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-4-1-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "What → is → this?",
-      "options": [
-        "What → is → this?",
-        "is → this? → What",
-        "this? → What → is",
-        "this? → is → What"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “What → is → this?”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Ryan asks about one book. It's a book.\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "is",
-        "this?",
-        "What"
-      ],
-      "explanationExample": {
-        "en": "What is this?",
-        "vi": "Đây là cái gì?"
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-4-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "It is → a → pen.",
-      "options": [
-        "It is → a → pen.",
-        "a → pen. → It is",
-        "pen. → It is → a",
-        "pen. → a → It is"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “It is → a → pen.”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "a",
-        "pen.",
-        "It is"
-      ],
-      "explanationExample": {
-        "en": "It is a pen.",
-        "vi": "Đó là một chiếc bút mực."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-4-3-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "It's → a → rubber.",
-      "options": [
-        "It's → a → rubber.",
-        "a → rubber. → It's",
-        "rubber. → It's → a",
-        "rubber. → a → It's"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “It's → a → rubber.”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "a",
-        "rubber.",
-        "It's"
-      ],
-      "explanationExample": {
-        "en": "It's a rubber.",
-        "vi": "Đó là một cục tẩy."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u1-4-4-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Hỏi tên đồ vật",
-      "title": "Hỏi tên đồ vật",
-      "answer": "What is → this? It's → a book.",
-      "options": [
-        "What is → this? It's → a book.",
-        "this? It's → a book. → What is",
-        "a book. → What is → this? It's",
-        "a book. → this? It's → What is"
-      ],
-      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "why": "Chọn “What is → this? It's → a book.”. Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "this? It's",
-        "a book.",
-        "What is"
-      ],
+      "spokenScene": "Ryan asks about one book. … a book.",
+      "scene": "Ryan asks about one book. ___ a book.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "What is this? It's a book.",
         "vi": "Đây là cái gì? Đây là một quyển sách."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u1-4-5-context2-life",
+      "id": "family-friends-1-grammar-u1-4-5-context2-life-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -815,31 +835,32 @@
         "page": 9,
         "unit": 1,
         "kind": "authored-life-application-aligned-to-unit",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Hỏi tên đồ vật",
       "title": "Use English in Real Life",
-      "answer": "It is Rosy's pencil. Tim gives it back.",
+      "answer": "Adam points to one pencil. What is this?",
       "options": [
-        "Tim breaks the pencil.",
-        "It is Rosy's pencil. Tim gives it back.",
-        "Tim hides the pencil.",
-        "Tim says the pencil is his."
+        "Adam points to one pencil. What are this?",
+        "Adam points to one pencil. What am this?",
+        "Adam points to one pencil. What do this?",
+        "Adam points to one pencil. What is this?"
       ],
-      "hint": "Read the situation. Think about its effect on other people.",
-      "why": "Bút có chủ: nhận biết đồ vật và trả lại đúng người.",
+      "hint": "Hỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
+      "why": "Câu đúng: Adam points to one pencil. What is this?\nHỏi về một đồ vật bằng What is this? Dùng a trước âm phụ âm, an trước âm nguyên âm.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-life-application",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Tim finds a pencil under his desk. Rosy says it is hers.",
-      "prompt": "What is the best choice?",
+      "spokenScene": "Adam points to one pencil. What … this?",
+      "scene": "Adam points to one pencil. What [are] this?",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
-      "partTitle": "Think and Choose",
-      "partInstruction": "Read and choose the best response.",
-      "contextApplication": true
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "contextApplication": true,
+      "variation31": true
     }
   ]
 }

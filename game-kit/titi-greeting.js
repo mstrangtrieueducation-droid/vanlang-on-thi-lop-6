@@ -1,7 +1,9 @@
 /* The homepage owns the welcome; loading a lesson never starts this recording. */
 (()=>{'use strict';
  const src=new URL('../vu-tru/assets/titi-welcome.mp3?v=native-1',document.currentScript.src).href;
- let clip=null,home=false,played=false,pending=false,epoch=0,fallback=null;
+ const sessionKey='titi-home-welcome-v2';
+ const wasPlayed=()=>{try{return sessionStorage.getItem(sessionKey)==='played';}catch{return false;}};
+ let clip=null,home=false,played=wasPlayed(),pending=false,epoch=0,fallback=null;
  const permitted=()=>window.TitiSpaceAudio?.prefs?.sfx!==false;
  function mood(on){document.body.dataset.titiGreeting=on?'playing':'idle';window.TitiSpaceAudio?.duck?.(on);}
  function clearFallback(){fallback?.remove();fallback=null;}
@@ -11,16 +13,16 @@
   if(!home||pending||played&&!force||document.hidden||!permitted())return false;
   clip||=new Audio(src);const recording=clip;recording.preload='auto';recording.onended=()=>{if(recording===clip)mood(false);};recording.onerror=()=>{if(recording===clip){pending=false;mood(false);offer();}};
   const token=epoch;pending=true;clip.currentTime=0;
-  try{await recording.play();if(token!==epoch||!home){recording.pause();return false;}played=true;clearFallback();mood(true);return true;}
+  try{await recording.play();if(token!==epoch||!home){recording.pause();return false;}played=true;try{sessionStorage.setItem(sessionKey,'played');}catch{}clearFallback();mood(true);return true;}
   catch{if(token===epoch&&home)offer();return false;}
   finally{if(token===epoch)pending=false;}
  }
- function enterHome(){if(home)return;stop();clip=null;home=true;played=false;play();}
+ function enterHome(){if(home)return;stop();clip=null;home=true;played=played||wasPlayed();play();}
  function leaveHome(){home=false;stop();}
  // If the browser denies audible autoplay, only the explicit welcome button
  // retries it. An unrelated navigation click must never trigger the greeting.
  document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
  window.addEventListener('pagehide',stop);
- window.addEventListener('pageshow',e=>{if(e.persisted&&home){played=false;play();}});
+ window.addEventListener('pageshow',e=>{if(e.persisted&&home&&!played)play();});
  window.TitiGreeting=Object.freeze({enterHome,leaveHome,play,stop});
 })();

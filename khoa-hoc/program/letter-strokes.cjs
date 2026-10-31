@@ -5,4 +5,7 @@ Object.assign(upper,{A:['M35 185L100 35','M100 35L165 185','M60 125H140'],B:['M4
 // Printed Latin manuscript forms: downward stems, separate branches/crossbars.
 Object.assign(upper,{A:['M100 35L35 185','M100 35L165 185','M60 125H140'],D:['M45 35V185','M45 35C205 25 205 195 45 185'],M:['M30 35V185','M30 35L100 120L170 35','M170 35V185'],N:['M40 35V185','M40 35L160 185','M160 35V185'],P:['M45 35V185','M45 35C185 10 185 130 45 110'],I:['M100 35V185','M50 35H150','M50 185H150'],G:['M160 55C20 -5 5 215 165 170V115H110']});
 Object.assign(lower,{i:['M100 90V185','M100 59L100 66'],j:['M120 90V190C120 225 55 225 45 200','M120 59L120 66'],m:['M30 90V185','M30 130C30 65 100 65 100 130V185','M100 130C100 65 170 65 170 130V185'],n:['M45 90V185','M45 130C60 65 155 65 155 130V185'],r:['M55 90V185','M55 130C70 80 125 70 155 95'],k:['M50 35V185','M155 85L50 145','M90 123L160 185']});
+// The bowl ends exactly on the stem: no curled overlap or extra terminal.
+const bowl='M145 95C105 70 50 90 50 135C50 180 110 200 145 175';
+Object.assign(lower,{a:[bowl,'M145 95V185'],d:[bowl,'M145 35V185'],g:[bowl,'M145 95V190C145 225 75 230 50 205'],q:[bowl,'M145 95V220']});
 module.exports={upper,lower,letters(letter){const c=letter.toUpperCase();if(!upper[c])throw Error('Missing letter strokes '+letter);return [{text:c,strokes:upper[c]},{text:c.toLowerCase(),strokes:lower[c.toLowerCase()]}];}};

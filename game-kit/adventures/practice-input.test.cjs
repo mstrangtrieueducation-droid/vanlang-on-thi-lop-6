@@ -18,7 +18,7 @@ test('Listening writing hides scripts but pictured spelling and dictation are di
 });
 test('Latin handwriting has 26 uppercase/lowercase guides and downward stems',()=>{
  const s=require('../../khoa-hoc/program/letter-strokes.cjs');for(const c of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'){const letters=s.letters(c);assert.equal(letters.length,2);assert(letters.every(l=>l.strokes.length&&l.strokes.every(p=>p.startsWith('M'))));}assert.equal(s.upper.B[0],'M45 35V185');assert.equal(s.lower.n[0],'M45 90V185');
- assert.equal(s.lower.a[0].match(/\d+ \d+$/)[0],'145 105');assert.equal(s.lower.a[1],'M145 105V185');
+ assert.equal(s.lower.a[0].match(/\d+ \d+$/)[0],'145 175');assert.equal(s.lower.a[1],'M145 95V185');
 });
 test('Every Family picture task has visible art and Listen and Complete hides the source script',()=>{
  const tasks=require('./task-parts.js');for(const n of [1,2]){const id='family-friends-'+n,course=require('../../khoa-hoc/data/'+id+'.json');let pictured=0,listening=0;for(const q of course.lessons.flatMap(l=>l.items)){

@@ -44,7 +44,7 @@
   ],
   "items": [
     {
-      "id": "family-friends-2-grammar-u1-1-1-context2",
+      "id": "family-friends-2-grammar-u1-1-1-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -54,111 +54,38 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "is",
-      "options": [
-        "is",
-        "are",
-        "am",
-        "do"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThis ___ my table.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "This is my table.",
-        "vi": "Đây là bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-1-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
       "answer": "are",
       "options": [
-        "is",
         "am",
         "does",
-        "are"
+        "are",
+        "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Adam holds two books. These are my books.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThese ___ my books.",
+      "spokenScene": "Adam holds two books. These … my books.",
+      "scene": "Adam holds two books. These ___ my books.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "These are my books.",
-        "vi": "Đây là những quyển sách của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-1-3-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
       },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "This",
-      "options": [
-        "These",
-        "They",
-        "This",
-        "Those"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe pencil is near me. ___ is my pencil.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "The pencil is near me. This is my pencil.",
-        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
-      }
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-2-grammar-u1-1-4-context2",
+      "id": "family-friends-2-grammar-u1-1-2-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -168,7 +95,7 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
@@ -180,181 +107,26 @@
         "That"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Eva points to several tables far away. Those are our tables.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe tables are far from me. ___ are my tables.",
+      "spokenScene": "Eva points to several tables far away. … are our tables.",
+      "scene": "Eva points to several tables far away. ___ are our tables.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
-        "en": "The tables are far from me. Those are my tables.",
-        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-1-5-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "is",
-      "options": [
-        "is",
-        "are",
-        "am",
-        "do"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThat ___ our new board.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "That is our new board.",
-        "vi": "Kia là bảng mới của chúng tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-2-1-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "is",
-      "options": [
-        "are",
-        "am",
-        "do",
-        "is"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThis [are] my table.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "This is my table.",
-        "vi": "Đây là bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-2-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "are",
-      "options": [
-        "am",
-        "does",
-        "are",
-        "is"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThese [is] my books.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
         "en": "These are my books.",
         "vi": "Đây là những quyển sách của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-2-3-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "This",
-      "options": [
-        "They",
-        "This",
-        "Those",
-        "These"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe pencil is near me. [Those] is my pencil.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The pencil is near me. This is my pencil.",
-        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
-      }
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-2-grammar-u1-2-4-context2",
+      "id": "family-friends-2-grammar-u1-1-3-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -364,169 +136,7 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "Those",
-      "options": [
-        "Those",
-        "This",
-        "That",
-        "It"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe tables are far from me. [This] are my tables.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The tables are far from me. Those are my tables.",
-        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-2-5-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "is",
-      "options": [
-        "are",
-        "am",
-        "do",
-        "is"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThat [are] our new board.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "That is our new board.",
-        "vi": "Kia là bảng mới của chúng tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-3-1-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "is",
-      "options": [
-        "am",
-        "do",
-        "is",
-        "are"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThis ___ my table.\nWord bank: am · do · is · are",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "This is my table.",
-        "vi": "Đây là bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-3-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "are",
-      "options": [
-        "does",
-        "are",
-        "is",
-        "am"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “are”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThese ___ my books.\nWord bank: does · are · is · am",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "These are my books.",
-        "vi": "Đây là những quyển sách của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-3-3-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
@@ -538,26 +148,26 @@
         "They"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "medium",
+      "why": "Câu đúng: Adam points to one pencil nearby. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "easy",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe pencil is near me. ___ is my pencil.\nWord bank: This · Those · These · They",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "spokenScene": "Adam points to one pencil nearby. … is my pencil.",
+      "scene": "Adam points to one pencil nearby. ___ is my pencil.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "The pencil is near me. This is my pencil.",
         "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-2-grammar-u1-3-4-context2",
+      "id": "family-friends-2-grammar-u1-1-4-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -567,38 +177,120 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
-      "answer": "Those",
+      "answer": "Max points to one table nearby. This is my table.",
       "options": [
-        "This",
-        "That",
-        "It",
-        "Those"
+        "Max points to one table nearby. This are my table.",
+        "Max points to one table nearby. This am my table.",
+        "Max points to one table nearby. This do my table.",
+        "Max points to one table nearby. This is my table."
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “Those”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Max points to one table nearby. This is my table.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "Max points to one table nearby. This … my table.",
+      "scene": "Max points to one table nearby. This [are] my table.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-2-grammar-u1-1-5-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Ruby holds two books. These are my books.",
+      "options": [
+        "Ruby holds two books. These am my books.",
+        "Ruby holds two books. These does my books.",
+        "Ruby holds two books. These are my books.",
+        "Ruby holds two books. These is my books."
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Ruby holds two books. These are my books.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "Ruby holds two books. These … my books.",
+      "scene": "Ruby holds two books. These [is] my books.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-2-grammar-u1-2-1-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Max points to several tables far away. Those are our tables.",
+      "options": [
+        "Max points to several tables far away. It are our tables.",
+        "Max points to several tables far away. Those are our tables.",
+        "Max points to several tables far away. This are our tables.",
+        "Max points to several tables far away. That are our tables."
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Max points to several tables far away. Those are our tables.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThe tables are far from me. ___ are my tables.\nWord bank: This · That · It · Those",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "spokenScene": "Max points to several tables far away. … are our tables.",
+      "scene": "Max points to several tables far away. [This] are our tables.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
       "explanationExample": {
-        "en": "The tables are far from me. Those are my tables.",
-        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
-      }
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      },
+      "variation31": true
     },
     {
-      "id": "family-friends-2-grammar-u1-3-5-context2",
+      "id": "family-friends-2-grammar-u1-2-2-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -608,124 +300,248 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Ruby points to one pencil nearby. This is my pencil.",
+      "options": [
+        "Ruby points to one pencil nearby. This is my pencil.",
+        "Ruby points to one pencil nearby. Those is my pencil.",
+        "Ruby points to one pencil nearby. These is my pencil.",
+        "Ruby points to one pencil nearby. They is my pencil."
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Ruby points to one pencil nearby. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Ruby points to one pencil nearby. … is my pencil.",
+      "scene": "Ruby points to one pencil nearby. [Those] is my pencil.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-2-grammar-u1-2-3-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
       "answer": "is",
       "options": [
+        "are",
         "am",
         "do",
-        "is",
-        "are"
+        "is"
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “is”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Nina points to one table nearby. This is my table.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Nina points to one table nearby. This … my table.",
+      "scene": "Nina points to one table nearby. This ___ my table.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-2-grammar-u1-2-4-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "are",
+      "options": [
+        "am",
+        "does",
+        "are",
+        "is"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Luke holds two books. These are my books.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Luke holds two books. These … my books.",
+      "scene": "Luke holds two books. These ___ my books.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-2-grammar-u1-2-5-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Those",
+      "options": [
+        "It",
+        "Those",
+        "This",
+        "That"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Nina points to several tables far away. Those are our tables.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Nina points to several tables far away. … are our tables.",
+      "scene": "Nina points to several tables far away. ___ are our tables.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-2-grammar-u1-3-1-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "This",
+      "options": [
+        "This",
+        "Those",
+        "These",
+        "They"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Luke points to one pencil nearby. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "Luke points to one pencil nearby. … is my pencil.",
+      "scene": "Luke points to one pencil nearby. ___ is my pencil.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-2-grammar-u1-3-2-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Alex points to one table nearby. This is my table.",
+      "options": [
+        "Alex points to one table nearby. This are my table.",
+        "Alex points to one table nearby. This am my table.",
+        "Alex points to one table nearby. This do my table.",
+        "Alex points to one table nearby. This is my table."
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Alex points to one table nearby. This is my table.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "medium",
       "grammarModule": true,
       "cognitiveLevel": "medium",
       "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\nThat ___ our new board.\nWord bank: am · do · is · are",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "That is our new board.",
-        "vi": "Kia là bảng mới của chúng tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-4-1-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "This is → my → table.",
-      "options": [
-        "This is → my → table.",
-        "my → table. → This is",
-        "table. → This is → my",
-        "table. → my → This is"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “This is → my → table.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "my",
-        "table.",
-        "This is"
-      ],
-      "explanationExample": {
-        "en": "This is my table.",
-        "vi": "Đây là bàn của tôi."
-      }
-    },
-    {
-      "id": "family-friends-2-grammar-u1-4-2-context2",
-      "type": "choice",
-      "unit": 1,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
-        "page": 9,
-        "unit": 1,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Gần / xa; một / nhiều",
-      "title": "Gần / xa; một / nhiều",
-      "answer": "These are → my → books.",
-      "options": [
-        "These are → my → books.",
-        "my → books. → These are",
-        "books. → These are → my",
-        "books. → my → These are"
-      ],
-      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “These are → my → books.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "my",
-        "books.",
-        "These are"
-      ],
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
       "explanationExample": {
         "en": "These are my books.",
         "vi": "Đây là những quyển sách của tôi."
-      }
+      },
+      "variation31": true,
+      "visualOnly": true
     },
     {
-      "id": "family-friends-2-grammar-u1-4-3-context2",
+      "id": "family-friends-2-grammar-u1-3-3-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -735,40 +551,39 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
-      "answer": "The pencil is → near me. This → is my pencil.",
+      "answer": "Ivy holds two books. These are my books.",
       "options": [
-        "The pencil is → near me. This → is my pencil.",
-        "near me. This → is my pencil. → The pencil is",
-        "is my pencil. → The pencil is → near me. This",
-        "is my pencil. → near me. This → The pencil is"
+        "Ivy holds two books. These am my books.",
+        "Ivy holds two books. These does my books.",
+        "Ivy holds two books. These are my books.",
+        "Ivy holds two books. These is my books."
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “The pencil is → near me. This → is my pencil.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "difficulty": "advanced",
+      "why": "Câu đúng: Ivy holds two books. These are my books.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
       "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
       "spokenPrompt": "",
       "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "near me. This",
-        "is my pencil.",
-        "The pencil is"
-      ],
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
       "explanationExample": {
         "en": "The pencil is near me. This is my pencil.",
         "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
-      }
+      },
+      "variation31": true,
+      "visualOnly": true
     },
     {
-      "id": "family-friends-2-grammar-u1-4-4-context2",
+      "id": "family-friends-2-grammar-u1-3-4-context2-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -778,40 +593,245 @@
         "page": 9,
         "unit": 1,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Gần / xa; một / nhiều",
-      "answer": "The tables are far → from me. Those → are my tables.",
+      "answer": "Alex points to several tables far away. Those are our tables.",
       "options": [
-        "The tables are far → from me. Those → are my tables.",
-        "from me. Those → are my tables. → The tables are far",
-        "are my tables. → The tables are far → from me. Those",
-        "are my tables. → from me. Those → The tables are far"
+        "Alex points to several tables far away. It are our tables.",
+        "Alex points to several tables far away. Those are our tables.",
+        "Alex points to several tables far away. This are our tables.",
+        "Alex points to several tables far away. That are our tables."
       ],
       "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
-      "why": "Chọn “The tables are far → from me. Those → are my tables.”. This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Alex points to several tables far away. Those are our tables.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "The tables are far from me. Those are my tables.",
+        "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-2-grammar-u1-3-5-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Ivy points to one pencil nearby. This is my pencil.",
+      "options": [
+        "Ivy points to one pencil nearby. This is my pencil.",
+        "Ivy points to one pencil nearby. Those is my pencil.",
+        "Ivy points to one pencil nearby. These is my pencil.",
+        "Ivy points to one pencil nearby. They is my pencil."
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Ivy points to one pencil nearby. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "That is our new board.",
+        "vi": "Kia là bảng mới của chúng tôi."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-2-grammar-u1-4-1-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "is",
+      "options": [
+        "are",
+        "am",
+        "do",
+        "is"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Zoe points to one table nearby. This is my table.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "from me. Those",
-        "are my tables.",
-        "The tables are far"
+      "spokenScene": "Zoe points to one table nearby. This … my table.",
+      "scene": "Zoe points to one table nearby. This ___ my table.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "This is my table.",
+        "vi": "Đây là bàn của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-2-grammar-u1-4-2-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "are",
+      "options": [
+        "am",
+        "does",
+        "are",
+        "is"
       ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Ryan holds two books. These are my books.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Ryan holds two books. These … my books.",
+      "scene": "Ryan holds two books. These ___ my books.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "These are my books.",
+        "vi": "Đây là những quyển sách của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-2-grammar-u1-4-3-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "Those",
+      "options": [
+        "It",
+        "Those",
+        "This",
+        "That"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Zoe points to several tables far away. Those are our tables.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Zoe points to several tables far away. … are our tables.",
+      "scene": "Zoe points to several tables far away. ___ are our tables.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The pencil is near me. This is my pencil.",
+        "vi": "Chiếc bút chì ở gần tôi. Đây là bút chì của tôi."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-2-grammar-u1-4-4-context2-variation31",
+      "type": "choice",
+      "unit": 1,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1mUlE3tIqjpno2_YNNLk4auNy5U3sV_ce/view",
+        "page": 9,
+        "unit": 1,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Gần / xa; một / nhiều",
+      "title": "Gần / xa; một / nhiều",
+      "answer": "This",
+      "options": [
+        "This",
+        "Those",
+        "These",
+        "They"
+      ],
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Ryan points to one pencil nearby. This is my pencil.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "Ryan points to one pencil nearby. … is my pencil.",
+      "scene": "Ryan points to one pencil nearby. ___ is my pencil.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "The tables are far from me. Those are my tables.",
         "vi": "Những chiếc bàn ở xa tôi. Kia là những chiếc bàn của tôi."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-2-grammar-u1-4-5-context2-life",
+      "id": "family-friends-2-grammar-u1-4-5-context2-life-variation31",
       "type": "choice",
       "unit": 1,
       "skill": "grammar",
@@ -821,31 +841,32 @@
         "page": 9,
         "unit": 1,
         "kind": "authored-life-application-aligned-to-unit",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Gần / xa; một / nhiều",
       "title": "Use English in Real Life",
-      "answer": "This chair is broken. I tell the teacher.",
+      "answer": "Adam points to one table nearby. This is my table.",
       "options": [
-        "I hide the broken leg.",
-        "This chair is broken. I tell the teacher.",
-        "I ask my friend to sit on it.",
-        "I move it where someone will fall."
+        "Adam points to one table nearby. This are my table.",
+        "Adam points to one table nearby. This am my table.",
+        "Adam points to one table nearby. This do my table.",
+        "Adam points to one table nearby. This is my table."
       ],
-      "hint": "Read the situation. Think about its effect on other people.",
-      "why": "Nhận biết vấn đề và báo người có trách nhiệm.",
+      "hint": "This/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
+      "why": "Câu đúng: Adam points to one table nearby. This is my table.\nThis/these chỉ gần; that/those chỉ xa. This/that chỉ một, these/those chỉ nhiều.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-life-application",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "These chairs belong to the classroom. One chair has a broken leg.",
-      "prompt": "What is the best choice?",
+      "spokenScene": "Adam points to one table nearby. This … my table.",
+      "scene": "Adam points to one table nearby. This [are] my table.",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
-      "partTitle": "Think and Choose",
-      "partInstruction": "Read and choose the best response.",
-      "contextApplication": true
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "contextApplication": true,
+      "variation31": true
     }
   ]
 }

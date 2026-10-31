@@ -38,7 +38,7 @@
   ],
   "items": [
     {
-      "id": "family-friends-1-grammar-u6-1-1-context2",
+      "id": "family-friends-1-grammar-u6-1-1-context2-variation31",
       "type": "choice",
       "unit": 6,
       "skill": "grammar",
@@ -48,35 +48,38 @@
         "page": 43,
         "unit": 6,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Sở hữu với ’s",
       "title": "Sở hữu với ’s",
-      "answer": "Billy's",
+      "answer": "Adam's",
       "options": [
-        "Billy's",
-        "Billy",
-        "Billys",
-        "Billies"
+        "Adames",
+        "Adam's",
+        "Adam",
+        "Adams"
       ],
       "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Billy's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The bag belongs to Adam. It is Adam's bag.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
       "difficulty": "easy",
       "grammarModule": true,
       "cognitiveLevel": "easy",
       "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe teddy belongs to Billy. It is ___ teddy.",
+      "spokenScene": "The bag belongs to Adam. It is … bag.",
+      "scene": "The bag belongs to Adam. It is ___ bag.",
       "prompt": "Choose the missing words.",
       "partType": "readGap",
       "explanationExample": {
         "en": "The teddy belongs to Billy. It is Billy's teddy.",
         "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u6-1-2-context2",
+      "id": "family-friends-1-grammar-u6-1-2-context2-variation31",
       "type": "choice",
       "unit": 6,
       "skill": "grammar",
@@ -86,472 +89,38 @@
         "page": 43,
         "unit": 6,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Sở hữu với ’s",
       "title": "Sở hữu với ’s",
       "answer": "Dad's",
       "options": [
-        "Dad",
-        "Dads",
-        "Dades",
-        "Dad's"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Dad's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe hat belongs to Dad. It is ___ hat.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "The hat belongs to Dad. It is Dad's hat.",
-        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-1-3-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Tom's",
-      "options": [
-        "Toms",
-        "Tomes",
-        "Tom's",
-        "Tom"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Tom's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe ball belongs to Tom. It is ___ ball.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "The ball belongs to Tom. It is Tom's ball.",
-        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-1-4-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Mum's",
-      "options": [
-        "Mumes",
-        "Mum's",
-        "Mum",
-        "Mums"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Mum's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bag belongs to Mum. It is ___ bag.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "The bag belongs to Mum. It is Mum's bag.",
-        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-1-5-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "sister's",
-      "options": [
-        "sister's",
-        "sister",
-        "sisters",
-        "sisteres"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “sister's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "easy",
-      "grammarModule": true,
-      "cognitiveLevel": "easy",
-      "partId": "grammar-easy",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bike belongs to my sister. It is my ___ bike.",
-      "prompt": "Choose the missing words.",
-      "partType": "readGap",
-      "explanationExample": {
-        "en": "The bike belongs to my sister. It is my sister's bike.",
-        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-2-1-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Billy's",
-      "options": [
-        "Billy",
-        "Billys",
-        "Billies",
-        "Billy's"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Billy's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe teddy belongs to Billy. It is [Billy] teddy.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The teddy belongs to Billy. It is Billy's teddy.",
-        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-2-2-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Dad's",
-      "options": [
-        "Dads",
-        "Dades",
-        "Dad's",
-        "Dad"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Dad's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe hat belongs to Dad. It is [Dad] hat.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The hat belongs to Dad. It is Dad's hat.",
-        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-2-3-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Tom's",
-      "options": [
-        "Tomes",
-        "Tom's",
-        "Tom",
-        "Toms"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Tom's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe ball belongs to Tom. It is [Tom] ball.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The ball belongs to Tom. It is Tom's ball.",
-        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-2-4-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Mum's",
-      "options": [
-        "Mum's",
-        "Mum",
-        "Mums",
-        "Mumes"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Mum's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bag belongs to Mum. It is [Mum] bag.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The bag belongs to Mum. It is Mum's bag.",
-        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-2-5-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "sister's",
-      "options": [
-        "sister",
-        "sisters",
-        "sisteres",
-        "sister's"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “sister's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bike belongs to my sister. It is my [sister] bike.",
-      "prompt": "Replace the words in brackets.",
-      "partType": "readChoose",
-      "partTitle": "Grammar Detective",
-      "partInstruction": "Choose the correction.",
-      "explanationExample": {
-        "en": "The bike belongs to my sister. It is my sister's bike.",
-        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-3-1-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Billy's",
-      "options": [
-        "Billys",
-        "Billies",
-        "Billy's",
-        "Billy"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Billy's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe teddy belongs to Billy. It is ___ teddy.\nWord bank: Billys · Billies · Billy's · Billy",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "The teddy belongs to Billy. It is Billy's teddy.",
-        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-3-2-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Dad's",
-      "options": [
-        "Dades",
         "Dad's",
         "Dad",
-        "Dads"
+        "Dads",
+        "Dades"
       ],
       "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Dad's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
+      "why": "Câu đúng: The hat belongs to Dad. Eva brings Dad's hat to him.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "easy",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe hat belongs to Dad. It is ___ hat.\nWord bank: Dades · Dad's · Dad · Dads",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
+      "spokenScene": "The hat belongs to Dad. Eva brings … hat to him.",
+      "scene": "The hat belongs to Dad. Eva brings ___ hat to him.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "The hat belongs to Dad. It is Dad's hat.",
         "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-3-3-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
       },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "Tom's",
-      "options": [
-        "Tom's",
-        "Tom",
-        "Toms",
-        "Tomes"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Tom's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe ball belongs to Tom. It is ___ ball.\nWord bank: Tom's · Tom · Toms · Tomes",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "The ball belongs to Tom. It is Tom's ball.",
-        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
-      }
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u6-3-4-context2",
+      "id": "family-friends-1-grammar-u6-1-3-context2-variation31",
       "type": "choice",
       "unit": 6,
       "skill": "grammar",
@@ -561,7 +130,7 @@
         "page": 43,
         "unit": 6,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Sở hữu với ’s",
       "title": "Sở hữu với ’s",
@@ -573,196 +142,26 @@
         "Mum's"
       ],
       "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “Mum's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
+      "why": "Câu đúng: The book belongs to Mum. Adam puts Mum's book on the shelf.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "easy",
       "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bag belongs to Mum. It is ___ bag.\nWord bank: Mum · Mums · Mumes · Mum's",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "The bag belongs to Mum. It is Mum's bag.",
-        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-3-5-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "sister's",
-      "options": [
-        "sisters",
-        "sisteres",
-        "sister's",
-        "sister"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “sister's”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "medium",
-      "grammarModule": true,
-      "cognitiveLevel": "medium",
-      "partId": "grammar-medium",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\nThe bike belongs to my sister. It is my ___ bike.\nWord bank: sisters · sisteres · sister's · sister",
-      "prompt": "Write the missing words.",
-      "inputMode": "typing",
-      "partType": "readWrite",
-      "partTitle": "Complete the Sentence",
-      "partInstruction": "Use the word bank. Write the missing words.",
-      "explanationExample": {
-        "en": "The bike belongs to my sister. It is my sister's bike.",
-        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-4-1-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "The teddy belongs → to Billy. It → is Billy's teddy.",
-      "options": [
-        "The teddy belongs → to Billy. It → is Billy's teddy.",
-        "to Billy. It → is Billy's teddy. → The teddy belongs",
-        "is Billy's teddy. → The teddy belongs → to Billy. It",
-        "is Billy's teddy. → to Billy. It → The teddy belongs"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “The teddy belongs → to Billy. It → is Billy's teddy.”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "to Billy. It",
-        "is Billy's teddy.",
-        "The teddy belongs"
-      ],
-      "explanationExample": {
-        "en": "The teddy belongs to Billy. It is Billy's teddy.",
-        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-4-2-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "The hat belongs → to Dad. It → is Dad's hat.",
-      "options": [
-        "The hat belongs → to Dad. It → is Dad's hat.",
-        "to Dad. It → is Dad's hat. → The hat belongs",
-        "is Dad's hat. → The hat belongs → to Dad. It",
-        "is Dad's hat. → to Dad. It → The hat belongs"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “The hat belongs → to Dad. It → is Dad's hat.”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "to Dad. It",
-        "is Dad's hat.",
-        "The hat belongs"
-      ],
-      "explanationExample": {
-        "en": "The hat belongs to Dad. It is Dad's hat.",
-        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
-      }
-    },
-    {
-      "id": "family-friends-1-grammar-u6-4-3-context2",
-      "type": "choice",
-      "unit": 6,
-      "skill": "grammar",
-      "phonicsSequence": true,
-      "source": {
-        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
-        "page": 43,
-        "unit": 6,
-        "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
-      },
-      "focus": "Sở hữu với ’s",
-      "title": "Sở hữu với ’s",
-      "answer": "The ball belongs → to Tom. It → is Tom's ball.",
-      "options": [
-        "The ball belongs → to Tom. It → is Tom's ball.",
-        "to Tom. It → is Tom's ball. → The ball belongs",
-        "is Tom's ball. → The ball belongs → to Tom. It",
-        "is Tom's ball. → to Tom. It → The ball belongs"
-      ],
-      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “The ball belongs → to Tom. It → is Tom's ball.”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "difficulty": "advanced",
-      "grammarModule": true,
-      "cognitiveLevel": "advanced",
-      "partId": "grammar-advanced",
-      "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "to Tom. It",
-        "is Tom's ball.",
-        "The ball belongs"
-      ],
+      "spokenScene": "The book belongs to Mum. Adam puts … book on the shelf.",
+      "scene": "The book belongs to Mum. Adam puts ___ book on the shelf.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "The ball belongs to Tom. It is Tom's ball.",
         "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u6-4-4-context2",
+      "id": "family-friends-1-grammar-u6-1-4-context2-variation31",
       "type": "choice",
       "unit": 6,
       "skill": "grammar",
@@ -772,40 +171,661 @@
         "page": 43,
         "unit": 6,
         "kind": "class-book-grammar-aligned-practice",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Sở hữu với ’s",
       "title": "Sở hữu với ’s",
-      "answer": "The bag belongs → to Mum. It → is Mum's bag.",
+      "answer": "The kite belongs to Max. It is Max's kite.",
       "options": [
-        "The bag belongs → to Mum. It → is Mum's bag.",
-        "to Mum. It → is Mum's bag. → The bag belongs",
-        "is Mum's bag. → The bag belongs → to Mum. It",
-        "is Mum's bag. → to Mum. It → The bag belongs"
+        "The kite belongs to Max. It is Maxs kite.",
+        "The kite belongs to Max. It is Maxes kite.",
+        "The kite belongs to Max. It is Max's kite.",
+        "The kite belongs to Max. It is Max kite."
       ],
       "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
-      "why": "Chọn “The bag belongs → to Mum. It → is Mum's bag.”. Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The kite belongs to Max. It is Max's kite.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "The kite belongs to Max. It is … kite.",
+      "scene": "The kite belongs to Max. It is [Max] kite.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "The bag belongs to Mum. It is Mum's bag.",
+        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-1-grammar-u6-1-5-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The bag belongs to Ruby. It is Ruby's bag.",
+      "options": [
+        "The bag belongs to Ruby. It is Rubyes bag.",
+        "The bag belongs to Ruby. It is Ruby's bag.",
+        "The bag belongs to Ruby. It is Ruby bag.",
+        "The bag belongs to Ruby. It is Rubys bag."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The bag belongs to Ruby. It is Ruby's bag.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "easy",
+      "grammarModule": true,
+      "cognitiveLevel": "easy",
+      "partId": "grammar-easy",
+      "spokenPrompt": "",
+      "spokenScene": "The bag belongs to Ruby. It is … bag.",
+      "scene": "The bag belongs to Ruby. It is [Ruby] bag.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "explanationExample": {
+        "en": "The bike belongs to my sister. It is my sister's bike.",
+        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
+      },
+      "variation31": true,
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence."
+    },
+    {
+      "id": "family-friends-1-grammar-u6-2-1-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The hat belongs to Dad. Max brings Dad's hat to him.",
+      "options": [
+        "The hat belongs to Dad. Max brings Dad's hat to him.",
+        "The hat belongs to Dad. Max brings Dad hat to him.",
+        "The hat belongs to Dad. Max brings Dads hat to him.",
+        "The hat belongs to Dad. Max brings Dades hat to him."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The hat belongs to Dad. Max brings Dad's hat to him.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The hat belongs to Dad. Max brings … hat to him.",
+      "scene": "The hat belongs to Dad. Max brings [Dad] hat to him.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "The teddy belongs to Billy. It is Billy's teddy.",
+        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-2-2-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The book belongs to Mum. Ruby puts Mum's book on the shelf.",
+      "options": [
+        "The book belongs to Mum. Ruby puts Mum book on the shelf.",
+        "The book belongs to Mum. Ruby puts Mums book on the shelf.",
+        "The book belongs to Mum. Ruby puts Mumes book on the shelf.",
+        "The book belongs to Mum. Ruby puts Mum's book on the shelf."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The book belongs to Mum. Ruby puts Mum's book on the shelf.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The book belongs to Mum. Ruby puts … book on the shelf.",
+      "scene": "The book belongs to Mum. Ruby puts [Mum] book on the shelf.",
+      "prompt": "Choose the corrected sentence.",
+      "partType": "readChoose",
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "explanationExample": {
+        "en": "The hat belongs to Dad. It is Dad's hat.",
+        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
+      },
+      "variation31": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-2-3-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Nina's",
+      "options": [
+        "Ninas",
+        "Ninaes",
+        "Nina's",
+        "Nina"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The kite belongs to Nina. It is Nina's kite.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The kite belongs to Nina. It is … kite.",
+      "scene": "The kite belongs to Nina. It is ___ kite.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The ball belongs to Tom. It is Tom's ball.",
+        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-1-grammar-u6-2-4-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Luke's",
+      "options": [
+        "Lukees",
+        "Luke's",
+        "Luke",
+        "Lukes"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The bag belongs to Luke. It is Luke's bag.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The bag belongs to Luke. It is … bag.",
+      "scene": "The bag belongs to Luke. It is ___ bag.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The bag belongs to Mum. It is Mum's bag.",
+        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-1-grammar-u6-2-5-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Dad's",
+      "options": [
+        "Dad's",
+        "Dad",
+        "Dads",
+        "Dades"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The hat belongs to Dad. Nina brings Dad's hat to him.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The hat belongs to Dad. Nina brings … hat to him.",
+      "scene": "The hat belongs to Dad. Nina brings ___ hat to him.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The bike belongs to my sister. It is my sister's bike.",
+        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-1-grammar-u6-3-1-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Mum's",
+      "options": [
+        "Mum",
+        "Mums",
+        "Mumes",
+        "Mum's"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The book belongs to Mum. Luke puts Mum's book on the shelf.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "The book belongs to Mum. Luke puts … book on the shelf.",
+      "scene": "The book belongs to Mum. Luke puts ___ book on the shelf.",
+      "prompt": "Write the missing words.",
+      "partType": "readWrite",
+      "partTitle": "Complete the Sentence",
+      "partInstruction": "Read and write.",
+      "explanationExample": {
+        "en": "The teddy belongs to Billy. It is Billy's teddy.",
+        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
+      },
+      "variation31": true,
+      "inputMode": "typing"
+    },
+    {
+      "id": "family-friends-1-grammar-u6-3-2-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The kite belongs to Alex. It is Alex's kite.",
+      "options": [
+        "The kite belongs to Alex. It is Alexs kite.",
+        "The kite belongs to Alex. It is Alexes kite.",
+        "The kite belongs to Alex. It is Alex's kite.",
+        "The kite belongs to Alex. It is Alex kite."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The kite belongs to Alex. It is Alex's kite.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "The hat belongs to Dad. It is Dad's hat.",
+        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-3-3-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The bag belongs to Ivy. It is Ivy's bag.",
+      "options": [
+        "The bag belongs to Ivy. It is Ivyes bag.",
+        "The bag belongs to Ivy. It is Ivy's bag.",
+        "The bag belongs to Ivy. It is Ivy bag.",
+        "The bag belongs to Ivy. It is Ivys bag."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The bag belongs to Ivy. It is Ivy's bag.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "The ball belongs to Tom. It is Tom's ball.",
+        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-3-4-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The hat belongs to Dad. Alex brings Dad's hat to him.",
+      "options": [
+        "The hat belongs to Dad. Alex brings Dad's hat to him.",
+        "The hat belongs to Dad. Alex brings Dad hat to him.",
+        "The hat belongs to Dad. Alex brings Dads hat to him.",
+        "The hat belongs to Dad. Alex brings Dades hat to him."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The hat belongs to Dad. Alex brings Dad's hat to him.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "The bag belongs to Mum. It is Mum's bag.",
+        "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-3-5-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "The book belongs to Mum. Ivy puts Mum's book on the shelf.",
+      "options": [
+        "The book belongs to Mum. Ivy puts Mum book on the shelf.",
+        "The book belongs to Mum. Ivy puts Mums book on the shelf.",
+        "The book belongs to Mum. Ivy puts Mumes book on the shelf.",
+        "The book belongs to Mum. Ivy puts Mum's book on the shelf."
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The book belongs to Mum. Ivy puts Mum's book on the shelf.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "medium",
+      "grammarModule": true,
+      "cognitiveLevel": "medium",
+      "partId": "grammar-medium",
+      "spokenPrompt": "",
+      "spokenScene": "",
+      "scene": "Read each sentence carefully.",
+      "prompt": "Which sentence is correct?",
+      "partType": "readChoose",
+      "partTitle": "Sentence Detective",
+      "partInstruction": "Choose the correct sentence.",
+      "explanationExample": {
+        "en": "The bike belongs to my sister. It is my sister's bike.",
+        "vi": "Chiếc xe đạp thuộc về chị tôi. Đó là xe đạp của chị tôi."
+      },
+      "variation31": true,
+      "visualOnly": true
+    },
+    {
+      "id": "family-friends-1-grammar-u6-4-1-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Zoe's",
+      "options": [
+        "Zoes",
+        "Zoees",
+        "Zoe's",
+        "Zoe"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The kite belongs to Zoe. It is Zoe's kite.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-advanced",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.\n",
-      "prompt": "Put the words in order.",
-      "partType": "build",
-      "orderWords": [
-        "to Mum. It",
-        "is Mum's bag.",
-        "The bag belongs"
+      "spokenScene": "The kite belongs to Zoe. It is … kite.",
+      "scene": "The kite belongs to Zoe. It is ___ kite.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The teddy belongs to Billy. It is Billy's teddy.",
+        "vi": "Gấu bông là của Billy. Đây là gấu bông của Billy."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u6-4-2-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Ryan's",
+      "options": [
+        "Ryanes",
+        "Ryan's",
+        "Ryan",
+        "Ryans"
       ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The bag belongs to Ryan. It is Ryan's bag.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "The bag belongs to Ryan. It is … bag.",
+      "scene": "The bag belongs to Ryan. It is ___ bag.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The hat belongs to Dad. It is Dad's hat.",
+        "vi": "Chiếc mũ thuộc về bố. Đó là mũ của bố."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u6-4-3-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Dad's",
+      "options": [
+        "Dad's",
+        "Dad",
+        "Dads",
+        "Dades"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The hat belongs to Dad. Zoe brings Dad's hat to him.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "The hat belongs to Dad. Zoe brings … hat to him.",
+      "scene": "The hat belongs to Dad. Zoe brings ___ hat to him.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
+      "explanationExample": {
+        "en": "The ball belongs to Tom. It is Tom's ball.",
+        "vi": "Quả bóng thuộc về Tom. Đó là bóng của Tom."
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
+    },
+    {
+      "id": "family-friends-1-grammar-u6-4-4-context2-variation31",
+      "type": "choice",
+      "unit": 6,
+      "skill": "grammar",
+      "phonicsSequence": true,
+      "source": {
+        "url": "https://drive.google.com/file/d/1oxGnxH7BvnqMNK92sbHx15ANI92ufMGM/view",
+        "page": 43,
+        "unit": 6,
+        "kind": "class-book-grammar-aligned-practice",
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
+      },
+      "focus": "Sở hữu với ’s",
+      "title": "Sở hữu với ’s",
+      "answer": "Mum's",
+      "options": [
+        "Mum",
+        "Mums",
+        "Mumes",
+        "Mum's"
+      ],
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The book belongs to Mum. Ryan puts Mum's book on the shelf.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "difficulty": "advanced",
+      "grammarModule": true,
+      "cognitiveLevel": "advanced",
+      "partId": "grammar-advanced",
+      "spokenPrompt": "",
+      "spokenScene": "The book belongs to Mum. Ryan puts … book on the shelf.",
+      "scene": "The book belongs to Mum. Ryan puts ___ book on the shelf.",
+      "prompt": "Choose the missing words.",
+      "partType": "readGap",
       "explanationExample": {
         "en": "The bag belongs to Mum. It is Mum's bag.",
         "vi": "Chiếc túi là của mẹ. Đây là túi của mẹ."
-      }
+      },
+      "variation31": true,
+      "partTitle": "Read & Choose",
+      "partInstruction": "Read and choose."
     },
     {
-      "id": "family-friends-1-grammar-u6-4-5-context2-life",
+      "id": "family-friends-1-grammar-u6-4-5-context2-life-variation31",
       "type": "choice",
       "unit": 6,
       "skill": "grammar",
@@ -815,31 +835,32 @@
         "page": 43,
         "unit": 6,
         "kind": "authored-life-application-aligned-to-unit",
-        "adaptation": "Authored contextual practice based on this Unit grammar; not a verbatim source-test item."
+        "adaptation": "Centre-authored contextual variation of the verified Unit grammar objective."
       },
       "focus": "Sở hữu với ’s",
       "title": "Use English in Real Life",
-      "answer": "She is my grandma. I help her.",
+      "answer": "The kite belongs to Adam. It is Adam's kite.",
       "options": [
-        "I kick her bag away.",
-        "She is my grandma. I help her.",
-        "I laugh at my grandma.",
-        "I leave her things on the floor."
+        "The kite belongs to Adam. It is Adams kite.",
+        "The kite belongs to Adam. It is Adames kite.",
+        "The kite belongs to Adam. It is Adam's kite.",
+        "The kite belongs to Adam. It is Adam kite."
       ],
-      "hint": "Read the situation. Think about its effect on other people.",
-      "why": "Chủ động giúp người thân khi họ cần.",
+      "hint": "Thêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
+      "why": "Câu đúng: The kite belongs to Adam. It is Adam's kite.\nThêm ’s sau tên để nói đồ vật của ai: Billy’s teddy = gấu bông của Billy.",
       "difficulty": "advanced",
       "grammarModule": true,
       "cognitiveLevel": "advanced",
       "partId": "grammar-life-application",
       "spokenPrompt": "",
-      "spokenScene": "",
-      "scene": "Grandma drops her bag. Ben is beside her.",
-      "prompt": "What is the best choice?",
+      "spokenScene": "The kite belongs to Adam. It is … kite.",
+      "scene": "The kite belongs to Adam. It is [Adam] kite.",
+      "prompt": "Choose the corrected sentence.",
       "partType": "readChoose",
-      "partTitle": "Think and Choose",
-      "partInstruction": "Read and choose the best response.",
-      "contextApplication": true
+      "partTitle": "Grammar Detective",
+      "partInstruction": "Choose the corrected sentence.",
+      "contextApplication": true,
+      "variation31": true
     }
   ]
 }
