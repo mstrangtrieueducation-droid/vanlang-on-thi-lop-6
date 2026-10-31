@@ -8332,5 +8332,3184 @@
       ]
     ],
     "instruction": "Listen and follow the commands. The woman in the pink coat is our neighbour. She is buying a gift."
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 8,
+    "title": "World of Clocks",
+    "objects": [
+      {
+        "id": "get up",
+        "word": "get up",
+        "x": 19,
+        "y": 28,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "have breakfast",
+        "word": "have breakfast",
+        "x": 49,
+        "y": 28,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "go to school",
+        "word": "go to school",
+        "x": 79,
+        "y": 28,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "go home",
+        "word": "go home",
+        "x": 19,
+        "y": 62,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "have dinner",
+        "word": "have dinner",
+        "x": 49,
+        "y": 62,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "go to bed",
+        "word": "go to bed",
+        "x": 79,
+        "y": 62,
+        "w": 24,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "teddy",
+        "word": "teddy",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "breakfast-table",
+        "label": "breakfast table",
+        "x": 50,
+        "y": 35,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "doorstep",
+        "label": "doorstep",
+        "x": 20,
+        "y": 74,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "dinner-table",
+        "label": "dinner table",
+        "x": 49,
+        "y": 72,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "night-bed",
+        "label": "night bed",
+        "x": 81,
+        "y": 69,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "morning-bed",
+        "label": "morning bed",
+        "x": 20,
+        "y": 36,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "school-path",
+        "label": "school path",
+        "x": 80,
+        "y": 40,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "get up",
+          "target": "get up",
+          "action": "point",
+          "phrase": "Point to the child getting up in the morning.",
+          "evidence": [
+            "in the morning"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "have breakfast",
+          "target": "have breakfast",
+          "action": "point",
+          "phrase": "Point to the girl having breakfast in the morning.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "go to school",
+          "target": "go to school",
+          "action": "point",
+          "phrase": "Point to the child going to school.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "go home",
+          "target": "go home",
+          "action": "point",
+          "phrase": "Point to the girl going home in the afternoon.",
+          "evidence": [
+            "in the afternoon"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "have dinner",
+          "target": "have dinner",
+          "action": "point",
+          "phrase": "Point to the family having dinner in the evening.",
+          "evidence": [
+            "in the evening"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "go to bed",
+          "target": "go to bed",
+          "action": "point",
+          "phrase": "Point to the child who has gone to bed at night.",
+          "evidence": [
+            "at night"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "doorstep",
+          "phrase": "Put the bag on the doorstep.",
+          "position": {
+            "x": 17,
+            "y": 73,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "breakfast-table",
+          "phrase": "Put the book on the breakfast table.",
+          "position": {
+            "x": 47,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "school-path",
+          "phrase": "Place the hat beside the school path.",
+          "position": {
+            "x": 83,
+            "y": 39,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "teddy",
+          "target": "night-bed",
+          "phrase": "Put the teddy on the bed in the night-time room.",
+          "position": {
+            "x": 84,
+            "y": 68,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "breakfast-table",
+          "phrase": "Move the bag onto the breakfast table.",
+          "position": {
+            "x": 47,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "dinner-table",
+          "phrase": "Move the book onto the dinner table.",
+          "position": {
+            "x": 46,
+            "y": 71,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "doorstep",
+          "phrase": "Put the hat on the doorstep.",
+          "position": {
+            "x": 23,
+            "y": 73,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "teddy",
+          "target": "morning-bed",
+          "phrase": "Move the teddy onto the bed in the morning room.",
+          "position": {
+            "x": 23,
+            "y": 35,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "school-path",
+          "phrase": "Put the bag beside the school path.",
+          "position": {
+            "x": 77,
+            "y": 39,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "doorstep",
+          "phrase": "Put the book on the doorstep.",
+          "position": {
+            "x": 17,
+            "y": 73,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "breakfast-table",
+          "phrase": "Place the hat on the breakfast table.",
+          "position": {
+            "x": 53,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "teddy",
+          "target": "night-bed",
+          "phrase": "Return the teddy to the night-time bed.",
+          "position": {
+            "x": 84,
+            "y": 68,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "doorstep",
+          "phrase": "Bring the bag back to the doorstep.",
+          "position": {
+            "x": 17,
+            "y": 73,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "breakfast-table",
+          "phrase": "Return the book to the breakfast table.",
+          "position": {
+            "x": 47,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 9,
+    "title": "Neighborhood Map",
+    "objects": [
+      {
+        "id": "hospital",
+        "word": "hospital",
+        "x": 13,
+        "y": 15,
+        "w": 22,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "school",
+        "word": "school",
+        "x": 37,
+        "y": 15,
+        "w": 21,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "airport",
+        "word": "airport",
+        "x": 64,
+        "y": 16,
+        "w": 26,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "police station",
+        "word": "police station",
+        "x": 89,
+        "y": 16,
+        "w": 19,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "fire station",
+        "word": "fire station",
+        "x": 14,
+        "y": 39,
+        "w": 24,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "shop",
+        "word": "shop",
+        "x": 38,
+        "y": 42,
+        "w": 22,
+        "h": 21,
+        "fixed": true
+      },
+      {
+        "id": "station",
+        "word": "station",
+        "x": 61,
+        "y": 40,
+        "w": 25,
+        "h": 26,
+        "fixed": true
+      },
+      {
+        "id": "zoo",
+        "word": "zoo",
+        "x": 86,
+        "y": 41,
+        "w": 22,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "supermarket",
+        "word": "supermarket",
+        "x": 20,
+        "y": 64,
+        "w": 31,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "bank",
+        "word": "bank",
+        "x": 50,
+        "y": 63,
+        "w": 20,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "garage",
+        "word": "garage",
+        "x": 80,
+        "y": 64,
+        "w": 27,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "school-gate",
+        "label": "school gate",
+        "x": 37,
+        "y": 27,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "station-door",
+        "label": "station door",
+        "x": 58,
+        "y": 50,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "hospital-door",
+        "label": "hospital door",
+        "x": 13,
+        "y": 25,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "bank-steps",
+        "label": "bank steps",
+        "x": 50,
+        "y": 73,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "zoo-gate",
+        "label": "zoo gate",
+        "x": 86,
+        "y": 51,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "hospital",
+          "target": "hospital",
+          "action": "point",
+          "phrase": "Point to the hospital.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "school",
+          "target": "school",
+          "action": "point",
+          "phrase": "Point to the school.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "airport",
+          "target": "airport",
+          "action": "point",
+          "phrase": "Point to the airport.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "police station",
+          "target": "police station",
+          "action": "point",
+          "phrase": "Point to the police station.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "fire station",
+          "target": "fire station",
+          "action": "point",
+          "phrase": "Point to the fire station.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "shop",
+          "target": "shop",
+          "action": "point",
+          "phrase": "Point to the shop.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "station",
+          "target": "station",
+          "action": "point",
+          "phrase": "Point to the station.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "zoo",
+          "target": "zoo",
+          "action": "point",
+          "phrase": "Point to the zoo.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "supermarket",
+          "target": "supermarket",
+          "action": "point",
+          "phrase": "Point to the supermarket.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "bank",
+          "target": "bank",
+          "action": "point",
+          "phrase": "Point to the bank.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "garage",
+          "target": "garage",
+          "action": "point",
+          "phrase": "Point to the garage.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "school-gate",
+          "phrase": "Put the bag by the school gate.",
+          "position": {
+            "x": 34,
+            "y": 26,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "station-door",
+          "phrase": "Put the book outside the train station.",
+          "position": {
+            "x": 55,
+            "y": 49,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "hospital-door",
+          "phrase": "Put the hat outside the hospital entrance.",
+          "position": {
+            "x": 16,
+            "y": 24,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "bank-steps",
+          "phrase": "Put the ball on the bank steps.",
+          "position": {
+            "x": 53,
+            "y": 72,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "zoo-gate",
+          "phrase": "Move the bag beside the zoo gate.",
+          "position": {
+            "x": 83,
+            "y": 50,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "school-gate",
+          "phrase": "Move the book to the school gate.",
+          "position": {
+            "x": 34,
+            "y": 26,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "station-door",
+          "phrase": "Place the hat outside the train station.",
+          "position": {
+            "x": 61,
+            "y": 49,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "school-gate",
+          "phrase": "Move the ball beside the school gate.",
+          "position": {
+            "x": 40,
+            "y": 26,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "bank-steps",
+          "phrase": "Put the bag on the bank steps.",
+          "position": {
+            "x": 47,
+            "y": 72,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 10,
+    "title": "Weather Forecast",
+    "objects": [
+      {
+        "id": "raining",
+        "word": "raining",
+        "x": 17,
+        "y": 21,
+        "w": 24,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "windy",
+        "word": "windy",
+        "x": 50,
+        "y": 20,
+        "w": 25,
+        "h": 26,
+        "fixed": true
+      },
+      {
+        "id": "hot",
+        "word": "hot",
+        "x": 85,
+        "y": 23,
+        "w": 19,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "cold",
+        "word": "cold",
+        "x": 16,
+        "y": 53,
+        "w": 20,
+        "h": 29,
+        "fixed": true
+      },
+      {
+        "id": "snowing",
+        "word": "snowing",
+        "x": 51,
+        "y": 50,
+        "w": 24,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "sunny",
+        "word": "sunny",
+        "x": 86,
+        "y": 53,
+        "w": 21,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "go ice skating",
+        "word": "go ice skating",
+        "x": 49,
+        "y": 71,
+        "w": 16,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "water",
+        "word": "water",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "rain-step",
+        "label": "rain step",
+        "x": 23,
+        "y": 32,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "wind-path",
+        "label": "wind path",
+        "x": 54,
+        "y": 31,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "sun-stone",
+        "label": "sun stone",
+        "x": 88,
+        "y": 32,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "snow-bank",
+        "label": "snow bank",
+        "x": 60,
+        "y": 61,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "meadow-path",
+        "label": "meadow path",
+        "x": 87,
+        "y": 68,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "raining",
+          "target": "raining",
+          "action": "point",
+          "phrase": "Point to the place where it is raining.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "windy",
+          "target": "windy",
+          "action": "point",
+          "phrase": "Point to the windy place where the boy can fly a kite.",
+          "evidence": [
+            "fly a kite"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "hot",
+          "target": "hot",
+          "action": "point",
+          "phrase": "Point to the girl who feels hot.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "cold",
+          "target": "cold",
+          "action": "point",
+          "phrase": "Point to the cold child who needs to wear coats.",
+          "evidence": [
+            "wear coats"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "snowing",
+          "target": "snowing",
+          "action": "point",
+          "phrase": "Point to the snowy place where the children can make a snowman.",
+          "evidence": [
+            "make a snowman"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "sunny",
+          "target": "sunny",
+          "action": "point",
+          "phrase": "Point to the sunny place where the boy can go outside.",
+          "evidence": [
+            "go outside"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "go ice skating",
+          "target": "go ice skating",
+          "action": "point",
+          "phrase": "Point to the girl who can go ice skating.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "sun-stone",
+          "phrase": "Put the hat on the stone beside the hot girl.",
+          "position": {
+            "x": 91,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "water",
+          "target": "sun-stone",
+          "phrase": "Put the water beside the hot girl.",
+          "position": {
+            "x": 91,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "meadow-path",
+          "phrase": "Put the bag beside the sunny meadow path.",
+          "position": {
+            "x": 84,
+            "y": 67,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "wind-path",
+          "phrase": "Put the book beside the windy path.",
+          "position": {
+            "x": 51,
+            "y": 30,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "meadow-path",
+          "phrase": "Move the hat to the sunny meadow path.",
+          "position": {
+            "x": 90,
+            "y": 67,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "rain-step",
+          "phrase": "Move the bag onto the step beside the rain puddle.",
+          "position": {
+            "x": 20,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "snow-bank",
+          "phrase": "Put the book on the snow bank beside the rink.",
+          "position": {
+            "x": 57,
+            "y": 60,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "water",
+          "target": "meadow-path",
+          "phrase": "Move the water to the sunny meadow path.",
+          "position": {
+            "x": 90,
+            "y": 67,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "wind-path",
+          "phrase": "Move the hat beside the windy path.",
+          "position": {
+            "x": 57,
+            "y": 30,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "snow-bank",
+          "phrase": "Place the bag on the snow bank.",
+          "position": {
+            "x": 57,
+            "y": 60,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "sun-stone",
+          "phrase": "Move the book to the stone beside the hot girl.",
+          "position": {
+            "x": 85,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "water",
+          "target": "sun-stone",
+          "phrase": "Return the water to the stone beside the hot girl.",
+          "position": {
+            "x": 91,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "rain-step",
+          "phrase": "Place the hat on the step beside the rain puddle.",
+          "position": {
+            "x": 26,
+            "y": 31,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 11,
+    "title": "Bedroom",
+    "objects": [
+      {
+        "id": "skirt",
+        "word": "skirt",
+        "x": 34,
+        "y": 39,
+        "w": 12,
+        "h": 20,
+        "fixed": true
+      },
+      {
+        "id": "scarf",
+        "word": "scarf",
+        "x": 87,
+        "y": 54,
+        "w": 8,
+        "h": 30,
+        "fixed": true
+      },
+      {
+        "id": "gloves",
+        "word": "gloves",
+        "x": 79,
+        "y": 38,
+        "w": 9,
+        "h": 10,
+        "fixed": true
+      },
+      {
+        "id": "jeans",
+        "word": "jeans",
+        "x": 50,
+        "y": 45,
+        "w": 10,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "boots",
+        "word": "boots",
+        "x": 54,
+        "y": 67,
+        "w": 10,
+        "h": 13,
+        "fixed": true
+      },
+      {
+        "id": "shirt",
+        "word": "shirt",
+        "x": 67,
+        "y": 36,
+        "w": 11,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "o’clock",
+        "word": "o’clock",
+        "x": 34.8,
+        "y": 8.6,
+        "w": 6.7,
+        "h": 11.9,
+        "fixed": true,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-3-0.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true
+        }
+      },
+      {
+        "id": "quarter past",
+        "word": "quarter past",
+        "x": 45,
+        "y": 8.6,
+        "w": 6.7,
+        "h": 11.9,
+        "fixed": true,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-3-15.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true
+        }
+      },
+      {
+        "id": "half past",
+        "word": "half past",
+        "x": 55,
+        "y": 8.6,
+        "w": 6.7,
+        "h": 11.9,
+        "fixed": true,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-3-30.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true
+        }
+      },
+      {
+        "id": "quarter to",
+        "word": "quarter to",
+        "x": 65.3,
+        "y": 8.6,
+        "w": 6.7,
+        "h": 11.9,
+        "fixed": true,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/clock-3-45.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "desk",
+        "label": "desk",
+        "x": 96,
+        "y": 47,
+        "w": 7,
+        "h": 7
+      },
+      {
+        "id": "bed",
+        "label": "bed",
+        "x": 10,
+        "y": 52,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "wardrobe-shelf",
+        "label": "wardrobe shelf",
+        "x": 43,
+        "y": 64,
+        "w": 10,
+        "h": 6
+      },
+      {
+        "id": "rug",
+        "label": "rug",
+        "x": 60,
+        "y": 86,
+        "w": 22,
+        "h": 10
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "skirt",
+          "target": "skirt",
+          "action": "point",
+          "phrase": "Point to the skirt.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "scarf",
+          "target": "scarf",
+          "action": "point",
+          "phrase": "Point to the scarf.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "gloves",
+          "target": "gloves",
+          "action": "point",
+          "phrase": "Point to the gloves.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "jeans",
+          "target": "jeans",
+          "action": "point",
+          "phrase": "Point to the jeans.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "boots",
+          "target": "boots",
+          "action": "point",
+          "phrase": "Point to the boots.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "shirt",
+          "target": "shirt",
+          "action": "point",
+          "phrase": "Point to the shirt.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "o’clock",
+          "target": "o’clock",
+          "action": "point",
+          "phrase": "Point to the clock showing three o’clock.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "quarter past",
+          "target": "quarter past",
+          "action": "point",
+          "phrase": "Point to the clock showing quarter past three.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "half past",
+          "target": "half past",
+          "action": "point",
+          "phrase": "Point to the clock showing half past three.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "quarter to",
+          "target": "quarter to",
+          "action": "point",
+          "phrase": "Point to the clock showing quarter to four.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "desk",
+          "phrase": "Put the book on the desk.",
+          "position": {
+            "x": 93,
+            "y": 46,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "bed",
+          "phrase": "Put the hat on the bed.",
+          "position": {
+            "x": 13,
+            "y": 51,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "rug",
+          "phrase": "Put the bag on the rug.",
+          "position": {
+            "x": 57,
+            "y": 85,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "wardrobe-shelf",
+          "phrase": "Put the ball on the lower wardrobe shelf.",
+          "position": {
+            "x": 46,
+            "y": 63,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "bed",
+          "phrase": "Move the book onto the bed.",
+          "position": {
+            "x": 7,
+            "y": 51,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "desk",
+          "phrase": "Move the hat onto the desk.",
+          "position": {
+            "x": 97,
+            "y": 46,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "wardrobe-shelf",
+          "phrase": "Put the bag on the lower wardrobe shelf.",
+          "position": {
+            "x": 40,
+            "y": 63,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "rug",
+          "phrase": "Move the ball onto the rug.",
+          "position": {
+            "x": 63,
+            "y": 85,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "desk",
+          "phrase": "Return the book to the desk.",
+          "position": {
+            "x": 93,
+            "y": 46,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "bed",
+          "phrase": "Return the hat to the bed.",
+          "position": {
+            "x": 13,
+            "y": 51,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 12,
+    "title": "Royal Princess & Prince Wedding",
+    "objects": [
+      {
+        "id": "bride",
+        "word": "bride",
+        "x": 48,
+        "y": 39,
+        "w": 15,
+        "h": 30,
+        "fixed": true
+      },
+      {
+        "id": "guests",
+        "word": "guests",
+        "x": 14,
+        "y": 53,
+        "w": 26,
+        "h": 35,
+        "fixed": true
+      },
+      {
+        "id": "cake",
+        "word": "cake",
+        "x": 28,
+        "y": 43,
+        "w": 11,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "band",
+        "word": "band",
+        "x": 83,
+        "y": 53,
+        "w": 26,
+        "h": 37,
+        "fixed": true
+      },
+      {
+        "id": "invitation",
+        "word": "invitation",
+        "x": 24,
+        "y": 56,
+        "w": 7,
+        "h": 12,
+        "fixed": true
+      },
+      {
+        "id": "make a cake",
+        "word": "make a cake",
+        "x": 7,
+        "y": 20,
+        "w": 12,
+        "h": 18,
+        "fixed": true
+      },
+      {
+        "id": "wash the car",
+        "word": "wash the car",
+        "x": 91,
+        "y": 20,
+        "w": 17,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "brush my hair",
+        "word": "brush my hair",
+        "x": 26,
+        "y": 15,
+        "w": 12,
+        "h": 20,
+        "fixed": true
+      },
+      {
+        "id": "take photos",
+        "word": "take photos",
+        "x": 61,
+        "y": 59,
+        "w": 13,
+        "h": 30,
+        "fixed": true
+      },
+      {
+        "id": "choose a dress",
+        "word": "choose a dress",
+        "x": 74,
+        "y": 16,
+        "w": 14,
+        "h": 21,
+        "fixed": true
+      },
+      {
+        "id": "present",
+        "word": "present",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "gift-table",
+        "label": "gift table",
+        "x": 25,
+        "y": 63,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "palace-step",
+        "label": "palace step",
+        "x": 48,
+        "y": 58,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "left-terrace",
+        "label": "left terrace",
+        "x": 20,
+        "y": 83,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "right-terrace",
+        "label": "right terrace",
+        "x": 80,
+        "y": 83,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "bride",
+          "target": "bride",
+          "action": "point",
+          "phrase": "Point to the bride at the wedding.",
+          "evidence": [
+            "wedding"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "guests",
+          "target": "guests",
+          "action": "point",
+          "phrase": "Point to the wedding guests.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "cake",
+          "target": "cake",
+          "action": "point",
+          "phrase": "Point to the tall wedding cake.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "band",
+          "target": "band",
+          "action": "point",
+          "phrase": "Point to the wedding band.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "invitation",
+          "target": "invitation",
+          "action": "point",
+          "phrase": "Point to the invitation with a heart.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "make a cake",
+          "target": "make a cake",
+          "action": "point",
+          "phrase": "Point to the baker making a cake.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "wash the car",
+          "target": "wash the car",
+          "action": "point",
+          "phrase": "Point to the person washing the car.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "brush my hair",
+          "target": "brush my hair",
+          "action": "point",
+          "phrase": "Point to the princess brushing her hair.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "take photos",
+          "target": "take photos",
+          "action": "point",
+          "phrase": "Point to the photographer taking photos.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "choose a dress",
+          "target": "choose a dress",
+          "action": "point",
+          "phrase": "Point to the child choosing a dress.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "present",
+          "target": "gift-table",
+          "phrase": "Put the present on the gift table.",
+          "position": {
+            "x": 28,
+            "y": 62,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "left-terrace",
+          "phrase": "Put the hat on the left side of the terrace.",
+          "position": {
+            "x": 23,
+            "y": 82,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "palace-step",
+          "phrase": "Put the book on the palace step.",
+          "position": {
+            "x": 45,
+            "y": 57,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "right-terrace",
+          "phrase": "Put the bag on the right side of the terrace.",
+          "position": {
+            "x": 77,
+            "y": 82,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "gift-table",
+          "phrase": "Move the hat onto the gift table.",
+          "position": {
+            "x": 28,
+            "y": 62,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "left-terrace",
+          "phrase": "Move the book onto the left side of the terrace.",
+          "position": {
+            "x": 17,
+            "y": 82,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "palace-step",
+          "phrase": "Place the bag on the palace step.",
+          "position": {
+            "x": 45,
+            "y": 57,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "present",
+          "target": "right-terrace",
+          "phrase": "Move the present to the right side of the terrace.",
+          "position": {
+            "x": 83,
+            "y": 82,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "gift-table",
+          "phrase": "Put the book on the gift table.",
+          "position": {
+            "x": 22,
+            "y": 62,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "present",
+          "target": "gift-table",
+          "phrase": "Return the present to the gift table.",
+          "position": {
+            "x": 28,
+            "y": 62,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 13,
+    "title": "Cloud Farm",
+    "objects": [
+      {
+        "id": "cow",
+        "word": "cow",
+        "x": 16,
+        "y": 20,
+        "w": 17,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "goat",
+        "word": "goat",
+        "x": 48,
+        "y": 21,
+        "w": 15,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "horse",
+        "word": "horse",
+        "x": 83,
+        "y": 18,
+        "w": 19,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "sheep",
+        "word": "sheep",
+        "x": 17,
+        "y": 49,
+        "w": 17,
+        "h": 16,
+        "fixed": true
+      },
+      {
+        "id": "donkey",
+        "word": "donkey",
+        "x": 52,
+        "y": 47,
+        "w": 18,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "goose",
+        "word": "goose",
+        "x": 84,
+        "y": 47,
+        "w": 13,
+        "h": 20,
+        "fixed": true
+      },
+      {
+        "id": "fast",
+        "word": "fast",
+        "x": 48,
+        "y": 65,
+        "w": 11,
+        "h": 11,
+        "fixed": true
+      },
+      {
+        "id": "slow",
+        "word": "slow",
+        "x": 70,
+        "y": 68,
+        "w": 12,
+        "h": 11,
+        "fixed": true
+      },
+      {
+        "id": "bucket",
+        "word": "bucket",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/bucket.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true
+        }
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "cow-gate",
+        "label": "cow gate",
+        "x": 24,
+        "y": 29,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "goat-gate",
+        "label": "goat gate",
+        "x": 55,
+        "y": 30,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "horse-gate",
+        "label": "horse gate",
+        "x": 82,
+        "y": 30,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "sheep-gate",
+        "label": "sheep gate",
+        "x": 25,
+        "y": 55,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "donkey-gate",
+        "label": "donkey gate",
+        "x": 58,
+        "y": 54,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "goose-steps",
+        "label": "goose steps",
+        "x": 84,
+        "y": 58,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "cow",
+          "target": "cow",
+          "action": "point",
+          "phrase": "Point to the cow.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "goat",
+          "target": "goat",
+          "action": "point",
+          "phrase": "Point to the goat.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "horse",
+          "target": "horse",
+          "action": "point",
+          "phrase": "Point to the horse.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "sheep",
+          "target": "sheep",
+          "action": "point",
+          "phrase": "Point to the quiet sleeping sheep.",
+          "evidence": [
+            "quiet"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "donkey",
+          "target": "donkey",
+          "action": "point",
+          "phrase": "Point to the donkey making a loud noise.",
+          "evidence": [
+            "loud"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "goose",
+          "target": "goose",
+          "action": "point",
+          "phrase": "Point to the goose beside the pond.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "fast",
+          "target": "fast",
+          "action": "point",
+          "phrase": "Point to the grey rabbit running fast.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "slow",
+          "target": "slow",
+          "action": "point",
+          "phrase": "Point to the tortoise moving slowly.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "cow-gate",
+          "phrase": "Put the bucket beside the cow pen.",
+          "position": {
+            "x": 27,
+            "y": 28,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "goat-gate",
+          "phrase": "Put the hat beside the goat pen.",
+          "position": {
+            "x": 58,
+            "y": 29,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "horse-gate",
+          "phrase": "Put the bag beside the horse pen.",
+          "position": {
+            "x": 79,
+            "y": 29,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "sheep-gate",
+          "phrase": "Put the book beside the sheep pen.",
+          "position": {
+            "x": 22,
+            "y": 54,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "goose-steps",
+          "phrase": "Move the bucket to the steps by the goose pond.",
+          "position": {
+            "x": 87,
+            "y": 57,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "donkey-gate",
+          "phrase": "Move the hat beside the donkey pen.",
+          "position": {
+            "x": 61,
+            "y": 53,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "sheep-gate",
+          "phrase": "Place the bag beside the sleeping sheep.",
+          "position": {
+            "x": 22,
+            "y": 54,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "goat-gate",
+          "phrase": "Move the book beside the goat pen.",
+          "position": {
+            "x": 52,
+            "y": 29,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "horse-gate",
+          "phrase": "Put the bucket beside the horse pen.",
+          "position": {
+            "x": 85,
+            "y": 29,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "cow-gate",
+          "phrase": "Move the hat beside the cow pen.",
+          "position": {
+            "x": 27,
+            "y": 28,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "goose-steps",
+          "phrase": "Move the bag to the steps by the goose pond.",
+          "position": {
+            "x": 81,
+            "y": 57,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "donkey-gate",
+          "phrase": "Put the book beside the donkey pen.",
+          "position": {
+            "x": 55,
+            "y": 53,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 14,
+    "title": "Art Gallery",
+    "objects": [
+      {
+        "id": "kind",
+        "word": "kind",
+        "x": 20,
+        "y": 54,
+        "w": 14,
+        "h": 30,
+        "fixed": true
+      },
+      {
+        "id": "naughty",
+        "word": "naughty",
+        "x": 43,
+        "y": 42,
+        "w": 13,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "wet",
+        "word": "wet",
+        "x": 64,
+        "y": 34,
+        "w": 11,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "dry",
+        "word": "dry",
+        "x": 80,
+        "y": 34,
+        "w": 11,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "fridge",
+        "word": "fridge",
+        "x": 97,
+        "y": 29,
+        "w": 6,
+        "h": 32,
+        "fixed": true
+      },
+      {
+        "id": "photo",
+        "word": "photo",
+        "x": 48,
+        "y": 12,
+        "w": 13,
+        "h": 15,
+        "fixed": true
+      },
+      {
+        "id": "tidy",
+        "word": "tidy",
+        "x": 8,
+        "y": 40,
+        "w": 14,
+        "h": 13,
+        "fixed": true
+      },
+      {
+        "id": "untidy",
+        "word": "untidy",
+        "x": 90,
+        "y": 52,
+        "w": 15,
+        "h": 18,
+        "fixed": true
+      },
+      {
+        "id": "rubbish",
+        "word": "rubbish",
+        "x": 56,
+        "y": 67,
+        "w": 8,
+        "h": 16,
+        "fixed": true
+      },
+      {
+        "id": "dirty",
+        "word": "dirty",
+        "x": 86,
+        "y": 79,
+        "w": 17,
+        "h": 13,
+        "fixed": true
+      },
+      {
+        "id": "floor",
+        "word": "floor",
+        "x": 32,
+        "y": 80,
+        "w": 16,
+        "h": 10,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "pencil",
+        "word": "pencil",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "tidy-table",
+        "label": "tidy table",
+        "x": 10,
+        "y": 39,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "messy-table",
+        "label": "messy table",
+        "x": 90,
+        "y": 51,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "clean-floor",
+        "label": "clean floor",
+        "x": 30,
+        "y": 78,
+        "w": 14,
+        "h": 8
+      },
+      {
+        "id": "chair",
+        "label": "chair",
+        "x": 82,
+        "y": 61,
+        "w": 14,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "kind",
+          "target": "kind",
+          "action": "point",
+          "phrase": "Point to the kind girl helping the little child.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "naughty",
+          "target": "naughty",
+          "action": "point",
+          "phrase": "Point to the naughty child drawing on the wall.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "wet",
+          "target": "wet",
+          "action": "point",
+          "phrase": "Point to the wet painting with dripping paint.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "dry",
+          "target": "dry",
+          "action": "point",
+          "phrase": "Point to the dry landscape painting.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "fridge",
+          "target": "fridge",
+          "action": "point",
+          "phrase": "Point to the fridge.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "photo",
+          "target": "photo",
+          "action": "point",
+          "phrase": "Point to the family photo.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "tidy",
+          "target": "tidy",
+          "action": "point",
+          "phrase": "Point to the tidy table.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "untidy",
+          "target": "untidy",
+          "action": "point",
+          "phrase": "Point to the untidy table.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "rubbish",
+          "target": "rubbish",
+          "action": "point",
+          "phrase": "Point to the bin full of rubbish.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "dirty",
+          "target": "dirty",
+          "action": "point",
+          "phrase": "Point to the dirty part of the floor.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "floor",
+          "target": "floor",
+          "action": "point",
+          "phrase": "Point to the clean floor.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "tidy-table",
+          "phrase": "Put the book on the tidy table.",
+          "position": {
+            "x": 7,
+            "y": 38,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "pencil",
+          "target": "tidy-table",
+          "phrase": "Arrange the pencil to the right of the book on the tidy art table.",
+          "position": {
+            "x": 13,
+            "y": 38,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "clean-floor",
+          "phrase": "Put the bag on the clean floor.",
+          "position": {
+            "x": 27,
+            "y": 77,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "chair",
+          "phrase": "Put the hat on the chair.",
+          "position": {
+            "x": 85,
+            "y": 60,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "messy-table",
+          "phrase": "Move the book onto the untidy table.",
+          "position": {
+            "x": 87,
+            "y": 50,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "pencil",
+          "target": "messy-table",
+          "phrase": "Move the pencil onto the untidy table.",
+          "position": {
+            "x": 93,
+            "y": 50,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "chair",
+          "phrase": "Put the bag on the chair.",
+          "position": {
+            "x": 79,
+            "y": 60,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "clean-floor",
+          "phrase": "Move the hat onto the clean floor.",
+          "position": {
+            "x": 33,
+            "y": 77,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "tidy-table",
+          "phrase": "Return the book to the tidy table.",
+          "position": {
+            "x": 7,
+            "y": 38,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-2",
+    "unit": 15,
+    "title": "English Contest",
+    "objects": [
+      {
+        "id": "man",
+        "word": "man",
+        "x": 10,
+        "y": 28,
+        "w": 14,
+        "h": 38,
+        "fixed": true
+      },
+      {
+        "id": "men",
+        "word": "men",
+        "x": 26,
+        "y": 29,
+        "w": 18,
+        "h": 33,
+        "fixed": true
+      },
+      {
+        "id": "woman",
+        "word": "woman",
+        "x": 76,
+        "y": 29,
+        "w": 10,
+        "h": 34,
+        "fixed": true
+      },
+      {
+        "id": "women",
+        "word": "women",
+        "x": 92,
+        "y": 31,
+        "w": 15,
+        "h": 32,
+        "fixed": true
+      },
+      {
+        "id": "child",
+        "word": "child",
+        "x": 37,
+        "y": 33,
+        "w": 8,
+        "h": 21,
+        "fixed": true
+      },
+      {
+        "id": "children",
+        "word": "children",
+        "x": 64,
+        "y": 33,
+        "w": 13,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "first",
+        "word": "first",
+        "x": 87,
+        "y": 54,
+        "w": 17,
+        "h": 28,
+        "fixed": true
+      },
+      {
+        "id": "second",
+        "word": "second",
+        "x": 62,
+        "y": 55,
+        "w": 15,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "third",
+        "word": "third",
+        "x": 33,
+        "y": 55,
+        "w": 14,
+        "h": 26,
+        "fixed": true
+      },
+      {
+        "id": "fourth",
+        "word": "fourth",
+        "x": 16,
+        "y": 53,
+        "w": 14,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 18,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 39,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 60,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 81,
+        "y": 91,
+        "w": 9,
+        "h": 11,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "highest-podium",
+        "label": "highest podium",
+        "x": 51,
+        "y": 35,
+        "w": 9,
+        "h": 6
+      },
+      {
+        "id": "left-podium",
+        "label": "left podium",
+        "x": 43,
+        "y": 38,
+        "w": 8,
+        "h": 5
+      },
+      {
+        "id": "right-podium",
+        "label": "right podium",
+        "x": 59,
+        "y": 39,
+        "w": 8,
+        "h": 5
+      },
+      {
+        "id": "finish-area",
+        "label": "finish area",
+        "x": 93,
+        "y": 80,
+        "w": 10,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "man",
+          "target": "man",
+          "action": "point",
+          "phrase": "Point to the man holding the microphone.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "men",
+          "target": "men",
+          "action": "point",
+          "phrase": "Point to the group of three men.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "woman",
+          "target": "woman",
+          "action": "point",
+          "phrase": "Point to the woman wearing a white jacket.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "women",
+          "target": "women",
+          "action": "point",
+          "phrase": "Point to the group of three women.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "child",
+          "target": "child",
+          "action": "point",
+          "phrase": "Point to the one child standing alone in green.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "children",
+          "target": "children",
+          "action": "point",
+          "phrase": "Point to the group of three children.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "first",
+          "target": "first",
+          "action": "point",
+          "phrase": "Point to the runner in first place, nearest the finish line.",
+          "evidence": [
+            "finish line"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "second",
+          "target": "second",
+          "action": "point",
+          "phrase": "Point to the runner in second place.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "third",
+          "target": "third",
+          "action": "point",
+          "phrase": "Point to the runner in third place.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "fourth",
+          "target": "fourth",
+          "action": "point",
+          "phrase": "Point to the runner in fourth place.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "highest-podium",
+          "phrase": "Put the book on the highest podium.",
+          "position": {
+            "x": 48,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "left-podium",
+          "phrase": "Put the hat on the podium to the left.",
+          "position": {
+            "x": 46,
+            "y": 37,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "right-podium",
+          "phrase": "Put the bag on the podium to the right.",
+          "position": {
+            "x": 56,
+            "y": 38,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "finish-area",
+          "phrase": "Put the ball on the grass beside the finish line.",
+          "position": {
+            "x": 96,
+            "y": 79,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "left-podium",
+          "phrase": "Move the book to the left podium.",
+          "position": {
+            "x": 40,
+            "y": 37,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "highest-podium",
+          "phrase": "Move the hat onto the highest podium.",
+          "position": {
+            "x": 54,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "finish-area",
+          "phrase": "Move the bag beside the finish line.",
+          "position": {
+            "x": 90,
+            "y": 79,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "right-podium",
+          "phrase": "Put the ball on the right podium.",
+          "position": {
+            "x": 62,
+            "y": 38,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "highest-podium",
+          "phrase": "Return the book to the highest podium.",
+          "position": {
+            "x": 48,
+            "y": 34,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "left-podium",
+          "phrase": "Return the hat to the left podium.",
+          "position": {
+            "x": 46,
+            "y": 37,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
   }
 ]

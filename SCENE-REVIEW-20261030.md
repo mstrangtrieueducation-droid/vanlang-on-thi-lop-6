@@ -75,3 +75,9 @@ Overall inventory: 47/114 illustrated and measured (30 Phonics, 15 FF1, 2 Discov
 Seven individually illustrated scenes now provide 140 authored tasks with full Unit vocabulary coverage. Each was opened through the normal entry choice at 844 x 390; all scene/prop images loaded, the first action was exercised and no page errors occurred. Exact tens trays contain 10 through 100 beads, verified against source and output hashes. Food chicken uses a roast chicken sprite rather than a live chick. The helping-Mum scene explicitly includes the mother.
 
 Inventory: 54/114 illustrated and measured. Remaining: 8 FF2 and 52 Discover illustrations. This release does not certify the unfinished scenes.
+
+### All 30 Family scene replacements complete (31 October)
+
+FF2 Units 8-15 add 160 tasks and eight measured original illustrations. All 30 Family Units now use their own named artwork and 20 authored tasks. Precise analogue clock faces use the real hour/minute angles; wedding car and race finish-line art were corrected after visual review. Browser samples exercised entry and first correct interaction for each of the eight new scenes at 844 x 390, with loaded images and no page errors. A local loading timeout was retried successfully; this is not proof of universal network performance.
+
+The former five-generic-theme regression has been replaced by an assertion that all 30 Family packs have distinct version-4 illustrations and valid movement/color destinations. The full context-bank check still requires all 2040 question IDs and spoken prompts to be unique. Inventory: 62/114 measured illustrations; 52 Discover scene replacements remain unfinished.

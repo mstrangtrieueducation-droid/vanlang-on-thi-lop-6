@@ -8,11 +8,9 @@ test('All 102 Unit scenes have 20 unique grounded tasks; original reviews and id
  }
  assert.equal(ids.size,2040);
 });
-test('Cleanup uses stable permanent slots, safe movable objects, five scene themes and no overlapping shelf/drawer drop centers',()=>{
- const themes=new Set();for(const p of packs.filter(p=>p.kind==='sceneActions'&&p.version===3)){themes.add(p.world.scene);const w=p.world;assert.equal(w.objects.length,24);assert.equal(new Set(w.objects.map(o=>o.id)).size,24);assert.equal(new Set(p.items.flatMap(q=>q.resourceTask.steps.map(s=>s.object))).size,24);assert(p.items.slice(16).every(q=>q.resourceTask.steps.length===2));
-  for(const o of w.objects){assert(w.targets.some(t=>t.id===o.home.target));assert(o.source);assert(o.picture);for(const v of [o.x,o.y,o.home.x,o.home.y])assert(v>0&&v<100);}
-  for(const t of w.targets)for(const other of w.targets)if(t.id!==other.id)assert(!(Math.abs(t.x-other.x)<other.w/2&&Math.abs(t.y-other.y)<other.h/2),p.course+p.unit+' ambiguous '+t.id+' / '+other.id);
- }assert.equal(themes.size,5);
+test('All 30 Family command scenes use distinct measured illustrations and persistent valid destinations',()=>{
+ const family=packs.filter(p=>p.kind==='sceneActions');assert.equal(family.length,30);assert.equal(new Set(family.map(p=>p.world.image)).size,30);
+ for(const p of family){assert.equal(p.version,4);const w=p.world,ids=new Set(w.objects.map(o=>o.id)),zones=new Set(w.zones.map(z=>z.id));assert.equal(ids.size,w.objects.length);for(const q of p.items)for(const s of q.resourceTask.steps){assert(ids.has(s.object));if(s.action==='color'){assert(/^#[0-9a-f]{6}$/i.test(s.color));assert(w.objects.find(o=>o.id===s.object).sun);}else if(s.action!=='point'){assert(zones.has(s.target));assert(s.position);assert(s.position.w>0&&s.position.h>0);assert(s.position.x>=0&&s.position.x<=100&&s.position.y>=0&&s.position.y<=100);}}}
 });
 test('Crowd tasks refer to twenty already-painted actors with measured hit regions and relative visual evidence',()=>{
  const themes=new Set();for(const p of packs.filter(p=>p.kind==='detectiveScene'&&p.version===3)){const w=p.world;themes.add(w.scene);assert.equal(w.objects.length,20);assert.equal(new Set(p.items.map(q=>q.answer)).size,20);for(const o of w.objects){assert.equal(o.picture,undefined);assert(o.description&&o.reference);const [x,y,a,b]=o.box;assert(x>=0&&y>=0&&a>0&&b>0&&x+a<=100&&y+b<=100);assert(o.x>=x&&o.x<=x+a&&o.y>=y&&o.y<=y+b);}for(const q of p.items){assert(w.objects.some(o=>o.id===q.answer));assert.match(q.spokenScene,/The target is (above|below|to the left of|to the right of)/);}}
