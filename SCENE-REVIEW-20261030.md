@@ -81,3 +81,9 @@ Inventory: 54/114 illustrated and measured. Remaining: 8 FF2 and 52 Discover ill
 FF2 Units 8-15 add 160 tasks and eight measured original illustrations. All 30 Family Units now use their own named artwork and 20 authored tasks. Precise analogue clock faces use the real hour/minute angles; wedding car and race finish-line art were corrected after visual review. Browser samples exercised entry and first correct interaction for each of the eight new scenes at 844 x 390, with loaded images and no page errors. A local loading timeout was retried successfully; this is not proof of universal network performance.
 
 The former five-generic-theme regression has been replaced by an assertion that all 30 Family packs have distinct version-4 illustrations and valid movement/color destinations. The full context-bank check still requires all 2040 question IDs and spoken prompts to be unique. Inventory: 62/114 measured illustrations; 52 Discover scene replacements remain unfinished.
+
+### Discover 1 Units 3-8 (1 November)
+
+Six measured illustrations add 120 authored clues with full source Unit vocabulary coverage and real English recordings. All six passed normal-entry and first-correct-interaction checks at 844 x 390 with loaded images. The detective collection now updates immediately after a correct answer; Unit 3 also verified automatic transition to question 2. The 22 scene/source/audio regression tests passed. This is sampled interaction coverage, not certification of every hotspot.
+
+Inventory: 68/114 illustrated and measured. Remaining: 46 Discover scene replacements. Generated but not integrated artwork is not counted as complete.
