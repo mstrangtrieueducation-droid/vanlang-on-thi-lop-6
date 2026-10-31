@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),Scenes=require('../game-kit/unit-scenes.js'),family=require('./program/family-units.cjs'),discover=require('./program/discover-resources.json'),phonics=require('./phonics-units.cjs');
 function write(){
  const root=path.resolve(__dirname,'..'),out=path.join(root,'game-kit/adventures/unit-scenes-v4');fs.mkdirSync(out,{recursive:true});
- const packs=[require('./program/approved-scenes.cjs').artClass(),require('./program/approved-scenes.cjs').newYear(),...require('./program/approved-extra-scenes.cjs').packs()],hunts=require('./program/approved-phonics-scenes.cjs').packs();
+ const packs=[require('./program/approved-scenes.cjs').artClass(),require('./program/approved-scenes.cjs').newYear(),...require('./program/approved-extra-scenes.cjs').packs(),...require('./program/authored-command-scenes.cjs').packs()],hunts=require('./program/approved-phonics-scenes.cjs').packs();
  for(const p of packs){const dir=path.join(__dirname,'context-reviews-v3',p.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'unit-'+p.unit+'.json'),JSON.stringify(p));}
  for(const hunt of hunts)fs.writeFileSync(path.join(__dirname,'hunt-worlds',hunt.course,'unit-'+hunt.unit+'.json'),JSON.stringify(hunt,null,2)+'\n');
  const approved=new Set([...hunts.map(h=>h.course+'-unit-'+h.unit),...packs.map(p=>p.course+'-unit-'+p.unit)]),production=[];

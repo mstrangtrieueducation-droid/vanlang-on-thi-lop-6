@@ -1,0 +1,1744 @@
+[
+  {
+    "course": "family-friends-1",
+    "unit": 4,
+    "title": "Job Roleplay Show",
+    "objects": [
+      {
+        "id": "teacher",
+        "word": "teacher",
+        "fixed": true,
+        "x": 17.5,
+        "y": 21,
+        "w": 13,
+        "h": 39
+      },
+      {
+        "id": "pupil",
+        "word": "pupil",
+        "fixed": true,
+        "x": 32,
+        "y": 25,
+        "w": 9,
+        "h": 32
+      },
+      {
+        "id": "housewife",
+        "word": "housewife",
+        "fixed": true,
+        "x": 44,
+        "y": 23,
+        "w": 10,
+        "h": 37
+      },
+      {
+        "id": "fireman",
+        "word": "fireman",
+        "fixed": true,
+        "x": 65,
+        "y": 22,
+        "w": 12,
+        "h": 39
+      },
+      {
+        "id": "pilot",
+        "word": "pilot",
+        "fixed": true,
+        "x": 86,
+        "y": 22,
+        "w": 12,
+        "h": 39
+      },
+      {
+        "id": "doctor",
+        "word": "doctor",
+        "fixed": true,
+        "x": 11.5,
+        "y": 63,
+        "w": 11,
+        "h": 42
+      },
+      {
+        "id": "policeman",
+        "word": "policeman",
+        "fixed": true,
+        "x": 28,
+        "y": 63,
+        "w": 10,
+        "h": 42
+      },
+      {
+        "id": "farmer",
+        "word": "farmer",
+        "fixed": true,
+        "x": 48,
+        "y": 63,
+        "w": 13,
+        "h": 42
+      },
+      {
+        "id": "postman",
+        "word": "postman",
+        "fixed": true,
+        "x": 67,
+        "y": 64,
+        "w": 12,
+        "h": 40
+      },
+      {
+        "id": "zookeeper",
+        "word": "zookeeper",
+        "fixed": true,
+        "x": 86,
+        "y": 64,
+        "w": 13,
+        "h": 41
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 12,
+        "y": 94,
+        "w": 7,
+        "h": 10
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 30,
+        "y": 94,
+        "w": 7,
+        "h": 10
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 48,
+        "y": 94,
+        "w": 7,
+        "h": 10
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 66,
+        "y": 94,
+        "w": 7,
+        "h": 10
+      },
+      {
+        "id": "ruler",
+        "word": "ruler",
+        "x": 84,
+        "y": 94,
+        "w": 7,
+        "h": 10
+      }
+    ],
+    "zones": [
+      {
+        "id": "teacher-table",
+        "label": "teacher-table",
+        "x": 10,
+        "y": 23,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "beside-pupil",
+        "label": "beside-pupil",
+        "x": 36,
+        "y": 40,
+        "w": 7,
+        "h": 4
+      },
+      {
+        "id": "beside-pilot",
+        "label": "beside-pilot",
+        "x": 94,
+        "y": 40,
+        "w": 7,
+        "h": 4
+      },
+      {
+        "id": "beside-doctor",
+        "label": "beside-doctor",
+        "x": 18,
+        "y": 83,
+        "w": 8,
+        "h": 5
+      },
+      {
+        "id": "beside-farmer",
+        "label": "beside-farmer",
+        "x": 39,
+        "y": 83,
+        "w": 8,
+        "h": 5
+      },
+      {
+        "id": "front-stage",
+        "label": "front-stage",
+        "x": 52,
+        "y": 93,
+        "w": 14,
+        "h": 7
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "teacher",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the teacher."
+        }
+      ],
+      [
+        {
+          "object": "pupil",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the pupil."
+        }
+      ],
+      [
+        {
+          "object": "housewife",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the housewife."
+        }
+      ],
+      [
+        {
+          "object": "fireman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the fireman."
+        }
+      ],
+      [
+        {
+          "object": "pilot",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the pilot."
+        }
+      ],
+      [
+        {
+          "object": "doctor",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the doctor."
+        }
+      ],
+      [
+        {
+          "object": "policeman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the policeman."
+        }
+      ],
+      [
+        {
+          "object": "farmer",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the farmer."
+        }
+      ],
+      [
+        {
+          "object": "postman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the postman."
+        }
+      ],
+      [
+        {
+          "object": "zookeeper",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the zookeeper."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "teacher-table",
+          "phrase": "Put the book on the table beside the teacher.",
+          "position": {
+            "x": 11,
+            "y": 22,
+            "w": 6,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "beside-pupil",
+          "phrase": "Put the bag on the stage beside the pupil.",
+          "position": {
+            "x": 36,
+            "y": 37,
+            "w": 5,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "beside-farmer",
+          "phrase": "Put the spare hat on the floor beside the farmer.",
+          "position": {
+            "x": 39,
+            "y": 81,
+            "w": 6,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "beside-doctor",
+          "phrase": "Put the ball on the floor beside the doctor.",
+          "position": {
+            "x": 18,
+            "y": 81,
+            "w": 5,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "ruler",
+          "target": "teacher-table",
+          "phrase": "Put the ruler on the teacher's table.",
+          "position": {
+            "x": 8,
+            "y": 22,
+            "w": 6,
+            "h": 2
+          }
+        }
+      ],
+      [
+        {
+          "object": "fireman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Find the person holding a hose."
+        },
+        {
+          "object": "pilot",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then find the person holding an airplane."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "front-stage",
+          "phrase": "Bring the book from the teacher's table to the front of the stage.",
+          "position": {
+            "x": 48,
+            "y": 93,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "postman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the person delivering letters."
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "beside-doctor",
+          "phrase": "Move the bag from beside the pupil to beside the doctor.",
+          "position": {
+            "x": 21,
+            "y": 80,
+            "w": 5,
+            "h": 7
+          }
+        },
+        {
+          "object": "pupil",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the child learning at school."
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "beside-pilot",
+          "phrase": "Move the spare hat to the stage beside the pilot.",
+          "position": {
+            "x": 94,
+            "y": 39,
+            "w": 5,
+            "h": 3
+          }
+        },
+        {
+          "object": "zookeeper",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the person caring for the giraffe."
+        }
+      ],
+      [
+        {
+          "object": "housewife",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the person preparing food at home."
+        },
+        {
+          "object": "policeman",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then find the person in the dark blue police uniform."
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 5,
+    "title": "Pet Training Camp",
+    "objects": [
+      {
+        "id": "seesaw",
+        "word": "seesaw",
+        "fixed": true,
+        "x": 25,
+        "y": 39,
+        "w": 25,
+        "h": 12
+      },
+      {
+        "id": "slide",
+        "word": "slide",
+        "fixed": true,
+        "x": 76,
+        "y": 33,
+        "w": 12,
+        "h": 18
+      },
+      {
+        "id": "net",
+        "word": "net",
+        "fixed": true,
+        "x": 59,
+        "y": 39,
+        "w": 14,
+        "h": 13
+      },
+      {
+        "id": "swing",
+        "word": "swing",
+        "fixed": true,
+        "x": 12,
+        "y": 23,
+        "w": 22,
+        "h": 24
+      },
+      {
+        "id": "tree",
+        "word": "tree",
+        "fixed": true,
+        "x": 92,
+        "y": 20,
+        "w": 15,
+        "h": 37
+      },
+      {
+        "id": "pool",
+        "word": "pool",
+        "fixed": true,
+        "x": 19,
+        "y": 72,
+        "w": 37,
+        "h": 40
+      },
+      {
+        "id": "armbands",
+        "word": "armbands",
+        "fixed": true,
+        "x": 32.5,
+        "y": 58,
+        "w": 4,
+        "h": 6
+      },
+      {
+        "id": "ice cream",
+        "word": "ice cream",
+        "fixed": true,
+        "x": 93,
+        "y": 78,
+        "w": 10,
+        "h": 18
+      },
+      {
+        "id": "frisbee",
+        "word": "frisbee",
+        "fixed": true,
+        "x": 44,
+        "y": 89,
+        "w": 10,
+        "h": 6
+      },
+      {
+        "id": "climbing frame",
+        "word": "climbing frame",
+        "fixed": true,
+        "x": 51,
+        "y": 25,
+        "w": 25,
+        "h": 22
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 12,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 35,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 58,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 81,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      }
+    ],
+    "zones": [
+      {
+        "id": "pool-water",
+        "label": "pool-water",
+        "x": 8,
+        "y": 60,
+        "w": 8,
+        "h": 7
+      },
+      {
+        "id": "goal",
+        "label": "goal",
+        "x": 57,
+        "y": 43,
+        "w": 10,
+        "h": 6
+      },
+      {
+        "id": "under-tree",
+        "label": "under-tree",
+        "x": 94,
+        "y": 42,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "by-swing",
+        "label": "by-swing",
+        "x": 17,
+        "y": 36,
+        "w": 13,
+        "h": 4
+      },
+      {
+        "id": "by-slide",
+        "label": "by-slide",
+        "x": 77,
+        "y": 43,
+        "w": 12,
+        "h": 4
+      },
+      {
+        "id": "beside-trainer",
+        "label": "beside-trainer",
+        "x": 40,
+        "y": 73,
+        "w": 7,
+        "h": 6
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "seesaw",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the seesaw."
+        }
+      ],
+      [
+        {
+          "object": "slide",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the slide."
+        }
+      ],
+      [
+        {
+          "object": "net",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the net."
+        }
+      ],
+      [
+        {
+          "object": "swing",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the swing."
+        }
+      ],
+      [
+        {
+          "object": "tree",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the tree."
+        }
+      ],
+      [
+        {
+          "object": "pool",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the pool."
+        }
+      ],
+      [
+        {
+          "object": "armbands",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the armbands."
+        }
+      ],
+      [
+        {
+          "object": "ice cream",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the ice cream."
+        }
+      ],
+      [
+        {
+          "object": "frisbee",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the frisbee."
+        }
+      ],
+      [
+        {
+          "object": "climbing frame",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the climbing frame."
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "goal",
+          "phrase": "Put the small ball in front of the net.",
+          "position": {
+            "x": 57,
+            "y": 43,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "under-tree",
+          "phrase": "Put the bag under the big tree.",
+          "position": {
+            "x": 94,
+            "y": 39,
+            "w": 5,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "beside-trainer",
+          "phrase": "Put the hat on the ground beside the trainer.",
+          "position": {
+            "x": 40,
+            "y": 73,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "by-swing",
+          "phrase": "Put the book on the ground beside the swing.",
+          "position": {
+            "x": 17,
+            "y": 36,
+            "w": 6,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "pool-water",
+          "phrase": "Move the small ball into the water. Let it float.",
+          "position": {
+            "x": 8,
+            "y": 60,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "armbands",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to what helps the trainer float safely."
+        },
+        {
+          "object": "pool",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the water where the dog is swimming."
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "by-slide",
+          "phrase": "Move the bag from under the tree to beside the slide.",
+          "position": {
+            "x": 77,
+            "y": 41,
+            "w": 5,
+            "h": 7
+          }
+        },
+        {
+          "object": "slide",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the yellow slide."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "under-tree",
+          "phrase": "Move the book to the shade under the tree.",
+          "position": {
+            "x": 90,
+            "y": 42,
+            "w": 6,
+            "h": 3
+          }
+        },
+        {
+          "object": "tree",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the tree giving shade."
+        }
+      ],
+      [
+        {
+          "object": "frisbee",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the red flying disc lying on the grass."
+        },
+        {
+          "object": "net",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then find the white goal net."
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "goal",
+          "phrase": "Take the small ball out of the pool and place it in front of the net.",
+          "position": {
+            "x": 58,
+            "y": 43,
+            "w": 4,
+            "h": 5
+          }
+        },
+        {
+          "object": "hat",
+          "target": "by-swing",
+          "phrase": "Then put the hat beside the swing.",
+          "position": {
+            "x": 21,
+            "y": 36,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 6,
+    "title": "The Fair",
+    "objects": [
+      {
+        "id": "grandma",
+        "word": "grandma",
+        "fixed": true,
+        "x": 10,
+        "y": 40,
+        "w": 13,
+        "h": 42
+      },
+      {
+        "id": "grandpa",
+        "word": "grandpa",
+        "fixed": true,
+        "x": 21,
+        "y": 40,
+        "w": 14,
+        "h": 42
+      },
+      {
+        "id": "mum",
+        "word": "mum",
+        "fixed": true,
+        "x": 36,
+        "y": 40,
+        "w": 12,
+        "h": 51
+      },
+      {
+        "id": "dad",
+        "word": "dad",
+        "fixed": true,
+        "x": 49,
+        "y": 37,
+        "w": 13,
+        "h": 56
+      },
+      {
+        "id": "sister",
+        "word": "sister",
+        "fixed": true,
+        "x": 44,
+        "y": 55,
+        "w": 14,
+        "h": 35
+      },
+      {
+        "id": "brother",
+        "word": "brother",
+        "fixed": true,
+        "x": 62,
+        "y": 56,
+        "w": 15,
+        "h": 35
+      },
+      {
+        "id": "aunt",
+        "word": "aunt",
+        "fixed": true,
+        "x": 69,
+        "y": 40,
+        "w": 10,
+        "h": 51
+      },
+      {
+        "id": "uncle",
+        "word": "uncle",
+        "fixed": true,
+        "x": 77,
+        "y": 37,
+        "w": 12,
+        "h": 55
+      },
+      {
+        "id": "cousin",
+        "word": "cousin",
+        "fixed": true,
+        "x": 90,
+        "y": 50,
+        "w": 12,
+        "h": 38
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 12,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 35,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 58,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 81,
+        "y": 95,
+        "w": 6,
+        "h": 8
+      }
+    ],
+    "zones": [
+      {
+        "id": "left-basket",
+        "label": "left-basket",
+        "x": 20,
+        "y": 78,
+        "w": 12,
+        "h": 7
+      },
+      {
+        "id": "right-basket",
+        "label": "right-basket",
+        "x": 79,
+        "y": 79,
+        "w": 13,
+        "h": 7
+      },
+      {
+        "id": "bench",
+        "label": "bench",
+        "x": 49,
+        "y": 78,
+        "w": 27,
+        "h": 5
+      },
+      {
+        "id": "under-bench",
+        "label": "under-bench",
+        "x": 49,
+        "y": 88,
+        "w": 23,
+        "h": 5
+      },
+      {
+        "id": "beside-bench",
+        "label": "beside-bench",
+        "x": 34,
+        "y": 87,
+        "w": 8,
+        "h": 7
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "grandma",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to grandma."
+        }
+      ],
+      [
+        {
+          "object": "grandpa",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to grandpa."
+        }
+      ],
+      [
+        {
+          "object": "mum",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to mum."
+        }
+      ],
+      [
+        {
+          "object": "dad",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to dad."
+        }
+      ],
+      [
+        {
+          "object": "sister",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to sister."
+        }
+      ],
+      [
+        {
+          "object": "brother",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to brother."
+        }
+      ],
+      [
+        {
+          "object": "aunt",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to aunt."
+        }
+      ],
+      [
+        {
+          "object": "uncle",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to uncle."
+        }
+      ],
+      [
+        {
+          "object": "cousin",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to cousin."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "bench",
+          "phrase": "Put the book on the bench.",
+          "position": {
+            "x": 45,
+            "y": 78,
+            "w": 6,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "left-basket",
+          "phrase": "Put the ball in the basket on the left.",
+          "position": {
+            "x": 20,
+            "y": 77,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "right-basket",
+          "phrase": "Put the hat in the basket on the right.",
+          "position": {
+            "x": 79,
+            "y": 78,
+            "w": 6,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "under-bench",
+          "phrase": "Put the bag under the bench.",
+          "position": {
+            "x": 48,
+            "y": 86,
+            "w": 5,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "mum",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to Mum in the yellow dress."
+        },
+        {
+          "object": "dad",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to Dad in the green shirt."
+        }
+      ],
+      [
+        {
+          "object": "sister",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the sister wearing purple."
+        },
+        {
+          "object": "brother",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to her brother wearing red."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "left-basket",
+          "phrase": "Take the book from the bench and put it in the left basket.",
+          "position": {
+            "x": 23,
+            "y": 77,
+            "w": 6,
+            "h": 3
+          }
+        },
+        {
+          "object": "grandma",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to Grandma, who is knitting."
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "bench",
+          "phrase": "Take the ball out of the left basket and put it on the bench.",
+          "position": {
+            "x": 53,
+            "y": 76,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "grandpa",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to Grandpa holding his walking stick."
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "beside-bench",
+          "phrase": "Move the bag from under the bench to beside it.",
+          "position": {
+            "x": 34,
+            "y": 85,
+            "w": 5,
+            "h": 7
+          }
+        },
+        {
+          "object": "uncle",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the uncle wearing blue."
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "bench",
+          "phrase": "Take the hat from the right basket and put it on the bench.",
+          "position": {
+            "x": 45,
+            "y": 76,
+            "w": 6,
+            "h": 4
+          }
+        },
+        {
+          "object": "aunt",
+          "target": "point",
+          "action": "point",
+          "phrase": "Then point to the aunt wearing pink."
+        }
+      ],
+      [
+        {
+          "object": "cousin",
+          "target": "point",
+          "action": "point",
+          "phrase": "Point to the cousin holding the kite."
+        },
+        {
+          "object": "ball",
+          "target": "right-basket",
+          "phrase": "Then put the ball in the right basket.",
+          "position": {
+            "x": 79,
+            "y": 78,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ],
+    "instruction": "Listen and follow the commands. Mum wears yellow and Dad wears green. Their daughter wears purple and their son wears red. Aunt wears pink and Uncle wears blue. The girl with the kite is their cousin.",
+    "lips": [
+      "13% 78%,20% 80%,27% 78%,26% 91%,14% 90%",
+      "72% 79%,79% 81%,85% 79%,85% 92%,73% 92%"
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 7,
+    "title": "Clothes Shop",
+    "objects": [
+      {
+        "id": "dress",
+        "word": "dress",
+        "x": 14,
+        "y": 87,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "socks",
+        "word": "socks",
+        "x": 31,
+        "y": 87,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "T-shirt",
+        "word": "T-shirt",
+        "x": 48,
+        "y": 87,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "trousers",
+        "word": "trousers",
+        "x": 65,
+        "y": 87,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "shorts",
+        "word": "shorts",
+        "x": 82,
+        "y": 87,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "shoes",
+        "word": "shoes",
+        "x": 14,
+        "y": 96,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "coat",
+        "word": "coat",
+        "x": 31,
+        "y": 96,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 48,
+        "y": 96,
+        "w": 8,
+        "h": 8
+      },
+      {
+        "id": "cardigan",
+        "word": "cardigan",
+        "x": 65,
+        "y": 96,
+        "w": 8,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/cardigan.webp",
+          "semantic": "cardigan",
+          "transparent": true
+        }
+      },
+      {
+        "id": "tracksuit",
+        "word": "tracksuit",
+        "x": 82,
+        "y": 96,
+        "w": 8,
+        "h": 8,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/tracksuit.webp",
+          "semantic": "tracksuit",
+          "transparent": true
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "table",
+        "label": "table",
+        "x": 50,
+        "y": 68,
+        "w": 37,
+        "h": 10
+      },
+      {
+        "id": "wardrobe-top",
+        "label": "wardrobe-top",
+        "x": 23,
+        "y": 23,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "wardrobe-low",
+        "label": "wardrobe-low",
+        "x": 23,
+        "y": 41,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "rail",
+        "label": "rail",
+        "x": 83,
+        "y": 18,
+        "w": 22,
+        "h": 6
+      },
+      {
+        "id": "shoe-shelf",
+        "label": "shoe-shelf",
+        "x": 7,
+        "y": 68,
+        "w": 11,
+        "h": 5
+      },
+      {
+        "id": "basket",
+        "label": "basket",
+        "x": 92,
+        "y": 71,
+        "w": 13,
+        "h": 7
+      },
+      {
+        "id": "mannequin",
+        "label": "mannequin",
+        "x": 51.4,
+        "y": 34,
+        "w": 12,
+        "h": 38
+      },
+      {
+        "id": "hand",
+        "label": "hand",
+        "x": 19.6,
+        "y": 30,
+        "w": 7,
+        "h": 6
+      },
+      {
+        "id": "under-table",
+        "label": "under-table",
+        "x": 50,
+        "y": 81,
+        "w": 27,
+        "h": 5
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "dress",
+          "target": "wardrobe-low",
+          "phrase": "Put the dress on the lower wardrobe shelf.",
+          "position": {
+            "x": 23,
+            "y": 38,
+            "w": 8,
+            "h": 9
+          }
+        }
+      ],
+      [
+        {
+          "object": "socks",
+          "target": "basket",
+          "phrase": "Put the socks in the basket.",
+          "position": {
+            "x": 90,
+            "y": 71,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "T-shirt",
+          "target": "table",
+          "phrase": "Put the T-shirt on the table.",
+          "position": {
+            "x": 44,
+            "y": 67,
+            "w": 8,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "trousers",
+          "target": "table",
+          "phrase": "Put the trousers next to the T-shirt.",
+          "position": {
+            "x": 53,
+            "y": 67,
+            "w": 7,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "shorts",
+          "target": "wardrobe-top",
+          "phrase": "Put the shorts on the top wardrobe shelf.",
+          "position": {
+            "x": 23,
+            "y": 20,
+            "w": 7,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "shoes",
+          "target": "shoe-shelf",
+          "phrase": "Put the shoes on the shoe shelf.",
+          "position": {
+            "x": 7,
+            "y": 66,
+            "w": 8,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "coat",
+          "target": "rail",
+          "phrase": "Hang the coat on the clothes rail.",
+          "position": {
+            "x": 78,
+            "y": 30,
+            "w": 10,
+            "h": 24
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "hand",
+          "phrase": "Give the hat to the shop assistant.",
+          "position": {
+            "x": 19.6,
+            "y": 30,
+            "w": 5,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "cardigan",
+          "target": "rail",
+          "phrase": "Hang the cardigan beside the coat.",
+          "position": {
+            "x": 90,
+            "y": 29,
+            "w": 10,
+            "h": 22
+          }
+        }
+      ],
+      [
+        {
+          "object": "tracksuit",
+          "target": "table",
+          "phrase": "Put the tracksuit on the table.",
+          "position": {
+            "x": 61,
+            "y": 66,
+            "w": 9,
+            "h": 9
+          }
+        }
+      ],
+      [
+        {
+          "object": "dress",
+          "target": "mannequin",
+          "phrase": "Take the dress from the shelf and put it on the mannequin.",
+          "position": {
+            "x": 51.4,
+            "y": 33,
+            "w": 9,
+            "h": 25
+          }
+        }
+      ],
+      [
+        {
+          "object": "socks",
+          "target": "shoe-shelf",
+          "phrase": "Take the socks out of the basket and place them beside the shoes.",
+          "position": {
+            "x": 11,
+            "y": 65,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "wardrobe-top",
+          "phrase": "Put the hat on the top wardrobe shelf.",
+          "position": {
+            "x": 27,
+            "y": 22,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "trousers",
+          "target": "basket",
+          "phrase": "Put the trousers into the basket.",
+          "position": {
+            "x": 91,
+            "y": 69,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "dress",
+          "target": "table",
+          "phrase": "Take the dress off the mannequin and put it on the table.",
+          "position": {
+            "x": 37,
+            "y": 66,
+            "w": 8,
+            "h": 9
+          }
+        }
+      ],
+      [
+        {
+          "object": "T-shirt",
+          "target": "mannequin",
+          "phrase": "Put the T-shirt on the mannequin.",
+          "position": {
+            "x": 51.4,
+            "y": 28.5,
+            "w": 9,
+            "h": 16
+          }
+        },
+        {
+          "object": "shorts",
+          "target": "mannequin",
+          "phrase": "Then put the shorts on the mannequin.",
+          "position": {
+            "x": 51.4,
+            "y": 39,
+            "w": 7,
+            "h": 9
+          }
+        }
+      ],
+      [
+        {
+          "object": "coat",
+          "target": "wardrobe-low",
+          "phrase": "Move the coat from the rail to the lower wardrobe shelf.",
+          "position": {
+            "x": 23,
+            "y": 37,
+            "w": 8,
+            "h": 8
+          }
+        },
+        {
+          "object": "tracksuit",
+          "target": "basket",
+          "phrase": "Then put the tracksuit into the basket.",
+          "position": {
+            "x": 95,
+            "y": 70,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "cardigan",
+          "target": "table",
+          "phrase": "Take the cardigan off the rail and put it on the table.",
+          "position": {
+            "x": 56,
+            "y": 66,
+            "w": 8,
+            "h": 7
+          }
+        },
+        {
+          "object": "hat",
+          "target": "hand",
+          "phrase": "Then give the hat to the shop assistant.",
+          "position": {
+            "x": 19.6,
+            "y": 30,
+            "w": 5,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "shoes",
+          "target": "under-table",
+          "phrase": "Put the shoes under the table.",
+          "position": {
+            "x": 49,
+            "y": 81,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "socks",
+          "target": "basket",
+          "phrase": "Then put the socks back into the basket.",
+          "position": {
+            "x": 88,
+            "y": 71,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "T-shirt",
+          "target": "wardrobe-top",
+          "phrase": "Take the T-shirt off the mannequin and put it on the top shelf.",
+          "position": {
+            "x": 22,
+            "y": 20,
+            "w": 8,
+            "h": 6
+          }
+        },
+        {
+          "object": "shorts",
+          "target": "table",
+          "phrase": "Then put the shorts on the table.",
+          "position": {
+            "x": 64,
+            "y": 69,
+            "w": 7,
+            "h": 5
+          }
+        }
+      ]
+    ],
+    "lips": [
+      "84% 71%,92% 74%,100% 70%,100% 89%,85% 90%"
+    ]
+  }
+]

@@ -57,3 +57,8 @@ The release checks cover all 25 measured scenes and the original Phonics exercis
 ### Additional illustrated scenes
 
 FF1 Unit 2 Toy Supermarket (20 move-and-place commands), FF1 Unit 3 PE Class (20 body-part instructions), and Discover 1 Unit 2 Pet Shop (20 animal, action and emotion clues) are now measured. The inventory is 35/114; 27 Family and 52 Discover illustrations remain pending. Landscape command scenes place the vocabulary strip beside the scene to preserve usable picture height. A missing scooter now has a dedicated transparent WebP.
+### Four more Family command scenes (31 October)
+
+FF1 Units 4-7 now use individually measured Job Roleplay Show, Pet Training Camp, The Fair and Clothes Shop illustrations. Each includes 20 authored commands with complete Unit vocabulary coverage and 81 new recorded instruction clips in total. Clothing sprites remain at their snapped destinations. Cardigan and tracksuit have dedicated transparent WebP assets.
+
+Inventory: 39/114 illustrated and measured; 23 Family and 52 Discover scenes remain pending. This is not a claim that the full artwork request is complete. Browser samples at 844 x 390 loaded every scene/prop image without page errors and exercised each first command, including a clothes-to-shelf drag. The automated source/asset/audio suite passed 10 tests.
