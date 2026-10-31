@@ -40,8 +40,9 @@ function bind(root,q,api){if(!supported(q))return;const t=q.resourceTask,w=t.wor
  root.querySelector('[data-command-listen]').onclick=()=>document.querySelector('#listen')?.click();
  root.querySelector('[data-command-hint]').onclick=()=>{const id=detective?remaining()[0]:remaining()[0]?.object,b=byId(id);b?.classList.add('command-hint');setTimeout(()=>b?.classList.remove('command-hint'),3000);};
  const pan=root.querySelector('.command-pan'),heading=root.querySelector('.command-heading');requestAnimationFrame(()=>{if(!host.isConnected)return;const drawer=root.querySelector('.context-task-drawer');if(drawer){heading.append(drawer);const summary=drawer.querySelector('summary');summary.setAttribute('aria-label','Bản đồ nhiệm vụ');summary.textContent='☷';}});
- let zoom=innerWidth<600?1.8:1;const fit=()=>{const width=Math.min(pan.clientWidth,pan.clientHeight*w.width/w.height)*zoom;Object.assign(host.style,{width:width+'px',height:width*w.height/w.width+'px'});Object.assign(board.style,{width:width+'px',height:width*w.height/w.width+'px'});};resizeWatch?.disconnect();resizeWatch=new ResizeObserver(fit);resizeWatch.observe(pan);requestAnimationFrame(fit);
+ let zoom=1;const fit=()=>{const width=Math.min(pan.clientWidth,pan.clientHeight*w.width/w.height)*zoom;Object.assign(host.style,{width:width+'px',height:width*w.height/w.width+'px'});Object.assign(board.style,{width:width+'px',height:width*w.height/w.width+'px'});};resizeWatch?.disconnect();resizeWatch=new ResizeObserver(fit);resizeWatch.observe(pan);requestAnimationFrame(fit);
  root.querySelector('[data-command-zoom]').onclick=e=>{zoom=zoom===1?1.8:1;e.currentTarget.textContent=zoom===1?'⊕':'⊖';fit();};
 }
 window.CommandScene={supported,render,bind,warm};
 })();
+

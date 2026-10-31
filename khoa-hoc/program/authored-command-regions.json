@@ -1740,5 +1740,3601 @@
     "lips": [
       "84% 71%,92% 74%,100% 70%,100% 89%,85% 90%"
     ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 8,
+    "title": "Building Construction",
+    "objects": [
+      {
+        "id": "bedroom",
+        "word": "bedroom",
+        "x": 24,
+        "y": 26,
+        "w": 28,
+        "h": 20,
+        "fixed": true
+      },
+      {
+        "id": "bathroom",
+        "word": "bathroom",
+        "x": 54,
+        "y": 28,
+        "w": 21,
+        "h": 20,
+        "fixed": true
+      },
+      {
+        "id": "kitchen",
+        "word": "kitchen",
+        "x": 16,
+        "y": 53,
+        "w": 19,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "dining-room",
+        "word": "dining room",
+        "x": 34,
+        "y": 59,
+        "w": 15,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "living-room",
+        "word": "living room",
+        "x": 54,
+        "y": 59,
+        "w": 16,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "garden",
+        "word": "garden",
+        "x": 39,
+        "y": 83,
+        "w": 37,
+        "h": 13,
+        "fixed": true
+      },
+      {
+        "id": "upstairs",
+        "word": "upstairs",
+        "x": 39,
+        "y": 39,
+        "w": 7,
+        "h": 5,
+        "fixed": true
+      },
+      {
+        "id": "downstairs",
+        "word": "downstairs",
+        "x": 45,
+        "y": 67,
+        "w": 6,
+        "h": 7,
+        "fixed": true
+      },
+      {
+        "id": "house",
+        "word": "house",
+        "x": 35,
+        "y": 8,
+        "w": 24,
+        "h": 9,
+        "fixed": true
+      },
+      {
+        "id": "flat",
+        "word": "flat",
+        "x": 89,
+        "y": 27,
+        "w": 18,
+        "h": 22,
+        "fixed": true
+      },
+      {
+        "id": "front-door",
+        "word": "front door",
+        "x": 65,
+        "y": 60,
+        "w": 6,
+        "h": 26,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 40,
+        "y": 96,
+        "w": 7,
+        "h": 6,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 50,
+        "y": 96,
+        "w": 7,
+        "h": 6,
+        "fixed": false
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 60,
+        "y": 96,
+        "w": 7,
+        "h": 6,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 70,
+        "y": 96,
+        "w": 7,
+        "h": 6,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "bed",
+        "label": "bed",
+        "x": 24,
+        "y": 32,
+        "w": 12,
+        "h": 6
+      },
+      {
+        "id": "bathroom-floor",
+        "label": "bathroom floor",
+        "x": 52,
+        "y": 36,
+        "w": 10,
+        "h": 4
+      },
+      {
+        "id": "kitchen-table",
+        "label": "kitchen table",
+        "x": 19,
+        "y": 60,
+        "w": 9,
+        "h": 4
+      },
+      {
+        "id": "dining-table",
+        "label": "dining table",
+        "x": 34,
+        "y": 59,
+        "w": 9,
+        "h": 4
+      },
+      {
+        "id": "sofa",
+        "label": "sofa",
+        "x": 54,
+        "y": 60,
+        "w": 9,
+        "h": 5
+      },
+      {
+        "id": "garden-grass",
+        "label": "garden grass",
+        "x": 45,
+        "y": 81,
+        "w": 18,
+        "h": 8
+      },
+      {
+        "id": "flat-bed",
+        "label": "flat bed",
+        "x": 84,
+        "y": 32,
+        "w": 7,
+        "h": 4
+      },
+      {
+        "id": "doorstep",
+        "label": "doorstep",
+        "x": 66,
+        "y": 72,
+        "w": 6,
+        "h": 4
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "bedroom",
+          "target": "bedroom",
+          "action": "point",
+          "phrase": "Point to the bedroom."
+        }
+      ],
+      [
+        {
+          "object": "bathroom",
+          "target": "bathroom",
+          "action": "point",
+          "phrase": "Point to the bathroom."
+        }
+      ],
+      [
+        {
+          "object": "kitchen",
+          "target": "kitchen",
+          "action": "point",
+          "phrase": "Point to the kitchen."
+        }
+      ],
+      [
+        {
+          "object": "dining-room",
+          "target": "dining-room",
+          "action": "point",
+          "phrase": "Point to the dining room."
+        }
+      ],
+      [
+        {
+          "object": "living-room",
+          "target": "living-room",
+          "action": "point",
+          "phrase": "Point to the living room."
+        }
+      ],
+      [
+        {
+          "object": "garden",
+          "target": "garden",
+          "action": "point",
+          "phrase": "Point to the garden."
+        }
+      ],
+      [
+        {
+          "object": "upstairs",
+          "target": "upstairs",
+          "action": "point",
+          "phrase": "Point to the upstairs."
+        }
+      ],
+      [
+        {
+          "object": "downstairs",
+          "target": "downstairs",
+          "action": "point",
+          "phrase": "Point to the downstairs."
+        }
+      ],
+      [
+        {
+          "object": "house",
+          "target": "house",
+          "action": "point",
+          "phrase": "Point to the house."
+        }
+      ],
+      [
+        {
+          "object": "flat",
+          "target": "flat",
+          "action": "point",
+          "phrase": "Point to the flat."
+        }
+      ],
+      [
+        {
+          "object": "front-door",
+          "target": "front-door",
+          "action": "point",
+          "phrase": "Point to the front door."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "bed",
+          "phrase": "Put the book on the bed upstairs.",
+          "position": {
+            "x": 24,
+            "y": 32,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "sofa",
+          "phrase": "Put the bag on the sofa in the living room.",
+          "position": {
+            "x": 53,
+            "y": 59,
+            "w": 4,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "garden-grass",
+          "phrase": "Put the ball in the garden outside the house.",
+          "position": {
+            "x": 44,
+            "y": 81,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "kitchen-table",
+          "phrase": "Put the hat on the small table in the kitchen.",
+          "position": {
+            "x": 19,
+            "y": 59,
+            "w": 4,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "dining-table",
+          "phrase": "Bring the book downstairs and put it on the dining table.",
+          "position": {
+            "x": 34,
+            "y": 59,
+            "w": 4,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "flat-bed",
+          "phrase": "Move the bag from the house to the bed in the flat.",
+          "position": {
+            "x": 84,
+            "y": 31,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "doorstep",
+          "phrase": "Put the hat on the doorstep outside the front door.",
+          "position": {
+            "x": 66,
+            "y": 72,
+            "w": 4,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "bathroom-floor",
+          "phrase": "Move the ball upstairs onto the bathroom floor.",
+          "position": {
+            "x": 53,
+            "y": 36,
+            "w": 3,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "sofa",
+          "phrase": "Put the book beside the sofa cushion.",
+          "position": {
+            "x": 56,
+            "y": 59,
+            "w": 4,
+            "h": 3
+          }
+        },
+        {
+          "object": "hat",
+          "target": "bed",
+          "phrase": "Then take the hat upstairs and put it on the bed.",
+          "position": {
+            "x": 24,
+            "y": 31,
+            "w": 4,
+            "h": 3
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 9,
+    "title": "In the Kitchen",
+    "objects": [
+      {
+        "id": "lunch-box",
+        "word": "lunch box",
+        "x": 19,
+        "y": 64,
+        "w": 22,
+        "h": 26,
+        "fixed": true
+      },
+      {
+        "id": "sandwich",
+        "word": "sandwich",
+        "x": 7.0,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "drinks",
+        "word": "drinks",
+        "x": 16.5,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "apple",
+        "word": "apple",
+        "x": 26.0,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "banana",
+        "word": "banana",
+        "x": 35.5,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "biscuit",
+        "word": "biscuit",
+        "x": 45.0,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "tomato",
+        "word": "tomato",
+        "x": 54.5,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "pear",
+        "word": "pear",
+        "x": 64.0,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "grapes",
+        "word": "grapes",
+        "x": 73.5,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "pineapple",
+        "word": "pineapple",
+        "x": 83.0,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false
+      },
+      {
+        "id": "cherries",
+        "word": "cherries",
+        "x": 92.5,
+        "y": 91,
+        "w": 8,
+        "h": 11,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/cherries.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "cherries"
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "lunch-box",
+        "label": "lunch box",
+        "x": 19,
+        "y": 66,
+        "w": 20,
+        "h": 9,
+        "word": "lunch box"
+      },
+      {
+        "id": "plate",
+        "label": "plate",
+        "x": 51,
+        "y": 70,
+        "w": 25,
+        "h": 11
+      },
+      {
+        "id": "fruit-bowl",
+        "label": "fruit bowl",
+        "x": 86,
+        "y": 66,
+        "w": 20,
+        "h": 10
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "sandwich",
+          "target": "lunch-box",
+          "phrase": "Put the sandwich in the lunch box.",
+          "position": {
+            "x": 15,
+            "y": 65,
+            "w": 6,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "drinks",
+          "target": "plate",
+          "phrase": "Put the drinks on the plate.",
+          "position": {
+            "x": 56,
+            "y": 67,
+            "w": 6,
+            "h": 9
+          }
+        }
+      ],
+      [
+        {
+          "object": "apple",
+          "target": "fruit-bowl",
+          "phrase": "Put the apple in the fruit bowl.",
+          "position": {
+            "x": 80,
+            "y": 65,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "banana",
+          "target": "fruit-bowl",
+          "phrase": "Put the banana in the fruit bowl.",
+          "position": {
+            "x": 86,
+            "y": 65,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "biscuit",
+          "target": "lunch-box",
+          "phrase": "Put the biscuit in the lunch box.",
+          "position": {
+            "x": 24,
+            "y": 65,
+            "w": 5,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "tomato",
+          "target": "plate",
+          "phrase": "Put the tomato on the plate.",
+          "position": {
+            "x": 44,
+            "y": 69,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "pear",
+          "target": "fruit-bowl",
+          "phrase": "Put the pear in the fruit bowl.",
+          "position": {
+            "x": 91,
+            "y": 65,
+            "w": 4,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "grapes",
+          "target": "fruit-bowl",
+          "phrase": "Put the grapes in the fruit bowl.",
+          "position": {
+            "x": 84,
+            "y": 69,
+            "w": 5,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "pineapple",
+          "target": "fruit-bowl",
+          "phrase": "Put the pineapple in the fruit bowl.",
+          "position": {
+            "x": 91,
+            "y": 61,
+            "w": 5,
+            "h": 11
+          }
+        }
+      ],
+      [
+        {
+          "object": "cherries",
+          "target": "plate",
+          "phrase": "Put the cherries on the plate.",
+          "position": {
+            "x": 53,
+            "y": 72,
+            "w": 5,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "apple",
+          "target": "lunch-box",
+          "phrase": "Pack the apple next to the sandwich in the lunch box.",
+          "position": {
+            "x": 20,
+            "y": 65,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "drinks",
+          "target": "lunch-box",
+          "phrase": "Move the drinks from the plate into the lunch box.",
+          "position": {
+            "x": 27,
+            "y": 64,
+            "w": 4,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "sandwich",
+          "target": "plate",
+          "phrase": "Take the sandwich out of the lunch box and put it on the plate.",
+          "position": {
+            "x": 49,
+            "y": 68,
+            "w": 6,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "biscuit",
+          "target": "plate",
+          "phrase": "Put the biscuit beside the sandwich on the plate.",
+          "position": {
+            "x": 59,
+            "y": 70,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "tomato",
+          "target": "fruit-bowl",
+          "phrase": "Move the tomato into the fruit bowl.",
+          "position": {
+            "x": 79,
+            "y": 69,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "pear",
+          "target": "plate",
+          "phrase": "Take the pear from the bowl and put it on the plate.",
+          "position": {
+            "x": 62,
+            "y": 66,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "grapes",
+          "target": "lunch-box",
+          "phrase": "Pack the grapes in the lunch box.",
+          "position": {
+            "x": 14,
+            "y": 66,
+            "w": 5,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "cherries",
+          "target": "fruit-bowl",
+          "phrase": "Put the cherries next to the banana in the fruit bowl.",
+          "position": {
+            "x": 85,
+            "y": 69,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "pineapple",
+          "target": "plate",
+          "phrase": "Move the pineapple onto the plate.",
+          "position": {
+            "x": 44,
+            "y": 63,
+            "w": 5,
+            "h": 11
+          }
+        },
+        {
+          "object": "banana",
+          "target": "lunch-box",
+          "phrase": "Then pack the banana in the lunch box.",
+          "position": {
+            "x": 21,
+            "y": 69,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "pear",
+          "target": "fruit-bowl",
+          "phrase": "Return the pear to the fruit bowl.",
+          "position": {
+            "x": 91,
+            "y": 65,
+            "w": 4,
+            "h": 6
+          }
+        },
+        {
+          "object": "biscuit",
+          "target": "lunch-box",
+          "phrase": "Then put the biscuit back in the lunch box.",
+          "position": {
+            "x": 27,
+            "y": 70,
+            "w": 4,
+            "h": 3
+          }
+        }
+      ]
+    ],
+    "lips": [
+      "8% 69%,18% 72%,30% 68%,30% 78%,9% 80%",
+      "74% 67%,84% 71%,98% 66%,98% 77%,76% 80%"
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 10,
+    "title": "Overseas Travel",
+    "objects": [
+      {
+        "id": "long",
+        "word": "long",
+        "x": 12,
+        "y": 31,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "short",
+        "word": "short",
+        "x": 27,
+        "y": 25,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "blond",
+        "word": "blond",
+        "x": 42,
+        "y": 27,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "brown",
+        "word": "brown",
+        "x": 57,
+        "y": 24,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "curly",
+        "word": "curly",
+        "x": 73,
+        "y": 27,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "straight",
+        "word": "straight",
+        "x": 90,
+        "y": 25,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "square",
+        "word": "square",
+        "x": 20,
+        "y": 93,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/badge-square.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "square"
+        }
+      },
+      {
+        "id": "circle",
+        "word": "circle",
+        "x": 35,
+        "y": 93,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/badge-circle.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "circle"
+        }
+      },
+      {
+        "id": "triangle",
+        "word": "triangle",
+        "x": 50,
+        "y": 93,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/badge-triangle.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "triangle"
+        }
+      },
+      {
+        "id": "rectangle",
+        "word": "rectangle",
+        "x": 65,
+        "y": 93,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/badge-rectangle.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "rectangle"
+        }
+      },
+      {
+        "id": "diamond",
+        "word": "diamond",
+        "x": 80,
+        "y": 93,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/badge-diamond.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "diamond"
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "long-hands",
+        "label": "long hands",
+        "x": 12,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      },
+      {
+        "id": "short-hands",
+        "label": "short hands",
+        "x": 27,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      },
+      {
+        "id": "blond-hands",
+        "label": "blond hands",
+        "x": 42,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      },
+      {
+        "id": "brown-hands",
+        "label": "brown hands",
+        "x": 57,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      },
+      {
+        "id": "curly-hands",
+        "label": "curly hands",
+        "x": 73,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      },
+      {
+        "id": "straight-hands",
+        "label": "straight hands",
+        "x": 90,
+        "y": 44,
+        "w": 9,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "long",
+          "target": "long",
+          "action": "point",
+          "phrase": "Point to the girl with long hair."
+        }
+      ],
+      [
+        {
+          "object": "short",
+          "target": "short",
+          "action": "point",
+          "phrase": "Point to the boy with short hair."
+        }
+      ],
+      [
+        {
+          "object": "blond",
+          "target": "blond",
+          "action": "point",
+          "phrase": "Point to the girl with blond hair."
+        }
+      ],
+      [
+        {
+          "object": "brown",
+          "target": "brown",
+          "action": "point",
+          "phrase": "Point to the boy in blue with brown hair."
+        }
+      ],
+      [
+        {
+          "object": "curly",
+          "target": "curly",
+          "action": "point",
+          "phrase": "Point to the girl with curly hair."
+        }
+      ],
+      [
+        {
+          "object": "straight",
+          "target": "straight",
+          "action": "point",
+          "phrase": "Point to the boy in red with straight hair."
+        }
+      ],
+      [
+        {
+          "object": "square",
+          "target": "long-hands",
+          "phrase": "Give the square badge to the girl with long hair.",
+          "position": {
+            "x": 12,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "circle",
+          "target": "short-hands",
+          "phrase": "Give the circle badge to the boy with short hair.",
+          "position": {
+            "x": 27,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "triangle",
+          "target": "blond-hands",
+          "phrase": "Give the triangle badge to the girl with blond hair.",
+          "position": {
+            "x": 42,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "rectangle",
+          "target": "brown-hands",
+          "phrase": "Give the rectangle badge to the boy in blue with brown hair.",
+          "position": {
+            "x": 57,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "diamond",
+          "target": "curly-hands",
+          "phrase": "Give the diamond badge to the girl with curly hair.",
+          "position": {
+            "x": 73,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "circle",
+          "target": "straight-hands",
+          "phrase": "Give the circle badge to the boy in red with straight hair.",
+          "position": {
+            "x": 90,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "square",
+          "target": "short-hands",
+          "phrase": "Pass the square badge to the boy with short hair.",
+          "position": {
+            "x": 27,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "triangle",
+          "target": "curly-hands",
+          "phrase": "Give the triangle badge to the girl with curly hair.",
+          "position": {
+            "x": 73,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "diamond",
+          "target": "blond-hands",
+          "phrase": "Pass the diamond badge to the girl with blond hair.",
+          "position": {
+            "x": 42,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "rectangle",
+          "target": "long-hands",
+          "phrase": "Give the rectangle badge to the girl with long hair.",
+          "position": {
+            "x": 12,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "square",
+          "target": "brown-hands",
+          "phrase": "Pass the square to the boy in blue with brown hair.",
+          "position": {
+            "x": 57,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "circle",
+          "target": "short-hands",
+          "phrase": "Then give the circle to the boy with short hair.",
+          "position": {
+            "x": 27,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "diamond",
+          "target": "straight-hands",
+          "phrase": "Give the diamond to the boy in red.",
+          "position": {
+            "x": 90,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "triangle",
+          "target": "blond-hands",
+          "phrase": "Then give the triangle to the girl with blond hair.",
+          "position": {
+            "x": 42,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "rectangle",
+          "target": "curly-hands",
+          "phrase": "Give the rectangle to the girl with curly hair.",
+          "position": {
+            "x": 73,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "square",
+          "target": "long-hands",
+          "phrase": "Then pass the square to the girl with long hair.",
+          "position": {
+            "x": 12,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "circle",
+          "target": "brown-hands",
+          "phrase": "Give the circle to the boy in blue.",
+          "position": {
+            "x": 57,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "diamond",
+          "target": "short-hands",
+          "phrase": "Then give the diamond to the boy with short hair.",
+          "position": {
+            "x": 27,
+            "y": 43,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 11,
+    "title": "Rainforest Castle",
+    "objects": [
+      {
+        "id": "elephant",
+        "word": "elephant",
+        "x": 12,
+        "y": 53,
+        "w": 23,
+        "h": 45,
+        "fixed": true
+      },
+      {
+        "id": "giraffe",
+        "word": "giraffe",
+        "x": 29,
+        "y": 35,
+        "w": 14,
+        "h": 62,
+        "fixed": true
+      },
+      {
+        "id": "monkey",
+        "word": "monkey",
+        "x": 38,
+        "y": 17,
+        "w": 12,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "tiger",
+        "word": "tiger",
+        "x": 37,
+        "y": 68,
+        "w": 22,
+        "h": 21,
+        "fixed": true
+      },
+      {
+        "id": "snake",
+        "word": "snake",
+        "x": 59,
+        "y": 51,
+        "w": 13,
+        "h": 19,
+        "fixed": true
+      },
+      {
+        "id": "parrot",
+        "word": "parrot",
+        "x": 62,
+        "y": 25,
+        "w": 10,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "polar bear",
+        "word": "polar bear",
+        "x": 87,
+        "y": 46,
+        "w": 18,
+        "h": 23,
+        "fixed": true
+      },
+      {
+        "id": "seal",
+        "word": "seal",
+        "x": 91,
+        "y": 68,
+        "w": 16,
+        "h": 17,
+        "fixed": true
+      },
+      {
+        "id": "ball",
+        "word": "ball",
+        "x": 35,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 45,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 55,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 65,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "elephant-grass",
+        "label": "elephant grass",
+        "x": 14,
+        "y": 81,
+        "w": 15,
+        "h": 8
+      },
+      {
+        "id": "giraffe-grass",
+        "label": "giraffe grass",
+        "x": 28,
+        "y": 78,
+        "w": 10,
+        "h": 8
+      },
+      {
+        "id": "tiger-grass",
+        "label": "tiger grass",
+        "x": 45,
+        "y": 82,
+        "w": 12,
+        "h": 8
+      },
+      {
+        "id": "rock",
+        "label": "rock",
+        "x": 62,
+        "y": 83,
+        "w": 11,
+        "h": 6
+      },
+      {
+        "id": "seal-rock",
+        "label": "seal rock",
+        "x": 85,
+        "y": 79,
+        "w": 8,
+        "h": 5
+      },
+      {
+        "id": "snow",
+        "label": "snow",
+        "x": 78,
+        "y": 58,
+        "w": 7,
+        "h": 6
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "elephant",
+          "target": "elephant",
+          "action": "point",
+          "phrase": "Point to the elephant.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "giraffe",
+          "target": "giraffe",
+          "action": "point",
+          "phrase": "Point to the giraffe.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "monkey",
+          "target": "monkey",
+          "action": "point",
+          "phrase": "Point to the monkey.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "tiger",
+          "target": "tiger",
+          "action": "point",
+          "phrase": "Point to the tiger.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "snake",
+          "target": "snake",
+          "action": "point",
+          "phrase": "Point to the snake.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "parrot",
+          "target": "parrot",
+          "action": "point",
+          "phrase": "Point to the parrot.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "polar bear",
+          "target": "polar bear",
+          "action": "point",
+          "phrase": "Point to the polar bear.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "seal",
+          "target": "seal",
+          "action": "point",
+          "phrase": "Point to the seal.",
+          "evidence": []
+        }
+      ],
+      [
+        {
+          "object": "elephant",
+          "target": "elephant",
+          "action": "point",
+          "phrase": "Point to the big animal with a trunk.",
+          "evidence": [
+            "big"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "giraffe",
+          "target": "giraffe",
+          "action": "point",
+          "phrase": "Point to the tall animal with a long neck.",
+          "evidence": [
+            "tall"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "monkey",
+          "target": "monkey",
+          "action": "point",
+          "phrase": "Point to the little animal sitting on a branch.",
+          "evidence": [
+            "little"
+          ]
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "elephant-grass",
+          "phrase": "Put the ball on the grass in front of the elephant.",
+          "position": {
+            "x": 14,
+            "y": 80,
+            "w": 6,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "rock",
+          "phrase": "Put the book on the low rock below the snake.",
+          "position": {
+            "x": 62,
+            "y": 82,
+            "w": 6,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "giraffe-grass",
+          "phrase": "Put the hat on the grass beside the giraffe.",
+          "position": {
+            "x": 27,
+            "y": 77,
+            "w": 6,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "tiger-grass",
+          "phrase": "Put the bag on the grass near the tiger.",
+          "position": {
+            "x": 47,
+            "y": 81,
+            "w": 5,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "seal-rock",
+          "phrase": "Move the ball onto the rock near the seal.",
+          "position": {
+            "x": 85,
+            "y": 78,
+            "w": 5,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "snow",
+          "phrase": "Put the hat on the snowy ground near the polar bear.",
+          "position": {
+            "x": 78,
+            "y": 58,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "giraffe-grass",
+          "phrase": "Move the ball back onto the grass beside the tall giraffe.",
+          "position": {
+            "x": 28,
+            "y": 77,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "hat",
+          "target": "rock",
+          "phrase": "Then put the hat on the low rock.",
+          "position": {
+            "x": 65,
+            "y": 83,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "elephant-grass",
+          "phrase": "Put the bag on the grass near the big elephant.",
+          "position": {
+            "x": 14,
+            "y": 80,
+            "w": 5,
+            "h": 7
+          }
+        },
+        {
+          "object": "book",
+          "target": "tiger-grass",
+          "phrase": "Then move the book onto the grass near the tiger.",
+          "position": {
+            "x": 47,
+            "y": 82,
+            "w": 6,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "ball",
+          "target": "tiger-grass",
+          "phrase": "Put the ball near the tiger.",
+          "position": {
+            "x": 43,
+            "y": 82,
+            "w": 5,
+            "h": 6
+          }
+        },
+        {
+          "object": "bag",
+          "target": "giraffe-grass",
+          "phrase": "Then put the bag beside the giraffe.",
+          "position": {
+            "x": 27,
+            "y": 78,
+            "w": 5,
+            "h": 7
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 12,
+    "title": "Fast Food Restaurant",
+    "objects": [
+      {
+        "id": "rice",
+        "word": "rice",
+        "x": 6.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "meat",
+        "word": "meat",
+        "x": 14.5,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "carrots",
+        "word": "carrots",
+        "x": 23.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "yogurt",
+        "word": "yogurt",
+        "x": 31.5,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "fish",
+        "word": "fish",
+        "x": 40.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/cooked-fish.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "fish"
+        }
+      },
+      {
+        "id": "bread",
+        "word": "bread",
+        "x": 48.5,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "milk",
+        "word": "milk",
+        "x": 57.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "juice",
+        "word": "juice",
+        "x": 65.5,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "water",
+        "word": "water",
+        "x": 74.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false
+      },
+      {
+        "id": "hot chocolate",
+        "word": "hot chocolate",
+        "x": 82.5,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/hot-chocolate.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "hot chocolate"
+        }
+      },
+      {
+        "id": "tea",
+        "word": "tea",
+        "x": 91.0,
+        "y": 87,
+        "w": 7,
+        "h": 13,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/tea.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "tea"
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "red-tray",
+        "label": "red tray",
+        "x": 29,
+        "y": 56,
+        "w": 24,
+        "h": 8
+      },
+      {
+        "id": "blue-tray",
+        "label": "blue tray",
+        "x": 69,
+        "y": 56,
+        "w": 24,
+        "h": 8
+      },
+      {
+        "id": "spare-plate",
+        "label": "spare plate",
+        "x": 93,
+        "y": 57,
+        "w": 12,
+        "h": 7
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "rice",
+          "target": "red-tray",
+          "phrase": "Serve the rice on the red tray.",
+          "position": {
+            "x": 20.0,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "meat",
+          "target": "blue-tray",
+          "phrase": "Serve the meat on the blue tray.",
+          "position": {
+            "x": 60,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "carrots",
+          "target": "red-tray",
+          "phrase": "Serve the carrots on the red tray.",
+          "position": {
+            "x": 23.5,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "yogurt",
+          "target": "blue-tray",
+          "phrase": "Serve the yogurt on the blue tray.",
+          "position": {
+            "x": 64,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "fish",
+          "target": "red-tray",
+          "phrase": "Serve the fish on the red tray.",
+          "position": {
+            "x": 27.0,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "bread",
+          "target": "blue-tray",
+          "phrase": "Serve the bread on the blue tray.",
+          "position": {
+            "x": 68,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "milk",
+          "target": "red-tray",
+          "phrase": "Serve the milk on the red tray.",
+          "position": {
+            "x": 30.5,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "juice",
+          "target": "blue-tray",
+          "phrase": "Serve the juice on the blue tray.",
+          "position": {
+            "x": 72,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "water",
+          "target": "red-tray",
+          "phrase": "Serve the water on the red tray.",
+          "position": {
+            "x": 34.0,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "hot chocolate",
+          "target": "blue-tray",
+          "phrase": "Serve the hot chocolate on the blue tray.",
+          "position": {
+            "x": 76,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "tea",
+          "target": "red-tray",
+          "phrase": "Serve the tea on the red tray.",
+          "position": {
+            "x": 37.5,
+            "y": 55,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "rice",
+          "target": "blue-tray",
+          "phrase": "The boy would like rice. Move it onto the blue tray.",
+          "position": {
+            "x": 72,
+            "y": 55,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "fish",
+          "target": "spare-plate",
+          "phrase": "Put the fish on the spare plate beside the blue tray.",
+          "position": {
+            "x": 93,
+            "y": 55,
+            "w": 8,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "carrots",
+          "target": "spare-plate",
+          "phrase": "Put the carrots beside the fish on the spare plate.",
+          "position": {
+            "x": 96,
+            "y": 56,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "tea",
+          "target": "blue-tray",
+          "phrase": "Move the tea to the blue tray, next to the bread.",
+          "position": {
+            "x": 64,
+            "y": 54,
+            "w": 4,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "milk",
+          "target": "red-tray",
+          "phrase": "The girl would like milk. Place it at the left side of her tray.",
+          "position": {
+            "x": 19,
+            "y": 53,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "juice",
+          "target": "red-tray",
+          "phrase": "Give the girl juice instead. Put it on her tray.",
+          "position": {
+            "x": 25,
+            "y": 53,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bread",
+          "target": "spare-plate",
+          "phrase": "Put the bread beside the fish on the spare plate.",
+          "position": {
+            "x": 90,
+            "y": 56,
+            "w": 4,
+            "h": 4
+          }
+        },
+        {
+          "object": "meat",
+          "target": "red-tray",
+          "phrase": "Then move the meat to the red tray.",
+          "position": {
+            "x": 33,
+            "y": 55,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "water",
+          "target": "blue-tray",
+          "phrase": "Put the water on the blue tray.",
+          "position": {
+            "x": 76,
+            "y": 53,
+            "w": 4,
+            "h": 7
+          }
+        },
+        {
+          "object": "yogurt",
+          "target": "red-tray",
+          "phrase": "Then serve the yogurt on the red tray.",
+          "position": {
+            "x": 37,
+            "y": 54,
+            "w": 3,
+            "h": 5
+          }
+        }
+      ],
+      [
+        {
+          "object": "hot chocolate",
+          "target": "red-tray",
+          "phrase": "Move the hot chocolate onto the red tray.",
+          "position": {
+            "x": 29,
+            "y": 54,
+            "w": 4,
+            "h": 5
+          }
+        },
+        {
+          "object": "carrots",
+          "target": "blue-tray",
+          "phrase": "Then put the carrots on the blue tray.",
+          "position": {
+            "x": 68,
+            "y": 55,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 13,
+    "title": "Tidying Baby's Room",
+    "objects": [
+      {
+        "id": "rug",
+        "word": "rug",
+        "x": 54,
+        "y": 61,
+        "w": 53,
+        "h": 14,
+        "fixed": true
+      },
+      {
+        "id": "bed",
+        "word": "bed",
+        "x": 14,
+        "y": 51,
+        "w": 25,
+        "h": 16,
+        "fixed": true
+      },
+      {
+        "id": "cupboard",
+        "word": "cupboard",
+        "x": 76,
+        "y": 24,
+        "w": 28,
+        "h": 38,
+        "fixed": true
+      },
+      {
+        "id": "shelf",
+        "word": "shelf",
+        "x": 48,
+        "y": 15,
+        "w": 19,
+        "h": 6,
+        "fixed": true
+      },
+      {
+        "id": "pillow",
+        "word": "pillow",
+        "x": 27,
+        "y": 31,
+        "w": 15,
+        "h": 9,
+        "fixed": true
+      },
+      {
+        "id": "blanket",
+        "word": "blanket",
+        "x": 18,
+        "y": 43,
+        "w": 28,
+        "h": 8,
+        "fixed": true
+      },
+      {
+        "id": "eleven",
+        "word": "eleven",
+        "x": 13,
+        "y": 79,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-11.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "eleven"
+        }
+      },
+      {
+        "id": "twelve",
+        "word": "twelve",
+        "x": 31,
+        "y": 79,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-12.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "twelve"
+        }
+      },
+      {
+        "id": "thirteen",
+        "word": "thirteen",
+        "x": 49,
+        "y": 79,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-13.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "thirteen"
+        }
+      },
+      {
+        "id": "fourteen",
+        "word": "fourteen",
+        "x": 67,
+        "y": 79,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-14.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "fourteen"
+        }
+      },
+      {
+        "id": "fifteen",
+        "word": "fifteen",
+        "x": 85,
+        "y": 79,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-15.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "fifteen"
+        }
+      },
+      {
+        "id": "sixteen",
+        "word": "sixteen",
+        "x": 13,
+        "y": 94,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-16.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "sixteen"
+        }
+      },
+      {
+        "id": "seventeen",
+        "word": "seventeen",
+        "x": 31,
+        "y": 94,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-17.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "seventeen"
+        }
+      },
+      {
+        "id": "eighteen",
+        "word": "eighteen",
+        "x": 49,
+        "y": 94,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-18.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "eighteen"
+        }
+      },
+      {
+        "id": "nineteen",
+        "word": "nineteen",
+        "x": 67,
+        "y": 94,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-19.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "nineteen"
+        }
+      },
+      {
+        "id": "twenty",
+        "word": "twenty",
+        "x": 85,
+        "y": 94,
+        "w": 16,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beads-20.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "twenty"
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "wall-shelf",
+        "label": "wall shelf",
+        "x": 48,
+        "y": 13,
+        "w": 19,
+        "h": 8
+      },
+      {
+        "id": "cupboard-top",
+        "label": "cupboard top",
+        "x": 76,
+        "y": 12,
+        "w": 24,
+        "h": 7
+      },
+      {
+        "id": "cupboard-middle",
+        "label": "cupboard middle",
+        "x": 76,
+        "y": 23,
+        "w": 24,
+        "h": 8
+      },
+      {
+        "id": "cupboard-low",
+        "label": "cupboard low",
+        "x": 76,
+        "y": 34,
+        "w": 24,
+        "h": 8
+      },
+      {
+        "id": "on-bed",
+        "label": "on bed",
+        "x": 23,
+        "y": 39,
+        "w": 20,
+        "h": 9
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "rug",
+          "target": "rug",
+          "action": "point",
+          "phrase": "Point to the rug."
+        }
+      ],
+      [
+        {
+          "object": "bed",
+          "target": "bed",
+          "action": "point",
+          "phrase": "Point to the bed."
+        }
+      ],
+      [
+        {
+          "object": "cupboard",
+          "target": "cupboard",
+          "action": "point",
+          "phrase": "Point to the cupboard."
+        }
+      ],
+      [
+        {
+          "object": "shelf",
+          "target": "shelf",
+          "action": "point",
+          "phrase": "Point to the shelf."
+        }
+      ],
+      [
+        {
+          "object": "pillow",
+          "target": "pillow",
+          "action": "point",
+          "phrase": "Point to the pillow."
+        }
+      ],
+      [
+        {
+          "object": "blanket",
+          "target": "blanket",
+          "action": "point",
+          "phrase": "Point to the blanket."
+        }
+      ],
+      [
+        {
+          "object": "eleven",
+          "target": "wall-shelf",
+          "phrase": "Count carefully. Put the toy with eleven beads on the wall shelf.",
+          "position": {
+            "x": 44,
+            "y": 12,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "sixteen",
+          "target": "cupboard-top",
+          "phrase": "Count carefully. Put the toy with sixteen beads on the top shelf inside the cupboard.",
+          "position": {
+            "x": 70,
+            "y": 11,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "twelve",
+          "target": "cupboard-middle",
+          "phrase": "Count carefully. Put the toy with twelve beads on the middle shelf inside the cupboard.",
+          "position": {
+            "x": 76,
+            "y": 22,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "eighteen",
+          "target": "cupboard-low",
+          "phrase": "Count carefully. Put the toy with eighteen beads on the low shelf inside the cupboard.",
+          "position": {
+            "x": 82,
+            "y": 33,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "thirteen",
+          "target": "on-bed",
+          "phrase": "Count carefully. Put the toy with thirteen beads on the bed.",
+          "position": {
+            "x": 22,
+            "y": 38,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "twenty",
+          "target": "wall-shelf",
+          "phrase": "Count carefully. Put the toy with twenty beads on the wall shelf.",
+          "position": {
+            "x": 48,
+            "y": 12,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "fourteen",
+          "target": "cupboard-top",
+          "phrase": "Count carefully. Put the toy with fourteen beads on the top shelf inside the cupboard.",
+          "position": {
+            "x": 74,
+            "y": 11,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "seventeen",
+          "target": "cupboard-middle",
+          "phrase": "Count carefully. Put the toy with seventeen beads on the middle shelf inside the cupboard.",
+          "position": {
+            "x": 80,
+            "y": 22,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "fifteen",
+          "target": "cupboard-low",
+          "phrase": "Count carefully. Put the toy with fifteen beads on the low shelf inside the cupboard.",
+          "position": {
+            "x": 86,
+            "y": 33,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "nineteen",
+          "target": "on-bed",
+          "phrase": "Count carefully. Put the toy with nineteen beads on the bed.",
+          "position": {
+            "x": 26,
+            "y": 38,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "eleven",
+          "target": "cupboard-low",
+          "phrase": "Move the toy with eleven beads into the bottom of the cupboard.",
+          "position": {
+            "x": 69,
+            "y": 33,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "twenty",
+          "target": "on-bed",
+          "phrase": "Then put the toy with twenty beads on the bed.",
+          "position": {
+            "x": 20,
+            "y": 38,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "twelve",
+          "target": "wall-shelf",
+          "phrase": "Put the toy with twelve beads on the wall shelf.",
+          "position": {
+            "x": 51,
+            "y": 12,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "nineteen",
+          "target": "cupboard-top",
+          "phrase": "Then move the toy with nineteen beads to the top cupboard shelf.",
+          "position": {
+            "x": 80,
+            "y": 11,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "thirteen",
+          "target": "cupboard-middle",
+          "phrase": "Place the toy with thirteen beads on the middle cupboard shelf.",
+          "position": {
+            "x": 72,
+            "y": 22,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "eighteen",
+          "target": "on-bed",
+          "phrase": "Then put the toy with eighteen beads beside the pillow.",
+          "position": {
+            "x": 26,
+            "y": 37,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ],
+      [
+        {
+          "object": "fourteen",
+          "target": "cupboard-low",
+          "phrase": "Place the toy with fourteen beads on the low cupboard shelf.",
+          "position": {
+            "x": 78,
+            "y": 33,
+            "w": 7,
+            "h": 4
+          }
+        },
+        {
+          "object": "seventeen",
+          "target": "wall-shelf",
+          "phrase": "Then put the toy with seventeen beads on the wall shelf.",
+          "position": {
+            "x": 45,
+            "y": 12,
+            "w": 7,
+            "h": 4
+          }
+        }
+      ]
+    ],
+    "instruction": "Listen and follow the commands. Count the beads on each toy when you hear a number."
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 14,
+    "title": "School Sports Day",
+    "objects": [
+      {
+        "id": "run",
+        "word": "run",
+        "x": 11,
+        "y": 25,
+        "w": 12,
+        "h": 25,
+        "fixed": true
+      },
+      {
+        "id": "fly",
+        "word": "fly",
+        "x": 29,
+        "y": 11,
+        "w": 11,
+        "h": 18,
+        "fixed": true
+      },
+      {
+        "id": "walk",
+        "word": "walk",
+        "x": 44,
+        "y": 25,
+        "w": 10,
+        "h": 27,
+        "fixed": true
+      },
+      {
+        "id": "talk",
+        "word": "talk",
+        "x": 66,
+        "y": 25,
+        "w": 17,
+        "h": 29,
+        "fixed": true
+      },
+      {
+        "id": "swim",
+        "word": "swim",
+        "x": 89,
+        "y": 31,
+        "w": 19,
+        "h": 12,
+        "fixed": true
+      },
+      {
+        "id": "climb",
+        "word": "climb",
+        "x": 12,
+        "y": 55,
+        "w": 11,
+        "h": 32,
+        "fixed": true
+      },
+      {
+        "id": "write",
+        "word": "write",
+        "x": 29,
+        "y": 57,
+        "w": 14,
+        "h": 30,
+        "fixed": true
+      },
+      {
+        "id": "draw",
+        "word": "draw",
+        "x": 49,
+        "y": 57,
+        "w": 16,
+        "h": 31,
+        "fixed": true
+      },
+      {
+        "id": "sing",
+        "word": "sing",
+        "x": 66,
+        "y": 57,
+        "w": 13,
+        "h": 33,
+        "fixed": true
+      },
+      {
+        "id": "dance",
+        "word": "dance",
+        "x": 80,
+        "y": 56,
+        "w": 13,
+        "h": 34,
+        "fixed": true
+      },
+      {
+        "id": "cook",
+        "word": "cook",
+        "x": 91,
+        "y": 67,
+        "w": 17,
+        "h": 37,
+        "fixed": true
+      },
+      {
+        "id": "book",
+        "word": "book",
+        "x": 40,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "bag",
+        "word": "bag",
+        "x": 50,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "hat",
+        "word": "hat",
+        "x": 60,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      },
+      {
+        "id": "pencil",
+        "word": "pencil",
+        "x": 70,
+        "y": 94,
+        "w": 7,
+        "h": 8,
+        "fixed": false
+      }
+    ],
+    "zones": [
+      {
+        "id": "desk",
+        "label": "desk",
+        "x": 31,
+        "y": 59,
+        "w": 17,
+        "h": 5
+      },
+      {
+        "id": "under-desk",
+        "label": "under desk",
+        "x": 29,
+        "y": 71,
+        "w": 10,
+        "h": 6
+      },
+      {
+        "id": "easel-ground",
+        "label": "easel ground",
+        "x": 46,
+        "y": 77,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "climber-ground",
+        "label": "climber ground",
+        "x": 16,
+        "y": 77,
+        "w": 10,
+        "h": 6
+      },
+      {
+        "id": "runner-ground",
+        "label": "runner ground",
+        "x": 9,
+        "y": 39,
+        "w": 10,
+        "h": 5
+      },
+      {
+        "id": "singer-ground",
+        "label": "singer ground",
+        "x": 65,
+        "y": 76,
+        "w": 10,
+        "h": 5
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "run",
+          "target": "run",
+          "action": "point",
+          "phrase": "Point to the boy who can run."
+        }
+      ],
+      [
+        {
+          "object": "fly",
+          "target": "fly",
+          "action": "point",
+          "phrase": "Point to the bird that can fly."
+        }
+      ],
+      [
+        {
+          "object": "walk",
+          "target": "walk",
+          "action": "point",
+          "phrase": "Point to the girl who is walking."
+        }
+      ],
+      [
+        {
+          "object": "talk",
+          "target": "talk",
+          "action": "point",
+          "phrase": "Point to the two children who are talking."
+        }
+      ],
+      [
+        {
+          "object": "swim",
+          "target": "swim",
+          "action": "point",
+          "phrase": "Point to the child who can swim."
+        }
+      ],
+      [
+        {
+          "object": "climb",
+          "target": "climb",
+          "action": "point",
+          "phrase": "Point to the boy who can climb."
+        }
+      ],
+      [
+        {
+          "object": "write",
+          "target": "write",
+          "action": "point",
+          "phrase": "Point to the child who is writing."
+        }
+      ],
+      [
+        {
+          "object": "draw",
+          "target": "draw",
+          "action": "point",
+          "phrase": "Point to the child who can draw."
+        }
+      ],
+      [
+        {
+          "object": "sing",
+          "target": "sing",
+          "action": "point",
+          "phrase": "Point to the girl who can sing."
+        }
+      ],
+      [
+        {
+          "object": "dance",
+          "target": "dance",
+          "action": "point",
+          "phrase": "Point to the girl who can dance."
+        }
+      ],
+      [
+        {
+          "object": "cook",
+          "target": "cook",
+          "action": "point",
+          "phrase": "Point to the adult who can cook."
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "desk",
+          "phrase": "Put the book on the writing desk.",
+          "position": {
+            "x": 33,
+            "y": 58,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "pencil",
+          "target": "desk",
+          "phrase": "Put the pencil beside the notebook on the desk.",
+          "position": {
+            "x": 28,
+            "y": 58,
+            "w": 4,
+            "h": 2
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "under-desk",
+          "phrase": "Put the bag under the writing desk.",
+          "position": {
+            "x": 33,
+            "y": 69,
+            "w": 4,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "climber-ground",
+          "phrase": "Put the hat on the grass beside the climbing frame.",
+          "position": {
+            "x": 17,
+            "y": 76,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "bag",
+          "target": "easel-ground",
+          "phrase": "Move the bag near the child who can draw.",
+          "position": {
+            "x": 46,
+            "y": 77,
+            "w": 4,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "runner-ground",
+          "phrase": "Place the hat on the ground near the running boy.",
+          "position": {
+            "x": 7,
+            "y": 39,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "singer-ground",
+          "phrase": "Put the book on the grass beside the singer.",
+          "position": {
+            "x": 65,
+            "y": 76,
+            "w": 5,
+            "h": 3
+          }
+        }
+      ],
+      [
+        {
+          "object": "hat",
+          "target": "singer-ground",
+          "phrase": "Put the hat near the girl who can sing.",
+          "position": {
+            "x": 70,
+            "y": 76,
+            "w": 5,
+            "h": 3
+          }
+        },
+        {
+          "object": "bag",
+          "target": "under-desk",
+          "phrase": "Then move the bag back under the desk.",
+          "position": {
+            "x": 33,
+            "y": 69,
+            "w": 4,
+            "h": 6
+          }
+        }
+      ],
+      [
+        {
+          "object": "book",
+          "target": "desk",
+          "phrase": "Return the book to the writing desk.",
+          "position": {
+            "x": 33,
+            "y": 58,
+            "w": 5,
+            "h": 3
+          }
+        },
+        {
+          "object": "pencil",
+          "target": "easel-ground",
+          "phrase": "Then place the spare pencil on the grass by the easel.",
+          "position": {
+            "x": 46,
+            "y": 76,
+            "w": 4,
+            "h": 2
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "course": "family-friends-1",
+    "unit": 15,
+    "title": "Island Beach",
+    "objects": [
+      {
+        "id": "sandcastle",
+        "word": "sandcastle",
+        "x": 49,
+        "y": 40,
+        "w": 30,
+        "h": 56,
+        "fixed": true
+      },
+      {
+        "id": "beach",
+        "word": "beach",
+        "x": 46,
+        "y": 88,
+        "w": 23,
+        "h": 12,
+        "fixed": true
+      },
+      {
+        "id": "crab",
+        "word": "crab",
+        "x": 71,
+        "y": 58,
+        "w": 11,
+        "h": 17,
+        "fixed": true
+      },
+      {
+        "id": "the-sea",
+        "word": "the sea",
+        "x": 40,
+        "y": 32,
+        "w": 14,
+        "h": 10,
+        "fixed": true
+      },
+      {
+        "id": "boat",
+        "word": "boat",
+        "x": 70,
+        "y": 23,
+        "w": 9,
+        "h": 19,
+        "fixed": true
+      },
+      {
+        "id": "shell",
+        "word": "shell",
+        "x": 91,
+        "y": 75,
+        "w": 17,
+        "h": 24,
+        "fixed": true
+      },
+      {
+        "id": "sun cream",
+        "word": "sun cream",
+        "x": 10,
+        "y": 94,
+        "w": 8,
+        "h": 10,
+        "fixed": false
+      },
+      {
+        "id": "bat",
+        "word": "bat",
+        "x": 25,
+        "y": 94,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/beach-bat.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "bat"
+        }
+      },
+      {
+        "id": "ice lolly",
+        "word": "ice lolly",
+        "x": 40,
+        "y": 94,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/ice-lolly.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "ice lolly"
+        }
+      },
+      {
+        "id": "bucket",
+        "word": "bucket",
+        "x": 57,
+        "y": 95,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/bucket.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "bucket"
+        }
+      },
+      {
+        "id": "spade",
+        "word": "spade",
+        "x": 70,
+        "y": 94,
+        "w": 8,
+        "h": 10,
+        "fixed": false,
+        "picture": {
+          "src": "../game-kit/adventures/unit-scenes-v4/spade.webp",
+          "width": 300,
+          "height": 300,
+          "transparent": true,
+          "semantic": "spade"
+        }
+      }
+    ],
+    "zones": [
+      {
+        "id": "towel",
+        "label": "towel",
+        "x": 20,
+        "y": 78,
+        "w": 24,
+        "h": 10
+      },
+      {
+        "id": "basket",
+        "label": "basket",
+        "x": 71,
+        "y": 72,
+        "w": 18,
+        "h": 8
+      },
+      {
+        "id": "beside-castle",
+        "label": "beside castle",
+        "x": 47,
+        "y": 72,
+        "w": 13,
+        "h": 10
+      },
+      {
+        "id": "beside-shell",
+        "label": "beside shell",
+        "x": 83,
+        "y": 84,
+        "w": 11,
+        "h": 8
+      },
+      {
+        "id": "child-hand",
+        "label": "child hand",
+        "x": 17,
+        "y": 67,
+        "w": 8,
+        "h": 8
+      }
+    ],
+    "rows": [
+      [
+        {
+          "object": "sandcastle",
+          "target": "sandcastle",
+          "action": "point",
+          "phrase": "Point to the sandcastle."
+        }
+      ],
+      [
+        {
+          "object": "beach",
+          "target": "beach",
+          "action": "point",
+          "phrase": "Point to the beach."
+        }
+      ],
+      [
+        {
+          "object": "crab",
+          "target": "crab",
+          "action": "point",
+          "phrase": "Point to the crab."
+        }
+      ],
+      [
+        {
+          "object": "the-sea",
+          "target": "the-sea",
+          "action": "point",
+          "phrase": "Point to the sea."
+        }
+      ],
+      [
+        {
+          "object": "boat",
+          "target": "boat",
+          "action": "point",
+          "phrase": "Point to the boat."
+        }
+      ],
+      [
+        {
+          "object": "shell",
+          "target": "shell",
+          "action": "point",
+          "phrase": "Point to the shell."
+        }
+      ],
+      [
+        {
+          "object": "sun cream",
+          "target": "towel",
+          "phrase": "Put the sun cream on the blue towel.",
+          "position": {
+            "x": 27,
+            "y": 77,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bat",
+          "target": "basket",
+          "phrase": "Put the beach bat in the basket.",
+          "position": {
+            "x": 69,
+            "y": 70,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "ice lolly",
+          "target": "child-hand",
+          "phrase": "Give the ice lolly to the child.",
+          "position": {
+            "x": 17,
+            "y": 65,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "beside-castle",
+          "phrase": "Put the bucket on the sand beside the sandcastle.",
+          "position": {
+            "x": 46,
+            "y": 74,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "spade",
+          "target": "beside-castle",
+          "phrase": "Put the spade beside the bucket.",
+          "position": {
+            "x": 51,
+            "y": 74,
+            "w": 6,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bat",
+          "target": "towel",
+          "phrase": "Move the beach bat out of the basket and onto the towel.",
+          "position": {
+            "x": 16,
+            "y": 78,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "sun cream",
+          "target": "basket",
+          "phrase": "Put the sun cream inside the basket.",
+          "position": {
+            "x": 74,
+            "y": 70,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "beside-shell",
+          "phrase": "Move the bucket near the large shell.",
+          "position": {
+            "x": 82,
+            "y": 85,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "spade",
+          "target": "basket",
+          "phrase": "Put the spade in the basket.",
+          "position": {
+            "x": 69,
+            "y": 71,
+            "w": 6,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "beside-castle",
+          "phrase": "Bring the bucket back beside the sandcastle.",
+          "position": {
+            "x": 46,
+            "y": 74,
+            "w": 6,
+            "h": 8
+          }
+        }
+      ],
+      [
+        {
+          "object": "bat",
+          "target": "beside-shell",
+          "phrase": "Place the beach bat on the sand beside the big shell.",
+          "position": {
+            "x": 83,
+            "y": 85,
+            "w": 6,
+            "h": 7
+          }
+        },
+        {
+          "object": "sun cream",
+          "target": "towel",
+          "phrase": "Then put the sun cream back on the towel.",
+          "position": {
+            "x": 27,
+            "y": 77,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "spade",
+          "target": "beside-castle",
+          "phrase": "Move the spade out of the basket and beside the bucket.",
+          "position": {
+            "x": 51,
+            "y": 74,
+            "w": 6,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bat",
+          "target": "basket",
+          "phrase": "Pack the beach bat in the basket again.",
+          "position": {
+            "x": 69,
+            "y": 70,
+            "w": 6,
+            "h": 8
+          }
+        },
+        {
+          "object": "spade",
+          "target": "towel",
+          "phrase": "Then put the spade on the blue towel.",
+          "position": {
+            "x": 18,
+            "y": 78,
+            "w": 6,
+            "h": 7
+          }
+        }
+      ],
+      [
+        {
+          "object": "bucket",
+          "target": "beside-shell",
+          "phrase": "Leave the bucket beside the shell.",
+          "position": {
+            "x": 82,
+            "y": 85,
+            "w": 6,
+            "h": 8
+          }
+        },
+        {
+          "object": "sun cream",
+          "target": "basket",
+          "phrase": "Then pack the sun cream in the basket.",
+          "position": {
+            "x": 75,
+            "y": 70,
+            "w": 4,
+            "h": 7
+          }
+        }
+      ]
+    ],
+    "lips": [
+      "60% 73%,70% 76%,81% 72%,81% 82%,61% 83%"
+    ]
   }
 ]

@@ -30,5 +30,6 @@ function detectivePack(level,unit,seen){
  });return {version:3,course,unit,kind:'detectiveScene',title:'Crowd Detective · Unit '+unit,world,items};
 }
 function build(){const packs=[],seenF=new Set(),seenD=new Set();for(const b of [1,2])for(const u of family[b])packs.push(familyPack(b,u,family[b].filter(p=>p.unit<=u.unit),seenF));for(let n=1;n<=4;n++)for(let u=1;u<=18;u++)packs.push(detectivePack(n,u,seenD));return packs;}
-function approvedBuild(){const a=require('./approved-scenes.cjs'),overrides=[a.artClass(),a.newYear()];return build().map(p=>overrides.find(o=>o.course===p.course&&o.unit===p.unit)||p);}
+function approvedBuild(){const a=require('./approved-scenes.cjs'),overrides=[a.artClass(),a.newYear(),...require('./approved-extra-scenes.cjs').packs(),...require('./authored-command-scenes.cjs').packs()];return build().map(p=>overrides.find(o=>o.course===p.course&&o.unit===p.unit)||p);}
 module.exports={build:approvedBuild,buildLegacy:build,familyPack,detectivePack};
+

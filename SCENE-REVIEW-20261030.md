@@ -62,3 +62,10 @@ FF1 Unit 2 Toy Supermarket (20 move-and-place commands), FF1 Unit 3 PE Class (20
 FF1 Units 4-7 now use individually measured Job Roleplay Show, Pet Training Camp, The Fair and Clothes Shop illustrations. Each includes 20 authored commands with complete Unit vocabulary coverage and 81 new recorded instruction clips in total. Clothing sprites remain at their snapped destinations. Cardigan and tracksuit have dedicated transparent WebP assets.
 
 Inventory: 39/114 illustrated and measured; 23 Family and 52 Discover scenes remain pending. This is not a claim that the full artwork request is complete. Browser samples at 844 x 390 loaded every scene/prop image without page errors and exercised each first command, including a clothes-to-shelf drag. The automated source/asset/audio suite passed 10 tests.
+### FF1 Unit scene set completed (31 October)
+
+All 15 FF1 Units now have their requested named, individually illustrated scenes and 20 source-vocabulary commands per Unit. Units 8-15 add 160 tasks, 161 new audio clips, precise room/food/hair/action/animal regions, and countable toys for eleven through twenty. Counting toys are deterministic vectors rendered to WebP; source and output hashes are tested. The drawing action depicts a pencil rather than a paintbrush. Meal fish and beach bat use context-correct sprites.
+
+The common continuity builder now preserves all measured replacements instead of reverting them to old generic packs. Scene entry starts fitted to the viewport on phones; zoom is explicit. Source/audio/scene regression checks: 21 passed. All eight new FF1 Units were exercised at 844 x 390 with complete image loading and first-command interaction. The Unit 7 public release was checked through the real entry choice and drag-to-shelf interaction.
+
+Overall inventory: 47/114 illustrated and measured (30 Phonics, 15 FF1, 2 Discover1). Remaining: 15 FF2 and 52 Discover scene illustrations. Those remaining generic packs are still playable but are NOT considered approved finished artwork.
