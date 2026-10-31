@@ -6396,20 +6396,16 @@
     },
     {
       "id": "phonics-2-u4-hunt-v6-20",
-      "audioText": "in and ink",
-      "prompt": "Find the in and the ink!",
+      "audioText": "three kids",
+      "prompt": "Find three kids!",
       "groups": [
         {
           "targets": [
-            "p2restaurant-in"
+            "p2restaurant-kid",
+            "p2restaurant-kid-2",
+            "p2restaurant-kid-3"
           ],
-          "need": 1
-        },
-        {
-          "targets": [
-            "p2restaurant-ink"
-          ],
-          "need": 1
+          "need": 3
         }
       ],
       "world": "in-the-restaurant",

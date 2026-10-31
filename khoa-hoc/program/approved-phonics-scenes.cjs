@@ -26,5 +26,14 @@ function fromRegions(spec){
  const questions=rows.map((q,i)=>({id:course+'-u'+unit+'-hunt-v6-'+(i+1),...q,world:spec.sceneId,background,objects}));
  return {version:5,storageRevision:6,course,unit,artRevision:3,artStyle:'Soft 3D storybook panorama',instruction:n===1?'Listen and find. Tap the matching object or letter.':'Listen. Look at the challenge icon. Find a picture or the spelling in the scene.',imageWidth:spec.imageWidth||1672,imageHeight:spec.imageHeight||941,scene:{id:spec.sceneId,title:setting.title,background},source:{...sourceFor(n,u),adaptation:'Centre-authored panorama using the original Unit vocabulary; action and body-part targets are represented in context.'},sourceWords,objects,questions};
 }
-const packs=()=>[forestStorehouse(),...require('./approved-hunt-regions.json').map(fromRegions)];
+const packs=()=>{
+ const all=[forestStorehouse(),...require('./approved-hunt-regions.json').map(fromRegions)];
+ const first=all[0];
+ // Measurements refer to the complete visible silhouette, including the axe handle and bed frame.
+ for(const [word,x,y,w,h]of [['apple',11.5,55.5,6,9],['ax',7,53,8,42],['bed',31,11.5,30,23],['bird',81.5,21,8,11],['cat',91.3,38.5,12,25],['computer',88.5,74,23,33]]){const o=first.objects.find(o=>o.word===word);Object.assign(o,{x,y,w,h,box:[x-w/2,y-h/2,w,h]});}
+ for(const [word,color]of [['apple','red'],['banana','yellow'],['cup','blue']]){const o=first.objects.find(o=>o.word===word);o.color=color;const q=first.questions.find(q=>q.audioText===word);q.audioText=color+' '+word;q.prompt='Find the '+q.audioText+'!';}
+ const restaurant=all.find(p=>p.course==='phonics-2'&&p.unit===4),kids=restaurant.objects.filter(o=>o.word==='kid').map(o=>o.id);
+ if(kids.length===3){const q=restaurant.questions.at(-1);Object.assign(q,{prompt:'Find three kids!',audioText:'three kids',groups:[{targets:kids,need:3}]});delete q.sourcePattern;delete q.repeatAudio;}
+ return all;
+};
 module.exports={forestStorehouse,fromRegions,packs};

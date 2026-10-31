@@ -41,31 +41,32 @@
     {
       "id": "forest-apple",
       "word": "apple",
-      "x": 12.5,
-      "y": 57,
-      "w": 9,
-      "h": 12,
+      "x": 11.5,
+      "y": 55.5,
+      "w": 6,
+      "h": 9,
       "box": [
-        8,
+        8.5,
         51,
-        9,
-        12
+        6,
+        9
       ],
       "protectedSilhouette": true,
-      "kind": "object"
+      "kind": "object",
+      "color": "red"
     },
     {
       "id": "forest-ax",
       "word": "ax",
-      "x": 6.8,
-      "y": 48,
-      "w": 7,
-      "h": 35,
+      "x": 7,
+      "y": 53,
+      "w": 8,
+      "h": 42,
       "box": [
-        3.3,
-        30.5,
-        7,
-        35
+        3,
+        32,
+        8,
+        42
       ],
       "protectedSilhouette": true,
       "kind": "object"
@@ -121,15 +122,15 @@
     {
       "id": "forest-bird",
       "word": "bird",
-      "x": 82.7,
-      "y": 22,
+      "x": 81.5,
+      "y": 21,
       "w": 8,
-      "h": 15,
+      "h": 11,
       "box": [
-        78.7,
-        14.5,
+        77.5,
+        15.5,
         8,
-        15
+        11
       ],
       "protectedSilhouette": true,
       "kind": "object"
@@ -137,15 +138,15 @@
     {
       "id": "forest-bed",
       "word": "bed",
-      "x": 33,
-      "y": 8,
-      "w": 22,
-      "h": 15,
+      "x": 31,
+      "y": 11.5,
+      "w": 30,
+      "h": 23,
       "box": [
-        22,
-        0.5,
-        22,
-        15
+        16,
+        0,
+        30,
+        23
       ],
       "protectedSilhouette": true,
       "kind": "object"
@@ -164,20 +165,21 @@
         10
       ],
       "protectedSilhouette": true,
-      "kind": "object"
+      "kind": "object",
+      "color": "yellow"
     },
     {
       "id": "forest-cat",
       "word": "cat",
-      "x": 91,
-      "y": 40,
-      "w": 13,
-      "h": 23,
+      "x": 91.3,
+      "y": 38.5,
+      "w": 12,
+      "h": 25,
       "box": [
-        84.5,
-        28.5,
-        13,
-        23
+        85.3,
+        26,
+        12,
+        25
       ],
       "protectedSilhouette": true,
       "kind": "object"
@@ -196,7 +198,8 @@
         9
       ],
       "protectedSilhouette": true,
-      "kind": "object"
+      "kind": "object",
+      "color": "blue"
     },
     {
       "id": "forest-car",
@@ -217,15 +220,15 @@
     {
       "id": "forest-computer",
       "word": "computer",
-      "x": 91,
-      "y": 73,
-      "w": 17,
-      "h": 30,
+      "x": 88.5,
+      "y": 74,
+      "w": 23,
+      "h": 33,
       "box": [
-        82.5,
-        58,
-        17,
-        30
+        77,
+        57.5,
+        23,
+        33
       ],
       "protectedSilhouette": true,
       "kind": "object"
@@ -336,8 +339,8 @@
   "questions": [
     {
       "id": "phonics-1-u1-hunt-v6-1",
-      "prompt": "Find the apple!",
-      "audioText": "apple",
+      "prompt": "Find the red apple!",
+      "audioText": "red apple",
       "groups": [
         {
           "targets": [
@@ -352,31 +355,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -432,15 +436,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -448,15 +452,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -475,20 +479,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -507,7 +512,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -528,15 +534,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -663,31 +669,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -743,15 +750,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -759,15 +766,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -786,20 +793,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -818,7 +826,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -839,15 +848,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -974,31 +983,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1054,15 +1064,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1070,15 +1080,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1097,20 +1107,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1129,7 +1140,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -1150,15 +1162,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1285,31 +1297,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1365,15 +1378,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1381,15 +1394,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1408,20 +1421,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1440,7 +1454,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -1461,15 +1476,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1596,31 +1611,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1676,15 +1692,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1692,15 +1708,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1719,20 +1735,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1751,7 +1768,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -1772,15 +1790,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1907,31 +1925,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -1987,15 +2006,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2003,15 +2022,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2030,20 +2049,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2062,7 +2082,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -2083,15 +2104,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2218,31 +2239,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2298,15 +2320,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2314,15 +2336,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2341,20 +2363,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2373,7 +2396,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -2394,15 +2418,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2513,8 +2537,8 @@
     },
     {
       "id": "phonics-1-u1-hunt-v6-8",
-      "prompt": "Find the banana!",
-      "audioText": "banana",
+      "prompt": "Find the yellow banana!",
+      "audioText": "yellow banana",
       "groups": [
         {
           "targets": [
@@ -2529,31 +2553,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2609,15 +2634,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2625,15 +2650,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2652,20 +2677,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2684,7 +2710,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -2705,15 +2732,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2840,31 +2867,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2920,15 +2948,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2936,15 +2964,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2963,20 +2991,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -2995,7 +3024,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -3016,15 +3046,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3135,8 +3165,8 @@
     },
     {
       "id": "phonics-1-u1-hunt-v6-10",
-      "prompt": "Find the cup!",
-      "audioText": "cup",
+      "prompt": "Find the blue cup!",
+      "audioText": "blue cup",
       "groups": [
         {
           "targets": [
@@ -3151,31 +3181,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3231,15 +3262,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3247,15 +3278,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3274,20 +3305,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3306,7 +3338,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -3327,15 +3360,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3462,31 +3495,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3542,15 +3576,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3558,15 +3592,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3585,20 +3619,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3617,7 +3652,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -3638,15 +3674,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3773,31 +3809,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3853,15 +3890,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3869,15 +3906,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3896,20 +3933,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -3928,7 +3966,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -3949,15 +3988,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4084,31 +4123,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4164,15 +4204,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4180,15 +4220,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4207,20 +4247,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4239,7 +4280,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -4260,15 +4302,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4395,31 +4437,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4475,15 +4518,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4491,15 +4534,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4518,20 +4561,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4550,7 +4594,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -4571,15 +4616,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4706,31 +4751,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4786,15 +4832,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4802,15 +4848,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4829,20 +4875,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -4861,7 +4908,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -4882,15 +4930,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5017,31 +5065,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5097,15 +5146,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5113,15 +5162,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5140,20 +5189,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5172,7 +5222,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -5193,15 +5244,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5328,31 +5379,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5408,15 +5460,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5424,15 +5476,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5451,20 +5503,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5483,7 +5536,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -5504,15 +5558,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5639,31 +5693,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5719,15 +5774,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5735,15 +5790,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5762,20 +5817,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5794,7 +5850,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -5815,15 +5872,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -5950,31 +6007,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6030,15 +6088,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6046,15 +6104,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6073,20 +6131,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6105,7 +6164,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -6126,15 +6186,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6273,31 +6333,32 @@
         {
           "id": "forest-apple",
           "word": "apple",
-          "x": 12.5,
-          "y": 57,
-          "w": 9,
-          "h": 12,
+          "x": 11.5,
+          "y": 55.5,
+          "w": 6,
+          "h": 9,
           "box": [
-            8,
+            8.5,
             51,
-            9,
-            12
+            6,
+            9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "red"
         },
         {
           "id": "forest-ax",
           "word": "ax",
-          "x": 6.8,
-          "y": 48,
-          "w": 7,
-          "h": 35,
+          "x": 7,
+          "y": 53,
+          "w": 8,
+          "h": 42,
           "box": [
-            3.3,
-            30.5,
-            7,
-            35
+            3,
+            32,
+            8,
+            42
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6353,15 +6414,15 @@
         {
           "id": "forest-bird",
           "word": "bird",
-          "x": 82.7,
-          "y": 22,
+          "x": 81.5,
+          "y": 21,
           "w": 8,
-          "h": 15,
+          "h": 11,
           "box": [
-            78.7,
-            14.5,
+            77.5,
+            15.5,
             8,
-            15
+            11
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6369,15 +6430,15 @@
         {
           "id": "forest-bed",
           "word": "bed",
-          "x": 33,
-          "y": 8,
-          "w": 22,
-          "h": 15,
+          "x": 31,
+          "y": 11.5,
+          "w": 30,
+          "h": 23,
           "box": [
-            22,
-            0.5,
-            22,
-            15
+            16,
+            0,
+            30,
+            23
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6396,20 +6457,21 @@
             10
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "yellow"
         },
         {
           "id": "forest-cat",
           "word": "cat",
-          "x": 91,
-          "y": 40,
-          "w": 13,
-          "h": 23,
+          "x": 91.3,
+          "y": 38.5,
+          "w": 12,
+          "h": 25,
           "box": [
-            84.5,
-            28.5,
-            13,
-            23
+            85.3,
+            26,
+            12,
+            25
           ],
           "protectedSilhouette": true,
           "kind": "object"
@@ -6428,7 +6490,8 @@
             9
           ],
           "protectedSilhouette": true,
-          "kind": "object"
+          "kind": "object",
+          "color": "blue"
         },
         {
           "id": "forest-car",
@@ -6449,15 +6512,15 @@
         {
           "id": "forest-computer",
           "word": "computer",
-          "x": 91,
-          "y": 73,
-          "w": 17,
-          "h": 30,
+          "x": 88.5,
+          "y": 74,
+          "w": 23,
+          "h": 33,
           "box": [
-            82.5,
-            58,
-            17,
-            30
+            77,
+            57.5,
+            23,
+            33
           ],
           "protectedSilhouette": true,
           "kind": "object"
