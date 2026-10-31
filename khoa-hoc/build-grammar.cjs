@@ -36,6 +36,14 @@ function packs(){const out=[];
  }
  const vi=require('./program/grammar-example-vi.json');for(const pack of out){pack.summary=pack.summary.map(r=>({...r,usage:r.note,exampleVi:vi[r.example]||'',sentenceType:/\?/.test(r.example)?'Interrogative (Câu hỏi)':/n’t|n't|\bnot\b/.test(r.example)?'Negative (Câu phủ định)':'Affirmative (Câu khẳng định)'}));pack.items.forEach(q=>{q.why=q.why.split('\n').map((line,i)=>i?line.match(/^.*?[.!?](?=\s|$)/)?.[0]||line:line).join('\n');});}const language=require('./program/grammar-language.cjs'),examples={...vi,...require('./program/grammar-extra-vi.json')};return out.map(p=>language.localize(p,examples));
 }
+const originalPacks=packs;
+packs=function(){return originalPacks().map(pack=>{
+ if(!pack.course.startsWith('family-friends-'))return pack;
+ const data=JSON.parse(fs.readFileSync(path.join(__dirname,'data',pack.course+'.json'),'utf8'));
+ let index=data.lessons.filter(l=>l.unit===pack.unit&&['practice','unit-review'].includes(l.kind)).flatMap(l=>l.items).filter(q=>q.skill==='grammar'&&!q.storyId).length;
+ const variation=require('./program/family-variation.cjs');
+ return {...pack,items:pack.items.map(q=>variation.question(q,+pack.course.at(-1),pack.unit,index++))};
+});};
 function write(){let count=0;for(const pack of packs()){const dir=path.join(__dirname,'grammar',pack.course);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,`unit-${pack.unit}.json`),JSON.stringify(pack,null,2)+'\n');count++;}console.log(`${count} Unit grammar packs · ${count*20} questions`);}
 if(require.main===module)write();
 module.exports={packs,write};

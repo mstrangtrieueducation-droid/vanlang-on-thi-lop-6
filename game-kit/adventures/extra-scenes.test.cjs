@@ -1,5 +1,13 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const packs=[...require('../../khoa-hoc/program/approved-extra-scenes.cjs').packs(),...require('../../khoa-hoc/program/authored-command-scenes.cjs').packs(),...require('../../khoa-hoc/program/authored-detective-scenes.cjs').packs()];
+test('Discover 2 and 3 have all 36 measured settings and locally available overlays',()=>{
+ for(const course of ['discover-2','discover-3']){
+  const all=packs.filter(p=>p.course===course);
+  assert.deepEqual(all.map(p=>p.unit).sort((a,b)=>a-b),Array.from({length:18},(_,i)=>i+1));
+  assert.equal(new Set(all.map(p=>p.world.image)).size,18);
+  for(const p of all)for(const o of p.world.objects)if(o.picture?.src?.includes('/unit-scenes-v4/'))assert(fs.existsSync(path.resolve(__dirname,'../../khoa-hoc',o.picture.src)),o.picture.src);
+ }
+});
 test('All 18 Discover 1 settings have distinct measured artwork and resolvable exact overlays',()=>{
  const all=[require('../../khoa-hoc/program/approved-scenes.cjs').newYear(),...packs].filter(p=>p.course==='discover-1');
  assert.deepEqual(all.map(p=>p.unit).sort((a,b)=>a-b),Array.from({length:18},(_,i)=>i+1));
