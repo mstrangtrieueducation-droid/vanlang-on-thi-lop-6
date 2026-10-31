@@ -48,3 +48,4 @@
  #adventure.flow-live[data-context-game=true]:has(.command-game) .answer-footer{display:flex!important;align-items:center;justify-content:space-between;gap:8px;max-height:40px!important}
  #adventure.flow-live[data-context-game=true]:has(.command-game) .answer-footer p{flex:1}
 }
+.command-object .phonics-card-image,.command-medal .phonics-card-image{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
