@@ -53,3 +53,7 @@ The release checks cover all 25 measured scenes and the original Phonics exercis
 - Worker bank updated on helper1, version dba9090c-58a4-4f8d-96f7-599e56e8aff7. A bounded previous-bank archive accepts previously started attempts, without changing identity, score, or rank rules.
 - Browser checks: 3D map drawn in separate segments at 390×844, 844×390 and 1366×768; FF pictured exercise and pure listening on phone; Phonics picture-assisted blending; latest cloud-camp panorama in landscape. No page errors in these samples.
 - Dashboard native receipt/status/identity modules were not changed.
+
+### Additional illustrated scenes
+
+FF1 Unit 2 Toy Supermarket (20 move-and-place commands), FF1 Unit 3 PE Class (20 body-part instructions), and Discover 1 Unit 2 Pet Shop (20 animal, action and emotion clues) are now measured. The inventory is 35/114; 27 Family and 52 Discover illustrations remain pending. Landscape command scenes place the vocabulary strip beside the scene to preserve usable picture height. A missing scooter now has a dedicated transparent WebP.

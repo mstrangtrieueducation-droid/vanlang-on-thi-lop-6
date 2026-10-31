@@ -31,3 +31,20 @@
 @media(max-width:600px){#adventure.flow-live[data-context-game=true]:has(.command-game) .time-track{left:145px!important}#adventure .command-heading h2{flex-basis:auto!important;width:auto!important;font-size:15px!important}#adventure .command-heading button{padding:5px 8px!important;min-height:36px!important}}
 
 #adventure.flow-live[data-context-game=true]:has(.command-game) #work{flex:1 1 0%!important;height:0!important;min-height:0!important;overflow:hidden!important}
+@media (orientation:landscape) and (max-height:520px){
+ #adventure.flow-live[data-context-game=true]:has(.command-game) .play{inset:0!important;padding:4px 8px!important}
+ #adventure.flow-live[data-context-game=true]:has(.command-game) .play-top{flex-basis:34px!important;min-height:34px!important}
+ #adventure.flow-live[data-context-game=true]:has(.command-game) .time-track{left:365px!important;height:32px!important}
+ #adventure .command-game{display:grid!important;grid-template-columns:minmax(0,1fr) 150px;grid-template-rows:32px 32px minmax(0,1fr) auto;gap:4px}
+ #adventure .command-heading{grid-column:1/-1;grid-row:1;min-height:30px!important}
+ #adventure .command-heading button,#adventure .command-heading .context-task-drawer summary{min-height:28px!important;padding:3px 8px!important}
+ #adventure .command-pan{grid-column:1;grid-row:2/5;height:100%!important;width:100%}
+ #adventure .command-collection{grid-column:2;grid-row:2;min-height:28px!important;max-height:32px!important;padding:0!important}
+ #adventure .command-medal{width:28px;height:28px;flex-basis:28px}
+ #adventure .command-medal img{width:24px;height:24px}
+ #adventure .command-vocabulary{grid-column:2;grid-row:3;max-height:none!important;overflow:auto!important;flex-wrap:wrap!important;align-content:start}
+ #adventure .command-vocabulary button{min-height:30px!important;padding:3px 7px!important}
+ #adventure .command-status{grid-column:2;grid-row:4}
+ #adventure.flow-live[data-context-game=true]:has(.command-game) .answer-footer{display:flex!important;align-items:center;justify-content:space-between;gap:8px;max-height:40px!important}
+ #adventure.flow-live[data-context-game=true]:has(.command-game) .answer-footer p{flex:1}
+}
