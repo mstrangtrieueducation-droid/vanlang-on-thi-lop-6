@@ -69,3 +69,9 @@ All 15 FF1 Units now have their requested named, individually illustrated scenes
 The common continuity builder now preserves all measured replacements instead of reverting them to old generic packs. Scene entry starts fitted to the viewport on phones; zoom is explicit. Source/audio/scene regression checks: 21 passed. All eight new FF1 Units were exercised at 844 x 390 with complete image loading and first-command interaction. The Unit 7 public release was checked through the real entry choice and drag-to-shelf interaction.
 
 Overall inventory: 47/114 illustrated and measured (30 Phonics, 15 FF1, 2 Discover1). Remaining: 15 FF2 and 52 Discover scene illustrations. Those remaining generic packs are still playable but are NOT considered approved finished artwork.
+
+### FF2 Units 1-7 (31 October)
+
+Seven individually illustrated scenes now provide 140 authored tasks with full Unit vocabulary coverage. Each was opened through the normal entry choice at 844 x 390; all scene/prop images loaded, the first action was exercised and no page errors occurred. Exact tens trays contain 10 through 100 beads, verified against source and output hashes. Food chicken uses a roast chicken sprite rather than a live chick. The helping-Mum scene explicitly includes the mother.
+
+Inventory: 54/114 illustrated and measured. Remaining: 8 FF2 and 52 Discover illustrations. This release does not certify the unfinished scenes.
