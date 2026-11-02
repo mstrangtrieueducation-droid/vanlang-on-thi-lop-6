@@ -9,17 +9,18 @@
   back.searchParams.delete('section');back.searchParams.delete('play');window.FlowBoot?.cancel();
   host.className='unit-review-menu hunt-loading';host.setAttribute('aria-busy','true');host.innerHTML='<header><h1>Cùng Titi mở bức tranh!</h1><p>Đang chuẩn bị khu vườn bí mật…</p></header><a href="'+esc(back.href)+'">← Unit Review</a>';const {pack,voices}=await preload(c.courseId,g.unit);host.removeAttribute('aria-busy');
   const sprites=null;let paintedBackground=null;
-  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v'+(pack.storageRevision||4),fresh=()=>({version:4,index:0,answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
+  const storage=window.StudentContext?.browserStorage||localStorage,key=GameProfile.storageKey+':hunt-worlds-v'+(pack.storageRevision||4),randomOrder=(fixed=[])=>{const rest=pack.questions.map((_,i)=>i).filter(i=>!fixed.includes(i));for(let i=rest.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]];}return [...fixed,...rest];},fresh=()=>({version:4,index:0,order:randomOrder(),answers:[],collected:[],missed:false,complete:false,elapsedMs:0,sound:true});
   let state;try{state=JSON.parse(storage.getItem(key));}catch{}
   if(!state||state.version!==4||!Number.isInteger(state.index)||state.index<0||state.index>20)state=fresh();
   const entry=await StartNewJourney.choose({title:'Picture Explorer · Unit '+pack.unit,hasProgress:state.index>0||state.collected?.length>0,back:back.href});if(entry==='new'){state=fresh();storage.removeItem(key);}
+  if(!Array.isArray(state.order)||new Set(state.order).size!==pack.questions.length||state.order.some(i=>!pack.questions[i]))state.order=randomOrder(pack.questions.map((_,i)=>i).slice(0,state.index));
   state.answers=Array.isArray(state.answers)?state.answers.slice(0,20):[];
   state.collected=Array.isArray(state.collected)?[...new Set(state.collected)].filter(id=>pack.objects.some(o=>o.id===id)):[];
   state.elapsedMs=Math.max(0,Number(state.elapsedMs)||0);
   let active=false,locked=false,epoch=0,lastTick=performance.now(),zoom=1,loaded=false,audioContext,voiceTicket=0,cancelClip,narration=Promise.resolve(true);
   let instructionNeeded=true;const player=new Audio();player.preload='auto';player.playbackRate=.9;player.preservesPitch=true;
   const save=()=>{try{storage.setItem(key,JSON.stringify(state));}catch{}};
-  const current=()=>pack.questions[state.index];
+  const current=()=>pack.questions[state.order[state.index]];
   function stopVoice(){voiceTicket++;player.pause();if(cancelClip){const f=cancelClip;cancelClip=null;f(false);}host.querySelector('#hunt-listen')?.classList.remove('speaking');window.EpicBGM?.duck(false);}
   async function say(text){
    stopVoice();if(!state.sound)return true;window.EpicBGM?.duck(true);
@@ -47,7 +48,7 @@
    host.querySelectorAll('[data-hotspot]').forEach(b=>{b.classList.toggle('found',state.collected.includes(b.dataset.hotspot));b.setAttribute('aria-pressed',String(state.collected.includes(b.dataset.hotspot)));});
    status('Nghe Titi và chạm vào tranh. Có thể phóng to để tìm kỹ hơn.');
    // Warm only the next few short local clips, rather than the entire audio bank.
-   for(const text of [...pack.questions.slice(state.index,state.index+4).map(q=>q.audioText||q.prompt),'Great job!','Awesome!'])for(const clip of [voices[text]].flat().filter(Boolean))fetch(window.GameMedia?.url(clip)||clip,{cache:'force-cache'}).catch(()=>{});
+   for(const text of [...state.order.slice(state.index,state.index+4).map(i=>pack.questions[i]).map(q=>q.audioText||q.prompt),'Great job!','Awesome!'])for(const clip of [voices[text]].flat().filter(Boolean))fetch(window.GameMedia?.url(clip)||clip,{cache:'force-cache'}).catch(()=>{});
   }
   async function paint(){const q=current(),i=state.index;locked=true;if(paintedBackground!==q.background){await HuntWorldRenderer.draw(host.querySelector('.panorama-image'),q,sprites);paintedBackground=q.background;}if(i!==state.index)return;host.querySelectorAll('[data-hotspot]').forEach(b=>{const o=q.objects.find(o=>o.id===b.dataset.hotspot),[x,y,w,h]=o.box||[o.x-o.w/2,o.y-o.h/2,o.w,o.h];b.style.cssText=`left:${x+w/2}%;top:${y+h/2}%;width:${w}%;height:${h}%`;});locked=false;window.TitiImages?.near(pack.questions,i);}
   async function advance(){if(!active||!state.complete)return;state.index++;state.collected=[];state.missed=false;state.complete=false;locked=true;epoch++;save();if(state.index<20){status('Cùng tìm tiếp trong tranh nhé…');try{await paint();update();if(active)readQuestion();}catch(e){pause();status('Chưa tải được cảnh. Chạm Chơi tiếp để thử lại.');}}else result();}

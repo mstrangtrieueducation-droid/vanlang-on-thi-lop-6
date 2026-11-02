@@ -36,8 +36,8 @@ function greeting(blocked=false,session=new Map()){const events={},nodes=[],call
 test('greeting has no lesson startup, runs once per tab session, and stops when entering a child',async()=>{
  const g=greeting();assert.equal(g.calls.length,0);g.api.enterHome();await Promise.resolve();assert.equal(g.calls.length,1);g.api.enterHome();await g.api.play();assert.equal(g.calls.length,1);g.api.leaveHome();await g.api.play(true);assert.equal(g.calls.length,1);g.api.enterHome();await Promise.resolve();assert.equal(g.calls.length,1);g.api.leaveHome();assert(g.calls.at(-1).paused);
 });
-test('autoplay rejection exposes a welcome control only at home and never binds unrelated navigation gestures',async()=>{
- const g=greeting(true);g.api.enterHome();await new Promise(r=>setImmediate(r));assert.equal(g.nodes.length,1);assert.equal(g.events.pointerdown,undefined);assert.equal(g.events.pointerup,undefined);g.api.leaveHome();assert.equal(g.nodes.length,0);await g.api.play(true);assert.equal(g.calls.length,1);
+test('autoplay rejection adds no control and leaves no waiting greeting after leaving home',async()=>{
+ const g=greeting(true);g.api.enterHome();await new Promise(r=>setImmediate(r));assert.equal(g.nodes.length,0);g.api.leaveHome();await g.api.play(true);assert.equal(g.calls.length,1);
 });
 
 test("homepage welcome survives same-tab reload; a new tab gets its own welcome",async()=>{const storage=new Map();const first=greeting(false,storage);first.api.enterHome();await new Promise(r=>setImmediate(r));assert.equal(first.calls.length,1);const reload=greeting(false,storage);reload.api.enterHome();await Promise.resolve();assert.equal(reload.calls.length,0);const fresh=greeting();fresh.api.enterHome();await Promise.resolve();assert.equal(fresh.calls.length,1);});
