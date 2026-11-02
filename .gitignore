@@ -1,0 +1,36 @@
+# Private sources, student data and credentials: never publish.
+private/
+*.private
+*.private.*
+*.private/
+*.docx
+*.part
+.wrangler/
+.env*
+game-service/**/*.sqlite*
+__pycache__/
+node_modules/
+
+# Working files kept at the repository root (tracked files there are unaffected).
+/*.cjs
+/*.mjs
+/*.py
+/*.log
+/*.json
+/*.png
+/*.jpg
+/*.txt
+/*.list
+/*.html
+/*.js
+!/index.html
+!/404.html
+
+# Local checkouts, QA copies and raw sources. Published media lives in titi-game-media.
+titi-game-media/
+tu-luyen-qa-*/
+game-kit/image-variants/
+game-kit/adventures/dictation-audio/
+game-kit/adventures/hunt-worlds/*/*.png
+game-kit/adventures/hunt-worlds/*/*.wav
+discover-exam/art/*.png

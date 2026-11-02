@@ -1,0 +1,18 @@
+name: Game tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: git ls-files '*.test.cjs' '*.test.mjs' '*.test.js' | tr '\n' '\0' | xargs -0 node --test

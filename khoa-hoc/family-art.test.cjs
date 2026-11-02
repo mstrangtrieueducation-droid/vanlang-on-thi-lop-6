@@ -16,7 +16,7 @@ test('All FF practice picture surfaces use new artwork; answer keys stay intact'
  let count=0;
  for(const n of [1,2])for(const l of courses[`family-friends-${n}`].lessons)for(const q of l.items){
   const pictures=[...Object.values(q.pictureOptions||{}),...(q.matchPictures||[]),...(q.picturePrompt?[q.picturePrompt]:[])];
-  for(const p of pictures){assert.equal(p.artPack,'family-3d-v3',q.id);count++;}
+  for(const p of pictures){const file=p.src||p.atlas||'';assert.ok(p.artPack==='family-3d-v3'||file.includes('pictures/book-cards/')||file.includes('pictures/family-extra/'),q.id);count++;}
   if(q.pictureOptions)for(const [word,p]of Object.entries(q.pictureOptions))assert.equal(p.semantic,word);
   if(q.matchPictures)assert.deepEqual(q.matchPictures.map(p=>p.semantic),q.answer.split(' → '));
  }

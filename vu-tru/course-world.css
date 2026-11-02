@@ -46,17 +46,17 @@ body.paused .world-environment *,body.hidden-page .world-environment *{animation
 
 @keyframes world-turn{to{transform:rotate(360deg)}}
 
-.world-picture{position:absolute;inset:-1.5%;background-position:center;background-size:cover;animation:world-picture-depth 30s ease-in-out infinite alternate;transition:filter .7s;will-change:transform}.world-picture-stone{background-image:url('assets/scenes/stone-v1.webp')}.world-picture-grassland{background-image:url('assets/scenes/grassland-v1.webp')}.world-picture-farmland{background-image:url('assets/scenes/farmland-v1.webp')}.world-picture-town{background-image:url('assets/scenes/town-v1.webp')}.world-picture-steam{background-image:url('assets/scenes/steam-v1.webp')}.world-picture-city{background-image:url('assets/scenes/city-v1.webp')}.world-picture-future{background-image:url('assets/scenes/future-v1.webp')}
+.world-picture{position:absolute;inset:-1.5%;background-position:center;background-size:cover;animation:world-picture-depth 30s ease-in-out infinite alternate;transition:filter .7s;will-change:transform}.world-picture-stone{background-image:url('assets/bg/stone-v2.webp')}.world-picture-grassland{background-image:url('assets/bg/grassland-v2.webp')}.world-picture-farmland{background-image:url('assets/bg/farmland-v2.webp')}.world-picture-town{background-image:url('assets/bg/town-v2.webp')}.world-picture-steam{background-image:url('assets/bg/steam-v2.webp')}.world-picture-city{background-image:url('assets/bg/city-v2.webp')}.world-picture-future{background-image:url('assets/bg/future-v2.webp')}
 :is(body[data-world-light=night],html[data-mode=night]) .world-picture{filter:brightness(.47) saturate(.75) hue-rotate(9deg)}
 @keyframes world-picture-depth{from{transform:scale(1) translateX(-.2%)}to{transform:scale(1.025) translateX(.2%)}}
 
 body[data-world] #theme{width:94px;flex:0 0 94px}
 @media(max-width:900px){body[data-world] #theme{width:36px;flex-basis:36px}}
 
-.world-picture-forest{background-image:url('assets/scenes/forest-v1.webp')}
+.world-picture-forest{background-image:url('assets/bg/forest-v2.webp')}
 body[data-world][data-road=forest] #stage{background:#173d2f!important}
-body[data-world=van-lang] .nebula{background:linear-gradient(#092b2659,#082c26a8),url('assets/scenes/forest-v1.webp') center/cover no-repeat}
-html[data-course-world=van-lang][data-course-road] body{background:linear-gradient(#0b352a55,#10392f88),url('assets/scenes/forest-v1.webp') center/cover fixed!important}
+body[data-world=van-lang] .nebula{background:linear-gradient(#092b2659,#082c26a8),url('assets/bg/forest-v2.webp') center/cover no-repeat}
+html[data-course-world=van-lang][data-course-road] body{background:linear-gradient(#0b352a55,#10392f88),url('assets/bg/forest-v2.webp') center/cover fixed!important}
 html[data-course-road=forest] #adventure.flow-live .play,html[data-course-road=forest] #adventure.flow-live .lobby,html[data-course-road=forest] #adventure.flow-live .finish{background:#173d2f!important}
 
 @media(max-width:600px){.world-picture-stone{background-position:24% center}.world-picture-grassland{background-position:22% center}.world-picture-farmland{background-position:78% center}.world-picture-town,.world-picture-steam{background-position:30% center}.world-picture-city{background-position:25% center}.world-picture-future{background-position:65% center}}

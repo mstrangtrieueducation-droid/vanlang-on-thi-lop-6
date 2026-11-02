@@ -12,7 +12,7 @@ window.GAME_CONFIG={id:'fighter-word-quest',courseId:'fighter',lessonId:unit.ori
 await new Promise((r,j)=>{const s=document.createElement('script');s.src='../game-kit/profile.js?v=cloud-1';s.onload=r;s.onerror=j;document.body.append(s);});
 if(window.TitiReview?.active)await TitiReview.ready;
 const profile=window.GameProfile,store=SC?.browserStorage||localStorage,key='fighter_word_quest_v1:'+(window.TitiReview?.active?'review':SC.active?.student||profile?.storageKey||'guest');
-let available=[],catalog;try{catalog=await fetch('../vu-tru/catalog.json?v=release-20261018a').then(r=>r.json());const c=catalog.find(c=>c.id==='fighter'),progress=GalaxyCore.load(store,'fighter',profile);available=D.units.filter(u=>SC.taught(c,SC.forCourse(SC.active,'fighter')).some(l=>l.id===u.originalLesson));}catch{available=[];}
+let available=[],catalog;try{catalog=await fetch('../vu-tru/catalog.json?v=catalog-20261102').then(r=>r.json());const c=catalog.find(c=>c.id==='fighter'),progress=GalaxyCore.load(store,'fighter',profile);available=D.units.filter(u=>SC.taught(c,SC.forCourse(SC.active,'fighter')).some(l=>l.id===u.originalLesson));}catch{available=[];}
 if(!available.length){app.innerHTML='<section class="gate"><h1>Con mở Fighter từ hồ sơ lớp mình nhé.</h1><p>Game chỉ mở những bài lớp đã học.</p><a href="../vu-tru/?course=fighter">Về bản đồ</a></section>';return;}
 if(!available.some(u=>u.id===unit.id))unit=available[0];GAME_CONFIG.lessonId=unit.originalLesson;
 let saved;try{saved=JSON.parse(store.getItem(key)||'{}');}catch{}saved={version:1,units:{},vault:{},points:0,sound:true,style:'game',history:{},...saved};let run=null,locked=false,advanceTimer=null,timer=null,countdownTimer=null,audio=null,screen='home';
