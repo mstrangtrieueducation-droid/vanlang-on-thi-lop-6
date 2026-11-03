@@ -61,3 +61,15 @@
 @media(prefers-reduced-motion:reduce){.command-disappearing{animation-duration:.15s!important}}
 
 .command-board .command-object.command-hint-soft{border-radius:45%!important;outline:0!important;box-shadow:0 0 0 1px #fff8df88,0 0 18px 7px #ffe9a0a6,inset 0 0 16px 4px #ffe9a066!important;transition:box-shadow .5s}
+
+/* Weekday calendar: small labels on the painted header, large buttons when tapped. */
+.command-board{container-type:inline-size}
+.command-calendar-days{position:absolute;display:grid;grid-template-columns:repeat(7,1fr);pointer-events:none}
+.command-calendar-days i{display:grid;place-items:center;font:700 .78cqw/1 system-ui;color:#2b3f77;font-style:normal}
+.command-movable::after{content:'';position:absolute;inset:-35%}
+.command-calendar-pop{position:fixed;inset:0;z-index:30000;display:grid;place-items:center;background:#1b2a2a66;padding:12px}
+.command-calendar-card{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;width:min(560px,92vw);padding:18px 14px 14px;border-radius:16px;background:#fff9e5;box-shadow:0 12px 34px #0005}
+#adventure .command-calendar-card button{min-height:48px;padding:6px 8px;border:2px solid #4d68b5;border-radius:10px;background:#fff;color:#22386f;font:700 17px/1.2 system-ui;opacity:1}
+#adventure .command-calendar-card .command-calendar-close{position:absolute;top:-12px;right:-8px;width:36px;min-height:36px;padding:0;border-radius:50%;font-size:15px}
+.command-object svg path{transition:fill .25s}
+.command-hotspot{z-index:3}

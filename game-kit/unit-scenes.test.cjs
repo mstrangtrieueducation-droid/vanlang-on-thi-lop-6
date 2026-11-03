@@ -8,7 +8,7 @@ test('Phonics 4 display scope ends at Unit 6 without deleting historical lessons
  const original=require('../khoa-hoc/data/phonics-4.index.json'),before=JSON.stringify(original),view=Scenes.scope(original);assert.equal(view.lessons.length,24);assert(view.lessons.every(l=>l.unit<=6));assert.equal(JSON.stringify(original),before);assert.equal(original.lessons.length,32);const other=require('../khoa-hoc/data/discover-4.index.json');assert.deepEqual(Scenes.scope(other),other);
 });
 test('new Phonics panorama covers every A/B/C noun and six readable, separately measured glyphs',()=>{
- const p=require('../khoa-hoc/hunt-worlds/phonics-1/unit-1.json'),u=require('../khoa-hoc/phonics-units.cjs')[1][0];assert.equal(p.questions.length,20);assert.equal(p.storageRevision,6);assert.deepEqual(p.sourceWords,u.levels.flatMap(l=>l.words));assert.deepEqual(p.objects.filter(o=>o.kind==='object').map(o=>o.word).sort(),[...p.sourceWords].sort());assert.equal(p.objects.filter(o=>o.kind==='letter').length,6);
+ const p=require('../khoa-hoc/hunt-worlds/phonics-1/unit-1.json'),u=require('../khoa-hoc/phonics-units.cjs')[1][0];assert.equal(p.questions.length,26);assert.equal(p.storageRevision,7);assert.deepEqual(p.sourceWords,u.levels.flatMap(l=>l.words));assert.deepEqual([...new Set(p.objects.filter(o=>o.kind==='object').map(o=>o.word))].sort(),[...p.sourceWords].sort());assert.equal(p.objects.filter(o=>o.kind==='letter').length,6);
  for(const o of p.objects){const [x,y,w,h]=o.box;assert(x>=0&&y>=0&&x+w<=100&&y+h<=100);}
  for(const q of p.questions)for(const g of q.groups){assert(g.targets.every(id=>p.objects.some(o=>o.id===id)));assert(g.need>0&&g.need<=g.targets.length);}
  assert.equal(new Set(p.questions.map(q=>q.background)).size,1);
@@ -21,7 +21,7 @@ test('all 22 advanced Phonics review scenes target taught spellings instead of u
 });
 test('every newly illustrated Phonics Unit covers its complete source word list with valid measured regions',()=>{
  for(const p of require('../khoa-hoc/program/approved-phonics-scenes.cjs').packs()){
-  assert.equal(p.questions.length,20);assert.deepEqual(p.sourceWords,require('../khoa-hoc/phonics-units.cjs')[+p.course.at(-1)][p.unit-1].levels.flatMap(l=>l.words));assert.deepEqual([...new Set(p.objects.filter(o=>o.kind==='object').map(o=>o.word))].sort(),[...new Set(p.sourceWords)].sort());
+  assert.equal(p.questions.length,p.course==='phonics-1'&&p.unit===1?26:20);assert.deepEqual(p.sourceWords,require('../khoa-hoc/phonics-units.cjs')[+p.course.at(-1)][p.unit-1].levels.flatMap(l=>l.words));assert.deepEqual([...new Set(p.objects.filter(o=>o.kind==='object').map(o=>o.word))].sort(),[...new Set(p.sourceWords)].sort());
   const used=new Set(p.questions.flatMap(q=>q.groups.flatMap(g=>g.targets)));for(const o of p.objects){const [x,y,w,h]=o.box;assert(x>=0&&y>=0&&x+w<=100&&y+h<=100);assert(used.has(o.id));}assert(fs.statSync(path.resolve(root,'khoa-hoc',p.scene.background)).size<1024*1024);
  }
 });

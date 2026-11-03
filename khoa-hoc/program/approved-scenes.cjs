@@ -3,36 +3,40 @@ const family=require('./family-units.cjs'),source=require('./discover-resources.
 const place=(x,y,w=6,h=9,angle=0)=>({x,y,w,h,angle});
 function artClass(){
  const u=family[1][0],course='family-friends-1',unit=1;
- const zones=[{id:'table',label:'table',...place(48,46,48,8)},{id:'teacher',label:'teacher’s hand',...place(18,34,8,7)},{id:'drawer',label:'inside the drawer',...place(67,54,9,6)},{id:'under-table',label:'under the table',...place(48,68,34,7)},{id:'shelf',label:'bookcase shelf',...place(89,45,16,6)},{id:'basket',label:'basket',...place(5,68,8,5)},{id:'box',label:'box',...place(95,67,9,5)}];
- const positions={pencil:place(32,88,7,8,-14),pen:place(42,87,7,8,20),rubber:place(53,87,6,7),ruler:place(64,88,8,8,-18),book:place(77,85,8,10),bag:place(25,77,8,12),folder:place(86,89,8,10)};
- const objects=Object.entries(positions).map(([word,p])=>({id:word,word,picture:old.picture(word),...p}));
- objects.push({id:'window',word:'window',fixed:true,...place(32,15,21,28)},{id:'door',word:'door',fixed:true,...place(68,22,14,40)},{id:'bookcase',word:'bookcase',fixed:true,...place(90,32,17,55)},{id:'sun',word:'sun',fixed:true,sun:true,...place(50,24,10,17)});
- const world={id:'family-friends-1-u1-command-v4',title:'Art Class',image:'family-friends-1-unit-1.webp',width:1672,height:941,objects,zones,palette:[{id:'color-yellow',name:'yellow',hex:'#ffd44d'},{id:'color-orange',name:'orange',hex:'#fba24d'},{id:'color-blue',name:'blue',hex:'#6dacf0'}],lips:['60.5% 55%,67% 56.5%,73% 54.5%,73% 61.5%,60.5% 61.5%','0% 69%,5% 71%,10.5% 68%,10.5% 79%,0% 79%','88% 69%,95% 72%,100% 69%,100% 81%,88% 81%']};
- const action=(object,target,phrase,fit)=>({object,target,phrase,position:fit||place(zones.find(z=>z.id===target).x,zones.find(z=>z.id===target).y,5,7)}),point=(object,phrase)=>({object,target:'point',action:'point',phrase}),paint=(color)=>({object:'sun',target:'color-'+color,action:'color',color:{yellow:'#ffd44d',orange:'#fba24d'}[color],phrase:'Color the sun '+color+'.'});
+ // Pixel boxes [left,top,right,bottom] are measured on the final 1672 x 941 painting.
+ const box=(l,t,r,b,angle=0)=>place(Math.round((l+r)/2/1672*1000)/10,Math.round((t+b)/2/941*1000)/10,Math.round((r-l)/1672*1000)/10,Math.round((b-t)/941*1000)/10,angle);
+ const zones=[{id:'under-table',label:'under the table',...box(480,640,910,775)},{id:'table',label:'table',...box(430,487,1190,622)},{id:'teacher',label:'teacher',...box(205,100,488,610)},{id:'boy',label:'boy',...box(570,265,750,515)},{id:'girl',label:'girl',...box(935,275,1190,510)},{id:'drawer',label:'inside the drawer',...box(915,625,1168,725)},{id:'shelf',label:'bookcase shelf',...box(1478,352,1660,445)},{id:'basket',label:'basket',...box(398,760,608,940)},{id:'box',label:'box',...box(1388,678,1635,892)}];
+ // Movable supplies rest on real surfaces, and never begin inside a place a command names.
+ const start={'red-book':box(1276,364,1364,424,-4),'blue-book':box(1240,624,1312,672),'orange-pencil':box(82,478,158,526),'yellow-pencil':box(662,882,740,932),'pink-pen':box(974,826,1046,866),'blue-pen':box(1372,408,1432,442),'white-rubber':box(1258,292,1302,320),'pink-rubber':box(482,342,530,366),'yellow-ruler':box(1222,892,1322,938),'blue-ruler':box(70,560,154,600),'red-bag':box(1252,480,1348,576),'blue-bag':box(270,820,370,920),'orange-folder':box(1190,460,1260,520),'purple-folder':box(862,830,944,896,-5)};
+ const objects=Object.entries(start).map(([id,p])=>{const [colour,noun]=id.split('-');return {id,word:colour+' '+noun,noun,picture:{src:'../game-kit/adventures/unit-scenes-v4/art-class-objects/'+id+'.webp',artwork:'Centre-authored educational illustration'},...p};});
+ objects.push({id:'window',word:'window',fixed:true,...box(1265,0,1480,320)},{id:'door',word:'door',fixed:true,...box(20,20,222,455)},{id:'bookcase',word:'bookcase',fixed:true,...box(1465,105,1672,600)},{id:'sun',word:'sun',fixed:true,sun:true,sunPath:'M90.8 50.4L94.2 52.7L99.0 55.4L94.9 57.3L91.3 59.0L87.1 60.1L84.0 61.2L81.8 62.3L81.4 64.1L82.1 66.4L83.8 69.5L85.6 73.0L87.9 77.3L90.2 82.2L85.4 81.6L80.0 79.8L75.4 78.1L71.8 77.0L70.4 78.1L69.0 79.3L68.6 82.2L68.7 86.6L68.6 91.7L68.6 98.4L65.4 97.4L61.1 92.1L57.9 88.3L55.3 85.6L53.2 83.8L51.4 83.7L49.6 83.7L47.6 86.5L45.3 90.0L42.5 93.4L39.1 97.9L36.1 99.0L35.4 92.6L34.9 87.3L34.5 83.2L34.0 79.9L32.5 79.0L31.3 77.6L28.8 78.1L25.5 79.2L21.0 81.1L15.7 83.2L10.9 84.0L13.9 78.3L16.7 73.5L18.4 69.9L20.2 66.8L19.6 65.2L19.1 63.5L17.4 62.3L14.0 61.6L10.3 60.6L5.8 59.4L0.8 57.9L2.2 55.2L6.4 52.6L10.4 50.4L13.4 48.6L16.1 47.0L16.4 45.3L15.5 43.4L12.9 40.9L9.8 37.9L7.0 34.6L3.4 30.5L6.3 29.1L12.6 29.8L16.7 29.8L20.2 29.8L22.5 29.2L23.7 27.9L23.7 25.4L22.0 20.8L20.9 16.2L19.1 10.0L21.2 8.2L26.5 11.7L30.6 14.4L34.3 17.4L37.1 19.0L38.8 18.4L40.6 17.9L41.8 15.3L43.0 10.5L44.7 6.0L46.9 1.0L49.6 2.1L51.9 7.2L53.7 12.2L55.2 15.8L56.7 17.8L58.4 18.5L60.1 19.0L62.9 16.9L66.1 14.5L70.0 11.6L74.7 8.3L77.4 8.9L75.7 15.7L74.4 20.8L73.2 25.0L73.8 27.0L74.6 28.7L76.6 29.2L79.8 29.1L84.4 28.6L89.6 28.1L94.9 28.1L91.5 32.4L88.3 36.0L85.4 39.1L83.2 41.7L82.7 43.6L83.1 45.3L85.0 46.8L87.8 48.5Z',...box(700,193,871,370)},{id:'calendar',word:'calendar',fixed:true,calendar:{days:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],left:4.7,top:10.5,width:91,height:16.5},...box(345,35,622,262)});
+ const world={id:'family-friends-1-u1-command-v5',title:'Art Class',image:'family-friends-1-unit-1.webp',width:1672,height:941,hideWordBank:true,objects,zones,palette:[{id:'color-yellow',name:'yellow',hex:'#ffd44d'},{id:'color-orange',name:'orange',hex:'#f07c1e'},{id:'color-blue',name:'blue',hex:'#6dacf0'}],lips:['54.8% 72.2%,69.9% 72.2%,69.9% 77%,54.8% 77%','23.8% 88.2%,30% 92.2%,36.4% 88.2%,36.4% 100%,23.8% 100%','83% 80.8%,97.8% 84%,97.8% 94.8%,83% 94.8%']};
+ const action=(object,target,phrase)=>{const z=zones.find(z=>z.id===target);return {object,target,phrase,position:place(z.x,z.y,5,7)};},point=(object,phrase)=>({object,target:'point',action:'point',phrase}),paint=(color)=>({object:'sun',target:'color-'+color,action:'color',color:{yellow:'#ffd44d',orange:'#f07c1e'}[color],phrase:'Color the sun '+color+'.'}),day=(name,phrase)=>({object:'calendar',target:'day-'+name.toLowerCase(),action:'day',day:name,phrase:phrase||'Tap '+name+' on the calendar.'});
  const rows=[
- [action('pencil','table','Put the pencil on the table.')],
- [action('pen','teacher','Give the pen to the teacher.',place(18,33,4,6,-25))],
- [action('rubber','drawer','Put the rubber inside the desk drawer.',place(66,54,3.5,4))],
- [action('ruler','under-table','Put the ruler under the table.',place(44,68,6,5,-4))],
- [action('book','shelf','Place the book on the bookcase shelf.',place(87,43,5,7))],
- [action('bag','basket','Put the bag in the basket.',place(5,67,6,9))],
- [action('folder','box','Put the folder in the box.',place(95,67,6,8))],
- [point('window','Point to the window behind the children.')],
- [point('door','Point to the door beside the bookcase.')],
+ [action('red-book','shelf','Put the red book on the shelf.')],
+ [action('blue-book','teacher','Give the blue book to the teacher.')],
+ [action('orange-pencil','boy','Give the orange pencil to the boy.')],
+ [action('pink-pen','girl','Give the pink pen to the girl.')],
+ [day('Tuesday')],
+ [action('white-rubber','drawer','Put the white rubber in the drawer.')],
+ [action('red-bag','basket','Put the red bag in the basket.')],
+ [point('window','Point to the window behind the girl.')],
+ [point('door','Point to the door behind the teacher.')],
  [point('bookcase','Point to the furniture where we keep our books.')],
  [paint('yellow')],
- [action('pencil','teacher','Take the pencil from the table and give it to the teacher.',place(18,33,4,6,-25))],
- [action('pen','drawer','The teacher has finished writing. Put the pen inside the drawer.',place(68,54,3,5))],
- [action('book','table','Bring the book from the shelf to the table.',place(43,46,6,7))],
- [action('rubber','box','Take the rubber out of the drawer and put it in the box.',place(93,68,3.5,4))],
- [action('folder','under-table','Put the folder under the table.',place(56,68,6,6))],
- [action('bag','under-table','Move the bag from the basket to a place under the table.',place(38,65,6,10)),action('ruler','basket','Then put the ruler in the basket.',place(5,66,4,7))],
- [action('book','teacher','Give the book to the teacher.',place(18,33,5,7)),action('pencil','drawer','Then put the pencil inside the drawer.',place(65,54,4,5))],
- [paint('orange'),action('folder','shelf','Then place the folder on the bookcase shelf.',place(92,43,5,7))],
- [action('bag','box','Put the bag in the box.',place(95,66,6,10)),action('rubber','drawer','Then put the rubber back inside the drawer.',place(68,54,3.5,4))]
+ [action('orange-folder','box','Put the orange folder in the box.')],
+ [action('blue-ruler','under-table','Put the blue ruler under the table.')],
+ [action('yellow-ruler','table','Put the yellow ruler on the table.')],
+ [day('Friday')],
+ [action('blue-pen','teacher','Give the blue pen to the teacher.')],
+ [action('yellow-pencil','girl','Give the yellow pencil to the girl.'),action('blue-bag','box','Then put the blue bag in the box.')],
+ [action('pink-rubber','table','Put the pink rubber on the table.'),action('purple-folder','boy','Then give the purple folder to the boy.')],
+ [paint('orange'),action('blue-book','shelf','Then put the blue book on the shelf.')],
+ [day('Monday'),action('red-book','basket','Then put the red book in the basket.')]
  ];
- const items=rows.map((steps,i)=>({id:course+'-u1-command-v4-'+(i+1),type:'choice',title:'Art Class',partType:'sceneActions',partInstruction:'Listen and follow the commands. Move, point or color.',prompt:'',scene:'',spokenScene:steps.map(s=>s.phrase).join(' '),skill:'listening',keepOrder:true,phonicsSequence:true,difficulty:i<7?'easy':i<16?'medium':'advanced',options:[],answer:steps.map(s=>s.object+'>'+s.target).join('|'),why:steps.map(s=>s.phrase).join(' '),source:{url:u.bookURL,page:u.page,unit,adaptation:'Centre-authored command practice using verified Unit vocabulary and basic art vocabulary.'},resourceEvidence:steps.map(s=>s.object),resourceTask:{kind:'sceneActions',sceneVersion:4,worldId:world.id,steps,retryOnWrong:true}}));
- return {version:4,storageRevision:4,course,unit,kind:'sceneActions',title:'Art Class · Listen & Follow',sourceWords:[...u.words,...u.extra].map(w=>typeof w==='string'?w:w.word),world,items};
+ const evidence=id=>objects.find(o=>o.id===id).noun||id;
+ const items=rows.map((steps,i)=>({id:course+'-u1-command-v5-'+(i+1),type:'choice',title:'Art Class',partType:'sceneActions',partInstruction:'Listen and follow the commands. Move, point or color.',prompt:'',scene:'',spokenScene:steps.map(s=>s.phrase).join(' '),skill:'listening',keepOrder:true,phonicsSequence:true,difficulty:i<7?'easy':i<16?'medium':'advanced',options:[],answer:steps.map(s=>s.object+'>'+s.target).join('|'),why:steps.map(s=>s.phrase).join(' '),source:{url:u.bookURL,page:u.page,unit,adaptation:'Centre-authored command practice using verified Unit vocabulary, colours and days taught in the Starter Unit, and basic art vocabulary.'},resourceEvidence:steps.map(s=>evidence(s.object)),resourceTask:{kind:'sceneActions',sceneVersion:4,worldId:world.id,steps,retryOnWrong:true}}));
+ return {version:4,storageRevision:5,course,unit,kind:'sceneActions',title:'Art Class · Listen & Follow',sourceWords:[...u.words,...u.extra].map(w=>typeof w==='string'?w:w.word),world,items};
 }
 function newYear(){
  const course='discover-1',unit=1,u=source.books[0].units[0];

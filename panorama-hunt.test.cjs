@@ -22,5 +22,5 @@ test('panorama uses a persistent illustration and no card renderer; versioned ca
  const js=fs.readFileSync('game-kit/adventures/hidden-listening.js','utf8');
  assert(!js.includes('PhonicsActivities.picture'));assert(!js.includes('data-hunt-object'));
  assert(js.includes('state.complete=true'));assert(js.includes("':hunt-worlds-v'+(pack.storageRevision||4)"));assert(js.includes('visibilitychange'));assert(js.includes('await say('));assert(js.includes('advance()'));
- for(const f of ['khoa-hoc/index.html','discover-preview/index.html'])assert.match(fs.readFileSync(f,'utf8'),/hidden-listening\.js\?v=(?:practice30-1|scene-art-2|unit-scenes-20261030|hitbox-20261101|play-20261102)/);
+ for(const f of ['khoa-hoc/index.html','discover-preview/index.html'])assert.match(fs.readFileSync(f,'utf8'),/hidden-listening\.js\?v=(?:practice30-1|scene-art-2|unit-scenes-20261030|hitbox-20261101|play-20261102|art-sample-20261103)/);
 });

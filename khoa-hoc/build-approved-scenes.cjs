@@ -17,7 +17,7 @@ function write(){
  for(const text of new Set(texts)){const key=crypto.createHash('sha256').update('en-US-AnaNeural|-10%|'+text).digest('hex').slice(0,20);clips[key]=text;mapping[text]='../game-kit/adventures/unit-scenes-v4/audio/'+key+'.mp3';}
  fs.writeFileSync(path.join(out,'audio-manifest.json'),JSON.stringify({voice:'en-US-AnaNeural',rate:'-10%',clips,mapping:Object.fromEntries(texts.map(t=>[t,mapping[t]]))},null,2)+'\n');
  fs.writeFileSync(path.join(out,'hunt-audio.json'),JSON.stringify(mapping));
- fs.writeFileSync(path.join(out,'audio.js'),'(()=>{const old=window.TitiVoice,clips='+JSON.stringify(Object.fromEntries(texts.map(t=>[t,mapping[t]])))+';window.TitiVoice={...old,lookup(t){return clips[t]||old?.lookup(t);}};})();\n');
+ fs.writeFileSync(path.join(out,'audio.js'),'(()=>{const old=window.TitiVoice,clips='+JSON.stringify({'Listen and find.':mapping['Listen to each clue. Find the matching detail in the picture.'],...Object.fromEntries(texts.map(t=>[t,mapping[t]]))})+';window.TitiVoice={...old,lookup(t){return clips[t]||old?.lookup(t);}};})();\n');
  console.log(JSON.stringify({settings:production.length,measured:approved.size,remaining:production.length-approved.size,audioClips:Object.keys(clips).length}));
 }
 if(require.main===module)write();module.exports={write};
