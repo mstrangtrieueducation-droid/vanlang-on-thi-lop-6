@@ -90,15 +90,9 @@ th-unvoiced|three,teeth,think,bath
 ck,qu|duck,rocket,queen,quilt
 ng,nk|king,long,bank,pink
 nd,nt|wind,hand,tent,paint
-lt,mp|belt,adult,lamp,camp
-sk,sc|skunk,desk,scale,school
-spr,str|spray,spring,string,strong
-spl,squ|splash,splint,squid,square
-c-soft|rice,city,ice cream,cell phone
-g-soft|giraffe,orange,giant,cage
-s-voiced|rose,jeans,cheese,legs`
+lt,mp|belt,adult,lamp,camp`
 };
 // Actual classroom session ordinals, including gaps for tests. Never infer from map position.
-const sessions={1:[[1,1,2],[2,3,3],[4,4,5],[5,6,6],[8,8,9],[9,10,10],[11,11,12],[13,13,14]],2:[[1,1,1],[2,2,3],[4,4,4],[5,5,6],[8,8,9],[10,10,11],[12,12,13],[14,14,15]],3:[[1,1,2],[3,3,4],[5,5,6],[7,7,8],[10,10,11],[12,12,13],[14,14,15],[16,16,17]],4:[[1,1,1],[2,2,2],[3,3,3],[4,4,4],[5,5,5],[6,6,6],[null,null,null],[null,null,null]]};
+const sessions={1:[[1,1,2],[2,3,3],[4,4,5],[5,6,6],[8,8,9],[9,10,10],[11,11,12],[13,13,14]],2:[[1,1,1],[2,2,3],[4,4,4],[5,5,6],[8,8,9],[10,10,11],[12,12,13],[14,14,15]],3:[[1,1,2],[3,3,4],[5,5,6],[7,7,8],[10,10,11],[12,12,13],[14,14,15],[16,16,17]],4:[[1,1,1],[2,2,2],[3,3,3],[4,4,4],[5,5,5],[6,6,6]]};
 const books=['1A-yrsq42iDf445MsFD1fFK6E13TwFioU','1b6s0zzYin1xQz6x8Ej3TR3YGUGra4BTE','1Q9KLLeHuA8FYNeZh2TsIfg5r2lcaHm_R','166c92ueRvhX7jNRbSkt_lrW0XChpHJdX'];
-module.exports=Object.fromEntries([1,2,3,4].map(n=>{const levels=rows[n].split('\n').map((row,i)=>{const [patterns,words]=row.split('|');return {patterns:patterns.split(','),words:words.split(','),session:sessions[n][Math.floor(i/3)][i%3]};});return [n,Array.from({length:8},(_,i)=>({unit:i+1,page:n===1&&i>=6?[73,83][i-6]:[11,19,31,39,51,59,71,79][i],bookURL:'https://drive.google.com/file/d/'+books[n-1]+'/view',levels:levels.slice(i*3,i*3+3)}))];}));
+module.exports=Object.fromEntries([1,2,3,4].map(n=>{const levels=rows[n].split('\n').map((row,i)=>{const [patterns,words]=row.split('|');return {patterns:patterns.split(','),words:words.split(','),session:sessions[n][Math.floor(i/3)][i%3]};});return [n,Array.from({length:n===4?6:8},(_,i)=>({unit:i+1,page:n===1&&i>=6?[73,83][i-6]:[11,19,31,39,51,59,71,79][i],bookURL:'https://drive.google.com/file/d/'+books[n-1]+'/view',levels:levels.slice(i*3,i*3+3)}))];}));

@@ -68,7 +68,7 @@ module.exports=function install(courses){
    aliases[`unit-${u.unit}-review`]=`unit-${u.unit}-checkpoint`;
   }
   for(const old of require('./legacy/'+id+'.json').lessons)aliases[old.id]=aliases[old.sourceLessons[0]]||lessons[0].id;
-  courses[id]={...courses[id],version:3,legacyAliases:aliases,scope:'Oxford Phonics World: 8 Unit. Mỗi Unit gồm 3 chặng × 15 câu và 1 Kho báu ôn tập × 45 câu. Truyện theo trang Story của sách; học sinh chỉ mở nội dung đã học trên lớp.',lessons};
+  courses[id]={...courses[id],version:3,legacyAliases:aliases,scope:`Oxford Phonics World: ${units[n].length} Unit. Mỗi Unit gồm 3 chặng × 30 câu và 1 Kho báu ôn tập × 45 câu. Truyện theo trang Story của sách; học sinh chỉ mở nội dung đã học trên lớp.`,lessons};
  }
  module.exports.teachingMap=map;
 };
