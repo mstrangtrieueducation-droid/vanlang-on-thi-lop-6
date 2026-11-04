@@ -9,11 +9,11 @@ test('all 102 source-bounded scene packs have valid visible landing zones and fi
   }
  }assert.equal(count,102);
 });
-test('the eight untouched legacy scenes preserve their prompts, sound clips and source references',()=>{
+test('the six retained legacy scenes preserve their prompts, sound clips and source references',()=>{
  const content=profiles.filter(p=>p.course==='phonics-1'&&![1,2].includes(p.unit)||p.course==='phonics-4'&&p.unit>6).map(p=>require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json').questions.map(({objects,world,background,...q})=>q));
- assert.equal(crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'),'e7219c55fab04dd4d49a7c1679b34eb9f748c174fa7984e69d3e5f5aebb5e908');
+ const cp=require('node:child_process');const baseline=profiles.filter(p=>p.course==='phonics-1'&&![1,2].includes(p.unit)).map(p=>JSON.parse(cp.execFileSync('git',['show','fe50b2c7:khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json'],{encoding:'utf8'})).questions.map(({objects,world,background,...q})=>q));assert.equal(content.length,6);assert.deepEqual(content,baseline);
 });
-test('all 32 Phonics pictures keep clear glyph and peach silhouettes while other targets use varied camouflage',()=>{
+test('all 30 Phonics pictures keep clear glyph and peach silhouettes while other targets use varied camouflage',()=>{
  for(const p of profiles){const pack=require('./khoa-hoc/hunt-worlds/'+p.course+'/unit-'+p.unit+'.json');if(pack.artRevision===3)continue;assert.equal(pack.artRevision,2);for(const o of pack.objects){if(['letter','grapheme'].includes(o.kind)||o.word==='peach'){assert(o.protectedSilhouette);assert.equal(o.occlusion,0);}else assert(o.occlusion>=.39&&o.occlusion<=.49);assert(o.w<=(o.kind==='grapheme'?15:8.5));}
   const svg=fs.readFileSync('game-kit/adventures/storybook-v1/scenes/'+p.course+'-unit-'+p.unit+'.svg','utf8');assert(svg.includes('<clipPath'));assert(!svg.includes('peach-skin'),'use the checked storybook peach, not the mismatched substitute');
  }

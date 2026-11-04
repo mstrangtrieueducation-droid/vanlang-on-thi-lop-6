@@ -24,9 +24,9 @@ test('Every new instruction and encouragement has a real local English recording
 });
 const maps=require('./textbook-maps/manifest.json'),sandbox={window:{TextbookMapData:maps}};vm.runInNewContext(fs.readFileSync(require.resolve('./textbook-maps.js'),'utf8'),sandbox);const M=sandbox.window.TextbookMaps;
 function route(m){if(m.strictRule&&m.kind==='soundPath')return safeRoute(m);const nodes=m.required.map(w=>m.nodes[w]);if(m.kind==='listenMap'){const n=nodes[0];return [[n.x-80,n.y-80],[n.x-60,n.y-60],[n.x-30,n.y-30],[n.x,n.y]];}const points=[];for(let i=0;i<nodes.length;i++){const a=nodes[Math.max(0,i-1)],b=nodes[i];for(let j=0;j<=12;j++)points.push([a.x+(b.x-a.x)*j/12,a.y+(b.y-a.y)*j/12]);}return points;}
-test('All 92 map questions use exact original pages and keep their existing IDs, target words and canonical answer keys',()=>{
+test('All 90 map questions use exact original pages and keep their existing IDs, target words and canonical answer keys',()=>{
  let count=0;const sources=[...require('./textbook-maps/sources.json'),...require('./textbook-maps/connect-write-sources.json')];for(let b=1;b<=4;b++)for(const l of require('../../khoa-hoc/data/phonics-'+b+'.json').lessons)for(const q of l.items)if(['soundPath','listenMap'].includes(q.resourceTask?.kind)){count++;const m=maps.questions[q.id];assert(m);assert.equal(m.unit,l.unit);assert.deepEqual(m.required,q.resourceTask.kind==='soundPath'?q.answer.split(' → ').slice(1,-1):[q.answer]);assert(sources.some(s=>s.file===m.image&&(s.operation.startsWith('Full original page')||s.operation.includes('original D Connect'))));assert(fs.existsSync(path.join(__dirname,'textbook-maps',m.image)));for(const w of m.required)assert(m.nodes[w]);assert(M.valid(route(m),m),q.id);const bad=route(m);bad[bad.length-1]=[1,1];assert.equal(M.valid(bad,m),false,q.id);assert.equal(M.valid([[1,1]],m),false);}
- assert.equal(count,92);assert.equal(sources.filter(s=>s.operation.startsWith('Full original page')).length,16);
+ assert.equal(count,90);assert.equal(sources.filter(s=>s.operation.startsWith('Full original page')).length,16);
 });
 
 test('Result review shows object/action descriptions without changing native stored responses or answer keys',()=>{

@@ -3,7 +3,7 @@ const layout=require('./activity-layout.js'),courses=require('../../khoa-hoc/con
 const all=Object.values(courses).flatMap(c=>c.lessons.flatMap(l=>l.items));
 function seeded(seed){return ()=>((seed=(Math.imul(seed,1664525)+1013904223)>>>0)/4294967296);}
 test('All course picture matching uses independent rows and preserves canonical response indices',()=>{
- const questions=all.filter(q=>q.matchPictures);assert.ok(questions.length>=660);
+ const questions=all.filter(q=>q.matchPictures);assert.equal(questions.length,647);
  for(const q of questions){const before=JSON.stringify(q),correct=q.answer.split(' → ');
   for(let seed=1;seed<=20;seed++){const a=layout.create(q,seeded(seed));assert.equal(a.pictures.length,correct.length);assert.equal(new Set(a.pictures).size,correct.length);a.pictures.forEach((id,row)=>assert.notEqual(correct[id],a.words[row],q.id));const submission=[];for(const id of a.pictures)submission[id]=correct[id];assert.equal(submission.join(' → '),q.answer);assert.deepEqual(layout.restore(q,JSON.parse(JSON.stringify(a)),()=>{throw Error('Must not reshuffle');}),a);}
   assert.equal(JSON.stringify(q),before);

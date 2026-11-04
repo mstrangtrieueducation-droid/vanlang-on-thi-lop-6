@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const profiles=require('./game-kit/adventures/panoramas/profiles.json');
 test('all Phonics Units have 20 picture-grounded challenges with letters, colour and counting',()=>{
- assert.equal(profiles.length,32);
+ assert.equal(profiles.length,30);
  for(const profile of profiles){const pack=require('./khoa-hoc/panorama/'+profile.course+'/unit-'+profile.unit+'.json');
  assert.equal(pack.version,2);assert.equal(pack.questions.length,20);assert.equal(pack.course,profile.course);assert.equal(pack.unit,profile.unit);
  assert.equal(new Set(pack.questions.map(q=>q.prompt)).size,20);
