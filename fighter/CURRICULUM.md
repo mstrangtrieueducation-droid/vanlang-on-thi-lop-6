@@ -38,3 +38,15 @@ Stored run schema is version 3. Old unfinished runs are not resumed with new tas
 `node --test fighter/core.test.cjs fighter/academic.test.cjs fighter/b1.test.cjs`
 
 Tests cover source row count, original cloze reconstruction, same-root options, exact excerpt spans/provenance, collocation tiles, 60/40 sampling, mistake priority, scoring, checkpoint expiry, and classroom-limited unlocking. Browser QA covers touch-size layouts at 390×844 and 844×390 plus desktop, tapping/selection, all task types, feedback, and result review.
+
+## Variety layer (November 2026)
+
+`variety.cjs` runs last in `build.cjs`. It leaves the source rows untouched and adds game-only material:
+
+- **Task types by level.** Vocabulary 1 adds meaning, listening, true/false, definition and gap-fill games; Vocabulary 2 also gets "spot the misused word" (swap). Reading 1 has meaning, listening, definition, gap-fill and swap; Reading 2 drops listening. Reading 3–5 add gap-fill and swap to their reading-evidence tasks.
+- **Natural game sentences.** `game-sentences.json` holds 448 reviewed sentences that replace source examples which repeat one word family several times. Word Vault and the original lesson still show the source example.
+- **Harder context tasks.** Vocabulary in Context now shows the target among two (Vocabulary) or three (Reading) Unit example sentences, so several Unit words compete.
+- **Distractors.** Preposition clozes use commonly confused particles instead of a fixed on/in/at trio, excluding any alternative the source marks as also correct. Gap-fill and swap distractors share the target's part of speech and ending.
+- **Clean-ups.** Evidence clues that contain the answer's root and answers that swallowed a whole phrase are retired; IPA is trimmed to the head word; repeated feedback boilerplate is removed; identical questions are kept once.
+- **Order.** `core.js` arranges every run from warm-up to reading types while avoiding two neighbouring tasks of the same type.
+- **Feedback.** Correct answers get varied praise plus meaning and a tip; a first wrong answer gets a hint only, and the answer appears after the second try.
