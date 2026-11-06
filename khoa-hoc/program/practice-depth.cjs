@@ -32,7 +32,7 @@ function ff(c,l){const n=+c.id.at(-1),u=family[n].find(u=>u.unit===l.unit),out=[
  const words=(l.stage===2?u.extra:u.words).filter(w=>/^[a-z][a-z -]{2,30}$/i.test(w)),target=words.length?words:u.words.filter(w=>/^[a-z][a-z -]{2,30}$/i.test(w));if(!target.length)throw Error('No FF word '+c.id+'/'+l.id);
  for(let i=0;i<5;i++){const w=target[i%target.length],picture=require('./family-art.cjs').resolve(familyCards[n+':'+u.unit+':'+w]||familyExtra[w]);if(!picture)throw Error('Missing Family picture: '+n+'/'+u.unit+'/'+w);const q=missing(c,l,w,picture,i+1,i>=3);q.source={...q.source,url:u.bookURL,page:u.page+(l.stage===2?2:0)};out.push(q);}
  for(const [i,m]of grammar[n][u.unit-1].entries()){
-  const base={skill:'grammar',source:{url:u.bookURL,page:u.page+1,kind:'centre-authored-practice-from-unit-grammar'},hint:notes[n][u.unit-1][2],why:'Câu đúng: '+m.scene.replace('___',m.answer)+' '+notes[n][u.unit-1][2]};
+  const base={skill:'grammar',source:{url:u.bookURL,page:u.page+1,kind:'centre-authored-practice-from-unit-grammar'},hint:notes[n][u.unit-1][2],why:('Câu đúng: '+m.scene.replace('___',m.answer)).replace(/([^.])\.\.$/,'$1.')+' '+notes[n][u.unit-1][2]};
   out.push(common(c,l,6+i,{...base,scene:m.scene,prompt:'Write the missing words.',partType:'readWrite',inputMode:'typing',answer:m.answer,options:options(m.answer,m.wrong,i),spokenScene:m.scene.replace('___','…')}));
   const full=m.scene.replace('___',m.answer),parts=chunks(full),answer=parts.join(' → ');
   if(l.stage===2)out.push(common(c,l,11+i,{...base,scene:m.scene.replace('___','['+m.wrong[0]+']'),prompt:'Write the correction for the words in brackets.',partType:'readWrite',inputMode:'typing',answer:m.answer,options:options(m.answer,m.wrong,i),spokenScene:''}));

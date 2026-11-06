@@ -46,7 +46,7 @@ function grammarTasks(book,u){const out=[],models=u.grammar.rules.slice(0,4),con
   out.push(base(u,'listening','Listen to the complete sentence.','Listen and write.',model.example,[],{...common,skill:'listening',inputMode:'typing',partType:'listenWrite',spokenScene:model.example,spokenPrompt:'',difficulty:'advanced'}));
  }
  // Productive practice from the same classroom page. No guessed new grammar.
- for(const p of u.grammar.practice){if(!p.answer||!p.cues?.length)continue;out.push(base(u,'grammar',p.cues.join(' · '),'Write the sentence.',p.answer,[],{inputMode:'typing',partType:'readWrite',source:{url:u.grammar.url,unit:u.unit},spokenScene:'Use the words to write a sentence.',spokenPrompt:'',hint:p.instruction,why:`${p.answer} ${p.instruction}`}));}
+ for(const p of u.grammar.practice){if(!p.answer||!p.cues?.length)continue;out.push(base(u,'grammar',p.cues.map(c=>{if(typeof c==='string')return c;const n=String(c.image||c.word||'').replace(/_/g,' ');return '🖼 '+(p.answer.toLowerCase().includes(n.toLowerCase())?n:n.replace(/-/g,' '));}).join(' · '),'Write the sentence.',p.answer,[],{inputMode:'typing',partType:'readWrite',source:{url:u.grammar.url,unit:u.unit},spokenScene:'Use the words to write a sentence.',spokenPrompt:'',hint:p.instruction,why:`${p.answer} ${p.instruction}`}));}
  return out;
 }
 function readTasks(book,u){
