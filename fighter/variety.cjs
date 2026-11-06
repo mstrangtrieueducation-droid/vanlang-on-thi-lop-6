@@ -28,7 +28,7 @@ const root = w => w.toLowerCase().replace(/^(be|to|get) /, '').replace(/[^a-z]/g
 // One short Vietnamese meaning: first sense, without an English "word:" label that would give the answer away.
 function shortMeaning(w) {
   let m = String(w.meaning || '').replace(/^\s*[A-Za-z][A-Za-z\s'()\/-]*:\s*/, '');
-  m = m.split(/\s+·\s+|;|\s*><\s*|\s*↔\s*|\s+~\s+/)[0].replace(/[.…]+$/, '').replace(/\s+/g, ' ').trim();
+  m = m.split(/\s*#\s*|\s+·\s+|;|\s*><\s*|\s*↔\s*|\s+~\s+/)[0].replace(/[.…]+$/, '').replace(/\s+/g, ' ').trim();
   return m.length > 70 ? m.slice(0, m.lastIndexOf(' ', 68)) + '…' : m;
 }
 function findForm(sentence, head) {
@@ -100,7 +100,8 @@ module.exports = function variety(data) {
       const headWords = w ? w.word.split(/\s+/).filter(x => !/^(sb|st|sth|someone|something|somebody|one's|doing|do)$/i.test(x)).length : 0;
       if (!w?.gameForm || w.gameForm.text.split(/\s+/).length > headWords) continue;
       const count = (PASSAGE_SENTENCES[u.track] || 3) - 1;
-      const companions = shuffle(usable.filter(x => x.id !== w.id && !x.gameExample.toLowerCase().includes(w.gameForm.text.toLowerCase()) && root(x.word) !== root(w.word)), rng(seedOf(t.id))).slice(0, count);
+      const clueRoots = (String(t.prompt || '').match(/“([^”]+)”/) || [, ''])[1].toLowerCase().split(/[^a-z]+/).filter(x => x.length >= 5).map(x => x.slice(0, 5));
+      const companions = shuffle(usable.filter(x => x.id !== w.id && !clueRoots.some(c => x.gameExample.toLowerCase().includes(c)) && !x.gameExample.toLowerCase().includes(w.gameForm.text.toLowerCase()) && root(x.word) !== root(w.word)), rng(seedOf(t.id))).slice(0, count);
       const at = Math.floor(rng(seedOf(t.id + 'pos'))() * (companions.length + 1));
       const parts = [...companions.map(x => x.gameExample)];
       parts.splice(at, 0, w.gameExample);
@@ -114,7 +115,8 @@ module.exports = function variety(data) {
       if (!['context', 'clue'].includes(t.kind)) return true;
       const clue = (String(t.prompt || '').match(/“([^”]+)”/) || [, ''])[1].toLowerCase(), r = root(t.word?.word || '');
       const head = (t.word?.word || '').split(/\s+/).filter(x => !/^(sb|st|sth|someone|something|somebody)$/i.test(x)).length;
-      return !(r.length >= 5 && clue.includes(r)) && t.answer.trim().split(/\s+/).length <= head + 1;
+      const r4 = r.slice(0, 4), clueWords = clue.split(/[^a-z]+/).filter(x => x.length >= 4);
+      return !(r4.length >= 4 && clueWords.some(x => x.startsWith(r4))) && !(r.length >= 5 && clue.includes(r)) && t.answer.trim().split(/\s+/).length <= head + 1;
     });
     for (const t of u.tasks.filter(t => ['context', 'clue'].includes(t.kind))) {
       const lead = t.answer.length - t.answer.trimStart().length, tail = t.answer.length - t.answer.trimEnd().length;
@@ -173,19 +175,24 @@ module.exports = function variety(data) {
         if (near.length === 3) add(w, 'listen', { sentence: w.word, spoken: w.word, answer: w.word, choices: [w.word, ...near.map(x => x.word)], explanation: line(w) + (ipaOf(w) ? ' Phát âm: ' + ipaOf(w) + '.' : '') });
       }
       if (kinds.includes('flash')) {
-        const truth = wr() < 0.5, fake = others(w, 1, x => !sameSense(w, x))[0];
+        const truth = wr() < 0.5, fake = others(w, 1, x => !sameSense(w, x) && x.pos !== w.pos)[0] || others(w, 1, x => !sameSense(w, x))[0];
         if (truth || fake) add(w, 'flash', { sentence: '“' + w.word + '” nghĩa là “' + (truth ? w.short : fake.short) + '”.', answer: truth ? 'Đúng' : 'Sai', choices: ['Đúng', 'Sai'], fixedOrder: true, explanation: truth ? line(w) + ' ' + tip(w) : 'Sai rồi: “' + fake.short + '” là nghĩa của “' + fake.word + '”. ' + line(w) });
       }
       const suffix = !/\s/.test(w.word) && suffixOf(w.gameForm.text, w.word);
       if (suffix === null || suffix === false) continue;
       const fitting = others(w, 8, x => !/\s/.test(x.word) && x.pos === w.pos && !sameSense(w, x)).map(x => ({ x, form: inflect(x.word, suffix, x.pos) })).filter(v => v.form && v.form.toLowerCase() !== w.gameForm.text.toLowerCase());
-      const s = w.gameExample, f = w.gameForm;
-      if (kinds.includes('pick') && fitting.length >= 3) {
-        const d = fitting.slice(0, 3), answer = f.text.toLowerCase();
+      const s = w.gameExample, f = w.gameForm, article = (s.slice(0, f.index).match(/\b(a|an)\s+$/i) || [])[1]?.toLowerCase();
+      const vowel = x => /^[aeiou]/i.test(x) && !/^(uni|use|usu|eu|one)/i.test(x) || /^(hour|honest|honou?r)/i.test(x);
+      const agrees = form => !article || (article === 'an') === vowel(form);
+      if (kinds.includes('pick') && fitting.filter(v => agrees(v.form)).length >= 3) {
+        const d = fitting.filter(v => agrees(v.form)).slice(0, 3), answer = f.text.toLowerCase();
         add(w, 'pick', { sentence: s.slice(0, f.index) + '___' + s.slice(f.index + f.text.length), answer, choices: [answer, ...d.map(v => v.form)], explanation: line(w, answer) + ' ' + tip(w) });
       }
-      if (kinds.includes('swap') && fitting.length >= 1) {
-        const v = fitting[fitting.length > 3 ? 3 : 0], wrong = keepCase(f.text, v.form), excerpt = s.slice(0, f.index) + wrong + s.slice(f.index + f.text.length);
+      const looksNoun = x => !/(ent|ous|ive|ful|ic|able|ible|less|ary)$/i.test(x);
+      const nounSlot = !/\b(to|will|can|could|should|must|may|might|continue to|not)\s+$/i.test(s.slice(0, f.index));
+      const swappable = w.pos === 'noun' && looksNoun(w.word) && nounSlot ? fitting.filter(v => agrees(v.form) && looksNoun(v.x.word)) : [];
+      if (kinds.includes('swap') && swappable.length >= 1) {
+        const v = swappable[swappable.length > 3 ? 3 : 0], wrong = keepCase(f.text, v.form), excerpt = s.slice(0, f.index) + wrong + s.slice(f.index + f.text.length);
         if (new RegExp('\\b' + esc(wrong) + '\\b', 'gi').test(s)) continue;
         add(w, 'swap', { excerpt, start: f.index, end: f.index + wrong.length, answer: wrong, correct: f.text, prompt: 'Một từ đang bị dùng sai. Chạm vào từ đó!', explanation: 'Từ đúng phải là “' + f.text + '” (' + w.short + '). “' + v.x.word + '” nghĩa là ' + v.x.short + ', không hợp ở đây.' });
       }
